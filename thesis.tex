@@ -239,7 +239,7 @@ As a comparison, at the same time, Arch Linux has 86.4\% reproducibility on
 their repository\cite{arch-rebuilderd}. We observe poor reproducibility
 performances in comparison. Two source of error are already known, first, some
 dependencies versions are guessed and second the exact time of the build is
-uncontrolled. We can upper-bound the probability of the first error in the
+uncontrolled. We can approximate the probability of the first error in the
 following way: The time of the GitHub commit and ostree commit are known, and
 the build must happen in between. We make a commit guessing error when an
 update of one dependency we need to guess is published between the start of the
@@ -258,7 +258,7 @@ of the dependency closest to $OT_{commit}$:
                   \notin [GH_{commit}; OT_{commit}]
               \end{cases}
 \end{align}
-The expected value of this upper-bound on all apps on \fh is $20.6$, our
+The expected value of this upper-bound on all apps on \fh is $19.6$, our
 guessing techniques is therefore accurate and cannot explain the amount of
 non-reproducible programs.
 
