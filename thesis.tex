@@ -11,7 +11,6 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[a4paper,11pt,oneside]{report}
-% Options: MScThesis, BScThesis, MScProject, BScProject
 \usepackage[BScProject,lablogo]{EPFLreport}
 \usepackage{xspace}
 \usepackage{amsmath}
@@ -21,8 +20,6 @@
 \author{Zacharie Timothée Tevaearai}
 \supervisor{Flavio Toffalini}
 \adviser{Prof. Dr. sc. ETH Mathias Payer}
-%\coadviser{Second Adviser}
-%\expert{The External Reviewer}
 
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}[section]
@@ -65,6 +62,7 @@ Software can be built from source code or distributed as pre-compiled packages.
 \chapter{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%
 
+
 In theory, with free and open source software (FOSS) we can audit the code and
 compile only software we trust. In reality most software are shipped as
 pre-built binaries to end-users, through a software supply chain. In this
@@ -73,12 +71,14 @@ from the original source code ? Indeed, the machine on which the software was
 compiled might be compromised, a bug may occur during the process, or some
 maintainer may even be coerced into injecting malicious code into the final
 product, there are all sort of reasons to not trust what is shipped to the
-end-users. Supply chain attacks can be conducted on both open source and closed
-source software, and examples include the SolarWinds exploit from 2020, where
-hackers had compromised the update publishing infrastructure of Orion, one of
-SolarWinds software, and were shipping a modified version with an implanted
-malware~\cite{enwiki:solarwinds}. In the FOSS world, many attacks targeting
-package manager such as npm occurred and are already studied in the
+end-users. 
+Supply chain attacks can be conducted on both open source and closed source
+software, and typically consist in injecting malicious code into an existing
+product. Examples include the SolarWinds exploit from 2020, where hackers had
+compromised the update publishing infrastructure of Orion, one of SolarWinds
+software, and were shipping a modified version with a malware
+injected~\cite{enwiki:solarwinds}. In the FOSS world, many attacks targeting
+package manager such as npm or RubyGem occurred and are already studied in the
 literature~\cite{10.1007/978-3-030-52683-2_2}.
 
 Techniques exist to counter such attacks, and the one we use in this project is
@@ -89,6 +89,7 @@ program to be reproducible, as stated by Chris Lamb and Stefano Zacchiroli, is
 as follows:
 
 \begin{definition}[reproducible build]
+\label{def:reprobuild}
 ``\emph{The build process of a software
 product is reproducible if, after designating a
 specific version of its source code and all of its
@@ -99,36 +100,44 @@ in which the build is performed}''~\cite{DBLP:journals/corr/abs-2104-06020}
 
 If a piece of software is reproducible we can therefore attest its integrity,
 by reproducing it on our side and comparing it with the one resulting from an
-untrusted build process. We can use it in practise, for instance with a Linux
-distribution where user download programs pre-built, maintained by the
-distribution vendor through a package manager. A hypothetical \rb setup would
-go as follows: The source code is produced upstream and is published on
-platform such as GitHub or GitLab. Maintainers will then build it on some
-infrastructure, with certain dependencies and a specific tool chain. They will
-sign send the resulting artifact to the end user. This process, as shown
-before, cannot be trusted, while upstream code can be audited and verified. Now
-the maintainers, alongside the build, can record and publish the necessary
+untrusted build process. We can use it in practise with a Linux distribution,
+for example. Here users download, through a package manager, programs which are
+built by the distribution vendor, a hypothetical \rb setup would go as follows:
+The source code is produced upstream and is published on platform such as
+GitHub or GitLab. Maintainers will then build it on some infrastructure, with
+certain dependencies and a specific tool chain. They will sign and send the
+resulting artifact to the end-user. This process, as shown before, cannot be
+trusted. On the other hand upstream code can be audited and verified manually.
+Now, the maintainers, alongside the build, can record and publish the necessary
 informations to re perform the build with the same conditions. Those
-informations will include the exact dependencies and which version of the
-tool chain were used, and others, discussed in \autoref{chap:bg}.
-From these informations, a set of trusted rebuilder will re perform the build
-and publish the checksum of the artifact they obtain. When the end-user
-download the binary from the distribution's repositories, they can compare the
-checksum they have with the one given by the rebuilders and can then decide to
-trust or not what they just downloaded. The exact process of deciding if the
-artifact is legitimate by comparing the checksums can be automated, and
-computed differently depending on the number of independent rebuilder, how much
-we trust them, and other aspects discussed in \autoref{chap:disc}.
+informations will include the exact dependencies and which version of the tool
+chain were used, and others, discussed in \autoref{chap:bg}. From these
+informations, a set of trusted rebuilder will re perform the build and publish
+the checksum of the artifact they obtain. When the end-user download the binary
+from the distribution's repositories, they can compare the checksum they have
+with the one given by the rebuilders and can then decide to trust or not what
+they just downloaded. The exact process of deciding if the artifact is
+legitimate by comparing the checksums can be automated, and computed
+differently depending on the number of independent rebuilder, how much we trust
+them, and other aspects discussed in
+\autoref{chap:disc}. 
+
 Using \rb we can prove that the path between upstream and downstream is
 legitimate, and since we can audit and trust the source code, this trust can
 propagate to the build artifact, without the cost of auditing binaries. An
 attacker would have to take over not only the supply chain, but also a certain
 amount of these independent rebuilder (depending on how we compare the
 checksums), reducing the feasibility of such attacks. Integrity also proves us
-that no bugs or errors occurred during the build.
-The feasibility of using \rb to provide integrity for a software supply chain
-has already been shown, for instance on Debian, where $82.5\%$ of packages on the
-unstable branch are reported as reproducible as of \today~\cite{debian:repro}.
+that no bugs or errors occurred during the build. The feasibility of using \rb
+to provide integrity for a software supply chain has already been shown, for
+instance on Debian, where $82.5\%$ of packages on the unstable branch are
+reported as reproducible as of \today~\cite{debian:repro}.
+
+This technique obviously only apply to software where the source code is
+accessible, and we assume we can trust the source code. In practise this needs
+to be combined with good code auditing, and good practises in securing the
+source code, but we will assume that we can trust the source code for the rest
+of this report.
 
 One software distribution system that can benefit from \rb is \fp, and more
 precisely its main repository called \fh. \fp is way to build, distribute and
@@ -142,20 +151,20 @@ yet proved.
 
 In this project, we create a tool (\sysname) to allow individual to perform a
 rebuild of a \fp from \fh, and attest if it produced the same artifact or not.
-Using \sysname we then measure the reproducibility of \fp and provide
-improvement to the \fh build infrastructure, in order to increase the amount of
-reproducible programs. Since \fp works across Linux distribution, we also need
-to develop a tool which is as portable, this limits the use of strong container
-technologies, such as Docker, or tools such as \verb|faketime| to better
-simulate the build environment.
-After rebuilding 789 programs, which is about half of \fh, we have $41\%$
+Using \sysname we then measure the amount of reproducible programs on \fh and
+provide improvement to the \fh build infrastructure, in order to increase it.
+Since \fp works across Linux distribution, we also need to develop a tool which
+is as portable, this limits the use of strong container technologies, such as
+Docker, or tools such as \verb|faketime| to better simulate the build
+environment.
+After rebuilding 729 programs, which is about half of \fh, we have $41\%$
 reproducible programs, which is much lower than what is found on Debian. This
 is mainly due to the lack of certain informations, such as the time at which
 the build originally took place and we provide several improvement to \fb, the
 main tool used to build \fp on \fh, which is also the one capable of recording
-some of the missing build informations.
-We also introduce new notions to characterize how reproducible a program is, to
-be able to still build trust in programs which are partially reproducible.
+some of the missing build informations. We also introduce new notions to
+characterize how reproducible a program is, to be able to still build trust in
+programs which are partially reproducible.
 
 %%%%%%%%%%%%%%%%%%%%
 \chapter{Background}
@@ -163,8 +172,48 @@ be able to still build trust in programs which are partially reproducible.
 %%%%%%%%%%%%%%%%%%%%
 
 To better understand this project, we should introduce a bit more \rb,
-especially the most common reasons a program may not be reproducible.
-< Explain some reproducible builds concept >
+especially the most common reasons a program may not be reproducible. From
+\autoref{def:reprobuild}, we can conclude that a build is not reproducible, if
+when we rebuild following the same steps, from the same source code and the
+same build dependencies, we reach a different outcome. One reason such a result
+happens is when a program depends on more than just its dependencies, typical
+example are build process affected by the time or the path in which the build
+took place. This is what C. Lamb reffer to as \emph{Uncontrolled build input},
+because the build is affected by additional inputs which are not under our
+control.
+In practise some of these issues (such as time) can be solved if we
+include these as extra dependencies to the original definition. It can be tempting
+to put the whole environment as a dependency (kernel version, CPU model, etc.) but
+doing so will make the rebuilding step much harder and will slow down build time,
+which would not make \rb a feasible (not the right term) technology.
+This let us come up with this modified definition of what reproducible means:
+\begin{definition}[relaxed reproducible build]
+\label{def:reprobuild2}
+``\emph{The build process of a software product is reproducible if, after
+    designating a specific version of its source code and a minimal description
+    of the build environment, every build performed in a recreated version of
+    this environment produces bit-for-bit identical
+    artifacts.}''
+\end{definition}
+Obviously this definition is not perfected, since the notion of "minimal" is
+not well defined. A good example of what is considered reasonable, are the
+\verb|.buildinfo| files on Debian~\cite{debian:buildinfo}, which are files
+associated to a package describing the environment in which the build took
+place. Not everything in a \verb|.buildinfo| is necessary to perform a rebuild
+(for instance the kernel versions), but certain informations, such as the time
+or the active environment variables are all fairly easy to manipulate and can
+be considered as valid additional input for the build process.
+
+Another class of problems is \emph{build non-determinism}, which occur when
+some part of the build is random. One example is the serialisation of frozenset
+items in Python, which did not happen in a deterministic
+order~\cite{gh:pyc-frozenset}. Other non-determinism issue are related to the
+parallelism of the build process, which may lead to ordering issues. Even
+though works still need to be done in order to have deterministic builds for
+certain build systems, such as with Java~\cite{xiong2022towards}, most common
+build system can behave deterministically, and we will assume it is the case in
+this report.
+
 < Explain flatpak >
 < Explain flathub >
 
