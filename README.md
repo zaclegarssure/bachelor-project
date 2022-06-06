@@ -1,17 +1,4 @@
-## Flathub-reproducibility report
-This repository contains the report for the semester project I did at EPFL,
-where I measured and tried to improve build reproducibility for
-[flatpaks](https://www.flatpak.org/), a cross-distribution packaging tool for
-Linux.
-
-<h1 align="center">
-  <br>
-  Flathub reproducibility
-  <br>
-</h1>
-
-## Content
-
+## Flathub reproducible builds report
 This repository contains the report for the semester project I did at EPFL,
 where I measured and tried to improve build reproducibility for
 [flatpaks](https://www.flatpak.org/), a cross-distribution packaging tool for
@@ -19,7 +6,7 @@ Linux.
 
 ## Installation
 
-The report is written in $$\LaTeX$$ and uses `make`, `rubber-pipe`, and `biber`
+The report is written in $\LaTeX$ and uses `make`, `rubber-pipe`, and `biber`
 to compile, in particular it will require the following Tex packages:
 ```
 sudo pacman -S make texlive-core texlive-bibtexextra texlive-latexextra \
