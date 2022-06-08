@@ -27,6 +27,7 @@
 \newtheorem{definition}{Definition}[section]
 
 \newcommand{\sysname}{flatpak-rebuilder\xspace}
+\newcommand{\Sysname}{Flatpak-rebuilder\xspace}
 \newcommand{\rb}{reproducible builds\xspace}
 \newcommand{\fp}{flatpak\xspace}
 \newcommand{\Fp}{Flatpak\xspace}
@@ -45,10 +46,10 @@
 \begin{abstract}
 Software can be built from source code or distributed as pre-compiled packages.
 These packages are the result of a software supply chain which can be
-subject to attacks or bugs and can not be trusted. A way to attest that a
+subject to attacks or bugs and cannot be trusted. A way to attest that a
 product from such a supply chain corresponds to its original source code is
 called \rb and consists in performing the exact build steps, for a certain
-package, independently of the main supply chain and compare the rebuilt
+package, independently of the main supply chain and comparing the rebuilt
 artifact with the original one. If they are bit by bit identical, then we
 prove that the path between the source code and the final artifact is
 legitimate. Here we look at the possibility of using reproducible builds
@@ -73,12 +74,12 @@ pre-built binaries to end-users, through a software supply chain. In this
 context how can we be sure that the result of such a supply chain is produced
 from the original source code ? Indeed, the machine on which the software was
 compiled might be compromised, a bug may occur during the process, or some
-maintainer may manually inject malicious code into the final
+maintainer may manually add a malicious patch to the final
 product. There are all sorts of reasons to not trust what is shipped to the
 end-users. Supply chain attacks can be conducted on both open source and closed
 source software, and typically consist in injecting malicious code into an
 existing product. Examples include the SolarWinds exploit from 2020, where
-hackers had compromised the update publishing infrastructure of Orion, one of
+attackers had compromised the update publishing infrastructure of Orion, one of
 SolarWinds software, and were shipping a modified version with a malware
 injected~\cite{enwiki:solarwinds}. In the FOSS world, many attacks targeting
 package manager such as npm or RubyGem occurred and are already studied in the
@@ -113,8 +114,7 @@ end-user. This process, as shown before, cannot be trusted. On the other hand
 upstream code can be audited and verified manually. Now, the maintainers,
 alongside the build, can record and publish the necessary information to re
 perform the build with the same conditions. Those information will include the
-exact dependencies and which version of the tool chain were used, and others,
-discussed in \autoref{chap:bg}. From these information, a set of trusted
+exact dependencies and which version of the tool chain, among others. From these information, a set of trusted
 rebuilder will re perform the build and publish the checksum of the artifact
 they obtain. When the end-user download the binary from the distribution's
 repositories, they can compare the checksum they have with the one given by the
@@ -136,13 +136,6 @@ This technique obviously only apply to software where the source code is
 accessible, like with FOSS. We also need to audit and trust it. In practice
 this needs to be combined with good code auditing, and good practices in
 securing the source code.
-The structure of the report is the following, \autoref{chap:bg} explains all
-the concept used in the next chapters. \autoref{chap:design} and
-\autoref{chap:impl} describe the overall functioning of \sysname. In
-\autoref{chap:eval} we measure the reproducibility of \fh and provide a manual
-analysis of the main causes of non-reproducibility. Finally, in
-\autoref{chap:relw} we discuss and compare our approach to other similar tools,
-and also compare \rb as a whole to other technique to secure the supply chain.
 
 \begin{figure}[h]
     \center{
@@ -179,6 +172,14 @@ the build originally took place, and we provide several improvement to
 capable of recording some missing build information. We also introduce
 new notions to characterize how reproducible a program is, to be able to still
 build trust in programs which are only partially reproducible.
+
+The structure of the report is the following, \autoref{chap:bg} explains all
+the concept used in the next chapters. \autoref{chap:design} and
+\autoref{chap:impl} describe the overall functioning of \sysname. In
+\autoref{chap:eval} we measure the reproducibility of \fh and provide a manual
+analysis of the main causes of non-reproducibility. Finally, in
+\autoref{chap:relw} we discuss and compare our approach to other similar tools,
+and also compare \rb as a whole to other technique to secure the supply chain.
 
 %%%%%%%%%%%%%%%%%%%%
 \chapter{Background}
@@ -398,7 +399,7 @@ were used, what checksums were obtained. This provides an easy way to analyse
 the result of a rebuild and is also a nice way to communicate it. It can be
 signed and used as a replacement to the simple checksum used in
 \autoref{fig:reprobuild}. The code is small (a bit more than a thousand line)
-making it easy to audit it.
+making it easy to audit.
 
 %%%%%%%%%%%%%%%%%%%%
 \chapter{Evaluation}
@@ -694,23 +695,34 @@ reproducible. The theoretical results are shown in \autoref{tab:rebuild-fix}.
 \label{chap:relw}
 %%%%%%%%%%%%%%%%%%%%%%
 
-Other tool exists to replicate builds for other package distributions, two
-important one being Debian with their tool debrebuild, and Arch Linux with
-arch-repro. Both achieve much better performances than \sysname, but are also
-around since much longer. In comparison, \sysname provides two advantages, the
-first one is that it works across distribution, by mostly relying on \fb and
-not other container technologies. This make it easier to have independent
-rebuilders. The second advantage is the introduction of the two more relaxed
-notion of reproducibility, which allows us to have trust in packages which are
-not entirely reproducible, by manually inspecting the package difference inside
-human-readable files.
-Also, the analysis of the causes of non-reproducibility of \fp was done
-manually, by reading both the diffoscope output and the manifest files. This
-task is tedious and techniques exist to automate it.
+Other work is closely related to this project. First tools similar to \sysname
+but for other package distributions exist and they achieve much better
+performance. Also, projects exist to simplify the analysis step and
+automatically fix non-reproducible packages.
 
+\section{Other rebuilding tools}
+Tools exist to replicate builds for other package distributions, two important
+one being Debian with their tool debrebuild, and Arch Linux with arch-repro.
+Both achieve much better performances than \sysname~\cite{debian:repro,
+arch-rebuilderd}, but are also around since much longer, 2014 for deb-rebuild
+and 2017 for arch-repro. In comparison, \sysname provides two advantages, the
+first one is that it works across distribution, by mostly relying on \fp (which
+underneath uses bubblewrap) and not other container technologies. This make it
+easier to have independent rebuilders. The second advantage is the introduction
+of the two more relaxed notion of reproducibility, which allows us to have
+trust in packages which are not entirely reproducible, by manually inspecting
+the package difference inside human-readable files. \Sysname can also be run
+rootless, which again, can increase the number of potential independent
+rebuilders.
+
+\section{Automatic analysis}
+In this project, the analysis of the causes of non-reproducibility of \fp was
+done manually, by reading both the diffoscope output and the manifest files.
+This task is tedious and techniques exist to automate it.
 * Auto root cause discovery
 * Auto rebuild patching
 
+\section{Trusting trust}
 On a more global scale, \rb can also be compared to other existing techniques
 to secure the software supply chain. As it was said in the \rb mailing list, no
 concrete attack has been detected yet using \rb. An hypothesis for this is that
@@ -742,6 +754,16 @@ be applied recursively. Therefore other approach do exist.
 %%%%%%%%%%%%%%%%%%%%
 \chapter{Conclusion}
 %%%%%%%%%%%%%%%%%%%%
+
+In this project, we investigate the feasibility of using \rb with \fp. We
+develop \sysname to automate the process and measure only $41\%$
+reproducibility, which is lower than what found on other package distributions.
+After a manual analysis, we provide several changes to \fb to improve this
+number, in theory to $60\%$. For future work, we should develop a way to share
+the result of \sysname, and provide the ability to \fp end-users to easily
+query independent rebuilders, before trusting a package. Also, we are
+interested in using ... to automatically analyse and patch non-reproducible
+flatpaks.
 
 \cleardoublepage
 \phantomsection
