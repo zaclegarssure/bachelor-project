@@ -15,6 +15,8 @@
 \usepackage{xspace}
 \usepackage{amsmath}
 \usepackage{amsthm}
+\usepackage{graphicx} 
+\usepackage{subcaption}
 
 \title{Flatpak reproducibility (I will find a better title later)}
 \author{Zacharie Timothée Tevaearai}
@@ -71,7 +73,7 @@ pre-built binaries to end-users, through a software supply chain. In this
 context how can we be sure that the result of such a supply chain is produced
 from the original source code ? Indeed, the machine on which the software was
 compiled might be compromised, a bug may occur during the process, or some
-maintainer may even be coerced into injecting malicious code into the final
+maintainer may manually inject malicious code into the final
 product. There are all sorts of reasons to not trust what is shipped to the
 end-users. Supply chain attacks can be conducted on both open source and closed
 source software, and typically consist in injecting malicious code into an
@@ -82,7 +84,7 @@ injected~\cite{enwiki:solarwinds}. In the FOSS world, many attacks targeting
 package manager such as npm or RubyGem occurred and are already studied in the
 literature~\cite{10.1007/978-3-030-52683-2_2}.
 Techniques exist to counter such attacks, and the one we use in this project is
-called \emph{\rb}(R-B). It is a set of practices to make sure we can, independently of
+called \emph{\rb}~(R-B). It is a set of practices to make sure we can, independently of
 the supply chain, obtain the same package, bit by bit, starting from the source
 code, by reproducing the exact same build steps. The exact definition for a
 build process to be reproducible, as stated by Chris Lamb and Stefano Zacchiroli, is
@@ -119,8 +121,7 @@ repositories, they can compare the checksum they have with the one given by the
 rebuilders and can then decide to trust or not what they just downloaded. The
 exact process of deciding if the artifact is legitimate by comparing the
 checksums can be automated, and computed differently depending on the number of
-independent rebuilder, how much we trust them, and other aspects discussed in
-\autoref{chap:disc}. 
+independent rebuilder and how much we trust them.
 Using \rb we can prove that the path between upstream and downstream is
 legitimate. Since we can audit and trust the source code, this trust can
 propagate to the build artifact, without the cost of auditing binaries. An
@@ -134,8 +135,14 @@ reported as reproducible as of \today~\cite{debian:repro}.
 This technique obviously only apply to software where the source code is
 accessible, like with FOSS. We also need to audit and trust it. In practice
 this needs to be combined with good code auditing, and good practices in
-securing the source code, but we will assume it is done, for the rest of the
-report.
+securing the source code.
+The structure of the report is the following, \autoref{chap:bg} explains all
+the concept used in the next chapters. \autoref{chap:design} and
+\autoref{chap:impl} describe the overall functioning of \sysname. In
+\autoref{chap:eval} we measure the reproducibility of \fh and provide a manual
+analysis of the main causes of non-reproducibility. Finally, in
+\autoref{chap:relw} we discuss and compare our approach to other similar tools,
+and also compare \rb as a whole to other technique to secure the supply chain.
 
 \begin{figure}[h]
     \center{
@@ -338,9 +345,9 @@ assuming that a program with a high repro-score will be easy to fix, and make
 reproducible.
 
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Implementation}
+\label{chap:impl}
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 For simplicity and portability, \sysname is written in python, using the poetry
@@ -395,6 +402,7 @@ making it easy to audit it.
 
 %%%%%%%%%%%%%%%%%%%%
 \chapter{Evaluation}
+\label{chap:eval}
 %%%%%%%%%%%%%%%%%%%%
 
 \section{Current reproducibility of \fh}
@@ -425,9 +433,9 @@ because those are built using the \fhbb. In order to save time, we only rebuild
 \end{table}
 
 Two minor things need to be precised. Here, ELF which stands for
-ELF-reproducibility, only looked at files inside /app/bin and /app/lib, which
+ELF-reproducibility, only compares files inside /app/bin and /app/lib, which
 captures the majority of ELF files but not all, this was fixed for the other
-experiments. Secondly, the binary-reproducibility test was not yet present at
+experiments. Secondly, the binary-reproducibility test is not yet present at
 that moment.
 
 As a comparison, at the same time, Arch Linux has 86.4\% reproducibility on
@@ -537,7 +545,9 @@ Some section only differ at some bytes, with always the same difference.
     \center{
         \includegraphics[width=\textwidth]{figures/random_ro_diffoscope.png}
     }
-    \caption{Example of \dfc output on a program which differ in the .ro\_data section, with the same pattern, the same 28bits separate by 148bits each time}
+    \caption{Example of \dfc output on a program which differ in the .ro\_data
+    section, with the same pattern, the same 28bits separate by 148bits each
+    time}
     \label{fig:rodata}
 \end{figure}
 
@@ -552,8 +562,7 @@ overriding it in the manifest file. Another source of problems is how certain
 temporary path used by the pip package manager, are embedded in the final
 \verb|.pyc| file. Those paths have random names, and points to files which are
 not even present in the final \fp, since they are at /tmp. Those are therefore
-useless but not deterministic bit of information, which we discuss more in
-\autoref{chap:disc}.
+useless but not deterministic bit of information.
 Lastly, a commonly used python library, called sysconfig, embed a description
 of the active environment variable at the time of the build. This should not be
 a problem, since they should always be the same, since those are controlled
@@ -575,30 +584,35 @@ inside the sandbox, and a /home/<username> directory is created. This can
 affect certain build, in our case only 6 programs were affected.
 
 \subsection*{Hardware dependant compilation}
-
-* mtune
-< TODO >
+While, for portability, \fp cannot use extended instruction set, they can still
+be optimized to better run on specific processors, with the usage of the
+\verb|-mtune| compilation flag for instance. This breaks \rb if the program is
+built with another processor model and it does appear on certain \fp. The
+identification process is a bit more complicated, without looking at the build
+script directly. Only 3 programs are for sure compiled using mtune, because it
+appears in some of their metadata.
 
 \subsection*{Appstream}
-The last common issue resides in the appdata file. This file provides metadatas
-to correctly present the program in an appstore or througth a package manager.
+The last common issue resides in the appdata file. This file provides metadata
+to correctly present the program in an app store or through a package manager.
 The whole specification is not important, what is relevant for \rb are the way
-screenshots' links are handeld. Since they link to servers which are not
+screenshots' links are handled. Since they link to servers which are not
 maintained by \fh, the \fhbb add the \verb|--mirror-screenshots-from=flathub|
 flag to \fb, to mirror the screenshots on \fh directly. This rewrite the
 appdata file, to make links point to the \fh servers. The new links are the
 concatenation of the package's name and the md5sum of the screenshot.
-Additionally, \fb also includes different sizes for each screeshot. This
+Additionally, \fb also includes different sizes for each screenshot. This
 mirroring is useful in case one of the original link gets down, but it also
 causes troubles to have proper \rb. That is because, the original link might
 point to nothing anymore when we rebuild, in which case \fb will just remove
 the links from the appdata file. Or the link might point to a newer version of
-the screeshot, in which case \fb mirror another screeshots, and the links will
+the screenshot, in which case \fb mirror another screenshots, and the links will
 be different, since they are based on the md5sum of the original file. This
 overall result in an additional form of build dependency which cannot be
 controlled in the current state.
 
 \section*{Time influence}
+\label{sec:timeinf}
 To better understand how time influences a build, we add an option to manipulate
 the time of the build used by \sysname, and we observe the following things.
 Obviously timestamps which match the \sde variable change but so do the
@@ -606,35 +620,128 @@ Obviously timestamps which match the \sde variable change but so do the
 
 \section{Repro score analysis}
 
+\begin{figure}[h]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/non\_repro\_arch\_score.pdf}
+  \caption{Non-reproducible packages on Arch Linux.}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/repro\_arch\_score.pdf}
+  \caption{Reproducible packages on Arch Linux.}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Comparison of the cumulative distribution of the repro-score, between
+    packages reproducible on Arch Linux, and those which are not.}
+\label{fig:repro-scores}
+\end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Discussion}
-\label{chap:disc}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+To understand if the repro-score is a good metric or not, we do the following
+setup. We found all packages available on both \fh and Arch Linux. From there
+we rebuild them and compute their repro-score. We then compare the repro-score
+distribution, for packages which are reproducible on Arch, and those which are
+not, shown in \autoref{fig:repro-scores}. If the difference between the two is
+significant, we conclude that the repro-score is a good metric to estimate if a
+non-reproducible program can easily be made reproducible. The reasoning is, \rb
+on Arch Linux is developed since a few years back, and programs which are not
+reproducible there can be considered as hard to make reproducible. We observe
+the following, both probability distributions are similar, and cannot conclude
+that it is a good metric. Even worse, the one for reproducible packages has a
+bigger tail towards low repro-scores, which is the opposite of what is
+expected.  This makes sense, \autoref{sec:timeinf} shows that a simple
+modification to the \sde variable can lead to a lot of modification in the
+final files, even though the original modification is small.
 
+\section{Improvements}
+Considering the different main reasons flatpaks are not reproducible, we come
+up with several fixes. The first one is to include the value of \sde inside the
+resolved manifest. On top, we include an easier way to override its value when
+calling \fb.
+The second main issue, manifest serialization, will get solved by itself, since
+any program that get an update now, will not be affected anymore.
+To improve a bit more, we also optionally post process the artifact through
+strip-nondeterminism. This should counter errors such as timestamps in archives
+or images.
+Overall this would affect 117 programs, and make 60 of them completely
+reproducible. The theoretical results are shown in \autoref{tab:rebuild-fix}.
 
+\begin{table}[h]
+    \centering
+        \begin{tabular}{|c|c|c|}
+            \hline
+            Fix & Affected & Completely fixed\\
+            \hline
+            Time & 75 & 32\\
+            \hline
+            Manifest serialization & 45 & 36 \\
+            \hline
+            Striping & 8 & 3\\
+            \hline
+            Overall & 117\% & 60\\
+            \hline
+            Overall\% & 63.24\% & 32.43\%\\
+            \hline
+        \end{tabular}
+    \caption{Theoretical benefit of various fixes.}
+    \label{tab:rebuild-fix}
+\end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%
 \chapter{Related Work}
+\label{chap:relw}
 %%%%%%%%%%%%%%%%%%%%%%
 
-The related work section covers closely related work. Here you can highlight
-the related work, how it solved the problem, and why it solved a different
-problem. Do not play down the importance of related work, all of these
-systems have been published and evaluated! Say what is different and how
-you overcome some of the weaknesses of related work by discussing the
-trade-offs. Stay positive!
+Other tool exists to replicate builds for other package distributions, two
+important one being Debian with their tool debrebuild, and Arch Linux with
+arch-repro. Both achieve much better performances than \sysname, but are also
+around since much longer. In comparison, \sysname provides two advantages, the
+first one is that it works across distribution, by mostly relying on \fb and
+not other container technologies. This make it easier to have independent
+rebuilders. The second advantage is the introduction of the two more relaxed
+notion of reproducibility, which allows us to have trust in packages which are
+not entirely reproducible, by manually inspecting the package difference inside
+human-readable files.
+Also, the analysis of the causes of non-reproducibility of \fp was done
+manually, by reading both the diffoscope output and the manifest files. This
+task is tedious and techniques exist to automate it.
 
-This section is usually 3-5 pages.
+* Auto root cause discovery
+* Auto rebuild patching
 
+On a more global scale, \rb can also be compared to other existing techniques
+to secure the software supply chain. As it was said in the \rb mailing list, no
+concrete attack has been detected yet using \rb. An hypothesis for this is that
+attacks simply did not yet occur at the level of the supply chain verified by
+\rb. Indeed according to their definition, \rb are used to propagate the trust
+we build on a program, to the final product. This assumes the source code has
+been audited and verified, which is not necessarily the case. Packaging systems
+such as npm are used to fetch programs directly from upstream and recent
+examples still shows that performing attacks at the upstream level can be as
+easy as buying an expired email domain~\cite{npm:ptdr}.
+In theory, attacks at the upstream level are also possible with \fp, because
+modifications brought to a repository on the \fh organization, are immediately
+(if the build succeed obviously) shipped to end-users. Those repositories are
+completely under the control of the maintainers, who are often the application
+developers themself, as it is the idea of \fh.
+On the other side of the supply chain spectrum, \rb by themself cannot counter
+the "Trusting Trust" problem. This is the colloquial name given to a potential
+attack first described by Ken Thompson 1984~\cite{thompson1984}. Here the
+compiler is the compromised part of the supply chain, and it injects malicious
+code in the final product. This is a sophisticate attack, but the XcodeGhost
+attack from 2015 is a concrete example, where a modified version of Apple's
+Xcode was shipped and used by many developers~\cite{enwiki:1054394297}. Our \rb
+setup is susceptible to such attack, because we always compile using pre-built
+compilers, provided by the SDK in the case of \fp. One way to counter this would
+be to use \rb on compilers themself, but since they are compiled using another
+compiler, for instance a previous version, the process of rebuilding needs to
+be applied recursively. Therefore other approach do exist.
 
 %%%%%%%%%%%%%%%%%%%%
 \chapter{Conclusion}
 %%%%%%%%%%%%%%%%%%%%
-
-In the conclusion you repeat the main result and finalize the discussion of
-your project. Mention the core results and why as well as how your system
-advances the status quo.
 
 \cleardoublepage
 \phantomsection
