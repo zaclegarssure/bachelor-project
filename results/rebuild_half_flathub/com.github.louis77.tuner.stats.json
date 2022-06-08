@@ -1,0 +1,25 @@
+{
+    "name": "com.github.louis77.tuner",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 42.69200539588928,
+    "cache_size": 2318155,
+    "git_size": 1031880,
+    "dl_size": 1265716,
+    "original_hash": "f8db7382cb0992990ea44f3f01add35c7b00050d",
+    "rebuild_hash": "f8db7382cb0992990ea44f3f01add35c7b00050d",
+    "original_bin_hash": "f17273cfbe3e11720403619960a050b2276d6dd4",
+    "rebuild_bin_hash": "f17273cfbe3e11720403619960a050b2276d6dd4",
+    "original_lib_hash": "309677f8737a4f34d59e63be333520f6c776f9e3",
+    "rebuild_lib_hash": "309677f8737a4f34d59e63be333520f6c776f9e3",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "meson",
+        "meson"
+    ]
+}

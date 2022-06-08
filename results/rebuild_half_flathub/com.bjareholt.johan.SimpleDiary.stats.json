@@ -1,0 +1,26 @@
+{
+    "name": "com.bjareholt.johan.SimpleDiary",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 59.642513275146484,
+    "cache_size": 1831445,
+    "git_size": 1814982,
+    "dl_size": 0,
+    "original_hash": "fdc30f62a9c3e86c1f94f3b1467933235caaab9a",
+    "rebuild_hash": "fdc30f62a9c3e86c1f94f3b1467933235caaab9a",
+    "original_bin_hash": "6d35c547596790a58096cb0bf0e64fe6d239281e",
+    "rebuild_bin_hash": "6d35c547596790a58096cb0bf0e64fe6d239281e",
+    "original_lib_hash": "a1f093c8f8a257a9581fe691291093cfc51126de",
+    "rebuild_lib_hash": "a1f093c8f8a257a9581fe691291093cfc51126de",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

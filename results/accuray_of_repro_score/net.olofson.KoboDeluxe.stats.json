@@ -1,0 +1,31 @@
+{
+    "name": "net.olofson.KoboDeluxe",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "a7e6b68deab862e341eb10095b8d23a33a0ff6e0f4da0b5d9955baaf0ccac2c1",
+    "branch": "stable",
+    "time_of_rebuild": "2020-07-10 00:44:41+00:00",
+    "timestamp_of_rebuild": 1594341881.0,
+    "git-commit": "12365155a0f6397f0984dc28e1f07f43f82fde91 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "ab6f6453a76d7e4cc7d8af401cad52b86aed488054df7ad12bead7660b0ca28d",
+        "org.freedesktop.Sdk/x86_64/19.08": "9e5d07718e6c7426a082789197edc532d5130951265349c1bc075b84309f154d",
+        "org.freedesktop.Platform/x86_64/19.08": "9011ed46d93a986d66bf912812b652819d0d971d537d78a116191181172358ce"
+    },
+    "build_time": 52.3286988735199,
+    "cache_size": 8400927,
+    "git_size": 0,
+    "dl_size": 8384464,
+    "bad_files": 0,
+    "total_files": 122,
+    "repro_score": 1.0,
+    "original_hash": "899743c0e88e975b3bd49ebf7bd38041ea8eb699",
+    "rebuild_hash": "899743c0e88e975b3bd49ebf7bd38041ea8eb699",
+    "original_bin_hash": "ea291b3dc901e8e4550fc34a0dc330dbe9292d8e",
+    "rebuild_bin_hash": "ea291b3dc901e8e4550fc34a0dc330dbe9292d8e",
+    "original_elf_hash": "def0dd248ca10004e0c70c683ee9908a34725e4c",
+    "rebuild_elf_hash": "def0dd248ca10004e0c70c683ee9908a34725e4c",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

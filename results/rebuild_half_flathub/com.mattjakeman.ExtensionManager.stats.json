@@ -1,0 +1,25 @@
+{
+    "name": "com.mattjakeman.ExtensionManager",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 13.451229572296143,
+    "cache_size": 1796228,
+    "git_size": 1779765,
+    "dl_size": 0,
+    "original_hash": "5ba486bfcef8ddc4120abbd77c313c3571db3e1e",
+    "rebuild_hash": "5ba486bfcef8ddc4120abbd77c313c3571db3e1e",
+    "original_bin_hash": "a7de3cb3a7e25e7104c251329403a7eb1d67bd21",
+    "rebuild_bin_hash": "a7de3cb3a7e25e7104c251329403a7eb1d67bd21",
+    "original_lib_hash": "d6831303bd448eb5cc628460fa8b4e2632856399",
+    "rebuild_lib_hash": "d6831303bd448eb5cc628460fa8b4e2632856399",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

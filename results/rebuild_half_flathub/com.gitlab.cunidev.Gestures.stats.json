@@ -1,0 +1,23 @@
+{
+    "name": "com.gitlab.cunidev.Gestures",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 7.162553071975708,
+    "cache_size": 287392,
+    "git_size": 270929,
+    "dl_size": 0,
+    "original_hash": "38c85b2f2e9eaad707aefcf337e73be622d454e3",
+    "rebuild_hash": "4278f7efc948cf928fef445998dfd704ea3037c3",
+    "original_bin_hash": "d997016e64271eaff93649d3f8ba40e5d92b9c79",
+    "rebuild_bin_hash": "d997016e64271eaff93649d3f8ba40e5d92b9c79",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

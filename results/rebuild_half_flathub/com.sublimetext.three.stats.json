@@ -1,0 +1,23 @@
+{
+    "name": "com.sublimetext.three",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 2.324772357940674,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "b747c41c244c40ae08d637f158ce31df0f449dcf",
+    "rebuild_hash": "b747c41c244c40ae08d637f158ce31df0f449dcf",
+    "original_bin_hash": "dcb2931bcbbff36f31b0711d8f4baf6236a308f8",
+    "rebuild_bin_hash": "dcb2931bcbbff36f31b0711d8f4baf6236a308f8",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

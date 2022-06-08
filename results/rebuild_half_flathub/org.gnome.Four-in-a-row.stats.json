@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Four-in-a-row",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 26.29061007499695,
+    "cache_size": 1195187,
+    "git_size": 0,
+    "dl_size": 1178724,
+    "original_hash": "37264065b74bf62fbf61e276495832edfeff9a67",
+    "rebuild_hash": "37264065b74bf62fbf61e276495832edfeff9a67",
+    "original_bin_hash": "573ee9b49298e99b47a5e9a96bba80ca26e885e5",
+    "rebuild_bin_hash": "573ee9b49298e99b47a5e9a96bba80ca26e885e5",
+    "original_lib_hash": "824528f1062990f168451780813f499abad6c78e",
+    "rebuild_lib_hash": "824528f1062990f168451780813f499abad6c78e",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

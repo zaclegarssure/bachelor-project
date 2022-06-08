@@ -1,0 +1,24 @@
+{
+    "name": "com.github.alexr4535.siglo",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 27.064890146255493,
+    "cache_size": 1939145,
+    "git_size": 110313,
+    "dl_size": 1808273,
+    "original_hash": "4ba9db6cc604808e52186b8dbda8f7157e9521e6",
+    "rebuild_hash": "db4f518750f076f116fb48da19391404cfd156f1",
+    "original_bin_hash": "b1f8790c2ea756bd787e663afb00afee93145098",
+    "rebuild_bin_hash": "b1f8790c2ea756bd787e663afb00afee93145098",
+    "original_lib_hash": "0a176fa36cf3131ef03b85b5751acecf44e47dee",
+    "rebuild_lib_hash": "6ce17dbe50b95bc57ef182d51e8f66d0e0850b22",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "meson"
+    ]
+}

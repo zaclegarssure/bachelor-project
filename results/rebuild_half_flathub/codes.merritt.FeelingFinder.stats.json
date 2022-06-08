@@ -1,0 +1,23 @@
+{
+    "name": "codes.merritt.FeelingFinder",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 4.173079013824463,
+    "cache_size": 10292231,
+    "git_size": 791777,
+    "dl_size": 9479895,
+    "original_hash": "b9394a399d2a4311d4ed771cd3adacbabad26e6e",
+    "rebuild_hash": "b9394a399d2a4311d4ed771cd3adacbabad26e6e",
+    "original_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "rebuild_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

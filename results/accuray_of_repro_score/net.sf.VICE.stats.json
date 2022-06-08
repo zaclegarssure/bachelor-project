@@ -1,0 +1,16 @@
+{
+    "name": "net.sf.VICE",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "6fb3cbd4c510461768eb9f057c02db8ae581d31193eac5cdeba252470079f122",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-14 13:37:41+00:00",
+    "timestamp_of_rebuild": 1647265061.0,
+    "git-commit": "0f56fc8c8bb5da2222b1013e3a36e3519a1c5397 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "cce27cfbd1132b922bd1b4c672b83b907f1d6a21e0aa941fec13ebc1e65b0508",
+        "org.freedesktop.Sdk/x86_64/21.08": "f31334d7fc5ff5ec93766189a7e47bfb3369a9a7154767adb46c4495530c1d1c",
+        "org.freedesktop.Platform/x86_64/21.08": "fcf3dbb56c117835216058acfa99ae280d713029f8d674e1b56e019a20ed082d"
+    }
+}

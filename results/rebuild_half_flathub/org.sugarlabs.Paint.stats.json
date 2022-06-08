@@ -1,0 +1,23 @@
+{
+    "name": "org.sugarlabs.Paint",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 8.1465482711792,
+    "cache_size": 2033361,
+    "git_size": 2033092,
+    "dl_size": 0,
+    "original_hash": "dcd52c15e9e0df99dcabf43e7386692164b20d61",
+    "rebuild_hash": "dcd52c15e9e0df99dcabf43e7386692164b20d61",
+    "original_bin_hash": "a6575aa72d8bb2f909da88ec49ca667a16cfb6eb",
+    "rebuild_bin_hash": "a6575aa72d8bb2f909da88ec49ca667a16cfb6eb",
+    "original_lib_hash": "06001a0e40c7811ef78044144e64be3e5aec92a5",
+    "rebuild_lib_hash": "06001a0e40c7811ef78044144e64be3e5aec92a5",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple"
+    ]
+}

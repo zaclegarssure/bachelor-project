@@ -1,0 +1,20 @@
+{
+    "name": "org.tabos.roger",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 587.4159905910492,
+    "cache_size": 51581316,
+    "git_size": 4297643,
+    "dl_size": 47282458,
+    "original_hash": "07e8c8c8e30972fcf18f892b468706dfb945e921",
+    "rebuild_hash": "0a0be5dfe44cf04af40d2b93d7ce2d7653902690",
+    "original_bin_hash": "98b35b39e06a9665f035cc93faf69dbdb6f66f79",
+    "rebuild_bin_hash": "98b35b39e06a9665f035cc93faf69dbdb6f66f79",
+    "original_lib_hash": "3e3d468885a5b5bca941ee6da70079f55b8c38ed",
+    "rebuild_lib_hash": "3e3d468885a5b5bca941ee6da70079f55b8c38ed",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora"
+}

@@ -1,0 +1,24 @@
+{
+    "name": "com.github.yucefsourani.albasheer-electronic-quran-browser",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 10.820491790771484,
+    "cache_size": 6418497,
+    "git_size": 3833743,
+    "dl_size": 2564195,
+    "original_hash": "2909318e85622539aa71e287530755b228a2d8c8",
+    "rebuild_hash": "3843c4a0c36bf6caf3552559d4c3b92ac9f1fcc7",
+    "original_bin_hash": "f05d7914abf98f4cb9157d9213d132e4002ecb56",
+    "rebuild_bin_hash": "f05d7914abf98f4cb9157d9213d132e4002ecb56",
+    "original_lib_hash": "da306f655cc1147dff3cfc8a8f81c5ad9e6457d9",
+    "rebuild_lib_hash": "f1ac00e57a9c9565d403d22c698e61d00e33a184",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

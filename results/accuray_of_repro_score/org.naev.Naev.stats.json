@@ -1,0 +1,31 @@
+{
+    "name": "org.naev.Naev",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "f346207a963838679c99eac156a807175bba4c7d2a924d89781a646833ddbd4e",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-21 11:52:50+00:00",
+    "timestamp_of_rebuild": 1653133970.0,
+    "git-commit": "f220bc865cae69b5c8874d765b823ca0a5bd9403 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 682.8364498615265,
+    "cache_size": 479041927,
+    "git_size": 1183027,
+    "dl_size": 477838341,
+    "bad_files": 3,
+    "total_files": 4729,
+    "repro_score": 0.9993656164093889,
+    "original_hash": "1cfc0704dac3203793195b1346b580c8323a6388",
+    "rebuild_hash": "1712640fd1ecabcbb695e560942512c877e823ac",
+    "original_bin_hash": "d7579f8c2a4b84b23d0fcd2238aa42ab230560f0",
+    "rebuild_bin_hash": "e903fbc37b17f1dd022abd2ddb9593d7bd672ea0",
+    "original_elf_hash": "f8c6acda3ed2910d53252f0099ecabb85831ce77",
+    "rebuild_elf_hash": "20f1bbaaa8ff92f3af79625cc187e61b123e7b66",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

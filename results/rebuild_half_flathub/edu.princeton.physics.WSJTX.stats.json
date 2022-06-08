@@ -1,0 +1,20 @@
+{
+    "name": "edu.princeton.physics.WSJTX",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 1076.1501054763794,
+    "cache_size": 207584819,
+    "git_size": 85726969,
+    "dl_size": 121837291,
+    "original_hash": "bcd6c385b5525587c525765ca52b35c775de06af",
+    "rebuild_hash": "5ea5fbd1a474902dd9790c026b56f4f1b79b819c",
+    "original_bin_hash": "bf531b94d31af36299ed99d5c57a4d0a667e68a1",
+    "rebuild_bin_hash": "a722a5f52bd1f57c3b443eae35c8cacc4afd0fb1",
+    "original_lib_hash": "215b1a0161e86e38b8cb64f9bae0f51796a8e311",
+    "rebuild_lib_hash": "215b1a0161e86e38b8cb64f9bae0f51796a8e311",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

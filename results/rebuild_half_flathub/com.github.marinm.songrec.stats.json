@@ -1,0 +1,23 @@
+{
+    "name": "com.github.marinm.songrec",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 111.19076585769653,
+    "cache_size": 39579463,
+    "git_size": 0,
+    "dl_size": 39563000,
+    "original_hash": "9d1c3c42bd79a48921c57f018749a3584ed14a28",
+    "rebuild_hash": "9d1c3c42bd79a48921c57f018749a3584ed14a28",
+    "original_bin_hash": "0ed9d56486350f31719dfe8010e929766cdad8ff",
+    "rebuild_bin_hash": "0ed9d56486350f31719dfe8010e929766cdad8ff",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

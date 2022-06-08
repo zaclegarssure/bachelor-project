@@ -1,0 +1,20 @@
+{
+    "name": "com.skype.Client",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 23.29317021369934,
+    "cache_size": 2416469,
+    "git_size": 396308,
+    "dl_size": 1999602,
+    "original_hash": "86024419591e86a3b2ec5da095893b28368f23a3",
+    "rebuild_hash": "86024419591e86a3b2ec5da095893b28368f23a3",
+    "original_bin_hash": "2dd4400262b0ddf09b5612eff17554b129932c35",
+    "rebuild_bin_hash": "2dd4400262b0ddf09b5612eff17554b129932c35",
+    "original_lib_hash": "f4f03ec05817fc6b3c2b273e583cef2050942e41",
+    "rebuild_lib_hash": "f4f03ec05817fc6b3c2b273e583cef2050942e41",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

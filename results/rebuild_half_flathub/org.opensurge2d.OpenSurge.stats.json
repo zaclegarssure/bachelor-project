@@ -1,0 +1,26 @@
+{
+    "name": "org.opensurge2d.OpenSurge",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 61.0675847530365,
+    "cache_size": 42218957,
+    "git_size": 34112151,
+    "dl_size": 8106203,
+    "original_hash": "55da1ec2fe51368c2526305cd6c1ac33f10d0a28",
+    "rebuild_hash": "55da1ec2fe51368c2526305cd6c1ac33f10d0a28",
+    "original_bin_hash": "fccb87219eca9ce44746202b9bef7283e32c0152",
+    "rebuild_bin_hash": "fccb87219eca9ce44746202b9bef7283e32c0152",
+    "original_lib_hash": "add55f5d819ff5e0d7d9bec699afec588acc40b2",
+    "rebuild_lib_hash": "add55f5d819ff5e0d7d9bec699afec588acc40b2",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "cmake-ninja",
+        "cmake-ninja",
+        "cmake-ninja",
+        "cmake-ninja"
+    ]
+}

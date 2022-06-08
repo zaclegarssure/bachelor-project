@@ -1,0 +1,31 @@
+{
+    "name": "net.sourceforge.Klavaro",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "3dd108537a60472084f68fc50ebc7a73df174a61282ec260c061b113f291ec76",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-23 14:09:57+00:00",
+    "timestamp_of_rebuild": 1653314997.0,
+    "git-commit": "3665457f3a8fc73596913e0883d9d0f3a7a0eb16 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 21.787359952926636,
+    "cache_size": 1954971,
+    "git_size": 0,
+    "dl_size": 1938508,
+    "bad_files": 1,
+    "total_files": 199,
+    "repro_score": 0.9949748743718593,
+    "original_hash": "2286f61360869e054ea6a389fb0d66b25b04cd86",
+    "rebuild_hash": "99d2be905a1e66a1d956958d5173dd6aa6b73556",
+    "original_bin_hash": "f21ff003f3f341bc17bd824be2b1fe862ae43a18",
+    "rebuild_bin_hash": "dd1bdf5424c210761d41987efa0300c867a54665",
+    "original_elf_hash": "f03f6a81ea500300774297281e49dbc76929b067",
+    "rebuild_elf_hash": "f03f6a81ea500300774297281e49dbc76929b067",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

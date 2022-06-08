@@ -1,0 +1,31 @@
+{
+    "name": "io.github.qtox.qTox",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "b442e79e99a848d8415b7ec0816fbc3f51c538b922b928c95b932d221d61b985",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-08 00:33:32+00:00",
+    "timestamp_of_rebuild": 1646699612.0,
+    "git-commit": "b0535b69564851824730aa5a2df551c78012802e master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "cce27cfbd1132b922bd1b4c672b83b907f1d6a21e0aa941fec13ebc1e65b0508",
+        "org.kde.Sdk/x86_64/5.15": "60713fe8833a50e5c0a6093962d930edf8b304c75a05a3e393de57b8bbcb1c0a",
+        "org.kde.Platform/x86_64/5.15": "dc1c3d01cc95b500c9c334e7e54cf80e2179ac5ab53f2e3fbc63cc7e34ecd448"
+    },
+    "build_time": 273.11186003685,
+    "cache_size": 36973127,
+    "git_size": 26804237,
+    "dl_size": 10148331,
+    "bad_files": 0,
+    "total_files": 43,
+    "repro_score": 1.0,
+    "original_hash": "39c1daa7501a1b2ff43d4dc5c45d5b13ffe9bd16",
+    "rebuild_hash": "39c1daa7501a1b2ff43d4dc5c45d5b13ffe9bd16",
+    "original_bin_hash": "db442ac0266cdcedaeaafe9efaf909593722c9e0",
+    "rebuild_bin_hash": "db442ac0266cdcedaeaafe9efaf909593722c9e0",
+    "original_elf_hash": "e4c80c15d546efb6af89f732a03042f41ca30139",
+    "rebuild_elf_hash": "e4c80c15d546efb6af89f732a03042f41ca30139",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

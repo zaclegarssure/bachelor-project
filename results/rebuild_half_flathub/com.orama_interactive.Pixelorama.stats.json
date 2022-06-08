@@ -1,0 +1,23 @@
+{
+    "name": "com.orama_interactive.Pixelorama",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 6.8332953453063965,
+    "cache_size": 17797553,
+    "git_size": 0,
+    "dl_size": 17781090,
+    "original_hash": "4b8cdc086f82840ad4bb570610aa0f476a7171a6",
+    "rebuild_hash": "4b8cdc086f82840ad4bb570610aa0f476a7171a6",
+    "original_bin_hash": "266bc4e9340f3ad65e64f363abbb09b0be7bc994",
+    "rebuild_bin_hash": "266bc4e9340f3ad65e64f363abbb09b0be7bc994",
+    "original_lib_hash": "cb65a380ed9c0bca6d2d430ddb7cad063a52098a",
+    "rebuild_lib_hash": "cb65a380ed9c0bca6d2d430ddb7cad063a52098a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

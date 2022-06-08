@@ -1,0 +1,20 @@
+{
+    "name": "edu.berkeley.BOINC",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 1500.0579540729523,
+    "cache_size": 71229498,
+    "git_size": 47699159,
+    "dl_size": 23509780,
+    "original_hash": "6d148925eec48ad65f8dd79c98c847df4ca44129",
+    "rebuild_hash": "dcd9bc2c50afd818cbbacfc6568d35ea091f2cce",
+    "original_bin_hash": "b2c87ce612631ba538bcf4f9e79313b63b2be1d9",
+    "rebuild_bin_hash": "b2c87ce612631ba538bcf4f9e79313b63b2be1d9",
+    "original_lib_hash": "7853e2e5473b1f71c223bc1fecfa5835439c3f31",
+    "rebuild_lib_hash": "b76692585481f305f6e0803b4960e060d698f76e",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

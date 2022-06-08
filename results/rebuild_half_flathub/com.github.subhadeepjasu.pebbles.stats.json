@@ -1,0 +1,25 @@
+{
+    "name": "com.github.subhadeepjasu.pebbles",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 419.76054883003235,
+    "cache_size": 21381201,
+    "git_size": 13957998,
+    "dl_size": 7402644,
+    "original_hash": "562e76229b5696398a726fe1f4657bce2655fceb",
+    "rebuild_hash": "562e76229b5696398a726fe1f4657bce2655fceb",
+    "original_bin_hash": "0ec0fe6e73119f650f6453e9d702fd9714e9e3db",
+    "rebuild_bin_hash": "0ec0fe6e73119f650f6453e9d702fd9714e9e3db",
+    "original_lib_hash": "09b368683c06910bed643b06ac347342f6a9e695",
+    "rebuild_lib_hash": "09b368683c06910bed643b06ac347342f6a9e695",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "com.chez.GrafX2",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 26.67387342453003,
+    "cache_size": 49254330,
+    "git_size": 38945126,
+    "dl_size": 10288645,
+    "original_hash": "45ac0406335663aba9059cbc38886438273b2b50",
+    "rebuild_hash": "45ac0406335663aba9059cbc38886438273b2b50",
+    "original_bin_hash": "7be0eeb8a47c1993932f326a745407554bc17c79",
+    "rebuild_bin_hash": "7be0eeb8a47c1993932f326a745407554bc17c79",
+    "original_lib_hash": "44e15eab931a7f616a996903e0cc56dc54108a13",
+    "rebuild_lib_hash": "44e15eab931a7f616a996903e0cc56dc54108a13",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

@@ -1,0 +1,24 @@
+{
+    "name": "com.arteeh.Flasher",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 82.08075213432312,
+    "cache_size": 8172667,
+    "git_size": 8156204,
+    "dl_size": 0,
+    "original_hash": "e8cadda5c9ee899610ce544e38b2aad5edacef0f",
+    "rebuild_hash": "3d9d3bff4a803e96a17f9c9635adab81c861f85b",
+    "original_bin_hash": "1c5cfbf3e5b1abfc9089abb4e81f6ea3210437c2",
+    "rebuild_bin_hash": "6d900ab55389f7f9d1f71fbd6c7c947524ca911d",
+    "original_lib_hash": "d04cc8cc83695386412c78394933455de9b52f5a",
+    "rebuild_lib_hash": "d04cc8cc83695386412c78394933455de9b52f5a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "simple"
+    ]
+}

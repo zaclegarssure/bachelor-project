@@ -1,0 +1,32 @@
+{
+    "name": "org.fcitx.Fcitx5",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "008adb0a4c905a31fd1c310efa66ddca6b7e50be57fe2085357c2486a6ca7042",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-24 02:27:19+00:00",
+    "timestamp_of_rebuild": 1653359239.0,
+    "git-commit": "e8e6ef45545fcdbcc9f9f6dfc40a85d3be327f85 master",
+    "flatpak-deps": {
+        "io.qt.qtwebkit.BaseApp/x86_64/5.15-21.08": "b6fd7cdad084f25e4028499307824264c43201786f227b6287f40a665fa219bb",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "1bf5dbd9fd2f66898d2501dfbe0e5327d0dc6eecd9e02e2bdeb39a43df7974c8",
+        "org.kde.Platform/x86_64/5.15-21.08": "c49e5ed4c419e849e15657b270c0cb9550afaa73277c611426b97c701cbe37b4"
+    },
+    "build_time": 232.45438957214355,
+    "cache_size": 660283728,
+    "git_size": 659628582,
+    "dl_size": 634587,
+    "bad_files": 0,
+    "total_files": 1064,
+    "repro_score": 1.0,
+    "original_hash": "1aec69383c8f28ce608807f29454d8a82fab87fe",
+    "rebuild_hash": "1aec69383c8f28ce608807f29454d8a82fab87fe",
+    "original_bin_hash": "a3c9c4d9f3f79e5421133fda2d0f38be50e971c4",
+    "rebuild_bin_hash": "a3c9c4d9f3f79e5421133fda2d0f38be50e971c4",
+    "original_elf_hash": "bc188a79f231498099d59a2e72065e85f5db7b91",
+    "rebuild_elf_hash": "bc188a79f231498099d59a2e72065e85f5db7b91",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

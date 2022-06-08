@@ -1,0 +1,25 @@
+{
+    "name": "com.github.devalien.workspaces",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 22.203990697860718,
+    "cache_size": 3143692,
+    "git_size": 464956,
+    "dl_size": 2658177,
+    "original_hash": "ee3b564276c945fcbba25c4eea39a35965293f4c",
+    "rebuild_hash": "e0c7dd66d4c16f8e9de5aa39ce2cef8ac49cc9e3",
+    "original_bin_hash": "f20a773d981362e0ef0615a37a53824ca9a4e896",
+    "rebuild_bin_hash": "f20a773d981362e0ef0615a37a53824ca9a4e896",
+    "original_lib_hash": "332bb26ec1d219e7fa7e9c0abcc25d95623a9640",
+    "rebuild_lib_hash": "332bb26ec1d219e7fa7e9c0abcc25d95623a9640",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

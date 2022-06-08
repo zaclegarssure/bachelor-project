@@ -1,0 +1,31 @@
+{
+    "name": "org.pitivi.Pitivi",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "00c4bf21853fa8b139a7707aca41b529f705ef837e43567d408a207ab95e126b",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-03 03:52:35+00:00",
+    "timestamp_of_rebuild": 1648957955.0,
+    "git-commit": "039ca62f3b8eeeb5ca7613b4b2e99159d0b18a98 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 1320.5226061344147,
+    "cache_size": 317956814,
+    "git_size": 61282858,
+    "dl_size": 256653397,
+    "bad_files": 33,
+    "total_files": 3528,
+    "repro_score": 0.9906462585034014,
+    "original_hash": "cf2e3f697417304446daa5b43cb763197e0c1e8d",
+    "rebuild_hash": "980daa5486d31e4901f14a54f694f999aa7cf2c1",
+    "original_bin_hash": "5d5b460792ebaf36d280e39ce6234246ee55d1a9",
+    "rebuild_bin_hash": "76bed21865821fc03dcdb03e91d05d5442d1a1a5",
+    "original_elf_hash": "050fcbe133d27ccf6d062e3aaae7a4f9c13e4991",
+    "rebuild_elf_hash": "c07b1da9cfefaf0fdf62fa02d83f3edaffb405ec",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

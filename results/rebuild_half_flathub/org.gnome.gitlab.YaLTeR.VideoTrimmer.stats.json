@@ -1,0 +1,24 @@
+{
+    "name": "org.gnome.gitlab.YaLTeR.VideoTrimmer",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 110.84495067596436,
+    "cache_size": 15741310,
+    "git_size": 691659,
+    "dl_size": 15029092,
+    "original_hash": "bd601a40fceb6bd613c528117c2048c188c79b53",
+    "rebuild_hash": "bd601a40fceb6bd613c528117c2048c188c79b53",
+    "original_bin_hash": "ab8a6052be2c6ec181c8ed19031fe623ae7f365b",
+    "rebuild_bin_hash": "ab8a6052be2c6ec181c8ed19031fe623ae7f365b",
+    "original_lib_hash": "d0eb68e62a652ad7106f57b7cb7c26735db2df8e",
+    "rebuild_lib_hash": "d0eb68e62a652ad7106f57b7cb7c26735db2df8e",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

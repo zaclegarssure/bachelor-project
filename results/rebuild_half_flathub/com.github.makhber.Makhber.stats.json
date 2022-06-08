@@ -1,0 +1,31 @@
+{
+    "name": "com.github.makhber.Makhber",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 480.0066783428192,
+    "cache_size": 25676773,
+    "git_size": 0,
+    "dl_size": 25660310,
+    "original_hash": "0da2b496a4255649c7962cfb73cdfae65a187116",
+    "rebuild_hash": "34815b6c1ca56ac26e7359682c3872f6a598fa7a",
+    "original_bin_hash": "b6433f56c89f286835649be9a251794785d4b185",
+    "rebuild_bin_hash": "2036d9a670b93e4df838e007a8a1cf4a766e1603",
+    "original_lib_hash": "d53201019b77ff7bafd2561b224abdf79cd5370d",
+    "rebuild_lib_hash": "89d2254454f452950b64b174bd071adeefe14576",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "autotools",
+        "cmake-ninja",
+        "autotools",
+        "cmake-ninja",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "cmake-ninja"
+    ]
+}

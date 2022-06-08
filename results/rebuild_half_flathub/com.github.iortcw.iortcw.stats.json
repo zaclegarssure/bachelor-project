@@ -1,0 +1,25 @@
+{
+    "name": "com.github.iortcw.iortcw",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 50.83646035194397,
+    "cache_size": 38030927,
+    "git_size": 0,
+    "dl_size": 38014464,
+    "original_hash": "06cf1fc3b55ed5b0168cdb6232a444483328e527",
+    "rebuild_hash": "7d9bbdf0cb7737e6dc8ad8e8c35d277805c89abb",
+    "original_bin_hash": "6fc8a0938e9cc3b247b4790acf2aa4af0e115c70",
+    "rebuild_bin_hash": "c178b47ef44c870f718e0070225c2c62897b05f3",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

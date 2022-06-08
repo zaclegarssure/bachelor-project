@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.Gnote",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "e12fe08df1ff9ddf0f1b8c867ced9c914ae557984527180db7ba7aa07dcb58ef",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-07 03:12:39+00:00",
+    "timestamp_of_rebuild": 1651893159.0,
+    "git-commit": "2eed8d2a7b08db45b78d48feda55f57890748a84 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "bd5cf2646c70337561c1a2bf214e3ca797fd2ea96d981baf8fd537cb931eeebb",
+        "org.gnome.Platform/x86_64/42": "d240597586ac4c87e7e8dd634b67a3c910704b77d1ef5927147e55fe57cf569a"
+    },
+    "build_time": 221.70451283454895,
+    "cache_size": 31480415,
+    "git_size": 0,
+    "dl_size": 31463952,
+    "bad_files": 0,
+    "total_files": 154,
+    "repro_score": 1.0,
+    "original_hash": "d7996b2e05d09e33897d8067fa4a13ae9ecf02e8",
+    "rebuild_hash": "d7996b2e05d09e33897d8067fa4a13ae9ecf02e8",
+    "original_bin_hash": "dea91edba290d12ee316d8fbf26fedc6a8289b90",
+    "rebuild_bin_hash": "dea91edba290d12ee316d8fbf26fedc6a8289b90",
+    "original_elf_hash": "d2565eb4d02f195ca953227d38f35b0839010a95",
+    "rebuild_elf_hash": "d2565eb4d02f195ca953227d38f35b0839010a95",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

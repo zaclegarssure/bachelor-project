@@ -1,0 +1,25 @@
+{
+    "name": "co.luoja.Telyn",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 85.85932874679565,
+    "cache_size": 594414852,
+    "git_size": 130558,
+    "dl_size": 594263735,
+    "original_hash": "9665a2882e77aa2bff0a84f220e20761aefec7c7",
+    "rebuild_hash": "958223cd6cc915ae248c1e2fbf8ee459b6c9bf12",
+    "original_bin_hash": "86e89993e5da64687256a4bf998e9fc0b7986ddc",
+    "rebuild_bin_hash": "86e89993e5da64687256a4bf998e9fc0b7986ddc",
+    "original_lib_hash": "216d539a64d4e8c70caee52f6dce5651b82611ce",
+    "rebuild_lib_hash": "216d539a64d4e8c70caee52f6dce5651b82611ce",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

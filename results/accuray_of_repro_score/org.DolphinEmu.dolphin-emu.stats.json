@@ -1,0 +1,31 @@
+{
+    "name": "org.DolphinEmu.dolphin-emu",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "9aed3bd304b89d13977d2596a3e46b2b07a7c67ab17d8090bdc54a84caad0628",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-18 12:03:54+00:00",
+    "timestamp_of_rebuild": 1652875434.0,
+    "git-commit": "c0793e3a659df1f9ed6d8bea6851648753c8c5e8 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 637.4664747714996,
+    "cache_size": 1961034618,
+    "git_size": 1957738756,
+    "dl_size": 3275303,
+    "bad_files": 0,
+    "total_files": 2134,
+    "repro_score": 1.0,
+    "original_hash": "c5e31f8712922628340f220a6a109e68512743f2",
+    "rebuild_hash": "c5e31f8712922628340f220a6a109e68512743f2",
+    "original_bin_hash": "270e5b9b59ef2361e50f1343d74c79fb22ec22bb",
+    "rebuild_bin_hash": "270e5b9b59ef2361e50f1343d74c79fb22ec22bb",
+    "original_elf_hash": "f65ccb869afd64a4a56986d00a1a3decfbd3cff1",
+    "rebuild_elf_hash": "f65ccb869afd64a4a56986d00a1a3decfbd3cff1",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

@@ -1,0 +1,31 @@
+{
+    "name": "org.gpodder.gpodder",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "7d748f4a7e87771b3347c915d14fae7fbe5ccd2b2378a31113b10a67c9da3ab1",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-09 09:19:44+00:00",
+    "timestamp_of_rebuild": 1631179184.0,
+    "git-commit": "491f02989524bfa4234485b6393481f34a274662 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "893246e34479faee339ba3645ad345290a26b3bd0dbf2f0aec378481fe6dc56d",
+        "org.gnome.Sdk/x86_64/3.38": "8517e52d6e1e144a53011ecee3ac145284cdcafe993fb622d8d89adec071cfad",
+        "org.gnome.Platform/x86_64/3.38": "5db3e872d74f5d79364695df73febcff532fe5ed586d0827cf1b98ddb6fb6c9c"
+    },
+    "build_time": 89.00925588607788,
+    "cache_size": 10594877,
+    "git_size": 0,
+    "dl_size": 10578414,
+    "bad_files": 27,
+    "total_files": 2559,
+    "repro_score": 0.9894490035169988,
+    "original_hash": "2614291ec1ee8bc10fa4ad90eac725fa4c8314a5",
+    "rebuild_hash": "f74444f948b128e5877f6bcb97161bb708d730fb",
+    "original_bin_hash": "284f1380f19b8618cddfd1cbf7c9984704eb8167",
+    "rebuild_bin_hash": "f6bda7de12682893f5f6639f51ebab105156d729",
+    "original_elf_hash": "c755fd1f70defd0cea81f3b72c4b43dba1a4f871",
+    "rebuild_elf_hash": "3aaa76ae13e46eb8438efc766f3ad8eec46a2033",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

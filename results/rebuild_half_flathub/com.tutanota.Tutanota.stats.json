@@ -1,0 +1,20 @@
+{
+    "name": "com.tutanota.Tutanota",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 32.461143493652344,
+    "cache_size": 96805380,
+    "git_size": 396308,
+    "dl_size": 96388513,
+    "original_hash": "d58f8769b92f76a61cb5d5c9cad29c72a21c3c83",
+    "rebuild_hash": "d58f8769b92f76a61cb5d5c9cad29c72a21c3c83",
+    "original_bin_hash": "b5be547efcb4e04b0ed4371d5d4bc6ffc51911af",
+    "rebuild_bin_hash": "b5be547efcb4e04b0ed4371d5d4bc6ffc51911af",
+    "original_lib_hash": "02c219a98e41998703d013be1e116a4211644a01",
+    "rebuild_lib_hash": "02c219a98e41998703d013be1e116a4211644a01",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

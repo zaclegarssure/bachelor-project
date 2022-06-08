@@ -1,0 +1,16 @@
+{
+    "name": "org.gnucash.GnuCash",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "2ba6788bf25682a304b94a8650cfec7a714a6dc13343744e8b41f6e1861b5880",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-31 20:39:34+00:00",
+    "timestamp_of_rebuild": 1648759174.0,
+    "git-commit": "379b8e1cdbc5e2c338b48b432ac2e8ad8d2a9f23 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.gnome.Sdk/x86_64/41": "7f6dcb09d3af135d8bfb68ff309f4142bfa7cb37a77ff971d492de894d292bc7",
+        "org.gnome.Platform/x86_64/41": "07e2f19d660a4bf5520857f2eea3aa7005d0e320b2ee5ec7c02a5ea95d2123a3"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "org.sugarlabs.Words",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "908675cac6b29101b63f8c9ea811393b66964e73f2082412d73451c21a66a52c",
+    "branch": "stable",
+    "time_of_rebuild": "2021-05-22 11:23:31+00:00",
+    "timestamp_of_rebuild": 1621682611.0,
+    "git-commit": "f270ca32f16938526c34c8e640cb8dd43a117c12 master",
+    "flatpak-deps": {
+        "org.sugarlabs.BaseApp/x86_64/21.04": "ad0383c8bea9ee82e016e1dfdceaa178cb097a32de034bca21b2f834eddbb833",
+        "org.flatpak.Builder/x86_64/stable": "a770bfe0520e0ea3e08a1d2383d470200bcad65c4e44520f142016e2572270d8",
+        "org.gnome.Sdk/x86_64/40": "2e469207b2b173f371eee0954fe5ee71fe53a9e7df1d96fdffcb794ed37d97e5",
+        "org.gnome.Platform/x86_64/40": "637a049fdf71310e8d1dce9272dc881a04b28d5b12db7bfca9359c9da8f045d0"
+    },
+    "build_time": 86.9263207912445,
+    "cache_size": 43995887,
+    "git_size": 43979424,
+    "dl_size": 0,
+    "bad_files": 0,
+    "total_files": 1544,
+    "repro_score": 1.0,
+    "original_hash": "701adf53f61b7401e679084f381edf5a00030d57",
+    "rebuild_hash": "701adf53f61b7401e679084f381edf5a00030d57",
+    "original_bin_hash": "d964dc57ecb69c158a515e50c53500383aa33e0d",
+    "rebuild_bin_hash": "d964dc57ecb69c158a515e50c53500383aa33e0d",
+    "original_elf_hash": "40d4d80cfb5639c141f9b695dd746c631a96ebfe",
+    "rebuild_elf_hash": "40d4d80cfb5639c141f9b695dd746c631a96ebfe",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

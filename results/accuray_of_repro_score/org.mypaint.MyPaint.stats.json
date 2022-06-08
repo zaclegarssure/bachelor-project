@@ -1,0 +1,31 @@
+{
+    "name": "org.mypaint.MyPaint",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "03711350039648c00371ff315b461a79f81081e2cacb88dbd27fae6a52e0060d",
+    "branch": "stable",
+    "time_of_rebuild": "2022-01-02 04:02:33+00:00",
+    "timestamp_of_rebuild": 1641096153.0,
+    "git-commit": "6103b244d9bd7035c5a972c0e94d53065ac73b41 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "33efe804a63f7bf3b2a3ba4607f4ea700e4b44760f119e765fde5ab565471d87",
+        "org.gnome.Sdk/x86_64/41": "13610dcd6bdad52462f9b5112fb8b3b86c7a639e60a2f6784e25849e1dcad95d",
+        "org.gnome.Platform/x86_64/41": "cea3bffea9aad8ecd84ba25c89242b7f773543ffaac3393bcf8db5449aafd009"
+    },
+    "build_time": 316.8842017650604,
+    "cache_size": 24789771,
+    "git_size": 8123282,
+    "dl_size": 16645930,
+    "bad_files": 5,
+    "total_files": 1993,
+    "repro_score": 0.997491219267436,
+    "original_hash": "4ae279ee70ad1882cbc536c72de8536032213fd5",
+    "rebuild_hash": "e62bb11e18f59bfb08b2e3a8a502e00ace9626ae",
+    "original_bin_hash": "3efe6b0e45070a920b887bcfe6b7b4f5eb08b65c",
+    "rebuild_bin_hash": "24f835e73c6a34b533f2d547fe4d745dd703c69e",
+    "original_elf_hash": "10fc993a74f720cd634cbf75497847ede0f8e363",
+    "rebuild_elf_hash": "10fc993a74f720cd634cbf75497847ede0f8e363",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

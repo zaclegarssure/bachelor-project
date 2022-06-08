@@ -1,0 +1,23 @@
+{
+    "name": "com.github.elth0r0.iqpuzzle",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 6.223564147949219,
+    "cache_size": 823848,
+    "git_size": 807385,
+    "dl_size": 0,
+    "original_hash": "0f73b4c385b48f5143af2bd85d3dd79b876b8d2c",
+    "rebuild_hash": "263ef719d02e56a7d2cb917ce994e9685617aad8",
+    "original_bin_hash": "30e6fdc71bf42bfd59e030201be80c55eec1ef72",
+    "rebuild_bin_hash": "200c866103b6035ec9e897e0f8864827c2461397",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "qmake"
+    ]
+}

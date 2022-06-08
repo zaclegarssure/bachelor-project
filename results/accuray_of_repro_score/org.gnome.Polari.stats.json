@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.Polari",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "fb98b78e57e9d929d961718145b9f3644e210b5de284b788e0d3c6e32abea6cd",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-23 00:59:15+00:00",
+    "timestamp_of_rebuild": 1647997155.0,
+    "git-commit": "7ca07fc5caf0ee92007634206c4f31340bedb1ad master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.gnome.Sdk/x86_64/42": "47f6b399585817120024df1ad4bb1701d58f7d0ad2078210ea240978aec11c34",
+        "org.gnome.Platform/x86_64/42": "00a7680bc472e0205934c70b2bf6fecfb5a085cc1792dad7958e5cd07b648a70"
+    },
+    "build_time": 150.9333291053772,
+    "cache_size": 5251682,
+    "git_size": 5235219,
+    "dl_size": 0,
+    "bad_files": 0,
+    "total_files": 231,
+    "repro_score": 1.0,
+    "original_hash": "d99b0e5758db54a678076c368f43d7abc7807a06",
+    "rebuild_hash": "d99b0e5758db54a678076c368f43d7abc7807a06",
+    "original_bin_hash": "9b523de2a9b0376d5f23901155f60b4c7150e129",
+    "rebuild_bin_hash": "9b523de2a9b0376d5f23901155f60b4c7150e129",
+    "original_elf_hash": "ebbbadf3c9a8b9645d3f948e02c930eb5bf5d283",
+    "rebuild_elf_hash": "ebbbadf3c9a8b9645d3f948e02c930eb5bf5d283",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

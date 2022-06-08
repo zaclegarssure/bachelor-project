@@ -1,0 +1,23 @@
+{
+    "name": "com.cuperino.qprompt",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 79.22586631774902,
+    "cache_size": 78591775,
+    "git_size": 78575312,
+    "dl_size": 0,
+    "original_hash": "8125308bc09233203445727a4b84413eea03bc9d",
+    "rebuild_hash": "bf70e853764e8d648e4444e6bd40ada435eaa546",
+    "original_bin_hash": "4ba65c83933b321aa0438bb03a85a90d1ae9b808",
+    "rebuild_bin_hash": "4baaf8207e34f4877dd66df6d6b2c17e36f9339f",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

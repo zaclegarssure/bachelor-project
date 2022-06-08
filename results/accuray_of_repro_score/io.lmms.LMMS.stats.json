@@ -1,0 +1,31 @@
+{
+    "name": "io.lmms.LMMS",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "be6ad105ee9e5deb96150d18530768246142b22b75b1017452ef546ed79a8c60",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-11 03:38:03+00:00",
+    "timestamp_of_rebuild": 1644550683.0,
+    "git-commit": "645b82035d8defcffcbccf140e6d7b5c3dc4f35c master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.kde.Sdk/x86_64/5.15-21.08": "9df31b3331ac57727df9948cd441fdb06acf9399aa3c29f569ce6762691a9666",
+        "org.kde.Platform/x86_64/5.15-21.08": "949736acaccf05b5172a0d8e8f606700a678817564cf08c5e3f4d133f68fabdd"
+    },
+    "build_time": 929.2582993507385,
+    "cache_size": 57628636,
+    "git_size": 0,
+    "dl_size": 57612173,
+    "bad_files": 3,
+    "total_files": 4115,
+    "repro_score": 0.9992709599027947,
+    "original_hash": "ee1646dab23c98fc23072e7759faaa8fee705282",
+    "rebuild_hash": "dd6a8bace12bd291e70024ed8042c110c4318270",
+    "original_bin_hash": "a0fe06fb365127b9db5c31d626f846b19e5bab1a",
+    "rebuild_bin_hash": "01d26de0172dc06048b46d90e258310f605fa21b",
+    "original_elf_hash": "fdebf7a0a3633aea58112fb2652be883cd047357",
+    "rebuild_elf_hash": "0c4280b7c581ae337ee3755db24d2f6549983e15",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,24 @@
+{
+    "name": "org.gnome.font-viewer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 27.90212368965149,
+    "cache_size": 1055783,
+    "git_size": 0,
+    "dl_size": 1039320,
+    "original_hash": "dfb8043fb7af2ed8aed6b47df94b4fb55f8a6a5a",
+    "rebuild_hash": "93c26904b452944f7fcf5787f89b4ee836d6c8a4",
+    "original_bin_hash": "094869f226936b8c215ffc1b62d4f17f81ca4750",
+    "rebuild_bin_hash": "094869f226936b8c215ffc1b62d4f17f81ca4750",
+    "original_lib_hash": "4b088d29f9a22c7be3083f3afde521caf8d84b33",
+    "rebuild_lib_hash": "4b088d29f9a22c7be3083f3afde521caf8d84b33",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

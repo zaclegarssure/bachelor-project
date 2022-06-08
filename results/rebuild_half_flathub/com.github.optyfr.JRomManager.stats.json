@@ -1,0 +1,24 @@
+{
+    "name": "com.github.optyfr.JRomManager",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 20.87770915031433,
+    "cache_size": 46464027,
+    "git_size": 0,
+    "dl_size": 46447564,
+    "original_hash": "9cf1d652f774fd706dba24255c6ba28f4204f578",
+    "rebuild_hash": "fa0db5ca519e9d249bd18168781740108bc41199",
+    "original_bin_hash": "162fa6788164ab101c34d2678e92e2e765ccbedd",
+    "rebuild_bin_hash": "162fa6788164ab101c34d2678e92e2e765ccbedd",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

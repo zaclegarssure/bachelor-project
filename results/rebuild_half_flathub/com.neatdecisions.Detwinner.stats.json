@@ -1,0 +1,30 @@
+{
+    "name": "com.neatdecisions.Detwinner",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 236.06994724273682,
+    "cache_size": 38512114,
+    "git_size": 0,
+    "dl_size": 38495651,
+    "original_hash": "4bea43833f0cf63614028fb7bccc016beb009a15",
+    "rebuild_hash": "4bea43833f0cf63614028fb7bccc016beb009a15",
+    "original_bin_hash": "e2a9524388b03ab6bd4d91452b4d5a2db1dbf70d",
+    "rebuild_bin_hash": "e2a9524388b03ab6bd4d91452b4d5a2db1dbf70d",
+    "original_lib_hash": "9b5c3f802be63c335a7d31b6f6a19bb0a158d3c1",
+    "rebuild_lib_hash": "9b5c3f802be63c335a7d31b6f6a19bb0a158d3c1",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "cmake",
+        "meson"
+    ]
+}

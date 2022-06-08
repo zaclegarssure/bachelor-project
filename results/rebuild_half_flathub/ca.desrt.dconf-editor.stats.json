@@ -1,0 +1,25 @@
+{
+    "name": "ca.desrt.dconf-editor",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 17.62797451019287,
+    "cache_size": 735075,
+    "git_size": 0,
+    "dl_size": 718612,
+    "original_hash": "f32b6b38884866bb3bb15388732904bbc1a25af5",
+    "rebuild_hash": "a47465879ae83d47c4b2bdac5bbac58aba0bf0c2",
+    "original_bin_hash": "af0a2005e4d24a1d1ffc474f6f82323ca76160bf",
+    "rebuild_bin_hash": "af0a2005e4d24a1d1ffc474f6f82323ca76160bf",
+    "original_lib_hash": "62fc91e7c4b5e4e580582097d5c37af8c312b8af",
+    "rebuild_lib_hash": "62fc91e7c4b5e4e580582097d5c37af8c312b8af",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "simple"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "org.hydrogenmusic.Hydrogen",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "10d1b379d25d27566f7732a08f058ede15ae435ae9c2e4ef63a7cf3aa69ca560",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-26 03:36:24+00:00",
+    "timestamp_of_rebuild": 1648265784.0,
+    "git-commit": "30a3ef4ceb171a91fe2a4cbf1f389ce397145026 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.kde.Sdk/x86_64/5.15-21.08": "90200d8231a60eabc71dc8950ed21e9576a312a503ccb963b02ba14c8a83fa88",
+        "org.kde.Platform/x86_64/5.15-21.08": "77bad058026209fa1bb4509ce155a93be883dbcdca01ef1eb4f65fe1f7ffe877"
+    },
+    "build_time": 195.1443576812744,
+    "cache_size": 23981408,
+    "git_size": 1480301,
+    "dl_size": 22480548,
+    "bad_files": 0,
+    "total_files": 591,
+    "repro_score": 1.0,
+    "original_hash": "8a9e8118444a5bc37416d7ce70488998c17b708c",
+    "rebuild_hash": "8a9e8118444a5bc37416d7ce70488998c17b708c",
+    "original_bin_hash": "3e8c0b19d01d0ede81fd2ecbf99c7d1a5d146cbd",
+    "rebuild_bin_hash": "3e8c0b19d01d0ede81fd2ecbf99c7d1a5d146cbd",
+    "original_elf_hash": "65525aac4e740df89ca0cc0f9825c45ded68705e",
+    "rebuild_elf_hash": "65525aac4e740df89ca0cc0f9825c45ded68705e",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

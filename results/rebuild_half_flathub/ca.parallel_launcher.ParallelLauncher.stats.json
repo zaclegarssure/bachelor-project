@@ -1,0 +1,25 @@
+{
+    "name": "ca.parallel_launcher.ParallelLauncher",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 297.8179705142975,
+    "cache_size": 634033770,
+    "git_size": 634017307,
+    "dl_size": 0,
+    "original_hash": "d9621c5d3cbfa0911cca56c1e0566e724eb56563",
+    "rebuild_hash": "b3756e7827b5eb6801e2cdb9bbb11cd0ea154458",
+    "original_bin_hash": "0d0e62579d25c2e3139c181d09e7bc1d85c95ce4",
+    "rebuild_bin_hash": "dff93553b9e4f1cfda774fe4a6a144093a311e4d",
+    "original_lib_hash": "242f889d70fbca5f758aae61ab4ada822392adbb",
+    "rebuild_lib_hash": "242f889d70fbca5f758aae61ab4ada822392adbb",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "cmake-ninja",
+        "qmake"
+    ]
+}

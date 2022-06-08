@@ -1,0 +1,25 @@
+{
+    "name": "org.syphon.Syphon",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 29.291748523712158,
+    "cache_size": 18877741,
+    "git_size": 680451,
+    "dl_size": 18196775,
+    "original_hash": "0e9d694f7dcba7ba499f1433ed1197d7b1a452fa",
+    "rebuild_hash": "0e9d694f7dcba7ba499f1433ed1197d7b1a452fa",
+    "original_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "rebuild_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "original_lib_hash": "db39c579b1b88731109657607a68fcf23acc0055",
+    "rebuild_lib_hash": "db39c579b1b88731109657607a68fcf23acc0055",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "cmake-ninja",
+        "cmake-ninja",
+        "simple"
+    ]
+}

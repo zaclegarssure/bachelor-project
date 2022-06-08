@@ -1,0 +1,24 @@
+{
+    "name": "com.stremio.Stremio",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 230.61562156677246,
+    "cache_size": 137619141,
+    "git_size": 95937962,
+    "dl_size": 41660620,
+    "original_hash": "3d5d6b6e055c83550ee0559a2905824aa4b512f9",
+    "rebuild_hash": "9c113a35c3a7eec3f01b0509e93de85f31616846",
+    "original_bin_hash": "1d19d3e826f840144fb51a747f2bbe2ebebecec3",
+    "rebuild_bin_hash": "1d19d3e826f840144fb51a747f2bbe2ebebecec3",
+    "original_lib_hash": "964063c0448675be4f3b5323064da295b0789d12",
+    "rebuild_lib_hash": "964063c0448675be4f3b5323064da295b0789d12",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "cmake"
+    ]
+}

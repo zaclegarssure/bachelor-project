@@ -1,0 +1,31 @@
+{
+    "name": "net.sourceforge.liferea",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "cfb171c039829e4b052c602e9753ac1bf5e3e2869d8691ba579ec6a68ae6feba",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-13 17:24:09+00:00",
+    "timestamp_of_rebuild": 1649870649.0,
+    "git-commit": "a9449064ddc16a3ce965860f4d431f44b8d451ce master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 101.73026514053345,
+    "cache_size": 8995778,
+    "git_size": 0,
+    "dl_size": 8979315,
+    "bad_files": 2,
+    "total_files": 294,
+    "repro_score": 0.9931972789115646,
+    "original_hash": "0a637e062256b7725005f824438da7112bdce6ae",
+    "rebuild_hash": "eb8683e4bdf5992eb0b63c120e393e9a420a84d8",
+    "original_bin_hash": "ed6d430dee4cad4783e1217f1af8dd638525d8c9",
+    "rebuild_bin_hash": "a01f55bb02900c2d1c5a3813ad003a0b242cc167",
+    "original_elf_hash": "afc89b58cbeffc10c2da18a23934261001cf7ad7",
+    "rebuild_elf_hash": "afc89b58cbeffc10c2da18a23934261001cf7ad7",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

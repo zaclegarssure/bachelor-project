@@ -1,0 +1,23 @@
+{
+    "name": "com.gitlab.newsflash",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 184.57426571846008,
+    "cache_size": 27813175,
+    "git_size": 0,
+    "dl_size": 27796712,
+    "original_hash": "a4177cae0f24e722011735f3fca16e161a6f2cee",
+    "rebuild_hash": "588fdf9ea98d9354b050f6602263346d754f897f",
+    "original_bin_hash": "17c932dd4fe676bbc85135199802c9b482df1149",
+    "rebuild_bin_hash": "6ee0466962071f11e1e3ad32ef9b79c0713fb339",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

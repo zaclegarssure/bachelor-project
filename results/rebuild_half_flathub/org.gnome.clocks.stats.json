@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.clocks",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 102.3042893409729,
+    "cache_size": 6931334,
+    "git_size": 0,
+    "dl_size": 6914871,
+    "original_hash": "f6f35b7ebaf1aac7e07c7738da1a694f2ac0449f",
+    "rebuild_hash": "581f8e8521f78ac5b7eb5feba853d652c9443a86",
+    "original_bin_hash": "7bc274b2738d55b7668d66a2899f9e590d5e89eb",
+    "rebuild_bin_hash": "7bc274b2738d55b7668d66a2899f9e590d5e89eb",
+    "original_lib_hash": "30de7a1fc4c6ea10ba992d55aebbc290950502f4",
+    "rebuild_lib_hash": "30de7a1fc4c6ea10ba992d55aebbc290950502f4",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

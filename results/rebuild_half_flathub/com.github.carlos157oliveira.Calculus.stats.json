@@ -1,0 +1,24 @@
+{
+    "name": "com.github.carlos157oliveira.Calculus",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 223.44684028625488,
+    "cache_size": 51468174,
+    "git_size": 575458,
+    "dl_size": 50872157,
+    "original_hash": "4d9efb986488a099858afd41559fa35573f23fd2",
+    "rebuild_hash": "b099d334a1640fe7c5a20fb1ac0774dc743a5b37",
+    "original_bin_hash": "5e634b4128104529a7b769278c0cdcdf7dac2b6b",
+    "rebuild_bin_hash": "5e634b4128104529a7b769278c0cdcdf7dac2b6b",
+    "original_lib_hash": "6240b63084b3a5abebb0748ba7c40866c82d4b52",
+    "rebuild_lib_hash": "ed19ce317e4a0c49af47c25cd88d7e79abd016d9",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "meson"
+    ]
+}

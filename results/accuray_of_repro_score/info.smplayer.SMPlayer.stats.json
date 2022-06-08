@@ -1,0 +1,32 @@
+{
+    "name": "info.smplayer.SMPlayer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "cfc0c202d57dfcf08535d77768e7205ad95d4786e459b13a07a876ddf9034641",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-09 08:09:44+00:00",
+    "timestamp_of_rebuild": 1649491784.0,
+    "git-commit": "e100c2aa374ccd9c38421230f20cfcd99622560f master",
+    "flatpak-deps": {
+        "io.qt.qtwebkit.BaseApp/x86_64/5.15-21.08": "b6fd7cdad084f25e4028499307824264c43201786f227b6287f40a665fa219bb",
+        "org.flatpak.Builder/x86_64/stable": "8c905dc8f00b387ed9d3b61e8186b59cffaf66fb8dbb6a8993500e0f2e4ec53e",
+        "org.kde.Sdk/x86_64/5.15-21.08": "ce49c08bc8fa30d0f1c205a3ca379e98829f4f413775d140c474ff039cbb1ae1",
+        "org.kde.Platform/x86_64/5.15-21.08": "3c784b9e2fcc15803d337825f428c71f841c9db330e84e6ece40cbd0f66bdf73"
+    },
+    "build_time": 258.26529240608215,
+    "cache_size": 136016283,
+    "git_size": 99391174,
+    "dl_size": 36604550,
+    "bad_files": 35,
+    "total_files": 412,
+    "repro_score": 0.9150485436893204,
+    "original_hash": "41f1953cff0562c34efe58d4b79c4d014006edad",
+    "rebuild_hash": "79fe68b4fe5365474eddb718c1e314ddd8f397a5",
+    "original_bin_hash": "c593dc4ee12e0888dc670a208252fb47944d8dd4",
+    "rebuild_bin_hash": "c26fba4967c54f250c73c128bd388022d8dfd708",
+    "original_elf_hash": "93095de684cb7c9d44efbe4d8067ab0b189f8b6d",
+    "rebuild_elf_hash": "aa694b82f0d27beac82d2143cead235e0cdf1c51",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

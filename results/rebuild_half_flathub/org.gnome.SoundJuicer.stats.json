@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.SoundJuicer",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 154.52500104904175,
+    "cache_size": 21989258,
+    "git_size": 15208798,
+    "dl_size": 6759901,
+    "original_hash": "73b2e5cfcb0efd9e007cad3efe25af550a7256b8",
+    "rebuild_hash": "73b2e5cfcb0efd9e007cad3efe25af550a7256b8",
+    "original_bin_hash": "4993ba78ff666c4f1c6f992c85d35b04ce9faa0f",
+    "rebuild_bin_hash": "4993ba78ff666c4f1c6f992c85d35b04ce9faa0f",
+    "original_lib_hash": "6106c955d54ea0c7bdb8f4e558d2090d3847993a",
+    "rebuild_lib_hash": "6106c955d54ea0c7bdb8f4e558d2090d3847993a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

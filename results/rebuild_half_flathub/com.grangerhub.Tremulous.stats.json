@@ -1,0 +1,20 @@
+{
+    "name": "com.grangerhub.Tremulous",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 227.4377691745758,
+    "cache_size": 124873749,
+    "git_size": 0,
+    "dl_size": 124857286,
+    "original_hash": "19f18c90e530059b8bb1d0946ba98a5d17902edf",
+    "rebuild_hash": "19f18c90e530059b8bb1d0946ba98a5d17902edf",
+    "original_bin_hash": "07395edfb33fc2bfecd88cbabbc7828cdb991f19",
+    "rebuild_bin_hash": "07395edfb33fc2bfecd88cbabbc7828cdb991f19",
+    "original_lib_hash": "d16c2d9d60b3a3656519fe9ae953a9c9734a4372",
+    "rebuild_lib_hash": "d16c2d9d60b3a3656519fe9ae953a9c9734a4372",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch"
+}

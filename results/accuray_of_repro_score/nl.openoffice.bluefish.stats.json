@@ -1,0 +1,31 @@
+{
+    "name": "nl.openoffice.bluefish",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "1de7b361d7303f1be33c6dce1aa0dc225f3628a4c539bd7fa7ef92a128758fb2",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-06 21:20:58+00:00",
+    "timestamp_of_rebuild": 1644182458.0,
+    "git-commit": "b1151fc6b5a11d0450c0af757d67f9589e962e6e master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.gnome.Sdk/x86_64/41": "ecccb80495350cc4b6cbca854de8249bb1a92e01e80bacb2d492f1c4ff3be533",
+        "org.gnome.Platform/x86_64/41": "b0aed9b5fb8b5e3e1e1badc8711fa34667760cf5ce79b2727b8d8c21d4772577"
+    },
+    "build_time": 34.43914246559143,
+    "cache_size": 4367169,
+    "git_size": 0,
+    "dl_size": 4350706,
+    "bad_files": 0,
+    "total_files": 222,
+    "repro_score": 1.0,
+    "original_hash": "7c210e030f001792abf598c24e48bae3d0492d86",
+    "rebuild_hash": "7c210e030f001792abf598c24e48bae3d0492d86",
+    "original_bin_hash": "307363a2d7aa0937eb1996c9d2bd14acd3e65bc8",
+    "rebuild_bin_hash": "307363a2d7aa0937eb1996c9d2bd14acd3e65bc8",
+    "original_elf_hash": "4be5d4e8821b66c202488c9a392881f48046f7b8",
+    "rebuild_elf_hash": "4be5d4e8821b66c202488c9a392881f48046f7b8",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

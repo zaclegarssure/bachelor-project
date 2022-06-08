@@ -1,0 +1,23 @@
+{
+    "name": "com.github.arshubham.gitignore",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 40.29082465171814,
+    "cache_size": 1856607,
+    "git_size": 417508,
+    "dl_size": 1418540,
+    "original_hash": "962cda468692c41e08ba6b6d9455149ecc2c03f4",
+    "rebuild_hash": "962cda468692c41e08ba6b6d9455149ecc2c03f4",
+    "original_bin_hash": "250439d3aac9f1f95446653b6f4f2f753f143aab",
+    "rebuild_bin_hash": "250439d3aac9f1f95446653b6f4f2f753f143aab",
+    "original_lib_hash": "76ab427af1441a40ae290c0403e5ea3f7daa4765",
+    "rebuild_lib_hash": "76ab427af1441a40ae290c0403e5ea3f7daa4765",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

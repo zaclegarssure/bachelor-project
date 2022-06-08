@@ -1,0 +1,16 @@
+{
+    "name": "org.viking.Viking",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "402f64381cc8002f3258c1c9fb6c751494275a3a4be514aa3b52f3ad373cf662",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-02 20:52:48+00:00",
+    "timestamp_of_rebuild": 1638478368.0,
+    "git-commit": "cca23740c409f1e96ade5e16453b6426c0360cc6 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.gnome.Sdk/x86_64/41": "a7bd7c08861847161bb4095d2a1d1a500b5a2b1180baa4b175b5c27d360a492c",
+        "org.gnome.Platform/x86_64/41": "b317e7f21189832d0b37a8f312e6407eb30a1239af2cc583ac76f58eb468c8bb"
+    }
+}

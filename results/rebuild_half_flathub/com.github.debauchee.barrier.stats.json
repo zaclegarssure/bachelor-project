@@ -1,0 +1,20 @@
+{
+    "name": "com.github.debauchee.barrier",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 349.18872904777527,
+    "cache_size": 19077099,
+    "git_size": 6154320,
+    "dl_size": 12902220,
+    "original_hash": "84eded33d6453b107c2b5539e741aeea44674cdb",
+    "rebuild_hash": "c8a667c62893fd706b189bf25e0ec0a3ec57ce9e",
+    "original_bin_hash": "147164e849bc25044c514f24611ecec699432885",
+    "rebuild_bin_hash": "0cf3d446427e7dc604ddfac04febbe70ec19cb4b",
+    "original_lib_hash": "bc33cdd084a6c29a8793bd6c1e035cae3c4dfd96",
+    "rebuild_lib_hash": "a7333d7d17baf7e045799f368b75139fab5b3850",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

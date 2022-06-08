@@ -1,0 +1,28 @@
+{
+    "name": "org.pjbroad.EternallandsClient",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 165.6511526107788,
+    "cache_size": 264370819,
+    "git_size": 3820701,
+    "dl_size": 260549073,
+    "original_hash": "785e4ca140172eed5ea0d293989b32c332adc0fb",
+    "rebuild_hash": "785e4ca140172eed5ea0d293989b32c332adc0fb",
+    "original_bin_hash": "7f48a4ac8598c7fab7ed02dbf81c7077db2a7c94",
+    "rebuild_bin_hash": "7f48a4ac8598c7fab7ed02dbf81c7077db2a7c94",
+    "original_lib_hash": "22d1f58a32df9f9d081ae21045f76a2145fda74d",
+    "rebuild_lib_hash": "22d1f58a32df9f9d081ae21045f76a2145fda74d",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "cmake",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

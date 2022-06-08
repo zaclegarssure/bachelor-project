@@ -1,0 +1,23 @@
+{
+    "name": "com.endlessnetwork.tankwarriors",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 62.121347427368164,
+    "cache_size": 105884162,
+    "git_size": 6264740,
+    "dl_size": 99598863,
+    "original_hash": "1e2f32d5f027e5c46ac806234fc0d6d8938ef280",
+    "rebuild_hash": "1e2f32d5f027e5c46ac806234fc0d6d8938ef280",
+    "original_bin_hash": "27eaf3e8327124b19bb2cfe44355ff2f88eb9be2",
+    "rebuild_bin_hash": "27eaf3e8327124b19bb2cfe44355ff2f88eb9be2",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

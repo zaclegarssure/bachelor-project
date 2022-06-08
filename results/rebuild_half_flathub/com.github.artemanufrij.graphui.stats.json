@@ -1,0 +1,23 @@
+{
+    "name": "com.github.artemanufrij.graphui",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 37.99204730987549,
+    "cache_size": 1615379,
+    "git_size": 0,
+    "dl_size": 1598916,
+    "original_hash": "0209233ad10d14dc082bfbf6f92d32c9cd9240e1",
+    "rebuild_hash": "676ae955a6bb1fc319598def361b2d08e74431aa",
+    "original_bin_hash": "6466abeab3ddded8179d4d9c280df486bb77e4f6",
+    "rebuild_bin_hash": "6466abeab3ddded8179d4d9c280df486bb77e4f6",
+    "original_lib_hash": "ad6dd30744e8796e4cd4763396789543a7d36a47",
+    "rebuild_lib_hash": "ad6dd30744e8796e4cd4763396789543a7d36a47",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

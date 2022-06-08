@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Photos",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 239.88749599456787,
+    "cache_size": 57065388,
+    "git_size": 0,
+    "dl_size": 57048925,
+    "original_hash": "12e4030057719d8c040263da42bb38cc63412de0",
+    "rebuild_hash": "e671be39bb4daec142350d9b56c3431a3da69d12",
+    "original_bin_hash": "c571a71b6dae7f01d90ca895218d61575f8b1e62",
+    "rebuild_bin_hash": "c571a71b6dae7f01d90ca895218d61575f8b1e62",
+    "original_lib_hash": "88e080450239ab33b92d2ff798aa061a9d4dcf71",
+    "rebuild_lib_hash": "00a632eb9d603b4cc0cfe6ca15b404ae4e21a2a3",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

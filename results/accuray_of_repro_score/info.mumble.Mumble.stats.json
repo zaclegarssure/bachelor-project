@@ -1,0 +1,31 @@
+{
+    "name": "info.mumble.Mumble",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "eb8561812a1451235ec54a79bced3f0063ef1624d08422fbf9ca4cbfadf61f24",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-24 11:58:17+00:00",
+    "timestamp_of_rebuild": 1645703897.0,
+    "git-commit": "ac562bdca5764dd10f0b53dff323984f03af53a1 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "2c858c72b807bdee3e9edc8a64a05c771e3fbad051ea76421aaf7a4d6265ca5b",
+        "org.kde.Sdk/x86_64/5.15-21.08": "daddf8e306dd37425b46ba6a5251b3fcb5cc273ec89fa3f33d0b54b657386e3c",
+        "org.kde.Platform/x86_64/5.15-21.08": "6ead3f696bd8683fa7b84f75e71c06670b9c27983b9d11e673e744ed7d8e16a9"
+    },
+    "build_time": 559.5563771724701,
+    "cache_size": 194957135,
+    "git_size": 73664038,
+    "dl_size": 121272538,
+    "bad_files": 1,
+    "total_files": 174,
+    "repro_score": 0.9942528735632183,
+    "original_hash": "48c285094a8e24e3b8063a6c21ff94b737e09124",
+    "rebuild_hash": "9a923abea17c46cd953b286994b3df678d2d9fc0",
+    "original_bin_hash": "c631ad6548fb53d814c32040bf0b3d89fdb22129",
+    "rebuild_bin_hash": "3cda0b55879a69c4783da61b13bf82b8f04bcd25",
+    "original_elf_hash": "077cec925696c38fd6e9fa687b6cdd54db9d00ce",
+    "rebuild_elf_hash": "8fd76ac4cd0004fd6869bdad36d9d31d240cccf6",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

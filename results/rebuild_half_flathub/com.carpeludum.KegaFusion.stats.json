@@ -1,0 +1,20 @@
+{
+    "name": "com.carpeludum.KegaFusion",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 154.08127188682556,
+    "cache_size": 20761968,
+    "git_size": 0,
+    "dl_size": 20745505,
+    "original_hash": "1671cc46201fd0fabf9b43070c22077ba848768d",
+    "rebuild_hash": "e3759c99cb097611534e5de11927d20e3cc9db35",
+    "original_bin_hash": "9dad095aaa1e05de92f719286171cad91ce8ba98",
+    "rebuild_bin_hash": "9dad095aaa1e05de92f719286171cad91ce8ba98",
+    "original_lib_hash": "fde0cb47d8b0b6024727c51491da8b2f139d0221",
+    "rebuild_lib_hash": "fde0cb47d8b0b6024727c51491da8b2f139d0221",
+    "original_lib32_hash": "ec77e618fd55df3c91e09bb542de855d2132a0ba",
+    "rebuild_lib32_hash": "7f83258d7901032f83177c9c00e5dbb8d850e8cd",
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

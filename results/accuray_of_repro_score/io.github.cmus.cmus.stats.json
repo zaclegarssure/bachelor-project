@@ -1,0 +1,31 @@
+{
+    "name": "io.github.cmus.cmus",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "f18524bf8957845190f793e66490cce5f247f4a78c6fbe12721c501f3a0ed3dc",
+    "branch": "stable",
+    "time_of_rebuild": "2022-01-11 02:51:37+00:00",
+    "timestamp_of_rebuild": 1641869497.0,
+    "git-commit": "0331ca394b76c1a55804e2ffaad8ee880b6fb941 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "eac721c9bbe90491973e1b59f0b7d6ba3d6a56f8208ee9df6d027e76399e8f59",
+        "org.freedesktop.Sdk/x86_64/21.08": "ae7e576a0187591ab0931eec30ea68d9907aacc16dc8bd7e6b2a96b73df6f18a",
+        "org.freedesktop.Platform/x86_64/21.08": "b27db466e56f7e49e794656b84153c8b81f929ca8b5b8400142b19bb48b9a63d"
+    },
+    "build_time": 139.16367721557617,
+    "cache_size": 7828450,
+    "git_size": 0,
+    "dl_size": 7811987,
+    "bad_files": 2,
+    "total_files": 98,
+    "repro_score": 0.9795918367346939,
+    "original_hash": "f4e67a99018ad2ddd029b9fb75f718ad544bb0b8",
+    "rebuild_hash": "077288c90bd7eb9bc37bce9962b7b56df0d168d1",
+    "original_bin_hash": "10f43f8755ce21b39664be70c7afa3abcb839dd4",
+    "rebuild_bin_hash": "83cc2158f4eb510f4ba11b1baf847b9400040ae2",
+    "original_elf_hash": "2c9b9b1da66ea95c44b47d623c64de7c5fcdb7b1",
+    "rebuild_elf_hash": "3eb22dbf6791a4f4b33b06100ddbc6e8dff2f1d0",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

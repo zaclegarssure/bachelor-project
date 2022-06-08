@@ -1,0 +1,20 @@
+{
+    "name": "com.giadamusic.Giada",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 216.5530149936676,
+    "cache_size": 13570465,
+    "git_size": 0,
+    "dl_size": 13554002,
+    "original_hash": "92df5009b43ac42ffad49587d44507e31b5fff1e",
+    "rebuild_hash": "d5d6e302d52b4c198be845e946abc3fe3a121495",
+    "original_bin_hash": "336b855a32f0e9d8f97eab52c330f01887d5d02a",
+    "rebuild_bin_hash": "36dce731a7ca81852b1c41aa5b01c8f05d678c0b",
+    "original_lib_hash": "fafa864b55323e262e6ed137fece6eac1eccef51",
+    "rebuild_lib_hash": "fafa864b55323e262e6ed137fece6eac1eccef51",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

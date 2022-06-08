@@ -1,0 +1,31 @@
+{
+    "name": "io.openrct2.OpenRCT2",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "2b49a12ff41acc9a96ac5642db8b1ed50b1dda0b8196e8496cc4d9eb5c75e8d0",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-16 12:23:45+00:00",
+    "timestamp_of_rebuild": 1652703825.0,
+    "git-commit": "b49cb1f69c0db0fb954a6cf28a0ee78bd3a176bc master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 402.6285104751587,
+    "cache_size": 143961768,
+    "git_size": 18836636,
+    "dl_size": 125104573,
+    "bad_files": 0,
+    "total_files": 2281,
+    "repro_score": 1.0,
+    "original_hash": "f69bccdf3b206b296cc22c778ed5d31d898dc68a",
+    "rebuild_hash": "f69bccdf3b206b296cc22c778ed5d31d898dc68a",
+    "original_bin_hash": "616cf37ab36e255bdd598987d175672c81f50178",
+    "rebuild_bin_hash": "616cf37ab36e255bdd598987d175672c81f50178",
+    "original_elf_hash": "7f89afd7b0da58c4c92f9b48a1c5037127bc40fe",
+    "rebuild_elf_hash": "7f89afd7b0da58c4c92f9b48a1c5037127bc40fe",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

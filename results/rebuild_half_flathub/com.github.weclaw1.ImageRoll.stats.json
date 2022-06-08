@@ -1,0 +1,23 @@
+{
+    "name": "com.github.weclaw1.ImageRoll",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 290.36799359321594,
+    "cache_size": 15453590,
+    "git_size": 1859635,
+    "dl_size": 13557012,
+    "original_hash": "869d0737aecfbb36389d3d339e12ff959a0e98f5",
+    "rebuild_hash": "869d0737aecfbb36389d3d339e12ff959a0e98f5",
+    "original_bin_hash": "a8cd460546bfee817f340d2d2b2614f17b8cf0a3",
+    "rebuild_bin_hash": "a8cd460546bfee817f340d2d2b2614f17b8cf0a3",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

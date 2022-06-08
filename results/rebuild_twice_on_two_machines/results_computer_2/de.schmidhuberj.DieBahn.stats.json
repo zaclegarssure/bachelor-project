@@ -1,0 +1,10 @@
+{
+    "name": "de.schmidhuberj.DieBahn",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "fb4a2d20868201e177803002b95d849c0b0efcefb9d91b533d1d603441cb95be",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-09 09:12:55+00:00",
+    "timestamp_of_rebuild": 1649495575.0
+}

@@ -1,0 +1,24 @@
+{
+    "name": "org.gnome.Glade",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 39.138691425323486,
+    "cache_size": 4515371,
+    "git_size": 0,
+    "dl_size": 4498908,
+    "original_hash": "403479ce02c31a13d21a133a54edd88fc8b1651a",
+    "rebuild_hash": "403479ce02c31a13d21a133a54edd88fc8b1651a",
+    "original_bin_hash": "4e18f0d2dafb2866720a34f3acf8adc799caf9c1",
+    "rebuild_bin_hash": "4e18f0d2dafb2866720a34f3acf8adc799caf9c1",
+    "original_lib_hash": "46923ca5fce6d691e120f2256c7237ede3c3cb8a",
+    "rebuild_lib_hash": "46923ca5fce6d691e120f2256c7237ede3c3cb8a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

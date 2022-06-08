@@ -1,0 +1,19 @@
+{
+    "name": "com.giuspen.cherrytree",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "cmake",
+        "cmake",
+        "cmake",
+        "cmake-ninja",
+        "simple"
+    ]
+}

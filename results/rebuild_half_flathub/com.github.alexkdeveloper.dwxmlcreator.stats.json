@@ -1,0 +1,23 @@
+{
+    "name": "com.github.alexkdeveloper.dwxmlcreator",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 4.778610944747925,
+    "cache_size": 182792,
+    "git_size": 166329,
+    "dl_size": 0,
+    "original_hash": "e3bf7bad7391aa2e26f1dc1f772d82063dac267d",
+    "rebuild_hash": "e3bf7bad7391aa2e26f1dc1f772d82063dac267d",
+    "original_bin_hash": "9d9918dbdc3a4b2ed8d441276d1d4fad210cc979",
+    "rebuild_bin_hash": "9d9918dbdc3a4b2ed8d441276d1d4fad210cc979",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

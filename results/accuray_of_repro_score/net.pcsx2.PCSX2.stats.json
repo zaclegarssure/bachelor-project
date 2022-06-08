@@ -1,0 +1,31 @@
+{
+    "name": "net.pcsx2.PCSX2",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "1a54329f10b76bb259602889afaf6d7f0f23e3f0b08ae75c433d7bca9b5c836c",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-29 00:38:16+00:00",
+    "timestamp_of_rebuild": 1653784696.0,
+    "git-commit": "ac04e9abd835ab5eddedd043551e5ed44ecde1d0 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 523.5035767555237,
+    "cache_size": 319845166,
+    "git_size": 319384335,
+    "dl_size": 440272,
+    "bad_files": 2,
+    "total_files": 106,
+    "repro_score": 0.9811320754716981,
+    "original_hash": "4655facdf366b1e9e5d6e742c294f06ba2ff4414",
+    "rebuild_hash": "a1c900611818e9fd4c80012e27a158019ccfeda7",
+    "original_bin_hash": "60396ffc8232e4cb6bc176837ec9ac439f61c4d5",
+    "rebuild_bin_hash": "723797b8686940d86adf5f89de58b5a980be3015",
+    "original_elf_hash": "e2f62236be4947a509fb7d94a3e645eca1a59c28",
+    "rebuild_elf_hash": "b9e19ac1108c5b96838c2ebbe9bf7f20a2a34b35",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

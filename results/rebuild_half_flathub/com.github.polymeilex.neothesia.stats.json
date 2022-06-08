@@ -1,0 +1,23 @@
+{
+    "name": "com.github.polymeilex.neothesia",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 121.53090238571167,
+    "cache_size": 51411198,
+    "git_size": 26532133,
+    "dl_size": 24825738,
+    "original_hash": "b7a118ac5e309ceed943b0c2b3c867539bd3b294",
+    "rebuild_hash": "23561b25990110faf6c9f120fb5e4c10137b158e",
+    "original_bin_hash": "4a842ad3e561a99759b8ea3a479ce6693b950b44",
+    "rebuild_bin_hash": "4a842ad3e561a99759b8ea3a479ce6693b950b44",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "com.github.rogercrocker.badabib",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 6.903815269470215,
+    "cache_size": 2504607,
+    "git_size": 1497180,
+    "dl_size": 986868,
+    "original_hash": "b44529452b3e6711d5465c5bbbdb99d2a4ac62ae",
+    "rebuild_hash": "b44529452b3e6711d5465c5bbbdb99d2a4ac62ae",
+    "original_bin_hash": "6082420c19c5e8b0aa6b2c82cf8b8e4e90ee1ec8",
+    "rebuild_bin_hash": "6082420c19c5e8b0aa6b2c82cf8b8e4e90ee1ec8",
+    "original_lib_hash": "28eab01f48000fc1b6749462c52eba3027cc7a17",
+    "rebuild_lib_hash": "28eab01f48000fc1b6749462c52eba3027cc7a17",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "meson"
+    ]
+}

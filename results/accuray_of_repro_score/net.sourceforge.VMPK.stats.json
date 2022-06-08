@@ -1,0 +1,31 @@
+{
+    "name": "net.sourceforge.VMPK",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "5a1e65bf994af9f76f10875277e489d84b4d5002bc9b639583a98169545ababa",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-05 04:48:41+00:00",
+    "timestamp_of_rebuild": 1649134121.0,
+    "git-commit": "12a7f648ba9488af4c6a93d2a02bd497213070ff master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.kde.Sdk/x86_64/6.2": "176ab0279cf54bae5bdf16ab1e2ab4810553ee4015c94005c364de08ab059f83",
+        "org.kde.Platform/x86_64/6.2": "af170040317c8eed82925ab7b06d1fbd494e6a95a521076bc80a71e1d4f3483d"
+    },
+    "build_time": 59.36026477813721,
+    "cache_size": 3739738,
+    "git_size": 0,
+    "dl_size": 3723275,
+    "bad_files": 3,
+    "total_files": 72,
+    "repro_score": 0.9583333333333334,
+    "original_hash": "c96dc1b6d3ef0b6b91b02a8fe6a1bd5d49a04649",
+    "rebuild_hash": "be282762940f9d6a40490b7aec47a23c95c2a10a",
+    "original_bin_hash": "3417d4d614ef5f53084f10be56bee1940be058ba",
+    "rebuild_bin_hash": "3cf4c11f76d727e8e6be7431a6a8dee680a573d7",
+    "original_elf_hash": "4a2a1b7a13f7448d8f76fe8f20c2aaba3914380e",
+    "rebuild_elf_hash": "de78925a9baf5cdf5a46e43cc7f18c0c57cf5235",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

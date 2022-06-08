@@ -1,0 +1,23 @@
+{
+    "name": "org.sugarlabs.Finance",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 8.090353965759277,
+    "cache_size": 274328,
+    "git_size": 274059,
+    "dl_size": 0,
+    "original_hash": "42b25bac00d768b020a665d5b41a79c131fcd1f3",
+    "rebuild_hash": "42b25bac00d768b020a665d5b41a79c131fcd1f3",
+    "original_bin_hash": "a6575aa72d8bb2f909da88ec49ca667a16cfb6eb",
+    "rebuild_bin_hash": "a6575aa72d8bb2f909da88ec49ca667a16cfb6eb",
+    "original_lib_hash": "06001a0e40c7811ef78044144e64be3e5aec92a5",
+    "rebuild_lib_hash": "06001a0e40c7811ef78044144e64be3e5aec92a5",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple"
+    ]
+}

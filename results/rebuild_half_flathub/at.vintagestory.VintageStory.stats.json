@@ -1,0 +1,24 @@
+{
+    "name": "at.vintagestory.VintageStory",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 54.599446058273315,
+    "cache_size": 2356682,
+    "git_size": 0,
+    "dl_size": 2340219,
+    "original_hash": "bfc190e28df21e58e5162b3a8912c107d7929c36",
+    "rebuild_hash": "bfc190e28df21e58e5162b3a8912c107d7929c36",
+    "original_bin_hash": "d110af47e58d630f70d9fa3681943a825e74547c",
+    "rebuild_bin_hash": "d110af47e58d630f70d9fa3681943a825e74547c",
+    "original_lib_hash": "4c6b504c8b67d808ab9bfb7da8cd0cbd8481c799",
+    "rebuild_lib_hash": "4c6b504c8b67d808ab9bfb7da8cd0cbd8481c799",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

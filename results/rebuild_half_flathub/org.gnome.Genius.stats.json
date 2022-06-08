@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Genius",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 137.9149250984192,
+    "cache_size": 9660807,
+    "git_size": 0,
+    "dl_size": 9644344,
+    "original_hash": "1607186692b26c54fbc5b8a76b8fb8a3d3833bd0",
+    "rebuild_hash": "6610481055efab46f691af806d56db3da16835e5",
+    "original_bin_hash": "2363a68e15d8f803d97647971507f66049d95925",
+    "rebuild_bin_hash": "2363a68e15d8f803d97647971507f66049d95925",
+    "original_lib_hash": "565a7de9bb29492f2f902c1bf310ca559f1fa9c2",
+    "rebuild_lib_hash": "565a7de9bb29492f2f902c1bf310ca559f1fa9c2",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

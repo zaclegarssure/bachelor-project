@@ -1,0 +1,23 @@
+{
+    "name": "org.qxmledit.QXmlEdit",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 197.4239821434021,
+    "cache_size": 22360972,
+    "git_size": 22360713,
+    "dl_size": 0,
+    "original_hash": "0c62ed3c6cfaef18821ed77c8060f6b0969658c6",
+    "rebuild_hash": "49c157e7716a4bbddd9fe45417d764091fc0e989",
+    "original_bin_hash": "7bd2efe1ab9cff00802d5e26b0a1743959551fa5",
+    "rebuild_bin_hash": "50d5606eb9e18fcc51e2e6b2e73fcee1d91dfa05",
+    "original_lib_hash": "1b8aed698f7706833855d23753ebbe2a3533a669",
+    "rebuild_lib_hash": "1bbb5b206c01f249491c32e3ea9667be088ac3ed",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "qmake"
+    ]
+}

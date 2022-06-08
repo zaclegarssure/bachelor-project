@@ -1,0 +1,21 @@
+{
+    "name": "com.github.tenderowl.norka",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 556.7469069957733,
+    "cache_size": 21154254,
+    "git_size": 11301067,
+    "dl_size": 9832628,
+    "original_hash": "cf7c341f42a20ad598ddfc3f729a268ff86d985f",
+    "rebuild_hash": "573054fadf478138dda945ac4717b0385acd0afb",
+    "original_bin_hash": "7ff35c22fdbdfa0764e6b986331157c27b46b6a6",
+    "rebuild_bin_hash": "7ff35c22fdbdfa0764e6b986331157c27b46b6a6",
+    "original_lib_hash": "199330c8a9f3bfe49ae4ad87485c149d4360f241",
+    "rebuild_lib_hash": "5c2e949e03ab8b1fe66851c091ee6ac6e95ff47c",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "diffoscope_failed": true,
+    "machine": "laptop-arch"
+}

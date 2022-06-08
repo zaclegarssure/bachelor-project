@@ -1,0 +1,25 @@
+{
+    "name": "com.rafaelmardojai.WebfontKitGenerator",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 33.10377645492554,
+    "cache_size": 5745853,
+    "git_size": 335818,
+    "dl_size": 5389476,
+    "original_hash": "3e3c42008ca83a284c7daed7700732c57dd734d1",
+    "rebuild_hash": "90b56e71e410ec7e32a58887bc686208185ecd77",
+    "original_bin_hash": "0729e88526541ed55bca2dc36f883fbcc35388c3",
+    "rebuild_bin_hash": "0729e88526541ed55bca2dc36f883fbcc35388c3",
+    "original_lib_hash": "55e162ae0cbbde5ccc5ca96310b4642e34ef99e9",
+    "rebuild_lib_hash": "17bed1870bece21024493f8f903ca8fa00bfbbf4",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

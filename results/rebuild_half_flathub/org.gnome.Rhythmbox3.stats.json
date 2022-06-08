@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Rhythmbox3",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 219.2421007156372,
+    "cache_size": 15957662,
+    "git_size": 12820237,
+    "dl_size": 3116866,
+    "original_hash": "64c4b25cf059ff6d3f5d59bed9ba64d65fc5c3eb",
+    "rebuild_hash": "64c4b25cf059ff6d3f5d59bed9ba64d65fc5c3eb",
+    "original_bin_hash": "db3e5647df4941f7ac7f12530103540a83986107",
+    "rebuild_bin_hash": "db3e5647df4941f7ac7f12530103540a83986107",
+    "original_lib_hash": "a0690a70d7216b59f5a948fb2712d540c602f479",
+    "rebuild_lib_hash": "a0690a70d7216b59f5a948fb2712d540c602f479",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

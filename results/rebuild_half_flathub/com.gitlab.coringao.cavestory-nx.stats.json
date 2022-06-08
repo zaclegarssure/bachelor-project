@@ -1,0 +1,23 @@
+{
+    "name": "com.gitlab.coringao.cavestory-nx",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 35.87738490104675,
+    "cache_size": 78435972,
+    "git_size": 78419509,
+    "dl_size": 0,
+    "original_hash": "5441f954b502aff2311b88de761e5be0073c1766",
+    "rebuild_hash": "e3be0520a1f8bb03c1e3f9ad578ebef351595d5c",
+    "original_bin_hash": "a9b551e84d45e9c82242dd714729b4947b0273f8",
+    "rebuild_bin_hash": "a9b551e84d45e9c82242dd714729b4947b0273f8",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

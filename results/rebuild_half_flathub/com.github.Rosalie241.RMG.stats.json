@@ -1,0 +1,23 @@
+{
+    "name": "com.github.Rosalie241.RMG",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 136.5364055633545,
+    "cache_size": 56338994,
+    "git_size": 54221983,
+    "dl_size": 2096452,
+    "original_hash": "959ad17673383e23af53521991409143fce0b2b5",
+    "rebuild_hash": "e67206ceb2480eef603cf0479c183314710485ab",
+    "original_bin_hash": "f6ffb276e6e420fdaf07bee7eeec787ded10da32",
+    "rebuild_bin_hash": "369f1f8e1c37536e3f975b9ee99f8a098c0de19c",
+    "original_lib_hash": "683e613f75fbbb6c3a2c9d9b69188e3ff6e172a4",
+    "rebuild_lib_hash": "c84dbb2868231de2e06df07cc1ff5c1f3bda3b06",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake"
+    ]
+}

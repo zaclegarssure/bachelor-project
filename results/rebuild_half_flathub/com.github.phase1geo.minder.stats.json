@@ -1,0 +1,26 @@
+{
+    "name": "com.github.phase1geo.minder",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 79.38801074028015,
+    "cache_size": 4638202,
+    "git_size": 1554382,
+    "dl_size": 3063261,
+    "original_hash": "7af36bc7ede3fee5ca30f7edff5e70468dd1f21f",
+    "rebuild_hash": "7af36bc7ede3fee5ca30f7edff5e70468dd1f21f",
+    "original_bin_hash": "b9e1f22b574443773cbac758b5b42a0492d9eafc",
+    "rebuild_bin_hash": "b9e1f22b574443773cbac758b5b42a0492d9eafc",
+    "original_lib_hash": "572a95558a612efc401566669e1b39d9b83a3cc3",
+    "rebuild_lib_hash": "572a95558a612efc401566669e1b39d9b83a3cc3",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

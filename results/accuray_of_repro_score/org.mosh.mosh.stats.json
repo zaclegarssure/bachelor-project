@@ -1,0 +1,31 @@
+{
+    "name": "org.mosh.mosh",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "0aab09e6c87c90fca24cbfe42f2c990f17b583b3fcd36b60b8e91cdb56fb3f0e",
+    "branch": "stable",
+    "time_of_rebuild": "2021-10-25 20:25:09+00:00",
+    "timestamp_of_rebuild": 1635193509.0,
+    "git-commit": "a0fec5a6ff22cdf73b22b11a7821165c81dfeeba master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/21.08": "1fad7974d6fe02c6ac83e3e804e0317f4d8d3528dcd5087002e1b501ddadbb6b",
+        "org.freedesktop.Platform/x86_64/21.08": "16d161d8a71701b80fa4bca12812a22c19dc0641b3571fe88c517c84da94c5b5"
+    },
+    "build_time": 329.4555969238281,
+    "cache_size": 20421488,
+    "git_size": 0,
+    "dl_size": 20405025,
+    "bad_files": 5,
+    "total_files": 1332,
+    "repro_score": 0.9962462462462462,
+    "original_hash": "23b6e6c15a65791bc47d772a5f62845218f0bba2",
+    "rebuild_hash": "185ef634881dff92fedc3f021cffc6cdb9fd1742",
+    "original_bin_hash": "062aba2af13c6fe61c672101ca48a6f7fefb8799",
+    "rebuild_bin_hash": "762e8832d327a15f44065a852372de843e3cec8c",
+    "original_elf_hash": "1c5f61e32316b78eae90407aba799b38d1ba17ac",
+    "rebuild_elf_hash": "cba80f26d6a41d2238945d6e33a81503b92b7e6d",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

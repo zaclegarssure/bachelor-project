@@ -1,0 +1,25 @@
+{
+    "name": "com.github.buddhi1980.mandelbulber2",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 394.5696077346802,
+    "cache_size": 150437175,
+    "git_size": 142298593,
+    "dl_size": 8118023,
+    "original_hash": "507af239a355ee0088f27f644cead03d1e373d01",
+    "rebuild_hash": "5acc8049e666c584922cbff114b5c95d7cb4362a",
+    "original_bin_hash": "c8ce5892384173451b0630b0f4888c737a28c9cc",
+    "rebuild_bin_hash": "bbec7c3f3e463279468b658ee73c9b3476c56d05",
+    "original_lib_hash": "da3d095d838f4a5e9c89cb04249a3cf5c16542c8",
+    "rebuild_lib_hash": "da3d095d838f4a5e9c89cb04249a3cf5c16542c8",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake",
+        "cmake",
+        "qmake"
+    ]
+}

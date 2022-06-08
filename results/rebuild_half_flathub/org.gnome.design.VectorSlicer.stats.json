@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.design.VectorSlicer",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 92.7557144165039,
+    "cache_size": 72781625,
+    "git_size": 49601888,
+    "dl_size": 23142794,
+    "original_hash": "0a2a5a0fd1f65a50289f7817998bc8e85690a489",
+    "rebuild_hash": "0a2a5a0fd1f65a50289f7817998bc8e85690a489",
+    "original_bin_hash": "36e36a536e3871b01608bd35b4d9d350c7ef39a8",
+    "rebuild_bin_hash": "36e36a536e3871b01608bd35b4d9d350c7ef39a8",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

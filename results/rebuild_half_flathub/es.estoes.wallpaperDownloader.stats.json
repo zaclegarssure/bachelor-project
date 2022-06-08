@@ -1,0 +1,23 @@
+{
+    "name": "es.estoes.wallpaperDownloader",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 42.798001289367676,
+    "cache_size": 28633787,
+    "git_size": 0,
+    "dl_size": 28584556,
+    "original_hash": "9b8f7529244080335e1bb83f1ef666235daecf0c",
+    "rebuild_hash": "429c6a7d5042c029e12c60546dc280c6ca344f1e",
+    "original_bin_hash": "b6d63204eb3db93f972ce80a0c1fa3a62d6eda37",
+    "rebuild_bin_hash": "b6d63204eb3db93f972ce80a0c1fa3a62d6eda37",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

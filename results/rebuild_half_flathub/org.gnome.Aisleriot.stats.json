@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Aisleriot",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 278.6617097854614,
+    "cache_size": 21837665,
+    "git_size": 7315615,
+    "dl_size": 14501491,
+    "original_hash": "2612280c9fbd413421016dbe24119e7fd0119239",
+    "rebuild_hash": "f6229ea8f1ab4968d8b06b07b552005ee90759e0",
+    "original_bin_hash": "a66440efaf6df87e291dc6cab571f75585a04617",
+    "rebuild_bin_hash": "a66440efaf6df87e291dc6cab571f75585a04617",
+    "original_lib_hash": "74df327c42812777789453f102e867baf8520510",
+    "rebuild_lib_hash": "1c2c939588b264d4757f0b98877c356241af7df8",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

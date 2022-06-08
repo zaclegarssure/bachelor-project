@@ -1,0 +1,23 @@
+{
+    "name": "com.sigil_ebook.Sigil",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 480.62083745002747,
+    "cache_size": 92941963,
+    "git_size": 272874,
+    "dl_size": 92648530,
+    "original_hash": "0bec81cb97e3ef5a415acdf51eb5e518ff8652b7",
+    "rebuild_hash": "0e58f1811f8e67fd0c5f4ea39bcc29220e441eef",
+    "original_bin_hash": "d56172c58f2feb6cbdb495e1ab80c41e46ed5028",
+    "rebuild_bin_hash": "d56172c58f2feb6cbdb495e1ab80c41e46ed5028",
+    "original_lib_hash": "09070ce34139aeb7a4a52acc4aa3738b770fafde",
+    "rebuild_lib_hash": "bd954d0e6db4a197603c9b1e3eba3bd6e6d4d39a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "com.behringer.XAirEdit",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 19.179904460906982,
+    "cache_size": 217749,
+    "git_size": 201286,
+    "dl_size": 0,
+    "original_hash": "013de3d72476094dac781a921079592f79fc9658",
+    "rebuild_hash": "013de3d72476094dac781a921079592f79fc9658",
+    "original_bin_hash": "81bd0efe618927a5627cf0dfabfd7a6337977e95",
+    "rebuild_bin_hash": "81bd0efe618927a5627cf0dfabfd7a6337977e95",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

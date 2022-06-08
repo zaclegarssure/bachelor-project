@@ -1,0 +1,23 @@
+{
+    "name": "com.github.dail8859.NotepadNext",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 51.861613750457764,
+    "cache_size": 16934751,
+    "git_size": 16918288,
+    "dl_size": 0,
+    "original_hash": "73e4fa330e53d868282612df745f6a17b0023e21",
+    "rebuild_hash": "300a35ba1b2dd11e2de1290a584998818adf091c",
+    "original_bin_hash": "90e6b3b864bfc61f208fdd899ac785834f41c895",
+    "rebuild_bin_hash": "02a9f961c9af58474995080036f8343e4bcb6296",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

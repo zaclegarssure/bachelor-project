@@ -1,0 +1,23 @@
+{
+    "name": "com.emqx.MQTTX",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 23.65021824836731,
+    "cache_size": 94083074,
+    "git_size": 0,
+    "dl_size": 94066611,
+    "original_hash": "7825030592a98e2b43ba75d9d81a28e90205310a",
+    "rebuild_hash": "7825030592a98e2b43ba75d9d81a28e90205310a",
+    "original_bin_hash": "1f67a4d3c1e35d3422e7b27ed2cfcff993f28311",
+    "rebuild_bin_hash": "1f67a4d3c1e35d3422e7b27ed2cfcff993f28311",
+    "original_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "rebuild_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

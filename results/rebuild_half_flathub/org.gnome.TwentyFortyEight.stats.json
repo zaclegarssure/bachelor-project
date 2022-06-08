@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.TwentyFortyEight",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 110.4518620967865,
+    "cache_size": 8095427,
+    "git_size": 0,
+    "dl_size": 8078964,
+    "original_hash": "eaf369110793c7ab593c7abc309d22fc8784437a",
+    "rebuild_hash": "eaf369110793c7ab593c7abc309d22fc8784437a",
+    "original_bin_hash": "68766e070e93de0a9a574baa34c161c609f13d89",
+    "rebuild_bin_hash": "68766e070e93de0a9a574baa34c161c609f13d89",
+    "original_lib_hash": "52bc48d640febbbeca41261ad6a25b4411ee67ac",
+    "rebuild_lib_hash": "52bc48d640febbbeca41261ad6a25b4411ee67ac",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

@@ -1,0 +1,27 @@
+{
+    "name": "org.gnome.gitlab.somas.Apostrophe",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 155.71100497245789,
+    "cache_size": 119782910,
+    "git_size": 99757701,
+    "dl_size": 20004650,
+    "original_hash": "0e985762333c66674a90d92dce260fa54f964027",
+    "rebuild_hash": "5b6651364a9ddc2418886c5389ac69684f3d1d26",
+    "original_bin_hash": "ed8c61b1c2d75c83a894cd4159f219a8349afc1e",
+    "rebuild_bin_hash": "ed8c61b1c2d75c83a894cd4159f219a8349afc1e",
+    "original_lib_hash": "bcd83d4534c374355cd9119d1850dc50f39f94a6",
+    "rebuild_lib_hash": "96a4f998a13b77c19c1e39a8a11b201546c07b7a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "simple",
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

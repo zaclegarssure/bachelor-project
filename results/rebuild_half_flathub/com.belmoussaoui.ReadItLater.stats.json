@@ -1,0 +1,24 @@
+{
+    "name": "com.belmoussaoui.ReadItLater",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 149.819317817688,
+    "cache_size": 29437427,
+    "git_size": 0,
+    "dl_size": 29420964,
+    "original_hash": "c39d238a46b34fa0154a244df26e56f2d184df3c",
+    "rebuild_hash": "7a25cc719b46b844c5282fc9c98360b7e0492a36",
+    "original_bin_hash": "37574667cce7aedc040f9a00ddce1f8174196a88",
+    "rebuild_bin_hash": "37574667cce7aedc040f9a00ddce1f8174196a88",
+    "original_lib_hash": "bab14c648b0ae4e2e46e443c0d3c66aa9b8563ce",
+    "rebuild_lib_hash": "bab14c648b0ae4e2e46e443c0d3c66aa9b8563ce",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

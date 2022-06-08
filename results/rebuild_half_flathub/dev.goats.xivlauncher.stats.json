@@ -1,0 +1,24 @@
+{
+    "name": "dev.goats.xivlauncher",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 426.007395029068,
+    "cache_size": 308169728,
+    "git_size": 20342327,
+    "dl_size": 287761786,
+    "original_hash": "201ca84cd9928bc4b766fdd70d3eb240bd90ece6",
+    "rebuild_hash": "155096444925c8a9a8eb7c206f026f240967fc44",
+    "original_bin_hash": "3b684520686ea8f067caae210980aa2fbb4b1124",
+    "rebuild_bin_hash": "0324eef6b4dceb5cbeff3c8e76aedbeaffebe3c6",
+    "original_lib_hash": "81d830615a75c9dcc6fb9a828206af50f07f9d39",
+    "rebuild_lib_hash": "81d830615a75c9dcc6fb9a828206af50f07f9d39",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "simple"
+    ]
+}

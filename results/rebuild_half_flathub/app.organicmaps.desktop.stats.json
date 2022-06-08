@@ -1,0 +1,11 @@
+{
+    "name": "app.organicmaps.desktop",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "autotools",
+        "cmake-ninja"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "org.gnu.emacs",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 126.26917338371277,
+    "cache_size": 48259785,
+    "git_size": 0,
+    "dl_size": 48243322,
+    "original_hash": "2d2379e6da18508e5b81f2818f8c49c50267e54b",
+    "rebuild_hash": "309396533ceb44b688afca9c33ee2736d61be0ed",
+    "original_bin_hash": "876f780d78d35e8d45bbdd6d25b21a012110f14e",
+    "rebuild_bin_hash": "876f780d78d35e8d45bbdd6d25b21a012110f14e",
+    "original_lib_hash": "0da2a78200739883cc1acf22ae6fb373f8c54572",
+    "rebuild_lib_hash": "0da2a78200739883cc1acf22ae6fb373f8c54572",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "autotools",
+        "autotools",
+        "meson"
+    ]
+}

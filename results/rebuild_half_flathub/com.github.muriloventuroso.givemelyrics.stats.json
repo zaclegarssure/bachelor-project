@@ -1,0 +1,23 @@
+{
+    "name": "com.github.muriloventuroso.givemelyrics",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 16.79559350013733,
+    "cache_size": 278708,
+    "git_size": 0,
+    "dl_size": 262245,
+    "original_hash": "2b5c26ed7af5f1840016baeadda9b568da6a81a3",
+    "rebuild_hash": "f48cc405d8c936fed3de00c43c0d1feae423fa25",
+    "original_bin_hash": "7c422ad071c161a583bac37dddab5881732d7f52",
+    "rebuild_bin_hash": "7c422ad071c161a583bac37dddab5881732d7f52",
+    "original_lib_hash": "b9da3adf937ccd77859a7c73d6c93ff3159dbc25",
+    "rebuild_lib_hash": "b9da3adf937ccd77859a7c73d6c93ff3159dbc25",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

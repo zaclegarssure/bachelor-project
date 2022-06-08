@@ -1,0 +1,31 @@
+{
+    "name": "io.otsaloma.gaupol",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "baac492bfe2d5087c506f6912e439f7d95e99b62eca77f096e72f193711308c9",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-04 20:45:18+00:00",
+    "timestamp_of_rebuild": 1649105118.0,
+    "git-commit": "ca0ab64bc2080d85804ff132eb479d3d9d4bb2a6 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 323.4085388183594,
+    "cache_size": 28111867,
+    "git_size": 665004,
+    "dl_size": 27426304,
+    "bad_files": 2,
+    "total_files": 565,
+    "repro_score": 0.9964601769911504,
+    "original_hash": "d7782cdad141cb7020e112daa6857d764f4187ea",
+    "rebuild_hash": "beb3d0d77bb14bb392c99ee5e23b780ec63193bb",
+    "original_bin_hash": "84cf2a0197b8359f7e5475deacbdd19100ed5a4b",
+    "rebuild_bin_hash": "026b034a6b97ea3b4ef3a8dd240b47b6638b17b1",
+    "original_elf_hash": "b02bad81e7318e51f7e6bf94c634c7f50325df16",
+    "rebuild_elf_hash": "28d8e3ea75819134db16fbcd764fae4fbc51b83e",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

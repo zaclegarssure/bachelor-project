@@ -1,0 +1,20 @@
+{
+    "name": "org.pitivi.Pitivi",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 2038.6209559440613,
+    "cache_size": 317239367,
+    "git_size": 60682313,
+    "dl_size": 256552177,
+    "original_hash": "cf2e3f697417304446daa5b43cb763197e0c1e8d",
+    "rebuild_hash": "1763c184ecc9c3c636796218883bfc69b49b95f7",
+    "original_bin_hash": "a79a9a2f424b04be6e31684f1548232e208d3869",
+    "rebuild_bin_hash": "876e0c05ea80169dd509c87418da49af349b19bb",
+    "original_lib_hash": "c0d3337c1dabe0238477b478aad92e6d85f726ae",
+    "rebuild_lib_hash": "5bae71ef665add56ae1ef66f95eeb2de0587874b",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora"
+}

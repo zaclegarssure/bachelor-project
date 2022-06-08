@@ -1,0 +1,23 @@
+{
+    "name": "com.sigmyne.crush",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 17.588141918182373,
+    "cache_size": 5268270,
+    "git_size": 0,
+    "dl_size": 5251807,
+    "original_hash": "cb1e0e7842fd41a54676e1cc1ede4469c74d0ec0",
+    "rebuild_hash": "cb1e0e7842fd41a54676e1cc1ede4469c74d0ec0",
+    "original_bin_hash": "4878848e5cea88b42e104952bc8dfd24a07a8601",
+    "rebuild_bin_hash": "4878848e5cea88b42e104952bc8dfd24a07a8601",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

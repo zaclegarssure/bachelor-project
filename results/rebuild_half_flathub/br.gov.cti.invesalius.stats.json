@@ -1,0 +1,21 @@
+{
+    "name": "br.gov.cti.invesalius",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 1346.267075061798,
+    "cache_size": 1136054618,
+    "git_size": 74178133,
+    "dl_size": 1061855926,
+    "original_hash": "373005d73c25273bb6a8d6cdf941abf0be3708d4",
+    "rebuild_hash": "82b9470caddac62992d25326f65e740344b7cd4c",
+    "original_bin_hash": "58112dd9bf566cee53856530354adb06b3ebe4f6",
+    "rebuild_bin_hash": "58112dd9bf566cee53856530354adb06b3ebe4f6",
+    "original_lib_hash": "94b370e65c90684989bf143508c081870246a1ca",
+    "rebuild_lib_hash": "7df7d6813e199a6798322087d18d92bc2e1c80cf",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "diffoscope_failed": true,
+    "machine": "desktop-arch"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "com.system76.Popsicle",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 111.05787110328674,
+    "cache_size": 20212830,
+    "git_size": 359733,
+    "dl_size": 19812058,
+    "original_hash": "effdddcd6a874cf6fb44f3cd576d2287a32d2a9e",
+    "rebuild_hash": "02ee520faab41dce3f0383077df1579014d8383c",
+    "original_bin_hash": "94ca60c5015aa7f473d137cad2e01c87a357ac1a",
+    "rebuild_bin_hash": "94ca60c5015aa7f473d137cad2e01c87a357ac1a",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

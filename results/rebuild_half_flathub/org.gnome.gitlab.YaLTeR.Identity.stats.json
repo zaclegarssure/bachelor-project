@@ -1,0 +1,11 @@
+{
+    "name": "org.gnome.gitlab.YaLTeR.Identity",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

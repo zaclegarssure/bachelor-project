@@ -1,0 +1,24 @@
+{
+    "name": "com.github.git_cola.git-cola",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 38.121193170547485,
+    "cache_size": 1117287,
+    "git_size": 1074098,
+    "dl_size": 22630,
+    "original_hash": "a6e233cddee7438646f9f1aeb1e64d956045c81b",
+    "rebuild_hash": "a6e233cddee7438646f9f1aeb1e64d956045c81b",
+    "original_bin_hash": "170996b51a34f339fd5e77537a89a8cfdf63d74f",
+    "rebuild_bin_hash": "170996b51a34f339fd5e77537a89a8cfdf63d74f",
+    "original_lib_hash": "f1d33e8c09cfe1e4810f6bbcb110cf5fe98771bb",
+    "rebuild_lib_hash": "f1d33e8c09cfe1e4810f6bbcb110cf5fe98771bb",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

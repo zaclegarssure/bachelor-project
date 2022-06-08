@@ -1,0 +1,27 @@
+{
+    "name": "com.belmoussaoui.Authenticator",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 412.04531741142273,
+    "cache_size": 544774950,
+    "git_size": 516879807,
+    "dl_size": 27874584,
+    "original_hash": "06d9066ea02d6ffdcd606b31cad27f333ccb6b05",
+    "rebuild_hash": "06d9066ea02d6ffdcd606b31cad27f333ccb6b05",
+    "original_bin_hash": "39cf3a9ee7f323007739e7dec63c59f22c971380",
+    "rebuild_bin_hash": "39cf3a9ee7f323007739e7dec63c59f22c971380",
+    "original_lib_hash": "1e23c315f3230703af63dabf342f16978d0dcc4c",
+    "rebuild_lib_hash": "1e23c315f3230703af63dabf342f16978d0dcc4c",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "org.gnucash.GnuCash",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 1562.2568628787994,
+    "cache_size": 280185452,
+    "git_size": 0,
+    "dl_size": 280160797,
+    "original_hash": "e0a816dd6e75335b43145f7aae4e617c6b764469",
+    "rebuild_hash": "63ea9d1559082f235430c8b92c79e0b13dde4275",
+    "original_bin_hash": "d879a1d46d2c4f2ebd33ab563721952c9e36d89a",
+    "rebuild_bin_hash": "54d70791bc939316b1606e5239f8e43946060bcb",
+    "original_lib_hash": "ec3d6c06c67ef4b9ef1a5603c8761a2727dc1013",
+    "rebuild_lib_hash": "29f6e2f1609bca1b61d451e35a0710d66b7f1618",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "cmake",
+        "cmake-ninja",
+        "cmake-ninja",
+        "cmake-ninja"
+    ]
+}

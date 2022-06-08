@@ -1,0 +1,10 @@
+{
+    "name": "com.system76.Popsicle",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "2f7159583b04072c9ae5be4f024c0bc334f59fef6d8ca433a553447880690df9",
+    "branch": "stable",
+    "time_of_rebuild": "2021-05-11 21:06:07+00:00",
+    "timestamp_of_rebuild": 1620767167.0
+}

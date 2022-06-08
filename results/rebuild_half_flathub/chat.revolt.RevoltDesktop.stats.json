@@ -1,0 +1,23 @@
+{
+    "name": "chat.revolt.RevoltDesktop",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 27.8588604927063,
+    "cache_size": 97925371,
+    "git_size": 0,
+    "dl_size": 97908908,
+    "original_hash": "2c44a2acffacf4b3c0fefa3dd1ab61b8d6ec71e8",
+    "rebuild_hash": "80f33b58e39b7cd154ebddd99d9c3911520c1ace",
+    "original_bin_hash": "d67c8fff1a9e956dc511c9ccbe87ce6f7895fa6d",
+    "rebuild_bin_hash": "d67c8fff1a9e956dc511c9ccbe87ce6f7895fa6d",
+    "original_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "rebuild_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

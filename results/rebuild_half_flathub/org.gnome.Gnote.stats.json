@@ -1,0 +1,24 @@
+{
+    "name": "org.gnome.Gnote",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 222.8396074771881,
+    "cache_size": 31480415,
+    "git_size": 0,
+    "dl_size": 31463952,
+    "original_hash": "d7996b2e05d09e33897d8067fa4a13ae9ecf02e8",
+    "rebuild_hash": "d7996b2e05d09e33897d8067fa4a13ae9ecf02e8",
+    "original_bin_hash": "bedf4941771aa983dde1a68afc1b04210e6d5199",
+    "rebuild_bin_hash": "bedf4941771aa983dde1a68afc1b04210e6d5199",
+    "original_lib_hash": "6e21aca10c0a52053cb285abf87df96dd77c0fb8",
+    "rebuild_lib_hash": "6e21aca10c0a52053cb285abf87df96dd77c0fb8",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "com.snes9x.Snes9x",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 282.408194065094,
+    "cache_size": 59335354,
+    "git_size": 30884083,
+    "dl_size": 28430712,
+    "original_hash": "b7ac2767f0de8d822392f00deaed53680353d275",
+    "rebuild_hash": "b30a02378152fd6ba5dbc6c704caaef7c18fde3e",
+    "original_bin_hash": "8c1c61fc787c976bb93447a190f4c2862e718054",
+    "rebuild_bin_hash": "8c1c61fc787c976bb93447a190f4c2862e718054",
+    "original_lib_hash": "774136272f00616daa61913fd14363ffb489cc86",
+    "rebuild_lib_hash": "774136272f00616daa61913fd14363ffb489cc86",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "org.videolan.VLC",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 1896.1682348251343,
+    "cache_size": 76408909,
+    "git_size": 3140694,
+    "dl_size": 73261900,
+    "original_hash": "645292dd1fa7c1412ad1a3685d03b6c33bde637f",
+    "rebuild_hash": "1c4b9c2a648f16a697afc206f1d4db91b1ae06ee",
+    "original_bin_hash": "a3c8e1b98b4b72fb561772b601a9f2adb04ede97",
+    "rebuild_bin_hash": "a3c8e1b98b4b72fb561772b601a9f2adb04ede97",
+    "original_lib_hash": "505106ad93eed5fa18dfa988b929e68817fbcb36",
+    "rebuild_lib_hash": "7ca59817fe211002c853024309fe68d61fbd70b8",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora"
+}

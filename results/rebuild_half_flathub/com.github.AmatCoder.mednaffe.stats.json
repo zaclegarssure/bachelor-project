@@ -1,0 +1,24 @@
+{
+    "name": "com.github.AmatCoder.mednaffe",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 244.24612021446228,
+    "cache_size": 5557807,
+    "git_size": 0,
+    "dl_size": 5541344,
+    "original_hash": "8668e734dfb6162eb985e39dc0e4b363082f0d0c",
+    "rebuild_hash": "8668e734dfb6162eb985e39dc0e4b363082f0d0c",
+    "original_bin_hash": "4d9ab28fddb5f107be71cb82c4a4aaced9610b50",
+    "rebuild_bin_hash": "4d9ab28fddb5f107be71cb82c4a4aaced9610b50",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "autotools",
+        "autotools"
+    ]
+}

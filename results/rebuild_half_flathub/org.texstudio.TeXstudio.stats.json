@@ -1,0 +1,26 @@
+{
+    "name": "org.texstudio.TeXstudio",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 463.10799527168274,
+    "cache_size": 200584093,
+    "git_size": 0,
+    "dl_size": 200583522,
+    "original_hash": "aab1a103d9a6456f1f5336b6b97a4ae801bfecf0",
+    "rebuild_hash": "1f137332990466933b7485535b3fe909e4f8a1eb",
+    "original_bin_hash": "a278543c0efe1a2ecf498d76d361398db78cc7a0",
+    "rebuild_bin_hash": "2bdd1942b32b14e81e5c6e5a0fe98484c2df8aaf",
+    "original_lib_hash": "8dbcb445fe97a6f51e40a208d49934265b640423",
+    "rebuild_lib_hash": "8dbcb445fe97a6f51e40a208d49934265b640423",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "simple",
+        "cmake-ninja",
+        "qmake"
+    ]
+}

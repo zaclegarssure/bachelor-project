@@ -1,0 +1,31 @@
+{
+    "name": "im.pidgin.Pidgin",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "46ad3a719c688a50f4aebc7be42793edae4df43164825effe8cc3796322a845b",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-02 19:51:28+00:00",
+    "timestamp_of_rebuild": 1651521088.0,
+    "git-commit": "7d974c10ff057fe2faff2020f0286b2017534b5f master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/41": "8012fa6cf53f159c8acbc63797821b998457aa1f63d8f7801e463b566a2ea5b5",
+        "org.gnome.Platform/x86_64/41": "6071e4e35ed5251c5825719240ea3478f0be272328955ee4fefa886448c67c14"
+    },
+    "build_time": 401.89560866355896,
+    "cache_size": 44082955,
+    "git_size": 4251174,
+    "dl_size": 39811222,
+    "bad_files": 3,
+    "total_files": 1147,
+    "repro_score": 0.997384481255449,
+    "original_hash": "3f95500f3a55427c689c3bf9082bb479ff8492cd",
+    "rebuild_hash": "9379d7583c679617fa62eb191b57d7088c1c08db",
+    "original_bin_hash": "0d0264ebfad402e907bf78f690c2c17b9457fbe1",
+    "rebuild_bin_hash": "9d265b5c0cb91f135f156edfe4504e5f4ba4f0b2",
+    "original_elf_hash": "9c516f3d5bfc91c3e93a207fc8ae4cf5960d2631",
+    "rebuild_elf_hash": "80214761bc3b53ef453bca90164a2c125cd50055",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,16 @@
+{
+    "name": "org.wesnoth.Wesnoth",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "cd064539559bb897ca33d8af278572d62edf9b601f5f9db668c8b21c9fb790db",
+    "branch": "1.14",
+    "time_of_rebuild": "2021-06-24 22:44:45+00:00",
+    "timestamp_of_rebuild": 1624574685.0,
+    "git-commit": "11b6a6833f8d56b423e150e0270229b413c92f4e remotes/origin/branch/1.14",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "5bb4449e7d2ac3622c34816c040e39ac4ce0df7f50caa51a66b8ac45a3242b8c",
+        "org.freedesktop.Sdk/x86_64/20.08": "699d38c9e1d5c566179309d47537729022a964f9f442fae59168130a9161c010",
+        "org.freedesktop.Platform/x86_64/20.08": "f7ca632f38fbf46f8ec2ad01cd2cb123e1683d58a9b29ecefa352edae383b17c"
+    }
+}

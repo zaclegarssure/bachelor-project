@@ -1,0 +1,32 @@
+{
+    "name": "org.kde.digikam",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "09bc32320b5d3dae83b82429920a7b96768f85b6de159d1bbeef5d28a0b975ce",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-09 07:40:19+00:00",
+    "timestamp_of_rebuild": 1646811619.0,
+    "git-commit": "0ae390743a72886ccf886dc823354f1435eb1f2b master",
+    "flatpak-deps": {
+        "io.qt.qtwebengine.BaseApp/x86_64/5.15-21.08": "96a3fd3dc698dcfbdbd867686083102ec356cda37246ca90d9afe56e1482bb2f",
+        "org.flatpak.Builder/x86_64/stable": "cce27cfbd1132b922bd1b4c672b83b907f1d6a21e0aa941fec13ebc1e65b0508",
+        "org.kde.Sdk/x86_64/5.15-21.08": "f6e7e6157630e155d5529e2dcb50bf3fb3e22ac98bfa300c1c9e3c2d2f3cb949",
+        "org.kde.Platform/x86_64/5.15-21.08": "64a44a22b3744e028f16769fd262154fc73e05a714981f25554db81e1328eb39"
+    },
+    "build_time": 3005.574379682541,
+    "cache_size": 679446587,
+    "git_size": 205358052,
+    "dl_size": 474067976,
+    "bad_files": 160,
+    "total_files": 3322,
+    "repro_score": 0.9518362432269717,
+    "original_hash": "444d1cffd3899adbb6a4f0f0d9863b85c7297c6c",
+    "rebuild_hash": "ec7cb84805a2bb193d3f3dbc4fe73d5937be14ed",
+    "original_bin_hash": "82a1945b4d76c5d2908cfb006b7011f8258d233d",
+    "rebuild_bin_hash": "8312a9aa573e71548000b97bd58412a244b9cd90",
+    "original_elf_hash": "9444413e660725f82601be56392c4efe603fe34c",
+    "rebuild_elf_hash": "ca4b4eead7da5cf953f5c57105a7e46daddd02d1",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

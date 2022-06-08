@@ -1,0 +1,31 @@
+{
+    "name": "com.rafaelmardojai.Blanket",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "16c59a5cb4a699941cceae9dd937669a454645559f7fed618e460ec9b2d89c9d",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-14 01:12:51+00:00",
+    "timestamp_of_rebuild": 1649898771.0,
+    "git-commit": "43f9d98fe22fce31f46eb29cb220d3fbe09fc3b1 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 5.870964050292969,
+    "cache_size": 20083955,
+    "git_size": 20067492,
+    "dl_size": 0,
+    "bad_files": 0,
+    "total_files": 29,
+    "repro_score": 1.0,
+    "original_hash": "cde6a06afefdf910c3777c50e52066eeb0179ea9",
+    "rebuild_hash": "cde6a06afefdf910c3777c50e52066eeb0179ea9",
+    "original_bin_hash": "e764427c0bd2bee343780d72c17c3fdda366a11a",
+    "rebuild_bin_hash": "e764427c0bd2bee343780d72c17c3fdda366a11a",
+    "original_elf_hash": "b028370d76aeebb3dedc037c172532d7201ecdbc",
+    "rebuild_elf_hash": "b028370d76aeebb3dedc037c172532d7201ecdbc",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

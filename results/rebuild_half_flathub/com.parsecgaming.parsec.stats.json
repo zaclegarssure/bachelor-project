@@ -1,0 +1,23 @@
+{
+    "name": "com.parsecgaming.parsec",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 4.351197004318237,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "2b2fb8e56f44998681bf02d09307e85b778468da",
+    "rebuild_hash": "0ae242a471c9f55e5e2baf8c7617ca079d1d7302",
+    "original_bin_hash": "3083d32fb69c6e810b6c52d4eedec25bef2b8260",
+    "rebuild_bin_hash": "3083d32fb69c6e810b6c52d4eedec25bef2b8260",
+    "original_lib_hash": "89152fb930a6a0640b161bef0476c0d1aa25e6a7",
+    "rebuild_lib_hash": "89152fb930a6a0640b161bef0476c0d1aa25e6a7",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

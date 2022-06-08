@@ -1,0 +1,25 @@
+{
+    "name": "com.axosoft.GitKraken",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 115.19561624526978,
+    "cache_size": 98944566,
+    "git_size": 0,
+    "dl_size": 98928103,
+    "original_hash": "38439b904de54836f01af65927ae52faf9c17089",
+    "rebuild_hash": "38439b904de54836f01af65927ae52faf9c17089",
+    "original_bin_hash": "368363ae0177285124fe72c4647f5562cb240552",
+    "rebuild_bin_hash": "368363ae0177285124fe72c4647f5562cb240552",
+    "original_lib_hash": "bfd913531cba351eaa4cc56e709eac572c36c60a",
+    "rebuild_lib_hash": "bfd913531cba351eaa4cc56e709eac572c36c60a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

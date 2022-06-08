@@ -1,0 +1,25 @@
+{
+    "name": "app.rednotebook.RedNotebook",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 72.79132032394409,
+    "cache_size": 3624631,
+    "git_size": 0,
+    "dl_size": 3608168,
+    "original_hash": "b61010c9aebdcc8469f632afa857fb7250e92f43",
+    "rebuild_hash": "ccd4087edfea3b82c1b538ee6786b3fa13472171",
+    "original_bin_hash": "d53a24abc15eb78f5edf8b8c3cb2a429a520a803",
+    "rebuild_bin_hash": "d53a24abc15eb78f5edf8b8c3cb2a429a520a803",
+    "original_lib_hash": "874e4d397498b33b33fc0b609249ce98d98efce7",
+    "rebuild_lib_hash": "68c2a1cc15446558cb089117df0e2c9f76604e24",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "co.headsetapp.headset",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 27.59249782562256,
+    "cache_size": 78342990,
+    "git_size": 0,
+    "dl_size": 78326527,
+    "original_hash": "67f7481ee16468526b78252f9c75f8f2cc91ad19",
+    "rebuild_hash": "fec0e53a3e8ebd1a880d7f126eb1a510ccd13cf1",
+    "original_bin_hash": "df978e67bf1d85c64689957d9312d4e394b74a74",
+    "rebuild_bin_hash": "df978e67bf1d85c64689957d9312d4e394b74a74",
+    "original_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "rebuild_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

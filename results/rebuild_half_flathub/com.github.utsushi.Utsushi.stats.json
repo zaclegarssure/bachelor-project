@@ -1,0 +1,20 @@
+{
+    "name": "com.github.utsushi.Utsushi",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 2164.6905031204224,
+    "cache_size": 140835762,
+    "git_size": 8192274,
+    "dl_size": 132622929,
+    "original_hash": "26934a858a84fc881dbbae229cdaff5eafac31af",
+    "rebuild_hash": "2a1625ac948baaa6ab84b2cb858a0276ef7a6a62",
+    "original_bin_hash": "a6e64abd5c3ba27fe9b340489e06a4d2cb4701e9",
+    "rebuild_bin_hash": "a6e64abd5c3ba27fe9b340489e06a4d2cb4701e9",
+    "original_lib_hash": "ff5778c81894d376f9ba25d57304b99f85ef89d0",
+    "rebuild_lib_hash": "3301c313ed9a025c28becf2881f8444175b742fc",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "laptop-arch"
+}

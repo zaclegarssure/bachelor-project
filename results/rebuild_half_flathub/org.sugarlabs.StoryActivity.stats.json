@@ -1,0 +1,24 @@
+{
+    "name": "org.sugarlabs.StoryActivity",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 114.32233715057373,
+    "cache_size": 92998035,
+    "git_size": 92997516,
+    "dl_size": 0,
+    "original_hash": "6c1866ca6ad84f50cf970fa151afc38123f82656",
+    "rebuild_hash": "6c1866ca6ad84f50cf970fa151afc38123f82656",
+    "original_bin_hash": "fafab637bf6c690e4665131adc9c6947d5d92fbf",
+    "rebuild_bin_hash": "fafab637bf6c690e4665131adc9c6947d5d92fbf",
+    "original_lib_hash": "1edaa637ee8e0ef271185f700e5cc00661fdee2c",
+    "rebuild_lib_hash": "1edaa637ee8e0ef271185f700e5cc00661fdee2c",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

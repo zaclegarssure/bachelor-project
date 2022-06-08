@@ -1,0 +1,26 @@
+{
+    "name": "com.moddb.TotalChaos",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 307.9083378314972,
+    "cache_size": 1317215038,
+    "git_size": 0,
+    "dl_size": 1317198575,
+    "original_hash": "d72754a365ceb0b8646d26273d67b52f8e96aff8",
+    "rebuild_hash": "8aa66241fc3a4245fc3ec7b68b58d25914a0c6da",
+    "original_bin_hash": "cf609ccc3f9db87369497f5ed701183fcfdd204a",
+    "rebuild_bin_hash": "19afebc283720f77de43bddc8d5780216b88844c",
+    "original_lib_hash": "cd933720a60d7c8ac326353473d89ecacf15b63c",
+    "rebuild_lib_hash": "cd933720a60d7c8ac326353473d89ecacf15b63c",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "cmake-ninja",
+        "cmake-ninja",
+        "simple"
+    ]
+}

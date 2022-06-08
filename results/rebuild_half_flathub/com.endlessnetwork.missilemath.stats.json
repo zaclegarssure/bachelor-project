@@ -1,0 +1,23 @@
+{
+    "name": "com.endlessnetwork.missilemath",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 16.545949697494507,
+    "cache_size": 42139782,
+    "git_size": 1037835,
+    "dl_size": 41081388,
+    "original_hash": "4fb52bc67b59be93915c5b537792edfd40a107ff",
+    "rebuild_hash": "1651b32ae6e841fac6ffba608c5b967feb634eb6",
+    "original_bin_hash": "80c810ff033e40efcdf4a0da509b080afcca1853",
+    "rebuild_bin_hash": "80c810ff033e40efcdf4a0da509b080afcca1853",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

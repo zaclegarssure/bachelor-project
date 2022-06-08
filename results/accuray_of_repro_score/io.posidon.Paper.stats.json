@@ -1,0 +1,31 @@
+{
+    "name": "io.posidon.Paper",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "f702270d04f1e4443c688a132b9d07be2e6e02345577aa2ba3c504eceadf93b1",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-24 18:09:04+00:00",
+    "timestamp_of_rebuild": 1653415744.0,
+    "git-commit": "f8e2e6bb4ade9b67e47e5024485f224577aedc27 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "c3ea4e88f8f9d05efb8b085abb2d1f56d8bab435dade310f31edef002612736d",
+        "org.gnome.Platform/x86_64/42": "ad9ceb4f734c754fe1db5ee926eb1482062ef35f0f588cd74f486eceb3f1028a"
+    },
+    "build_time": 15.546696424484253,
+    "cache_size": 333896,
+    "git_size": 317433,
+    "dl_size": 0,
+    "bad_files": 9,
+    "total_files": 107,
+    "repro_score": 0.9158878504672897,
+    "original_hash": "f1322aff759b3273c2ad376dd2d6de05669b807d",
+    "rebuild_hash": "1c67a7a8f4f84e1416e855215335e8869bb2a2a2",
+    "original_bin_hash": "1f2c89bc9cdd090adb6e1837e8746499d63a6e2b",
+    "rebuild_bin_hash": "26dc76882bc39bd135b36ac58dfe3e7242133892",
+    "original_elf_hash": "86efa6e91c5c4c44a081f3a4367d66f4fe85d995",
+    "rebuild_elf_hash": "86efa6e91c5c4c44a081f3a4367d66f4fe85d995",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

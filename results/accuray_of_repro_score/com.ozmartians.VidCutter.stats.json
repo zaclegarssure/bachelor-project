@@ -1,0 +1,31 @@
+{
+    "name": "com.ozmartians.VidCutter",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "47476521c303d9c1f046c2dec81a89f8d1a2d7705c98cbcdfc944557cad433fb",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-01 05:21:49+00:00",
+    "timestamp_of_rebuild": 1651382509.0,
+    "git-commit": "f448a07a3a563c1dad899dd83ce8d3c5876b6675 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 1530.8505527973175,
+    "cache_size": 244486735,
+    "git_size": 212690675,
+    "dl_size": 31775501,
+    "bad_files": 14,
+    "total_files": 5928,
+    "repro_score": 0.997638326585695,
+    "original_hash": "221255cd5bda1889a7d3113571e9b3017c3c55fb",
+    "rebuild_hash": "1287a174e090599ba366d401191ce10d3c4d3dae",
+    "original_bin_hash": "8a4f52fd48003145d6a15445a6dac22726ea53de",
+    "rebuild_bin_hash": "e924b9c4e176475237e06357e9d64827beee6a32",
+    "original_elf_hash": "8163faa71802f1a56940dee0827a9aa169238f4d",
+    "rebuild_elf_hash": "92beb856a4be1be12433abd9975693633bbaf8a8",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

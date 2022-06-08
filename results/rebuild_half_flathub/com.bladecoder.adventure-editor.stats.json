@@ -1,0 +1,25 @@
+{
+    "name": "com.bladecoder.adventure-editor",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 53.52784180641174,
+    "cache_size": 20621679,
+    "git_size": 0,
+    "dl_size": 20605216,
+    "original_hash": "a64bafea4ae934175b1e1f17d2d02a39f39d49e3",
+    "rebuild_hash": "ff31c1f978535fe70e0584364a9f3246968f7382",
+    "original_bin_hash": "f37c8810f5a5d4fbda0f9bde6d42eedcc0ccd176",
+    "rebuild_bin_hash": "f37c8810f5a5d4fbda0f9bde6d42eedcc0ccd176",
+    "original_lib_hash": "f3cdb56ad8c7b2b5475f425f36d909024ed117dc",
+    "rebuild_lib_hash": "f3cdb56ad8c7b2b5475f425f36d909024ed117dc",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake",
+        "simple",
+        "simple"
+    ]
+}

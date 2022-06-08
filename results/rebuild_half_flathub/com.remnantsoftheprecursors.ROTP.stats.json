@@ -1,0 +1,25 @@
+{
+    "name": "com.remnantsoftheprecursors.ROTP",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 211.74580454826355,
+    "cache_size": 944487097,
+    "git_size": 940470097,
+    "dl_size": 3988249,
+    "original_hash": "375b48cff034001eba044e2b1d47a706bb7369ef",
+    "rebuild_hash": "375b48cff034001eba044e2b1d47a706bb7369ef",
+    "original_bin_hash": "c691be2a80632831a8f06bfce12073c48afacb39",
+    "rebuild_bin_hash": "c691be2a80632831a8f06bfce12073c48afacb39",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

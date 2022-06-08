@@ -1,0 +1,27 @@
+{
+    "name": "dev.atoft.Reactions",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 584.3296587467194,
+    "cache_size": 36306536,
+    "git_size": 36290073,
+    "dl_size": 0,
+    "original_hash": "b74bfb387f110ccbca5e89633360e6fdee4073cd",
+    "rebuild_hash": "37712e5e5e621c5d588de1b58ff696c8f30b8234",
+    "original_bin_hash": "83bc818b168837cd07c006556b924ab238d89e96",
+    "rebuild_bin_hash": "83bc818b168837cd07c006556b924ab238d89e96",
+    "original_lib_hash": "b32e8713e9171dadfffea7fac3ebe9b65c1f09aa",
+    "rebuild_lib_hash": "b32e8713e9171dadfffea7fac3ebe9b65c1f09aa",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

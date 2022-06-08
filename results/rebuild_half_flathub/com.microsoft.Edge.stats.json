@@ -1,0 +1,24 @@
+{
+    "name": "com.microsoft.Edge",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 15.277472734451294,
+    "cache_size": 9777288,
+    "git_size": 9634869,
+    "dl_size": 121860,
+    "original_hash": "d8e822178e5cdabde2ab424d2d1a744098ee9dbf",
+    "rebuild_hash": "98624a907386329ecec758ed2e7de5ff57ee7bc0",
+    "original_bin_hash": "627b8da10d91e451f01701e6f72a1a1664cbdba5",
+    "rebuild_bin_hash": "13c27b702ba8efa2fdddf7a2ba937f37e4345eed",
+    "original_lib_hash": "4908b311a2b479beff0a4643861cef6559cf4848",
+    "rebuild_lib_hash": "4908b311a2b479beff0a4643861cef6559cf4848",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "simple"
+    ]
+}

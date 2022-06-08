@@ -1,0 +1,23 @@
+{
+    "name": "com.github.coslyk.MoonPlayer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 148.1942801475525,
+    "cache_size": 14385504,
+    "git_size": 796565,
+    "dl_size": 13568380,
+    "original_hash": "287d1b7d9464705ce2cc5bcbcf117cef539f21bb",
+    "rebuild_hash": "b7763b1e145c311bdc13de89bde1772e495a74e0",
+    "original_bin_hash": "cb3643c2cc918037361a7b82f9076176d36e50c4",
+    "rebuild_bin_hash": "4108f739e4631514d9c544c101f69cf78ab3e71b",
+    "original_lib_hash": "472464fa98e71b6b82e1770c7a5ef0553d22beb7",
+    "rebuild_lib_hash": "472464fa98e71b6b82e1770c7a5ef0553d22beb7",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake"
+    ]
+}

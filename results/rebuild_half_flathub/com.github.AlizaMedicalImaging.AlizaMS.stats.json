@@ -1,0 +1,24 @@
+{
+    "name": "com.github.AlizaMedicalImaging.AlizaMS",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 411.1936972141266,
+    "cache_size": 25424279,
+    "git_size": 0,
+    "dl_size": 25407816,
+    "original_hash": "5fee83b074a8ff9d761edd62b92c9a4e73317e16",
+    "rebuild_hash": "24a3eb865cf2e6035fbaa54bf9d467d947dcd4e8",
+    "original_bin_hash": "eee4cafb6aa5babab39e29e27515826b689e402d",
+    "rebuild_bin_hash": "4d3aa44f980517405c162a1229bb0671444ea6d9",
+    "original_lib_hash": "b4c608ef7e10feb93e358e43f23ab3928dc28e1a",
+    "rebuild_lib_hash": "b4c608ef7e10feb93e358e43f23ab3928dc28e1a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "cmake-ninja"
+    ]
+}

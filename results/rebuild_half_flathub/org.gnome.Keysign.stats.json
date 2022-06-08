@@ -1,0 +1,27 @@
+{
+    "name": "org.gnome.Keysign",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 528.3937864303589,
+    "cache_size": 157850552,
+    "git_size": 99770155,
+    "dl_size": 58059838,
+    "original_hash": "54d4c03abf66010f24c967047c70ee9c1d624dfd",
+    "rebuild_hash": "3215d7b83280a7367dcf115e80b550c6ec5c4259",
+    "original_bin_hash": "1ab4da1469ab5d34a30d338111f9b2abc1c81ed1",
+    "rebuild_bin_hash": "54f4126b8aaab7e7fc3a94cd0daaaf15bf21b17a",
+    "original_lib_hash": "9412db34c704aece959412c7b5be57d787c7900f",
+    "rebuild_lib_hash": "7c70af378afeb2e280597f55e6a6f9bdb84882d2",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "meson",
+        "cmake",
+        "simple",
+        "simple"
+    ]
+}

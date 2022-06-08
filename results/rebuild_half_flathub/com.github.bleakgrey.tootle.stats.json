@@ -1,0 +1,24 @@
+{
+    "name": "com.github.bleakgrey.tootle",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 19.77277159690857,
+    "cache_size": 3238277,
+    "git_size": 0,
+    "dl_size": 3221814,
+    "original_hash": "c0e6dc8945e424974fd1914975a58a67a5949aca",
+    "rebuild_hash": "c0e6dc8945e424974fd1914975a58a67a5949aca",
+    "original_bin_hash": "1d0295d87e41957fa9b009d0e71f4ff37b028aff",
+    "rebuild_bin_hash": "1d0295d87e41957fa9b009d0e71f4ff37b028aff",
+    "original_lib_hash": "c8eb58866f98ccda70dfcf43dfb4508a835296d2",
+    "rebuild_lib_hash": "c8eb58866f98ccda70dfcf43dfb4508a835296d2",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

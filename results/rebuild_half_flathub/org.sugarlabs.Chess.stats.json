@@ -1,0 +1,23 @@
+{
+    "name": "org.sugarlabs.Chess",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 14.881212711334229,
+    "cache_size": 724164,
+    "git_size": 444426,
+    "dl_size": 279349,
+    "original_hash": "3dd2450e3b301ab913be5ee930a643c23935536b",
+    "rebuild_hash": "3dd2450e3b301ab913be5ee930a643c23935536b",
+    "original_bin_hash": "f0a490c2ab0e075e88daddcfa9322acf9edb2981",
+    "rebuild_bin_hash": "f0a490c2ab0e075e88daddcfa9322acf9edb2981",
+    "original_lib_hash": "06001a0e40c7811ef78044144e64be3e5aec92a5",
+    "rebuild_lib_hash": "06001a0e40c7811ef78044144e64be3e5aec92a5",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "com.github.arminstraub.krop",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 1333.1814124584198,
+    "cache_size": 166789907,
+    "git_size": 0,
+    "dl_size": 166773444,
+    "original_hash": "d95824af93d3e4fc992725a7f2e1b02a183736db",
+    "rebuild_hash": "d95824af93d3e4fc992725a7f2e1b02a183736db",
+    "original_bin_hash": "60a34fe793a534ff5e8015d546efca61c8587437",
+    "rebuild_bin_hash": "60a34fe793a534ff5e8015d546efca61c8587437",
+    "original_lib_hash": "c3a98090f943a997470bf779c72bddaba40168fc",
+    "rebuild_lib_hash": "c3a98090f943a997470bf779c72bddaba40168fc",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "autotools",
+        "qmake",
+        "cmake-ninja",
+        "cmake-ninja",
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

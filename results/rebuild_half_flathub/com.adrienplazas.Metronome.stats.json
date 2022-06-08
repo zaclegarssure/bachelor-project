@@ -1,0 +1,24 @@
+{
+    "name": "com.adrienplazas.Metronome",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 142.6572549343109,
+    "cache_size": 15686083,
+    "git_size": 1211480,
+    "dl_size": 14454044,
+    "original_hash": "a2687a8f93bfa1e93444f6fb266355c446db59fe",
+    "rebuild_hash": "fa034b097516a432cc3bd6bead220ac51cc685f8",
+    "original_bin_hash": "cc28d122a9eaa656dbbdc00b0140fe99decb1192",
+    "rebuild_bin_hash": "cc28d122a9eaa656dbbdc00b0140fe99decb1192",
+    "original_lib_hash": "d61f59f915193cec08c13d2c52d6727bec3846b5",
+    "rebuild_lib_hash": "d61f59f915193cec08c13d2c52d6727bec3846b5",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

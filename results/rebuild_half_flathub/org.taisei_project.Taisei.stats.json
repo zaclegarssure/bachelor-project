@@ -1,0 +1,25 @@
+{
+    "name": "org.taisei_project.Taisei",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 72.62353086471558,
+    "cache_size": 73768283,
+    "git_size": 72533437,
+    "dl_size": 1234159,
+    "original_hash": "367fe6a852f89ef8f59a321fd8b314750616324f",
+    "rebuild_hash": "44c78534ed6ea5e8b181f318ead7deb6767cff54",
+    "original_bin_hash": "ba0e63dc90eb6ea1e3881e58fb1703bb340aed3e",
+    "rebuild_bin_hash": "ba0e63dc90eb6ea1e3881e58fb1703bb340aed3e",
+    "original_lib_hash": "411d035cf7998875db8c3dfaa979cd11f4cc1761",
+    "rebuild_lib_hash": "411d035cf7998875db8c3dfaa979cd11f4cc1761",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "cmake-ninja",
+        "meson",
+        "meson"
+    ]
+}

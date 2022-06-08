@@ -1,0 +1,20 @@
+{
+    "name": "com.github.k4zmu2a.spacecadetpinball",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 74.2579460144043,
+    "cache_size": 119310818,
+    "git_size": 93822639,
+    "dl_size": 25467620,
+    "original_hash": "c2d307272326ed857c0bc5a53456f8b70e8b5958",
+    "rebuild_hash": "c2d307272326ed857c0bc5a53456f8b70e8b5958",
+    "original_bin_hash": "61762bf21b8f1026d9bc38666f331c0c35b4c72e",
+    "rebuild_bin_hash": "61762bf21b8f1026d9bc38666f331c0c35b4c72e",
+    "original_lib_hash": "ae72c4cac1f118396869944db65c33459b5421bd",
+    "rebuild_lib_hash": "ae72c4cac1f118396869944db65c33459b5421bd",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

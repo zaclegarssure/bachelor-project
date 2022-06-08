@@ -1,0 +1,31 @@
+{
+    "name": "io.github.quodlibet.ExFalso",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "261c7833259a0a8044404334022beaf1d98d1da2e933ff270a2bf19b5a572431",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-21 15:58:35+00:00",
+    "timestamp_of_rebuild": 1653148715.0,
+    "git-commit": "d495f3faedf9111cc268b8f7bddb95e0ff342a07 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/41": "8012fa6cf53f159c8acbc63797821b998457aa1f63d8f7801e463b566a2ea5b5",
+        "org.gnome.Platform/x86_64/41": "6071e4e35ed5251c5825719240ea3478f0be272328955ee4fefa886448c67c14"
+    },
+    "build_time": 158.0332489013672,
+    "cache_size": 30777880,
+    "git_size": 10085785,
+    "dl_size": 20671536,
+    "bad_files": 30,
+    "total_files": 1471,
+    "repro_score": 0.9796057104010877,
+    "original_hash": "0907273526213f5fc6617f1b3c841d65a818cd52",
+    "rebuild_hash": "dd88df93b10c54c8cf8157d88ed1fe490fca4870",
+    "original_bin_hash": "6a9fc333e9707f3f19e4c100b7df3bbd38eea9d4",
+    "rebuild_bin_hash": "23d598ce25db055d9eb2ea2862be78311ab24c68",
+    "original_elf_hash": "c76f445d936f249dbfaeb60e21f1fcc69d98ba42",
+    "rebuild_elf_hash": "95b503589a6d776a1456362f36563f0db21b6a66",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

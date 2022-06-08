@@ -1,0 +1,31 @@
+{
+    "name": "org.leocad.LeoCAD",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "7fdfe5fe74c3ea122688154e34dce63a17fd6edfe040061798a7dc1f158c81e2",
+    "branch": "stable",
+    "time_of_rebuild": "2022-01-14 05:07:25+00:00",
+    "timestamp_of_rebuild": 1642136845.0,
+    "git-commit": "7bc38aeb7eb408ff19df4eca0b1158db89d5158c master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "59eab8efc1f172f4133bd078a86adefa30bc46b95d0b40a46373c7746a757d2c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "c5a1d174ca281ceb7062de6b6df4894a28bf01008f2710f697d00e8e5bf9a1ab",
+        "org.kde.Platform/x86_64/5.15-21.08": "9e8105b66950ba6bf4da30bd0bac6add9efc093364fbb2c0f673d19bde2509ee"
+    },
+    "build_time": 731.4195775985718,
+    "cache_size": 209334831,
+    "git_size": 60911478,
+    "dl_size": 148402794,
+    "bad_files": 2,
+    "total_files": 3151,
+    "repro_score": 0.9993652808632181,
+    "original_hash": "dcb49037659ef9e8540f44d4f36a8a83de609177",
+    "rebuild_hash": "6daa7fa9eba6e39fca8fae32666b8aef2a09ece5",
+    "original_bin_hash": "dbb1f9a4f7c9c3011323d8d9096172eda227d7d2",
+    "rebuild_bin_hash": "0ac9db7397355d60d7af8c9e9dacf42306a9c930",
+    "original_elf_hash": "179de05ec688a0ffba323820bc7a49c1cfcd4c26",
+    "rebuild_elf_hash": "46a7a005f8edf93da7f5009fed6b006619b5b69f",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

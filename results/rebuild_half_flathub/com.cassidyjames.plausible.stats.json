@@ -1,0 +1,27 @@
+{
+    "name": "com.cassidyjames.plausible",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 159.2533667087555,
+    "cache_size": 68538099,
+    "git_size": 68506674,
+    "dl_size": 10866,
+    "original_hash": "84b9a992f51e6c5cd782e6e45cf149b917c8bf29",
+    "rebuild_hash": "b68ce4323c63e27b1f7a96e9eba1cb7a3cacbadf",
+    "original_bin_hash": "31b6ca702dce2182796b206f9ad39016ed17cb61",
+    "rebuild_bin_hash": "31b6ca702dce2182796b206f9ad39016ed17cb61",
+    "original_lib_hash": "992ae71d0d6eb6ecc5af807cc5aa294c3b21b1b9",
+    "rebuild_lib_hash": "992ae71d0d6eb6ecc5af807cc5aa294c3b21b1b9",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

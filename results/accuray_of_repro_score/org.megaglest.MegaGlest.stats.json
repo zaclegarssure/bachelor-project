@@ -1,0 +1,31 @@
+{
+    "name": "org.megaglest.MegaGlest",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "942652ca220b5d396253fc8af8156eda2e33780edbd01ec6d307e3b0433be00b",
+    "branch": "stable",
+    "time_of_rebuild": "2021-06-11 11:25:55+00:00",
+    "timestamp_of_rebuild": 1623410755.0,
+    "git-commit": "66ec10cd96e41abbe8b4414c1c01b8f7b299d9fc master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "e9c369f17a4fad0c74e91650f0c09fa57d4c40178b0a78c10bbd0083632fefa3",
+        "org.freedesktop.Sdk/x86_64/20.08": "699d38c9e1d5c566179309d47537729022a964f9f442fae59168130a9161c010",
+        "org.freedesktop.Platform/x86_64/20.08": "f7ca632f38fbf46f8ec2ad01cd2cb123e1683d58a9b29ecefa352edae383b17c"
+    },
+    "build_time": 308.33601903915405,
+    "cache_size": 295930460,
+    "git_size": 0,
+    "dl_size": 295913997,
+    "bad_files": 1,
+    "total_files": 5966,
+    "repro_score": 0.999832383506537,
+    "original_hash": "a9e39d816f50846c9173cda9265e73e1e33fbf92",
+    "rebuild_hash": "c6c965fde8d236e140ce8f68e2f4343184f356a3",
+    "original_bin_hash": "6052060c26908a93b1bdb9ea98ba31e825f26f56",
+    "rebuild_bin_hash": "5826b2d2f90cef1946479203bb168d303881a981",
+    "original_elf_hash": "b1125e0ffa776cb1e99386178312f22dc25325e1",
+    "rebuild_elf_hash": "b1125e0ffa776cb1e99386178312f22dc25325e1",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

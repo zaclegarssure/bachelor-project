@@ -1,0 +1,31 @@
+{
+    "name": "org.kde.kanagram",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "f452883d272d39a4672625130ffa8ecf3ec4a2b3611abd1a466ba6ebc8265c2c",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-12 21:49:54+00:00",
+    "timestamp_of_rebuild": 1652392194.0,
+    "git-commit": "69f3729b44bb038512a8813ed065199d5ab665bf master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 26.384036540985107,
+    "cache_size": 8626135,
+    "git_size": 0,
+    "dl_size": 8609672,
+    "bad_files": 0,
+    "total_files": 559,
+    "repro_score": 1.0,
+    "original_hash": "9c66b763e8e7065c5bb4cfeb73a05b0fb46c13c6",
+    "rebuild_hash": "9c66b763e8e7065c5bb4cfeb73a05b0fb46c13c6",
+    "original_bin_hash": "fd22aab8a0d5811fe4a84970db4fb0d1d3f6cdbd",
+    "rebuild_bin_hash": "fd22aab8a0d5811fe4a84970db4fb0d1d3f6cdbd",
+    "original_elf_hash": "1e7f52943d084de6f724f13e0a209ef734ed258e",
+    "rebuild_elf_hash": "1e7f52943d084de6f724f13e0a209ef734ed258e",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

@@ -1,0 +1,26 @@
+{
+    "name": "org.qelectrotech.QElectroTech",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 508.3038418292999,
+    "cache_size": 30476171,
+    "git_size": 15296033,
+    "dl_size": 15179219,
+    "original_hash": "4d49b9e523d2ea31b814db00367a17d63946f103",
+    "rebuild_hash": "90fcbdb5bc9efe7d99df10d7642db9ab32fe1091",
+    "original_bin_hash": "118989d9ebb24444cf9e66019bc597a3bb6ddfc3",
+    "rebuild_bin_hash": "17cc93e11345a9e505c6609a3051595284e838b9",
+    "original_lib_hash": "c2a15efb4b8dc53f42e3c3b8ae791feff02f9f43",
+    "rebuild_lib_hash": "c2a15efb4b8dc53f42e3c3b8ae791feff02f9f43",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "qmake",
+        "simple",
+        "simple"
+    ]
+}

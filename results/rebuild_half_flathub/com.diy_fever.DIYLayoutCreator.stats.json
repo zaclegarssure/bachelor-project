@@ -1,0 +1,25 @@
+{
+    "name": "com.diy_fever.DIYLayoutCreator",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 80.3601975440979,
+    "cache_size": 87569055,
+    "git_size": 179892,
+    "dl_size": 87368604,
+    "original_hash": "869ba32c1760e5f9a50e694b79151ba3f044d70f",
+    "rebuild_hash": "4bc9eeed79baf7452a9063157d843645a87b64a8",
+    "original_bin_hash": "9a9140edab40803ede2a9c380e028afcbb1e6f4f",
+    "rebuild_bin_hash": "9a9140edab40803ede2a9c380e028afcbb1e6f4f",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "meson",
+        "simple"
+    ]
+}

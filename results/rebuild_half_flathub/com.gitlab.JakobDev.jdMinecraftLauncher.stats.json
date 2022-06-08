@@ -1,0 +1,27 @@
+{
+    "name": "com.gitlab.JakobDev.jdMinecraftLauncher",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 122.29467749595642,
+    "cache_size": 922812,
+    "git_size": 320761,
+    "dl_size": 581492,
+    "original_hash": "2d7b9dbe986b0afca67f4d0ed12c682678c4b34f",
+    "rebuild_hash": "fd396249893de9110868a3a38b39a76b91eef1e1",
+    "original_bin_hash": "54aafaa14ed3568bf835aac51d56546f547efaf4",
+    "rebuild_bin_hash": "54aafaa14ed3568bf835aac51d56546f547efaf4",
+    "original_lib_hash": "e5d51d0dffcaa2b291a11473a8c2f6b3f62dd831",
+    "rebuild_lib_hash": "028b1e76bebb0d7278b76a2dac8a76b7bfc9ea38",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "meson",
+        "simple"
+    ]
+}

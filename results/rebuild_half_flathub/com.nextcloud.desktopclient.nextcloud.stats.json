@@ -1,0 +1,20 @@
+{
+    "name": "com.nextcloud.desktopclient.nextcloud",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 185.94582080841064,
+    "cache_size": 15289989,
+    "git_size": 15224333,
+    "dl_size": 45097,
+    "original_hash": "4b601ca763f254c9ba36a320b40ad9cefa99014f",
+    "rebuild_hash": "e5f24b8286c0f54f42bdce47e0ceb0b5c8c6e417",
+    "original_bin_hash": "4cd2a580d15dbc908515d7d643f72c78e35cc287",
+    "rebuild_bin_hash": "fdebb1389518fbdaef287186d7eadebb264462f2",
+    "original_lib_hash": "d0d52745c77c07c5777539ecdc54e1d2a1454629",
+    "rebuild_lib_hash": "6618e9525fcd4b3470013eeb610c90c3d8dcfbbd",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

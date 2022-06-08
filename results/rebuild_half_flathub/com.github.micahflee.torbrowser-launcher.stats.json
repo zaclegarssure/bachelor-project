@@ -1,0 +1,20 @@
+{
+    "name": "com.github.micahflee.torbrowser-launcher",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 2861.8048498630524,
+    "cache_size": 29399167,
+    "git_size": 0,
+    "dl_size": 29382704,
+    "original_hash": "0e75475fe6f9da647202778f5b159928cc3b50a6",
+    "rebuild_hash": "c274e2e30af73534a7f62e814a5dd86c53dd776f",
+    "original_bin_hash": "8db8f15055c2d7f80a40f4fa09a8fa140c8052e1",
+    "rebuild_bin_hash": "8db8f15055c2d7f80a40f4fa09a8fa140c8052e1",
+    "original_lib_hash": "22facad675fccda43a1770165070d63c23ff886d",
+    "rebuild_lib_hash": "1c81f688f3ce50b0be7625b8f089f540dd587822",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

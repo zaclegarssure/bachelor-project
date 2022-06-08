@@ -1,0 +1,23 @@
+{
+    "name": "com.github.PintaProject.Pinta",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 48.90276026725769,
+    "cache_size": 53826027,
+    "git_size": 1769454,
+    "dl_size": 52023726,
+    "original_hash": "c578ca329fb8c183e9256ed6546dcad5af52fc91",
+    "rebuild_hash": "c578ca329fb8c183e9256ed6546dcad5af52fc91",
+    "original_bin_hash": "f8f3cd178ac503f07c51b26dc59806e0a99986ea",
+    "rebuild_bin_hash": "f8f3cd178ac503f07c51b26dc59806e0a99986ea",
+    "original_lib_hash": "3ddb2f896be5346fcf708091f4bebb74d0b02291",
+    "rebuild_lib_hash": "3ddb2f896be5346fcf708091f4bebb74d0b02291",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

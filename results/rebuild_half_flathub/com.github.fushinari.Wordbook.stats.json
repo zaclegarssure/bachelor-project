@@ -1,0 +1,24 @@
+{
+    "name": "com.github.fushinari.Wordbook",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 62.511531352996826,
+    "cache_size": 15890377,
+    "git_size": 15148229,
+    "dl_size": 721589,
+    "original_hash": "85f6bf85f218fc2fbfd3a8f33fcc883e81313a90",
+    "rebuild_hash": "6e8edf69ee4ef76fcd5e85b860d56dedad4e8917",
+    "original_bin_hash": "344c9b2633c286090b6246a01e84f2a1b7e38d41",
+    "rebuild_bin_hash": "344c9b2633c286090b6246a01e84f2a1b7e38d41",
+    "original_lib_hash": "c5f782e4da1d2de2cf46f531cb9557d423daf84b",
+    "rebuild_lib_hash": "bb64bd73f581782c9b6929f06607a7c8465e0a4f",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "meson"
+    ]
+}

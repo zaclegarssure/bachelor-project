@@ -1,0 +1,31 @@
+{
+    "name": "io.mpv.Mpv",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "d07dec0f20bd755fdc6d6b067d96215805a4fe5a492b272a08616d5a6deee15a",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-27 06:33:01+00:00",
+    "timestamp_of_rebuild": 1653633181.0,
+    "git-commit": "b3e943effd964a94521015977d71f3e77c6d4e44 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 581.7166624069214,
+    "cache_size": 44562472,
+    "git_size": 10717738,
+    "dl_size": 33824175,
+    "bad_files": 12,
+    "total_files": 2119,
+    "repro_score": 0.9943369513921662,
+    "original_hash": "c2bb8e9a4614171876980c681ca81b61c98383f7",
+    "rebuild_hash": "66323539cdba7a3fe33a97f49efd2a6e70345368",
+    "original_bin_hash": "d2edf58d0bf07074c9d648d0b621c3a372b397a3",
+    "rebuild_bin_hash": "545d06e86e0aae95730ac6b4f2e336a2afa32062",
+    "original_elf_hash": "7b454737885334df27ea8b64e2d1b66435e22b0b",
+    "rebuild_elf_hash": "7b454737885334df27ea8b64e2d1b66435e22b0b",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

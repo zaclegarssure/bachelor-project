@@ -1,0 +1,31 @@
+{
+    "name": "org.mapeditor.Tiled",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "0acf51128482508d7c292603da9bdeb2598ed4d6bea2677fe78a6b7730497093",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-17 11:43:24+00:00",
+    "timestamp_of_rebuild": 1652787804.0,
+    "git-commit": "424cc865b9220ffab7381084c866be6cf4174595 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 190.25953698158264,
+    "cache_size": 22105134,
+    "git_size": 0,
+    "dl_size": 22088671,
+    "bad_files": 3,
+    "total_files": 591,
+    "repro_score": 0.9949238578680203,
+    "original_hash": "6d2510f7872d628d195209f8734eade131174a70",
+    "rebuild_hash": "653980fdadeecc5d561c7bcb8b18a1857888152d",
+    "original_bin_hash": "346209e91d92fd51273837c26aca60c7572b54b5",
+    "rebuild_bin_hash": "38b3dd9f07d25d99f600d886ca2992b5dd0b7f0b",
+    "original_elf_hash": "c795f8739d6a296ae426760e57815b1e56857762",
+    "rebuild_elf_hash": "496aa0d0df8f05e69d9905f508c47548c2ab6c56",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

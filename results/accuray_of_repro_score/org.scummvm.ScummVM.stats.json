@@ -1,0 +1,31 @@
+{
+    "name": "org.scummvm.ScummVM",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "a478c4f48c616e7d85f80098cc309257c81f1f00269356472620d85fbcef3a7e",
+    "branch": "stable",
+    "time_of_rebuild": "2022-01-14 23:14:52+00:00",
+    "timestamp_of_rebuild": 1642202092.0,
+    "git-commit": "3d7f3347b52a6e56acce05ce9b55b7367c262685 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "59eab8efc1f172f4133bd078a86adefa30bc46b95d0b40a46373c7746a757d2c",
+        "org.freedesktop.Sdk/x86_64/21.08": "ae7e576a0187591ab0931eec30ea68d9907aacc16dc8bd7e6b2a96b73df6f18a",
+        "org.freedesktop.Platform/x86_64/21.08": "b27db466e56f7e49e794656b84153c8b81f929ca8b5b8400142b19bb48b9a63d"
+    },
+    "build_time": 650.112860918045,
+    "cache_size": 285465783,
+    "git_size": 0,
+    "dl_size": 285449320,
+    "bad_files": 1,
+    "total_files": 149,
+    "repro_score": 0.9932885906040269,
+    "original_hash": "043ec36e99d8a7b5ea9e5d33ad2ea1ea07342485",
+    "rebuild_hash": "9790f41d20427a592c0e53840838b855d609687e",
+    "original_bin_hash": "919579fadb327c175233f389e7794dfb335f8b9e",
+    "rebuild_bin_hash": "5c69ab42d18950d6481a0ec95f06f56e451503bd",
+    "original_elf_hash": "d8c93b6345ecae91d8e8cffb2455ccde9c9d5037",
+    "rebuild_elf_hash": "ea89fec0988ca6d23dd92e3deb56c0cb9808a51c",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

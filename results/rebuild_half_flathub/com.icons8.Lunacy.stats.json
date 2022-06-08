@@ -1,0 +1,23 @@
+{
+    "name": "com.icons8.Lunacy",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 3.956329345703125,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "fbe5e1dadbb93bccf1f5f9ba952cba0699aef4bb",
+    "rebuild_hash": "fbe5e1dadbb93bccf1f5f9ba952cba0699aef4bb",
+    "original_bin_hash": "5ea449faed6427af2e963428360347c129feac67",
+    "rebuild_bin_hash": "5ea449faed6427af2e963428360347c129feac67",
+    "original_lib_hash": "dbc5df73df11eeb31110abb3eefbc252568a88de",
+    "rebuild_lib_hash": "dbc5df73df11eeb31110abb3eefbc252568a88de",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

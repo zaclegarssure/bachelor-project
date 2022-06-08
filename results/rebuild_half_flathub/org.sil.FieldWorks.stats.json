@@ -1,0 +1,23 @@
+{
+    "name": "org.sil.FieldWorks",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 4184.881875991821,
+    "cache_size": 1957371372,
+    "git_size": 1039010731,
+    "dl_size": 918316984,
+    "original_hash": "e933fd6d7473155664397b014e6825f9e6bc1092",
+    "rebuild_hash": "0b14e2e8e5b3567bdfab5e2e0579d07bd1b66e7e",
+    "original_bin_hash": "715e6b5f7a4a7b7c12e83ba6434b0ad5d7190d0b",
+    "rebuild_bin_hash": "f4bfd9a1b325ba04425237886dc305c727f03c27",
+    "original_lib_hash": "79b8d47cecbaabaed137ab4083b6e18d061bd5c1",
+    "rebuild_lib_hash": "2fc23aa46db4daa390cf50e2f78bb84462486224",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple"
+    ]
+}

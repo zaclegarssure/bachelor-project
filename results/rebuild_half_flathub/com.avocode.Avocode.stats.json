@@ -1,0 +1,23 @@
+{
+    "name": "com.avocode.Avocode",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 3.6713509559631348,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "24feceafba7932804cb38131a0fe9457e16bf859",
+    "rebuild_hash": "24feceafba7932804cb38131a0fe9457e16bf859",
+    "original_bin_hash": "855cea6c465fce4a4a60129000772c5b4399f03b",
+    "rebuild_bin_hash": "855cea6c465fce4a4a60129000772c5b4399f03b",
+    "original_lib_hash": "71a36352cf6b435df877decd35b59e8e3e7f0058",
+    "rebuild_lib_hash": "71a36352cf6b435df877decd35b59e8e3e7f0058",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

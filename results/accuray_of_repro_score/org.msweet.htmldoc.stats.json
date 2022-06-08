@@ -1,0 +1,31 @@
+{
+    "name": "org.msweet.htmldoc",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "b07bc49db1ca44a08b315e9416342a508d883d24372921fa26aa88d190c3aa7e",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-09 16:29:42+00:00",
+    "timestamp_of_rebuild": 1644424182.0,
+    "git-commit": "eafcf6df9d461f02a795f24f4cd6aef9d486eccb master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.freedesktop.Sdk/x86_64/21.08": "aa8fa029dafc5e20fab3d044caefd07647e5186012f983c28179c5c6dce4a8d5",
+        "org.freedesktop.Platform/x86_64/21.08": "7eae5cd0909215ab896309abf9c6716875f0d012c84f73d44ddd1163a1de286d"
+    },
+    "build_time": 36.23968768119812,
+    "cache_size": 7987937,
+    "git_size": 0,
+    "dl_size": 7971474,
+    "bad_files": 2,
+    "total_files": 96,
+    "repro_score": 0.9791666666666666,
+    "original_hash": "b40ed58f1a0ecc6027794bd823f4b194755062a0",
+    "rebuild_hash": "e44680698028e4db4df501a781a2dd2a1cb09c75",
+    "original_bin_hash": "25931da43498fedc0819cb86def6d52eaa4c94a0",
+    "rebuild_bin_hash": "f72ef0f6ea4d11babd8a83d277aa78e7ba28d372",
+    "original_elf_hash": "d72c97fbd81b6b3d899d7c91230b06fffe6eebaa",
+    "rebuild_elf_hash": "d72c97fbd81b6b3d899d7c91230b06fffe6eebaa",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

@@ -1,0 +1,31 @@
+{
+    "name": "org.kde.kfourinline",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "8f0c43c790b7e47e74636a48c2932f2c7bc71a75692a150c62fa93d90e258324",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-12 10:13:29+00:00",
+    "timestamp_of_rebuild": 1652350409.0,
+    "git-commit": "e372983227f6344723033105cdc2acc63a742c7f master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 42.89665174484253,
+    "cache_size": 6738475,
+    "git_size": 0,
+    "dl_size": 6722012,
+    "bad_files": 14,
+    "total_files": 195,
+    "repro_score": 0.9282051282051282,
+    "original_hash": "54c2d49acf6e1ae4f7c67f9fe84a5df99c2309a0",
+    "rebuild_hash": "14943e23d542d09cb6a338fa71137cd60db291aa",
+    "original_bin_hash": "7855551dea66be553f7f578453fd9a1e09a45620",
+    "rebuild_bin_hash": "5410eae74af790e39016a0d5b023a4e5d2387705",
+    "original_elf_hash": "6ec66bb310c21998ed015570bf46176990c8d2f6",
+    "rebuild_elf_hash": "b0a821a1b1d734d75b639752662882153c074254",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

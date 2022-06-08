@@ -1,0 +1,31 @@
+{
+    "name": "org.gottcode.FocusWriter",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "29e336d3ec54a8ca21cfce0d132f6ca15c67e98f280d3a5e5ee235377a3af73b",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-26 14:28:26+00:00",
+    "timestamp_of_rebuild": 1637936906.0,
+    "git-commit": "2c5211b532255f1489e9694d51211106d6c16163 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.kde.Sdk/x86_64/5.15-21.08": "01dfceaf2736149c8ecca41da3571ca01e721d383b0481967a9c762b3cf2e8b4",
+        "org.kde.Platform/x86_64/5.15-21.08": "828c5d22d3068ea274ad6a7e45c939d49b0395a7b4b96be2c0300268fb1a7559"
+    },
+    "build_time": 23.363886833190918,
+    "cache_size": 10332524,
+    "git_size": 0,
+    "dl_size": 10316061,
+    "bad_files": 2,
+    "total_files": 355,
+    "repro_score": 0.9943661971830986,
+    "original_hash": "b3b320c595f4aec8810287f59f7d0b2a902761cc",
+    "rebuild_hash": "d1e8f3ca2085c6f06d065719d97b130f6a9fab7a",
+    "original_bin_hash": "2d737e3209d83d618ce0e0550fabbb1a3570e8f6",
+    "rebuild_bin_hash": "8673e357a0ab0151710e36218e693e822aafe20b",
+    "original_elf_hash": "d24f70401df7e87a44003c0ef6f60b8894ad108d",
+    "rebuild_elf_hash": "f5d45a7177bcbb07062134b00f900340027e7ce6",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,25 @@
+{
+    "name": "org.gnome.Fractal",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 259.51334977149963,
+    "cache_size": 16521252,
+    "git_size": 2023501,
+    "dl_size": 14477192,
+    "original_hash": "f22ab8e73439a4452686c9a6ebfc39d8a9717053",
+    "rebuild_hash": "fbcab1e57c212a3310ef0e8283c4b750af6bcd8a",
+    "original_bin_hash": "7b1256766bea9ad6ba0d15b2e322e3d540a7b2d9",
+    "rebuild_bin_hash": "831280a7503225fa89cad47c03427c423b9c2f39",
+    "original_lib_hash": "073693fdfd51a559e5b88d234a5d458b23458be0",
+    "rebuild_lib_hash": "073693fdfd51a559e5b88d234a5d458b23458be0",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

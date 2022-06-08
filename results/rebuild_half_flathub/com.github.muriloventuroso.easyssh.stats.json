@@ -1,0 +1,27 @@
+{
+    "name": "com.github.muriloventuroso.easyssh",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 172.51970314979553,
+    "cache_size": 7545659,
+    "git_size": 6625964,
+    "dl_size": 899136,
+    "original_hash": "3116cec3aa54d7bca1e18f4faa3b59efa32af726",
+    "rebuild_hash": "059d3e44bd96810e568381199a1554930d593674",
+    "original_bin_hash": "11c912627aae7d694a06dddfa5f71d9eebbc0b2e",
+    "rebuild_bin_hash": "11c912627aae7d694a06dddfa5f71d9eebbc0b2e",
+    "original_lib_hash": "5b0979c3834a7519415459934e36a3ba4e19e96e",
+    "rebuild_lib_hash": "5b0979c3834a7519415459934e36a3ba4e19e96e",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

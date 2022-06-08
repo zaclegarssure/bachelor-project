@@ -1,0 +1,23 @@
+{
+    "name": "com.slack.Slack",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 3.123012065887451,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "4a8594b932fc360e1d4977d6aa2b73e4e2c2a713",
+    "rebuild_hash": "4a8594b932fc360e1d4977d6aa2b73e4e2c2a713",
+    "original_bin_hash": "fdab145645b49158592fd6bbbeff6619835296c6",
+    "rebuild_bin_hash": "fdab145645b49158592fd6bbbeff6619835296c6",
+    "original_lib_hash": "83d20868dc82d5d3b908f3f289719fb6fb0ef94f",
+    "rebuild_lib_hash": "83d20868dc82d5d3b908f3f289719fb6fb0ef94f",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

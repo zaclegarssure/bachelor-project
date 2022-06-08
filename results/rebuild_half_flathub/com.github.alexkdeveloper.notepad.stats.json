@@ -1,0 +1,23 @@
+{
+    "name": "com.github.alexkdeveloper.notepad",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 4.091853618621826,
+    "cache_size": 117538,
+    "git_size": 101075,
+    "dl_size": 0,
+    "original_hash": "33d51355ff7b036ba18941183f9cffbb991ea863",
+    "rebuild_hash": "33d51355ff7b036ba18941183f9cffbb991ea863",
+    "original_bin_hash": "9d1f88426f8d0277f0fb39c28af54059f782bfaf",
+    "rebuild_bin_hash": "9d1f88426f8d0277f0fb39c28af54059f782bfaf",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "com.bluejeans.BlueJeans",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 33.03615617752075,
+    "cache_size": 1779212,
+    "git_size": 0,
+    "dl_size": 1762749,
+    "original_hash": "2c4dabf6fcc23e456a0ded5e75d82232bb1cd564",
+    "rebuild_hash": "2c4dabf6fcc23e456a0ded5e75d82232bb1cd564",
+    "original_bin_hash": "3560f49343ef7202828b045f81ccb51968095b04",
+    "rebuild_bin_hash": "3560f49343ef7202828b045f81ccb51968095b04",
+    "original_lib_hash": "e137157486b48570d983ff03bd910610d6fb657a",
+    "rebuild_lib_hash": "e137157486b48570d983ff03bd910610d6fb657a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "autotools",
+        "simple",
+        "simple"
+    ]
+}

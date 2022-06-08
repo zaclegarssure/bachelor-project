@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.eog",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "2994ae2fd9e13c9cb788f5a5cd58473805938e68e4180a944cc093cf3de5101c",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-30 04:36:20+00:00",
+    "timestamp_of_rebuild": 1653885380.0,
+    "git-commit": "1fe203aa7ac83e6dda08cacc435490b8d5f7008a master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "c3ea4e88f8f9d05efb8b085abb2d1f56d8bab435dade310f31edef002612736d",
+        "org.gnome.Platform/x86_64/42": "ad9ceb4f734c754fe1db5ee926eb1482062ef35f0f588cd74f486eceb3f1028a"
+    },
+    "build_time": 225.0700969696045,
+    "cache_size": 15714724,
+    "git_size": 267394,
+    "dl_size": 15426771,
+    "bad_files": 1,
+    "total_files": 1265,
+    "repro_score": 0.9992094861660079,
+    "original_hash": "d6c063837dd39bd986b825e52cbfb5140e1d6e5a",
+    "rebuild_hash": "f1d10e7ea2dfcc65633bc3fcdf6ab24f2a0cb40f",
+    "original_bin_hash": "a626f77ca1b02aa26ca71ec74415bd44dc820582",
+    "rebuild_bin_hash": "a626f77ca1b02aa26ca71ec74415bd44dc820582",
+    "original_elf_hash": "14ef1dd567f2cd3959554f58203d8c466bfd68b7",
+    "rebuild_elf_hash": "14ef1dd567f2cd3959554f58203d8c466bfd68b7",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

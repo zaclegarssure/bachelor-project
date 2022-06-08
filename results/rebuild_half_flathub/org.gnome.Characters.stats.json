@@ -1,0 +1,25 @@
+{
+    "name": "org.gnome.Characters",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 38.058836698532104,
+    "cache_size": 171686061,
+    "git_size": 0,
+    "dl_size": 171669598,
+    "original_hash": "0ea6769807a1fbb0b31676f166dc11852b8ef656",
+    "rebuild_hash": "30953a49621d1ac0935c9e9e7c2f775cec1dc43a",
+    "original_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "rebuild_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "original_lib_hash": "bef31cc2085aeab9ed0c3f9064772fde13d480c4",
+    "rebuild_lib_hash": "bef31cc2085aeab9ed0c3f9064772fde13d480c4",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "meson",
+        "meson"
+    ]
+}

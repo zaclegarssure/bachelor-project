@@ -1,0 +1,11 @@
+{
+    "name": "com.varnamproject.Varnam",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "2d53bbdd00f1fc7a73df1c6750d3a7b62f31b9d830fffda83157e4ded786de85",
+    "branch": "stable",
+    "time_of_rebuild": "2020-08-20 19:26:46+00:00",
+    "timestamp_of_rebuild": 1597951606.0,
+    "machine": "desktop-arch"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.NetworkDisplays",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 142.99342918395996,
+    "cache_size": 14833070,
+    "git_size": 8389386,
+    "dl_size": 6423125,
+    "original_hash": "4e37c9fab956379a415218c8996fd49237bebf85",
+    "rebuild_hash": "4e37c9fab956379a415218c8996fd49237bebf85",
+    "original_bin_hash": "e3c317775c4ff908c656627ddd52c09147885b69",
+    "rebuild_bin_hash": "e3c317775c4ff908c656627ddd52c09147885b69",
+    "original_lib_hash": "1299e4d00d4301ee9bed9e6b0d12bf79e81bf9c7",
+    "rebuild_lib_hash": "1299e4d00d4301ee9bed9e6b0d12bf79e81bf9c7",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

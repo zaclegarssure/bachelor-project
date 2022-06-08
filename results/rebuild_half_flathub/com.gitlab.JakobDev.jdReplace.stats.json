@@ -1,0 +1,24 @@
+{
+    "name": "com.gitlab.JakobDev.jdReplace",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 20.148081064224243,
+    "cache_size": 145439,
+    "git_size": 117282,
+    "dl_size": 7598,
+    "original_hash": "ffb235391a0bf713d042adbd4b24d460db1138c1",
+    "rebuild_hash": "ffb235391a0bf713d042adbd4b24d460db1138c1",
+    "original_bin_hash": "6a9db032189cf44622d8c4d2f090b0d15ef1fc84",
+    "rebuild_bin_hash": "6a9db032189cf44622d8c4d2f090b0d15ef1fc84",
+    "original_lib_hash": "6b144c3cacc2dbb67e800171faff18b413692d05",
+    "rebuild_lib_hash": "6b144c3cacc2dbb67e800171faff18b413692d05",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "com.github.robertsanseries.ciano",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 187.58796548843384,
+    "cache_size": 25216945,
+    "git_size": 275986,
+    "dl_size": 24920400,
+    "original_hash": "78ea1701333abe07aadf1c9a05479ee004415cc4",
+    "rebuild_hash": "181094e960baff646a78d8c72cbcb0f277ad8cdb",
+    "original_bin_hash": "f1d1703adc54fa6d88905b3b6387eb2dfe2541cd",
+    "rebuild_bin_hash": "da6c493702119b45ed727b882e65c773aced21d7",
+    "original_lib_hash": "5ba96aac9a166c860059e87fa3ed613db653f48a",
+    "rebuild_lib_hash": "7a7c3d6f1b5c5ec3d2408eafb6ce30977499ab4e",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

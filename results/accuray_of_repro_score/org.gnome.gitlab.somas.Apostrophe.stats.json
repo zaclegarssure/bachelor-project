@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.gitlab.somas.Apostrophe",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "3646f59da8bdaa0b71c5c72ee19db1a3504713de6126fca92c6c1c378f9f13a3",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-29 20:39:37+00:00",
+    "timestamp_of_rebuild": 1651264777.0,
+    "git-commit": "3570e43bdcda16e3ee0fb92dc655fc4335b2ffde master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/41": "8012fa6cf53f159c8acbc63797821b998457aa1f63d8f7801e463b566a2ea5b5",
+        "org.gnome.Platform/x86_64/41": "6071e4e35ed5251c5825719240ea3478f0be272328955ee4fefa886448c67c14"
+    },
+    "build_time": 158.19572281837463,
+    "cache_size": 119783232,
+    "git_size": 99758023,
+    "dl_size": 20004650,
+    "bad_files": 4,
+    "total_files": 365,
+    "repro_score": 0.989041095890411,
+    "original_hash": "0e985762333c66674a90d92dce260fa54f964027",
+    "rebuild_hash": "8afc5f4dd09ea7b5e8dc3253b1909dba0fdfb850",
+    "original_bin_hash": "4bf4d0a040e06e77e3ecaf2ada228aac79901a92",
+    "rebuild_bin_hash": "3f36fd838e2047508860b523d46b7dc8ccb2fa2c",
+    "original_elf_hash": "7b72876302db2d31c6de712f7ae036b99ba8f47a",
+    "rebuild_elf_hash": "91dcda3c33203c25f6b2e0a9417571ddadb24ef5",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

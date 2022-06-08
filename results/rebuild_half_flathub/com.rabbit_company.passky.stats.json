@@ -1,0 +1,23 @@
+{
+    "name": "com.rabbit_company.passky",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 37.98639750480652,
+    "cache_size": 156793714,
+    "git_size": 0,
+    "dl_size": 156728099,
+    "original_hash": "64192fb841df9ee86772c8b0e4a3139acbd03455",
+    "rebuild_hash": "64192fb841df9ee86772c8b0e4a3139acbd03455",
+    "original_bin_hash": "2ee7bd82b7d9cb558b406f9d4987104693630b42",
+    "rebuild_bin_hash": "2ee7bd82b7d9cb558b406f9d4987104693630b42",
+    "original_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "rebuild_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

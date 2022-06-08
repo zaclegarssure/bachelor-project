@@ -1,0 +1,24 @@
+{
+    "name": "com.itextpdf.RUPS",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 163.1646068096161,
+    "cache_size": 16973844,
+    "git_size": 97909,
+    "dl_size": 16855376,
+    "original_hash": "5e1fc1dfa05b352daea8574b03cb010e2ae62e54",
+    "rebuild_hash": "db6bb941abcf134fd373991020256c06d9efd9a2",
+    "original_bin_hash": "48c446139237c0ab1d5d8594afd995b6b8a02858",
+    "rebuild_bin_hash": "48c446139237c0ab1d5d8594afd995b6b8a02858",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

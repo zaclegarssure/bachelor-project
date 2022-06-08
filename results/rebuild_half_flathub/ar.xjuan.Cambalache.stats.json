@@ -1,0 +1,23 @@
+{
+    "name": "ar.xjuan.Cambalache",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 6.694596529006958,
+    "cache_size": 363103,
+    "git_size": 346640,
+    "dl_size": 0,
+    "original_hash": "a2f886f385559d14520be7068673d23d6dda3cac",
+    "rebuild_hash": "290e82822343f489e3aca98e65099c877b8f3803",
+    "original_bin_hash": "220cb74f4b824fbedabbe793e6b15b65caa299eb",
+    "rebuild_bin_hash": "67c2640b6b8f09bfdcab0fcfc1b447a6b22acf63",
+    "original_lib_hash": "e3fa990f9876adbcd6c49713892990441bafd7f4",
+    "rebuild_lib_hash": "768e789afd4e1b470f39c6f64eea54cb577b24b0",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "com.github.alexkdeveloper.sudoku",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 22.74267053604126,
+    "cache_size": 1111465,
+    "git_size": 734750,
+    "dl_size": 356156,
+    "original_hash": "72ef9b6910f90f001fc309f409d4d0a6169a8a4e",
+    "rebuild_hash": "72ef9b6910f90f001fc309f409d4d0a6169a8a4e",
+    "original_bin_hash": "5621548a27e57cfd2ff91ea67a32caa3c251a908",
+    "rebuild_bin_hash": "5621548a27e57cfd2ff91ea67a32caa3c251a908",
+    "original_lib_hash": "28c176d037a18e4d53f4c70c3d0b45bedd104742",
+    "rebuild_lib_hash": "28c176d037a18e4d53f4c70c3d0b45bedd104742",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

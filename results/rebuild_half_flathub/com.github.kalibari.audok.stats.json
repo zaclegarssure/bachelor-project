@@ -1,0 +1,21 @@
+{
+    "name": "com.github.kalibari.audok",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 136.26414585113525,
+    "cache_size": 19186364,
+    "git_size": 0,
+    "dl_size": 19169901,
+    "original_hash": "43d87199897be3f30477d8a07f6283b8aa94d6dc",
+    "rebuild_hash": "43d87199897be3f30477d8a07f6283b8aa94d6dc",
+    "original_bin_hash": "4c91aecbe32027ba4a9f6aff5181c7eca9c03c17",
+    "rebuild_bin_hash": "4c91aecbe32027ba4a9f6aff5181c7eca9c03c17",
+    "original_lib_hash": "ffeb44690a4093f02f527f4f25d69a09993fa585",
+    "rebuild_lib_hash": "ffeb44690a4093f02f527f4f25d69a09993fa585",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": []
+}

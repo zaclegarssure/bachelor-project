@@ -1,0 +1,33 @@
+{
+    "name": "org.frescobaldi.Frescobaldi",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "e7f135fec051cf5c728082c0d80837a985165ee7e98208010d75351b3723ad95",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-31 14:45:08+00:00",
+    "timestamp_of_rebuild": 1648737908.0,
+    "git-commit": "3be702a04da268eecea9e042866ed75231bccc3a master",
+    "flatpak-deps": {
+        "io.qt.qtwebengine.BaseApp/x86_64/5.15": "1d8a29a9d8d4e84b13eee452c2f0e912d767dfaa0c3dffd16018896f3ec9830b",
+        "org.freedesktop.Sdk.Extension.texlive/x86_64/20.08": "4441338038833acde2c7d8a9bc2c040ed7cba74206d609b65f1c3b92b8a073d9",
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.kde.Sdk/x86_64/5.15": "60713fe8833a50e5c0a6093962d930edf8b304c75a05a3e393de57b8bbcb1c0a",
+        "org.kde.Platform/x86_64/5.15": "dc1c3d01cc95b500c9c334e7e54cf80e2179ac5ab53f2e3fbc63cc7e34ecd448"
+    },
+    "build_time": 1492.2741780281067,
+    "cache_size": 246667382,
+    "git_size": 0,
+    "dl_size": 246650919,
+    "bad_files": 70,
+    "total_files": 4084,
+    "repro_score": 0.9828599412340843,
+    "original_hash": "085efe092324cee0197839e45eb7ad03ea89d769",
+    "rebuild_hash": "0652782edd16d6b45c7d460210b28a5ea2e51352",
+    "original_bin_hash": "3b8ee4eaa9a2d0a6cda0f1d81626673aa6f8348b",
+    "rebuild_bin_hash": "aef9c0ca814b6fd14111aef47fe1d7a76af7206a",
+    "original_elf_hash": "9cc7d5fef7cc4bbd6f9a86fff3465def65e3ff97",
+    "rebuild_elf_hash": "187fc0f6de13a8cbf82e75cb9c08e73f6e5345af",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

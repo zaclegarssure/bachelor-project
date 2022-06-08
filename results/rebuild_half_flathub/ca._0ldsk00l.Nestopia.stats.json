@@ -1,0 +1,21 @@
+{
+    "name": "ca._0ldsk00l.Nestopia",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 54.22074484825134,
+    "cache_size": 2019055,
+    "git_size": 0,
+    "dl_size": 2002592,
+    "original_hash": "b1eaf5ecae820f8e0d724d7bffd217fff282cd59",
+    "rebuild_hash": "b1eaf5ecae820f8e0d724d7bffd217fff282cd59",
+    "original_bin_hash": "fba85feb9b43487fe4b6c5140c75035aab3553e0",
+    "rebuild_bin_hash": "fba85feb9b43487fe4b6c5140c75035aab3553e0",
+    "original_lib_hash": "48884dcd318bdab39b36a47697f871aa0b3512ef",
+    "rebuild_lib_hash": "48884dcd318bdab39b36a47697f871aa0b3512ef",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": []
+}

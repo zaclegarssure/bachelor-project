@@ -1,0 +1,14 @@
+{
+    "name": "com.github.vladimiry.ElectronMail",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "meson",
+        "simple",
+        "meson",
+        "simple",
+        "simple"
+    ]
+}

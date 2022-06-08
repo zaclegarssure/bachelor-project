@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.design.Palette",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 5.211850166320801,
+    "cache_size": 2806599,
+    "git_size": 2790136,
+    "dl_size": 0,
+    "original_hash": "30ae5daa9443ee8af9ebf11fead44a090e72e176",
+    "rebuild_hash": "30ae5daa9443ee8af9ebf11fead44a090e72e176",
+    "original_bin_hash": "8d87cb9193927be58da052d1515648f249850240",
+    "rebuild_bin_hash": "8d87cb9193927be58da052d1515648f249850240",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

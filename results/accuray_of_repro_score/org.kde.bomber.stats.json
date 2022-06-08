@@ -1,0 +1,31 @@
+{
+    "name": "org.kde.bomber",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "cbb46ae829bf3e5ab29874d03907c72aafc89d780dfd4bb854943bbf1f9f4541",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-12 10:03:59+00:00",
+    "timestamp_of_rebuild": 1652349839.0,
+    "git-commit": "31f05ff1dc781e09a5b90d5bc48fc4055255d3e8 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 34.43087697029114,
+    "cache_size": 6850507,
+    "git_size": 0,
+    "dl_size": 6834044,
+    "bad_files": 3,
+    "total_files": 188,
+    "repro_score": 0.9840425531914894,
+    "original_hash": "1c6fa280a461248edf5c735cdb74330f37833f9e",
+    "rebuild_hash": "f94cbe663078e57fb2aef44dbba7a85135f8d6b2",
+    "original_bin_hash": "c5d855fffdb3aec1504a395c6e6e62efdbbeb4c1",
+    "rebuild_bin_hash": "c200afd6ba5b7dc269378b50424fb9c4169cbe0d",
+    "original_elf_hash": "da92d7a1ea269bedfcf36fb017a68dffa02e1b5b",
+    "rebuild_elf_hash": "c298a2af811571ae5afde3273c8595c0f01062b9",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.SoundRecorder",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 4.600236892700195,
+    "cache_size": 182767,
+    "git_size": 0,
+    "dl_size": 166304,
+    "original_hash": "939d52ad87717dfa1f4e3b35f6486ccb61e814c3",
+    "rebuild_hash": "939d52ad87717dfa1f4e3b35f6486ccb61e814c3",
+    "original_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "rebuild_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

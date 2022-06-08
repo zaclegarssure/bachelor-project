@@ -1,0 +1,24 @@
+{
+    "name": "com.moonlight_stream.Moonlight",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 155.45845937728882,
+    "cache_size": 697195314,
+    "git_size": 697178851,
+    "dl_size": 0,
+    "original_hash": "1cdae6c95b6393ef4f46a884a991b3fefb98ba35",
+    "rebuild_hash": "2e40ce1e22c6410abb367c864bb79de284062e69",
+    "original_bin_hash": "bd6f85828fb8e0a9ae63b98ae8bfd7a2a7814314",
+    "rebuild_bin_hash": "1d8e898f91928551afae78f480ce0e0b27c0ff3d",
+    "original_lib_hash": "cd4cb35fe291d4150d19d47c0d49ec24f4aea7e6",
+    "rebuild_lib_hash": "cd4cb35fe291d4150d19d47c0d49ec24f4aea7e6",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "qmake"
+    ]
+}

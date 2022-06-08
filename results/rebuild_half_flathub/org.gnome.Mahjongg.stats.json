@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.Mahjongg",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 11.050952434539795,
+    "cache_size": 3082419,
+    "git_size": 0,
+    "dl_size": 3065956,
+    "original_hash": "f2f4b1c811ae84706925cb665cc402cd4b35ee22",
+    "rebuild_hash": "f2f4b1c811ae84706925cb665cc402cd4b35ee22",
+    "original_bin_hash": "bc40796866f2c2240f323c27ef87695206330200",
+    "rebuild_bin_hash": "bc40796866f2c2240f323c27ef87695206330200",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

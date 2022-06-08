@@ -1,0 +1,31 @@
+{
+    "name": "org.mixxx.Mixxx",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "920a6920322c0653ab2eee1c35f321939b12cbefc3c2f4dcf0bc2f355f6907f3",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-24 18:52:21+00:00",
+    "timestamp_of_rebuild": 1645728741.0,
+    "git-commit": "d1b7caa53fb4e05aea2e1f4771ad8b734e91595c master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "2c858c72b807bdee3e9edc8a64a05c771e3fbad051ea76421aaf7a4d6265ca5b",
+        "org.kde.Sdk/x86_64/5.15-21.08": "daddf8e306dd37425b46ba6a5251b3fcb5cc273ec89fa3f33d0b54b657386e3c",
+        "org.kde.Platform/x86_64/5.15-21.08": "6ead3f696bd8683fa7b84f75e71c06670b9c27983b9d11e673e744ed7d8e16a9"
+    },
+    "build_time": 837.2067775726318,
+    "cache_size": 58928730,
+    "git_size": 2457647,
+    "dl_size": 56450524,
+    "bad_files": 2,
+    "total_files": 2960,
+    "repro_score": 0.9993243243243243,
+    "original_hash": "42f4c0f9c4da46b017a34408d68e147545c09972",
+    "rebuild_hash": "d2df8dfd0d3cd58117f0d6491adfc910d3bd2d8a",
+    "original_bin_hash": "4eda7e05cd667a718513988a35f4a56de7db3a93",
+    "rebuild_bin_hash": "1c34183f12bc98dabc58bf117a97e48ff31a33aa",
+    "original_elf_hash": "e8e44ba6a5f209bf6eefa74b4fc25db212c2d03f",
+    "rebuild_elf_hash": "1e8d2700622e5656a8dbde7c7eb3d33cc36b0714",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

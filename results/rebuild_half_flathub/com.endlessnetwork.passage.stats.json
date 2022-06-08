@@ -1,0 +1,23 @@
+{
+    "name": "com.endlessnetwork.passage",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 40.4272620677948,
+    "cache_size": 106506062,
+    "git_size": 3227055,
+    "dl_size": 103258448,
+    "original_hash": "a3167a3f83e2e9a8aadba393de62b67ccc9c08b2",
+    "rebuild_hash": "a3167a3f83e2e9a8aadba393de62b67ccc9c08b2",
+    "original_bin_hash": "4ac0f8bf16f307c5ea4015a50d519e0a75e56238",
+    "rebuild_bin_hash": "4ac0f8bf16f307c5ea4015a50d519e0a75e56238",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

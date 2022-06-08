@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.LightsOff",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "6aabf755747f9e52e18938bf366dbfac77e9077472d70d02caa1b22f2a935d77",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-27 11:03:44+00:00",
+    "timestamp_of_rebuild": 1632740624.0,
+    "git-commit": "16c7f01054bb76d1c9e59963d2fb6fc5f1ac7c09 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "d40cff9fa614104744be54f9dcbfd846c76a6cb7a80f045f6057d34ba69ac423",
+        "org.gnome.Sdk/x86_64/41": "dbaa5847ecc56030361c4cff1a24692d636abd9607a522f3e33441d740056070",
+        "org.gnome.Platform/x86_64/41": "f3997927cf2aa278af23f5ca907a8d03bea3814c342f3526b08e2b4a0e511af6"
+    },
+    "build_time": 10.753564357757568,
+    "cache_size": 7165192,
+    "git_size": 7148729,
+    "dl_size": 0,
+    "bad_files": 1,
+    "total_files": 194,
+    "repro_score": 0.9948453608247423,
+    "original_hash": "29add33cc3cb881e9e535c856abe08813326636b",
+    "rebuild_hash": "3b4a19148c606522ffe04204e81f84d95696da4e",
+    "original_bin_hash": "18385c71d4113e80010c986c97a80f67333790fa",
+    "rebuild_bin_hash": "18385c71d4113e80010c986c97a80f67333790fa",
+    "original_elf_hash": "23bb962f1cd066399d111db029b51b1fd389785a",
+    "rebuild_elf_hash": "23bb962f1cd066399d111db029b51b1fd389785a",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

@@ -1,0 +1,24 @@
+{
+    "name": "com.github.emmanueltouzery.hotwire",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 436.68516087532043,
+    "cache_size": 66029970,
+    "git_size": 182224,
+    "dl_size": 65802611,
+    "original_hash": "ce499b4b554ae9e09458a28253040ad317d0eec7",
+    "rebuild_hash": "74c65bb01932d944ed74b551174c8c283f084157",
+    "original_bin_hash": "262ada7722f5e2fb63909f033dd6ba18a7eec66e",
+    "rebuild_bin_hash": "830a0c3437b08b5c9ff62899899bf1b2ae0f549c",
+    "original_lib_hash": "5a6ba3ed5a1b2e24461ac5621480f48eef33c8a0",
+    "rebuild_lib_hash": "5a6ba3ed5a1b2e24461ac5621480f48eef33c8a0",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "simple"
+    ]
+}

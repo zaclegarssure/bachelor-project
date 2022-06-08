@@ -1,0 +1,18 @@
+{
+    "name": "org.gnunet.Messenger",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "autotools",
+        "autotools",
+        "autotools",
+        "autotools",
+        "simple",
+        "autotools",
+        "autotools",
+        "autotools",
+        "simple"
+    ]
+}

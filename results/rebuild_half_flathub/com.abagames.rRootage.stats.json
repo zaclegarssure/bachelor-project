@@ -1,0 +1,20 @@
+{
+    "name": "com.abagames.rRootage",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 56.454610109329224,
+    "cache_size": 12096667,
+    "git_size": 0,
+    "dl_size": 12080204,
+    "original_hash": "40e21ecce6e8fb62835197de070e6298cd2f809e",
+    "rebuild_hash": "40e21ecce6e8fb62835197de070e6298cd2f809e",
+    "original_bin_hash": "540ce1a1a8a80be70f07657041de9955f580bded",
+    "rebuild_bin_hash": "540ce1a1a8a80be70f07657041de9955f580bded",
+    "original_lib_hash": "ac0d192476610ae50f359f87bdbc053027add255",
+    "rebuild_lib_hash": "ac0d192476610ae50f359f87bdbc053027add255",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

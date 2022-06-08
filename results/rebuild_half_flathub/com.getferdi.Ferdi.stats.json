@@ -1,0 +1,24 @@
+{
+    "name": "com.getferdi.Ferdi",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 105.16575908660889,
+    "cache_size": 110765020,
+    "git_size": 0,
+    "dl_size": 110748557,
+    "original_hash": "aa12cd9a513417285580df41ed2da4f4ec035cf2",
+    "rebuild_hash": "aa12cd9a513417285580df41ed2da4f4ec035cf2",
+    "original_bin_hash": "b7f3429b3378daa6b528581e6d5224dfdccc173b",
+    "rebuild_bin_hash": "b7f3429b3378daa6b528581e6d5224dfdccc173b",
+    "original_lib_hash": "de8d6fdd2736e8303986af17de40d3a2d16511e8",
+    "rebuild_lib_hash": "de8d6fdd2736e8303986af17de40d3a2d16511e8",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

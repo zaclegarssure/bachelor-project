@@ -1,0 +1,20 @@
+{
+    "name": "com.github.junrrein.PDFSlicer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 562.7331573963165,
+    "cache_size": 302560400,
+    "git_size": 173667681,
+    "dl_size": 128872160,
+    "original_hash": "fa210e7490ae31e6f1cf21dfe22a4c0bbe60f420",
+    "rebuild_hash": "05133e1a034114c1e66580303fabaf22904fdbf4",
+    "original_bin_hash": "da1c6e99360c8f037c0a406dca201fde944194b2",
+    "rebuild_bin_hash": "da1c6e99360c8f037c0a406dca201fde944194b2",
+    "original_lib_hash": "d930c4227a8a4151950f027ec58e0773a9f3f43a",
+    "rebuild_lib_hash": "d930c4227a8a4151950f027ec58e0773a9f3f43a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

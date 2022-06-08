@@ -1,0 +1,20 @@
+{
+    "name": "com.anydesk.Anydesk",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 274.1635239124298,
+    "cache_size": 24811836,
+    "git_size": 148691,
+    "dl_size": 24642586,
+    "original_hash": "886fda207191c7aab0717589dc1f11823dae2ee3",
+    "rebuild_hash": "bfeb02cf238c51ac6511d47f81e3c109c2499639",
+    "original_bin_hash": "e08717fd6fb6a5417381ee119f5576c37428db11",
+    "rebuild_bin_hash": "e08717fd6fb6a5417381ee119f5576c37428db11",
+    "original_lib_hash": "cca24f883010074e74de9aae39df699e0723a7ad",
+    "rebuild_lib_hash": "d6c042c4de6b0861efa816cf9e7204d5c5644894",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

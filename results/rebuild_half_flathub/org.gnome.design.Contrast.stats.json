@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.design.Contrast",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 112.4560616016388,
+    "cache_size": 15248367,
+    "git_size": 0,
+    "dl_size": 15231904,
+    "original_hash": "1846c28b1f503d2bae5aaa15153ddc002e812fcf",
+    "rebuild_hash": "1846c28b1f503d2bae5aaa15153ddc002e812fcf",
+    "original_bin_hash": "523f67c38e9be3bb85740ad200efc72650a3f98b",
+    "rebuild_bin_hash": "523f67c38e9be3bb85740ad200efc72650a3f98b",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

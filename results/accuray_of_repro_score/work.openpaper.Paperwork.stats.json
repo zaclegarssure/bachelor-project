@@ -1,0 +1,32 @@
+{
+    "name": "work.openpaper.Paperwork",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "265070c246f7fd2b5d4321b92183bba0ec0def5168af4ae2364d3292e32ba353",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-01 14:01:49+00:00",
+    "timestamp_of_rebuild": 1643724109.0,
+    "git-commit": "776159823c91de0c9d558f00d76e494d6127e1f1 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk11/x86_64/21.08": "644d6a2463500e543f5ff2408f6ca4f11d533484c4709b022fbe2c3e9197328d",
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.gnome.Sdk/x86_64/41": "ecccb80495350cc4b6cbca854de8249bb1a92e01e80bacb2d492f1c4ff3be533",
+        "org.gnome.Platform/x86_64/41": "b0aed9b5fb8b5e3e1e1badc8711fa34667760cf5ce79b2727b8d8c21d4772577"
+    },
+    "build_time": 9652.416401147842,
+    "cache_size": 1818934439,
+    "git_size": 707494667,
+    "dl_size": 1111402829,
+    "bad_files": 381,
+    "total_files": 18960,
+    "repro_score": 0.9799050632911392,
+    "original_hash": "edbfb69790698c0c40af600e616f4937321c2e52",
+    "rebuild_hash": "ee1dbae567f809e3b993ab5a3f4458722f080a1f",
+    "original_bin_hash": "2dc529b607a11d1ff6e99b85af7f4fea80f8f698",
+    "rebuild_bin_hash": "285f4dcabdaf4ecf3a009ed468df7853ed70023a",
+    "original_elf_hash": "22d0ffe5c8c35886d1e8603849dabe811481b546",
+    "rebuild_elf_hash": "a923f8f8f5a2703f89492ad60e6b5f8c02f1f0d4",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

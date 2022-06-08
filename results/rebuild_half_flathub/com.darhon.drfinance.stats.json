@@ -1,0 +1,23 @@
+{
+    "name": "com.darhon.drfinance",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 48.04458999633789,
+    "cache_size": 538277,
+    "git_size": 521814,
+    "dl_size": 0,
+    "original_hash": "34257a89b0ba7d84f57710729d2e35d22e262b24",
+    "rebuild_hash": "401048587d623e2f49b35a970028519385853d02",
+    "original_bin_hash": "0c2b6f421aa5e99822524ee69405c4ebdbdaa425",
+    "rebuild_bin_hash": "44496bb56b80348b49c40104f128e53f0c89e0bc",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

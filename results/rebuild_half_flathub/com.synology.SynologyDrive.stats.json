@@ -1,0 +1,23 @@
+{
+    "name": "com.synology.SynologyDrive",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 1.3797967433929443,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "263b156b40098198d06b0e82be45e0a17758465c",
+    "rebuild_hash": "25cb8797e67cca718acdc97fac2e3b77ec4d50ac",
+    "original_bin_hash": "4e7fadc6f36c802af836dd3872891aab7828cdef",
+    "rebuild_bin_hash": "4e7fadc6f36c802af836dd3872891aab7828cdef",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

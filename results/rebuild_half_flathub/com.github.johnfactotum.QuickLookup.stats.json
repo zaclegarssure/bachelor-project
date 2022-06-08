@@ -1,0 +1,23 @@
+{
+    "name": "com.github.johnfactotum.QuickLookup",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 1.7103431224822998,
+    "cache_size": 81844,
+    "git_size": 0,
+    "dl_size": 65381,
+    "original_hash": "b65d3785d0903037af5308f9fd11a9c634ac22f3",
+    "rebuild_hash": "b65d3785d0903037af5308f9fd11a9c634ac22f3",
+    "original_bin_hash": "31b875871c3247ad7bfb381863292ee6e09d8a71",
+    "rebuild_bin_hash": "31b875871c3247ad7bfb381863292ee6e09d8a71",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

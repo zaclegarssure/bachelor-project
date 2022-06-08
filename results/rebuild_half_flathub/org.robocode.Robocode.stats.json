@@ -1,0 +1,24 @@
+{
+    "name": "org.robocode.Robocode",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 54.659854888916016,
+    "cache_size": 10482580,
+    "git_size": 0,
+    "dl_size": 10482271,
+    "original_hash": "25458888d3c8c47a612c008eeb1aa1cb48e39ced",
+    "rebuild_hash": "25458888d3c8c47a612c008eeb1aa1cb48e39ced",
+    "original_bin_hash": "ce43adac65dd1570edcb901a2ac0096ade387ec2",
+    "rebuild_bin_hash": "ce43adac65dd1570edcb901a2ac0096ade387ec2",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

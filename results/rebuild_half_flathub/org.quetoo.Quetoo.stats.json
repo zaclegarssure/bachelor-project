@@ -1,0 +1,25 @@
+{
+    "name": "org.quetoo.Quetoo",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 419.39298391342163,
+    "cache_size": 3648732643,
+    "git_size": 3648537284,
+    "dl_size": 194678,
+    "original_hash": "58ccf634b4145fe12f767bb2fe599518ead87a7f",
+    "rebuild_hash": "eed0edc95b4af01c6575111e46404600b2a84df6",
+    "original_bin_hash": "10c9f19f20e8d7c1aafa3ba41698ebd584583ad3",
+    "rebuild_bin_hash": "db4e1706caff66b33a30878793a283167780e8eb",
+    "original_lib_hash": "ce5896c7d8b94228818b8bb11ae1965a67f81e26",
+    "rebuild_lib_hash": "9922e2caada0e0d02b6d5407a9e43b84fd8b3901",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "cmake",
+        "simple"
+    ]
+}

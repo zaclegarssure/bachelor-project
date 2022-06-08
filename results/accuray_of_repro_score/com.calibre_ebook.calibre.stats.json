@@ -1,0 +1,31 @@
+{
+    "name": "com.calibre_ebook.calibre",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "2d062a72cb6fb56f6789c56ca425a50918a164410b2b63845962adb4a4674390",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-27 04:53:00+00:00",
+    "timestamp_of_rebuild": 1653627180.0,
+    "git-commit": "eebc70e893672a7f7e722f1fd5d2ad4f98357ab6 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 67.934805393219,
+    "cache_size": 116506295,
+    "git_size": 0,
+    "dl_size": 116489832,
+    "bad_files": 48,
+    "total_files": 891,
+    "repro_score": 0.9461279461279462,
+    "original_hash": "4775c0ec5634a47895939d00fb6a46cb96d19c96",
+    "rebuild_hash": "4e62ab6c0500f0f3273f663d5c27d9fce0e44a01",
+    "original_bin_hash": "5d2074e3b5f058a6f6cb5ec4fabd4b26fb3f3bec",
+    "rebuild_bin_hash": "790ee35480dca9f4833a0b0e4f62e4c9d4d61d29",
+    "original_elf_hash": "8f1bf99dc346550b206450059c7029518bed63f3",
+    "rebuild_elf_hash": "8f1bf99dc346550b206450059c7029518bed63f3",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

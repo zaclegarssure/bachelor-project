@@ -1,0 +1,26 @@
+{
+    "name": "org.gnome.NautilusPreviewer",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 135.57112288475037,
+    "cache_size": 10973737,
+    "git_size": 0,
+    "dl_size": 10957274,
+    "original_hash": "65d591f145d4d017e11399fdacfb59f18efbe580",
+    "rebuild_hash": "65d591f145d4d017e11399fdacfb59f18efbe580",
+    "original_bin_hash": "aeb7b407a317bad6fd08e665d3e6088f80c0b7d3",
+    "rebuild_bin_hash": "aeb7b407a317bad6fd08e665d3e6088f80c0b7d3",
+    "original_lib_hash": "a281b9c7d3c8dbc7fbebf1d929c5e0ea45a54ab9",
+    "rebuild_lib_hash": "a281b9c7d3c8dbc7fbebf1d929c5e0ea45a54ab9",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

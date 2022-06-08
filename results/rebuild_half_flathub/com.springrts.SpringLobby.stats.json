@@ -1,0 +1,25 @@
+{
+    "name": "com.springrts.SpringLobby",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 415.7946457862854,
+    "cache_size": 229409597,
+    "git_size": 98544101,
+    "dl_size": 130844937,
+    "original_hash": "e85b83aa23eb5845fba1bc9064e06bfb5c11eea2",
+    "rebuild_hash": "959590f0c825146da4c6b5108b232eb1f9157133",
+    "original_bin_hash": "7a5083e43714dc677569bada1b11ee20ea7b760b",
+    "rebuild_bin_hash": "9fa3b9414a1134909e811dca635ece4b1d1a6b4e",
+    "original_lib_hash": "e42d5907f5a8f1722333f998516afe7b723af53a",
+    "rebuild_lib_hash": "e42d5907f5a8f1722333f998516afe7b723af53a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "simple",
+        "cmake-ninja"
+    ]
+}

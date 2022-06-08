@@ -1,0 +1,23 @@
+{
+    "name": "com.github.appadeia.Taigo",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 6.402211904525757,
+    "cache_size": 444715,
+    "git_size": 428252,
+    "dl_size": 0,
+    "original_hash": "cc39af2d3681d8b35851c22e847eef2155c87554",
+    "rebuild_hash": "cc39af2d3681d8b35851c22e847eef2155c87554",
+    "original_bin_hash": "1f820b7d99e7ccb93322d41a3cdb3f99421e3f19",
+    "rebuild_bin_hash": "1f820b7d99e7ccb93322d41a3cdb3f99421e3f19",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

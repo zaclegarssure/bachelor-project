@@ -1,0 +1,23 @@
+{
+    "name": "com.github.huluti.Coulr",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 2.7732157707214355,
+    "cache_size": 111773,
+    "git_size": 95310,
+    "dl_size": 0,
+    "original_hash": "bb5958b69f46b878d336fa95e23d3c5d2c776601",
+    "rebuild_hash": "bb5958b69f46b878d336fa95e23d3c5d2c776601",
+    "original_bin_hash": "f6a137cbc79eacd43a126ef2cf08cbd7706c475f",
+    "rebuild_bin_hash": "f6a137cbc79eacd43a126ef2cf08cbd7706c475f",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

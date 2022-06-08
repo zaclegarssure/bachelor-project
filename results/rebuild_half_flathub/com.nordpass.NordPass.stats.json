@@ -1,0 +1,20 @@
+{
+    "name": "com.nordpass.NordPass",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 10.935292720794678,
+    "cache_size": 662805,
+    "git_size": 396308,
+    "dl_size": 245938,
+    "original_hash": "55e3f150077744de1ef646882d9576c93be31216",
+    "rebuild_hash": "55e3f150077744de1ef646882d9576c93be31216",
+    "original_bin_hash": "ffb9af910301d96bf11482bdffca503b44a6d81d",
+    "rebuild_bin_hash": "ffb9af910301d96bf11482bdffca503b44a6d81d",
+    "original_lib_hash": "27e7911a2c42d1fa5ed60120f642182c35935b93",
+    "rebuild_lib_hash": "27e7911a2c42d1fa5ed60120f642182c35935b93",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

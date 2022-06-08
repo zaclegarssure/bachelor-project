@@ -1,0 +1,21 @@
+{
+    "name": "cc.nift.nsm",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 220.84758281707764,
+    "cache_size": 8129760,
+    "git_size": 2249898,
+    "dl_size": 5859303,
+    "original_hash": "7c992f2d5a7e92f47b7d651f7d5eaccaf68e15e4",
+    "rebuild_hash": "7c992f2d5a7e92f47b7d651f7d5eaccaf68e15e4",
+    "original_bin_hash": "db16834d1b9087f4ad21bb3f0c74c2c5313ec4fa",
+    "rebuild_bin_hash": "db16834d1b9087f4ad21bb3f0c74c2c5313ec4fa",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": []
+}

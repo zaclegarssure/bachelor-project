@@ -1,0 +1,28 @@
+{
+    "name": "org.polymc.PolyMC",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 386.9461450576782,
+    "cache_size": 3102109,
+    "git_size": 2930260,
+    "dl_size": 171238,
+    "original_hash": "f80366ec4aecf4462dbd22908a12feaaad678022",
+    "rebuild_hash": "67bb0663cdd4a88d2217dcdf5c0442da2bab32af",
+    "original_bin_hash": "de1ed2c127bc1e8fdfb7e7ab287881ec50aff95c",
+    "rebuild_bin_hash": "f6b3113f47d2f27fee210b78bd00adf07fc6d14b",
+    "original_lib_hash": "b9595ecb4f452884f9d4810b3cd0f6f4696563fa",
+    "rebuild_lib_hash": "b9595ecb4f452884f9d4810b3cd0f6f4696563fa",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "cmake",
+        "simple",
+        "autotools",
+        "meson",
+        "simple",
+        "simple"
+    ]
+}

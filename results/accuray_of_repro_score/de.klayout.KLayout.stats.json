@@ -1,0 +1,31 @@
+{
+    "name": "de.klayout.KLayout",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "31de4c895231bb78324e7aa5335fdfd318b0a61d53a869154587a7905c74ae6f",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-25 14:36:16+00:00",
+    "timestamp_of_rebuild": 1650897376.0,
+    "git-commit": "c7a67b6670ecabceb684680cdf218c8fdf20bef2 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 1649.066256761551,
+    "cache_size": 79098574,
+    "git_size": 0,
+    "dl_size": 79082111,
+    "bad_files": 83,
+    "total_files": 14079,
+    "repro_score": 0.9941046949357198,
+    "original_hash": "965b8aa0c0c4344ef6e76933fb16ad4f4051bf30",
+    "rebuild_hash": "1524978d68908d2795352dfa2d112fa486ce67d3",
+    "original_bin_hash": "0f4b3787dfd4ea612bf014d841d28472bdd24435",
+    "rebuild_bin_hash": "9e5f278409fc599e83bb0d3b4fd9061713434e4e",
+    "original_elf_hash": "1322d14d44ecf220e6b111c3ccc04760cabd0142",
+    "rebuild_elf_hash": "de8db3c515b62ead95590ee1630da34a1497af0d",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

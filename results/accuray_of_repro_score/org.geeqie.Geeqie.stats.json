@@ -1,0 +1,16 @@
+{
+    "name": "org.geeqie.Geeqie",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "90a402c6cf98e7aa93e50de9fde314af62bb217d7a9c4bea0d4d29971fa3a7e6",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-12 11:53:36+00:00",
+    "timestamp_of_rebuild": 1649764416.0,
+    "git-commit": "1d151992183b1c867771bb0ea288ebda62bcab51 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/41": "7f6dcb09d3af135d8bfb68ff309f4142bfa7cb37a77ff971d492de894d292bc7",
+        "org.gnome.Platform/x86_64/41": "07e2f19d660a4bf5520857f2eea3aa7005d0e320b2ee5ec7c02a5ea95d2123a3"
+    }
+}

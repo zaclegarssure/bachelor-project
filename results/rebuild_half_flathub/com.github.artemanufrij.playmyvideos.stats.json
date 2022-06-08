@@ -1,0 +1,23 @@
+{
+    "name": "com.github.artemanufrij.playmyvideos",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 17.14749026298523,
+    "cache_size": 1288407,
+    "git_size": 0,
+    "dl_size": 1271944,
+    "original_hash": "507688257a527a19356f5ceb1cfcacaa2737b78a",
+    "rebuild_hash": "29c70c8eee4d47268bb73a003ba0977e0f67799a",
+    "original_bin_hash": "51b6a48e0bd2a151fac6f0956559bb50911875d1",
+    "rebuild_bin_hash": "51b6a48e0bd2a151fac6f0956559bb50911875d1",
+    "original_lib_hash": "4cc93deba2b293716f9976dde0d8d8cf288e7ef1",
+    "rebuild_lib_hash": "4cc93deba2b293716f9976dde0d8d8cf288e7ef1",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

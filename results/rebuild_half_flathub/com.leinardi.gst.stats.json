@@ -1,0 +1,29 @@
+{
+    "name": "com.leinardi.gst",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 142.0475344657898,
+    "cache_size": 12238505,
+    "git_size": 8250499,
+    "dl_size": 3967447,
+    "original_hash": "c544da6da1a514cab33dccc4c592f6ef9f311c6a",
+    "rebuild_hash": "5a6886ba99c95d178984712e8d6051ff2862c427",
+    "original_bin_hash": "33d7063e1b7e4f758c305229a67defbe36e7878a",
+    "rebuild_bin_hash": "33d7063e1b7e4f758c305229a67defbe36e7878a",
+    "original_lib_hash": "441e45e9bf9c7c75014d92ad1e0a365b0ce3408a",
+    "rebuild_lib_hash": "ae773dbe1a7ad202cd1d5ddb48c34dd6b256ad06",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

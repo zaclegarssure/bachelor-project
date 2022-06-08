@@ -1,0 +1,31 @@
+{
+    "name": "com.abisource.AbiWord",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "f3763378d6e6b54e8de4d56310b3e86d36d863a6f282911a069f43c0b5ea7656",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-21 02:30:57+00:00",
+    "timestamp_of_rebuild": 1640053857.0,
+    "git-commit": "456ffae2554466c3deaed9cad997218d7fa9ad7d master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.gnome.Sdk/x86_64/41": "13610dcd6bdad52462f9b5112fb8b3b86c7a639e60a2f6784e25849e1dcad95d",
+        "org.gnome.Platform/x86_64/41": "cea3bffea9aad8ecd84ba25c89242b7f773543ffaac3393bcf8db5449aafd009"
+    },
+    "build_time": 872.6409404277802,
+    "cache_size": 102217274,
+    "git_size": 3090157,
+    "dl_size": 99106558,
+    "bad_files": 374,
+    "total_files": 2976,
+    "repro_score": 0.8743279569892473,
+    "original_hash": "872f5863eb604229e2a2af3339a827a707f6fbdf",
+    "rebuild_hash": "611c9b485bd3cda91c15c7be2c8e7309b82b93e7",
+    "original_bin_hash": "28efc782ff8931454f730d606ecfb490aa41f16b",
+    "rebuild_bin_hash": "972f8d0d11f57aa31609f67314f6c20324beedbb",
+    "original_elf_hash": "161d5f9020e1061e64eb63592c56a04dc5dad8f7",
+    "rebuild_elf_hash": "d5ec058be4a3069b24229062edfa8c0af6a10a67",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

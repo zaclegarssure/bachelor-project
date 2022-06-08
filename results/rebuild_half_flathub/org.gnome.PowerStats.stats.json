@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.PowerStats",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 40.862014055252075,
+    "cache_size": 1507332,
+    "git_size": 0,
+    "dl_size": 1490869,
+    "original_hash": "2b5c4df83021267819dd47a749a06b0f24c8c66b",
+    "rebuild_hash": "2b5c4df83021267819dd47a749a06b0f24c8c66b",
+    "original_bin_hash": "241385cde86678b7276943fc5a16401cef78f6f3",
+    "rebuild_bin_hash": "241385cde86678b7276943fc5a16401cef78f6f3",
+    "original_lib_hash": "1de17de9efaecc0cc8cdf5a89add1c5fd54011f8",
+    "rebuild_lib_hash": "1de17de9efaecc0cc8cdf5a89add1c5fd54011f8",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

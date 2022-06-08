@@ -1,0 +1,30 @@
+{
+    "name": "org.geany.Geany",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "1730c1b8653d7b8c81efbd05b8ac8765dbd0862d222a41441979e31257d43492",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-02 18:13:15+00:00",
+    "timestamp_of_rebuild": 1648923195.0,
+    "git-commit": "226020cde5730c923d313fadd32ee3a83126b1e0 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.freedesktop.Sdk/x86_64/21.08": "1a972810d883f9721f90b87e092d282184b8a95fc10fc72068723cd54f893b22"
+    },
+    "build_time": 77.53939533233643,
+    "cache_size": 5894622,
+    "git_size": 842868,
+    "dl_size": 5031195,
+    "bad_files": 1,
+    "total_files": 274,
+    "repro_score": 0.9963503649635036,
+    "original_hash": "1287fe19431240c1133102bcb1b6b585cfa04379",
+    "rebuild_hash": "704fb764c8ad0ed2d99d45bdaf02baf710deb590",
+    "original_bin_hash": "f5d290a342af50a15341b9506a1b3dcfef8d05cb",
+    "rebuild_bin_hash": "36307fd3b9642266bedda5a904dc45ab1607719b",
+    "original_elf_hash": "5f355e8fafdc1dbcbfca4fbf95c997c47a59e782",
+    "rebuild_elf_hash": "74b546903b6a67045205bdac5d542abf0204dc94",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,25 @@
+{
+    "name": "edu.stanford.Almond",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 419.78954124450684,
+    "cache_size": 99275592,
+    "git_size": 5906818,
+    "dl_size": 93286775,
+    "original_hash": "4e8941eb4fb881ea98ac556a9779ad13659c5caf",
+    "rebuild_hash": "2b91f51a004adb420cd093945d8df25d6348f813",
+    "original_bin_hash": "deee1f807906934cc1ebd04194a3111b890ea4ea",
+    "rebuild_bin_hash": "deee1f807906934cc1ebd04194a3111b890ea4ea",
+    "original_lib_hash": "df238aa235e005eed31bd32f0a1b074d42480e13",
+    "rebuild_lib_hash": "f5517b1df5d2920e11fcc5d9422542fd2a4fc68e",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake",
+        "simple",
+        "meson"
+    ]
+}

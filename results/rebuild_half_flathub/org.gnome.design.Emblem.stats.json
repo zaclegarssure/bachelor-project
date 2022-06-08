@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.design.Emblem",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 111.47112727165222,
+    "cache_size": 21689871,
+    "git_size": 0,
+    "dl_size": 21673408,
+    "original_hash": "df458ceb6d08b9d5cd00983d6c881379141acf8c",
+    "rebuild_hash": "3af3b009c55023c86950f0fe7e07679d4d63f9c5",
+    "original_bin_hash": "14649cf0f3db88c95dd5d0d0bb095f164f4353da",
+    "rebuild_bin_hash": "14649cf0f3db88c95dd5d0d0bb095f164f4353da",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

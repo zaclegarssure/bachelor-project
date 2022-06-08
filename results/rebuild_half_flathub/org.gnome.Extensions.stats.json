@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.Extensions",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 16.24745750427246,
+    "cache_size": 3458084,
+    "git_size": 3441621,
+    "dl_size": 0,
+    "original_hash": "e3c10147aef6adb93c626485786b5b27f72207ad",
+    "rebuild_hash": "e3c10147aef6adb93c626485786b5b27f72207ad",
+    "original_bin_hash": "64e611c02e1d1ee5b5b6ceb48f315b44909bc27f",
+    "rebuild_bin_hash": "64e611c02e1d1ee5b5b6ceb48f315b44909bc27f",
+    "original_lib_hash": "a6a0fc916a0eb72c80c117d3e4139512ca318f07",
+    "rebuild_lib_hash": "a6a0fc916a0eb72c80c117d3e4139512ca318f07",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

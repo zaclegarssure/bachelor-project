@@ -1,0 +1,23 @@
+{
+    "name": "com.steamgriddb.steam-rom-manager",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 38.165971517562866,
+    "cache_size": 84441166,
+    "git_size": 9615829,
+    "dl_size": 74804778,
+    "original_hash": "4da35b6dc22a13565b98101e50cddfc781eb0a60",
+    "rebuild_hash": "4da35b6dc22a13565b98101e50cddfc781eb0a60",
+    "original_bin_hash": "cd8822fb140e34b5ea250bb85aa0f069a4e73566",
+    "rebuild_bin_hash": "cd8822fb140e34b5ea250bb85aa0f069a4e73566",
+    "original_lib_hash": "ed31c6672a1e93903f0c3bd9919366055d28ea8c",
+    "rebuild_lib_hash": "ed31c6672a1e93903f0c3bd9919366055d28ea8c",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

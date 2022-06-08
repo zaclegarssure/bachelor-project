@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Taquin",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 28.334851026535034,
+    "cache_size": 5895219,
+    "git_size": 0,
+    "dl_size": 5878756,
+    "original_hash": "f5a888d48b30b5bb08fc9caee6bb2a82d06fec46",
+    "rebuild_hash": "ebbf324c88916a2a1d2c4bce48fcd732a5ae848c",
+    "original_bin_hash": "cfd12ffeaad31de0cee785d1f9578306063401fd",
+    "rebuild_bin_hash": "cfd12ffeaad31de0cee785d1f9578306063401fd",
+    "original_lib_hash": "a55023dd045cd607ccef644acad5ea27d8ba644e",
+    "rebuild_lib_hash": "a55023dd045cd607ccef644acad5ea27d8ba644e",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

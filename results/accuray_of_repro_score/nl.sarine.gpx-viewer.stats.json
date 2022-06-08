@@ -1,0 +1,31 @@
+{
+    "name": "nl.sarine.gpx-viewer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "823cecf458cc231ff4ad0246fc788ec1066e89de7e31ec0fd9d1546eabdecdcb",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-12 10:58:22+00:00",
+    "timestamp_of_rebuild": 1631444302.0,
+    "git-commit": "f53d26cfd1a95b0fa38eefd061de9a5cf5d5b70a master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "c8c1ca8e3474880eaaa547cfd975b239d5ed729a59fc8148403b420803332803",
+        "org.gnome.Sdk/x86_64/40": "10c8aa56b67c4db4f2b1c1cec263903f786949ec1619e082681deec1b391616d",
+        "org.gnome.Platform/x86_64/40": "8b41a8055e89e066ae8e647c4baaa6509234de32c745ae807307bcf4e69b05d0"
+    },
+    "build_time": 29.928075790405273,
+    "cache_size": 1233285,
+    "git_size": 284616,
+    "dl_size": 928110,
+    "bad_files": 1,
+    "total_files": 46,
+    "repro_score": 0.9782608695652174,
+    "original_hash": "9cdea9f3ea6a0b0782722413500c56001dc48d02",
+    "rebuild_hash": "c81ecf8bf50b10b7bc12991f9fb35687318d656c",
+    "original_bin_hash": "c19f111a9a61928c310fd220ebcf2c21586a2e7b",
+    "rebuild_bin_hash": "c19f111a9a61928c310fd220ebcf2c21586a2e7b",
+    "original_elf_hash": "5417aefbfd7369daccb8bb827eea16481904a00c",
+    "rebuild_elf_hash": "5417aefbfd7369daccb8bb827eea16481904a00c",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

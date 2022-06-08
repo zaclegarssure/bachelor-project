@@ -1,0 +1,23 @@
+{
+    "name": "com.rafaelmardojai.Blanket",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 6.33216404914856,
+    "cache_size": 20083955,
+    "git_size": 20067492,
+    "dl_size": 0,
+    "original_hash": "cde6a06afefdf910c3777c50e52066eeb0179ea9",
+    "rebuild_hash": "cde6a06afefdf910c3777c50e52066eeb0179ea9",
+    "original_bin_hash": "be32d84034d7d61abc46686983da8124974800c9",
+    "rebuild_bin_hash": "be32d84034d7d61abc46686983da8124974800c9",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

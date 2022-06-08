@@ -1,0 +1,27 @@
+{
+    "name": "com.github.Eloston.UngoogledChromium",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 13649.887738704681,
+    "cache_size": 1503182360,
+    "git_size": 766334,
+    "dl_size": 1502395467,
+    "original_hash": "b229726cf8dede5bd60e01af05031e1a32d11f9c",
+    "rebuild_hash": "c2416e2caed538fd66fbebf50141bf04d978ca84",
+    "original_bin_hash": "400bdbd8afe0056e875dbeb2a228117cff75ba07",
+    "rebuild_bin_hash": "400bdbd8afe0056e875dbeb2a228117cff75ba07",
+    "original_lib_hash": "6d1200543450182971d1794ac3336aeae02ff64a",
+    "rebuild_lib_hash": "6d1200543450182971d1794ac3336aeae02ff64a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

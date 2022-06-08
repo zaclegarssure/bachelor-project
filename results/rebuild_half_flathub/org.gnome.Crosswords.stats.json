@@ -1,0 +1,28 @@
+{
+    "name": "org.gnome.Crosswords",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 30.44895029067993,
+    "cache_size": 38051691,
+    "git_size": 38018578,
+    "dl_size": 12554,
+    "original_hash": "2c6c79ddb48a86d1cd66c557a0706c66ca20ec7b",
+    "rebuild_hash": "23427ba969489359b1a402a4aa0c7858c9dd345c",
+    "original_bin_hash": "3813f25095bb2d247b290cbba3c0ce7fc839b5dc",
+    "rebuild_bin_hash": "3813f25095bb2d247b290cbba3c0ce7fc839b5dc",
+    "original_lib_hash": "daa3aa5a7520a006fc1c7c9c2bffaa92924eb31e",
+    "rebuild_lib_hash": "daa3aa5a7520a006fc1c7c9c2bffaa92924eb31e",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "simple",
+        "meson"
+    ]
+}

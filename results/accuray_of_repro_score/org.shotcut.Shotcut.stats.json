@@ -1,0 +1,31 @@
+{
+    "name": "org.shotcut.Shotcut",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "99b8852efdd9a75b76f66d48c5a3eebfa8af927bbe6fcb75a8b84c67804a53dd",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-10 17:15:32+00:00",
+    "timestamp_of_rebuild": 1652202932.0,
+    "git-commit": "8abc7c00c910747e191e92631c21303257f71806 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 544.0463366508484,
+    "cache_size": 69483214,
+    "git_size": 50095777,
+    "dl_size": 19366878,
+    "bad_files": 7,
+    "total_files": 995,
+    "repro_score": 0.992964824120603,
+    "original_hash": "71b3a8e2f8510273f2720890d73430c90a997c28",
+    "rebuild_hash": "2d4899e59cbf64b24bc92b8a739ff77946325846",
+    "original_bin_hash": "d57385fcf4fc8cdd2d014447ce551695f2feaec4",
+    "rebuild_bin_hash": "5ace2bfcca49d17aa6f731cad5d1d432526afcd3",
+    "original_elf_hash": "599744b3aed07834ad64d50726600823c58c8a15",
+    "rebuild_elf_hash": "f10ff1a5e82d49fd76ef77ce70a2bda1c5f868cf",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

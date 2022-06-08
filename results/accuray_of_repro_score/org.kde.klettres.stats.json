@@ -1,0 +1,31 @@
+{
+    "name": "org.kde.klettres",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "fcb5a1a5c530514b80346a1f696f3315d38748fa7798009edc1add0eda6668a0",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-12 22:21:39+00:00",
+    "timestamp_of_rebuild": 1652394099.0,
+    "git-commit": "a3f39d522d43e76c0b834a0713523a19de71a3ab master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 18.232023000717163,
+    "cache_size": 47163071,
+    "git_size": 0,
+    "dl_size": 47146608,
+    "bad_files": 11,
+    "total_files": 2062,
+    "repro_score": 0.9946653734238603,
+    "original_hash": "545955ba58cb16a9c6c16deb46746bb99b2d58fb",
+    "rebuild_hash": "9904f465bb2dee2543f10a2f9feed1b8371c8ce7",
+    "original_bin_hash": "9b4f679bc4cc786adf2482e037273d06e8080d69",
+    "rebuild_bin_hash": "a849b825062663d7f9348434eac1ba5d93b7bb3a",
+    "original_elf_hash": "835a319af8bd85c332bd13740b3c99aabb4c0695",
+    "rebuild_elf_hash": "835a319af8bd85c332bd13740b3c99aabb4c0695",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

@@ -1,0 +1,23 @@
+{
+    "name": "com.github.IsmaelMartinez.teams_for_linux",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 31.07095980644226,
+    "cache_size": 76285563,
+    "git_size": 0,
+    "dl_size": 76269100,
+    "original_hash": "7a26c3d085fa0046158a7dddd3c4e1d3b97f0433",
+    "rebuild_hash": "e5785de84923088afc0c8b2a57f7deb39b29ad2e",
+    "original_bin_hash": "c8fc9607795ac47846e02705359e2adbbf0a1121",
+    "rebuild_bin_hash": "c8fc9607795ac47846e02705359e2adbbf0a1121",
+    "original_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "rebuild_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

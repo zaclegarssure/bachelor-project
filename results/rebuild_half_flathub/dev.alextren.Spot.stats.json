@@ -1,0 +1,23 @@
+{
+    "name": "dev.alextren.Spot",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 659.7927238941193,
+    "cache_size": 74445470,
+    "git_size": 26093456,
+    "dl_size": 48298687,
+    "original_hash": "0677bace245a98277e14dc50ab92597d8c4655a8",
+    "rebuild_hash": "7308941da2c30c1aee1db6a3f396c8dc3e99122d",
+    "original_bin_hash": "ffab0700d6cce08a0d88227a43a70db8d1377f04",
+    "rebuild_bin_hash": "e26595a86efd0b7039a77cac75ed7ce3b394c2f9",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

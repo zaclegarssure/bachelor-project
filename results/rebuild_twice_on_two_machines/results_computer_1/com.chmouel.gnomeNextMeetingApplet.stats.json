@@ -1,0 +1,10 @@
+{
+    "name": "com.chmouel.gnomeNextMeetingApplet",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "7b2a715dbc7250e837baa096b624e267dcded5755265d8f968ec187a60273474",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-18 11:50:43+00:00",
+    "timestamp_of_rebuild": 1652874643.0
+}

@@ -1,0 +1,11 @@
+{
+    "name": "com.github.jmlich.geotagging",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "cmake-ninja"
+    ]
+}

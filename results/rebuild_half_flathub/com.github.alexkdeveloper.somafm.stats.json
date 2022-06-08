@@ -1,0 +1,23 @@
+{
+    "name": "com.github.alexkdeveloper.somafm",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 4.710705995559692,
+    "cache_size": 159851,
+    "git_size": 143388,
+    "dl_size": 0,
+    "original_hash": "c66c35c86ed254e4b4ba9d53b56df497e95b8b0e",
+    "rebuild_hash": "c66c35c86ed254e4b4ba9d53b56df497e95b8b0e",
+    "original_bin_hash": "2082ef9754c1d284fd5d8f5c92988e177e4c9b15",
+    "rebuild_bin_hash": "2082ef9754c1d284fd5d8f5c92988e177e4c9b15",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

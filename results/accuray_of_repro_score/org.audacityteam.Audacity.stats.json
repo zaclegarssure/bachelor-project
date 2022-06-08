@@ -1,0 +1,31 @@
+{
+    "name": "org.audacityteam.Audacity",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "fec467ad948102139e9e13581f11747b7c5ed2f302da26038dd41651467a0d1d",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-16 16:02:35+00:00",
+    "timestamp_of_rebuild": 1650124955.0,
+    "git-commit": "70b43b5b35813b8c8e0108d284d4c7d609fb4b9f master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 891.112911939621,
+    "cache_size": 182823324,
+    "git_size": 161845838,
+    "dl_size": 20956927,
+    "bad_files": 2,
+    "total_files": 343,
+    "repro_score": 0.9941690962099126,
+    "original_hash": "ac9af88a7d2673cbc99ade9ba7e11145fba292c3",
+    "rebuild_hash": "efa5babdf9de83ae6d7e9edd5affad8a90c64c93",
+    "original_bin_hash": "64bdd34717a5cf8faa55ea4ba40d8c29f10a5252",
+    "rebuild_bin_hash": "ceaddf8d26d40f859a4c8379cdadddcef41ac220",
+    "original_elf_hash": "e1d63a3fd20373b242c9d0d410f1ee0bb5f0ea9b",
+    "rebuild_elf_hash": "f1b5932157768acfeeeff84b449763480631e85b",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

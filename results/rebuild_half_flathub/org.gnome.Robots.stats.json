@@ -1,0 +1,25 @@
+{
+    "name": "org.gnome.Robots",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 30.9851131439209,
+    "cache_size": 839751,
+    "git_size": 0,
+    "dl_size": 823288,
+    "original_hash": "c4b9d9acbcd984fb7a315b606c566a12f2db8210",
+    "rebuild_hash": "c4b9d9acbcd984fb7a315b606c566a12f2db8210",
+    "original_bin_hash": "8237f807844de758291521377c65e944a4dd6ccd",
+    "rebuild_bin_hash": "8237f807844de758291521377c65e944a4dd6ccd",
+    "original_lib_hash": "96193ae89a5c683b2bef533ba5dff112d56c3531",
+    "rebuild_lib_hash": "96193ae89a5c683b2bef533ba5dff112d56c3531",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

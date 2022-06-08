@@ -1,0 +1,26 @@
+{
+    "name": "com.github.Matoking.protontricks",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 311.1427044868469,
+    "cache_size": 27756438,
+    "git_size": 228145,
+    "dl_size": 27507734,
+    "original_hash": "b311562f9343a88b70fcb341efb2e141121bd0b5",
+    "rebuild_hash": "a1563a3b2dbfa77e0b1cc2c9e0729419e2ce2092",
+    "original_bin_hash": "92847cf63b85f7c1eca0dcaec1b3bb2d5581ab33",
+    "rebuild_bin_hash": "259dec78ec3cae398dd218c9c81a06ea0c8af9e1",
+    "original_lib_hash": "d557aa94f82e154a282c0f820c980c3282b1b009",
+    "rebuild_lib_hash": "0b2019ae327079acb44ee20ab5739ced603ef140",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "org.ppsspp.PPSSPP",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "ba19b18629d8f4195d30928bfbfa1affe6e91ae479a8ed9888967af3f7d4e5e9",
+    "branch": "stable",
+    "time_of_rebuild": "2022-01-20 00:36:25+00:00",
+    "timestamp_of_rebuild": 1642638985.0,
+    "git-commit": "617d448f4173733c3ce2912e64afb9025ca01a62 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "f28222e39af4328cde1612233374e7105709fd88f066ca802fab1d2929c4104b",
+        "org.freedesktop.Sdk/x86_64/21.08": "ae7e576a0187591ab0931eec30ea68d9907aacc16dc8bd7e6b2a96b73df6f18a",
+        "org.freedesktop.Platform/x86_64/21.08": "b27db466e56f7e49e794656b84153c8b81f929ca8b5b8400142b19bb48b9a63d"
+    },
+    "build_time": 326.0445349216461,
+    "cache_size": 1204400379,
+    "git_size": 1203099591,
+    "dl_size": 1280229,
+    "bad_files": 0,
+    "total_files": 160,
+    "repro_score": 1.0,
+    "original_hash": "62377d627d5350aeb3728da3fc7ca5b6f4fda109",
+    "rebuild_hash": "62377d627d5350aeb3728da3fc7ca5b6f4fda109",
+    "original_bin_hash": "89a965b42577a297c2401894563bb1ac7d44637e",
+    "rebuild_bin_hash": "89a965b42577a297c2401894563bb1ac7d44637e",
+    "original_elf_hash": "64dd022dcf2f8ce46a1cd35c7607c4e696ec6db7",
+    "rebuild_elf_hash": "64dd022dcf2f8ce46a1cd35c7607c4e696ec6db7",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

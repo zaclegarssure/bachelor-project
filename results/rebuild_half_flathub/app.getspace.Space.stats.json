@@ -1,0 +1,23 @@
+{
+    "name": "app.getspace.Space",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 12.968575477600098,
+    "cache_size": 25522759,
+    "git_size": 0,
+    "dl_size": 25506296,
+    "original_hash": "83d7df0b163bd7ff662cf8b5cf0402c21927b32c",
+    "rebuild_hash": "83d7df0b163bd7ff662cf8b5cf0402c21927b32c",
+    "original_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "rebuild_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

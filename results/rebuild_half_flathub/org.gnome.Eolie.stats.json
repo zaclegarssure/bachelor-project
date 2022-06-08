@@ -1,0 +1,26 @@
+{
+    "name": "org.gnome.Eolie",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 106.9760353565216,
+    "cache_size": 12505206,
+    "git_size": 650579,
+    "dl_size": 11834068,
+    "original_hash": "de0682e9c2ddb7d38e43035ea9eca64b7094ad16",
+    "rebuild_hash": "94594c3ed2c1a22139a41a6fc80148b234c29155",
+    "original_bin_hash": "c82d89560456da34caa95e8aadf08f32b386a581",
+    "rebuild_bin_hash": "c82d89560456da34caa95e8aadf08f32b386a581",
+    "original_lib_hash": "9b822dc2b76d0aec194c9bc08785cc988af940c5",
+    "rebuild_lib_hash": "965834b000bf77d6587cd56f36291d59f25d13f5",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "diffoscope_failed": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

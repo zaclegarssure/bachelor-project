@@ -1,0 +1,23 @@
+{
+    "name": "com.endlessnetwork.whitehouse",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 124.06025743484497,
+    "cache_size": 530398981,
+    "git_size": 3277645,
+    "dl_size": 527100777,
+    "original_hash": "a5248e1c4c889a6b04c6031851fa81e2157fff14",
+    "rebuild_hash": "0544032ec378dc6ab30c2c66b74f950d1b9fe27f",
+    "original_bin_hash": "d74d5b8aeb7aa07529d529e3de118f703c15292a",
+    "rebuild_bin_hash": "d74d5b8aeb7aa07529d529e3de118f703c15292a",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

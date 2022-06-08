@@ -1,0 +1,32 @@
+{
+    "name": "com.discordapp.Discord",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "0f3de39f9b9a118e431ead7f95fb81746d721aa8087f486a1080e2ea5bf76a25",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-13 17:57:06+00:00",
+    "timestamp_of_rebuild": 1649872626.0,
+    "git-commit": "ca687ea4b14af89d5d2944f2b00687a34ed09d73 master",
+    "flatpak-deps": {
+        "org.electronjs.Electron2.BaseApp/x86_64/21.08": "169e6f56f86de43d828afa86f3f3bc64ee1ddb231dc16667f985a0242a67aeb0",
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.freedesktop.Sdk/x86_64/21.08": "1a972810d883f9721f90b87e092d282184b8a95fc10fc72068723cd54f893b22",
+        "org.freedesktop.Platform/x86_64/21.08": "e5aff027f1cfc1b950d476dab5159628f077a4ca114e87160a123df9cce700bf"
+    },
+    "build_time": 82.26690006256104,
+    "cache_size": 78560657,
+    "git_size": 0,
+    "dl_size": 78544194,
+    "bad_files": 1,
+    "total_files": 371,
+    "repro_score": 0.9973045822102425,
+    "original_hash": "5e94f419ca2151e16eeddb494c62bcb721cc88d4",
+    "rebuild_hash": "68ef6ed8cfbfe849752bf6be1c3fd9c206cb3730",
+    "original_bin_hash": "552907bcca203383cc5d625189d3681798d4d538",
+    "rebuild_bin_hash": "f743a884297347b2e6344ed33d02a017ef534de3",
+    "original_elf_hash": "9c81b2fecb38c039ecd7b9eb16248cece23465d4",
+    "rebuild_elf_hash": "f7d3c169b9560dd4698db8e2005323a3d6ceb0a7",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

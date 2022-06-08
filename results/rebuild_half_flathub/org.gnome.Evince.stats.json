@@ -1,0 +1,27 @@
+{
+    "name": "org.gnome.Evince",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 214.7379448413849,
+    "cache_size": 20655503,
+    "git_size": 76141,
+    "dl_size": 20558803,
+    "original_hash": "2a9ff33b522b230ec2a1b7204c7eb6c6142e0ad3",
+    "rebuild_hash": "fa42ac9612dba2193a3171fa8f4da78f67b756d7",
+    "original_bin_hash": "637e652672cbd1d7239b7ea6f04c7d68c80207f5",
+    "rebuild_bin_hash": "637e652672cbd1d7239b7ea6f04c7d68c80207f5",
+    "original_lib_hash": "ee44a1e964636ee0d4c9129785018f545c53d3d6",
+    "rebuild_lib_hash": "ee44a1e964636ee0d4c9129785018f545c53d3d6",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "cmake-ninja",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

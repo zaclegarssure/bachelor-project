@@ -1,0 +1,23 @@
+{
+    "name": "org.rncbc.qpwgraph",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 23.24023938179016,
+    "cache_size": 440015,
+    "git_size": 0,
+    "dl_size": 439712,
+    "original_hash": "80e1844ed3f3f86d1e6f84de6ed50b2bd5c7bdcb",
+    "rebuild_hash": "df17f7b5104686bc8267b5b7212cc9d6f9a0ea6c",
+    "original_bin_hash": "552391daf34501492f8d45153500740194bee30e",
+    "rebuild_bin_hash": "778587103847c55047549aea841f7e0bb1d22ff6",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

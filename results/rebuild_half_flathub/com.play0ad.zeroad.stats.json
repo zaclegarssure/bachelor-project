@@ -1,0 +1,20 @@
+{
+    "name": "com.play0ad.zeroad",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 1959.5720717906952,
+    "cache_size": 1462046719,
+    "git_size": 0,
+    "dl_size": 1462030256,
+    "original_hash": "7c2d989cbcc4d81866cee3f813167075f3c7bbb1",
+    "rebuild_hash": "2da371c71d18ef42132e7a317b3416809371c229",
+    "original_bin_hash": "cb4479085398b3ba4e084645baa43e04e5f400e8",
+    "rebuild_bin_hash": "187f1923b6fc51a2c3d0a3d5b3ea7d0bf532335e",
+    "original_lib_hash": "fc83f121d5fb55415d2d5a9195c1f70b0c088f37",
+    "rebuild_lib_hash": "10df4ebdc89c3c90dcc60842899cb840efa790e7",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

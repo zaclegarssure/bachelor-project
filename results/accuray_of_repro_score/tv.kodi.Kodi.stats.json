@@ -1,0 +1,32 @@
+{
+    "name": "tv.kodi.Kodi",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "43be1f5599ab704cd79e6581b51040d5563e3f0025c2114e7e3751e2813b010e",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-02 17:41:19+00:00",
+    "timestamp_of_rebuild": 1651513279.0,
+    "git-commit": "50b2b070bd6b3b4006baf759ea97b35fd946ce4e master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk/x86_64/21.08": "69bb00b293da529e1a8267b66202e24a18d634b2da1f5b0bc6bf7ac187ca233b",
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.freedesktop.Sdk/x86_64/21.08": "1a972810d883f9721f90b87e092d282184b8a95fc10fc72068723cd54f893b22",
+        "org.freedesktop.Platform/x86_64/21.08": "e5aff027f1cfc1b950d476dab5159628f077a4ca114e87160a123df9cce700bf"
+    },
+    "build_time": 4747.3074862957,
+    "cache_size": 279800643,
+    "git_size": 68075000,
+    "dl_size": 211705084,
+    "bad_files": 262,
+    "total_files": 19421,
+    "repro_score": 0.9865094485350909,
+    "original_hash": "97735a03b0162ac2f4db4e691f59f12a1c7b69c1",
+    "rebuild_hash": "791b7ea2c5bd6f7c479093a5f18bf4e859547829",
+    "original_bin_hash": "835d5eab8f1a0c71223ac12966fce64b97606181",
+    "rebuild_bin_hash": "b0f96388d343d32406c05c7529679f86665e98f4",
+    "original_elf_hash": "f954c34765c2e1e2307e51446c797fe4b2096ec2",
+    "rebuild_elf_hash": "f954c34765c2e1e2307e51446c797fe4b2096ec2",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

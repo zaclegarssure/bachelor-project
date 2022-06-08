@@ -1,0 +1,31 @@
+{
+    "name": "org.tug.texworks",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "c321f097b3c4378b587d94302ecd838bc637a4cddb14de373f963817cb9655c8",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-26 21:01:40+00:00",
+    "timestamp_of_rebuild": 1645909300.0,
+    "git-commit": "2626fbf7be4073cc67eb3f00c2a21ab5067416ed master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "2c858c72b807bdee3e9edc8a64a05c771e3fbad051ea76421aaf7a4d6265ca5b",
+        "org.kde.Sdk/x86_64/5.15-21.08": "daddf8e306dd37425b46ba6a5251b3fcb5cc273ec89fa3f33d0b54b657386e3c",
+        "org.kde.Platform/x86_64/5.15-21.08": "6ead3f696bd8683fa7b84f75e71c06670b9c27983b9d11e673e744ed7d8e16a9"
+    },
+    "build_time": 314.4463496208191,
+    "cache_size": 225145019,
+    "git_size": 11970253,
+    "dl_size": 213154207,
+    "bad_files": 1,
+    "total_files": 15596,
+    "repro_score": 0.999935880995127,
+    "original_hash": "675009d92f4ff59f425c8500a4eb45cde6eff157",
+    "rebuild_hash": "8336ee0611d70e540cf722f4902fbfb4c5b66995",
+    "original_bin_hash": "aa5feb9d6ec618fab4808e2b458879bc95a98d53",
+    "rebuild_bin_hash": "981b6529b5e31a124bec3ae0d2fdb6fe77c2ac2d",
+    "original_elf_hash": "c698b9977aff710ad64232fc40be48462bbd71dd",
+    "rebuild_elf_hash": "16730b6a7ebbe72406741dd61685ba630dfa722e",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

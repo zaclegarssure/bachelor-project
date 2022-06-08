@@ -1,0 +1,24 @@
+{
+    "name": "de.rwth_aachen.ient.YUView",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 821.8217720985413,
+    "cache_size": 14391553,
+    "git_size": 5265706,
+    "dl_size": 9105288,
+    "original_hash": "a1fbd8a390a59260146f27c13a618d9083cbcd28",
+    "rebuild_hash": "a3cb2a6ae8eb2bb0647c8ffe54a2e86c6c648b62",
+    "original_bin_hash": "37073d729115aef326d9cb77a669efb3df401d8f",
+    "rebuild_bin_hash": "4d0818409bc1c9b7fc3a71991a025e73abbeedaa",
+    "original_lib_hash": "f876c63dd455d852dbaa1a374f2cb7826b08a89b",
+    "rebuild_lib_hash": "f876c63dd455d852dbaa1a374f2cb7826b08a89b",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "qmake"
+    ]
+}

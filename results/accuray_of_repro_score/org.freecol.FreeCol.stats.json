@@ -1,0 +1,32 @@
+{
+    "name": "org.freecol.FreeCol",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "575e1f423ad68820d33f890335f8c6c7c7358abf0474ecc5ff7893b3e4f582a7",
+    "branch": "stable",
+    "time_of_rebuild": "2020-09-09 10:49:19+00:00",
+    "timestamp_of_rebuild": 1599648559.0,
+    "git-commit": "07d227a3be40d44115e887b0f3723015c59e386a master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk11/x86_64/20.08": "665cbc1191486ce7ca70dddd3cdf18563c874aff95fda0cd2ece28395119bd57",
+        "org.flatpak.Builder/x86_64/stable": "5e0930847a55d873b88a0811fe49c7e0db4201bf1bb33e5f894af164eb91a607",
+        "org.freedesktop.Sdk/x86_64/20.08": "0c7b430407049f23932bd2fb5cdb088d0915788b5975ab7286c01479c43422df",
+        "org.freedesktop.Platform/x86_64/20.08": "54fc005a60be576aead95993847430df346c11daf1740efabb8fde39638da84a"
+    },
+    "build_time": 81.80370140075684,
+    "cache_size": 57500563,
+    "git_size": 0,
+    "dl_size": 57484100,
+    "bad_files": 11,
+    "total_files": 1483,
+    "repro_score": 0.9925826028320971,
+    "original_hash": "d18fba1ba53e5398906ce77ddbbe7c899e51756d",
+    "rebuild_hash": "ddd0ecb06b64e9b86abafda9ed78c4bd3369ae6a",
+    "original_bin_hash": "eef6039ad01bfd2f58f045174c15bc607e8608ea",
+    "rebuild_bin_hash": "39e57f656da9bdfa2d2a3304b2f5155d469a44f6",
+    "original_elf_hash": "92ce201019761b8856f55eef5a89b3a56053cdbe",
+    "rebuild_elf_hash": "92ce201019761b8856f55eef5a89b3a56053cdbe",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

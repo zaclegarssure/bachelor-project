@@ -1,0 +1,17 @@
+{
+    "name": "io.qt.QtCreator",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "ebc0ff9e5639688d485799d83bcb7b3ed5491350fddb380d71c9b84624462f0b",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-25 14:56:52+00:00",
+    "timestamp_of_rebuild": 1653490612.0,
+    "git-commit": "fb1943dfd943a2c6653cfbe4757086e4c6b47f99 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk/x86_64/20.08": "38c0bf58dec5a320c90cbc5ae4c2c2b49a33f386c3e15b25938a0ed7b0399376",
+        "org.freedesktop.Sdk.Extension.node14/x86_64/20.08": "30a0d28783e957b3b6d00b3807c38895f4cd5683b78ca1a3c2acf4c12ac88254",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15": "daaa2b567c658f2dfbb082cc306298b74a71b06336e79dcbd8df94cb014b6a95"
+    }
+}

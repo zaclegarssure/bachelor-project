@@ -1,0 +1,31 @@
+{
+    "name": "fr.free.Homebank",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "d4e8a0ec668d9c981cfffdb384ff2f22f26795f8cb90875650e170a7263445da",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-24 15:54:37+00:00",
+    "timestamp_of_rebuild": 1650815677.0,
+    "git-commit": "2ad0f35ca5eee134448dc3e2cbc60a15d79d8f78 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 152.3444664478302,
+    "cache_size": 5606974,
+    "git_size": 0,
+    "dl_size": 5590511,
+    "bad_files": 0,
+    "total_files": 550,
+    "repro_score": 1.0,
+    "original_hash": "0af28b6aec99daf47cc445d667391d4e1cfdf2a2",
+    "rebuild_hash": "0af28b6aec99daf47cc445d667391d4e1cfdf2a2",
+    "original_bin_hash": "a443cc401839f380d0167eab2cca5301b39b14e3",
+    "rebuild_bin_hash": "a443cc401839f380d0167eab2cca5301b39b14e3",
+    "original_elf_hash": "2fda48cae33fffa9d5a6dfa803db6f892442cf33",
+    "rebuild_elf_hash": "2fda48cae33fffa9d5a6dfa803db6f892442cf33",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

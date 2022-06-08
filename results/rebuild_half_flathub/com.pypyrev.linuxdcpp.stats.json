@@ -1,0 +1,20 @@
+{
+    "name": "com.pypyrev.linuxdcpp",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 225.55561113357544,
+    "cache_size": 130701422,
+    "git_size": 0,
+    "dl_size": 130684959,
+    "original_hash": "9312d2b05e2c3a662b089f71d3463f8f42c81dd3",
+    "rebuild_hash": "db518e1cdf4496312a1556dd8a25ddc86a681a1e",
+    "original_bin_hash": "fc0bbf3dbb6d83794166765ecc6259ad636ab028",
+    "rebuild_bin_hash": "fc0bbf3dbb6d83794166765ecc6259ad636ab028",
+    "original_lib_hash": "eec0f943c2512b204909e47895baaa5875c98063",
+    "rebuild_lib_hash": "3ea2e653075f94493dbf9cfe7e238fedc6db5e96",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

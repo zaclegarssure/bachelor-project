@@ -1,0 +1,23 @@
+{
+    "name": "com.ranfdev.Geopard",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 101.33624792098999,
+    "cache_size": 9811403,
+    "git_size": 0,
+    "dl_size": 9794940,
+    "original_hash": "a8d6b02401acd1ae0a7d291d986a40acd9da144f",
+    "rebuild_hash": "a8d6b02401acd1ae0a7d291d986a40acd9da144f",
+    "original_bin_hash": "9ca86e37c58b4c9f0cd9acf6f02714cf95ac60e7",
+    "rebuild_bin_hash": "9ca86e37c58b4c9f0cd9acf6f02714cf95ac60e7",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

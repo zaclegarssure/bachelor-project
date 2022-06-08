@@ -1,0 +1,23 @@
+{
+    "name": "com.gitlab.tipp10.tipp10",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 22.424362659454346,
+    "cache_size": 1944023,
+    "git_size": 1927560,
+    "dl_size": 0,
+    "original_hash": "0cefd62ef653f99d2d48c8f2bb24f62eaac5cf80",
+    "rebuild_hash": "5f3dd9c34307d8a8ec6364086f63cec6b659bf35",
+    "original_bin_hash": "28f4ffb6a9b6bcf7e7c9a173fec87e4b0faf3c6f",
+    "rebuild_bin_hash": "20c91b6c46f8c9b085fe3dcd0a6bfa267f7af4cc",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

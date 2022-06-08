@@ -1,0 +1,24 @@
+{
+    "name": "com.github.rajsolai.textsnatcher",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 179.27654433250427,
+    "cache_size": 131875110,
+    "git_size": 978652,
+    "dl_size": 130875899,
+    "original_hash": "bf7f7da254853db3bb2d6a1a2e281e3ec53e33a9",
+    "rebuild_hash": "bb170266d0f70a7f5760f01fd7f4b52ea52cd805",
+    "original_bin_hash": "682a6ccc29d63e9bd310173e6e0ddb644e121472",
+    "rebuild_bin_hash": "682a6ccc29d63e9bd310173e6e0ddb644e121472",
+    "original_lib_hash": "08fd192ee3ff8efa5079b801ab68e85727454e33",
+    "rebuild_lib_hash": "f0a01182e45ed5992f67cad82c9e1f001f22c3ce",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "com.github.Darazaki.Spedread",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 5.1312096118927,
+    "cache_size": 217490,
+    "git_size": 201027,
+    "dl_size": 0,
+    "original_hash": "b4858a89a10c18feb146da3739a926fb3cb9b359",
+    "rebuild_hash": "b4858a89a10c18feb146da3739a926fb3cb9b359",
+    "original_bin_hash": "2842803975f94237ee9b4c2dce13679ffb243aa4",
+    "rebuild_bin_hash": "2842803975f94237ee9b4c2dce13679ffb243aa4",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.moserial",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "99ce08ae7efdea0d6640298c1219e158b2f98614a5ef754a0c36fd50287fd01a",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-26 19:43:56+00:00",
+    "timestamp_of_rebuild": 1637955836.0,
+    "git-commit": "d26b911b745aba74946690c9a83e17bde263aec3 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.gnome.Sdk/x86_64/41": "a7bd7c08861847161bb4095d2a1d1a500b5a2b1180baa4b175b5c27d360a492c",
+        "org.gnome.Platform/x86_64/41": "b317e7f21189832d0b37a8f312e6407eb30a1239af2cc583ac76f58eb468c8bb"
+    },
+    "build_time": 30.362865447998047,
+    "cache_size": 1652047,
+    "git_size": 0,
+    "dl_size": 1635584,
+    "bad_files": 1,
+    "total_files": 68,
+    "repro_score": 0.9852941176470589,
+    "original_hash": "7449c79a57df4e217089bf4b25d15a65c0bb20d0",
+    "rebuild_hash": "f0c8758069518c751b732ad3436cec892bbbdbd8",
+    "original_bin_hash": "7a9d399d63cc84e80f8e9284f09c17a96aee5998",
+    "rebuild_bin_hash": "7a9d399d63cc84e80f8e9284f09c17a96aee5998",
+    "original_elf_hash": "145bb140ecdb98a740dc37f3f437621fe284f30e",
+    "rebuild_elf_hash": "145bb140ecdb98a740dc37f3f437621fe284f30e",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

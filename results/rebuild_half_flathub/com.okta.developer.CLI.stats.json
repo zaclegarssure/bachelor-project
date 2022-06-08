@@ -1,0 +1,23 @@
+{
+    "name": "com.okta.developer.CLI",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 6.142147541046143,
+    "cache_size": 14415799,
+    "git_size": 0,
+    "dl_size": 14399336,
+    "original_hash": "26b0e787fa3c909b295248c9733fbc7a799201b7",
+    "rebuild_hash": "26b0e787fa3c909b295248c9733fbc7a799201b7",
+    "original_bin_hash": "5bafeb194253d007e3023b12cdac9aa0ec757943",
+    "rebuild_bin_hash": "5bafeb194253d007e3023b12cdac9aa0ec757943",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

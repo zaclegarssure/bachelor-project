@@ -1,0 +1,23 @@
+{
+    "name": "com.elsevier.MendeleyDesktop",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 1.8357248306274414,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "ff285c1fb663f93a7e507425412c536f1f404951",
+    "rebuild_hash": "ff285c1fb663f93a7e507425412c536f1f404951",
+    "original_bin_hash": "4fe834ec1bb084ff8899af3a5c4aab75c344dd35",
+    "rebuild_bin_hash": "4fe834ec1bb084ff8899af3a5c4aab75c344dd35",
+    "original_lib_hash": "89152fb930a6a0640b161bef0476c0d1aa25e6a7",
+    "rebuild_lib_hash": "89152fb930a6a0640b161bef0476c0d1aa25e6a7",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

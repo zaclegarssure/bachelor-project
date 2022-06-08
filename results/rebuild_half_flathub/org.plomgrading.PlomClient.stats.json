@@ -1,0 +1,31 @@
+{
+    "name": "org.plomgrading.PlomClient",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 635.7767012119293,
+    "cache_size": 55888925,
+    "git_size": 0,
+    "dl_size": 55886556,
+    "original_hash": "ee98a4d0775919ca3fa630ae0ce23bb69472e32a",
+    "rebuild_hash": "36dbcfb1ada62a325136416e718d2f9e3de7b66a",
+    "original_bin_hash": "13f3ae6762403263efee2d823bb99f55f0d63860",
+    "rebuild_bin_hash": "13f3ae6762403263efee2d823bb99f55f0d63860",
+    "original_lib_hash": "51122f4c822a096b6b29d102ca11e7d5cdad65e7",
+    "rebuild_lib_hash": "bbb22c6366ee7f3fa60f62030ebeec43b22f9d6c",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

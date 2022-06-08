@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.glabels-3",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 278.47512435913086,
+    "cache_size": 34637557,
+    "git_size": 4300995,
+    "dl_size": 30316003,
+    "original_hash": "02f13a4c263e3a58dd8db435bce576d9e9391dd7",
+    "rebuild_hash": "02f13a4c263e3a58dd8db435bce576d9e9391dd7",
+    "original_bin_hash": "1c45544db7f324a80f51536c74a97a20ca6e84ce",
+    "rebuild_bin_hash": "1c45544db7f324a80f51536c74a97a20ca6e84ce",
+    "original_lib_hash": "ceccd95645207318036551624bf337b077c28d89",
+    "rebuild_lib_hash": "ceccd95645207318036551624bf337b077c28d89",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

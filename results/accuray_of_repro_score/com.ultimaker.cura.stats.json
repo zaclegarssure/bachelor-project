@@ -1,0 +1,31 @@
+{
+    "name": "com.ultimaker.cura",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "c13f8ed2e1650da4e15bc8089dec84ea049e1176e312cfda676094a8ef16adf6",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-12 14:20:56+00:00",
+    "timestamp_of_rebuild": 1647094856.0,
+    "git-commit": "4a8e18586c2b8f217996ebf3bfd2fcc23ce1fffe master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "cce27cfbd1132b922bd1b4c672b83b907f1d6a21e0aa941fec13ebc1e65b0508",
+        "org.kde.Sdk/x86_64/5.15-21.08": "f6e7e6157630e155d5529e2dcb50bf3fb3e22ac98bfa300c1c9e3c2d2f3cb949",
+        "org.kde.Platform/x86_64/5.15-21.08": "64a44a22b3744e028f16769fd262154fc73e05a714981f25554db81e1328eb39"
+    },
+    "build_time": 2548.510952949524,
+    "cache_size": 251942159,
+    "git_size": 82125759,
+    "dl_size": 169787649,
+    "bad_files": 116,
+    "total_files": 17067,
+    "repro_score": 0.9932032577488721,
+    "original_hash": "514b8cdb65299c294ad8c940f8b9bb6bd9719200",
+    "rebuild_hash": "66a7102f36fa13b3c120a4851333f1f6a474d5ec",
+    "original_bin_hash": "a457d413245b02a647f2d2b215978da5845831b9",
+    "rebuild_bin_hash": "797252631e862ca2a6cc93b76f99a6dba974c2ad",
+    "original_elf_hash": "a465d9eceb4e6d22ec580938cc4dd27d156c996d",
+    "rebuild_elf_hash": "b19cdbf57554a3024ce884778c8d2c4c5e6a136d",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

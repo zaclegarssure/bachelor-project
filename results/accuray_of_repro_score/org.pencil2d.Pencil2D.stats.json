@@ -1,0 +1,31 @@
+{
+    "name": "org.pencil2d.Pencil2D",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "eb6b9f4d0158937cefca91550c44a9eec01e59389aab48cf1ac78827000459e5",
+    "branch": "stable",
+    "time_of_rebuild": "2021-02-17 07:15:27+00:00",
+    "timestamp_of_rebuild": 1613546127.0,
+    "git-commit": "4fa7080f1c9a6d2f8f3e7ba9b6d70f09561cad0e master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "5e0930847a55d873b88a0811fe49c7e0db4201bf1bb33e5f894af164eb91a607",
+        "org.kde.Sdk/x86_64/5.15": "ef5b4bb6a0b22fbed1b892d46abf28684f601badbcdba71673e63b8e3d968db2",
+        "org.kde.Platform/x86_64/5.15": "35f0da737e7ccce5a0fc9b4b0800cee2915dba066ddc0eae5d77ee30e49a780a"
+    },
+    "build_time": 202.02672672271729,
+    "cache_size": 20640350,
+    "git_size": 11236271,
+    "dl_size": 9383520,
+    "bad_files": 2,
+    "total_files": 29,
+    "repro_score": 0.9310344827586207,
+    "original_hash": "2272c6910b5fd843ea092b682bb1478d773f11db",
+    "rebuild_hash": "c03777092007e786a397e21913ec1e74a79462ae",
+    "original_bin_hash": "66d5a515363fece7cf4286ac6ba71dc60fc9378c",
+    "rebuild_bin_hash": "807b944301c440734d19d48613d0c6e7951d01df",
+    "original_elf_hash": "c0ca268de133546b8b7d60cadf40dfeddaad0627",
+    "rebuild_elf_hash": "9593f990003f7a037a16ef08d84492d6c09cf0bf",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

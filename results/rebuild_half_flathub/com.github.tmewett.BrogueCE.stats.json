@@ -1,0 +1,23 @@
+{
+    "name": "com.github.tmewett.BrogueCE",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 24.747486114501953,
+    "cache_size": 1248234,
+    "git_size": 1231771,
+    "dl_size": 0,
+    "original_hash": "22d12da5b3ed123d6512eea87eff000b0b68bd5b",
+    "rebuild_hash": "1b24847bfbfbb96a365db224bc9aa99ffb3370fe",
+    "original_bin_hash": "df8984a39ebf471bfda87498b29735886ada4642",
+    "rebuild_bin_hash": "df8984a39ebf471bfda87498b29735886ada4642",
+    "original_lib_hash": "b919e939157a7ed11d6db80f17fcb704c0b38c31",
+    "rebuild_lib_hash": "b919e939157a7ed11d6db80f17fcb704c0b38c31",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

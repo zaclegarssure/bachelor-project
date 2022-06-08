@@ -1,0 +1,24 @@
+{
+    "name": "com.jetpackduba.Gitnuro",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 17.971638202667236,
+    "cache_size": 33043978,
+    "git_size": 0,
+    "dl_size": 33027515,
+    "original_hash": "481aca8e38c44df3e515232d742b74b4783a7e18",
+    "rebuild_hash": "481aca8e38c44df3e515232d742b74b4783a7e18",
+    "original_bin_hash": "749b28d655be544153431ce03473b660b9172cde",
+    "rebuild_bin_hash": "749b28d655be544153431ce03473b660b9172cde",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "org.gabmus.gfeeds",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "1eb2eca6716f4753931b2e11e5560aa7f102b3c4f739e164e94acf65d5904f69",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-30 15:55:20+00:00",
+    "timestamp_of_rebuild": 1651334120.0,
+    "git-commit": "f3e8575d62b1701e885b0bda54222634130c6864 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "80d79556975ab0542a3d9b068dd46d6a9cc93055ebbac04d52ff0c904401dab7",
+        "org.gnome.Platform/x86_64/42": "6eeb85b2e6d33adf7b7ecf6db50e26eccd50a890fac1218f3de50830a948aff7"
+    }
+}

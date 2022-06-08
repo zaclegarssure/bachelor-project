@@ -1,0 +1,31 @@
+{
+    "name": "org.musicbrainz.Picard",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "dbfc7725850c8930baea2a64cf8b44a65e9587b4ab6a56fa57df4ff0dadf37cd",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-24 21:30:43+00:00",
+    "timestamp_of_rebuild": 1653427843.0,
+    "git-commit": "7be09310c0e213e641e186ca7b4d43f5095e1f30 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "1bf5dbd9fd2f66898d2501dfbe0e5327d0dc6eecd9e02e2bdeb39a43df7974c8",
+        "org.kde.Platform/x86_64/5.15-21.08": "c49e5ed4c419e849e15657b270c0cb9550afaa73277c611426b97c701cbe37b4"
+    },
+    "build_time": 529.2355782985687,
+    "cache_size": 30185679,
+    "git_size": 3456818,
+    "dl_size": 26708302,
+    "bad_files": 29,
+    "total_files": 1957,
+    "repro_score": 0.9851814001021972,
+    "original_hash": "efb3c1c5c062c3a331af69140ca13e095a012c30",
+    "rebuild_hash": "09502d5a8704bfcf50635bc40c198a0cea4199e8",
+    "original_bin_hash": "f560aa208766c80f3beb56a47c0bbef2483aa6b2",
+    "rebuild_bin_hash": "2b63c99749237f161883a9f9414ee2ab85017d5f",
+    "original_elf_hash": "9cf68d77232c80f1a4d8d4bbfb5181fc18e647fc",
+    "rebuild_elf_hash": "f48881b0e34ea2a807242d85baa2b11c732bcec5",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

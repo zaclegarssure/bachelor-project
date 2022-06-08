@@ -1,0 +1,23 @@
+{
+    "name": "com.github.gmg137.netease-cloud-music-gtk",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 123.51236605644226,
+    "cache_size": 27591982,
+    "git_size": 153258,
+    "dl_size": 27397685,
+    "original_hash": "c89564d5ae009ca4b073295d26f3f4d068f8c820",
+    "rebuild_hash": "ac9411da64d8f5cc4f0d0977e9d431a7c2b2db70",
+    "original_bin_hash": "d89fdd129b9e223efc833c63cdf0f0b6831d9a7f",
+    "rebuild_bin_hash": "d89fdd129b9e223efc833c63cdf0f0b6831d9a7f",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

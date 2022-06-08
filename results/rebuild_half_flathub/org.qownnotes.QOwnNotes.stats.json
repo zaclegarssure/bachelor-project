@@ -1,0 +1,24 @@
+{
+    "name": "org.qownnotes.QOwnNotes",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 243.35752081871033,
+    "cache_size": 12311771,
+    "git_size": 0,
+    "dl_size": 12311328,
+    "original_hash": "ff1a3231e495da4951be3042e2944d5508fb02ae",
+    "rebuild_hash": "083579924ff5efa03724b0fb85a1f0185b9de9e1",
+    "original_bin_hash": "558726f856d8ef178c6fbe056883ee5f341cbe82",
+    "rebuild_bin_hash": "5fad4caa508ce543d97ecc9bd179191401863e73",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "qmake",
+        "simple"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "org.vim.Vim",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 80.6147072315216,
+    "cache_size": 16687594,
+    "git_size": 16383680,
+    "dl_size": 303575,
+    "original_hash": "a9281de5764d9b70c372e5251e43e056f2f4ccdb",
+    "rebuild_hash": "924164e92894e021891a129b605b9d984c279719",
+    "original_bin_hash": "532d18664cba6f08aff6490a135d01cd58c13732",
+    "rebuild_bin_hash": "4b99779b4f7b0f0ebc53d46787a064f50a632383",
+    "original_lib_hash": "44e15eab931a7f616a996903e0cc56dc54108a13",
+    "rebuild_lib_hash": "44e15eab931a7f616a996903e0cc56dc54108a13",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora"
+}

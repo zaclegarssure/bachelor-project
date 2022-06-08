@@ -1,0 +1,20 @@
+{
+    "name": "org.remmina.Remmina",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 457.00352334976196,
+    "cache_size": 43293437,
+    "git_size": 25146291,
+    "dl_size": 18143723,
+    "original_hash": "bed586587375b37574b83e1bd8977557d46e13a0",
+    "rebuild_hash": "dabb576511c916b03d7e337ffa3d7b5889f7c021",
+    "original_bin_hash": "f815d1e426a130f979030d7add28b1ab52759e7a",
+    "rebuild_bin_hash": "f815d1e426a130f979030d7add28b1ab52759e7a",
+    "original_lib_hash": "1ff25bf145d88725011b7632ce03fcdafbbdad9d",
+    "rebuild_lib_hash": "97bca20a282fd91506fe72f7efd3e70ffe1d77c1",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora"
+}

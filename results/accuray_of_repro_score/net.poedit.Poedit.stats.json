@@ -1,0 +1,31 @@
+{
+    "name": "net.poedit.Poedit",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "bed318b02867d6beb8462ce3fa3be9bc3a4af3167046130d200169e1ee4ef8e8",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-05 13:20:14+00:00",
+    "timestamp_of_rebuild": 1649164814.0,
+    "git-commit": "3c90b142e3a93c6e85966be8cfdc4468f5cb3cef master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 1224.971616268158,
+    "cache_size": 239084614,
+    "git_size": 72669065,
+    "dl_size": 166394990,
+    "bad_files": 1,
+    "total_files": 1924,
+    "repro_score": 0.9994802494802495,
+    "original_hash": "b77edf89805b9fd069e983fcbdb634a45f476aae",
+    "rebuild_hash": "62f579780622c96a437b29ef5136489bd08ae10a",
+    "original_bin_hash": "dabae0103cad5c3edc130f26fb95e4419d067ea5",
+    "rebuild_bin_hash": "7fc28dabdae6f7c11ec854ae78bbcc2e38fa47d9",
+    "original_elf_hash": "41f2615899c8d119cd8960e751949288e6a8034a",
+    "rebuild_elf_hash": "b2104be428ba9533822ce1e5760f0e329b025ad2",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

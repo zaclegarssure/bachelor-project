@@ -1,0 +1,26 @@
+{
+    "name": "org.gnome.World.Citations",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 135.81232118606567,
+    "cache_size": 17305931,
+    "git_size": 2137388,
+    "dl_size": 15147984,
+    "original_hash": "1f3c9a9b1b931957d6ce9907f5b495f41c6de2cf",
+    "rebuild_hash": "1f3c9a9b1b931957d6ce9907f5b495f41c6de2cf",
+    "original_bin_hash": "9e2c751388690c0955703581c776f3cc595c5101",
+    "rebuild_bin_hash": "9e2c751388690c0955703581c776f3cc595c5101",
+    "original_lib_hash": "af9767deb320ddf29f841672d7d20a4f486a499e",
+    "rebuild_lib_hash": "af9767deb320ddf29f841672d7d20a4f486a499e",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

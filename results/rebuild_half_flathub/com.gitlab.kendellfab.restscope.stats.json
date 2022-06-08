@@ -1,0 +1,23 @@
+{
+    "name": "com.gitlab.kendellfab.restscope",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 117.01571917533875,
+    "cache_size": 19776709,
+    "git_size": 475489,
+    "dl_size": 19280661,
+    "original_hash": "52cb597832828a8e8676b3f9d684c3be3aac16b2",
+    "rebuild_hash": "a5280486f4937caf70363c7b7f4c1f8392db61dd",
+    "original_bin_hash": "112698800b896a4159a6a0a1ef9dc53fe2a8fd5c",
+    "rebuild_bin_hash": "59202e17b383aefe5da0dc2c0db904310b48f1bc",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

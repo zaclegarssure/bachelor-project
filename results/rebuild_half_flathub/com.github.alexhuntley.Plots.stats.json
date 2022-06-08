@@ -1,0 +1,24 @@
+{
+    "name": "com.github.alexhuntley.Plots",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 371.13258814811707,
+    "cache_size": 20866018,
+    "git_size": 928922,
+    "dl_size": 19916537,
+    "original_hash": "1be0f79db51fe8db76b665d2339fc32bc40ce6d6",
+    "rebuild_hash": "bc0d20afea75af08ac28192c1e784e61794d0e91",
+    "original_bin_hash": "d0db6063495db5b6c290eca9f85978b053b264e6",
+    "rebuild_bin_hash": "d0db6063495db5b6c290eca9f85978b053b264e6",
+    "original_lib_hash": "703ccef32ed6c8357172b8ff5ba32f5893864d82",
+    "rebuild_lib_hash": "a1903dbd58ccacc2a04585fba84b7930aeb89fac",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "org.openstreetmap.josm",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 23.677996397018433,
+    "cache_size": 16337336,
+    "git_size": 29062,
+    "dl_size": 16307641,
+    "original_hash": "9defdee4d9c6e43fca4f944732c2dac0ef570531",
+    "rebuild_hash": "9defdee4d9c6e43fca4f944732c2dac0ef570531",
+    "original_bin_hash": "0f7aa3bad875be0a2f304474fcae40cfdf4c05fa",
+    "rebuild_bin_hash": "0f7aa3bad875be0a2f304474fcae40cfdf4c05fa",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "ch.theologeek.Manuskript",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "702cb42fe9f060bd0c991f5bb49e9106c8cd4a84ad74e3daebe62720f6fe5186",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-07 17:18:03+00:00",
+    "timestamp_of_rebuild": 1649351883.0,
+    "git-commit": "cde1d8dc739f114a324e2318524b40e0dba26eb7 master",
+    "flatpak-deps": {
+        "io.qt.qtwebengine.BaseApp/x86_64/5.15-21.08": "baf92e059dfb43ccb219c35a0c809bcc39337b7f5a079ad3cd400431be2d978c",
+        "org.flatpak.Builder/x86_64/stable": "8c905dc8f00b387ed9d3b61e8186b59cffaf66fb8dbb6a8993500e0f2e4ec53e",
+        "org.kde.Sdk/x86_64/5.15-21.08": "ce49c08bc8fa30d0f1c205a3ca379e98829f4f413775d140c474ff039cbb1ae1",
+        "org.kde.Platform/x86_64/5.15-21.08": "3c784b9e2fcc15803d337825f428c71f841c9db330e84e6ece40cbd0f66bdf73"
+    },
+    "build_time": 503.95329570770264,
+    "cache_size": 42362405,
+    "git_size": 0,
+    "dl_size": 42345942,
+    "bad_files": 13,
+    "total_files": 3445,
+    "repro_score": 0.9962264150943396,
+    "original_hash": "1eb6e7a0224cac11dcdc3a88db01449cb000fdd4",
+    "rebuild_hash": "4ed3392aa12c80f522cc2db1c87f88e899f18a9f",
+    "original_bin_hash": "9a19635c6091f4b4439618f7fd35a997a6e90fca",
+    "rebuild_bin_hash": "7cea407d099ce3540965254d87206f0da343bfa4",
+    "original_elf_hash": "780567256f2a1a16a2f6fcdce3204528ca5a905a",
+    "rebuild_elf_hash": "03de1cebf7bda1681c257bd2a31f3039d64f899e",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

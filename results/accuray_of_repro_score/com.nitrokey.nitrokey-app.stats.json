@@ -1,0 +1,31 @@
+{
+    "name": "com.nitrokey.nitrokey-app",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "86f52b76c89c581888a75105a8b06a5c0cff5257d2fe9633517833f74f084bfd",
+    "branch": "stable",
+    "time_of_rebuild": "2021-02-07 14:43:48+00:00",
+    "timestamp_of_rebuild": 1612709028.0,
+    "git-commit": "cfa36ffc9101f65e6357ea951ee66785a93f2a93 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "5e0930847a55d873b88a0811fe49c7e0db4201bf1bb33e5f894af164eb91a607",
+        "org.kde.Sdk/x86_64/5.15": "9f0af23edb450a2d9582ee1cbf4253dcd2434c9dda01721acb2519072eb705b5",
+        "org.kde.Platform/x86_64/5.15": "b6528cd447654b9aa3a4ba0e7f52973050b9cf9aeaa51a6e6f4ba4965987d272"
+    },
+    "build_time": 170.00029826164246,
+    "cache_size": 2514800,
+    "git_size": 0,
+    "dl_size": 2498337,
+    "bad_files": 1,
+    "total_files": 54,
+    "repro_score": 0.9814814814814815,
+    "original_hash": "e7efe43a1787f8c11dfb9a8e0286ccaf8e576ebe",
+    "rebuild_hash": "b625a7d2674b2129db91f7bfc02e6f178768f6d2",
+    "original_bin_hash": "d892adf274de79107002201644bc2d58c6da40bc",
+    "rebuild_bin_hash": "b62969cf03dd949913e326ce184a3528e71b74a8",
+    "original_elf_hash": "b04f59f7ac1337b87a4485f339c7bd979683716a",
+    "rebuild_elf_hash": "36162dc8c60efcbecdc8822cbe0d2d412186ec55",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

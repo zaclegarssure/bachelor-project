@@ -1,0 +1,23 @@
+{
+    "name": "com.github.vikdevelop.VCalculator",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 3.6481292247772217,
+    "cache_size": 965644,
+    "git_size": 0,
+    "dl_size": 949181,
+    "original_hash": "62223c3e26c0122ac5dbf3676c3abf8ec12dd6ee",
+    "rebuild_hash": "62223c3e26c0122ac5dbf3676c3abf8ec12dd6ee",
+    "original_bin_hash": "ee591870ecf56f3da0f11c69518fbe05329ed2e6",
+    "rebuild_bin_hash": "ee591870ecf56f3da0f11c69518fbe05329ed2e6",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

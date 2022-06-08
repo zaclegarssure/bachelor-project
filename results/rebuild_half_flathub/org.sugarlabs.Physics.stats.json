@@ -1,0 +1,20 @@
+{
+    "name": "org.sugarlabs.Physics",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 253.90580558776855,
+    "cache_size": 40017073,
+    "git_size": 13085498,
+    "dl_size": 26929780,
+    "original_hash": "51ed13a3d4157c4609527610941f49c64ee79765",
+    "rebuild_hash": "471cc31bccff287c8148cfd0702f9c1849d1fe61",
+    "original_bin_hash": "88f07b6d0f265b65400f286be4ffd70f0dad16c2",
+    "rebuild_bin_hash": "88f07b6d0f265b65400f286be4ffd70f0dad16c2",
+    "original_lib_hash": "86a7261495c7afa78e76da3d761d60622cf74e52",
+    "rebuild_lib_hash": "3507098d572f71ec0d599cadbfb03e14e47c516c",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora"
+}

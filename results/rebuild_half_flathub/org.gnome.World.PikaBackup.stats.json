@@ -1,0 +1,25 @@
+{
+    "name": "org.gnome.World.PikaBackup",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 244.49927496910095,
+    "cache_size": 33416578,
+    "git_size": 312688,
+    "dl_size": 33062851,
+    "original_hash": "e8bfefb1e2398bebe9fadd19ccfdf31d2738d7df",
+    "rebuild_hash": "0cbadec037ab91744a0e89cfc08718c6fe582bb5",
+    "original_bin_hash": "8283ae1d0f84cc11466bb8b58f06cb08b21b9539",
+    "rebuild_bin_hash": "8283ae1d0f84cc11466bb8b58f06cb08b21b9539",
+    "original_lib_hash": "e08a3bec86a21e04ebf7123ad2772407d24f31b3",
+    "rebuild_lib_hash": "28cc92f0d10db1c7576cc5bfe7e4520682041096",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

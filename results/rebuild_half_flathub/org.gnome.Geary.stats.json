@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Geary",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 312.8942527770996,
+    "cache_size": 19969233,
+    "git_size": 0,
+    "dl_size": 19952770,
+    "original_hash": "01093984618cfd0b5e8d5cbb65bf58160b509063",
+    "rebuild_hash": "01093984618cfd0b5e8d5cbb65bf58160b509063",
+    "original_bin_hash": "8ce40d72f953d297ee395706b2e77f67ef3d89a8",
+    "rebuild_bin_hash": "8ce40d72f953d297ee395706b2e77f67ef3d89a8",
+    "original_lib_hash": "e226672209254a2f8af1ea3700841fbf087dd021",
+    "rebuild_lib_hash": "e226672209254a2f8af1ea3700841fbf087dd021",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

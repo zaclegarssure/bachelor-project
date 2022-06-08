@@ -1,0 +1,31 @@
+{
+    "name": "com.polyphone_soundfonts.polyphone",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "7eedb013fbf4f140b5f49fda9d661a5f864da9d68efcdf4192406f23f92f36b7",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-26 23:57:48+00:00",
+    "timestamp_of_rebuild": 1648339068.0,
+    "git-commit": "d0aacdbbbc26d393f8ac79934c28b7bc4ae88bcc master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.kde.Sdk/x86_64/5.15-21.08": "90200d8231a60eabc71dc8950ed21e9576a312a503ccb963b02ba14c8a83fa88",
+        "org.kde.Platform/x86_64/5.15-21.08": "77bad058026209fa1bb4509ce155a93be883dbcdca01ef1eb4f65fe1f7ffe877"
+    },
+    "build_time": 215.87905025482178,
+    "cache_size": 8283562,
+    "git_size": 0,
+    "dl_size": 8267099,
+    "bad_files": 1,
+    "total_files": 74,
+    "repro_score": 0.9864864864864865,
+    "original_hash": "3ae9404db7d0268672b557310d0c3df54eb3f463",
+    "rebuild_hash": "136aba1fce6cb3d5730732922f314dc1141c1e68",
+    "original_bin_hash": "89502e587623265e1ecbc9bf62671d504525fcb1",
+    "rebuild_bin_hash": "998acf01a725c06643002e9a85364d3013a33118",
+    "original_elf_hash": "09ab92f24dcf3c8d99ddc35bb80b8d0898089a7e",
+    "rebuild_elf_hash": "3a416de78bfbd17d36c8e80d3d7c6c12840540d9",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

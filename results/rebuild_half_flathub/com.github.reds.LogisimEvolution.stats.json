@@ -1,0 +1,24 @@
+{
+    "name": "com.github.reds.LogisimEvolution",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 17.42085289955139,
+    "cache_size": 26056705,
+    "git_size": 0,
+    "dl_size": 26040242,
+    "original_hash": "8b4822b838b91bec29b4956cefba82b0242beeed",
+    "rebuild_hash": "b6afed4c91d16c8d7dde38bf42cb2243a9820fd2",
+    "original_bin_hash": "f2ab508e844369aed892b3876824ef9c35901d75",
+    "rebuild_bin_hash": "f2ab508e844369aed892b3876824ef9c35901d75",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

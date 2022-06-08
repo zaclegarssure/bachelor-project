@@ -1,0 +1,32 @@
+{
+    "name": "org.kde.kalgebra",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "214269fa58289f51c69c1d7d091ac3eb66e5af7a993a5d3f65d096dbfb383c73",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-12 23:39:40+00:00",
+    "timestamp_of_rebuild": 1652398780.0,
+    "git-commit": "dfd6c288cba5c169a2463731224c3da1fd52abf0 master",
+    "flatpak-deps": {
+        "io.qt.qtwebengine.BaseApp/x86_64/5.15-21.08": "4e9b6655ba5bf04c7370659d18033aa04df722f50976f651d6456f551b5f9876",
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 107.65112900733948,
+    "cache_size": 3554082,
+    "git_size": 0,
+    "dl_size": 3537619,
+    "bad_files": 1,
+    "total_files": 1440,
+    "repro_score": 0.9993055555555556,
+    "original_hash": "3660e823e822374d0e99784557cac816fc6334e5",
+    "rebuild_hash": "a9ac5ff0f26efca7efd1ccd1dbdee9e533fbfddc",
+    "original_bin_hash": "65de7330dce0b41e4f51a679265ae06cb05b9453",
+    "rebuild_bin_hash": "1a54dd3a059b962c8438a35b9f09228a0de4f96b",
+    "original_elf_hash": "33351853b6528462a1a5e08e443f15f7bed40b8d",
+    "rebuild_elf_hash": "6510466862083dda048b00ae009957014b380312",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

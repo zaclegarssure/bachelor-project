@@ -1,0 +1,24 @@
+{
+    "name": "br.gov.fazenda.receita.irpf",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 39.72047710418701,
+    "cache_size": 50098799,
+    "git_size": 0,
+    "dl_size": 50082336,
+    "original_hash": "b7a1787d31f2005df92c55b494182456cce42521",
+    "rebuild_hash": "4ff748ce981772931b9aa6581485ac0cfd65455f",
+    "original_bin_hash": "18a343a0dd3f44260ca97cf1e1e3a253141bdbc3",
+    "rebuild_bin_hash": "18a343a0dd3f44260ca97cf1e1e3a253141bdbc3",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

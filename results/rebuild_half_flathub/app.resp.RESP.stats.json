@@ -1,0 +1,25 @@
+{
+    "name": "app.resp.RESP",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 251.58088374137878,
+    "cache_size": 193964763,
+    "git_size": 192733291,
+    "dl_size": 1210913,
+    "original_hash": "e4ef14473cc24b82343eb39147a1fd532cc447b4",
+    "rebuild_hash": "70f9a18fd8c54ab47522394ab8adbf5e9996ff08",
+    "original_bin_hash": "28c602352f67d889dc486476a4e47717bde9fd39",
+    "rebuild_bin_hash": "02b17c0896895baacefff555ba53b682accddf85",
+    "original_lib_hash": "21fe9039b2d4b1073fc6b3b746a704bc395f3f2d",
+    "rebuild_lib_hash": "610229fa1113d48c4a53b1da04b6ec6f7a1ab6a0",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

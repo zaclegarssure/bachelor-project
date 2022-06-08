@@ -1,0 +1,27 @@
+{
+    "name": "com.kavilgroup.gestimator",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 17.65282368659973,
+    "cache_size": 12146602,
+    "git_size": 9540681,
+    "dl_size": 2585362,
+    "original_hash": "c098a6870463ca5107cf2dddfb037c2d9717ce46",
+    "rebuild_hash": "255e5331e0f16066a70da4895e404fb7d1495b2d",
+    "original_bin_hash": "87b36a182027cbae042fbbdda3fd9c3e102101a6",
+    "rebuild_bin_hash": "87b36a182027cbae042fbbdda3fd9c3e102101a6",
+    "original_lib_hash": "ead140c57328e901eb0a0ceb910e46b4fbff6150",
+    "rebuild_lib_hash": "e421e75aec83bfaa2ea817bd82bbeca5b52e6ad7",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "org.xonotic.Xonotic",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "4dce6224243dd4b6d2a87f624873c230f88976d1886de683faaed5e37f4a2484",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-16 15:09:01+00:00",
+    "timestamp_of_rebuild": 1645024141.0,
+    "git-commit": "7aad3fab2b3ca3b5b9ff00b4dd543c3712360e93 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "2c858c72b807bdee3e9edc8a64a05c771e3fbad051ea76421aaf7a4d6265ca5b",
+        "org.freedesktop.Sdk/x86_64/21.08": "aa8fa029dafc5e20fab3d044caefd07647e5186012f983c28179c5c6dce4a8d5",
+        "org.freedesktop.Platform/x86_64/21.08": "7eae5cd0909215ab896309abf9c6716875f0d012c84f73d44ddd1163a1de286d"
+    },
+    "build_time": 343.7685968875885,
+    "cache_size": 991066238,
+    "git_size": 0,
+    "dl_size": 991049775,
+    "bad_files": 4,
+    "total_files": 64,
+    "repro_score": 0.9375,
+    "original_hash": "0c00ece078088942136ec6c5fd2b1b52c6604e09",
+    "rebuild_hash": "524f15f5f4ac40f022479bc408b9ffb81b4f72b4",
+    "original_bin_hash": "809e36ff7bf2a6594d26e08547b5c06634d620c8",
+    "rebuild_bin_hash": "f89d14443d9ed129ae7161dee64be7499df5aa59",
+    "original_elf_hash": "a8b391ed210e2bb981bfb30a837f95c7bb9d622e",
+    "rebuild_elf_hash": "c3cc0def6191df911c16688f0eaa3f01adf92553",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

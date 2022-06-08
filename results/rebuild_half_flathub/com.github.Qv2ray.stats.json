@@ -1,0 +1,24 @@
+{
+    "name": "com.github.Qv2ray",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 498.72843742370605,
+    "cache_size": 788024900,
+    "git_size": 788008437,
+    "dl_size": 0,
+    "original_hash": "03e26953b24dd220c38ebf26ff372614e51f1957",
+    "rebuild_hash": "f5035f4767d236c5aa045956c98bd88e204e7e73",
+    "original_bin_hash": "32f8a7629c6140ce50f5820a8f119716da3e61aa",
+    "rebuild_bin_hash": "58a07014391d28c31563511fca3195afdf048cf2",
+    "original_lib_hash": "5eb51c3ad1974a769f9252059e4cb0a862452cb1",
+    "rebuild_lib_hash": "5eb51c3ad1974a769f9252059e4cb0a862452cb1",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "cmake-ninja"
+    ]
+}

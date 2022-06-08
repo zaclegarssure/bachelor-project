@@ -1,0 +1,24 @@
+{
+    "name": "com.brave.Browser",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 41.10030913352966,
+    "cache_size": 141251705,
+    "git_size": 9634869,
+    "dl_size": 131596277,
+    "original_hash": "eea23065da87b4cf1c8907245394766495e01b4a",
+    "rebuild_hash": "eea23065da87b4cf1c8907245394766495e01b4a",
+    "original_bin_hash": "76050435eef4107c9b1abd77c7a4c9ad03d9daf8",
+    "rebuild_bin_hash": "76050435eef4107c9b1abd77c7a4c9ad03d9daf8",
+    "original_lib_hash": "4908b311a2b479beff0a4643861cef6559cf4848",
+    "rebuild_lib_hash": "4908b311a2b479beff0a4643861cef6559cf4848",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "simple"
+    ]
+}

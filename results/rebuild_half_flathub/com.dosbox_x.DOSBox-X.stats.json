@@ -1,0 +1,20 @@
+{
+    "name": "com.dosbox_x.DOSBox-X",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 295.9714210033417,
+    "cache_size": 66251474,
+    "git_size": 64039909,
+    "dl_size": 2191006,
+    "original_hash": "728e21aa6b6f37d19e5a7bfc32b1dd0b27a5df37",
+    "rebuild_hash": "728e21aa6b6f37d19e5a7bfc32b1dd0b27a5df37",
+    "original_bin_hash": "6243e5bfce32698b15f46f1e3a5417fcbf8bf683",
+    "rebuild_bin_hash": "6243e5bfce32698b15f46f1e3a5417fcbf8bf683",
+    "original_lib_hash": "7f35fdc7d6e3150c141fe09866c227525a371405",
+    "rebuild_lib_hash": "7f35fdc7d6e3150c141fe09866c227525a371405",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

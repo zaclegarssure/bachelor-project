@@ -1,0 +1,33 @@
+{
+    "name": "edu.mit.Scratch",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "e75721f75b133dbe1d0e4cfc2f376c9e2817e76537f84d0c4f96809e4844288c",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-11 03:53:12+00:00",
+    "timestamp_of_rebuild": 1644551592.0,
+    "git-commit": "ba411c22c26b0ae41d2b06bb5b45d80a2f90bd83 master",
+    "flatpak-deps": {
+        "org.electronjs.Electron2.BaseApp/x86_64/21.08": "cde2f09cfd9d4d6c9a01c561dcf4c3d9d4a8bd194711a88f044291d24e033f25",
+        "org.freedesktop.Sdk.Extension.node12/x86_64/21.08": "8053d7e389107d569af32b74f4a6e9586e7b07a82e70ed4474c30915a2f3cd8a",
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.freedesktop.Sdk/x86_64/21.08": "aa8fa029dafc5e20fab3d044caefd07647e5186012f983c28179c5c6dce4a8d5",
+        "org.freedesktop.Platform/x86_64/21.08": "7eae5cd0909215ab896309abf9c6716875f0d012c84f73d44ddd1163a1de286d"
+    },
+    "build_time": 257.2324962615967,
+    "cache_size": 387947943,
+    "git_size": 62738253,
+    "dl_size": 324791819,
+    "bad_files": 0,
+    "total_files": 1509,
+    "repro_score": 1.0,
+    "original_hash": "7dfd5ac177fda10ced22262e5f6335fa5ab0d19d",
+    "rebuild_hash": "7dfd5ac177fda10ced22262e5f6335fa5ab0d19d",
+    "original_bin_hash": "3bf28577422fefb106a8ca5745e31785873e4308",
+    "rebuild_bin_hash": "3bf28577422fefb106a8ca5745e31785873e4308",
+    "original_elf_hash": "7590e1d9bf571783d2ad3fd7ea51ee6b35ad3a94",
+    "rebuild_elf_hash": "7590e1d9bf571783d2ad3fd7ea51ee6b35ad3a94",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

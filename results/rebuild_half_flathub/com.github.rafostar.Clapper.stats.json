@@ -1,0 +1,20 @@
+{
+    "name": "com.github.rafostar.Clapper",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 516.3933482170105,
+    "cache_size": 94508276,
+    "git_size": 92639605,
+    "dl_size": 1848112,
+    "original_hash": "9dbe76bd9c622824a2f4e63bd4bc63f14e6768b4",
+    "rebuild_hash": "917f518d2600a9a8771b2b513156e9a925709bc8",
+    "original_bin_hash": "71c85d3047ffc13dc9d4390937053fa7479cbf28",
+    "rebuild_bin_hash": "71c85d3047ffc13dc9d4390937053fa7479cbf28",
+    "original_lib_hash": "e1633338a69e5bcaeec80d7a454465827efadae5",
+    "rebuild_lib_hash": "e1633338a69e5bcaeec80d7a454465827efadae5",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

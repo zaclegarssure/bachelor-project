@@ -1,0 +1,23 @@
+{
+    "name": "com.github.alexkdeveloper.dice",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 4.375284910202026,
+    "cache_size": 133500,
+    "git_size": 117037,
+    "dl_size": 0,
+    "original_hash": "2c17e23194f035c30be7de306355de31196cfce8",
+    "rebuild_hash": "2c17e23194f035c30be7de306355de31196cfce8",
+    "original_bin_hash": "34d76c8f03a70ddc823a1e8d008757589ecc3181",
+    "rebuild_bin_hash": "34d76c8f03a70ddc823a1e8d008757589ecc3181",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

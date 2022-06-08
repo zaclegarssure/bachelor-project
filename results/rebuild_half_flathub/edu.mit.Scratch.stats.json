@@ -1,0 +1,24 @@
+{
+    "name": "edu.mit.Scratch",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 384.98767948150635,
+    "cache_size": 387943847,
+    "git_size": 62738253,
+    "dl_size": 324791819,
+    "original_hash": "7dfd5ac177fda10ced22262e5f6335fa5ab0d19d",
+    "rebuild_hash": "7dfd5ac177fda10ced22262e5f6335fa5ab0d19d",
+    "original_bin_hash": "ec90f52f31eca85f86aa6c33b210f391518498ba",
+    "rebuild_bin_hash": "ec90f52f31eca85f86aa6c33b210f391518498ba",
+    "original_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "rebuild_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

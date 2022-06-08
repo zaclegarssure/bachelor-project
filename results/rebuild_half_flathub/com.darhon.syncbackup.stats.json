@@ -1,0 +1,25 @@
+{
+    "name": "com.darhon.syncbackup",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 37.04893612861633,
+    "cache_size": 1243311,
+    "git_size": 1226848,
+    "dl_size": 0,
+    "original_hash": "f3ee10abec32ae155763ff112ad65e17bf4857b3",
+    "rebuild_hash": "2461296bf8f42f4ec9a0c0db74034cc40f4de2ad",
+    "original_bin_hash": "eb34da12a8f142679445b1e050cc5ef37395cffe",
+    "rebuild_bin_hash": "c31402d19560a2415c28eb136d2c01028e2641c2",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "autotools",
+        "cmake-ninja",
+        "cmake-ninja"
+    ]
+}

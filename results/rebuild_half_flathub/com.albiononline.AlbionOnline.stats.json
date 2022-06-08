@@ -1,0 +1,23 @@
+{
+    "name": "com.albiononline.AlbionOnline",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 71.93949270248413,
+    "cache_size": 8889411,
+    "git_size": 0,
+    "dl_size": 8872948,
+    "original_hash": "324cf809f5bbf60cff3d4bd29f21624307194068",
+    "rebuild_hash": "324cf809f5bbf60cff3d4bd29f21624307194068",
+    "original_bin_hash": "5ee5a47d8a7aadb7b64f767c94372eda1ce165d8",
+    "rebuild_bin_hash": "5ee5a47d8a7aadb7b64f767c94372eda1ce165d8",
+    "original_lib_hash": "3badc12057e4338896d9daefe7f843b47a8cfddf",
+    "rebuild_lib_hash": "3badc12057e4338896d9daefe7f843b47a8cfddf",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

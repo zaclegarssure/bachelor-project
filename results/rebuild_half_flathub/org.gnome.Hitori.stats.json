@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.Hitori",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 8.623584508895874,
+    "cache_size": 225659,
+    "git_size": 0,
+    "dl_size": 209196,
+    "original_hash": "e385842bad58d7c8d1bbaec265be569ec92f1258",
+    "rebuild_hash": "e385842bad58d7c8d1bbaec265be569ec92f1258",
+    "original_bin_hash": "9d12af68103ed7defd754306ee3b74dcefbc83ae",
+    "rebuild_bin_hash": "9d12af68103ed7defd754306ee3b74dcefbc83ae",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

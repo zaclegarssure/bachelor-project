@@ -1,0 +1,31 @@
+{
+    "name": "org.synfig.SynfigStudio",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "5bd2b45a769f3761a42c8b7b3150c16ab1537ac58cb734ba8fc7191aa8551dfb",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-30 05:58:50+00:00",
+    "timestamp_of_rebuild": 1640843930.0,
+    "git-commit": "7bb423c7db9974fbfeec00bbc1f3185a218634bf master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "33efe804a63f7bf3b2a3ba4607f4ea700e4b44760f119e765fde5ab565471d87",
+        "org.gnome.Sdk/x86_64/3.38": "5f699dd2ab3afb8c078649a1b0ef0624b54550037663570564826afd9fc5df42",
+        "org.gnome.Platform/x86_64/3.38": "454a79938e3ecb6ee3750055b1cfb2d28435b0ffe1ff5742b092917cf7efc8a1"
+    },
+    "build_time": 1108.2658360004425,
+    "cache_size": 178873266,
+    "git_size": 0,
+    "dl_size": 178856803,
+    "bad_files": 24,
+    "total_files": 840,
+    "repro_score": 0.9714285714285714,
+    "original_hash": "84463e8746228fa609a6df13eb3211ac12e89042",
+    "rebuild_hash": "8d9ed03c3bb197a555de32a42dff3683b9293ff1",
+    "original_bin_hash": "8937b2eac5b5f69265bd6ae71b34cee59b06b724",
+    "rebuild_bin_hash": "cfc273b1a4b5b40227a2cc84164fe4af2eb56c44",
+    "original_elf_hash": "56370df7667a0d9873363e33ab0a51146a161e68",
+    "rebuild_elf_hash": "4fbc9a0454ab10674eaf050da92ec68946980fc2",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

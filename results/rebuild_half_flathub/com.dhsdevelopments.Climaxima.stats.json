@@ -1,0 +1,29 @@
+{
+    "name": "com.dhsdevelopments.Climaxima",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 786.1685338020325,
+    "cache_size": 220534414,
+    "git_size": 142750698,
+    "dl_size": 77763157,
+    "original_hash": "b425b087aa885c87777350b830a9407701ffaa60",
+    "rebuild_hash": "13a835dc2e75a4784b4ac8586e952d6b104f0a2d",
+    "original_bin_hash": "0f7cae2000b003e1ec8344fd5b952d983e7bac52",
+    "rebuild_bin_hash": "a3cda17b170a2e55a0caeb5d5294f77aaefed27d",
+    "original_lib_hash": "bafa76b2d8e0ab75b31a28a9bcf7d944db81212e",
+    "rebuild_lib_hash": "0cd8d19ce7c00c0b18de009ee5338b0fe14ea90e",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

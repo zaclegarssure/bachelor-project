@@ -1,0 +1,21 @@
+{
+    "name": "org.gnome.OCRFeeder",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 2439.452377796173,
+    "cache_size": 4519273267,
+    "git_size": 4131863305,
+    "dl_size": 361608152,
+    "original_hash": "5908d38e3bdf9d5ce6208d3049aab2d67897e2ed",
+    "rebuild_hash": "717bb2cfc8f4ed1cb0dda067ba7d96f5fd3dd9a9",
+    "original_bin_hash": "3a9909ff1497dcbe65208f9f8cd0fa7688be2239",
+    "rebuild_bin_hash": "18e29a639d3f19fa396131cb8f239bd22f46e653",
+    "original_lib_hash": "e7033878e546c1c415a7be9f68cf30066bb224b5",
+    "rebuild_lib_hash": "6536b7c46fdd7018c23b1a00b443c1d89e697c02",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": []
+}

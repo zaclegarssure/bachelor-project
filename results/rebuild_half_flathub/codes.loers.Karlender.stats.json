@@ -1,0 +1,23 @@
+{
+    "name": "codes.loers.Karlender",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 153.7907681465149,
+    "cache_size": 32158835,
+    "git_size": 0,
+    "dl_size": 32142372,
+    "original_hash": "8f24470cc2540d82bc84b698eadfe50c33c94ac6",
+    "rebuild_hash": "566568ea41b2689f8eb80426589746a5c200ac3e",
+    "original_bin_hash": "1c7577f3b6bf1659eed2eac8d42755748296c29e",
+    "rebuild_bin_hash": "c879aabe0bafb520984bce05d3ad89898d97e089",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "com.discordapp.Discord",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 69.74288129806519,
+    "cache_size": 78560657,
+    "git_size": 0,
+    "dl_size": 78544194,
+    "original_hash": "5e94f419ca2151e16eeddb494c62bcb721cc88d4",
+    "rebuild_hash": "68ef6ed8cfbfe849752bf6be1c3fd9c206cb3730",
+    "original_bin_hash": "14703f09b5fc0db249dcfe6f35be1da60d2cba2e",
+    "rebuild_bin_hash": "654328737d641acd869c6dd87629e01e6441927f",
+    "original_lib_hash": "15e58123137b58c5eb3525c7974e0bb14e799a6e",
+    "rebuild_lib_hash": "15e58123137b58c5eb3525c7974e0bb14e799a6e",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

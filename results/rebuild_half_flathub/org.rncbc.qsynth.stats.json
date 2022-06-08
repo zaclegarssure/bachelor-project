@@ -1,0 +1,20 @@
+{
+    "name": "org.rncbc.qsynth",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 100.06199407577515,
+    "cache_size": 3578909,
+    "git_size": 0,
+    "dl_size": 3578224,
+    "original_hash": "27c674e3ca238feb88f7c887158e54bf5c74ee3f",
+    "rebuild_hash": "cf73d87f61ea621c410aadedcf1e29d621fb35f9",
+    "original_bin_hash": "3115e53c79060b248bd6b8d7b8a31bd6ac54646a",
+    "rebuild_bin_hash": "21718caa48cd5ff68707cdc9acbb2ae443a1b67d",
+    "original_lib_hash": "5cb03d4523c3f7f2c6e2ee1bb0aacc3ae1b421b3",
+    "rebuild_lib_hash": "5cb03d4523c3f7f2c6e2ee1bb0aacc3ae1b421b3",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora"
+}

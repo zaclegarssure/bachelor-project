@@ -1,0 +1,26 @@
+{
+    "name": "org.phoenicis.playonlinux",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 171.95763039588928,
+    "cache_size": 89870254,
+    "git_size": 0,
+    "dl_size": 89869553,
+    "original_hash": "0e0bec39b43c9a9b9b84814fe3f1a3bf4b6c1fbd",
+    "rebuild_hash": "2472af8d5fb73ef512a838dbdb8d664283ddde7b",
+    "original_bin_hash": "59ea0d41459d2285b48a25c9c3c77758024ec7e7",
+    "rebuild_bin_hash": "59ea0d41459d2285b48a25c9c3c77758024ec7e7",
+    "original_lib_hash": "3eb2547d9ea5984cee3f95cd5bde139e1a03acd8",
+    "rebuild_lib_hash": "fa36822548cfcd92fba5a0c0742161e7e862bc9c",
+    "original_lib32_hash": "792f1715b27de88baabc34526100ac0521ccd93c",
+    "rebuild_lib32_hash": "c8fe4d145ae5579dc53bbc18bc6147e6b185730f",
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "autotools",
+        "simple",
+        "simple"
+    ]
+}

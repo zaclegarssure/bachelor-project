@@ -1,0 +1,25 @@
+{
+    "name": "org.gnome.Quadrapassel",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 46.119187116622925,
+    "cache_size": 1100246,
+    "git_size": 388951,
+    "dl_size": 690736,
+    "original_hash": "f8b2d2a79c40d887a0851f191a44fc9e3bcb905c",
+    "rebuild_hash": "075dd28b78d3e8e96276b69ae81cf3061367348d",
+    "original_bin_hash": "81b9f234e7c5da3fa496d0bacb4d972014efe5a8",
+    "rebuild_bin_hash": "81b9f234e7c5da3fa496d0bacb4d972014efe5a8",
+    "original_lib_hash": "3b065370f64fbf9e645189a2b655ac7f517ddf59",
+    "rebuild_lib_hash": "3b065370f64fbf9e645189a2b655ac7f517ddf59",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "ca.littlesvr.asunder",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 291.0658538341522,
+    "cache_size": 26689140,
+    "git_size": 0,
+    "dl_size": 26672677,
+    "original_hash": "4e62c17f0e31a35d48e510111a10ee9f06b239e5",
+    "rebuild_hash": "6f5cd30103f5f3cd01c4a5fe4e043e714a4d56ae",
+    "original_bin_hash": "e6b7068598e226e3145039fc195770ec19994457",
+    "rebuild_bin_hash": "9d908b46d8e88a5a0d95ce8ea0cf8c1670fac3fc",
+    "original_lib_hash": "cda670e39c27de79b1fa2281c8efdc1db801dd23",
+    "rebuild_lib_hash": "57e993c523a06d13f9e71479de06db4d19bd4d65",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

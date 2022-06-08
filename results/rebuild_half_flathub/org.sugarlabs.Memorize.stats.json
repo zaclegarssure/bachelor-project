@@ -1,0 +1,23 @@
+{
+    "name": "org.sugarlabs.Memorize",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 95.2143964767456,
+    "cache_size": 12656660,
+    "git_size": 12656201,
+    "dl_size": 0,
+    "original_hash": "9eb3694f7f4c15bc9896cf8698207d1e17552500",
+    "rebuild_hash": "9eb3694f7f4c15bc9896cf8698207d1e17552500",
+    "original_bin_hash": "21476137e4c4ac67d752b65d18ea7938c6a87063",
+    "rebuild_bin_hash": "21476137e4c4ac67d752b65d18ea7938c6a87063",
+    "original_lib_hash": "44b831c57528ed3a5e42f8e2b359e3dee73c969e",
+    "rebuild_lib_hash": "44b831c57528ed3a5e42f8e2b359e3dee73c969e",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "org.gnome.BreakTimer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 31.91932725906372,
+    "cache_size": 3935525,
+    "git_size": 2943195,
+    "dl_size": 971771,
+    "original_hash": "1cdf17860bbfe95b69198b5148c3a1e9346de544",
+    "rebuild_hash": "4b1836750000f4b63b9a846fb15c1fed2754b26e",
+    "original_bin_hash": "35398c3fc46e8230d84207e2beabdcf6356c56ad",
+    "rebuild_bin_hash": "35398c3fc46e8230d84207e2beabdcf6356c56ad",
+    "original_lib_hash": "9964eee468718bd619b06c50233956f21fd15275",
+    "rebuild_lib_hash": "9964eee468718bd619b06c50233956f21fd15275",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

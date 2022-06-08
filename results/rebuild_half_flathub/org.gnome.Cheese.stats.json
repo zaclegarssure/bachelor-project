@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Cheese",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 87.14600324630737,
+    "cache_size": 44385321,
+    "git_size": 39588531,
+    "dl_size": 4776231,
+    "original_hash": "418affccc02a4a424f14ba7a3bebaf5be5a51fb1",
+    "rebuild_hash": "21b6519c7c662883d1438202598fa37f1a32d8e1",
+    "original_bin_hash": "cddcb8125a86ad656cc9fa0328f71bc621c40676",
+    "rebuild_bin_hash": "cddcb8125a86ad656cc9fa0328f71bc621c40676",
+    "original_lib_hash": "f9b55f36ab21a209759e765040e3d3aaa3aa05b7",
+    "rebuild_lib_hash": "81560fe2a45b3c0cc72780c91560bd949358375a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

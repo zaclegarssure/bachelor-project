@@ -1,0 +1,32 @@
+{
+    "name": "de.haeckerfelix.Fragments",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "f396b0fbbae4ca81daa704482d98f08bbebd216c063b98e052ae71d8edee6bfc",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-12 20:53:02+00:00",
+    "timestamp_of_rebuild": 1644699182.0,
+    "git-commit": "ba8f249b41a364688031b5bc662e87c7f577bb72 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "7107abf457b9c09a5c0196fe653789b86af7891c3b640d5f799f7fea0eb0e11f",
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.gnome.Sdk/x86_64/41": "ecccb80495350cc4b6cbca854de8249bb1a92e01e80bacb2d492f1c4ff3be533",
+        "org.gnome.Platform/x86_64/41": "b0aed9b5fb8b5e3e1e1badc8711fa34667760cf5ce79b2727b8d8c21d4772577"
+    },
+    "build_time": 466.3617250919342,
+    "cache_size": 57950328,
+    "git_size": 0,
+    "dl_size": 57933865,
+    "bad_files": 6,
+    "total_files": 165,
+    "repro_score": 0.9636363636363636,
+    "original_hash": "7e709c0a3d385f455d16dd17d122d40d8b258360",
+    "rebuild_hash": "2f7c980e7bd71a916b5dabc4a6483c2df3ee9765",
+    "original_bin_hash": "b1c571d33419e0bcf4f34cd588b97b8a7f74301f",
+    "rebuild_bin_hash": "df39c05303e552108b35783a0287db4ee0777315",
+    "original_elf_hash": "d77d5207848237b76272f4f718eb50af314b90ba",
+    "rebuild_elf_hash": "088d73f5d9b1b1c1ecf85d5c1be38975b988f84e",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

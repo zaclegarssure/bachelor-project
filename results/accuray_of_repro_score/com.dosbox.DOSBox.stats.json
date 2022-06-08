@@ -1,0 +1,31 @@
+{
+    "name": "com.dosbox.DOSBox",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "b1aa0765a1960351521d4f38be771d0fffb2d83549bb72e033eed4fcfc0388b7",
+    "branch": "stable",
+    "time_of_rebuild": "2021-10-01 13:09:36+00:00",
+    "timestamp_of_rebuild": 1633093776.0,
+    "git-commit": "fe7366b3563af4da5ee83d948680aeb989d2949a master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "d40cff9fa614104744be54f9dcbfd846c76a6cb7a80f045f6057d34ba69ac423",
+        "org.freedesktop.Sdk/x86_64/21.08": "1fad7974d6fe02c6ac83e3e804e0317f4d8d3528dcd5087002e1b501ddadbb6b",
+        "org.freedesktop.Platform/x86_64/21.08": "16d161d8a71701b80fa4bca12812a22c19dc0641b3571fe88c517c84da94c5b5"
+    },
+    "build_time": 117.51739454269409,
+    "cache_size": 7206594,
+    "git_size": 0,
+    "dl_size": 7190131,
+    "bad_files": 1,
+    "total_files": 17,
+    "repro_score": 0.9411764705882353,
+    "original_hash": "2276c81a1d472b43eae4bc2181e37b2d8ca0aedf",
+    "rebuild_hash": "4fa9031ae66147d9e8e2a21b5aaad8de5944167b",
+    "original_bin_hash": "fdb2d59ac1713fcf2d87dae912eb5abb461d3fd1",
+    "rebuild_bin_hash": "fdb2d59ac1713fcf2d87dae912eb5abb461d3fd1",
+    "original_elf_hash": "4b0da59b07437cf4360a4016b5e4cba529cfbaab",
+    "rebuild_elf_hash": "4b0da59b07437cf4360a4016b5e4cba529cfbaab",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

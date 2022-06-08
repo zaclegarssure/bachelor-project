@@ -1,0 +1,20 @@
+{
+    "name": "com.google.AndroidStudio",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 383.2911605834961,
+    "cache_size": 19860929,
+    "git_size": 0,
+    "dl_size": 19844466,
+    "original_hash": "3b8465b0361e32e814787c8ba42c8be6741daec8",
+    "rebuild_hash": "97de3e02920460d1988fa271f0f707fcab158fdc",
+    "original_bin_hash": "a15cae2c4d17da308b2d967acad96a73e949e4d5",
+    "rebuild_bin_hash": "a15cae2c4d17da308b2d967acad96a73e949e4d5",
+    "original_lib_hash": "5c8a8b2b8cf9fe5ca618f8902de0f756a49086b3",
+    "rebuild_lib_hash": "2d70fa1f393f97136ed0930e0959fe07f08ff520",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

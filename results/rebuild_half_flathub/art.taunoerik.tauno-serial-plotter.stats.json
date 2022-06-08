@@ -1,0 +1,24 @@
+{
+    "name": "art.taunoerik.tauno-serial-plotter",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 689.9718647003174,
+    "cache_size": 19194984,
+    "git_size": 0,
+    "dl_size": 19178521,
+    "original_hash": "70aa573e7dd2ba6d85b0097985a62384d501c2bd",
+    "rebuild_hash": "9f73cba7ea60b58c035656c42f634ea3ccfd42d1",
+    "original_bin_hash": "d11e418274706d41a65d6cb6469ac5f19bab5961",
+    "rebuild_bin_hash": "d11e418274706d41a65d6cb6469ac5f19bab5961",
+    "original_lib_hash": "2b3250be2930cd19303196f4bc1b9c2ebbb56f7f",
+    "rebuild_lib_hash": "5e75bd1cd50e6802ce70e19c030c32a00d1a58ed",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

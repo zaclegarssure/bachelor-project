@@ -1,0 +1,24 @@
+{
+    "name": "com.thincast.client",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 5.537270545959473,
+    "cache_size": 5650027,
+    "git_size": 0,
+    "dl_size": 5633564,
+    "original_hash": "2f9cbf77378433affb188afeff39fe0a711092c3",
+    "rebuild_hash": "2f9cbf77378433affb188afeff39fe0a711092c3",
+    "original_bin_hash": "35b94a69c1d107b2387c92362da138f344765297",
+    "rebuild_bin_hash": "35b94a69c1d107b2387c92362da138f344765297",
+    "original_lib_hash": "97d61131a02fe3cf6996c55d4968ad5ef3e184c1",
+    "rebuild_lib_hash": "97d61131a02fe3cf6996c55d4968ad5ef3e184c1",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

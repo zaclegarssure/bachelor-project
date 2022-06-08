@@ -1,0 +1,16 @@
+{
+    "name": "org.inkscape.Inkscape",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "5c135c52e20afd389f9fcc44814c50e27de32671b84b802f503fe8445078e87b",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-26 13:42:22+00:00",
+    "timestamp_of_rebuild": 1653572542.0,
+    "git-commit": "1401decf4cab6fc72271f03c2a6842d8967d6a08 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "c3ea4e88f8f9d05efb8b085abb2d1f56d8bab435dade310f31edef002612736d",
+        "org.gnome.Platform/x86_64/42": "ad9ceb4f734c754fe1db5ee926eb1482062ef35f0f588cd74f486eceb3f1028a"
+    }
+}

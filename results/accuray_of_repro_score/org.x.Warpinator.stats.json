@@ -1,0 +1,31 @@
+{
+    "name": "org.x.Warpinator",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "da2ba55a0fdbc30723c3f50db1fa821c25f9c022c4d4986c029752641edfb666",
+    "branch": "stable",
+    "time_of_rebuild": "2022-01-04 16:43:18+00:00",
+    "timestamp_of_rebuild": 1641314598.0,
+    "git-commit": "377ce74ca3fb0c664380f8f8c8de5ab2b627db33 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "33efe804a63f7bf3b2a3ba4607f4ea700e4b44760f119e765fde5ab565471d87",
+        "org.gnome.Sdk/x86_64/3.38": "5f699dd2ab3afb8c078649a1b0ef0624b54550037663570564826afd9fc5df42",
+        "org.gnome.Platform/x86_64/3.38": "454a79938e3ecb6ee3750055b1cfb2d28435b0ffe1ff5742b092917cf7efc8a1"
+    },
+    "build_time": 295.0946247577667,
+    "cache_size": 28160948,
+    "git_size": 994602,
+    "dl_size": 27145787,
+    "bad_files": 18,
+    "total_files": 725,
+    "repro_score": 0.9751724137931035,
+    "original_hash": "50652250c7a5917d6a28549624f13a0ef9bd58db",
+    "rebuild_hash": "ddb06a8cfdcab001eef1c07584a1ecafd948efb2",
+    "original_bin_hash": "78db4cf9b33515c2aa1b0fc141f36d4e3dc53f91",
+    "rebuild_bin_hash": "af00e502595a213762477a37a62e8e5a13234424",
+    "original_elf_hash": "ac1a5dac36079c9e8bb5274d6e1f47f4458787e3",
+    "rebuild_elf_hash": "072a3f97967d59bba9b3d004fa86b15d0996b950",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

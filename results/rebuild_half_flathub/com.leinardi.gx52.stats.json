@@ -1,0 +1,20 @@
+{
+    "name": "com.leinardi.gx52",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 93.68535661697388,
+    "cache_size": 11582859,
+    "git_size": 5674196,
+    "dl_size": 5888104,
+    "original_hash": "bf4f89d9d971d7594d64d11b9bf08e52bd6afd62",
+    "rebuild_hash": "b0c26d7ce83331fca924fa4db8e1cd65cf9fc2e5",
+    "original_bin_hash": "be776e0a98cb19328b9fd2cf4c9dfe5bab7db9af",
+    "rebuild_bin_hash": "be776e0a98cb19328b9fd2cf4c9dfe5bab7db9af",
+    "original_lib_hash": "7f675874e79006d60329e437a29175f614d0d374",
+    "rebuild_lib_hash": "53fc20718c98caaebabed1d7727067aae8b8439d",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

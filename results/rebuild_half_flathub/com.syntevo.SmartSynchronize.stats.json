@@ -1,0 +1,23 @@
+{
+    "name": "com.syntevo.SmartSynchronize",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 26.93751811981201,
+    "cache_size": 6742565,
+    "git_size": 0,
+    "dl_size": 6726102,
+    "original_hash": "0d5c2c6d03bb7a116a006edb564ee7289d4013b7",
+    "rebuild_hash": "0d5c2c6d03bb7a116a006edb564ee7289d4013b7",
+    "original_bin_hash": "3761e692754ead371b9f556f00da99677b51038c",
+    "rebuild_bin_hash": "3761e692754ead371b9f556f00da99677b51038c",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

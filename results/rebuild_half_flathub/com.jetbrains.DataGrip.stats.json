@@ -1,0 +1,20 @@
+{
+    "name": "com.jetbrains.DataGrip",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 19.333027839660645,
+    "cache_size": 554478,
+    "git_size": 0,
+    "dl_size": 538015,
+    "original_hash": "0c27d3162ecada8dc4b744c1bba7d8dc108360de",
+    "rebuild_hash": "0c27d3162ecada8dc4b744c1bba7d8dc108360de",
+    "original_bin_hash": "b7c03928952c5bc08213e560d814d44a5e8a0163",
+    "rebuild_bin_hash": "b7c03928952c5bc08213e560d814d44a5e8a0163",
+    "original_lib_hash": "ddc432815be6af1b3663c1cfad9636de52d4a125",
+    "rebuild_lib_hash": "ddc432815be6af1b3663c1cfad9636de52d4a125",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch"
+}

@@ -1,0 +1,23 @@
+{
+    "name": "com.github.alexkdeveloper.forgetpass",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 3.7472665309906006,
+    "cache_size": 120221,
+    "git_size": 103758,
+    "dl_size": 0,
+    "original_hash": "e304abcfa6fd5f25d123cb5167a75f7480ff6f8d",
+    "rebuild_hash": "e304abcfa6fd5f25d123cb5167a75f7480ff6f8d",
+    "original_bin_hash": "08e1467ef20bdb1491cfb93be19f59e5d57a917a",
+    "rebuild_bin_hash": "08e1467ef20bdb1491cfb93be19f59e5d57a917a",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

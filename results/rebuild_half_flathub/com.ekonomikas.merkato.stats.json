@@ -1,0 +1,23 @@
+{
+    "name": "com.ekonomikas.merkato",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 5.617184162139893,
+    "cache_size": 367463,
+    "git_size": 351000,
+    "dl_size": 0,
+    "original_hash": "82bfb197b69dd71d02fd8a595965caa8a660e12f",
+    "rebuild_hash": "66d262d99c15f001bd35bd64d9fde75b460ca588",
+    "original_bin_hash": "28391cde92613b255f5739a68340f982bf3211fb",
+    "rebuild_bin_hash": "28391cde92613b255f5739a68340f982bf3211fb",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

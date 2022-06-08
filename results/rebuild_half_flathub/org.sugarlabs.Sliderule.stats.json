@@ -1,0 +1,23 @@
+{
+    "name": "org.sugarlabs.Sliderule",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 6.748267889022827,
+    "cache_size": 90333,
+    "git_size": 90064,
+    "dl_size": 0,
+    "original_hash": "49b84d5eb23dc119b2a3eea272d5e4072703b47e",
+    "rebuild_hash": "49b84d5eb23dc119b2a3eea272d5e4072703b47e",
+    "original_bin_hash": "a6575aa72d8bb2f909da88ec49ca667a16cfb6eb",
+    "rebuild_bin_hash": "a6575aa72d8bb2f909da88ec49ca667a16cfb6eb",
+    "original_lib_hash": "06001a0e40c7811ef78044144e64be3e5aec92a5",
+    "rebuild_lib_hash": "06001a0e40c7811ef78044144e64be3e5aec92a5",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple"
+    ]
+}

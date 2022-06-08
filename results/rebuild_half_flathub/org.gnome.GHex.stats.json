@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.GHex",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 15.67228078842163,
+    "cache_size": 1023679,
+    "git_size": 0,
+    "dl_size": 1007216,
+    "original_hash": "338926f276c22912dd7dca522d9cdca806605551",
+    "rebuild_hash": "338926f276c22912dd7dca522d9cdca806605551",
+    "original_bin_hash": "1701d299960dd2a5c6d57842778951fbeb656726",
+    "rebuild_bin_hash": "1701d299960dd2a5c6d57842778951fbeb656726",
+    "original_lib_hash": "291edb5f8d284f13ad07e766b40db3f84a2898c4",
+    "rebuild_lib_hash": "291edb5f8d284f13ad07e766b40db3f84a2898c4",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

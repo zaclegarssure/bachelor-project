@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Connections",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 80.17847418785095,
+    "cache_size": 12161407,
+    "git_size": 4292030,
+    "dl_size": 7848818,
+    "original_hash": "f52f065c2172ef9d82a14e214633ebb585bcabb2",
+    "rebuild_hash": "2b4d5115f3ed1ce38a829e87ef8cb9bec0eff871",
+    "original_bin_hash": "047de64ee3692452f845711390ea149dfae6b12e",
+    "rebuild_bin_hash": "96c3f93e592bc496f0af974603e483cbcf51bea8",
+    "original_lib_hash": "015b250a870178edd96612a625da5ded09e2bfed",
+    "rebuild_lib_hash": "7e0be7be72d1a54efc2e0d2e07327f69ede7de2b",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

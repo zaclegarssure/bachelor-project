@@ -1,0 +1,20 @@
+{
+    "name": "org.openrgb.OpenRGB",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 214.24538779258728,
+    "cache_size": 34230675,
+    "git_size": 4825753,
+    "dl_size": 29404347,
+    "original_hash": "8eb8e2dd7521010c73cdc965d864a12cc13cee72",
+    "rebuild_hash": "b9785785566b5517e520398f60d744ac7b9207aa",
+    "original_bin_hash": "35f6cd44fb9c9a6edc0c5c2afc8565292254ea1c",
+    "rebuild_bin_hash": "899ae9acb12a39c0a4f6add051feb5415b30b720",
+    "original_lib_hash": "92c16b2826f201cea7c83e21319aaa0f32d74d53",
+    "rebuild_lib_hash": "92c16b2826f201cea7c83e21319aaa0f32d74d53",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora"
+}

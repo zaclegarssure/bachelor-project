@@ -1,0 +1,31 @@
+{
+    "name": "org.openscad.OpenSCAD",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "d70b8761c14bff8272e1e241b1a78a96024f123065e32260e7bb361d4cb94cc2",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-11 21:36:02+00:00",
+    "timestamp_of_rebuild": 1649712962.0,
+    "git-commit": "0051572b35a6a666e0901a3f584aeee4014152a2 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "ce49c08bc8fa30d0f1c205a3ca379e98829f4f413775d140c474ff039cbb1ae1",
+        "org.kde.Platform/x86_64/5.15-21.08": "3c784b9e2fcc15803d337825f428c71f841c9db330e84e6ece40cbd0f66bdf73"
+    },
+    "build_time": 490.2673807144165,
+    "cache_size": 168062619,
+    "git_size": 0,
+    "dl_size": 168046156,
+    "bad_files": 2,
+    "total_files": 254,
+    "repro_score": 0.9921259842519685,
+    "original_hash": "44fec2b7084fe0fc5266d0955d42c4c4ac9e4162",
+    "rebuild_hash": "54c2f867775a76405a09dc3ca61cda9ccb072ce8",
+    "original_bin_hash": "a2bce903ee7e5787622586bc74ea3cd182179c15",
+    "rebuild_bin_hash": "b16cce2e11382436762339b6dbb82d543ff78d70",
+    "original_elf_hash": "a0a90273cace5d296d500c695b6574fc04f707a7",
+    "rebuild_elf_hash": "c1f31e1905d9f82cffc2f689932bb28a1bce3e8b",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

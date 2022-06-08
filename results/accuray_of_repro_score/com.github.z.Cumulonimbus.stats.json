@@ -1,0 +1,32 @@
+{
+    "name": "com.github.z.Cumulonimbus",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "a0d6ed319a7d2e5bfb53704d574a2ce57f5a63e13d47a304f4b7f74a2543cd41",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-09 02:39:16+00:00",
+    "timestamp_of_rebuild": 1652063956.0,
+    "git-commit": "95321e375f36db14746c1bfef0277375f0491c4d master",
+    "flatpak-deps": {
+        "org.electronjs.Electron2.BaseApp/x86_64/21.08": "0281c7bff16ae16bd23554f65185a9b33ca71dafcdf85667983049d9e046ccb8",
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 15.92206335067749,
+    "cache_size": 39182497,
+    "git_size": 0,
+    "dl_size": 39166034,
+    "bad_files": 0,
+    "total_files": 201,
+    "repro_score": 1.0,
+    "original_hash": "762fe7da2eb8964a65ce9c2a145789769d4bebaf",
+    "rebuild_hash": "762fe7da2eb8964a65ce9c2a145789769d4bebaf",
+    "original_bin_hash": "128d60a05dd79a5793ef6a073b126bb919903af8",
+    "rebuild_bin_hash": "128d60a05dd79a5793ef6a073b126bb919903af8",
+    "original_elf_hash": "87197456278799b6b2427e9f3c6c8e5cfe5b27ec",
+    "rebuild_elf_hash": "87197456278799b6b2427e9f3c6c8e5cfe5b27ec",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

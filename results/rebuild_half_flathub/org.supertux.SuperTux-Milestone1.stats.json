@@ -1,0 +1,20 @@
+{
+    "name": "org.supertux.SuperTux-Milestone1",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 123.60254549980164,
+    "cache_size": 19046442,
+    "git_size": 7170343,
+    "dl_size": 11875050,
+    "original_hash": "8ffbb1c67d26170088ae74b58ee49c708f739582",
+    "rebuild_hash": "8ffbb1c67d26170088ae74b58ee49c708f739582",
+    "original_bin_hash": "9386732f925035bbd0d36ed6547d40b0552420f4",
+    "rebuild_bin_hash": "9386732f925035bbd0d36ed6547d40b0552420f4",
+    "original_lib_hash": "3470ecdeaa0b19cc65fb0f5ec9ed458f2147595f",
+    "rebuild_lib_hash": "3470ecdeaa0b19cc65fb0f5ec9ed458f2147595f",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora"
+}

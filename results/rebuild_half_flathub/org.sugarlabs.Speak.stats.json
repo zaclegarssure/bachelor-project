@@ -1,0 +1,25 @@
+{
+    "name": "org.sugarlabs.Speak",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 210.62112402915955,
+    "cache_size": 19774564,
+    "git_size": 14635767,
+    "dl_size": 5138240,
+    "original_hash": "fdb0ec0229bfd341238bcf81def9be14ffbabe3a",
+    "rebuild_hash": "432130b52a21a6491aaad1d887f4f2074080c099",
+    "original_bin_hash": "c01c6873442d232c0ef0c42fac6d7521003f4dac",
+    "rebuild_bin_hash": "c01c6873442d232c0ef0c42fac6d7521003f4dac",
+    "original_lib_hash": "2c379f682df8aeb031d933315659218990faa35b",
+    "rebuild_lib_hash": "11fbda90829954ecd9b3473fe9f45d283e5822f3",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "diffoscope_failed": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

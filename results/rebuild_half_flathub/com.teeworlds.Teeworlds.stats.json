@@ -1,0 +1,20 @@
+{
+    "name": "com.teeworlds.Teeworlds",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 46.992419719696045,
+    "cache_size": 10542800,
+    "git_size": 0,
+    "dl_size": 10526337,
+    "original_hash": "6ee41ebaef30bf8e4a85b561c2ddc6593eed985f",
+    "rebuild_hash": "7742012be4474600a2a47d0edb3c5d2c5ccd0ede",
+    "original_bin_hash": "1e6ee275332dbb359775583b11fed6b6f6429b3a",
+    "rebuild_bin_hash": "83336345ad39358bf7324bc7952f452f8d233825",
+    "original_lib_hash": "bbdad29049324eba6f255e94dde6a8aec0c9b231",
+    "rebuild_lib_hash": "bbdad29049324eba6f255e94dde6a8aec0c9b231",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

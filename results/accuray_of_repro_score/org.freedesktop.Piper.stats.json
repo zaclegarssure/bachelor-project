@@ -1,0 +1,16 @@
+{
+    "name": "org.freedesktop.Piper",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "0c8248f8dc0c13c44d5b605151149132fee894de6f32f9ce4426bdb751f3053d",
+    "branch": "stable",
+    "time_of_rebuild": "2021-10-31 00:39:16+00:00",
+    "timestamp_of_rebuild": 1635640756.0,
+    "git-commit": "dc9ae6ef2a66f3d991f17aa520ba6076f12c7c62 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.gnome.Sdk/x86_64/41": "46b6e195ef062e5567ac0fcbb3cbc35c1b1ede2b5812da1fff466ae270c93987",
+        "org.gnome.Platform/x86_64/41": "f8ca57fe57678c475b4184d6420023d5e37e40266355775f770d487321079a3f"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Evolution",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 553.490875005722,
+    "cache_size": 66622726,
+    "git_size": 9293988,
+    "dl_size": 57291795,
+    "original_hash": "258366ec86e7ed6b9bbd6a1bdf268429bc89ac95",
+    "rebuild_hash": "516ac0b5e3557929f2a23299ea7a6ec8b8dc0f13",
+    "original_bin_hash": "805cdf43a92e9afa8cc5ebb27ea9572eb445606e",
+    "rebuild_bin_hash": "805cdf43a92e9afa8cc5ebb27ea9572eb445606e",
+    "original_lib_hash": "6c5ae9b1ce9423330364fdb4bd268b74b307e461",
+    "rebuild_lib_hash": "3067557d3e7ac53e9802d055491fe70a2391730e",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

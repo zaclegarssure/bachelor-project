@@ -1,0 +1,23 @@
+{
+    "name": "com.github.joseexposito.touche",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 1556.1843345165253,
+    "cache_size": 74159325,
+    "git_size": 0,
+    "dl_size": 74142862,
+    "original_hash": "f4449347b5e5b467ab9779f6f67ae15ed7741544",
+    "rebuild_hash": "f4449347b5e5b467ab9779f6f67ae15ed7741544",
+    "original_bin_hash": "cfe568b81fbc37540963a734533011af5b0303f8",
+    "rebuild_bin_hash": "cfe568b81fbc37540963a734533011af5b0303f8",
+    "original_lib_hash": "b605d536c87fcb83d290fbe9d828d5d24545de2b",
+    "rebuild_lib_hash": "b605d536c87fcb83d290fbe9d828d5d24545de2b",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

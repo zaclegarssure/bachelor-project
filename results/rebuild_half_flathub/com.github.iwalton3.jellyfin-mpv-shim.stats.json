@@ -1,0 +1,26 @@
+{
+    "name": "com.github.iwalton3.jellyfin-mpv-shim",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 380.13947916030884,
+    "cache_size": 214663031,
+    "git_size": 131254763,
+    "dl_size": 83387709,
+    "original_hash": "7d52617e364c1249ab611e24d01bbd073132c017",
+    "rebuild_hash": "b7e02cee708e8da29bd6ab7c32cc8052999342de",
+    "original_bin_hash": "82471c13db2a8aeb16982da37699a325853cffd7",
+    "rebuild_bin_hash": "82471c13db2a8aeb16982da37699a325853cffd7",
+    "original_lib_hash": "de2afebb42e5fe40c71596580d55360b40d995a2",
+    "rebuild_lib_hash": "53e2dd3efb818e49289b634b26c8cfff67bdecae",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

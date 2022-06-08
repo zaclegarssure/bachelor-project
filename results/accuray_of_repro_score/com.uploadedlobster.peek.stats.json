@@ -1,0 +1,32 @@
+{
+    "name": "com.uploadedlobster.peek",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "12a3ca03f8ec00f5bead8ae6818e54a91293ee5bd7b80dd585e06e8c7d42c95a",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-17 11:51:09+00:00",
+    "timestamp_of_rebuild": 1652788269.0,
+    "git-commit": "eb4c9296e88737b8718679d8162790470bf7349b master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "275e2ef18982b207c461a19c1a608fe63053ba58b063f3540e28e68f9f088d14",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "bd5cf2646c70337561c1a2bf214e3ca797fd2ea96d981baf8fd537cb931eeebb",
+        "org.gnome.Platform/x86_64/42": "d240597586ac4c87e7e8dd634b67a3c910704b77d1ef5927147e55fe57cf569a"
+    },
+    "build_time": 109.21563410758972,
+    "cache_size": 26213528,
+    "git_size": 1145644,
+    "dl_size": 25039133,
+    "bad_files": 0,
+    "total_files": 65,
+    "repro_score": 1.0,
+    "original_hash": "9dc01c8b10dc1b9ba3051736e19ba5906637da97",
+    "rebuild_hash": "9dc01c8b10dc1b9ba3051736e19ba5906637da97",
+    "original_bin_hash": "0431740af4ffc39a49ac22089d46a4b9e93a79cb",
+    "rebuild_bin_hash": "0431740af4ffc39a49ac22089d46a4b9e93a79cb",
+    "original_elf_hash": "f0299585f74b7d4bec243e6a89c91a99cded047e",
+    "rebuild_elf_hash": "f0299585f74b7d4bec243e6a89c91a99cded047e",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

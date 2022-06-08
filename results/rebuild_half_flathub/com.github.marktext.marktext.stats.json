@@ -1,0 +1,20 @@
+{
+    "name": "com.github.marktext.marktext",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 37.51275587081909,
+    "cache_size": 192829863,
+    "git_size": 85026431,
+    "dl_size": 107782873,
+    "original_hash": "b58aaa5e24b73860a75b82a0499539f4d4352c0a",
+    "rebuild_hash": "b58aaa5e24b73860a75b82a0499539f4d4352c0a",
+    "original_bin_hash": "7160579fc52b01d729ebe356fee05febc51a8f7d",
+    "rebuild_bin_hash": "7160579fc52b01d729ebe356fee05febc51a8f7d",
+    "original_lib_hash": "a406fdb71380ba816f20b1e2c97af3c21c9e002b",
+    "rebuild_lib_hash": "a406fdb71380ba816f20b1e2c97af3c21c9e002b",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

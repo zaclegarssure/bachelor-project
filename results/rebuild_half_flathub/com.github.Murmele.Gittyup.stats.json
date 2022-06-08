@@ -1,0 +1,25 @@
+{
+    "name": "com.github.Murmele.Gittyup",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 165.8541123867035,
+    "cache_size": 698748707,
+    "git_size": 695469676,
+    "dl_size": 3258472,
+    "original_hash": "12466e8b3b3ad1449f1f14d126f3086b5100f874",
+    "rebuild_hash": "03629dd55955e62a80f2f00f196d31be67c1bb32",
+    "original_bin_hash": "e1cf5ca143e4d85bf2b10d13e955d80b8b91c0c6",
+    "rebuild_bin_hash": "5a22746a56b0e9279d88c9fc7b2dbff3f0798c66",
+    "original_lib_hash": "3a198ab8bf661bfb769a35c907ea3280f12ed0b3",
+    "rebuild_lib_hash": "3a198ab8bf661bfb769a35c907ea3280f12ed0b3",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "cmake-ninja"
+    ]
+}

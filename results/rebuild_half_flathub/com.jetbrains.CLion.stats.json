@@ -1,0 +1,23 @@
+{
+    "name": "com.jetbrains.CLion",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 3.657590389251709,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "ff45a757094cd1f5e9051abb21cf856cc2dabdb5",
+    "rebuild_hash": "057689ddfbe2f94882946067129931c77b89d128",
+    "original_bin_hash": "58afb8e1ca5d2d8d7e5e5bb009f297bde550b6c0",
+    "rebuild_bin_hash": "58afb8e1ca5d2d8d7e5e5bb009f297bde550b6c0",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

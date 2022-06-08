@@ -1,0 +1,16 @@
+{
+    "name": "net.scribus.Scribus",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "67617edc329f11dd0d81a74889507b2cbe1d5c9ade599610db8506bb26f6ba3d",
+    "branch": "stable",
+    "time_of_rebuild": "2022-01-27 03:40:27+00:00",
+    "timestamp_of_rebuild": 1643254827.0,
+    "git-commit": "25aa27cc6d8f498f1591c31d53cf7ba961ffe79e master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.kde.Sdk/x86_64/5.15-21.08": "4fd248c0c839efc20d04b9c4c1a83bd8e4197c24ad8d6fb84d031b84e0fe8c8b",
+        "org.kde.Platform/x86_64/5.15-21.08": "1bd7d36c3d1aace6aa6887c533c3dc8565a883ab5a288c10ba019b640066d002"
+    }
+}

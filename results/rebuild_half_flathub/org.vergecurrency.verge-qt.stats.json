@@ -1,0 +1,24 @@
+{
+    "name": "org.vergecurrency.verge-qt",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 31.422553777694702,
+    "cache_size": 41554663,
+    "git_size": 0,
+    "dl_size": 41554214,
+    "original_hash": "93d2037b51ae9282347643204ea4911e4e7d68f9",
+    "rebuild_hash": "93d2037b51ae9282347643204ea4911e4e7d68f9",
+    "original_bin_hash": "cd6934b5a210273f6d8d5cfa25c37650ff5dbae6",
+    "rebuild_bin_hash": "cd6934b5a210273f6d8d5cfa25c37650ff5dbae6",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

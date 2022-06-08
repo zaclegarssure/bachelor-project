@@ -1,0 +1,32 @@
+{
+    "name": "org.kde.falkon",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "e2db71c6a0accc41117f7d2a73d412af1825c53b68220ae04a093bcdca5da860",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-12 22:06:21+00:00",
+    "timestamp_of_rebuild": 1652393181.0,
+    "git-commit": "866a980e9b8b8287dfe4269123ca7caa16e15f8e master",
+    "flatpak-deps": {
+        "io.qt.qtwebengine.BaseApp/x86_64/5.15-21.08": "4e9b6655ba5bf04c7370659d18033aa04df722f50976f651d6456f551b5f9876",
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 170.86812663078308,
+    "cache_size": 2512595,
+    "git_size": 0,
+    "dl_size": 2496132,
+    "bad_files": 10,
+    "total_files": 654,
+    "repro_score": 0.9847094801223242,
+    "original_hash": "bb3b1a148c691d0fd3d0de4a982ff09976de2892",
+    "rebuild_hash": "6569940031b7d4a8a5e865b88167006e9279149d",
+    "original_bin_hash": "b52df5a2ac26fd8e2d603a662f3f5a258e1404e5",
+    "rebuild_bin_hash": "a46b5fa2c316cb3e2582a6f6fb0fe486d1371a77",
+    "original_elf_hash": "22a7eac0dccb298b7946e15c147d12a2e006cde3",
+    "rebuild_elf_hash": "b54103ca04ec2987573bbf34514417a95c714737",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

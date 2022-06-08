@@ -1,0 +1,20 @@
+{
+    "name": "com.github.Flacon",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 135.7362666130066,
+    "cache_size": 10782101,
+    "git_size": 211303,
+    "dl_size": 10550239,
+    "original_hash": "dd60b39b4ac455d41f71fc56edc49f4eb80aa840",
+    "rebuild_hash": "5bac7c18fe92e120a975cb4644f4f6ef4b5b6f04",
+    "original_bin_hash": "3a725343d9311077ab02521cf3dd835b62725080",
+    "rebuild_bin_hash": "ffde7d161390aeacc47d5dbccba1d8d427205b7e",
+    "original_lib_hash": "40060b7d70f152e847a06278beff5221c02ca45e",
+    "rebuild_lib_hash": "9cee1d88ed8ca40977cc99ba094bc707e87ebd50",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "com.basemark.BasemarkGPU",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 287.41804361343384,
+    "cache_size": 1248915051,
+    "git_size": 0,
+    "dl_size": 1248898588,
+    "original_hash": "7ee865aaef0699e861c81e893d6babda687f3505",
+    "rebuild_hash": "b22715b8bf4889a17ede634e5625b7f8b7f09d88",
+    "original_bin_hash": "c78f80893b568187a6ab0eca50f81b0bb2cd9a92",
+    "rebuild_bin_hash": "c78f80893b568187a6ab0eca50f81b0bb2cd9a92",
+    "original_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "rebuild_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

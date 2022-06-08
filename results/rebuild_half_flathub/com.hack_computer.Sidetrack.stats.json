@@ -1,0 +1,24 @@
+{
+    "name": "com.hack_computer.Sidetrack",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 10.245097160339355,
+    "cache_size": 39015635,
+    "git_size": 38999172,
+    "dl_size": 0,
+    "original_hash": "202759eab4043b2cb0e6f1da5f29ab006518c95d",
+    "rebuild_hash": "20b11c4a7e436e7972faa74a65f103599426168a",
+    "original_bin_hash": "538a5f007098067978dd2743530d6d4269f9e8bc",
+    "rebuild_bin_hash": "538a5f007098067978dd2743530d6d4269f9e8bc",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple",
+        "meson"
+    ]
+}

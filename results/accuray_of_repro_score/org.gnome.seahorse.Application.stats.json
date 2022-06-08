@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.seahorse.Application",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "508c60d530941ffb098b1c08159b826fcde31f4741e44908a0ea917d8c601146",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-24 06:30:00+00:00",
+    "timestamp_of_rebuild": 1653373800.0,
+    "git-commit": "e5995494740af0ffc14f3284ec4555720b4d14ef master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "bd5cf2646c70337561c1a2bf214e3ca797fd2ea96d981baf8fd537cb931eeebb",
+        "org.gnome.Platform/x86_64/42": "d240597586ac4c87e7e8dd634b67a3c910704b77d1ef5927147e55fe57cf569a"
+    },
+    "build_time": 128.75529670715332,
+    "cache_size": 11646418,
+    "git_size": 0,
+    "dl_size": 11629955,
+    "bad_files": 12,
+    "total_files": 802,
+    "repro_score": 0.9850374064837906,
+    "original_hash": "a4e918def82feb7426560a0bba5d48da5f2494df",
+    "rebuild_hash": "93e792cef608d33e7b74a7a6dfd442cac71f0c25",
+    "original_bin_hash": "894fc1bc7ffb4bcd8a08aadb95a97eae6a4b887a",
+    "rebuild_bin_hash": "7ae27982f9c0723311d533d6b88d2d21e4ebb8a9",
+    "original_elf_hash": "5950b6d0d5fc6dc261534e80ca00eb0c071cf819",
+    "rebuild_elf_hash": "db19c50874de696a0cfe5389a830e833c25cb594",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,26 @@
+{
+    "name": "com.github.avojak.warble",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 139.4934525489807,
+    "cache_size": 8903194,
+    "git_size": 8871769,
+    "dl_size": 10866,
+    "original_hash": "24999d9a1f3bdba2445bc90531208c0ccc39c243",
+    "rebuild_hash": "24999d9a1f3bdba2445bc90531208c0ccc39c243",
+    "original_bin_hash": "e0bcef6336eca3293a665854b5c375a817780416",
+    "rebuild_bin_hash": "e0bcef6336eca3293a665854b5c375a817780416",
+    "original_lib_hash": "339d2994d5ff59b7707333c3479196cf62a02c98",
+    "rebuild_lib_hash": "339d2994d5ff59b7707333c3479196cf62a02c98",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "com.calibre_ebook.calibre",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 66.86349391937256,
+    "cache_size": 116556599,
+    "git_size": 0,
+    "dl_size": 116540136,
+    "original_hash": "620d7ac8df3808fec233df4ca06eca88502104e0",
+    "rebuild_hash": "37cc65673c171020304156fa066ea3e6b994bcfd",
+    "original_bin_hash": "64dc3e38b7b9db725a4efbf69f04c1ff8fef8dcc",
+    "rebuild_bin_hash": "64dc3e38b7b9db725a4efbf69f04c1ff8fef8dcc",
+    "original_lib_hash": "7ab8944846e2c60829f5cd756f30c25408cd5831",
+    "rebuild_lib_hash": "962f8e27edd1e88811d0a9118bb63aef502b6e98",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "com.interversehq.qView",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 57.86937594413757,
+    "cache_size": 458325,
+    "git_size": 0,
+    "dl_size": 441862,
+    "original_hash": "97224195e83853dd4a8a8b5c9e3f6685babcd272",
+    "rebuild_hash": "cef80d74c92582433d67f8b295f752fe935b9fab",
+    "original_bin_hash": "95bf801e151827c1b7209d27bf597a12c0eca4e0",
+    "rebuild_bin_hash": "e85ec073848ff8e311e1801f647f89046a810ace",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "qmake"
+    ]
+}

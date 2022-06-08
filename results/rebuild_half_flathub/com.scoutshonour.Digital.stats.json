@@ -1,0 +1,23 @@
+{
+    "name": "com.scoutshonour.Digital",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 9.819643259048462,
+    "cache_size": 37001813,
+    "git_size": 0,
+    "dl_size": 36985350,
+    "original_hash": "64c1d15ec9754c06360447b418725cfe6dc671e8",
+    "rebuild_hash": "6194242a1cba0320e8892dab52cf49af71b9f4a4",
+    "original_bin_hash": "d94c252797f8eec5413f323ade63a17ca1b52e7c",
+    "rebuild_bin_hash": "d94c252797f8eec5413f323ade63a17ca1b52e7c",
+    "original_lib_hash": "ec72ef90093cf444e34dd485b929a33a2361f5d8",
+    "rebuild_lib_hash": "ec72ef90093cf444e34dd485b929a33a2361f5d8",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

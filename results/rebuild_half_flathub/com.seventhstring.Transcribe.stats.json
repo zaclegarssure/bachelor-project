@@ -1,0 +1,25 @@
+{
+    "name": "com.seventhstring.Transcribe",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 21.78054714202881,
+    "cache_size": 5113165,
+    "git_size": 0,
+    "dl_size": 5096702,
+    "original_hash": "d223e141ae256898528f5e4864a663491b455ef8",
+    "rebuild_hash": "d223e141ae256898528f5e4864a663491b455ef8",
+    "original_bin_hash": "9a53dbff8a30d7f8206cb68779037490b20ccb43",
+    "rebuild_bin_hash": "9a53dbff8a30d7f8206cb68779037490b20ccb43",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

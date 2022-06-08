@@ -1,0 +1,23 @@
+{
+    "name": "com.endlessnetwork.fablemaker",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 83.90625977516174,
+    "cache_size": 267267504,
+    "git_size": 15436205,
+    "dl_size": 251810740,
+    "original_hash": "ed2157b53496ee6be8b02db7788ed796eaa933c9",
+    "rebuild_hash": "ed2157b53496ee6be8b02db7788ed796eaa933c9",
+    "original_bin_hash": "492694b6a0f21dcb0572141ec810575702ed09b9",
+    "rebuild_bin_hash": "492694b6a0f21dcb0572141ec810575702ed09b9",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

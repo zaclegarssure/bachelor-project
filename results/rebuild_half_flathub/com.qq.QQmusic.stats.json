@@ -1,0 +1,23 @@
+{
+    "name": "com.qq.QQmusic",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 2.7959747314453125,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "5100338a3b8683a15083aee36836078c83796fa4",
+    "rebuild_hash": "5100338a3b8683a15083aee36836078c83796fa4",
+    "original_bin_hash": "965823ded18970acf57141ce86b3f6e1e0f47029",
+    "rebuild_bin_hash": "965823ded18970acf57141ce86b3f6e1e0f47029",
+    "original_lib_hash": "b3a87d9676cf546795dfa2a4b08baadd05cd87f8",
+    "rebuild_lib_hash": "b3a87d9676cf546795dfa2a4b08baadd05cd87f8",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

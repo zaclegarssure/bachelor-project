@@ -1,0 +1,25 @@
+{
+    "name": "ar.com.pilas_engine.App",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 27.188355922698975,
+    "cache_size": 142150706,
+    "git_size": 0,
+    "dl_size": 142134243,
+    "original_hash": "36b0bf3c0e0c8541d1f1c9d3810a2d3ac0ad45b5",
+    "rebuild_hash": "2c35aeb0429cedf8a069ee3c3c86d3d6894b3242",
+    "original_bin_hash": "8dcc1edbae51b6fa22f1c5f3bfc69f475c24e25e",
+    "rebuild_bin_hash": "8dcc1edbae51b6fa22f1c5f3bfc69f475c24e25e",
+    "original_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "rebuild_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

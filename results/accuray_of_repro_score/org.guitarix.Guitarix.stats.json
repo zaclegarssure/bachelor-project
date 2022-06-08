@@ -1,0 +1,31 @@
+{
+    "name": "org.guitarix.Guitarix",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "9138dd65c8bee95da307d0d36bbd009eab912e2a26e4abb97f8c35c1f6eeb62e",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-03 03:53:27+00:00",
+    "timestamp_of_rebuild": 1651550007.0,
+    "git-commit": "7ad3d1754a1e0eaf4189cae37d62a4c354ec5d11 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 712.0920462608337,
+    "cache_size": 223420525,
+    "git_size": 0,
+    "dl_size": 223404062,
+    "bad_files": 0,
+    "total_files": 343,
+    "repro_score": 1.0,
+    "original_hash": "72ec70029756132e0a3aaf51c249a04a4612e7b7",
+    "rebuild_hash": "72ec70029756132e0a3aaf51c249a04a4612e7b7",
+    "original_bin_hash": "939acef88896e41301fe20db37635caec2fa2c1b",
+    "rebuild_bin_hash": "939acef88896e41301fe20db37635caec2fa2c1b",
+    "original_elf_hash": "c33c64ce6255e5309976416f6108b651b1ff99d1",
+    "rebuild_elf_hash": "c33c64ce6255e5309976416f6108b651b1ff99d1",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

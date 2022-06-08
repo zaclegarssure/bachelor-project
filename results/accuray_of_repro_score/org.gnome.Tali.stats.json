@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.Tali",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "8a4956d4d8803974a74502cf2b9d709e09e0122d30439e5561dc7cb12cc60b97",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-23 22:35:42+00:00",
+    "timestamp_of_rebuild": 1650753342.0,
+    "git-commit": "af9c929d552ab94b0b51267d2210f6a50ca3716a master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 13.967609882354736,
+    "cache_size": 1754951,
+    "git_size": 0,
+    "dl_size": 1738488,
+    "bad_files": 0,
+    "total_files": 115,
+    "repro_score": 1.0,
+    "original_hash": "ba6513dff21962aae78b75dc4613718410c06b53",
+    "rebuild_hash": "ba6513dff21962aae78b75dc4613718410c06b53",
+    "original_bin_hash": "ad4f2553c786b38d1fa9df48f78e0c88084dd8f9",
+    "rebuild_bin_hash": "ad4f2553c786b38d1fa9df48f78e0c88084dd8f9",
+    "original_elf_hash": "051a8a89a6a56ed6706b17542a8b60b017d6e277",
+    "rebuild_elf_hash": "051a8a89a6a56ed6706b17542a8b60b017d6e277",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

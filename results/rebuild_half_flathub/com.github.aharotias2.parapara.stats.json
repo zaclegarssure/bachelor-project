@@ -1,0 +1,24 @@
+{
+    "name": "com.github.aharotias2.parapara",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 20.967607975006104,
+    "cache_size": 2503611,
+    "git_size": 0,
+    "dl_size": 2487148,
+    "original_hash": "843f1da5cf441e2cd3ab57a4774c357753d6d1a2",
+    "rebuild_hash": "843f1da5cf441e2cd3ab57a4774c357753d6d1a2",
+    "original_bin_hash": "a12826d25b04c7fe3ab336d7688ab4a7029a92ec",
+    "rebuild_bin_hash": "a12826d25b04c7fe3ab336d7688ab4a7029a92ec",
+    "original_lib_hash": "b6413b875bb4e1d0d8f66ab4d706a80c6a9e9ada",
+    "rebuild_lib_hash": "b6413b875bb4e1d0d8f66ab4d706a80c6a9e9ada",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

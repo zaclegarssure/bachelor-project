@@ -1,0 +1,24 @@
+{
+    "name": "com.github.tchx84.Flatseal",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 25.542120933532715,
+    "cache_size": 3256287,
+    "git_size": 650945,
+    "dl_size": 2584783,
+    "original_hash": "80c339066b47abcf22ed3d0e42d2f5282ce3bee4",
+    "rebuild_hash": "7a47671d76aa13ae407c8f732c47282fe82aaa39",
+    "original_bin_hash": "47a6cba720788db3ab265d73f5297aa1d4eb574c",
+    "rebuild_bin_hash": "47a6cba720788db3ab265d73f5297aa1d4eb574c",
+    "original_lib_hash": "9378811a8f413aac4fecf347fe54d95eb86e58fc",
+    "rebuild_lib_hash": "9378811a8f413aac4fecf347fe54d95eb86e58fc",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

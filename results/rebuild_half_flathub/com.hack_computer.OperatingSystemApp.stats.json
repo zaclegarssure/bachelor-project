@@ -1,0 +1,24 @@
+{
+    "name": "com.hack_computer.OperatingSystemApp",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 8.89103651046753,
+    "cache_size": 39015635,
+    "git_size": 38999172,
+    "dl_size": 0,
+    "original_hash": "a8503e1945ca7d3214063febfb4c8a6eaaf4eb4f",
+    "rebuild_hash": "e2f176fdd55faae2bead88d244271ba1ab86fa27",
+    "original_bin_hash": "4fd90530662c3c5cd7f7253d94b2652c3b37687a",
+    "rebuild_bin_hash": "4fd90530662c3c5cd7f7253d94b2652c3b37687a",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple",
+        "meson"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "com.github.raibtoffoletto.litteris",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 25.117103338241577,
+    "cache_size": 200209,
+    "git_size": 183746,
+    "dl_size": 0,
+    "original_hash": "8e9d35470bc2ae908f9886c34568f120c084e728",
+    "rebuild_hash": "e0e8f006d8833530c98456aff0a316651a4fe009",
+    "original_bin_hash": "6db852d9cb233bb46bf9f33c6e55f720ad6983af",
+    "rebuild_bin_hash": "6db852d9cb233bb46bf9f33c6e55f720ad6983af",
+    "original_lib_hash": "ada58591afb906373abd18dd6e1907b0f508a1c9",
+    "rebuild_lib_hash": "ada58591afb906373abd18dd6e1907b0f508a1c9",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

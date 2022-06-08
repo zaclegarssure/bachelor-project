@@ -1,0 +1,20 @@
+{
+    "name": "com.scoutshonour.dtipbijays",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 437.420494556427,
+    "cache_size": 108333584,
+    "git_size": 0,
+    "dl_size": 108317121,
+    "original_hash": "04b32e2c8428b3e5e9d66d2916af0887fc53a0f8",
+    "rebuild_hash": "2883a5b4489c8551449b65469e99d3661856774f",
+    "original_bin_hash": "e6c0b2d0c070d55ca4ec21b1e54bbee09a552ef1",
+    "rebuild_bin_hash": "e6c0b2d0c070d55ca4ec21b1e54bbee09a552ef1",
+    "original_lib_hash": "96e67f2440c4335b56d8d0702b7749d529159fa2",
+    "rebuild_lib_hash": "32838963d0c1e348783bf282e7f07efd022400da",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

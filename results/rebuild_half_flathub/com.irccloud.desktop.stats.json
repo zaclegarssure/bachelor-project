@@ -1,0 +1,25 @@
+{
+    "name": "com.irccloud.desktop",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 127.06923174858093,
+    "cache_size": 145084613,
+    "git_size": 3530937,
+    "dl_size": 141422525,
+    "original_hash": "3f7b7ec292621484a84a324ed1b47ad97eabd0fd",
+    "rebuild_hash": "fb4ffef9d2c5660f5065d0a221c185b7cced21ee",
+    "original_bin_hash": "cc863bae7db1700b8944e35b9a3bdfca4b512af7",
+    "rebuild_bin_hash": "cc863bae7db1700b8944e35b9a3bdfca4b512af7",
+    "original_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "rebuild_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple",
+        "cmake-ninja",
+        "simple"
+    ]
+}

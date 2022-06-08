@@ -1,0 +1,23 @@
+{
+    "name": "com.github.maoschanz.drawing",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 7.397994756698608,
+    "cache_size": 13827514,
+    "git_size": 13811051,
+    "dl_size": 0,
+    "original_hash": "18dc7cd68c305c51b3e08478d10c7c60671dfa30",
+    "rebuild_hash": "18dc7cd68c305c51b3e08478d10c7c60671dfa30",
+    "original_bin_hash": "f32715ecea39db28843b350ee80f051b015dd253",
+    "rebuild_bin_hash": "f32715ecea39db28843b350ee80f051b015dd253",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "chat.schildi.desktop",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 157.62475204467773,
+    "cache_size": 138459828,
+    "git_size": 7984762,
+    "dl_size": 130454507,
+    "original_hash": "809b3539f7bd9a5bfdef54123f77ea595a59c7d0",
+    "rebuild_hash": "809b3539f7bd9a5bfdef54123f77ea595a59c7d0",
+    "original_bin_hash": "8c6e2907db36a829f57033af3c046cffc94422d0",
+    "rebuild_bin_hash": "8c6e2907db36a829f57033af3c046cffc94422d0",
+    "original_lib_hash": "64c58c99867dbd4058f890c5107495bb8c3dd036",
+    "rebuild_lib_hash": "64c58c99867dbd4058f890c5107495bb8c3dd036",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

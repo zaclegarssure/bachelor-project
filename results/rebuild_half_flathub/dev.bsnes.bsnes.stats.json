@@ -1,0 +1,23 @@
+{
+    "name": "dev.bsnes.bsnes",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 96.2430260181427,
+    "cache_size": 6599795,
+    "git_size": 6583332,
+    "dl_size": 0,
+    "original_hash": "fc057b0a02f49dd819818b27bbce45b84a568a1d",
+    "rebuild_hash": "fc057b0a02f49dd819818b27bbce45b84a568a1d",
+    "original_bin_hash": "bb486a1595224d6f1394b69152c518136fd3145f",
+    "rebuild_bin_hash": "bb486a1595224d6f1394b69152c518136fd3145f",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

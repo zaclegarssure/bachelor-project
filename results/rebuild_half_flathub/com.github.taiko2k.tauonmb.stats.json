@@ -1,0 +1,20 @@
+{
+    "name": "com.github.taiko2k.tauonmb",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 1395.7390756607056,
+    "cache_size": 139621440,
+    "git_size": 910329,
+    "dl_size": 138690552,
+    "original_hash": "f9a0140b4c9dda71ea7384c6525bd720d3660772",
+    "rebuild_hash": "d9d67ec9cd0303a3a60134d26e56bd410d426961",
+    "original_bin_hash": "aca3118744331c69e26e045a169b7705a27a4eb1",
+    "rebuild_bin_hash": "aca3118744331c69e26e045a169b7705a27a4eb1",
+    "original_lib_hash": "4ed635ab8584277f6d5c86defc1481324ec0f149",
+    "rebuild_lib_hash": "ec905b886adfd725208d2a2d3fe403bfe5e3c67f",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "laptop-arch"
+}

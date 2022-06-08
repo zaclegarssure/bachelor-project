@@ -1,0 +1,31 @@
+{
+    "name": "org.freedesktop.fwupd",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "12e683fd0d0da3da87f32201ef7f5411316b75170113591b0341d03159044fe6",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-27 14:42:21+00:00",
+    "timestamp_of_rebuild": 1653662541.0,
+    "git-commit": "e541d5177219e297c0f0e1ebb397c169797a39b5 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "c3ea4e88f8f9d05efb8b085abb2d1f56d8bab435dade310f31edef002612736d",
+        "org.gnome.Platform/x86_64/42": "ad9ceb4f734c754fe1db5ee926eb1482062ef35f0f588cd74f486eceb3f1028a"
+    },
+    "build_time": 288.59186005592346,
+    "cache_size": 12834126,
+    "git_size": 0,
+    "dl_size": 12817663,
+    "bad_files": 39,
+    "total_files": 656,
+    "repro_score": 0.9405487804878049,
+    "original_hash": "e69e75be85dc1891b98f59de38f3a820b9873c33",
+    "rebuild_hash": "e5494d9ea8d609069c59c59885e0a656f38b8e2c",
+    "original_bin_hash": "b634e18fabf6ffd4793e4365222b22bbc1bae85a",
+    "rebuild_bin_hash": "3c8afa1607278579f859f8bc90b96c39fc2dcfc6",
+    "original_elf_hash": "f68454db6984cb0e5d65c16a18e7a94a020b936c",
+    "rebuild_elf_hash": "f116fff2467eb8c94208c3f92b7e991b8fc7b60f",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

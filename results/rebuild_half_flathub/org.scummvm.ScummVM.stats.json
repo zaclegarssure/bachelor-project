@@ -1,0 +1,20 @@
+{
+    "name": "org.scummvm.ScummVM",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 1252.5884795188904,
+    "cache_size": 285414135,
+    "git_size": 0,
+    "dl_size": 285412804,
+    "original_hash": "043ec36e99d8a7b5ea9e5d33ad2ea1ea07342485",
+    "rebuild_hash": "9790f41d20427a592c0e53840838b855d609687e",
+    "original_bin_hash": "7d4295d293b8ac82dce9b3a0d19dbda57807ddfd",
+    "rebuild_bin_hash": "be88dea0d263b02b24ab1f4732ddf296ba44be52",
+    "original_lib_hash": "66182adee5800130de03f16820e9356b25461edc",
+    "rebuild_lib_hash": "66182adee5800130de03f16820e9356b25461edc",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora"
+}

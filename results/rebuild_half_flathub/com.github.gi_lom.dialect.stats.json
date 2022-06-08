@@ -1,0 +1,24 @@
+{
+    "name": "com.github.gi_lom.dialect",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 25.47789430618286,
+    "cache_size": 5956078,
+    "git_size": 377265,
+    "dl_size": 5558254,
+    "original_hash": "95ebb34e80d76617e6d59e1bc47a99058a7eea96",
+    "rebuild_hash": "09222923e12d09b843f53ea9e45c9d39eb97ddc9",
+    "original_bin_hash": "b9e7cc4dff8edf49eeb438af19c16b7e8d6f9744",
+    "rebuild_bin_hash": "b9e7cc4dff8edf49eeb438af19c16b7e8d6f9744",
+    "original_lib_hash": "8402e469ba149bd785134f87f22f3209d0f8984b",
+    "rebuild_lib_hash": "baccd426ba4d4017f7e44f3cbd60b8db692a4c56",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "meson"
+    ]
+}

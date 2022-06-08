@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.Hitori",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "b0fbaf49c5d7863b024f2c28947d1437aabd96d912497d87a9ac98a5700a0576",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-16 14:05:46+00:00",
+    "timestamp_of_rebuild": 1650117946.0,
+    "git-commit": "90157d343c43e9c2e962b3b761adc6e28288979b master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 9.10153079032898,
+    "cache_size": 225659,
+    "git_size": 0,
+    "dl_size": 209196,
+    "bad_files": 0,
+    "total_files": 139,
+    "repro_score": 1.0,
+    "original_hash": "e385842bad58d7c8d1bbaec265be569ec92f1258",
+    "rebuild_hash": "e385842bad58d7c8d1bbaec265be569ec92f1258",
+    "original_bin_hash": "c22dab264c986ce00cb9e79ad87432c95a66639e",
+    "rebuild_bin_hash": "c22dab264c986ce00cb9e79ad87432c95a66639e",
+    "original_elf_hash": "11ec599617e7d8899c7a66082831141d38dfa77e",
+    "rebuild_elf_hash": "11ec599617e7d8899c7a66082831141d38dfa77e",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

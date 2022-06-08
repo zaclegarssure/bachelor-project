@@ -1,0 +1,23 @@
+{
+    "name": "com.powerball253.eternalmodmanager",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 29.045674085617065,
+    "cache_size": 150108996,
+    "git_size": 2707465,
+    "dl_size": 147364588,
+    "original_hash": "171956fdde13467070239deea788daccc1c13fde",
+    "rebuild_hash": "171956fdde13467070239deea788daccc1c13fde",
+    "original_bin_hash": "9cf1f0a7ec277c81698f2fd35998b03dfb442e50",
+    "rebuild_bin_hash": "9cf1f0a7ec277c81698f2fd35998b03dfb442e50",
+    "original_lib_hash": "5011dfc9478e5357dc81d33f1cf6c2c9c847ac18",
+    "rebuild_lib_hash": "5011dfc9478e5357dc81d33f1cf6c2c9c847ac18",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

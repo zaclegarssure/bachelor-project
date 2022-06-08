@@ -1,0 +1,30 @@
+{
+    "name": "org.pyzo.pyzo",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 400.65356397628784,
+    "cache_size": 7318289,
+    "git_size": 0,
+    "dl_size": 7317226,
+    "original_hash": "d7d5fd1a92b28bbe3cbe40e188daa9b747e722ac",
+    "rebuild_hash": "3731b7ecdccb3b74d4f5106daf1eb2b365963f74",
+    "original_bin_hash": "e8e16fc6cab6ca10f71a3323fc047e7cde9c6e8c",
+    "rebuild_bin_hash": "e8e16fc6cab6ca10f71a3323fc047e7cde9c6e8c",
+    "original_lib_hash": "3f55936ea489b7950689d29d329eaba87eefa70d",
+    "rebuild_lib_hash": "692bd835d9337fc7fee80bacb3c88b7d586c540d",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "diffoscope_failed": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

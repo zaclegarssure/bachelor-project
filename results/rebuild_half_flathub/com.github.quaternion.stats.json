@@ -1,0 +1,26 @@
+{
+    "name": "com.github.quaternion",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 117.11004042625427,
+    "cache_size": 3165089,
+    "git_size": 3148626,
+    "dl_size": 0,
+    "original_hash": "0ef637bf4bf2b8e9abcf0a8c5980fac1c7c6782a",
+    "rebuild_hash": "00fc52d8f35fa9e68245b66982624d8d9596dc36",
+    "original_bin_hash": "751fe82b6740b81c2ec6b11a3512ffc4d6528337",
+    "rebuild_bin_hash": "1980e1f149c851d44cb81388a10af313efaa50a2",
+    "original_lib_hash": "524291656856f9e268ee5e3f0bd304406c62bbcc",
+    "rebuild_lib_hash": "524291656856f9e268ee5e3f0bd304406c62bbcc",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "meson",
+        "cmake-ninja",
+        "cmake-ninja"
+    ]
+}

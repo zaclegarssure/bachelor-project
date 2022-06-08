@@ -1,0 +1,30 @@
+{
+    "name": "com.chez.GrafX2",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "9bf3900a9564d4907eaa6485a55c8079b1b362b97a061f186b3a4c28e3743f6c",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-03 04:22:05+00:00",
+    "timestamp_of_rebuild": 1651551725.0,
+    "git-commit": "c691ca85923ee774d29e121f3283d0c4b3fb65ee master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1"
+    },
+    "build_time": 26.288269996643066,
+    "cache_size": 49254330,
+    "git_size": 38945126,
+    "dl_size": 10288645,
+    "bad_files": 0,
+    "total_files": 111,
+    "repro_score": 1.0,
+    "original_hash": "45ac0406335663aba9059cbc38886438273b2b50",
+    "rebuild_hash": "45ac0406335663aba9059cbc38886438273b2b50",
+    "original_bin_hash": "c549d50e1416c1eeb5ac490253fb99fc3dafc9ce",
+    "rebuild_bin_hash": "c549d50e1416c1eeb5ac490253fb99fc3dafc9ce",
+    "original_elf_hash": "1de765eb9838961f42ab5beecbde2a4922f69c77",
+    "rebuild_elf_hash": "1de765eb9838961f42ab5beecbde2a4922f69c77",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

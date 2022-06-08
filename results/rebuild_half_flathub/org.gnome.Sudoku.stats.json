@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.Sudoku",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 17.454771995544434,
+    "cache_size": 734975,
+    "git_size": 0,
+    "dl_size": 718512,
+    "original_hash": "ce9cb0999186c4841985d98f80a43d57ebc76b97",
+    "rebuild_hash": "ce9cb0999186c4841985d98f80a43d57ebc76b97",
+    "original_bin_hash": "2c4944c45de17f97e5e5f86f2413fbce0ba6ec0c",
+    "rebuild_bin_hash": "2c4944c45de17f97e5e5f86f2413fbce0ba6ec0c",
+    "original_lib_hash": "47d759217b5540e9114ff342b42cb5673378276a",
+    "rebuild_lib_hash": "47d759217b5540e9114ff342b42cb5673378276a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "com.atlauncher.ATLauncher",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 41.92916131019592,
+    "cache_size": 17761331,
+    "git_size": 0,
+    "dl_size": 17744868,
+    "original_hash": "8d14e19810ff24c67004d4fde56acb83ddaf874f",
+    "rebuild_hash": "8d14e19810ff24c67004d4fde56acb83ddaf874f",
+    "original_bin_hash": "a2e3b67765b80f583f88be48e0263b4552888682",
+    "rebuild_bin_hash": "a2e3b67765b80f583f88be48e0263b4552888682",
+    "original_lib_hash": "b9595ecb4f452884f9d4810b3cd0f6f4696563fa",
+    "rebuild_lib_hash": "b9595ecb4f452884f9d4810b3cd0f6f4696563fa",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "meson",
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

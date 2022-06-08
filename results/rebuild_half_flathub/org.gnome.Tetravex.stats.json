@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.Tetravex",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 11.618520736694336,
+    "cache_size": 1025191,
+    "git_size": 0,
+    "dl_size": 1008728,
+    "original_hash": "2b66e2113bb62bd220df6420ed5612f3983b854c",
+    "rebuild_hash": "2b66e2113bb62bd220df6420ed5612f3983b854c",
+    "original_bin_hash": "3d4d4ec45614c7879e7e43a52e301ddafc1f29ab",
+    "rebuild_bin_hash": "3d4d4ec45614c7879e7e43a52e301ddafc1f29ab",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "org.kde.kdevelop",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "b92286441d06e33e410c190f8a5cedaa7ebed00408fe2aaf8b43921e4c10e907",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-12 21:11:42+00:00",
+    "timestamp_of_rebuild": 1652389902.0,
+    "git-commit": "dc7482377f4f398591ba7d4b54284771b5373628 master",
+    "flatpak-deps": {
+        "io.qt.qtwebengine.BaseApp/x86_64/5.15-21.08": "4e9b6655ba5bf04c7370659d18033aa04df722f50976f651d6456f551b5f9876",
+        "org.freedesktop.Sdk.Extension.llvm12/x86_64/21.08": "272e805907660c4fb3c1d668982278e5a8445802d1bef01415bd21caf905c70c",
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32"
+    },
+    "build_time": 1581.8873944282532,
+    "cache_size": 142118885,
+    "git_size": 0,
+    "dl_size": 142102422,
+    "bad_files": 102,
+    "total_files": 20754,
+    "repro_score": 0.9950852847643827,
+    "original_hash": "748181a8b6b16ae5fafa1d693dfdc432a1e0acd8",
+    "rebuild_hash": "97f6d4c5a051b719d1441e9477b0797304bd0701",
+    "original_bin_hash": "a936896089100bf3bd2cc3d5c7db72b7d3f3136b",
+    "rebuild_bin_hash": "2c8dae595d4fe10e5436ac1e871303e5949167f6",
+    "original_elf_hash": "019f71be672476bd3e9141e1ecd1e6c8401d79f9",
+    "rebuild_elf_hash": "cd978916567b9631ea2002ad8ebad20ebe68d6cd",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

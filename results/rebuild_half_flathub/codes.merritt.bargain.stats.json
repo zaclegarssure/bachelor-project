@@ -1,0 +1,23 @@
+{
+    "name": "codes.merritt.bargain",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 4.471498966217041,
+    "cache_size": 14354627,
+    "git_size": 4460389,
+    "dl_size": 9873679,
+    "original_hash": "ee1b3c72238c2edf5bb715cd878158bba5d8669a",
+    "rebuild_hash": "ee1b3c72238c2edf5bb715cd878158bba5d8669a",
+    "original_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "rebuild_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

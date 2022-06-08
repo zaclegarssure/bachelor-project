@@ -1,0 +1,25 @@
+{
+    "name": "com.github.cfcurtis.pdfstitcher",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 1168.6196224689484,
+    "cache_size": 149284848,
+    "git_size": 0,
+    "dl_size": 149268385,
+    "original_hash": "0bd6aff9f63fa218fe0cad39e36ed2a92dbcb524",
+    "rebuild_hash": "9155ed7aaef1ff2048d5a840f016842a223a919b",
+    "original_bin_hash": "053e6a0f4bdf741d5151e6ab28a92077399cf82e",
+    "rebuild_bin_hash": "053e6a0f4bdf741d5151e6ab28a92077399cf82e",
+    "original_lib_hash": "309944e100a373cea33a68270b1723d75099c51f",
+    "rebuild_lib_hash": "f5c8da452fb8c1ec629c7667a0bd35462a950ac2",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

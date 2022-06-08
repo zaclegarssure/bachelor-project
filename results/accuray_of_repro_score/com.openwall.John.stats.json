@@ -1,0 +1,31 @@
+{
+    "name": "com.openwall.John",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "f1fb7e105051ed694291284e99c8bdc74d97a7f30b6aaa311a9de5539bb0d20d",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-17 02:44:49+00:00",
+    "timestamp_of_rebuild": 1652755489.0,
+    "git-commit": "8908e4d472c8dcfcced5c1e4555ef582da5e8776 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 544.2268397808075,
+    "cache_size": 49565540,
+    "git_size": 0,
+    "dl_size": 49549077,
+    "bad_files": 0,
+    "total_files": 381,
+    "repro_score": 1.0,
+    "original_hash": "3d79447e3c822f2263814f276e744077ba88c830",
+    "rebuild_hash": "3d79447e3c822f2263814f276e744077ba88c830",
+    "original_bin_hash": "ee562001e9a3ccb8264741c2c797dfa97e2b3cd0",
+    "rebuild_bin_hash": "ee562001e9a3ccb8264741c2c797dfa97e2b3cd0",
+    "original_elf_hash": "a22b9dc8cf529f3208a90478ee03f569c77a263c",
+    "rebuild_elf_hash": "a22b9dc8cf529f3208a90478ee03f569c77a263c",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

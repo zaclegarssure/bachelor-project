@@ -1,0 +1,29 @@
+{
+    "name": "org.gnome.DejaDup",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 69.26693511009216,
+    "cache_size": 86960988,
+    "git_size": 52656756,
+    "dl_size": 34283673,
+    "original_hash": "369475588549f7d605c18195d6fca6e69d369400",
+    "rebuild_hash": "db9740de6937c7e5ea7f8472d5a98bc9429e84e8",
+    "original_bin_hash": "79764daf74ef517c0d2b2a64643200fc641af84d",
+    "rebuild_bin_hash": "79764daf74ef517c0d2b2a64643200fc641af84d",
+    "original_lib_hash": "526710dfbd0a40ec8526a1b94a31636bf83ca791",
+    "rebuild_lib_hash": "5e1f9d7a4a95d8a34559fa85bc4afb13ea72dd41",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

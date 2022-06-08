@@ -1,0 +1,23 @@
+{
+    "name": "com.claudiocambra.brickbuster",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 8.444401979446411,
+    "cache_size": 37478895,
+    "git_size": 0,
+    "dl_size": 37462432,
+    "original_hash": "57ca519a67c648b2dbc931c77c40d7259ba8d570",
+    "rebuild_hash": "57ca519a67c648b2dbc931c77c40d7259ba8d570",
+    "original_bin_hash": "19c044ec04c475ca4e08186758ddbae35477f1a9",
+    "rebuild_bin_hash": "19c044ec04c475ca4e08186758ddbae35477f1a9",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "com.google.ChromeDev",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 19.567026138305664,
+    "cache_size": 9946615,
+    "git_size": 9804196,
+    "dl_size": 121860,
+    "original_hash": "0bc3eae6ffcb69a9a3aa953b1b2bf41d21103943",
+    "rebuild_hash": "0bc3eae6ffcb69a9a3aa953b1b2bf41d21103943",
+    "original_bin_hash": "65f39f7e618661fe15b1d4fbccede1980127e241",
+    "rebuild_bin_hash": "65f39f7e618661fe15b1d4fbccede1980127e241",
+    "original_lib_hash": "ba33a525b5dbdb7d00dd8e00a266adec592036cc",
+    "rebuild_lib_hash": "ba33a525b5dbdb7d00dd8e00a266adec592036cc",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "simple"
+    ]
+}

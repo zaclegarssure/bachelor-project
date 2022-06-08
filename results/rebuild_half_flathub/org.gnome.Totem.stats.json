@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Totem",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 705.2631280422211,
+    "cache_size": 132183638,
+    "git_size": 128809983,
+    "dl_size": 3353096,
+    "original_hash": "e9330c2cba8da48aa93be99d7e87454d93b506a0",
+    "rebuild_hash": "2b422232b7f607343a8fbccb2831cfd9cf10a0d3",
+    "original_bin_hash": "114c75d325607b6fd1d5c0b81c676456337eef54",
+    "rebuild_bin_hash": "114c75d325607b6fd1d5c0b81c676456337eef54",
+    "original_lib_hash": "ec3d1c45d07a988f0e870d33967b6735f387f1ce",
+    "rebuild_lib_hash": "ec3d1c45d07a988f0e870d33967b6735f387f1ce",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

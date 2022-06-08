@@ -1,0 +1,31 @@
+{
+    "name": "org.filezillaproject.Filezilla",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "29351c527b5211681996620b2d4356b96455a3fa8439f1c0f21965d7545e0554",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-27 20:26:39+00:00",
+    "timestamp_of_rebuild": 1653683199.0,
+    "git-commit": "664d708c0002e3cf985b89d3f7be4ea1dd2a5ae9 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 407.4347937107086,
+    "cache_size": 25771328,
+    "git_size": 0,
+    "dl_size": 25754865,
+    "bad_files": 3,
+    "total_files": 735,
+    "repro_score": 0.9959183673469387,
+    "original_hash": "143277319ca9ac1cb7dea7f57a44c14461a45721",
+    "rebuild_hash": "a9e15e9582cad314da4bce89e9b3554b649b94d0",
+    "original_bin_hash": "bfcca35ed97631c61f39e234c2a8e9b7a6ad85a6",
+    "rebuild_bin_hash": "d1eadb17a8f19aaa94d941fb342c978dcdc75f0e",
+    "original_elf_hash": "a44114a5151513c21d16b53a91f6cacd736a040a",
+    "rebuild_elf_hash": "5a759dd2df59f78ea17cb20c286775ea6555b52f",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

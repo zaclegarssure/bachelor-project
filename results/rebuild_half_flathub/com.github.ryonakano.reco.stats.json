@@ -1,0 +1,25 @@
+{
+    "name": "com.github.ryonakano.reco",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 46.77908968925476,
+    "cache_size": 1187269,
+    "git_size": 877198,
+    "dl_size": 289512,
+    "original_hash": "9333d65fa50b5f44af7dcdc697eabec02a79aa0c",
+    "rebuild_hash": "9333d65fa50b5f44af7dcdc697eabec02a79aa0c",
+    "original_bin_hash": "a0e2b478f1290bb072301f34c5815159855281b1",
+    "rebuild_bin_hash": "a0e2b478f1290bb072301f34c5815159855281b1",
+    "original_lib_hash": "1bef9ad400774491ad010b2e4d428f5bef1acac4",
+    "rebuild_lib_hash": "1bef9ad400774491ad010b2e4d428f5bef1acac4",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

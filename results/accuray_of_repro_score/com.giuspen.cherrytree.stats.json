@@ -1,0 +1,31 @@
+{
+    "name": "com.giuspen.cherrytree",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "8243a98382f8ded4e05a85f5ab6a5eb4eb6bce4967346290245dbd0a3578a1ef",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-19 22:35:32+00:00",
+    "timestamp_of_rebuild": 1650407732.0,
+    "git-commit": "3dd7152bb36f9ad40605cd0de31afb2631e27bff master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 592.4313549995422,
+    "cache_size": 91384640,
+    "git_size": 0,
+    "dl_size": 91368177,
+    "bad_files": 0,
+    "total_files": 6713,
+    "repro_score": 1.0,
+    "original_hash": "593254bffff769485337581f184193a773faea3f",
+    "rebuild_hash": "593254bffff769485337581f184193a773faea3f",
+    "original_bin_hash": "1f1d899d0c2852e95b439225b2467ffe6dbd10f1",
+    "rebuild_bin_hash": "1f1d899d0c2852e95b439225b2467ffe6dbd10f1",
+    "original_elf_hash": "a48124d062558436b6156f4f4acedf8129c15f30",
+    "rebuild_elf_hash": "a48124d062558436b6156f4f4acedf8129c15f30",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

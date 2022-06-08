@@ -1,0 +1,29 @@
+{
+    "name": "cc.retroshare.retroshare-gui",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 552.6887633800507,
+    "cache_size": 151483011,
+    "git_size": 113569367,
+    "dl_size": 37893085,
+    "original_hash": "105b649edffd8319d61124e788853a37540ede08",
+    "rebuild_hash": "f7257be0e74060a6482ee5c485e769d9a94a163d",
+    "original_bin_hash": "fc2d1b5ea265c3df62f74a0cec92237c0341780d",
+    "rebuild_bin_hash": "03bd682c753734d0812be78b0d81a4d69c0d4e0c",
+    "original_lib_hash": "a374829131a98581a023985db94431832da98f9a",
+    "rebuild_lib_hash": "a374829131a98581a023985db94431832da98f9a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "autotools",
+        "autotools",
+        "cmake-ninja",
+        "autotools",
+        "autotools",
+        "cmake-ninja",
+        "qmake"
+    ]
+}

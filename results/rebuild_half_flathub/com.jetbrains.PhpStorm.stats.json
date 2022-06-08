@@ -1,0 +1,20 @@
+{
+    "name": "com.jetbrains.PhpStorm",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 20.01692247390747,
+    "cache_size": 1324123,
+    "git_size": 0,
+    "dl_size": 1307660,
+    "original_hash": "1290e3af7aa16d8bd241e379b7bcd1378a0c8f94",
+    "rebuild_hash": "1290e3af7aa16d8bd241e379b7bcd1378a0c8f94",
+    "original_bin_hash": "7445d049ddb212cf6fa47a26f60d95b7b1e24894",
+    "rebuild_bin_hash": "7445d049ddb212cf6fa47a26f60d95b7b1e24894",
+    "original_lib_hash": "0d61bbcf3e74f40846dbe2149ef07145a51a8dcc",
+    "rebuild_lib_hash": "0d61bbcf3e74f40846dbe2149ef07145a51a8dcc",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch"
+}

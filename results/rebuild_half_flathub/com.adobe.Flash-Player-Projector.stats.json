@@ -1,0 +1,20 @@
+{
+    "name": "com.adobe.Flash-Player-Projector",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 134.8858003616333,
+    "cache_size": 18616902,
+    "git_size": 0,
+    "dl_size": 18600439,
+    "original_hash": "1c28776fccbf8fa43f3bd5c74ec8679ea9dc5227",
+    "rebuild_hash": "3df70daf93983fae5f04e798baf5a36157b3a7c2",
+    "original_bin_hash": "09baee8754c986507093bf5ec6afdc834b1b67bd",
+    "rebuild_bin_hash": "09baee8754c986507093bf5ec6afdc834b1b67bd",
+    "original_lib_hash": "ff6baf8f2ce488d49357a57e4f0eb0ef1a30f7b6",
+    "rebuild_lib_hash": "da36f3aa38a08179a07c81b37742b1924f147ff1",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

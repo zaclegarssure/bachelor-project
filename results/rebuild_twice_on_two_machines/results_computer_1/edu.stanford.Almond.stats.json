@@ -1,0 +1,10 @@
+{
+    "name": "edu.stanford.Almond",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "ce252a6232abe47b1c27c2f43375ee8b390141b79c499a7ba46baa859bf8a27e",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-06 04:23:18+00:00",
+    "timestamp_of_rebuild": 1644121398.0
+}

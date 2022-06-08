@@ -1,0 +1,24 @@
+{
+    "name": "com.github.miguelmota.Cointop",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 7.718618631362915,
+    "cache_size": 6391273,
+    "git_size": 0,
+    "dl_size": 6374810,
+    "original_hash": "4cd42305e372e65484a66973eba44c579cafe9d9",
+    "rebuild_hash": "eb270a1c290630d31cdb25afa140f0780e789bce",
+    "original_bin_hash": "4fa2a582e16c1dc723570e0fba887b4d8fa1628e",
+    "rebuild_bin_hash": "4fa2a582e16c1dc723570e0fba887b4d8fa1628e",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

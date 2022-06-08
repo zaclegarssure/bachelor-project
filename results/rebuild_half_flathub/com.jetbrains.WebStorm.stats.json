@@ -1,0 +1,20 @@
+{
+    "name": "com.jetbrains.WebStorm",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 16.525946617126465,
+    "cache_size": 1552364,
+    "git_size": 396308,
+    "dl_size": 1135497,
+    "original_hash": "fe60c78a34cc4bc35e91c175c9114568b103b733",
+    "rebuild_hash": "fe60c78a34cc4bc35e91c175c9114568b103b733",
+    "original_bin_hash": "0bd1debd678a30cf77b3e7c91c6f48e29cc1773a",
+    "rebuild_bin_hash": "0bd1debd678a30cf77b3e7c91c6f48e29cc1773a",
+    "original_lib_hash": "264b80f0d6c229ac939fb1a6b02c722a33809315",
+    "rebuild_lib_hash": "264b80f0d6c229ac939fb1a6b02c722a33809315",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch"
+}

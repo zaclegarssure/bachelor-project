@@ -1,0 +1,24 @@
+{
+    "name": "com.github.ojubaorg.Othman",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 6.665306806564331,
+    "cache_size": 4085326,
+    "git_size": 910818,
+    "dl_size": 3153949,
+    "original_hash": "eee9e4df36aa36b15bd21528ff4dbb9e44732c11",
+    "rebuild_hash": "eee9e4df36aa36b15bd21528ff4dbb9e44732c11",
+    "original_bin_hash": "49a5ce7dfb40622b4c85fd047d269204072933de",
+    "rebuild_bin_hash": "49a5ce7dfb40622b4c85fd047d269204072933de",
+    "original_lib_hash": "7414d874c9ca83eb52f49f1eaf085fdfcf2505c4",
+    "rebuild_lib_hash": "7414d874c9ca83eb52f49f1eaf085fdfcf2505c4",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

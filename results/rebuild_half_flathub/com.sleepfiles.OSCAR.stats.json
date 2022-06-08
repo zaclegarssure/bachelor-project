@@ -1,0 +1,23 @@
+{
+    "name": "com.sleepfiles.OSCAR",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 62.89426589012146,
+    "cache_size": 6746560,
+    "git_size": 0,
+    "dl_size": 6730097,
+    "original_hash": "004058f3a26aee498d6b452b897d427338dd7afd",
+    "rebuild_hash": "811692b7835cb5cb09346adec1e301abe032be80",
+    "original_bin_hash": "e601fdc51df312d21b50fac25c9f61a0f93dd09a",
+    "rebuild_bin_hash": "e4973669ab459727c575b6e5eb1920e95b213d9b",
+    "original_lib_hash": "9b0cac7fc51268287325edd68f73eab2bf2f169a",
+    "rebuild_lib_hash": "9b0cac7fc51268287325edd68f73eab2bf2f169a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "qmake"
+    ]
+}

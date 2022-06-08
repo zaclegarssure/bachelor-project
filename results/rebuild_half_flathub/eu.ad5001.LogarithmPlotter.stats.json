@@ -1,0 +1,25 @@
+{
+    "name": "eu.ad5001.LogarithmPlotter",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 3781.839250087738,
+    "cache_size": 8788214,
+    "git_size": 5191311,
+    "dl_size": 3576344,
+    "original_hash": "03a242342d579f349a6e900c5088ca08993f9539",
+    "rebuild_hash": "a0233917698e5006d8006f75d55fe48f1ae3582f",
+    "original_bin_hash": "bc3c8c7fd1b4ddf5c1510fc284f35f6a05fd6f02",
+    "rebuild_bin_hash": "bc3c8c7fd1b4ddf5c1510fc284f35f6a05fd6f02",
+    "original_lib_hash": "4176cb659c75fcacc2d23a2ce0927fd85136d1dc",
+    "rebuild_lib_hash": "8b395a9f328cc3948697e341e318257252a45f6f",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "simple",
+        "simple"
+    ]
+}

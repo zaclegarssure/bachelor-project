@@ -1,0 +1,24 @@
+{
+    "name": "com.gitlab.JakobDev.jdAppdataEdit",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 113.16333222389221,
+    "cache_size": 4042406,
+    "git_size": 335983,
+    "dl_size": 3685864,
+    "original_hash": "60b2a38419c2aad47be1ad4553cde06306bb0f99",
+    "rebuild_hash": "c3823845e38c62a1d2e45986b83b31386d124170",
+    "original_bin_hash": "f86fcc0c541ea9b10eae89276a25309b9012f24d",
+    "rebuild_bin_hash": "f86fcc0c541ea9b10eae89276a25309b9012f24d",
+    "original_lib_hash": "926bc607bdebc2539b96d8e9e8b034bf0c70456d",
+    "rebuild_lib_hash": "061cb15b6ec23409cb382f78f7469a2ffa376a43",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

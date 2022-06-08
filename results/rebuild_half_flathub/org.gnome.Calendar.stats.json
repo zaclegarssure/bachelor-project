@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Calendar",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 120.57216548919678,
+    "cache_size": 11246830,
+    "git_size": 0,
+    "dl_size": 11230367,
+    "original_hash": "d7b209a48ba2e37ae32addd08a1f982b259bd2a0",
+    "rebuild_hash": "fd5d82d459fe1932e0c4bb59fcc09fa060ebeaf2",
+    "original_bin_hash": "6e87c90b78ab4c2df1eb6efedca1b9ef60f663ac",
+    "rebuild_bin_hash": "6e87c90b78ab4c2df1eb6efedca1b9ef60f663ac",
+    "original_lib_hash": "4a54f18c15428c3e986c14ac1cc63b3dbecc7171",
+    "rebuild_lib_hash": "4a54f18c15428c3e986c14ac1cc63b3dbecc7171",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

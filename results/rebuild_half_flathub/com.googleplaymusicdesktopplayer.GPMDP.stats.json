@@ -1,0 +1,23 @@
+{
+    "name": "com.googleplaymusicdesktopplayer.GPMDP",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 26.795291900634766,
+    "cache_size": 44984583,
+    "git_size": 0,
+    "dl_size": 44968120,
+    "original_hash": "ac4aa6502e444dba0c0b3154e7688cad453a8a47",
+    "rebuild_hash": "046d74b53229de1a065877f84b8d0274b657373b",
+    "original_bin_hash": "5b5781d619846122df315551d911709fe8deeced",
+    "rebuild_bin_hash": "5b5781d619846122df315551d911709fe8deeced",
+    "original_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "rebuild_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

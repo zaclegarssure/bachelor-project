@@ -1,0 +1,27 @@
+{
+    "name": "org.gnome.Contacts",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 155.26700377464294,
+    "cache_size": 8247020,
+    "git_size": 615936,
+    "dl_size": 7610525,
+    "original_hash": "acdf5b81db86c2f8adf37a708d0bc8b9418acbad",
+    "rebuild_hash": "acdf5b81db86c2f8adf37a708d0bc8b9418acbad",
+    "original_bin_hash": "415ffafbd10f58051986e8a5aa04698aa6d3f2ac",
+    "rebuild_bin_hash": "415ffafbd10f58051986e8a5aa04698aa6d3f2ac",
+    "original_lib_hash": "a398d5a7643b56aabdbda2e5cfc8ce354f37aa6b",
+    "rebuild_lib_hash": "a398d5a7643b56aabdbda2e5cfc8ce354f37aa6b",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "cmake-ninja",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

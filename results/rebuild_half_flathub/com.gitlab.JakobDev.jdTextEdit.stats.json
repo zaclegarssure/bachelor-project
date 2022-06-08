@@ -1,0 +1,26 @@
+{
+    "name": "com.gitlab.JakobDev.jdTextEdit",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 405.26246523857117,
+    "cache_size": 4441237,
+    "git_size": 1382974,
+    "dl_size": 3037704,
+    "original_hash": "c12c8ffe42fafe0ddb21127ee15221dc7fc58efa",
+    "rebuild_hash": "2614e1665cb8e7e8f1992f74a88f4c440287d74c",
+    "original_bin_hash": "7269edcb3df6b8e9a46f6775a6538a96fae18ff3",
+    "rebuild_bin_hash": "7269edcb3df6b8e9a46f6775a6538a96fae18ff3",
+    "original_lib_hash": "710099dcc363e555936acde811f13de96dceb184",
+    "rebuild_lib_hash": "9d73159a519ff86b11699fcbd3fac2e818ff529b",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

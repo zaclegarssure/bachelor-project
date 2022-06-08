@@ -1,0 +1,20 @@
+{
+    "name": "com.frac_tion.teleport",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 33.22563719749451,
+    "cache_size": 5982478,
+    "git_size": 4458041,
+    "dl_size": 1503878,
+    "original_hash": "9fd2d1ae1ad6c658e54995edef7b7c121168209e",
+    "rebuild_hash": "9fd2d1ae1ad6c658e54995edef7b7c121168209e",
+    "original_bin_hash": "3f40101405467e91bd572e2edf039dfaba8648c3",
+    "rebuild_bin_hash": "3f40101405467e91bd572e2edf039dfaba8648c3",
+    "original_lib_hash": "5fb6b208a62f5f90cf9078e4ca98ffb95720b423",
+    "rebuild_lib_hash": "5fb6b208a62f5f90cf9078e4ca98ffb95720b423",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

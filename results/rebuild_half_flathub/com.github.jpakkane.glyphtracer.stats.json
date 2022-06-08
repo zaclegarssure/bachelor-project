@@ -1,0 +1,27 @@
+{
+    "name": "com.github.jpakkane.glyphtracer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 465.4827742576599,
+    "cache_size": 46979807,
+    "git_size": 0,
+    "dl_size": 46963344,
+    "original_hash": "74823f10fb1b6ae6bbd8bee6872e6171537b1a94",
+    "rebuild_hash": "b61222d879ebd35fb5710aea4b38c024357ad690",
+    "original_bin_hash": "415a7d0b945e80ad0811f17994a0c7446e3330e3",
+    "rebuild_bin_hash": "415a7d0b945e80ad0811f17994a0c7446e3330e3",
+    "original_lib_hash": "3272e02cab1ca42ec98fe4090952dca368fca70c",
+    "rebuild_lib_hash": "95b18c9718ae0f00bf0351fef210f2bcfeb9c488",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "diffoscope_failed": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

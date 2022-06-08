@@ -1,0 +1,24 @@
+{
+    "name": "com.github.artemanufrij.playmymusic",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 32.447797775268555,
+    "cache_size": 2675026,
+    "git_size": 0,
+    "dl_size": 2658563,
+    "original_hash": "46b1aa01a964cfdbf0bb24dab57f951bb7ceb9b8",
+    "rebuild_hash": "8d6eac6719a5a35050bbad0d0cc60b8b9c7e7b30",
+    "original_bin_hash": "f4bd0c77adfcd19c3fd99acc770b516dd371f9e4",
+    "rebuild_bin_hash": "f4bd0c77adfcd19c3fd99acc770b516dd371f9e4",
+    "original_lib_hash": "2d064e8a7bd3ea32ef97a7c2cd621a3122463821",
+    "rebuild_lib_hash": "2d064e8a7bd3ea32ef97a7c2cd621a3122463821",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "meson"
+    ]
+}

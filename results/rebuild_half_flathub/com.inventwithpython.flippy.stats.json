@@ -1,0 +1,20 @@
+{
+    "name": "com.inventwithpython.flippy",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 369.7917332649231,
+    "cache_size": 40893609,
+    "git_size": 0,
+    "dl_size": 40877146,
+    "original_hash": "205c966ab08c3d89bfb5229a07511a9adab9ea12",
+    "rebuild_hash": "20778cc3b4b5654c7cc0aa0fce58ed48d916fa84",
+    "original_bin_hash": "8c6e991105c0a885a39b09cabd834f1d58fcc5ff",
+    "rebuild_bin_hash": "8c6e991105c0a885a39b09cabd834f1d58fcc5ff",
+    "original_lib_hash": "394e1f619f7a6fc4f66eff4131787e7713bc515d",
+    "rebuild_lib_hash": "c84d63366f1f379393d43f2d3670cb3208225019",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "laptop-arch"
+}

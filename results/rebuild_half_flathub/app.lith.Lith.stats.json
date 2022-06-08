@@ -1,0 +1,23 @@
+{
+    "name": "app.lith.Lith",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 15.125805854797363,
+    "cache_size": 1493910,
+    "git_size": 1477447,
+    "dl_size": 0,
+    "original_hash": "4031b95346a54c28667cba43b3ca012f36fe1eda",
+    "rebuild_hash": "6d04cae59a2e79c10adae80fa75e1c983996c71e",
+    "original_bin_hash": "54027b7ac79e4eb634cbfbdca5ba81d9fc2d4bc0",
+    "rebuild_bin_hash": "2f0c347f20587b9238503236144b8e226548ed26",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "qmake"
+    ]
+}

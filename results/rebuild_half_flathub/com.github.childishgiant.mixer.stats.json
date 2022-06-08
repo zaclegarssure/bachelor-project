@@ -1,0 +1,24 @@
+{
+    "name": "com.github.childishgiant.mixer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 25.982548236846924,
+    "cache_size": 1162312,
+    "git_size": 1145849,
+    "dl_size": 0,
+    "original_hash": "9f7b8e6e39fe4de38f9cb1f4b3e86c3f7c0321b6",
+    "rebuild_hash": "224712ac53f845b1257161ff57bce145f7ab445f",
+    "original_bin_hash": "918b85764eed934e0e10924b9827d111570cb963",
+    "rebuild_bin_hash": "918b85764eed934e0e10924b9827d111570cb963",
+    "original_lib_hash": "b2cbabdefe2479129a24f0324040545a4219a1f3",
+    "rebuild_lib_hash": "b2cbabdefe2479129a24f0324040545a4219a1f3",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

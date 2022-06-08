@@ -1,0 +1,24 @@
+{
+    "name": "org.gnome.Klotski",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 13.611609935760498,
+    "cache_size": 1100887,
+    "git_size": 0,
+    "dl_size": 1084424,
+    "original_hash": "ae003fa34b1d39057f686d4ff9f4ed8b223a91ce",
+    "rebuild_hash": "ae003fa34b1d39057f686d4ff9f4ed8b223a91ce",
+    "original_bin_hash": "fb032791a10fb9afe508d3619e24d0e6eada3125",
+    "rebuild_bin_hash": "fb032791a10fb9afe508d3619e24d0e6eada3125",
+    "original_lib_hash": "e64b28a46821d3527367e9de7c5bcb6addf7cb21",
+    "rebuild_lib_hash": "e64b28a46821d3527367e9de7c5bcb6addf7cb21",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

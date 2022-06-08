@@ -1,0 +1,24 @@
+{
+    "name": "com.syntevo.SmartGit",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 58.01345658302307,
+    "cache_size": 1570162,
+    "git_size": 0,
+    "dl_size": 1553699,
+    "original_hash": "1d5072bed08f2c1e705b810c1878bc9b74552ed5",
+    "rebuild_hash": "1d5072bed08f2c1e705b810c1878bc9b74552ed5",
+    "original_bin_hash": "f15bda0c5cd56e73382caf6bbe6ebe34b76c6abd",
+    "rebuild_bin_hash": "f15bda0c5cd56e73382caf6bbe6ebe34b76c6abd",
+    "original_lib_hash": "6a731eb0edb648655d6dfdffa13cf5eab19a3fd3",
+    "rebuild_lib_hash": "6a731eb0edb648655d6dfdffa13cf5eab19a3fd3",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

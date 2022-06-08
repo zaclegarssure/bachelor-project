@@ -1,0 +1,20 @@
+{
+    "name": "org.scantailor.ScanTailor",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 822.0048134326935,
+    "cache_size": 336979593,
+    "git_size": 3747986,
+    "dl_size": 333231004,
+    "original_hash": "6e1e543320294c9164b3ee4341164762f8e1e169",
+    "rebuild_hash": "74d02756efebb9aa428ad439e68afa2592a62ddc",
+    "original_bin_hash": "468417d1466b6ff254111ca4fb9f59c13e58e415",
+    "rebuild_bin_hash": "468417d1466b6ff254111ca4fb9f59c13e58e415",
+    "original_lib_hash": "f120f96e7308ba70a9db9ccf504f4a09fe8ab7d2",
+    "rebuild_lib_hash": "4d0d3fcdf5a2d2c35220fb08854cce0133bb1dd8",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "org.desmume.DeSmuME",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "24f1895864ad4a9549cf435d4644049181f88845410a3f52d11d1fab681d9889",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-20 18:28:21+00:00",
+    "timestamp_of_rebuild": 1637432901.0,
+    "git-commit": "955865d47bee5383b8d3c8c35a68b9dad767044b master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/21.08": "1fad7974d6fe02c6ac83e3e804e0317f4d8d3528dcd5087002e1b501ddadbb6b",
+        "org.freedesktop.Platform/x86_64/21.08": "16d161d8a71701b80fa4bca12812a22c19dc0641b3571fe88c517c84da94c5b5"
+    },
+    "build_time": 136.506733417511,
+    "cache_size": 100166138,
+    "git_size": 99206262,
+    "dl_size": 939317,
+    "bad_files": 1,
+    "total_files": 11,
+    "repro_score": 0.9090909090909091,
+    "original_hash": "a5873c04ea560c6f71942b0772281a292dbb9310",
+    "rebuild_hash": "90787843a6be0ff4edb71dd53990ebd98ee46d83",
+    "original_bin_hash": "a2ef9666db33c4666912c38c59243d5af9a79003",
+    "rebuild_bin_hash": "a2ef9666db33c4666912c38c59243d5af9a79003",
+    "original_elf_hash": "cca9ec279c7fe7afc47decfdfaf91793298302e8",
+    "rebuild_elf_hash": "cca9ec279c7fe7afc47decfdfaf91793298302e8",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

@@ -1,0 +1,23 @@
+{
+    "name": "dev.tchx84.Portfolio",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 6.9734179973602295,
+    "cache_size": 540662,
+    "git_size": 524199,
+    "dl_size": 0,
+    "original_hash": "9aaa10924924a7226eb4fe98c7f1c7a03ae10046",
+    "rebuild_hash": "9aaa10924924a7226eb4fe98c7f1c7a03ae10046",
+    "original_bin_hash": "93ac37648a351837aefc5a2e60fa35efcec92f54",
+    "rebuild_bin_hash": "93ac37648a351837aefc5a2e60fa35efcec92f54",
+    "original_lib_hash": "f5b2909624596b4ca118c5cee8d7cfd5d1f9c6e8",
+    "rebuild_lib_hash": "f5b2909624596b4ca118c5cee8d7cfd5d1f9c6e8",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

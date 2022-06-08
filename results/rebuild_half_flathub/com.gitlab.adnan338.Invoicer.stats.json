@@ -1,0 +1,25 @@
+{
+    "name": "com.gitlab.adnan338.Invoicer",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 18.78621244430542,
+    "cache_size": 16708014,
+    "git_size": 1557267,
+    "dl_size": 15130188,
+    "original_hash": "c27e6d37bc179098a3701338ec5315364da1377d",
+    "rebuild_hash": "c27e6d37bc179098a3701338ec5315364da1377d",
+    "original_bin_hash": "61eaaf91cc4d7be7fd8fe6bf44bae0e9872cabde",
+    "rebuild_bin_hash": "61eaaf91cc4d7be7fd8fe6bf44bae0e9872cabde",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

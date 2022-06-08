@@ -1,0 +1,20 @@
+{
+    "name": "org.gnumeric.Gnumeric",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 259.1108937263489,
+    "cache_size": 22541810,
+    "git_size": 0,
+    "dl_size": 22525347,
+    "original_hash": "c7be7059db4ec0e52f40784af2d4127a347ddb1d",
+    "rebuild_hash": "c7be7059db4ec0e52f40784af2d4127a347ddb1d",
+    "original_bin_hash": "4eb928a3c259c78cb708b278354a43de94f096dc",
+    "rebuild_bin_hash": "4eb928a3c259c78cb708b278354a43de94f096dc",
+    "original_lib_hash": "d3587cf8a17262dfe2327e24bad2c9cc4965e107",
+    "rebuild_lib_hash": "d3587cf8a17262dfe2327e24bad2c9cc4965e107",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

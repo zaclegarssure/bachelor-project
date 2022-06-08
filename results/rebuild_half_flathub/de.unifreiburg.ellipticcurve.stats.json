@@ -1,0 +1,23 @@
+{
+    "name": "de.unifreiburg.ellipticcurve",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 37.976144790649414,
+    "cache_size": 11523270,
+    "git_size": 11506807,
+    "dl_size": 0,
+    "original_hash": "cef4b73bee24f9984fbfb58b2f839652eff97630",
+    "rebuild_hash": "d2c7f105a0654f43a45e821545fd706323157cdb",
+    "original_bin_hash": "5f2df6f9f534c6337e74372d444c1317a1854a93",
+    "rebuild_bin_hash": "a1e67507b12d9e77a331a1a279183e111f557161",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

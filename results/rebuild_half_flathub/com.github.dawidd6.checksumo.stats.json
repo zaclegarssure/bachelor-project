@@ -1,0 +1,23 @@
+{
+    "name": "com.github.dawidd6.checksumo",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 612.5105566978455,
+    "cache_size": 596097,
+    "git_size": 579634,
+    "dl_size": 0,
+    "original_hash": "49e233194ebece0a99bc4c64ab10f1a18528696f",
+    "rebuild_hash": "49e233194ebece0a99bc4c64ab10f1a18528696f",
+    "original_bin_hash": "acc240f6c8f1e57c3beb39b45d2451bfce83634f",
+    "rebuild_bin_hash": "acc240f6c8f1e57c3beb39b45d2451bfce83634f",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

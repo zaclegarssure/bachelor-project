@@ -1,0 +1,27 @@
+{
+    "name": "org.sugarlabs.Measure",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 207.56978011131287,
+    "cache_size": 32310367,
+    "git_size": 25901302,
+    "dl_size": 6408482,
+    "original_hash": "82da05828f0436cb098306a1d3ea45e2d2540db8",
+    "rebuild_hash": "3e36a217af66800b5027d5818a06db2e63631561",
+    "original_bin_hash": "bab327bc00901fd9cfc3c11a734c3131f61f318a",
+    "rebuild_bin_hash": "bab327bc00901fd9cfc3c11a734c3131f61f318a",
+    "original_lib_hash": "c61c6778c9fce2ee548aa99563017f886100a3a0",
+    "rebuild_lib_hash": "a1af1b9720b5e56674e77dcb88b93631373b8062",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "diffoscope_failed": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "cmake",
+        "simple",
+        "simple"
+    ]
+}

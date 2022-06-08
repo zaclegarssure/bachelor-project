@@ -1,0 +1,24 @@
+{
+    "name": "com.github.tglima.Myfluttercrypto",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 6.496751546859741,
+    "cache_size": 8722331,
+    "git_size": 0,
+    "dl_size": 8705868,
+    "original_hash": "fdc56d45f16e7a4e5a275146f91422c31830e7aa",
+    "rebuild_hash": "4a95b66f1f6b5708402ec0bb69d1b31840b75755",
+    "original_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "rebuild_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "original_lib_hash": "b4b6391d8c9650c215961e8cd1cbe8eb2f0e52be",
+    "rebuild_lib_hash": "b4b6391d8c9650c215961e8cd1cbe8eb2f0e52be",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

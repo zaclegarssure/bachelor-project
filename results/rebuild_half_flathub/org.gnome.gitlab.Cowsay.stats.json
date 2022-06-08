@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.gitlab.Cowsay",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 6.806740045547485,
+    "cache_size": 446205,
+    "git_size": 429742,
+    "dl_size": 0,
+    "original_hash": "9ab7c1acb21fab78884c508e1a036d729b53fca9",
+    "rebuild_hash": "9ab7c1acb21fab78884c508e1a036d729b53fca9",
+    "original_bin_hash": "7f2665b1825d065fedb27d59a2631b491ce36401",
+    "rebuild_bin_hash": "7f2665b1825d065fedb27d59a2631b491ce36401",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

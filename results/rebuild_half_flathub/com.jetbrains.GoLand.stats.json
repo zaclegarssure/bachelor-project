@@ -1,0 +1,23 @@
+{
+    "name": "com.jetbrains.GoLand",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 338.0399811267853,
+    "cache_size": 622776325,
+    "git_size": 0,
+    "dl_size": 622759862,
+    "original_hash": "88e1a98e6d715bda6773a4d802d7937158d3b989",
+    "rebuild_hash": "5bed51b66e09cece36a3617cc8008cd6739ffd29",
+    "original_bin_hash": "9f4351c8f2ee35978692da287e4547051e480d6e",
+    "rebuild_bin_hash": "9f4351c8f2ee35978692da287e4547051e480d6e",
+    "original_lib_hash": "6e3fef361b2ac77b7b6b3b325ff8bc0109dabaac",
+    "rebuild_lib_hash": "6e3fef361b2ac77b7b6b3b325ff8bc0109dabaac",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

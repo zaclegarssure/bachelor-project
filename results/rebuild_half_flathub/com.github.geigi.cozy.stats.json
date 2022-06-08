@@ -1,0 +1,32 @@
+{
+    "name": "com.github.geigi.cozy",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 74.09816861152649,
+    "cache_size": 5311509,
+    "git_size": 1771884,
+    "dl_size": 3519066,
+    "original_hash": "b3fa26396017b17ebea144568f876f0df4e2e545",
+    "rebuild_hash": "564abfe3f3cb0d65ccc00ed721bf393c1634962f",
+    "original_bin_hash": "5f9aa229cfd4218b9b1c6eb7f3165eb43d94037c",
+    "rebuild_bin_hash": "5f9aa229cfd4218b9b1c6eb7f3165eb43d94037c",
+    "original_lib_hash": "7b89d9348dcb8a7d5b7f0d9540b3bd676f9c8994",
+    "rebuild_lib_hash": "f67830ab16950f4087bd291f55de853faf5c003c",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "meson",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

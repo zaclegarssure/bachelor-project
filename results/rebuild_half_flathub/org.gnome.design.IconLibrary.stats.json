@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.design.IconLibrary",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 111.52469158172607,
+    "cache_size": 15036667,
+    "git_size": 0,
+    "dl_size": 15020204,
+    "original_hash": "1421f4c991fd8a7c3a701b0e4af82d40a22435e4",
+    "rebuild_hash": "1421f4c991fd8a7c3a701b0e4af82d40a22435e4",
+    "original_bin_hash": "ea407ea2f339b62fe68e982795f428470d7dad02",
+    "rebuild_bin_hash": "ea407ea2f339b62fe68e982795f428470d7dad02",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "com.fightcade.Fightcade",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 87.60753989219666,
+    "cache_size": 153144580,
+    "git_size": 0,
+    "dl_size": 153128117,
+    "original_hash": "7d1a24ee2d849b93a8e66b8d70db7f83fac0b618",
+    "rebuild_hash": "7d1a24ee2d849b93a8e66b8d70db7f83fac0b618",
+    "original_bin_hash": "de32f6a40dea470619955f20d6fb74a2f5c8054a",
+    "rebuild_bin_hash": "de32f6a40dea470619955f20d6fb74a2f5c8054a",
+    "original_lib_hash": "8eb211b56062252fb480749fc1b4f47e81f2c9b8",
+    "rebuild_lib_hash": "8eb211b56062252fb480749fc1b4f47e81f2c9b8",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

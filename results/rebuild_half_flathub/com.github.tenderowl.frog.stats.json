@@ -1,0 +1,27 @@
+{
+    "name": "com.github.tenderowl.frog",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 502.91002106666565,
+    "cache_size": 97404566,
+    "git_size": 32249933,
+    "dl_size": 65134074,
+    "original_hash": "5a22ad09d5a5f776f02236ce5331cb59779bbda2",
+    "rebuild_hash": "74007007e94330e2b4cfd005ec00dfb401bdeef5",
+    "original_bin_hash": "02911c577b538fad971b8cc3754c977f1a85042e",
+    "rebuild_bin_hash": "02911c577b538fad971b8cc3754c977f1a85042e",
+    "original_lib_hash": "38cd6279c9f04b84591da8694d922ad83d243447",
+    "rebuild_lib_hash": "733923fa104e55c55f4aee0021a419908c1853a1",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

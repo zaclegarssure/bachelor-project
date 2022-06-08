@@ -1,0 +1,31 @@
+{
+    "name": "org.zim_wiki.Zim",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "16394b0bc68ee87b13d2ee9279aab2c508d59f5218944f5ef17f01ac2f08a89b",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-18 08:37:47+00:00",
+    "timestamp_of_rebuild": 1639816667.0,
+    "git-commit": "af4f0df7a73c54fe12a87d6246c1e421cfbec775 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.gnome.Sdk/x86_64/41": "13610dcd6bdad52462f9b5112fb8b3b86c7a639e60a2f6784e25849e1dcad95d",
+        "org.gnome.Platform/x86_64/41": "cea3bffea9aad8ecd84ba25c89242b7f773543ffaac3393bcf8db5449aafd009"
+    },
+    "build_time": 188.75411367416382,
+    "cache_size": 33700527,
+    "git_size": 0,
+    "dl_size": 33684064,
+    "bad_files": 4,
+    "total_files": 1041,
+    "repro_score": 0.9961575408261287,
+    "original_hash": "399f0662261538903789d69d860bf228061a95d7",
+    "rebuild_hash": "eace29f8e68cb8207d221b68f4ef01fc03b17da1",
+    "original_bin_hash": "d3782baa647e2986331296a1dceb204b5f1e1884",
+    "rebuild_bin_hash": "1733f5a71bf2f4c8947a816199f98021f446b235",
+    "original_elf_hash": "14fcd5284f13c8d526c21a25d97cf47766565882",
+    "rebuild_elf_hash": "2988f8d62c8ffe7546c3af26e50e1d533d8744b2",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

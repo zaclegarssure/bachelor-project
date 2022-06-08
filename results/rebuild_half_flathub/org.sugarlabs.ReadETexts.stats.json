@@ -1,0 +1,23 @@
+{
+    "name": "org.sugarlabs.ReadETexts",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 97.44364833831787,
+    "cache_size": 14066414,
+    "git_size": 14065965,
+    "dl_size": 0,
+    "original_hash": "ab4af1b179a22c392eb407045a5e79054b7454b0",
+    "rebuild_hash": "ab4af1b179a22c392eb407045a5e79054b7454b0",
+    "original_bin_hash": "21476137e4c4ac67d752b65d18ea7938c6a87063",
+    "rebuild_bin_hash": "21476137e4c4ac67d752b65d18ea7938c6a87063",
+    "original_lib_hash": "44b831c57528ed3a5e42f8e2b359e3dee73c969e",
+    "rebuild_lib_hash": "44b831c57528ed3a5e42f8e2b359e3dee73c969e",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple"
+    ]
+}

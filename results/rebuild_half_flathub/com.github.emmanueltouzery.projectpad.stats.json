@@ -1,0 +1,24 @@
+{
+    "name": "com.github.emmanueltouzery.projectpad",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 327.6544916629791,
+    "cache_size": 66536799,
+    "git_size": 269678,
+    "dl_size": 66213794,
+    "original_hash": "796534b70315a773e45125885df68648e2379df8",
+    "rebuild_hash": "ab6baef0c7416af39be67d4160c147d69a18200f",
+    "original_bin_hash": "df8580ae7a4e2387071a814746996a2063d29722",
+    "rebuild_bin_hash": "8522e7dbb8f5f29f6c8be72fd6f85c05d5e46abf",
+    "original_lib_hash": "885378a29aff2ab349fd7ff59f5232cfa168bad1",
+    "rebuild_lib_hash": "885378a29aff2ab349fd7ff59f5232cfa168bad1",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "simple"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "org.gnome.gedit",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 156.4032838344574,
+    "cache_size": 30941744,
+    "git_size": 0,
+    "dl_size": 30925281,
+    "original_hash": "2e97f0423d9c70c559fb2bbb26d9d9d0f7656753",
+    "rebuild_hash": "2e97f0423d9c70c559fb2bbb26d9d9d0f7656753",
+    "original_bin_hash": "6c62d165d300983b5fb6d98d84bf6f4ed350bb3d",
+    "rebuild_bin_hash": "6c62d165d300983b5fb6d98d84bf6f4ed350bb3d",
+    "original_lib_hash": "b39f28c27b77c929ac093cc853d103a89e13e395",
+    "rebuild_lib_hash": "b39f28c27b77c929ac093cc853d103a89e13e395",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

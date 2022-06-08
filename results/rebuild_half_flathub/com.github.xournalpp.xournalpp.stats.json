@@ -1,0 +1,20 @@
+{
+    "name": "com.github.xournalpp.xournalpp",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 202.71437907218933,
+    "cache_size": 29405841,
+    "git_size": 19304855,
+    "dl_size": 10080427,
+    "original_hash": "964c68e80de28c1668574584c0eb178e27145d4c",
+    "rebuild_hash": "8bffcc4228b975f54e375c2057bec80257c22341",
+    "original_bin_hash": "1a7674c39bad27a8c995f025daa25e62645170ad",
+    "rebuild_bin_hash": "ae13fec58c439b916bbb531c845d7d2357214be4",
+    "original_lib_hash": "5e03ff023f9dda605eb2f42797726847158c3a59",
+    "rebuild_lib_hash": "5e03ff023f9dda605eb2f42797726847158c3a59",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

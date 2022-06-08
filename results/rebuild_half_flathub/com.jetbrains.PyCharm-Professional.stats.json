@@ -1,0 +1,26 @@
+{
+    "name": "com.jetbrains.PyCharm-Professional",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 115.81146287918091,
+    "cache_size": 25917934,
+    "git_size": 0,
+    "dl_size": 25901471,
+    "original_hash": "854439140a617f47fb92304b483b91f5be096f14",
+    "rebuild_hash": "cb28b9fab3444c96cfdfcfdf3a0c14d831a0b29c",
+    "original_bin_hash": "2f39b4e398b9868331efc9e882d40418d6a6ef5b",
+    "rebuild_bin_hash": "2f39b4e398b9868331efc9e882d40418d6a6ef5b",
+    "original_lib_hash": "d86c8255dc26bd23910523771a594da717d6404e",
+    "rebuild_lib_hash": "c3ce1685a71443f2630cca7dd8998bdba5bbb18d",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

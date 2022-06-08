@@ -1,0 +1,23 @@
+{
+    "name": "com.gitlab.azymohliad.Qwertone",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 68.47729873657227,
+    "cache_size": 12674552,
+    "git_size": 123280,
+    "dl_size": 12522521,
+    "original_hash": "2586176e3bd0cc72ccc165fba14361fa330fe655",
+    "rebuild_hash": "79fcb4ccb4d522134899e7f1f6c5d4ea5db6052c",
+    "original_bin_hash": "779f1d542123448c9f8cce262648a0c3ba75853f",
+    "rebuild_bin_hash": "779f1d542123448c9f8cce262648a0c3ba75853f",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

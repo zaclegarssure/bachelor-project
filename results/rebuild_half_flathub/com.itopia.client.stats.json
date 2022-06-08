@@ -1,0 +1,20 @@
+{
+    "name": "com.itopia.client",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "cmake-ninja",
+        "cmake-ninja",
+        "simple",
+        "autotools",
+        "autotools",
+        "autotools",
+        "autotools",
+        "simple",
+        "cmake-ninja",
+        "simple"
+    ]
+}

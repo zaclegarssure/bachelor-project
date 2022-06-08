@@ -1,0 +1,24 @@
+{
+    "name": "org.virtualxt.VirtualXT",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 218.72827553749084,
+    "cache_size": 23822218,
+    "git_size": 0,
+    "dl_size": 23821777,
+    "original_hash": "8697c40d0c48c1ce5a3cd1bc9dcd1bd1639c843a",
+    "rebuild_hash": "8697c40d0c48c1ce5a3cd1bc9dcd1bd1639c843a",
+    "original_bin_hash": "b93ac677acf109ec3a70ec69e12a75e223ac9930",
+    "rebuild_bin_hash": "b93ac677acf109ec3a70ec69e12a75e223ac9930",
+    "original_lib_hash": "07e9f7a5faf4f0f1bd8201cfb9b7da162510b995",
+    "rebuild_lib_hash": "07e9f7a5faf4f0f1bd8201cfb9b7da162510b995",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "autotools",
+        "simple"
+    ]
+}

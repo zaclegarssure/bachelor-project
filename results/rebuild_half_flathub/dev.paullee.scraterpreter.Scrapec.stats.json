@@ -1,0 +1,23 @@
+{
+    "name": "dev.paullee.scraterpreter.Scrapec",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 4.982113599777222,
+    "cache_size": 141978,
+    "git_size": 125515,
+    "dl_size": 0,
+    "original_hash": "00d327b6dddd90fb1af2615674f2f1d18686dd07",
+    "rebuild_hash": "00d327b6dddd90fb1af2615674f2f1d18686dd07",
+    "original_bin_hash": "b62839dd865ef49847d989b0f21bd2331d7e5d91",
+    "rebuild_bin_hash": "b62839dd865ef49847d989b0f21bd2331d7e5d91",
+    "original_lib_hash": "dd39074188934e42e6a1ade9a5c01d0f360c2b23",
+    "rebuild_lib_hash": "dd39074188934e42e6a1ade9a5c01d0f360c2b23",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

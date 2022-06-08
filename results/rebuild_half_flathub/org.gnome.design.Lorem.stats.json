@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.design.Lorem",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 84.3471896648407,
+    "cache_size": 14430935,
+    "git_size": 0,
+    "dl_size": 14414472,
+    "original_hash": "4cbb4d3241f7a73619f9c8a269411e4a53e125c5",
+    "rebuild_hash": "4cbb4d3241f7a73619f9c8a269411e4a53e125c5",
+    "original_bin_hash": "94323675fe273acd911fdd47f7c2baa60f88cefa",
+    "rebuild_bin_hash": "94323675fe273acd911fdd47f7c2baa60f88cefa",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

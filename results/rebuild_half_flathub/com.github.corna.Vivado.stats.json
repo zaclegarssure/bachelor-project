@@ -1,0 +1,27 @@
+{
+    "name": "com.github.corna.Vivado",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 74.72382998466492,
+    "cache_size": 7389291,
+    "git_size": 0,
+    "dl_size": 7372828,
+    "original_hash": "cc09cf399bae1d7a6d9f1750d593dc861b82c76f",
+    "rebuild_hash": "d56cb5c62e3b2f379a607aec87c8cff0d1b53762",
+    "original_bin_hash": "e6ab57ba9917c8a974fa45f1e816147e8389abc0",
+    "rebuild_bin_hash": "e6ab57ba9917c8a974fa45f1e816147e8389abc0",
+    "original_lib_hash": "2fa9d503b8e4236db4485392b3dc36051d7c9a23",
+    "rebuild_lib_hash": "318640524501d263cf456b81a79e62e74247922a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "meson",
+        "simple",
+        "simple"
+    ]
+}

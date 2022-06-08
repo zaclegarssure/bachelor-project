@@ -1,0 +1,25 @@
+{
+    "name": "ar.com.softwareperonista.Rockarrolla",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 21.36104941368103,
+    "cache_size": 2821536,
+    "git_size": 0,
+    "dl_size": 2805073,
+    "original_hash": "f4505166634a241321d574bb3dd72b527a51b695",
+    "rebuild_hash": "eafc5a3832e6821df7b38857ea71866b3d6eb55e",
+    "original_bin_hash": "e413cd06d5771d3f015e7efbc1d5f6aa4c74f95e",
+    "rebuild_bin_hash": "e413cd06d5771d3f015e7efbc1d5f6aa4c74f95e",
+    "original_lib_hash": "b70e98442b7735c6915457b413cbfd32b0842aa9",
+    "rebuild_lib_hash": "b70e98442b7735c6915457b413cbfd32b0842aa9",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "cmake-ninja",
+        "meson"
+    ]
+}

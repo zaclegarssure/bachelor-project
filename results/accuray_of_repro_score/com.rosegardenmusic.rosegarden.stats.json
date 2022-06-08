@@ -1,0 +1,16 @@
+{
+    "name": "com.rosegardenmusic.rosegarden",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "3138c022ac2baa9b4b81bc8cf37eb4f46b9d274b5da35c0189e341d4a3c082c3",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-23 02:29:23+00:00",
+    "timestamp_of_rebuild": 1640226563.0,
+    "git-commit": "cae5c14f0afef5e824b7b1ce593fda108f615614 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.kde.Sdk/x86_64/5.15-21.08": "31e9b2b145f915153276dd9763053cd6bdc0e6f2f811a3fb420b4ea833a86930",
+        "org.kde.Platform/x86_64/5.15-21.08": "3bf4e0f24b0773acec88df0513105a721abc0d4be553ab777508753652c1aa99"
+    }
+}

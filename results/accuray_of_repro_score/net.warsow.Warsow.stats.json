@@ -1,0 +1,31 @@
+{
+    "name": "net.warsow.Warsow",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "164ecfc5d19569b47104022230a52a22c87c8e4b42c119ea26359173529e1499",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-18 06:09:42+00:00",
+    "timestamp_of_rebuild": 1652854182.0,
+    "git-commit": "20da4572371e10ed42c87adffa273612c3a78830 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 159.7037010192871,
+    "cache_size": 1029035295,
+    "git_size": 0,
+    "dl_size": 1029018832,
+    "bad_files": 3,
+    "total_files": 171,
+    "repro_score": 0.9824561403508771,
+    "original_hash": "74996e4b195d48b807169ab2b99ef706db1da17b",
+    "rebuild_hash": "98a5e643bfceec6460b12c73e6444f3489607bab",
+    "original_bin_hash": "021bf07eab5f48ea9bf53453de9ccdc61574d560",
+    "rebuild_bin_hash": "714509d37b5073fafd3b2efaa70471c19c12c3b5",
+    "original_elf_hash": "44fe68620e8cf96dbca04d1d4e7ce48086ac825f",
+    "rebuild_elf_hash": "d90da19a3f738f0ec352091946fe6a2ea8fe3761",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

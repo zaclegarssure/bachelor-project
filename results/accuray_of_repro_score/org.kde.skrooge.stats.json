@@ -1,0 +1,32 @@
+{
+    "name": "org.kde.skrooge",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "81cbbe092167c6f3ae1f41a8e7689282480e48f8240838404471229306751160",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-24 07:23:38+00:00",
+    "timestamp_of_rebuild": 1653377018.0,
+    "git-commit": "0cdeb0f7b59f962dddbb3cdb3b47dd9c406419e4 master",
+    "flatpak-deps": {
+        "io.qt.qtwebkit.BaseApp/x86_64/5.15-21.08": "b6fd7cdad084f25e4028499307824264c43201786f227b6287f40a665fa219bb",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "1bf5dbd9fd2f66898d2501dfbe0e5327d0dc6eecd9e02e2bdeb39a43df7974c8",
+        "org.kde.Platform/x86_64/5.15-21.08": "c49e5ed4c419e849e15657b270c0cb9550afaa73277c611426b97c701cbe37b4"
+    },
+    "build_time": 561.4393165111542,
+    "cache_size": 54955162,
+    "git_size": 0,
+    "dl_size": 54938699,
+    "bad_files": 14,
+    "total_files": 1316,
+    "repro_score": 0.9893617021276596,
+    "original_hash": "afc45e977a31c5914e0bd4898d93420d320e39d2",
+    "rebuild_hash": "39cc5d04208ee672a24436ed2bafc5018c5aca7e",
+    "original_bin_hash": "75c24c6d228c3e57106e3f74e36f03b46c5a0c93",
+    "rebuild_bin_hash": "191a9ccc259d5d1317a8e6c69d2973d8c5fc06cb",
+    "original_elf_hash": "06293fd93bcbd2f69bf812aaa9ac4bc8c829cdb2",
+    "rebuild_elf_hash": "acf4c82e595ba5fb3ea104ae3fcd640136076d34",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,30 @@
+{
+    "name": "org.gnome.eog",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 222.56647610664368,
+    "cache_size": 15716040,
+    "git_size": 268158,
+    "dl_size": 15427323,
+    "original_hash": "c171be28ecae446d70762c863fe2cbb68f4a6e71",
+    "rebuild_hash": "1f76d17abd71477c879d61d127ce57ee0dfe99e6",
+    "original_bin_hash": "d3062c6ca8c030f423cb00cac87b3c103906b142",
+    "rebuild_bin_hash": "d3062c6ca8c030f423cb00cac87b3c103906b142",
+    "original_lib_hash": "8a120d05d810d4da825b1ffea0e6a333f8e7bc44",
+    "rebuild_lib_hash": "8a120d05d810d4da825b1ffea0e6a333f8e7bc44",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "cmake-ninja",
+        "simple",
+        "meson",
+        "meson"
+    ]
+}

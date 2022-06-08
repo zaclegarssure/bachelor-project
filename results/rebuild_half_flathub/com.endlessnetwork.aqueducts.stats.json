@@ -1,0 +1,23 @@
+{
+    "name": "com.endlessnetwork.aqueducts",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 42.22283935546875,
+    "cache_size": 125205121,
+    "git_size": 3997717,
+    "dl_size": 121186845,
+    "original_hash": "e464f51f7aa48eaf7e9a1a477d536e00bc089e5e",
+    "rebuild_hash": "e464f51f7aa48eaf7e9a1a477d536e00bc089e5e",
+    "original_bin_hash": "73e282be6becb7bbeb9b589736e47633f1f86f31",
+    "rebuild_bin_hash": "73e282be6becb7bbeb9b589736e47633f1f86f31",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

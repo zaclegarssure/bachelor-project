@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.gitlab.Cowsay",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "f0f5b0ea010f9b0ceb0c6bc262aaa315ae3be6427058357387237730898429ac",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-23 11:17:01+00:00",
+    "timestamp_of_rebuild": 1650712621.0,
+    "git-commit": "f847c8adec8c2120f3d982c7cf6234edb8676a86 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 6.748611927032471,
+    "cache_size": 446205,
+    "git_size": 429742,
+    "dl_size": 0,
+    "bad_files": 0,
+    "total_files": 19,
+    "repro_score": 1.0,
+    "original_hash": "9ab7c1acb21fab78884c508e1a036d729b53fca9",
+    "rebuild_hash": "9ab7c1acb21fab78884c508e1a036d729b53fca9",
+    "original_bin_hash": "ff10635b73230a88857c78d42b6d66c366e2d552",
+    "rebuild_bin_hash": "ff10635b73230a88857c78d42b6d66c366e2d552",
+    "original_elf_hash": "7fc546df7e8a62713d869a40ae914e0b1f27525d",
+    "rebuild_elf_hash": "7fc546df7e8a62713d869a40ae914e0b1f27525d",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

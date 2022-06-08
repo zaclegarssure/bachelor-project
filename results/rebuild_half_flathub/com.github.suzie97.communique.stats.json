@@ -1,0 +1,14 @@
+{
+    "name": "com.github.suzie97.communique",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

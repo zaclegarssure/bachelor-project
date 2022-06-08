@@ -1,0 +1,23 @@
+{
+    "name": "com.rafaelmardojai.SharePreview",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 142.9079737663269,
+    "cache_size": 34130611,
+    "git_size": 0,
+    "dl_size": 34114148,
+    "original_hash": "fc4d952e2c31fd789283d66ff69737d71ae4d2c5",
+    "rebuild_hash": "fc4d952e2c31fd789283d66ff69737d71ae4d2c5",
+    "original_bin_hash": "233bb1146ccf670abc4a8b47b53cda931e5504e7",
+    "rebuild_bin_hash": "233bb1146ccf670abc4a8b47b53cda931e5504e7",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

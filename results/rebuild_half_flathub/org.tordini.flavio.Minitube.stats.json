@@ -1,0 +1,24 @@
+{
+    "name": "org.tordini.flavio.Minitube",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 391.9468195438385,
+    "cache_size": 19969482,
+    "git_size": 5275476,
+    "dl_size": 14692731,
+    "original_hash": "08dd069c4ba856cf152457c2ce8be22840b29f2d",
+    "rebuild_hash": "f8118e8fd930805e9696d82f6c288da5b0492c5c",
+    "original_bin_hash": "994a8b56d2bc6871a62a161feb2907ce3f976800",
+    "rebuild_bin_hash": "e47f1e135e8246ee43b03aa7cb94bf23f8780432",
+    "original_lib_hash": "1eb2754af574074b1ea9c069c15711c35734229c",
+    "rebuild_lib_hash": "ccf4bcf729f8403ac232564d6e0ad414a7cf6586",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "qmake"
+    ]
+}

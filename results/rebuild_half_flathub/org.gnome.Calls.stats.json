@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Calls",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 794.0159442424774,
+    "cache_size": 211007616,
+    "git_size": 210481235,
+    "dl_size": 489438,
+    "original_hash": "aab4ba590ef26d4081b86400399c20486433ceb7",
+    "rebuild_hash": "9d516cc41d36ddfb25f514a465b484a671da6c52",
+    "original_bin_hash": "6908a01555088137967306ef9164f6121fd956bf",
+    "rebuild_bin_hash": "6908a01555088137967306ef9164f6121fd956bf",
+    "original_lib_hash": "053663bb8f660e2eda3beff3fdf9b6659a2304a4",
+    "rebuild_lib_hash": "2475fc03cc3bd719f267bac5e59df96b65f4a077",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

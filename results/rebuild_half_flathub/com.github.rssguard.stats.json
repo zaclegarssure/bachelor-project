@@ -1,0 +1,24 @@
+{
+    "name": "com.github.rssguard",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 164.99030804634094,
+    "cache_size": 34055423,
+    "git_size": 34038960,
+    "dl_size": 0,
+    "original_hash": "e1e19f76f99d67b514156bf196a589d4f2e9841d",
+    "rebuild_hash": "33f21f76d5796cd7c50de204bf887d7993ed3030",
+    "original_bin_hash": "0de1d56080021524daf54d3acb7df33aa3464755",
+    "rebuild_bin_hash": "0de1d56080021524daf54d3acb7df33aa3464755",
+    "original_lib_hash": "cafb706883052b8e88e7f10db6084bb4b00098d0",
+    "rebuild_lib_hash": "9a126b0bb87ceb02474956c92a96d0c011403dbb",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "simple"
+    ]
+}

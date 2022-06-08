@@ -1,0 +1,23 @@
+{
+    "name": "com.gitlab.cutecom.cutecom",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 14.457221746444702,
+    "cache_size": 1410366,
+    "git_size": 1393903,
+    "dl_size": 0,
+    "original_hash": "485b9502b655dd796f9c94a1f8bebf23b02e8283",
+    "rebuild_hash": "02a80a088cecd2b1372ee9c4f37c2a59abfe1ba6",
+    "original_bin_hash": "9dfd5da2e6d6d94a483f6ed5e7da1c9df4e5caf2",
+    "rebuild_bin_hash": "37bb9605cb9ec561696ee3d3e1c10d0aa07dd940",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

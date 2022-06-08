@@ -1,0 +1,23 @@
+{
+    "name": "com.github.dahenson.agenda",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 14.895855903625488,
+    "cache_size": 2229839,
+    "git_size": 0,
+    "dl_size": 2213376,
+    "original_hash": "fea5f443bfd96a21f77dd69e1ff85e46e931a445",
+    "rebuild_hash": "1384feb960089b568cb70a6dc3b45ccef319a93e",
+    "original_bin_hash": "9cf15eaf27b9be2c524358a9e4b52dbb0dd5f820",
+    "rebuild_bin_hash": "9cf15eaf27b9be2c524358a9e4b52dbb0dd5f820",
+    "original_lib_hash": "b9da3adf937ccd77859a7c73d6c93ff3159dbc25",
+    "rebuild_lib_hash": "b9da3adf937ccd77859a7c73d6c93ff3159dbc25",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

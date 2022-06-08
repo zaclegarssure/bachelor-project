@@ -1,0 +1,31 @@
+{
+    "name": "net.supertuxkart.SuperTuxKart",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "c4f045ed8f7b0e3d28734045c21e51cb246014e353c5924619fdbddc7417e7f8",
+    "branch": "stable",
+    "time_of_rebuild": "2021-10-11 14:26:48+00:00",
+    "timestamp_of_rebuild": 1633962408.0,
+    "git-commit": "1a4aebc81916b6042634ebbbff2471df597719f4 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "d40cff9fa614104744be54f9dcbfd846c76a6cb7a80f045f6057d34ba69ac423",
+        "org.freedesktop.Sdk/x86_64/21.08": "1fad7974d6fe02c6ac83e3e804e0317f4d8d3528dcd5087002e1b501ddadbb6b",
+        "org.freedesktop.Platform/x86_64/21.08": "16d161d8a71701b80fa4bca12812a22c19dc0641b3571fe88c517c84da94c5b5"
+    },
+    "build_time": 346.93184208869934,
+    "cache_size": 627879943,
+    "git_size": 0,
+    "dl_size": 627863480,
+    "bad_files": 2,
+    "total_files": 5498,
+    "repro_score": 0.9996362313568571,
+    "original_hash": "399746f6de2f7f10f26273adf126694ed76d5ce5",
+    "rebuild_hash": "7f4264e3ece5856efb447068e8fcc64be8119776",
+    "original_bin_hash": "39ac1687fba18168378a34f4c2671ee24f579576",
+    "rebuild_bin_hash": "0563b8510b5d89d2d04dad943a1f842b41bdad06",
+    "original_elf_hash": "df094c3d12de0646346472b4fc6265c2200c7f4c",
+    "rebuild_elf_hash": "df094c3d12de0646346472b4fc6265c2200c7f4c",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

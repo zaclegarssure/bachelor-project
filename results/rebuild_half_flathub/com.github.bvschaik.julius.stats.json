@@ -1,0 +1,23 @@
+{
+    "name": "com.github.bvschaik.julius",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 13.18644404411316,
+    "cache_size": 6469025,
+    "git_size": 0,
+    "dl_size": 6452562,
+    "original_hash": "655e857be30660357bbb67cbc55911a90c79b2fd",
+    "rebuild_hash": "d725c3673a810a97b3daea379fdbdd17e3be2cb0",
+    "original_bin_hash": "03377ad41bb16432317f067d3082c39d0040b396",
+    "rebuild_bin_hash": "03377ad41bb16432317f067d3082c39d0040b396",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

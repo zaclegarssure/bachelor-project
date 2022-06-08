@@ -1,0 +1,23 @@
+{
+    "name": "de.schmidhuberj.tubefeeder",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 1345.4153611660004,
+    "cache_size": 70111652,
+    "git_size": 256969,
+    "dl_size": 69805452,
+    "original_hash": "8258292f74f160a8db3669e69821f8b8a6eb78f0",
+    "rebuild_hash": "606d9b0192f195536e59484a2bfaa692ed54f1b0",
+    "original_bin_hash": "a67cb5190c6615f64f3a697b38b54fd91b73b38f",
+    "rebuild_bin_hash": "0a3e50ce3a9c63d0d94649daf05d08aeaa3f37af",
+    "original_lib_hash": "cf94b3482229efb7492da248988e8101199b1a6f",
+    "rebuild_lib_hash": "cf94b3482229efb7492da248988e8101199b1a6f",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

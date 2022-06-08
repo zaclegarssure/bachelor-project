@@ -1,0 +1,20 @@
+{
+    "name": "com.jagex.RuneScape",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 399.4764943122864,
+    "cache_size": 19232334,
+    "git_size": 0,
+    "dl_size": 19215871,
+    "original_hash": "214e96fd8bac62473c5e453e5e182bd0eef992bd",
+    "rebuild_hash": "c965a2d88d9672e911c5d8a53047d8d8a31fd16c",
+    "original_bin_hash": "9169dbdd45221aa45b9b6f31a1d40fcc2b559372",
+    "rebuild_bin_hash": "9169dbdd45221aa45b9b6f31a1d40fcc2b559372",
+    "original_lib_hash": "1ad37cac0aa006a9c44910fd2192c094031a6f05",
+    "rebuild_lib_hash": "70b538614278b36eb87bc4a6f6c724e231f24f9a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "laptop-arch"
+}

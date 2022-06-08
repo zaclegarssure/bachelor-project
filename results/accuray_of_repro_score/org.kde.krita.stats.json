@@ -1,0 +1,32 @@
+{
+    "name": "org.kde.krita",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "b37f0f4e1d510ed7e3b57c3e83f8114c874223d52beafc89bf88ff26dfaa29c7",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-30 12:49:49+00:00",
+    "timestamp_of_rebuild": 1653914989.0,
+    "git-commit": "87cc50775a5e26a2d510b0170f93376ef242903e master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "625b35f8ee797153dadff718ac0833d2a9544cef2abb4d53c4e13eaadce97323",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 7529.889928817749,
+    "cache_size": 677544643,
+    "git_size": 0,
+    "dl_size": 677519988,
+    "bad_files": 12,
+    "total_files": 3467,
+    "repro_score": 0.9965387943466975,
+    "original_hash": "75f151e24f9c30430005425874fb1dfe2a9da32f",
+    "rebuild_hash": "3b2a4db9fd90e0b3f9d36776f4feeb508d9b9678",
+    "original_bin_hash": "a7408b25ee371c5704285a63d2332d2e34516fba",
+    "rebuild_bin_hash": "d87084bf80011f2211529076e666805621c8234a",
+    "original_elf_hash": "8acc97adfba8dc5dfa4336adc15d330c715e6b65",
+    "rebuild_elf_hash": "ef183fd26e3a6351bc54cd5b4ecaa4f625dbc884",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

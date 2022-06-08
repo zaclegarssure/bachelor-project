@@ -1,0 +1,23 @@
+{
+    "name": "com.locomalito.abbayedesmorts",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 9.175818920135498,
+    "cache_size": 2705340,
+    "git_size": 2688877,
+    "dl_size": 0,
+    "original_hash": "52939e185ca7ab9db1056432e04622499daa0951",
+    "rebuild_hash": "52939e185ca7ab9db1056432e04622499daa0951",
+    "original_bin_hash": "f1843a07cb18b58ace6005fb12559a032a666a07",
+    "rebuild_bin_hash": "f1843a07cb18b58ace6005fb12559a032a666a07",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

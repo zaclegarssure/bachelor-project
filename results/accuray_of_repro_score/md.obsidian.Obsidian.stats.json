@@ -1,0 +1,32 @@
+{
+    "name": "md.obsidian.Obsidian",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "b7931b52574c7f92c726c31055cd81811fcd52fba9f8b698761856860955a2e4",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-10 14:11:13+00:00",
+    "timestamp_of_rebuild": 1652191873.0,
+    "git-commit": "78eca2b0845eff89b15fff9358d4225bdbd04762 master",
+    "flatpak-deps": {
+        "org.electronjs.Electron2.BaseApp/x86_64/21.08": "0281c7bff16ae16bd23554f65185a9b33ca71dafcdf85667983049d9e046ccb8",
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 95.06949400901794,
+    "cache_size": 107961318,
+    "git_size": 0,
+    "dl_size": 107944855,
+    "bad_files": 0,
+    "total_files": 185,
+    "repro_score": 1.0,
+    "original_hash": "195ee2a67a8f84096453b9bee5ba58aa3c8d4413",
+    "rebuild_hash": "195ee2a67a8f84096453b9bee5ba58aa3c8d4413",
+    "original_bin_hash": "c5b6c0e4494bf2c847593f4e3d82bb8f1df7be6d",
+    "rebuild_bin_hash": "c5b6c0e4494bf2c847593f4e3d82bb8f1df7be6d",
+    "original_elf_hash": "f6f640e4ff7697b54ec1ff4a9e0922355d8e93aa",
+    "rebuild_elf_hash": "f6f640e4ff7697b54ec1ff4a9e0922355d8e93aa",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

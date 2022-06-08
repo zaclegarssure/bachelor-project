@@ -1,0 +1,32 @@
+{
+    "name": "org.ghidra_sre.Ghidra",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "10e2416e78dbc4bc0be89084147548b85a9dfa61790b38411bcc29c053963c1e",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-23 17:15:25+00:00",
+    "timestamp_of_rebuild": 1653326125.0,
+    "git-commit": "d490779e83779e2d3c2b2504c2838fdfdda73e39 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk11/x86_64/21.08": "644d6a2463500e543f5ff2408f6ca4f11d533484c4709b022fbe2c3e9197328d",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 524.4989049434662,
+    "cache_size": 372749756,
+    "git_size": 149419416,
+    "dl_size": 223301589,
+    "bad_files": 167,
+    "total_files": 3955,
+    "repro_score": 0.9577749683944374,
+    "original_hash": "142fd6319baea10368eb489e38dd1d428e90f1fe",
+    "rebuild_hash": "8b406e3fa68fe8a10ac29f1bb413a3c50c584dc0",
+    "original_bin_hash": "bee3aec99460f8bcf96e142b5876b202de17bda1",
+    "rebuild_bin_hash": "a3b9cf0d753afce8d0c21066531323a176b2d00b",
+    "original_elf_hash": "53f7372e04ddb235ed2a87e8865bc93c63842e0a",
+    "rebuild_elf_hash": "3c8feea0d85f952eb9f66abc3fd134398e6e823f",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

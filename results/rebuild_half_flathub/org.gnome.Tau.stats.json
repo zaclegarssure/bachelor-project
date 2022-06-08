@@ -1,0 +1,25 @@
+{
+    "name": "org.gnome.Tau",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 218.9751100540161,
+    "cache_size": 31494647,
+    "git_size": 0,
+    "dl_size": 31478184,
+    "original_hash": "7199e6bbfcf8f4afd31aa9f35adb0110a19273fe",
+    "rebuild_hash": "cc6e04358816f86099507e33dd222cf1bedecfb7",
+    "original_bin_hash": "09bc3f3468518a04486163bb1cb77517523f537a",
+    "rebuild_bin_hash": "0f2b9b79e12102d213096bc3f5f4a0c97ffc2869",
+    "original_lib_hash": "30fd3bf8223fcc717d7ba0018bcf8c965c8704d4",
+    "rebuild_lib_hash": "30fd3bf8223fcc717d7ba0018bcf8c965c8704d4",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

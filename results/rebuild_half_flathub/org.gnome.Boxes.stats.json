@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Boxes",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 745.7352719306946,
+    "cache_size": 164951377,
+    "git_size": 30588857,
+    "dl_size": 134341961,
+    "original_hash": "52cb8c9195ce7e67d6b4e94f6e045a3de3d26e3f",
+    "rebuild_hash": "de13b6d5cce50f0721d6019d2d532de69aaa49be",
+    "original_bin_hash": "df886a697a0bde3cf77f6b0b61f11dfbe05c3eb7",
+    "rebuild_bin_hash": "df886a697a0bde3cf77f6b0b61f11dfbe05c3eb7",
+    "original_lib_hash": "1f8da03aa94ab6dca7e319d8d7213c79b677ce52",
+    "rebuild_lib_hash": "52e4fd961bc4ae51dba8dbd02c965ae77757a63b",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

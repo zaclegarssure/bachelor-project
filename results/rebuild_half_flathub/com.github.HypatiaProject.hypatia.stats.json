@@ -1,0 +1,23 @@
+{
+    "name": "com.github.HypatiaProject.hypatia",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 5.723711967468262,
+    "cache_size": 317219,
+    "git_size": 0,
+    "dl_size": 300756,
+    "original_hash": "61db2bd72f8527696d60f76459ed021d4dc0a6d3",
+    "rebuild_hash": "61db2bd72f8527696d60f76459ed021d4dc0a6d3",
+    "original_bin_hash": "67b83217a5935cfccc87f6a8d510dedc7cd3b536",
+    "rebuild_bin_hash": "67b83217a5935cfccc87f6a8d510dedc7cd3b536",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

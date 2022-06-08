@@ -1,0 +1,20 @@
+{
+    "name": "org.subsurface_divelog.Subsurface",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 666.8870534896851,
+    "cache_size": 37039119,
+    "git_size": 22399207,
+    "dl_size": 14638003,
+    "original_hash": "8d1c7ba86ed6f7ccdeff73764e4d3d5108fb8d0c",
+    "rebuild_hash": "5cb2242cc87932e0695986096b86fe00f91ebc7b",
+    "original_bin_hash": "12969c5753e18e76b3dda3d4c89350fc8ee89d0b",
+    "rebuild_bin_hash": "765359da7c9e8e72ba63bfffb0d39dd5b57f2ab7",
+    "original_lib_hash": "ad68387697ccc242acc6b8f5000340a380addccb",
+    "rebuild_lib_hash": "ad68387697ccc242acc6b8f5000340a380addccb",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora"
+}

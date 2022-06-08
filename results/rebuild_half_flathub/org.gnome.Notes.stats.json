@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Notes",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 137.34280967712402,
+    "cache_size": 8858283,
+    "git_size": 0,
+    "dl_size": 8841820,
+    "original_hash": "b12fe78f158a548b2497e7cc9fb35f0a186fdf0a",
+    "rebuild_hash": "b12fe78f158a548b2497e7cc9fb35f0a186fdf0a",
+    "original_bin_hash": "450c415126459e0baced72780b4c02a4f3c9acf7",
+    "rebuild_bin_hash": "450c415126459e0baced72780b4c02a4f3c9acf7",
+    "original_lib_hash": "0c248e8bd601bd99a2bc8740850e98d4ac88a352",
+    "rebuild_lib_hash": "0c248e8bd601bd99a2bc8740850e98d4ac88a352",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

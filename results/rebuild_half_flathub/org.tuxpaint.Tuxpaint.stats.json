@@ -1,0 +1,20 @@
+{
+    "name": "org.tuxpaint.Tuxpaint",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 316.57933473587036,
+    "cache_size": 238461737,
+    "git_size": 122075,
+    "dl_size": 238337989,
+    "original_hash": "5157d5d60a9f8d5e794c92500f0c2a393ba5aa4e",
+    "rebuild_hash": "a2c96168e47dcd0d15b281c743f65dfdf38b8eca",
+    "original_bin_hash": "734c29be81310149045b7ab73e1577a5d28eb02b",
+    "rebuild_bin_hash": "734c29be81310149045b7ab73e1577a5d28eb02b",
+    "original_lib_hash": "d0288be35dfdde816505c892bcd80cb39b7050b3",
+    "rebuild_lib_hash": "d0288be35dfdde816505c892bcd80cb39b7050b3",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora"
+}

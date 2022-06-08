@@ -1,0 +1,33 @@
+{
+    "name": "org.openshot.OpenShot",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "655abaeb016337cca867fb0ddeee99854e624b0e1c1935bfeba60609dc9c912f",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-13 03:40:09+00:00",
+    "timestamp_of_rebuild": 1636774809.0,
+    "git-commit": "1f8134bd7085de030f63ebf4651e745a2d8a7271 master",
+    "flatpak-deps": {
+        "io.qt.qtwebkit.BaseApp/x86_64/5.15-21.08": "b6fd7cdad084f25e4028499307824264c43201786f227b6287f40a665fa219bb",
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "62e9c270b68b5aa3b0c8c3490d7fa495b68c7eabfbcceff7681fa17fd8ad2b3e",
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.kde.Sdk/x86_64/5.15-21.08": "01dfceaf2736149c8ecca41da3571ca01e721d383b0481967a9c762b3cf2e8b4",
+        "org.kde.Platform/x86_64/5.15-21.08": "828c5d22d3068ea274ad6a7e45c939d49b0395a7b4b96be2c0300268fb1a7559"
+    },
+    "build_time": 1004.5814926624298,
+    "cache_size": 141075055,
+    "git_size": 8709513,
+    "dl_size": 132344983,
+    "bad_files": 14,
+    "total_files": 5186,
+    "repro_score": 0.9973004242190513,
+    "original_hash": "9d05b58e7537917f1cc91cf700daa63706baa127",
+    "rebuild_hash": "a3b3dda2d69a4205e4da498d7f43be11f02e0544",
+    "original_bin_hash": "43678f7e9becacdd722e7459e6957a956e275b42",
+    "rebuild_bin_hash": "5e841035023cd29d018a7d0602022699c11cc5d5",
+    "original_elf_hash": "6905030ea652fa766cc75fd867e75ff54b0a67ee",
+    "rebuild_elf_hash": "ccadd7a2f3e3cabeb3101231eefbe892da981928",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

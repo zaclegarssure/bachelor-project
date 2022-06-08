@@ -1,0 +1,32 @@
+{
+    "name": "org.hedgewars.Hedgewars",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "13effa5bcca578e5b63583e1a02ac3921198b369d91fdd5f8ba574af2e3fd5c8",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-20 19:11:23+00:00",
+    "timestamp_of_rebuild": 1653073883.0,
+    "git-commit": "bedbd881848b472adbd85b748218721937a91535 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.llvm13/x86_64/21.08": "6cd0ba82b5d892b09418908654787e64e24119daf43d65b3267e6716eba8fce0",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 1230.5294032096863,
+    "cache_size": 520449433,
+    "git_size": 0,
+    "dl_size": 520432970,
+    "bad_files": 1,
+    "total_files": 3248,
+    "repro_score": 0.999692118226601,
+    "original_hash": "a48b6179aceca48c32594c3624bde65554ecacb0",
+    "rebuild_hash": "2ee0e15554db38c461bd44a37fcbe40bc82c2b70",
+    "original_bin_hash": "bae716cf8cfeb946769870036c4b727e1f9b489b",
+    "rebuild_bin_hash": "6a5359b11ef0377df8edb25e186a2a831a52217b",
+    "original_elf_hash": "c59b25c443bdfb98d5d0afbe330c5af07f901b08",
+    "rebuild_elf_hash": "0efc3c531a05a0d87816ccf269a5e2dbff66dd47",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

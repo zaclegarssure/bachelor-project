@@ -1,0 +1,28 @@
+{
+    "name": "com.github.jkotra.eovpn",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 171.9593861103058,
+    "cache_size": 15671564,
+    "git_size": 13563714,
+    "dl_size": 2087291,
+    "original_hash": "2a9200798a9dbf9763dbee77c6d7d3b48407466c",
+    "rebuild_hash": "2a9200798a9dbf9763dbee77c6d7d3b48407466c",
+    "original_bin_hash": "4be2c05d7b9162f0b1a027489edfce31f3fc0d37",
+    "rebuild_bin_hash": "4be2c05d7b9162f0b1a027489edfce31f3fc0d37",
+    "original_lib_hash": "bfbccc2ec49e579c6ba74d60c95b3af8d08eef70",
+    "rebuild_lib_hash": "bfbccc2ec49e579c6ba74d60c95b3af8d08eef70",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "autotools",
+        "autotools",
+        "meson",
+        "meson",
+        "autotools",
+        "meson"
+    ]
+}

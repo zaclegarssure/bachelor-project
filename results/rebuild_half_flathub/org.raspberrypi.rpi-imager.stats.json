@@ -1,0 +1,23 @@
+{
+    "name": "org.raspberrypi.rpi-imager",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 27.349685430526733,
+    "cache_size": 20213547,
+    "git_size": 0,
+    "dl_size": 20213226,
+    "original_hash": "f6f02a8e8241982fdca257109cc622ccf2e53ec6",
+    "rebuild_hash": "e3da6113f2de323e5e07215d62caef83fed64b69",
+    "original_bin_hash": "6570e4f9540cae957853b819775cd16b6ef5bb57",
+    "rebuild_bin_hash": "29aedaff327955622efe68ffbc28f399c7faf84e",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

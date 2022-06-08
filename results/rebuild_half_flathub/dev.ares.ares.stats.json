@@ -1,0 +1,23 @@
+{
+    "name": "dev.ares.ares",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 528.8495965003967,
+    "cache_size": 4919212,
+    "git_size": 0,
+    "dl_size": 4902749,
+    "original_hash": "cc7891db7c7b5110bf6d98a58d6aba69ddb94cee",
+    "rebuild_hash": "cc7891db7c7b5110bf6d98a58d6aba69ddb94cee",
+    "original_bin_hash": "3040eb2b90d6e0c7464bddc87a8576a7e777a407",
+    "rebuild_bin_hash": "3040eb2b90d6e0c7464bddc87a8576a7e777a407",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

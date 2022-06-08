@@ -1,0 +1,24 @@
+{
+    "name": "com.github.libresprite.LibreSprite",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 138.68527221679688,
+    "cache_size": 5072530,
+    "git_size": 3939007,
+    "dl_size": 1112964,
+    "original_hash": "1f536e4ed71dd46c748aa0df123ba99b84aba93e",
+    "rebuild_hash": "9454c1f94ceeab8b4a2ef11693db3266d29b26f0",
+    "original_bin_hash": "82b974c5e3faebaa3e2bca970fb6f03f5e0b5b07",
+    "rebuild_bin_hash": "82b974c5e3faebaa3e2bca970fb6f03f5e0b5b07",
+    "original_lib_hash": "5beaa2aac4bd9c5605bda97cfa2f2ed7d61eb424",
+    "rebuild_lib_hash": "5beaa2aac4bd9c5605bda97cfa2f2ed7d61eb424",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "cmake-ninja"
+    ]
+}

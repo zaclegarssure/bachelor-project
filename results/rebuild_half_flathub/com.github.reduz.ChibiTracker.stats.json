@@ -1,0 +1,20 @@
+{
+    "name": "com.github.reduz.ChibiTracker",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 200.06908464431763,
+    "cache_size": 31766521,
+    "git_size": 643808,
+    "dl_size": 31102154,
+    "original_hash": "c7c4b6716deeaa149a8afd2a98baa0edbf4194e0",
+    "rebuild_hash": "ac83c45e649ef6d3d4e28fe6affe71a5acd47902",
+    "original_bin_hash": "ff79708d20bd70675f63eaa801d0bd59a45539a4",
+    "rebuild_bin_hash": "ff79708d20bd70675f63eaa801d0bd59a45539a4",
+    "original_lib_hash": "b7f8076f02a1cec39706f8ad5c536035982fde1c",
+    "rebuild_lib_hash": "145678e8bcb2132aa35dfc9ab9bb83e2092dd7e8",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

@@ -1,0 +1,26 @@
+{
+    "name": "org.profex_xrd.Profex",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 555.1967055797577,
+    "cache_size": 20615755,
+    "git_size": 0,
+    "dl_size": 20615062,
+    "original_hash": "6f2c9b5318ff702307b6dec530a0b2abbeb3d26f",
+    "rebuild_hash": "580b5eca980a1369c564c1489c5701236e174d6c",
+    "original_bin_hash": "8a7d596538b0bdb000cc129499875ab81ef2afa3",
+    "rebuild_bin_hash": "2c16f3604f3050beb73e40005a60c878ddabf7fa",
+    "original_lib_hash": "5c8d5b44a059e850e44ee755e53b0f4bffdfe9fc",
+    "rebuild_lib_hash": "5c8d5b44a059e850e44ee755e53b0f4bffdfe9fc",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "cmake-ninja",
+        "simple",
+        "simple",
+        "qmake"
+    ]
+}

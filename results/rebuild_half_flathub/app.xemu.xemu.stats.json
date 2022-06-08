@@ -1,0 +1,26 @@
+{
+    "name": "app.xemu.xemu",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 163.72450637817383,
+    "cache_size": 1029371005,
+    "git_size": 1027846906,
+    "dl_size": 1503540,
+    "original_hash": "60fc0c9b0e0c7b738d6e69a4710f2d8e4feedb93",
+    "rebuild_hash": "b7d01be7ce8bdfc498b5aeccbc243b865687e07b",
+    "original_bin_hash": "edf12889d591524fc033906acf10ae8dc29a267f",
+    "rebuild_bin_hash": "3153f2a9d014c0a0371700e9fac1dbe3d39f91bd",
+    "original_lib_hash": "949955ef258ca44d52e3d4d69789331d5b5b5539",
+    "rebuild_lib_hash": "949955ef258ca44d52e3d4d69789331d5b5b5539",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "meson",
+        "simple",
+        "autotools"
+    ]
+}

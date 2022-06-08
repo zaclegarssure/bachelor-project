@@ -1,0 +1,24 @@
+{
+    "name": "dev.Cogitri.Health",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 676.594518661499,
+    "cache_size": 32419665,
+    "git_size": 0,
+    "dl_size": 32403202,
+    "original_hash": "192cd6e2acbca4b40c4a400cdbc5678b10a880e5",
+    "rebuild_hash": "ff5105d307aab1345ffc06a8642ad6a9975c8773",
+    "original_bin_hash": "b3f4fe0abfeb399b0f1f7563910df7aa297dd17f",
+    "rebuild_bin_hash": "6e7b35d936e3063c819d7d7db275c41ca70968c8",
+    "original_lib_hash": "d74c045ed420b2d24f4b9a2a7a0108a99cd00beb",
+    "rebuild_lib_hash": "d74c045ed420b2d24f4b9a2a7a0108a99cd00beb",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

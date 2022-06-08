@@ -1,0 +1,31 @@
+{
+    "name": "org.atheme.audacious",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "5d2baf76c7932aa171910ddde7f6716669664705441e8cd0891c1bf798f4ce44",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-30 22:54:07+00:00",
+    "timestamp_of_rebuild": 1633042447.0,
+    "git-commit": "e3387eef232ed304a2dc20f77d10b7cb54ea790d master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "d40cff9fa614104744be54f9dcbfd846c76a6cb7a80f045f6057d34ba69ac423",
+        "org.kde.Sdk/x86_64/5.15-21.08": "0ae4796e7e7e9aa76e96595f9c526159672d0ef45df04cd10cfba6368a6e9c6d",
+        "org.kde.Platform/x86_64/5.15-21.08": "3a2695771f3460699b7d28fa3ed93e050b6726892310e824ac6df16c00b9ca0f"
+    },
+    "build_time": 518.7586104869843,
+    "cache_size": 36853574,
+    "git_size": 10189219,
+    "dl_size": 26643796,
+    "bad_files": 5,
+    "total_files": 740,
+    "repro_score": 0.9932432432432432,
+    "original_hash": "0379a1c1772b4f2e6985eba262948f48e1aef794",
+    "rebuild_hash": "cf30b136794c6d0e5f8204885e17b61a87a32c10",
+    "original_bin_hash": "8fb3b1289d8e897dc1691014892a07290f7f77cd",
+    "rebuild_bin_hash": "73a2fd8eebb1cccd1f9c3df071f32dfc4ca66443",
+    "original_elf_hash": "8565b71eb7fe61540b4846c706c79ebec2bead86",
+    "rebuild_elf_hash": "44d6d4e256b300bab8e12a6bd4c7d9ef44070012",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

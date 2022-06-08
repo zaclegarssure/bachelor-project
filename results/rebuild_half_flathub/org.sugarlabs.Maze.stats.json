@@ -1,0 +1,23 @@
+{
+    "name": "org.sugarlabs.Maze",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 8.042505025863647,
+    "cache_size": 150545,
+    "git_size": 150280,
+    "dl_size": 0,
+    "original_hash": "853ee63c663587200d1e7d1cc1dc33c0b78c1172",
+    "rebuild_hash": "853ee63c663587200d1e7d1cc1dc33c0b78c1172",
+    "original_bin_hash": "a6575aa72d8bb2f909da88ec49ca667a16cfb6eb",
+    "rebuild_bin_hash": "a6575aa72d8bb2f909da88ec49ca667a16cfb6eb",
+    "original_lib_hash": "06001a0e40c7811ef78044144e64be3e5aec92a5",
+    "rebuild_lib_hash": "06001a0e40c7811ef78044144e64be3e5aec92a5",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple"
+    ]
+}

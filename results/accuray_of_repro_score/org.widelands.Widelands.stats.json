@@ -1,0 +1,31 @@
+{
+    "name": "org.widelands.Widelands",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "a18fb49c1eee109ef57e3c475c7c48d1f62af34055c75a841c39dbbdf6ba5413",
+    "branch": "stable",
+    "time_of_rebuild": "2021-06-15 08:50:42+00:00",
+    "timestamp_of_rebuild": 1623747042.0,
+    "git-commit": "218e8ef02a977602be191e32e818096718b6f310 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "5bb4449e7d2ac3622c34816c040e39ac4ce0df7f50caa51a66b8ac45a3242b8c",
+        "org.freedesktop.Sdk/x86_64/20.08": "699d38c9e1d5c566179309d47537729022a964f9f442fae59168130a9161c010",
+        "org.freedesktop.Platform/x86_64/20.08": "f7ca632f38fbf46f8ec2ad01cd2cb123e1683d58a9b29ecefa352edae383b17c"
+    },
+    "build_time": 700.5754940509796,
+    "cache_size": 903501237,
+    "git_size": 0,
+    "dl_size": 903484774,
+    "bad_files": 1,
+    "total_files": 42968,
+    "repro_score": 0.9999767268665053,
+    "original_hash": "a83d1b40a7e87adf0b9756ac3824b04403d1bf51",
+    "rebuild_hash": "fb969e1f716e7e1b1e1cbc444b469edcd8353434",
+    "original_bin_hash": "0237221992e819cd5bf5f83c2e34c2d46d72ca8f",
+    "rebuild_bin_hash": "40a264e4b5c9ae9ec4382c7c938e52e93362fe2f",
+    "original_elf_hash": "d62875d7cc61eacda0e2860ef8a2e2c498f3c1a1",
+    "rebuild_elf_hash": "d62875d7cc61eacda0e2860ef8a2e2c498f3c1a1",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

@@ -1,0 +1,26 @@
+{
+    "name": "com.github.paolostivanin.OTPClient",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 78.58034062385559,
+    "cache_size": 2869239,
+    "git_size": 0,
+    "dl_size": 2852776,
+    "original_hash": "146ba2ed91435564ad15c68043a86e8c02bd1080",
+    "rebuild_hash": "d5851d6bfcbeb8a571adffda6ae115557c2c08fd",
+    "original_bin_hash": "19d8867469188a6a07fe4e4cb7364a6fc30cf5ca",
+    "rebuild_bin_hash": "19d8867469188a6a07fe4e4cb7364a6fc30cf5ca",
+    "original_lib_hash": "98b0abfc05963b09e8205cd56c2a201ee1383e05",
+    "rebuild_lib_hash": "98b0abfc05963b09e8205cd56c2a201ee1383e05",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "cmake-ninja",
+        "cmake-ninja",
+        "cmake-ninja"
+    ]
+}

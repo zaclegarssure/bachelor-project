@@ -1,0 +1,23 @@
+{
+    "name": "com.sireliah.Dragit",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 127.9059476852417,
+    "cache_size": 57174678,
+    "git_size": 0,
+    "dl_size": 57158215,
+    "original_hash": "29f11f12215f52ad31a4859b9fa783f59dcb82e7",
+    "rebuild_hash": "29f11f12215f52ad31a4859b9fa783f59dcb82e7",
+    "original_bin_hash": "613ee0521da828e456a9c11dbfa22fbe67c356fd",
+    "rebuild_bin_hash": "613ee0521da828e456a9c11dbfa22fbe67c356fd",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

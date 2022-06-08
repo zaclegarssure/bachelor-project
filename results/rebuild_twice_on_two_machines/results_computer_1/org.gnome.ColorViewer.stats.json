@@ -1,0 +1,10 @@
+{
+    "name": "org.gnome.ColorViewer",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "0b080849e9d7e78b7e0cd293ae17ea36a1b36d8137e6f068b3207d6630e52bc1",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-27 10:10:05+00:00",
+    "timestamp_of_rebuild": 1632737405.0
+}

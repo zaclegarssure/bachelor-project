@@ -1,0 +1,28 @@
+{
+    "name": "org.gnome.FileRoller",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 119.96016311645508,
+    "cache_size": 16578884,
+    "git_size": 0,
+    "dl_size": 16562421,
+    "original_hash": "1f8411f7b0f80d5ab96a022afd2badf2a18b6eca",
+    "rebuild_hash": "1f8411f7b0f80d5ab96a022afd2badf2a18b6eca",
+    "original_bin_hash": "d982d196ec2fba5eff80f972ebaba11754f6800f",
+    "rebuild_bin_hash": "d982d196ec2fba5eff80f972ebaba11754f6800f",
+    "original_lib_hash": "0b7443af89e6530503c19ad8c1a1b24f06c25fe6",
+    "rebuild_lib_hash": "0b7443af89e6530503c19ad8c1a1b24f06c25fe6",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "meson",
+        "simple",
+        "meson"
+    ]
+}

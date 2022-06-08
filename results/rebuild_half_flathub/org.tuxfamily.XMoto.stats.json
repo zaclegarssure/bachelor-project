@@ -1,0 +1,20 @@
+{
+    "name": "org.tuxfamily.XMoto",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 280.7154769897461,
+    "cache_size": 56785694,
+    "git_size": 0,
+    "dl_size": 56784235,
+    "original_hash": "36a7d4114c888c62ce416708782948b3d5e14741",
+    "rebuild_hash": "36a7d4114c888c62ce416708782948b3d5e14741",
+    "original_bin_hash": "2dcd018950d8e78d703b3feed187f996d95f0724",
+    "rebuild_bin_hash": "2dcd018950d8e78d703b3feed187f996d95f0724",
+    "original_lib_hash": "1539bef56a9e099a7e3b6d1d573d0e699e1818fd",
+    "rebuild_lib_hash": "1539bef56a9e099a7e3b6d1d573d0e699e1818fd",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora"
+}

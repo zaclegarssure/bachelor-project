@@ -1,0 +1,23 @@
+{
+    "name": "com.github.artemanufrij.regextester",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 13.943565845489502,
+    "cache_size": 162678,
+    "git_size": 0,
+    "dl_size": 146215,
+    "original_hash": "699875ced7e01c1360993be7cffd5e7063140217",
+    "rebuild_hash": "c7623ce8c1f5cbb21212b5672defbd321babd0d9",
+    "original_bin_hash": "ca575920a1d04929fec51180f1bedac3b2ec5426",
+    "rebuild_bin_hash": "ca575920a1d04929fec51180f1bedac3b2ec5426",
+    "original_lib_hash": "ada58591afb906373abd18dd6e1907b0f508a1c9",
+    "rebuild_lib_hash": "ada58591afb906373abd18dd6e1907b0f508a1c9",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

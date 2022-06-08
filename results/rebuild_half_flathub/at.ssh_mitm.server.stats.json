@@ -1,0 +1,23 @@
+{
+    "name": "at.ssh_mitm.server",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 97.63888263702393,
+    "cache_size": 17679034,
+    "git_size": 0,
+    "dl_size": 17662571,
+    "original_hash": "28dcd1f643ca0e9d1104efe8bb4ca4174e3f629b",
+    "rebuild_hash": "aefea5b49f9fba27a6d84ae5b884cfdaba9cca64",
+    "original_bin_hash": "9c7122a5dfcacc26270ee31491da0a129a9438fb",
+    "rebuild_bin_hash": "9c7122a5dfcacc26270ee31491da0a129a9438fb",
+    "original_lib_hash": "d08c545c5af76c60fb9dc30c0a8e87ce7e09212e",
+    "rebuild_lib_hash": "d20b28f7843b76c5f16e304eda5abd4c876289d9",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

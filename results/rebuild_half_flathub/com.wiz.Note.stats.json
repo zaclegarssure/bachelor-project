@@ -1,0 +1,11 @@
+{
+    "name": "com.wiz.Note",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "afcbc3f5ab1fec12610fccd56083a315aabfe0e143ef0355f5a2c3d38a5f8157",
+    "branch": "stable",
+    "time_of_rebuild": "2021-02-18 09:35:35+00:00",
+    "timestamp_of_rebuild": 1613640935.0,
+    "machine": "desktop-arch"
+}

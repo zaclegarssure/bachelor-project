@@ -1,0 +1,24 @@
+{
+    "name": "org.gnome.baobab",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 79.10959982872009,
+    "cache_size": 8802262,
+    "git_size": 8189215,
+    "dl_size": 592488,
+    "original_hash": "c95221f5a4674924e5290a919995aeec1e1f268c",
+    "rebuild_hash": "c95221f5a4674924e5290a919995aeec1e1f268c",
+    "original_bin_hash": "2ec45953f92acaf5fefa7f289c3f61d3541ecd8a",
+    "rebuild_bin_hash": "2ec45953f92acaf5fefa7f289c3f61d3541ecd8a",
+    "original_lib_hash": "adf94fe0b6a039fa78c55b71a09fd1f815a6f614",
+    "rebuild_lib_hash": "adf94fe0b6a039fa78c55b71a09fd1f815a6f614",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

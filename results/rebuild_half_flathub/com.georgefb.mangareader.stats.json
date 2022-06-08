@@ -1,0 +1,23 @@
+{
+    "name": "com.georgefb.mangareader",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 18.95946979522705,
+    "cache_size": 3647264,
+    "git_size": 0,
+    "dl_size": 3630801,
+    "original_hash": "6b0e4489438d72766482d459e1e70bda80328219",
+    "rebuild_hash": "87cb26cf24268ebe64a706672ab86796052a230e",
+    "original_bin_hash": "90e4cb1efe8b8f5064c87bc37b2ee59c3ccda08b",
+    "rebuild_bin_hash": "9893804722c56b635ba5bff1f1aa472de59c1187",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

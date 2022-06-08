@@ -1,0 +1,26 @@
+{
+    "name": "com.etlegacy.ETLegacy",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 45.403053760528564,
+    "cache_size": 75854387,
+    "git_size": 14424853,
+    "dl_size": 61408975,
+    "original_hash": "8c60106e31e3a71cbffb35e7670cb5f8adfd3fed",
+    "rebuild_hash": "8c60106e31e3a71cbffb35e7670cb5f8adfd3fed",
+    "original_bin_hash": "6a316a78da32be135c2a49e51ae7405f684c33be",
+    "rebuild_bin_hash": "6a316a78da32be135c2a49e51ae7405f684c33be",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": "abd2a2a9a35d53c85cc3efd87a1585fdb31d77ca",
+    "rebuild_lib32_hash": "abd2a2a9a35d53c85cc3efd87a1585fdb31d77ca",
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

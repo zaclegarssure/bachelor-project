@@ -1,0 +1,31 @@
+{
+    "name": "org.seul.pingus",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "30bfbeb105e755722e125dd4900a604d68386d58d72cb20ba365b1a2b893d684",
+    "branch": "stable",
+    "time_of_rebuild": "2021-10-19 09:12:12+00:00",
+    "timestamp_of_rebuild": 1634634732.0,
+    "git-commit": "503c21460ff172bb20aaa24f44e3216a60d11127 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/20.08": "478fee082e60836b66a2c9a27f926e00e7f8deb27e0fdd392f3662d26570e0ad",
+        "org.freedesktop.Platform/x86_64/20.08": "7898e3822e6f10310c8f2b6ae8aa630ed102eb1e3341c7e57e0aa9757987d2ea"
+    },
+    "build_time": 225.4395568370819,
+    "cache_size": 108349582,
+    "git_size": 101838970,
+    "dl_size": 6490053,
+    "bad_files": 1,
+    "total_files": 2305,
+    "repro_score": 0.9995661605206074,
+    "original_hash": "3b9a9519410d87325c33403070e99d01011b1c31",
+    "rebuild_hash": "41276eb4c846802c471d93b02f0dc07d659b5851",
+    "original_bin_hash": "fe2cf674d42f6c927a7112e3a3ecf76c39170508",
+    "rebuild_bin_hash": "fe2cf674d42f6c927a7112e3a3ecf76c39170508",
+    "original_elf_hash": "3f9f8175b7eb728ccce48273ddef0d4e6de070ef",
+    "rebuild_elf_hash": "3f9f8175b7eb728ccce48273ddef0d4e6de070ef",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

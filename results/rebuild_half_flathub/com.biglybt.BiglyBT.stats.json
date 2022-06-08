@@ -1,0 +1,24 @@
+{
+    "name": "com.biglybt.BiglyBT",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 25.16706943511963,
+    "cache_size": 38874479,
+    "git_size": 0,
+    "dl_size": 38858016,
+    "original_hash": "7c5f0899476a104ba982ff69b1ba6e49d4e1af5e",
+    "rebuild_hash": "7c5f0899476a104ba982ff69b1ba6e49d4e1af5e",
+    "original_bin_hash": "3cedd755377664f0e24079a3ed33a17c11f05717",
+    "rebuild_bin_hash": "3cedd755377664f0e24079a3ed33a17c11f05717",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

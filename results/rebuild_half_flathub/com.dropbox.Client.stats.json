@@ -1,0 +1,26 @@
+{
+    "name": "com.dropbox.Client",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 6.906554222106934,
+    "cache_size": 2399281,
+    "git_size": 0,
+    "dl_size": 2382818,
+    "original_hash": "873a1d0a9fe293498d3d023191d737e501f472ec",
+    "rebuild_hash": "873a1d0a9fe293498d3d023191d737e501f472ec",
+    "original_bin_hash": "d2ca709733eec315c0effcddba042b94a5aabcac",
+    "rebuild_bin_hash": "d2ca709733eec315c0effcddba042b94a5aabcac",
+    "original_lib_hash": "78e6da87619bfec9b702a4e1c56bf232ae3f2ab0",
+    "rebuild_lib_hash": "78e6da87619bfec9b702a4e1c56bf232ae3f2ab0",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

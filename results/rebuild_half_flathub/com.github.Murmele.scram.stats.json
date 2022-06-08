@@ -1,0 +1,24 @@
+{
+    "name": "com.github.Murmele.scram",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 211.66187691688538,
+    "cache_size": 116668115,
+    "git_size": 3186649,
+    "dl_size": 113460907,
+    "original_hash": "f0c06a3af8b55209039d2505e0099ccd511c0cd2",
+    "rebuild_hash": "ce17ffebc03e5e03ba51acc1cf87637fcc697418",
+    "original_bin_hash": "971cab319e2246cf2f6fd7cb4f84dd772c4d0975",
+    "rebuild_bin_hash": "0b9493edfe4dc1a40d61de3fae5ac591d2984588",
+    "original_lib_hash": "de3aaef13bd13aa960234dc42bc66cd770102ab5",
+    "rebuild_lib_hash": "de3aaef13bd13aa960234dc42bc66cd770102ab5",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "cmake-ninja"
+    ]
+}

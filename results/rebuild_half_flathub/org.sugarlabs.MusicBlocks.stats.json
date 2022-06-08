@@ -1,0 +1,24 @@
+{
+    "name": "org.sugarlabs.MusicBlocks",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 48.65834641456604,
+    "cache_size": 135615979,
+    "git_size": 701631,
+    "dl_size": 134913935,
+    "original_hash": "31ebbba9356a6a692ff241b256ba7338ac926a09",
+    "rebuild_hash": "31ebbba9356a6a692ff241b256ba7338ac926a09",
+    "original_bin_hash": "2b75012a87a32ea58eb2c3a43ef55bbb157e667a",
+    "rebuild_bin_hash": "2b75012a87a32ea58eb2c3a43ef55bbb157e667a",
+    "original_lib_hash": "09c7b992dff4fd308d46285e288c43d7385647d3",
+    "rebuild_lib_hash": "09c7b992dff4fd308d46285e288c43d7385647d3",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

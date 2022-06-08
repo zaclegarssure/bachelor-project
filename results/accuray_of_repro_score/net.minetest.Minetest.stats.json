@@ -1,0 +1,31 @@
+{
+    "name": "net.minetest.Minetest",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "e4dd98b627b2ef3d9e1f2d06330d12f4d58d1961ff2bc96c71d39d484ca73131",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-18 17:56:50+00:00",
+    "timestamp_of_rebuild": 1652896610.0,
+    "git-commit": "bb8ffc7522367e7c80e1af940ffef85b9bceacc1 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 195.55557441711426,
+    "cache_size": 14208655,
+    "git_size": 0,
+    "dl_size": 14192192,
+    "bad_files": 0,
+    "total_files": 1858,
+    "repro_score": 1.0,
+    "original_hash": "26369c74ec8e298b3321dd731eb4ae161981d960",
+    "rebuild_hash": "26369c74ec8e298b3321dd731eb4ae161981d960",
+    "original_bin_hash": "c04509ae292c50f019e8dc15bee4e4c92cb775fd",
+    "rebuild_bin_hash": "c04509ae292c50f019e8dc15bee4e4c92cb775fd",
+    "original_elf_hash": "1b4cfb93f0c4b3af866573a8ec8a613d6246b138",
+    "rebuild_elf_hash": "1b4cfb93f0c4b3af866573a8ec8a613d6246b138",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

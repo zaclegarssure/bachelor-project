@@ -1,0 +1,20 @@
+{
+    "name": "org.sugarlabs.Pippy",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 310.3647303581238,
+    "cache_size": 29410909,
+    "git_size": 320966,
+    "dl_size": 29087900,
+    "original_hash": "b29761a23e779281f88db7dfc98e06e752747c15",
+    "rebuild_hash": "ca723425070d0371c89bd43684730b00efc08583",
+    "original_bin_hash": "c60d9590165dcecfac75898ec690429c428e8290",
+    "rebuild_bin_hash": "c60d9590165dcecfac75898ec690429c428e8290",
+    "original_lib_hash": "71ebce60e27c09776ed01e1ce2fec98dd07880b1",
+    "rebuild_lib_hash": "b6be9b9ec0ee21396b0caa4342f70ba96d002d02",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora"
+}

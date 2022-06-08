@@ -1,0 +1,16 @@
+{
+    "name": "org.qbittorrent.qBittorrent",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "a0d1088a6b9e5ba210eb78170332febe20675c5ec4019e5c60ae5f83469ccc40",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-26 07:36:40+00:00",
+    "timestamp_of_rebuild": 1653550600.0,
+    "git-commit": "a048a121d13c7f462441560a95ac991295799548 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "1bf5dbd9fd2f66898d2501dfbe0e5327d0dc6eecd9e02e2bdeb39a43df7974c8",
+        "org.kde.Platform/x86_64/5.15-21.08": "c49e5ed4c419e849e15657b270c0cb9550afaa73277c611426b97c701cbe37b4"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "cc.arduino.arduinoide",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 109.52407932281494,
+    "cache_size": 147841465,
+    "git_size": 202088,
+    "dl_size": 147618818,
+    "original_hash": "18678b6110a2484eba1b769df6d0f36316469b97",
+    "rebuild_hash": "200142f00afba76a991132e12de77ca5f3eac592",
+    "original_bin_hash": "ff2f87929173c14c9e96d5a53c7b190cf473f7d9",
+    "rebuild_bin_hash": "ff2f87929173c14c9e96d5a53c7b190cf473f7d9",
+    "original_lib_hash": "8ab93f896174ada801a110ae1f78964d1418b606",
+    "rebuild_lib_hash": "8ab93f896174ada801a110ae1f78964d1418b606",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

@@ -1,0 +1,24 @@
+{
+    "name": "com.plexamp.Plexamp",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 38.24060416221619,
+    "cache_size": 86280759,
+    "git_size": 293077,
+    "dl_size": 85967123,
+    "original_hash": "956799f6faed2342ee94d9b012bdfab1f546ef33",
+    "rebuild_hash": "956799f6faed2342ee94d9b012bdfab1f546ef33",
+    "original_bin_hash": "902ce838aa78c0970deff1a8298e9c96f4c3c0b4",
+    "rebuild_bin_hash": "902ce838aa78c0970deff1a8298e9c96f4c3c0b4",
+    "original_lib_hash": "f881b206468b9526ad2d23b17252280b771659a1",
+    "rebuild_lib_hash": "f881b206468b9526ad2d23b17252280b771659a1",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

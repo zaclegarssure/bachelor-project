@@ -1,0 +1,23 @@
+{
+    "name": "com.github.johnfactotum.Foliate",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 13.652965307235718,
+    "cache_size": 4308599,
+    "git_size": 4292136,
+    "dl_size": 0,
+    "original_hash": "692177776bbe7582b43974604ae2bd130a617869",
+    "rebuild_hash": "692177776bbe7582b43974604ae2bd130a617869",
+    "original_bin_hash": "4df22994ec3407bb77f6724281fd5cfb6f57be95",
+    "rebuild_bin_hash": "4df22994ec3407bb77f6724281fd5cfb6f57be95",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

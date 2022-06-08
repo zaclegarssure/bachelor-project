@@ -1,0 +1,29 @@
+{
+    "name": "com.heroicgameslauncher.hgl",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 125.34987282752991,
+    "cache_size": 157164109,
+    "git_size": 293077,
+    "dl_size": 156850473,
+    "original_hash": "4653c5875aff6ba05dae70d22597a0e37ef0c3c6",
+    "rebuild_hash": "4653c5875aff6ba05dae70d22597a0e37ef0c3c6",
+    "original_bin_hash": "eed47b6b8ed702affbcdc7316d43287a99c438af",
+    "rebuild_bin_hash": "eed47b6b8ed702affbcdc7316d43287a99c438af",
+    "original_lib_hash": "349e76f2a94b57fb33c711e5508b5853a211f59f",
+    "rebuild_lib_hash": "349e76f2a94b57fb33c711e5508b5853a211f59f",
+    "original_lib32_hash": "045abeeb58ab50acb3613291e549f23a96feae9b",
+    "rebuild_lib32_hash": "045abeeb58ab50acb3613291e549f23a96feae9b",
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple",
+        "cmake-ninja",
+        "meson",
+        "meson",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

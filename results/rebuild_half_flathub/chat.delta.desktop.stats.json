@@ -1,0 +1,24 @@
+{
+    "name": "chat.delta.desktop",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 652.4686830043793,
+    "cache_size": 341560159,
+    "git_size": 27192264,
+    "dl_size": 314068808,
+    "original_hash": "b22d5068fc79ec6b03e67d32e08ca0013f354cdd",
+    "rebuild_hash": "6d61ca277d1c8838ae471daa8b96a5da2b4faacc",
+    "original_bin_hash": "6a84337a082491bfab4e7592b41c3a50d37a2abc",
+    "rebuild_bin_hash": "6a84337a082491bfab4e7592b41c3a50d37a2abc",
+    "original_lib_hash": "d619f43f3526e09c9cffdb6e5501b2b0f80854bc",
+    "rebuild_lib_hash": "d619f43f3526e09c9cffdb6e5501b2b0f80854bc",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "simple"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "org.tuxfamily.hatari",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 157.1803126335144,
+    "cache_size": 5479412,
+    "git_size": 1574429,
+    "dl_size": 3904524,
+    "original_hash": "9d312ee403c5259a108d227fc4750638984ad651",
+    "rebuild_hash": "5686e0f8100d0816f7047fb211cb80298d4c6bc5",
+    "original_bin_hash": "9b43cd0c7bc1207b73e1662ad0299bab8bc87efc",
+    "rebuild_bin_hash": "cf402faffa796e2dc369b472dcefcc3e43b14800",
+    "original_lib_hash": "0a18b85a577164a892bf281a253f9c9360b0babc",
+    "rebuild_lib_hash": "0a18b85a577164a892bf281a253f9c9360b0babc",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "cmake-ninja",
+        "simple",
+        "simple"
+    ]
+}

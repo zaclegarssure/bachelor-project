@@ -1,0 +1,32 @@
+{
+    "name": "net.xm1math.Texmaker",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "7fcd974744c19fbe6cce7d1a5056cef1542170bd14631bcabe5366195b57f6e7",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-01 01:26:11+00:00",
+    "timestamp_of_rebuild": 1651368371.0,
+    "git-commit": "77fed588f48d01d8e41d804588851da9f61a0a8b master",
+    "flatpak-deps": {
+        "io.qt.qtwebengine.BaseApp/x86_64/5.15-21.08": "c432ff878c4ba4486a719313b225fedc59e7898e7bc1468404a202a37d56b7a5",
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 145.59185528755188,
+    "cache_size": 15142766,
+    "git_size": 0,
+    "dl_size": 15126303,
+    "bad_files": 1,
+    "total_files": 267,
+    "repro_score": 0.9962546816479401,
+    "original_hash": "e64f5307b66d33299c527d1f88f092b6702779aa",
+    "rebuild_hash": "ea54ea532c72ce9c58f4bc12dd42b754d9a51920",
+    "original_bin_hash": "91d3f9d9aa8abce6761e33d86301c78f62bd8dbb",
+    "rebuild_bin_hash": "041611161599a52591ba711b2b66b358853ad018",
+    "original_elf_hash": "e9337f4749775f3dbf820db0a6daad411b72bed1",
+    "rebuild_elf_hash": "bbc73d5d4d7ee8b66dcbdf7f973e60e46e2e1441",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,27 @@
+{
+    "name": "org.photoqt.PhotoQt",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 464.73733949661255,
+    "cache_size": 57613574,
+    "git_size": 48228458,
+    "dl_size": 9384231,
+    "original_hash": "cb1802cc5e871b9ec3a4559b3cdd92036e0bb1ac",
+    "rebuild_hash": "3d2dd63f49b72fb27c60268a7950bf08a21e7aa2",
+    "original_bin_hash": "53a86beff051f24576c3c4a0b689a22a6a2f2f8e",
+    "rebuild_bin_hash": "f8301d50df5932b667a1261de0c64f9f127d4c89",
+    "original_lib_hash": "81c6fd163c75f8cd34a3ef021fbd9d4539b5ef5c",
+    "rebuild_lib_hash": "2899b1ae2c8107c56d7d0704307ca72cdd6d4e14",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "cmake-ninja",
+        "cmake-ninja",
+        "cmake-ninja",
+        "cmake-ninja",
+        "cmake-ninja"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "com.github.ryanakca.slingshot",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 223.26128435134888,
+    "cache_size": 37832683,
+    "git_size": 0,
+    "dl_size": 37816220,
+    "original_hash": "c323415e9f16ca13006c5f3ce75ad4d3d7e3ea99",
+    "rebuild_hash": "352f26b9d4c9d1609a76cef4bfa1e35c6015779a",
+    "original_bin_hash": "56642110ab10d21f0bc95e3304fa1e4152394ae6",
+    "rebuild_bin_hash": "56642110ab10d21f0bc95e3304fa1e4152394ae6",
+    "original_lib_hash": "dae1986eec8d3e3524786762376185a2bb5392a2",
+    "rebuild_lib_hash": "0ec423a3a9b6580372a6631c9fcab286b84bb196",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

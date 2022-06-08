@@ -1,0 +1,23 @@
+{
+    "name": "com.tonikelope.MegaBasterd",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 27.221447467803955,
+    "cache_size": 37123622,
+    "git_size": 0,
+    "dl_size": 37078487,
+    "original_hash": "3858d2eb3459f579c1f00c9df4267660842fb122",
+    "rebuild_hash": "2398daeaef6c6ec9e40ec04907b9f9bce69e82b0",
+    "original_bin_hash": "a996ca5e4ea65e854f95570651f0d41630fc61df",
+    "rebuild_bin_hash": "a996ca5e4ea65e854f95570651f0d41630fc61df",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

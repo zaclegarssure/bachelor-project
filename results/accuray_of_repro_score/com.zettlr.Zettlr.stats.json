@@ -1,0 +1,32 @@
+{
+    "name": "com.zettlr.Zettlr",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "4ede60cc7b5b25eeafa4e84e493429311c1eb49b78abde761bb21c6582503f3c",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-24 07:28:44+00:00",
+    "timestamp_of_rebuild": 1653377324.0,
+    "git-commit": "20684aa90cb63f2335fc093e40e7f48dbb1e73bd master",
+    "flatpak-deps": {
+        "org.electronjs.Electron2.BaseApp/x86_64/21.08": "0281c7bff16ae16bd23554f65185a9b33ca71dafcdf85667983049d9e046ccb8",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 31.616219997406006,
+    "cache_size": 117105336,
+    "git_size": 0,
+    "dl_size": 117088873,
+    "bad_files": 0,
+    "total_files": 211,
+    "repro_score": 1.0,
+    "original_hash": "8c9f34e4faaab3698313cdb2b0f143b99171d789",
+    "rebuild_hash": "8c9f34e4faaab3698313cdb2b0f143b99171d789",
+    "original_bin_hash": "6b927fe5b08fe185f2cbcd9e7eb9ecb2c36a0246",
+    "rebuild_bin_hash": "6b927fe5b08fe185f2cbcd9e7eb9ecb2c36a0246",
+    "original_elf_hash": "25104c4258b04ac0c4d45413551d28399d963031",
+    "rebuild_elf_hash": "25104c4258b04ac0c4d45413551d28399d963031",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

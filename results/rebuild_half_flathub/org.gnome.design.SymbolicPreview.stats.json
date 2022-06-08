@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.design.SymbolicPreview",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 138.06347703933716,
+    "cache_size": 23520387,
+    "git_size": 0,
+    "dl_size": 23503924,
+    "original_hash": "85c9741e4de5131d6f81661132dc092928da2e89",
+    "rebuild_hash": "85c9741e4de5131d6f81661132dc092928da2e89",
+    "original_bin_hash": "1d8e41ddb9fe3d406e745e6ec6135b9d9b06cbd9",
+    "rebuild_bin_hash": "1d8e41ddb9fe3d406e745e6ec6135b9d9b06cbd9",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

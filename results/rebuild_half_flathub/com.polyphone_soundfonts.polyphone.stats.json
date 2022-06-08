@@ -1,0 +1,20 @@
+{
+    "name": "com.polyphone_soundfonts.polyphone",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 219.50008368492126,
+    "cache_size": 8283562,
+    "git_size": 0,
+    "dl_size": 8267099,
+    "original_hash": "3ae9404db7d0268672b557310d0c3df54eb3f463",
+    "rebuild_hash": "136aba1fce6cb3d5730732922f314dc1141c1e68",
+    "original_bin_hash": "39fda26c7271429c7e1a54f543b4b6e9ba6222ee",
+    "rebuild_bin_hash": "8343f3c92279cc921fb2c7c29974b33e244b76fd",
+    "original_lib_hash": "400da4513cdf626345976662b9729c67233e94fd",
+    "rebuild_lib_hash": "400da4513cdf626345976662b9729c67233e94fd",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "org.pulseaudio.pavucontrol",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "fb65141c782782dadec050b3cf9c8d23d373f38f6e66fe9712695b65205f9f0c",
+    "branch": "stable",
+    "time_of_rebuild": "2022-01-05 22:37:29+00:00",
+    "timestamp_of_rebuild": 1641422249.0,
+    "git-commit": "530199ec69b371c92f22ff0d8e782082ac9be17f master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "f370ccd230a1d01653f21b669dbbec8fbdb0532a9f75d2db0ebb28b6da7f7313",
+        "org.freedesktop.Sdk/x86_64/21.08": "b0c1c2ae6597619172ee525c7bf1720469bdf74ce69de23cf7de6b0e3d9f3847",
+        "org.freedesktop.Platform/x86_64/21.08": "108f39d0653422812e69b53e8b6249f4a4e131a2147df7202cde70ee4e0a5742"
+    },
+    "build_time": 231.4012734889984,
+    "cache_size": 28625601,
+    "git_size": 0,
+    "dl_size": 28609138,
+    "bad_files": 0,
+    "total_files": 40,
+    "repro_score": 1.0,
+    "original_hash": "7ea07613e7ebcff6b44b9e24e56d94a0b0b9764a",
+    "rebuild_hash": "7ea07613e7ebcff6b44b9e24e56d94a0b0b9764a",
+    "original_bin_hash": "cc99ef0436ced8285632b0612d827ea5ceafe514",
+    "rebuild_bin_hash": "cc99ef0436ced8285632b0612d827ea5ceafe514",
+    "original_elf_hash": "692b64cdd89d6d9989e07bb1bf40527df1096615",
+    "rebuild_elf_hash": "692b64cdd89d6d9989e07bb1bf40527df1096615",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

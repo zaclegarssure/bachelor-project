@@ -1,0 +1,20 @@
+{
+    "name": "com.retrodev.blastem",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 41.70576572418213,
+    "cache_size": 2558557,
+    "git_size": 0,
+    "dl_size": 2542094,
+    "original_hash": "e93a7e7c6a265d3342fa9c9f047136b8f802d8f6",
+    "rebuild_hash": "e93a7e7c6a265d3342fa9c9f047136b8f802d8f6",
+    "original_bin_hash": "2e2456ffb0456e40b800b3c5f7755d6a51c6a9a0",
+    "rebuild_bin_hash": "2e2456ffb0456e40b800b3c5f7755d6a51c6a9a0",
+    "original_lib_hash": "6937931f3da479814418e1bbb2c8b19fb1f89557",
+    "rebuild_lib_hash": "6937931f3da479814418e1bbb2c8b19fb1f89557",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

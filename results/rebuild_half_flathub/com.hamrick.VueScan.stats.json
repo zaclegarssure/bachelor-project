@@ -1,0 +1,20 @@
+{
+    "name": "com.hamrick.VueScan",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 339.61907935142517,
+    "cache_size": 19367894,
+    "git_size": 0,
+    "dl_size": 19351431,
+    "original_hash": "00c4b925c7d496c72fc38822b87a6fc54f4ee566",
+    "rebuild_hash": "8c3b6ed0c97d5c9fee8ac0250d9290990898124c",
+    "original_bin_hash": "79c1b7394e1803a77ec69ee6532d86cb92e21392",
+    "rebuild_bin_hash": "79c1b7394e1803a77ec69ee6532d86cb92e21392",
+    "original_lib_hash": "c3818383464c8c473d2b89e60b209899cdb5f155",
+    "rebuild_lib_hash": "97c245c7a3ccef38c5d7588f8fd257ee252749ff",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "laptop-arch"
+}

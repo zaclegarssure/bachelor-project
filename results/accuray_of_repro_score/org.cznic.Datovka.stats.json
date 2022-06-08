@@ -1,0 +1,31 @@
+{
+    "name": "org.cznic.Datovka",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "a7a85882577696eef39dbe490c6d9822a1b364c781431462d3461b850dbf8dcc",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-17 09:49:16+00:00",
+    "timestamp_of_rebuild": 1647510556.0,
+    "git-commit": "aa4a58a0dcd8cc99142048b239a076f3cf8bebab master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.kde.Sdk/x86_64/6.2": "c94b026c414b7c3c185a8f115c9604e1be4d78ac49c305176d0d694869fa47ee",
+        "org.kde.Platform/x86_64/6.2": "911010481b4a8c33398da8b0291cb323fa77ba1ff738ae6ae6a69150f45e78ad"
+    },
+    "build_time": 184.10729479789734,
+    "cache_size": 6948299,
+    "git_size": 0,
+    "dl_size": 6931836,
+    "bad_files": 1,
+    "total_files": 32,
+    "repro_score": 0.96875,
+    "original_hash": "b7b8ac7c1b76774069b120be437fe79b68b76aa1",
+    "rebuild_hash": "1824e23ce367b83e74506b4c80ac8a279f36b6ac",
+    "original_bin_hash": "0ca55dd2a72287ec8ae0560057df14bce7d68d1a",
+    "rebuild_bin_hash": "5e3e924ef6de9195c409a66f946612f303c8054d",
+    "original_elf_hash": "6f39c402901773a203b902c855227092d461de53",
+    "rebuild_elf_hash": "1c6859f4ab7bad29320508579a87ebd555ffeec5",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

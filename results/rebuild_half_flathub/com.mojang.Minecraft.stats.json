@@ -1,0 +1,20 @@
+{
+    "name": "com.mojang.Minecraft",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 61.163920879364014,
+    "cache_size": 20973047,
+    "git_size": 20532842,
+    "dl_size": 419646,
+    "original_hash": "32f0e5ee3c53e8f01655a6843e3564a8feccb070",
+    "rebuild_hash": "32f0e5ee3c53e8f01655a6843e3564a8feccb070",
+    "original_bin_hash": "d574801f92bf5ee4e6710fc925c45b103dbf2be2",
+    "rebuild_bin_hash": "d574801f92bf5ee4e6710fc925c45b103dbf2be2",
+    "original_lib_hash": "08f47796e44b99001dd0740da81ce0fbea26f053",
+    "rebuild_lib_hash": "08f47796e44b99001dd0740da81ce0fbea26f053",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "org.freeorion.FreeOrion",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "a84d8a84f177e34a4abb11d0c2a3a55671a4adb62a7bf24c5c6e99ded98164da",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-14 19:23:02+00:00",
+    "timestamp_of_rebuild": 1631647382.0,
+    "git-commit": "aa8fa33df5ff8bb16838d2fe3255b2a9b57dc198 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "c8c1ca8e3474880eaaa547cfd975b239d5ed729a59fc8148403b420803332803",
+        "org.freedesktop.Sdk/x86_64/21.08": "99e207c5791b8305bce4186f93926dc8f8278712f09462cd889b1462cec25882",
+        "org.freedesktop.Platform/x86_64/21.08": "fa2db5e7db9e82463a1fe9a5255292c63ded0cc141fdafe0008f2519a479ccb1"
+    }
+}

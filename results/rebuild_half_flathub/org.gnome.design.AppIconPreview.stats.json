@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.design.AppIconPreview",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 115.52207922935486,
+    "cache_size": 22959179,
+    "git_size": 0,
+    "dl_size": 22942716,
+    "original_hash": "69960ec990a1039509ffdedd6916070d197a2d66",
+    "rebuild_hash": "69960ec990a1039509ffdedd6916070d197a2d66",
+    "original_bin_hash": "f338d6106f33bd5f7841d49dd0db35e45e26ef99",
+    "rebuild_bin_hash": "f338d6106f33bd5f7841d49dd0db35e45e26ef99",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

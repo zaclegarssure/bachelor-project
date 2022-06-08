@@ -1,0 +1,20 @@
+{
+    "name": "com.jetbrains.IntelliJ-IDEA-Community",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 550.1361804008484,
+    "cache_size": 856415205,
+    "git_size": 0,
+    "dl_size": 856398742,
+    "original_hash": "6a691bb575ddaf6a32a4836816a0eb6bb604b883",
+    "rebuild_hash": "6a691bb575ddaf6a32a4836816a0eb6bb604b883",
+    "original_bin_hash": "62bb364f5ef7ad2e5b4a7866d24b5018ed613aa1",
+    "rebuild_bin_hash": "62bb364f5ef7ad2e5b4a7866d24b5018ed613aa1",
+    "original_lib_hash": "8ddb373c72f93a90f0baee5d43e874d14e8a1d82",
+    "rebuild_lib_hash": "8ddb373c72f93a90f0baee5d43e874d14e8a1d82",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch"
+}

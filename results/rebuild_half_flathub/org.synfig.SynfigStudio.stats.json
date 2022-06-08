@@ -1,0 +1,20 @@
+{
+    "name": "org.synfig.SynfigStudio",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 1833.0486767292023,
+    "cache_size": 178778458,
+    "git_size": 0,
+    "dl_size": 178775711,
+    "original_hash": "84463e8746228fa609a6df13eb3211ac12e89042",
+    "rebuild_hash": "426af2c949382fcb92d1b2ebf49a9f79e4ed0e8a",
+    "original_bin_hash": "4f5907a04c4a1fccf7d9f978544400aa5f3e127a",
+    "rebuild_bin_hash": "77f0d6adc92d071357c05d3a6f928ef47091e06e",
+    "original_lib_hash": "0bc3c8e19db36dab01c52f93cfafd5260acf8eaf",
+    "rebuild_lib_hash": "c0cc799326c13d1d8b7c681f2fc2e1a7731746e3",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora"
+}

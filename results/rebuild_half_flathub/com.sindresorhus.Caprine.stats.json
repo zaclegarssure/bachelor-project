@@ -1,0 +1,23 @@
+{
+    "name": "com.sindresorhus.Caprine",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 66.23244667053223,
+    "cache_size": 171583102,
+    "git_size": 0,
+    "dl_size": 171398703,
+    "original_hash": "5e27f8536096e7c6531c20f1a39562eaedab6efa",
+    "rebuild_hash": "5e27f8536096e7c6531c20f1a39562eaedab6efa",
+    "original_bin_hash": "216eff189d1153343b335a935ddb195267f660a2",
+    "rebuild_bin_hash": "216eff189d1153343b335a935ddb195267f660a2",
+    "original_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "rebuild_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

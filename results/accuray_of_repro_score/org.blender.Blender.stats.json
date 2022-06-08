@@ -1,0 +1,31 @@
+{
+    "name": "org.blender.Blender",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "324c0fce1b61f34d890e98c5b3c58b73d5ab6d621da95dc7ccda34b93676bedf",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-01 12:55:52+00:00",
+    "timestamp_of_rebuild": 1648817752.0,
+    "git-commit": "92fc41b9137d0dc1532c9d4a88b3cf48d33c29bf master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.freedesktop.Sdk/x86_64/21.08": "1a972810d883f9721f90b87e092d282184b8a95fc10fc72068723cd54f893b22",
+        "org.freedesktop.Platform/x86_64/21.08": "e5aff027f1cfc1b950d476dab5159628f077a4ca114e87160a123df9cce700bf"
+    },
+    "build_time": 257.9970223903656,
+    "cache_size": 198017320,
+    "git_size": 1136745,
+    "dl_size": 196860016,
+    "bad_files": 0,
+    "total_files": 3521,
+    "repro_score": 1.0,
+    "original_hash": "48b55524f4a96ed3c3b63d3cb4efcd0bc8190eb6",
+    "rebuild_hash": "48b55524f4a96ed3c3b63d3cb4efcd0bc8190eb6",
+    "original_bin_hash": "9a9b8c9ff7661638823d89c94ef6c2ef1085797d",
+    "rebuild_bin_hash": "9a9b8c9ff7661638823d89c94ef6c2ef1085797d",
+    "original_elf_hash": "f4e63eb829ada08b4533969333a146f76df013e2",
+    "rebuild_elf_hash": "f4e63eb829ada08b4533969333a146f76df013e2",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

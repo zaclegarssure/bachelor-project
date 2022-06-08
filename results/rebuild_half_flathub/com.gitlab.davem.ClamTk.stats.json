@@ -1,0 +1,24 @@
+{
+    "name": "com.gitlab.davem.ClamTk",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 250.85091304779053,
+    "cache_size": 34865704,
+    "git_size": 0,
+    "dl_size": 34849241,
+    "original_hash": "934f55f0f673670b7d61db830fad53c5041ac8d3",
+    "rebuild_hash": "dd4fbf94444031532614c37a77418bbc7bf2bdf2",
+    "original_bin_hash": "c6d3282d7455284be967196843b98d8ca8a11641",
+    "rebuild_bin_hash": "c6d3282d7455284be967196843b98d8ca8a11641",
+    "original_lib_hash": "bbd242069b81dbf1bcd3ffc24cfcfbd84b2b3adc",
+    "rebuild_lib_hash": "c9494ef313e0082cc90fd78126d90ed68e2282f8",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

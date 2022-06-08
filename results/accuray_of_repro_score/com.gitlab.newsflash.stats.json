@@ -1,0 +1,32 @@
+{
+    "name": "com.gitlab.newsflash",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "8dc1cda025dbd0b93bd81dbf5704c69e2c7dede3425fc417947684ab9b2e6e74",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-05 09:05:50+00:00",
+    "timestamp_of_rebuild": 1644051950.0,
+    "git-commit": "058e173a720a660affd8f935bb7ce0276b3c89a7 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "4fd0459fbcd17159c178a7e32728f940dabcffd4a85f32baec51246b236311fe",
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.gnome.Sdk/x86_64/41": "ecccb80495350cc4b6cbca854de8249bb1a92e01e80bacb2d492f1c4ff3be533",
+        "org.gnome.Platform/x86_64/41": "b0aed9b5fb8b5e3e1e1badc8711fa34667760cf5ce79b2727b8d8c21d4772577"
+    },
+    "build_time": 185.11367201805115,
+    "cache_size": 27813175,
+    "git_size": 0,
+    "dl_size": 27796712,
+    "bad_files": 1,
+    "total_files": 15,
+    "repro_score": 0.9333333333333333,
+    "original_hash": "a4177cae0f24e722011735f3fca16e161a6f2cee",
+    "rebuild_hash": "588fdf9ea98d9354b050f6602263346d754f897f",
+    "original_bin_hash": "90c2335f9323f319a97e994b18afba62c9c7fa7d",
+    "rebuild_bin_hash": "5c97e11b39c01f5bf43416c9efac3ca44e13fb55",
+    "original_elf_hash": "2c46aa86cec4c21aa7905eacf8a6c1467d074e22",
+    "rebuild_elf_hash": "f32bcc55bd9df4a9a8e29bf4c7e77aec6caeb7ec",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

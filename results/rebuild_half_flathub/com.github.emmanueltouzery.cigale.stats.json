@@ -1,0 +1,23 @@
+{
+    "name": "com.github.emmanueltouzery.cigale",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 150.42019724845886,
+    "cache_size": 28872373,
+    "git_size": 155047,
+    "dl_size": 28672191,
+    "original_hash": "6adbda290b19923247db60cf5e460899299afd6c",
+    "rebuild_hash": "878c3791243c6c17d573e64fc372c79010f6848c",
+    "original_bin_hash": "8dd16509a697827ed099310195a6eaae023052e8",
+    "rebuild_bin_hash": "9fc066c71d0d58835893ee28b7db330a9759d625",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

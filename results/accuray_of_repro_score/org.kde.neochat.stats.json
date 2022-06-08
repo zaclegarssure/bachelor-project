@@ -1,0 +1,31 @@
+{
+    "name": "org.kde.neochat",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "c8fa7601f9220bb2fce8ceac3453bcbdbfdafd1c26e3086ee01d942bcce9bda8",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-26 20:06:53+00:00",
+    "timestamp_of_rebuild": 1651003613.0,
+    "git-commit": "72442e62de0b458ff4c44344810e06c20c8bdf9c remotes/origin/update-30d0764~1",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 149.48767590522766,
+    "cache_size": 4794457,
+    "git_size": 0,
+    "dl_size": 4777994,
+    "bad_files": 2,
+    "total_files": 138,
+    "repro_score": 0.9855072463768116,
+    "original_hash": "a99cdbdf336340bff4bce4a4c513b62d36046433",
+    "rebuild_hash": "ef43a98f990a582cbc4bc0f94aa396339a0836f9",
+    "original_bin_hash": "343c1a46cc42d17f3f7f8939ea90971c30462cfe",
+    "rebuild_bin_hash": "ae7a55151d6fb983451d8bcd4b9b0f18760371d1",
+    "original_elf_hash": "81fae0c9aa7521ff598aab50f6e20bb87279ab44",
+    "rebuild_elf_hash": "1674bbd34dc2299c7bf2366414a7b1ecc1b0e204",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

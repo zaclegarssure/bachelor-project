@@ -1,0 +1,24 @@
+{
+    "name": "com.github.treagod.spectator",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 118.9195945262909,
+    "cache_size": 5210961,
+    "git_size": 0,
+    "dl_size": 5194498,
+    "original_hash": "60bf1f754257bbe675c023bbae37c14a7baad85a",
+    "rebuild_hash": "60bf1f754257bbe675c023bbae37c14a7baad85a",
+    "original_bin_hash": "4ca2815b59ce3a9bff17b63317ca13f4cb77fd34",
+    "rebuild_bin_hash": "4ca2815b59ce3a9bff17b63317ca13f4cb77fd34",
+    "original_lib_hash": "253df90f3bfea3fd1f8e064953510ac6a1e4a707",
+    "rebuild_lib_hash": "253df90f3bfea3fd1f8e064953510ac6a1e4a707",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple",
+        "meson"
+    ]
+}

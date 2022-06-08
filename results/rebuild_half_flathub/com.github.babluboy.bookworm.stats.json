@@ -1,0 +1,20 @@
+{
+    "name": "com.github.babluboy.bookworm",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 160.20100617408752,
+    "cache_size": 16598069,
+    "git_size": 0,
+    "dl_size": 16581606,
+    "original_hash": "5bfb61bef49b5050934bdc0f2c38813445aafde5",
+    "rebuild_hash": "aa4161f56f798ef2f578fef87ac1ce0e22229eb6",
+    "original_bin_hash": "8a214bc7e687e749bef21e21425a04bdec0de501",
+    "rebuild_bin_hash": "8a214bc7e687e749bef21e21425a04bdec0de501",
+    "original_lib_hash": "34d839f730f75ef5686f97c76abd76a8caef9fc2",
+    "rebuild_lib_hash": "8dd6035f90b18e691a4ed4a09ea48c4110598fd1",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

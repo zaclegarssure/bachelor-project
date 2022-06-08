@@ -1,0 +1,31 @@
+{
+    "name": "org.sauerbraten.Sauerbraten",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "76b01753f6439bd019aec029bb6429ec3a29965dbf1760cc08b193b2575a8970",
+    "branch": "stable",
+    "time_of_rebuild": "2021-10-03 13:40:39+00:00",
+    "timestamp_of_rebuild": 1633268439.0,
+    "git-commit": "1c18277241cee6713dd448208538095d743eac4f master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "d40cff9fa614104744be54f9dcbfd846c76a6cb7a80f045f6057d34ba69ac423",
+        "org.freedesktop.Sdk/x86_64/21.08": "1fad7974d6fe02c6ac83e3e804e0317f4d8d3528dcd5087002e1b501ddadbb6b",
+        "org.freedesktop.Platform/x86_64/21.08": "16d161d8a71701b80fa4bca12812a22c19dc0641b3571fe88c517c84da94c5b5"
+    },
+    "build_time": 203.48893666267395,
+    "cache_size": 985843999,
+    "git_size": 0,
+    "dl_size": 985827536,
+    "bad_files": 1,
+    "total_files": 8960,
+    "repro_score": 0.9998883928571428,
+    "original_hash": "b45bb5c121b5361a5a17ef49b460ce3b8542d7a9",
+    "rebuild_hash": "a1a7c86c7ae382092358ab693bf7e0bd35b81318",
+    "original_bin_hash": "4d729fe7b532fd28ba6dbd9c3378a12e5ab11e6f",
+    "rebuild_bin_hash": "4d729fe7b532fd28ba6dbd9c3378a12e5ab11e6f",
+    "original_elf_hash": "0c3c3660ce7c87f7977b6d0c2e9a70e846f12f8d",
+    "rebuild_elf_hash": "0c3c3660ce7c87f7977b6d0c2e9a70e846f12f8d",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

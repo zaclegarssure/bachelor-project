@@ -1,0 +1,33 @@
+{
+    "name": "org.pipewire.Helvum",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "5e72cd21492dadcc3f58233f9de25ec763b3a46675bcff47614c68451d23ed52",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-11 10:04:41+00:00",
+    "timestamp_of_rebuild": 1649671481.0,
+    "git-commit": "4d5304e5e314ceb68f225e2265b5d48dbbb021d4 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "9f27a21fdfdf84f93dc5971cf976859cdd003bc9e3c2fb9377b9c04c8aad7e72",
+        "org.freedesktop.Sdk.Extension.llvm12/x86_64/21.08": "272e805907660c4fb3c1d668982278e5a8445802d1bef01415bd21caf905c70c",
+        "org.flatpak.Builder/x86_64/stable": "8c905dc8f00b387ed9d3b61e8186b59cffaf66fb8dbb6a8993500e0f2e4ec53e",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 85.03562951087952,
+    "cache_size": 8737623,
+    "git_size": 0,
+    "dl_size": 8721160,
+    "bad_files": 0,
+    "total_files": 16,
+    "repro_score": 1.0,
+    "original_hash": "fd78ff073eb09d1c5ee6224d4688e02def7f0665",
+    "rebuild_hash": "fd78ff073eb09d1c5ee6224d4688e02def7f0665",
+    "original_bin_hash": "1a3e7094fe1b5de7477c44afa2ca7dcfb2bd5525",
+    "rebuild_bin_hash": "1a3e7094fe1b5de7477c44afa2ca7dcfb2bd5525",
+    "original_elf_hash": "18093a68ef44e7199bbf7911f4a00e24a0c8c982",
+    "rebuild_elf_hash": "18093a68ef44e7199bbf7911f4a00e24a0c8c982",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

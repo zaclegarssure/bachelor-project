@@ -1,0 +1,27 @@
+{
+    "name": "com.ozmartians.VidCutter",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 1541.9990882873535,
+    "cache_size": 244404887,
+    "git_size": 212608827,
+    "dl_size": 31775501,
+    "original_hash": "221255cd5bda1889a7d3113571e9b3017c3c55fb",
+    "rebuild_hash": "a2269d8cc7cb7607ebe0baae8202311a82bd87c9",
+    "original_bin_hash": "7396f267d62e51670faf647fbdc829f413abafe0",
+    "rebuild_bin_hash": "7396f267d62e51670faf647fbdc829f413abafe0",
+    "original_lib_hash": "a7cbb88c2d7486f9f03d660ab4db8a5ad2c2b56f",
+    "rebuild_lib_hash": "89d6aaf7c5060cb065922a91e29c567b1d47bd51",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

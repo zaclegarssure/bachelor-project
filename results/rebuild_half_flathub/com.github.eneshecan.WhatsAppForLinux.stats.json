@@ -1,0 +1,20 @@
+{
+    "name": "com.github.eneshecan.WhatsAppForLinux",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 234.40069437026978,
+    "cache_size": 30486034,
+    "git_size": 1103909,
+    "dl_size": 29361566,
+    "original_hash": "c5cf0090597c6f131185b12640e433148d1ca6bf",
+    "rebuild_hash": "c5cf0090597c6f131185b12640e433148d1ca6bf",
+    "original_bin_hash": "111d93fa89c49dc30e1bc6d4433aca0e8a4db1b2",
+    "rebuild_bin_hash": "111d93fa89c49dc30e1bc6d4433aca0e8a4db1b2",
+    "original_lib_hash": "b55863e1ddf116b15f679f3c6a38b653c4ab77f5",
+    "rebuild_lib_hash": "b55863e1ddf116b15f679f3c6a38b653c4ab77f5",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

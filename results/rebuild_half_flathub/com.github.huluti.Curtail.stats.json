@@ -1,0 +1,23 @@
+{
+    "name": "com.github.huluti.Curtail",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 28.963053226470947,
+    "cache_size": 6910136,
+    "git_size": 167932,
+    "dl_size": 6721645,
+    "original_hash": "e51a6af1bb57544a94007f9b752b78581f9b792d",
+    "rebuild_hash": "e51a6af1bb57544a94007f9b752b78581f9b792d",
+    "original_bin_hash": "fdd48b73a6f00af946380868c3eec09b457a72e8",
+    "rebuild_bin_hash": "fdd48b73a6f00af946380868c3eec09b457a72e8",
+    "original_lib_hash": "5e2bec60c7f2b60975ac589eb0ab270f11c4560c",
+    "rebuild_lib_hash": "5e2bec60c7f2b60975ac589eb0ab270f11c4560c",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "com.github.qarmin.szyszka",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 66.4837293624878,
+    "cache_size": 11424843,
+    "git_size": 140774,
+    "dl_size": 11255318,
+    "original_hash": "3cecca1878b5434f904a2611450a2dce17a45c96",
+    "rebuild_hash": "3cecca1878b5434f904a2611450a2dce17a45c96",
+    "original_bin_hash": "d1a640c69a3ca23fd4bb74ff7cc23d80fe158f34",
+    "rebuild_bin_hash": "d1a640c69a3ca23fd4bb74ff7cc23d80fe158f34",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

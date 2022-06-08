@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.Eolie",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "508e0e898f952add2dca60fb3b87a397077cbbc639df32f6c1f15ccc8174bbbc",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-12 11:49:59+00:00",
+    "timestamp_of_rebuild": 1639309799.0,
+    "git-commit": "c8c39032fce8202932e94773d96ff609a3419572 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.gnome.Sdk/x86_64/40": "94f63aa5f3d1c0befbb8e59d90bec342eba85ffb320ce59e0243ca69125aaeda",
+        "org.gnome.Platform/x86_64/40": "87a6c4d375b853befc4e887d73a26dd10c4e537c36c425a6ecfaf2993324afa4"
+    },
+    "build_time": 106.91152477264404,
+    "cache_size": 12505170,
+    "git_size": 650543,
+    "dl_size": 11834068,
+    "bad_files": 9,
+    "total_files": 1537,
+    "repro_score": 0.9941444372153546,
+    "original_hash": "de0682e9c2ddb7d38e43035ea9eca64b7094ad16",
+    "rebuild_hash": "d5148938c75870dfa4506ccdb9c1668cf249b2ac",
+    "original_bin_hash": "9857014e32b87c56c1487602ae777fb43258316b",
+    "rebuild_bin_hash": "6cc50d5fd0f99e7b63234d096872c8cf56a31ddd",
+    "original_elf_hash": "230c9cb36bf4bcb402f0696d4a0d3c1238531140",
+    "rebuild_elf_hash": "a299c87ed2b97b2b4e0310a9566ad0d44736bfe3",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

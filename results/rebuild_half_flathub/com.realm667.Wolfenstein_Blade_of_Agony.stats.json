@@ -1,0 +1,26 @@
+{
+    "name": "com.realm667.Wolfenstein_Blade_of_Agony",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 384.61597442626953,
+    "cache_size": 824180878,
+    "git_size": 815619082,
+    "dl_size": 8541237,
+    "original_hash": "b23c472a08b8c47d266e3928588f824ba0e378b3",
+    "rebuild_hash": "743d7b5bf75b962e0ce1bec6c8690c3744726dd0",
+    "original_bin_hash": "6a920d3c9edf4f2ccb9b951c4aa85c32f3217981",
+    "rebuild_bin_hash": "cfa2777b5b8cedec23159f32616a972e45242d51",
+    "original_lib_hash": "54ed30994f194279ae9531206989e3374354a339",
+    "rebuild_lib_hash": "54ed30994f194279ae9531206989e3374354a339",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "diffoscope_failed": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "cmake-ninja",
+        "cmake-ninja"
+    ]
+}

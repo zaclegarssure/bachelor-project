@@ -1,0 +1,29 @@
+{
+    "name": "com.doycho.euterpe.gtk",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 51.630574226379395,
+    "cache_size": 13494245,
+    "git_size": 1174213,
+    "dl_size": 12291281,
+    "original_hash": "1fde33e47b736b82b7922084bcec54967d026e14",
+    "rebuild_hash": "4adf361f71ee5617ea6f71018af77261629cc7c8",
+    "original_bin_hash": "5c10e11cd65793c50a40e6c7c8b1dda8af241a0c",
+    "rebuild_bin_hash": "5c10e11cd65793c50a40e6c7c8b1dda8af241a0c",
+    "original_lib_hash": "97ee5755955684419d0304b3434207528ee94255",
+    "rebuild_lib_hash": "97c2f2febfbc9c9854161f47803f01f250d23d50",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

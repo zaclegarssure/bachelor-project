@@ -1,0 +1,23 @@
+{
+    "name": "com.github.iwalton3.jellyfin-media-player",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 229.14837884902954,
+    "cache_size": 52110337,
+    "git_size": 710001,
+    "dl_size": 51379777,
+    "original_hash": "743863d5283dcc6711a8bc3021f4a09e0e03ef32",
+    "rebuild_hash": "e9134cb1dafe5a659dd33e9bd8844ef4acd2f55d",
+    "original_bin_hash": "b28d6602fce94f167a7878d5e3caeef30fce8c76",
+    "rebuild_bin_hash": "f06fed49b29b3fe9946a74fa69b93312e0991ec1",
+    "original_lib_hash": "3b60d2d1778d724fb5a1c0bf810241939c19e0d7",
+    "rebuild_lib_hash": "3b60d2d1778d724fb5a1c0bf810241939c19e0d7",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

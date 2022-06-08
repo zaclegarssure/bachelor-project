@@ -1,0 +1,31 @@
+{
+    "name": "io.github.OpenToonz",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "b874aaa92aca93d102784758a9841dba5e5147872f25897cf9be5823511b0afd",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-16 16:07:35+00:00",
+    "timestamp_of_rebuild": 1650125255.0,
+    "git-commit": "0d273eda7cca37140a0164916a45196bbb4241c8 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 1358.8286018371582,
+    "cache_size": 338750594,
+    "git_size": 0,
+    "dl_size": 338734131,
+    "bad_files": 8,
+    "total_files": 1624,
+    "repro_score": 0.9950738916256158,
+    "original_hash": "92ef016ab36ca0bac81c155fcf4a3150e272e325",
+    "rebuild_hash": "24acb2d73378ea367784f068e13149e79f9f8a8f",
+    "original_bin_hash": "cac42c080d78a4b4e8b99044df44e182dd9a5a9a",
+    "rebuild_bin_hash": "9519e6150632492f2f0611d74df4faeec72ab89e",
+    "original_elf_hash": "d951e7bf85334db5d86038cf0a501618f9df884e",
+    "rebuild_elf_hash": "fa1ec9c62f516ea2c04acbf9243b8f9df53e42b6",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

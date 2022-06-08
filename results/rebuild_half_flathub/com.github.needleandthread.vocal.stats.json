@@ -1,0 +1,23 @@
+{
+    "name": "com.github.needleandthread.vocal",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 26.224315643310547,
+    "cache_size": 2540315,
+    "git_size": 0,
+    "dl_size": 2523852,
+    "original_hash": "ed0da0f158bb95cc0c8ce8d320b136d098fb4ee5",
+    "rebuild_hash": "a4f8efd3818e7ef0e2018bc4af2f0e33568defea",
+    "original_bin_hash": "c669a0bca6bdc452bff1a0b334cd63149d528f4d",
+    "rebuild_bin_hash": "c669a0bca6bdc452bff1a0b334cd63149d528f4d",
+    "original_lib_hash": "b9da3adf937ccd77859a7c73d6c93ff3159dbc25",
+    "rebuild_lib_hash": "b9da3adf937ccd77859a7c73d6c93ff3159dbc25",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

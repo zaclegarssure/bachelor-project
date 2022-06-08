@@ -1,0 +1,23 @@
+{
+    "name": "com.airtame.Client",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 7.60483193397522,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "2ee65fee602989bc86120e1808bab90cf2f20148",
+    "rebuild_hash": "2ee65fee602989bc86120e1808bab90cf2f20148",
+    "original_bin_hash": "703990b06677cc125157c814788f4dc87ee3ea61",
+    "rebuild_bin_hash": "703990b06677cc125157c814788f4dc87ee3ea61",
+    "original_lib_hash": "9320d908e29a32829229d9fcd42e319ab0f97cfb",
+    "rebuild_lib_hash": "9320d908e29a32829229d9fcd42e319ab0f97cfb",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

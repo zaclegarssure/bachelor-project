@@ -1,0 +1,30 @@
+{
+    "name": "org.vim.Vim",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "8134f6f74a7f455ab1f2e1723dede207adee0ad88746801f04b5417ae53247a0",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-01 10:42:14+00:00",
+    "timestamp_of_rebuild": 1654080134.0,
+    "git-commit": "551545ff3d6a553d905e19ba9c7e4df11d911bd3 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "26aed7da8ceb3d067b8af1739d35d1c33c5d80391b964f95a3c2bf000cf6ce49"
+    },
+    "build_time": 53.083656549453735,
+    "cache_size": 16844037,
+    "git_size": 16515839,
+    "dl_size": 307639,
+    "bad_files": 1,
+    "total_files": 1878,
+    "repro_score": 0.9994675186368477,
+    "original_hash": "d35e655d51147e7b75d172d5c8a4c03b55226979",
+    "rebuild_hash": "056ee310cef07f3c8fc3561d6a3307b77c4ffe54",
+    "original_bin_hash": "d28900a0d2593c40b53e6b6a29d44eec99a968e2",
+    "rebuild_bin_hash": "acc9c4d03c904ace359fbb3a29e5f273308c1b27",
+    "original_elf_hash": "1b4adf20a4b3f6260e84f3b14db26026f541da8a",
+    "rebuild_elf_hash": "99d4fbb5bf6caa5c189b41e1234af1889437434c",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

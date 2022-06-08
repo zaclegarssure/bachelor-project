@@ -1,0 +1,32 @@
+{
+    "name": "com.mousepawmedia.omission",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 106.09174585342407,
+    "cache_size": 31683450,
+    "git_size": 1410903,
+    "dl_size": 30251988,
+    "original_hash": "12d80d2d867224edde2e4c6d87dd626e75acbe2b",
+    "rebuild_hash": "898cb2d8ef242a6ddd2cf723f49a26137ed3a8cd",
+    "original_bin_hash": "5d08df84ad6ee2eb1ca21eb69562e3cf5f87c588",
+    "rebuild_bin_hash": "5d08df84ad6ee2eb1ca21eb69562e3cf5f87c588",
+    "original_lib_hash": "49a078cfd14c22c6d66a4448cc28cc380820c31a",
+    "rebuild_lib_hash": "9c1540b5d0adc2668a860bd9c40129730c2178e2",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "autotools",
+        "autotools",
+        "autotools",
+        "simple"
+    ]
+}

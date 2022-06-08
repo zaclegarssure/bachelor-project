@@ -1,0 +1,24 @@
+{
+    "name": "com.github.gpuvis.Gpuvis",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 111.8317494392395,
+    "cache_size": 78760471,
+    "git_size": 73617667,
+    "dl_size": 5122245,
+    "original_hash": "565be745bd45a76a41166c3b5dcd94c9f746c54c",
+    "rebuild_hash": "565be745bd45a76a41166c3b5dcd94c9f746c54c",
+    "original_bin_hash": "f7cda7bc5e7d53bcd9716039138a98028e02c2ae",
+    "rebuild_bin_hash": "f7cda7bc5e7d53bcd9716039138a98028e02c2ae",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake",
+        "meson"
+    ]
+}

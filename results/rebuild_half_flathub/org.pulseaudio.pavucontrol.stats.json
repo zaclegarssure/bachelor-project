@@ -1,0 +1,20 @@
+{
+    "name": "org.pulseaudio.pavucontrol",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 399.1651952266693,
+    "cache_size": 28573999,
+    "git_size": 0,
+    "dl_size": 28572654,
+    "original_hash": "7ea07613e7ebcff6b44b9e24e56d94a0b0b9764a",
+    "rebuild_hash": "7ea07613e7ebcff6b44b9e24e56d94a0b0b9764a",
+    "original_bin_hash": "cd931cec7719516cbaecb21960ca5f768e0da22b",
+    "rebuild_bin_hash": "cd931cec7719516cbaecb21960ca5f768e0da22b",
+    "original_lib_hash": "3a0d423d2169f1dc432fa67b0bf317947c175e1b",
+    "rebuild_lib_hash": "3a0d423d2169f1dc432fa67b0bf317947c175e1b",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora"
+}

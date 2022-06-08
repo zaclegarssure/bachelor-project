@@ -1,0 +1,25 @@
+{
+    "name": "org.scintilla.SciTE",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 183.00255632400513,
+    "cache_size": 9386287,
+    "git_size": 0,
+    "dl_size": 9385404,
+    "original_hash": "ffd10063bec28cb35a80c0c7b980d363ac58bd50",
+    "rebuild_hash": "989eb65ad82d09a1e071efb94caf60c05e15ed2c",
+    "original_bin_hash": "ac025d7e9f07e104ba8e9f0fe6f9679a5e7c100e",
+    "rebuild_bin_hash": "3a743df688a7fde1b03dac2e04c4401523be8465",
+    "original_lib_hash": "48b449b5181970be8a25da3b03ecd2e2e17be7e9",
+    "rebuild_lib_hash": "48b449b5181970be8a25da3b03ecd2e2e17be7e9",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "meson",
+        "simple",
+        "simple"
+    ]
+}

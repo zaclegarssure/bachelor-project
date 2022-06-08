@@ -1,0 +1,23 @@
+{
+    "name": "com.georgefb.quickaccess",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 9.64960265159607,
+    "cache_size": 1009587,
+    "git_size": 0,
+    "dl_size": 993124,
+    "original_hash": "9f580d10526476b5a6487830648c187aa83be17f",
+    "rebuild_hash": "790fc1112ec8badd391b0f522d668a28cb49ec66",
+    "original_bin_hash": "551a82021b03b996f26998cda125fa4bc43bf018",
+    "rebuild_bin_hash": "7787f7ebddfcc3e6716500769749e8959a2ab411",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

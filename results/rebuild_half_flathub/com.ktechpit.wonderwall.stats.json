@@ -1,0 +1,23 @@
+{
+    "name": "com.ktechpit.wonderwall",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 7.414244174957275,
+    "cache_size": 1360959,
+    "git_size": 0,
+    "dl_size": 1344496,
+    "original_hash": "57d55e395c2f3fcc963941ccce75bd2052c43adf",
+    "rebuild_hash": "57d55e395c2f3fcc963941ccce75bd2052c43adf",
+    "original_bin_hash": "5937855844d73b0285ed4d822c59e2671f140c75",
+    "rebuild_bin_hash": "5937855844d73b0285ed4d822c59e2671f140c75",
+    "original_lib_hash": "8ff1d5df48242e2411bfa70751cdb3f0fa7b18e3",
+    "rebuild_lib_hash": "8ff1d5df48242e2411bfa70751cdb3f0fa7b18e3",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

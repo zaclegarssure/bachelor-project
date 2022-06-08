@@ -1,0 +1,23 @@
+{
+    "name": "com.mastermindzh.tidal-hifi",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 30.080597162246704,
+    "cache_size": 88366855,
+    "git_size": 0,
+    "dl_size": 88350392,
+    "original_hash": "d9287ec526585ded121194a806ecee5097e2ff16",
+    "rebuild_hash": "d9287ec526585ded121194a806ecee5097e2ff16",
+    "original_bin_hash": "83cd3b49e5a082b7c9a4eadd2d361a7df4faa966",
+    "rebuild_bin_hash": "83cd3b49e5a082b7c9a4eadd2d361a7df4faa966",
+    "original_lib_hash": "cdb9fd7886d3d4f6e95ee8700d84688081944512",
+    "rebuild_lib_hash": "cdb9fd7886d3d4f6e95ee8700d84688081944512",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

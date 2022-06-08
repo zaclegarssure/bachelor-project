@@ -1,0 +1,23 @@
+{
+    "name": "com.teamspeak.TeamSpeak",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 1.6012952327728271,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "4879afe067bf3d7d3d5d5264af2ef8973e1e3476",
+    "rebuild_hash": "4879afe067bf3d7d3d5d5264af2ef8973e1e3476",
+    "original_bin_hash": "aa1ecd7e4dec384c6f4317177b937d4c7bf74283",
+    "rebuild_bin_hash": "aa1ecd7e4dec384c6f4317177b937d4c7bf74283",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

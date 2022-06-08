@@ -1,0 +1,23 @@
+{
+    "name": "com.github.nihui.waifu2x-ncnn-vulkan",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 420.8584454059601,
+    "cache_size": 472189474,
+    "git_size": 472173011,
+    "dl_size": 0,
+    "original_hash": "ae344cfa49182fb844032bf26f63711d339f6d54",
+    "rebuild_hash": "ae344cfa49182fb844032bf26f63711d339f6d54",
+    "original_bin_hash": "2e472cc9c62381aa4289b436ecfc6171c045f8a5",
+    "rebuild_bin_hash": "2e472cc9c62381aa4289b436ecfc6171c045f8a5",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "com.jaquadro.NBTExplorer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 491.87999868392944,
+    "cache_size": 22013606,
+    "git_size": 0,
+    "dl_size": 21997143,
+    "original_hash": "2c8c5367cf1cea672145887064e812df646a4d04",
+    "rebuild_hash": "10b89e220da37c1e0c03cac7c00e9d9aca5a5236",
+    "original_bin_hash": "62134c4aa24a9d812c9189b2e0c319c896946247",
+    "rebuild_bin_hash": "62134c4aa24a9d812c9189b2e0c319c896946247",
+    "original_lib_hash": "ae0c71a16c3e6f71d48dc35ec732d704ef65fb79",
+    "rebuild_lib_hash": "05a9cbcadd21106a2cad7737953e823ed7b4cac2",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "laptop-arch"
+}

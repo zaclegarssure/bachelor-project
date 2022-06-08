@@ -1,0 +1,32 @@
+{
+    "name": "org.thonny.Thonny",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 434.2998776435852,
+    "cache_size": 39891416,
+    "git_size": 2889844,
+    "dl_size": 36990361,
+    "original_hash": "33dcd0045ae8e4fb4ddae688225891cf9445749a",
+    "rebuild_hash": "3124442d8ad2ae6f66b2d19f93d4d5d27a343dbf",
+    "original_bin_hash": "a06c449d2af02bd5f253459704df3fe004336a24",
+    "rebuild_bin_hash": "a06c449d2af02bd5f253459704df3fe004336a24",
+    "original_lib_hash": "5ebfdbd5485c36fb988e1bba86ff315bfed02b81",
+    "rebuild_lib_hash": "a2f99a8ec939ddee3ac43e0bbd8048c2c59e7ce2",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

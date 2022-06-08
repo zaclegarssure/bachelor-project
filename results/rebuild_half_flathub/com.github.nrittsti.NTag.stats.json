@@ -1,0 +1,24 @@
+{
+    "name": "com.github.nrittsti.NTag",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 17.056350469589233,
+    "cache_size": 48481834,
+    "git_size": 0,
+    "dl_size": 48465371,
+    "original_hash": "9c54e69fcd77affda8e118e2f10091bbdaf5bcc7",
+    "rebuild_hash": "5d6592b9093e0ad308a4f7f47f3e9cab3d1e3e43",
+    "original_bin_hash": "c05bead4e510a2a66c5daa4877107dac00b41f81",
+    "rebuild_bin_hash": "c05bead4e510a2a66c5daa4877107dac00b41f81",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "com.transmissionbt.Transmission",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 98.51725840568542,
+    "cache_size": 7197687,
+    "git_size": 0,
+    "dl_size": 7181224,
+    "original_hash": "a51cafd8175c8a562f603c86831637bcca4f4c19",
+    "rebuild_hash": "458f2a24cc3ee66d05fa0e2ca351bbe59181adb3",
+    "original_bin_hash": "4bce50de74b5e86804cf95d04ac972c53af3e96d",
+    "rebuild_bin_hash": "882b1c61e4ea4573a1de20de457ff8667693eb4f",
+    "original_lib_hash": "db1efa09f49572baa6336e12046fddc4f53bfe8a",
+    "rebuild_lib_hash": "db1efa09f49572baa6336e12046fddc4f53bfe8a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

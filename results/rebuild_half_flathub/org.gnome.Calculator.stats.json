@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.Calculator",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 65.05319714546204,
+    "cache_size": 3593506,
+    "git_size": 0,
+    "dl_size": 3577043,
+    "original_hash": "155c372d6fef144fd49a267ce8d9c1c58b31c8db",
+    "rebuild_hash": "155c372d6fef144fd49a267ce8d9c1c58b31c8db",
+    "original_bin_hash": "398eaa3e9c01022286061d2dd63d6f8cd76fb99e",
+    "rebuild_bin_hash": "398eaa3e9c01022286061d2dd63d6f8cd76fb99e",
+    "original_lib_hash": "2f21e01473eb1e37e7100d937b92108f2b06c84f",
+    "rebuild_lib_hash": "2f21e01473eb1e37e7100d937b92108f2b06c84f",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

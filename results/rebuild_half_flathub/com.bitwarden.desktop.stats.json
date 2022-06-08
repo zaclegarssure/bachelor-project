@@ -1,0 +1,20 @@
+{
+    "name": "com.bitwarden.desktop",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 37.65225577354431,
+    "cache_size": 88875103,
+    "git_size": 396308,
+    "dl_size": 88458236,
+    "original_hash": "51f630ec312415e92d304c0b6fb4e9ba7c204266",
+    "rebuild_hash": "51f630ec312415e92d304c0b6fb4e9ba7c204266",
+    "original_bin_hash": "2a53ef47abffb8fe8be6648f4bd46c6d96a77aab",
+    "rebuild_bin_hash": "2a53ef47abffb8fe8be6648f4bd46c6d96a77aab",
+    "original_lib_hash": "27e7911a2c42d1fa5ed60120f642182c35935b93",
+    "rebuild_lib_hash": "27e7911a2c42d1fa5ed60120f642182c35935b93",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

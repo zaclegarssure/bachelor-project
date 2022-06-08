@@ -1,0 +1,25 @@
+{
+    "name": "com.github.gabutakut.gabutdm",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 143.69368839263916,
+    "cache_size": 2585358,
+    "git_size": 618611,
+    "dl_size": 1946188,
+    "original_hash": "1c855a6c06117b584d053b36a07e2754fcca06fc",
+    "rebuild_hash": "cc95bd92ed7aba30ae3307d35f65ad7203c12c9a",
+    "original_bin_hash": "ae9e81adc43575c44941d793c5f061c0acbcf667",
+    "rebuild_bin_hash": "d9433b734fb8b22a514395b293197d10a24f0034",
+    "original_lib_hash": "42304943577af3f043c27c737563a0e2b4aae792",
+    "rebuild_lib_hash": "42304943577af3f043c27c737563a0e2b4aae792",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "autotools",
+        "autotools",
+        "meson"
+    ]
+}

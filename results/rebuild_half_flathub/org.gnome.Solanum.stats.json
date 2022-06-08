@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.Solanum",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 80.74532651901245,
+    "cache_size": 14820811,
+    "git_size": 0,
+    "dl_size": 14804348,
+    "original_hash": "89f057b49a1b3e0241d79163b821b5402c201f18",
+    "rebuild_hash": "9ce848f06d2bb3c03710d85c73a6df2b10b211d2",
+    "original_bin_hash": "fbd00192d049680f0893afeb09ef50772d7c7347",
+    "rebuild_bin_hash": "8040c83b3efa4eaa3b17985a106162a06181dd5b",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

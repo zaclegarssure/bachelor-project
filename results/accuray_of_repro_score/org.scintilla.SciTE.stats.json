@@ -1,0 +1,30 @@
+{
+    "name": "org.scintilla.SciTE",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "6d23062fd888128057b4fe6bd1ad539f8cca45c5359da0592c5e590c832f75ea",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-24 10:18:38+00:00",
+    "timestamp_of_rebuild": 1645697918.0,
+    "git-commit": "6644fe1ceb827ec38e7618fbb622a3c235d59aba master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "2c858c72b807bdee3e9edc8a64a05c771e3fbad051ea76421aaf7a4d6265ca5b",
+        "org.gnome.Sdk/x86_64/3.38": "5f699dd2ab3afb8c078649a1b0ef0624b54550037663570564826afd9fc5df42"
+    },
+    "build_time": 138.91777420043945,
+    "cache_size": 9434263,
+    "git_size": 0,
+    "dl_size": 9417800,
+    "bad_files": 1,
+    "total_files": 312,
+    "repro_score": 0.9967948717948718,
+    "original_hash": "ffd10063bec28cb35a80c0c7b980d363ac58bd50",
+    "rebuild_hash": "61a2cb1ba16cea824644c0cecfddf2d2b8e0c75f",
+    "original_bin_hash": "02540a83ed484746472cf214ac844b3fbec5e4de",
+    "rebuild_bin_hash": "3f6f4cd3a56e9d473b315187207db4738c87f184",
+    "original_elf_hash": "3d59319cb333a2b3a318760709b18015aad4b494",
+    "rebuild_elf_hash": "9668349df4c3622985071e0ad882ccd544af2cad",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

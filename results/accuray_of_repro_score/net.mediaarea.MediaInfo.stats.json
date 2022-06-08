@@ -1,0 +1,31 @@
+{
+    "name": "net.mediaarea.MediaInfo",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "5b9bfbe58eea6d9212a00a78b532b36f8a0296a7c655e6cbb371a4d7e8c96104",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-04 20:43:56+00:00",
+    "timestamp_of_rebuild": 1649105036.0,
+    "git-commit": "31971f57748f244d6eeacbbc9971222ffd9e7505 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.freedesktop.Sdk/x86_64/21.08": "1a972810d883f9721f90b87e092d282184b8a95fc10fc72068723cd54f893b22",
+        "org.freedesktop.Platform/x86_64/21.08": "e5aff027f1cfc1b950d476dab5159628f077a4ca114e87160a123df9cce700bf"
+    },
+    "build_time": 490.4931609630585,
+    "cache_size": 29223210,
+    "git_size": 0,
+    "dl_size": 29206747,
+    "bad_files": 1,
+    "total_files": 31,
+    "repro_score": 0.967741935483871,
+    "original_hash": "b5e660f42946bc8261990872d1c35e61c0b0fb2f",
+    "rebuild_hash": "0a844f8aaaf52dbe6f138daf30715596e338f0d9",
+    "original_bin_hash": "2fadc3ac22fc5cc71c684e8757a10d71810fd61c",
+    "rebuild_bin_hash": "8fedc2260b996adc4c3c70966572d9232fd957f8",
+    "original_elf_hash": "2e69b5abd1a4efb91712fb1b1e45b2087585e14d",
+    "rebuild_elf_hash": "03ba3d3dc11d633de82bebc742e057b9b467b7ef",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

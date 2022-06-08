@@ -1,0 +1,23 @@
+{
+    "name": "at.priv.toastfreeware.ConfClerk",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 22.85009217262268,
+    "cache_size": 404917,
+    "git_size": 0,
+    "dl_size": 388454,
+    "original_hash": "27fd07e6cd84e00cdc78a8897da135d7fecba428",
+    "rebuild_hash": "3687843956d27e446597a3a8c802007b7e0a2cd2",
+    "original_bin_hash": "b1a27e8d5907e1684e62a89d8a4980083f20764f",
+    "rebuild_bin_hash": "b13f1993291e4af1ad5eff3bca7b6493f07d40fb",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "qmake"
+    ]
+}

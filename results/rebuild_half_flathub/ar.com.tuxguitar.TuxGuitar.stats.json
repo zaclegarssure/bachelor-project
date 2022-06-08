@@ -1,0 +1,20 @@
+{
+    "name": "ar.com.tuxguitar.TuxGuitar",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 52.4927179813385,
+    "cache_size": 78379306,
+    "git_size": 0,
+    "dl_size": 78362843,
+    "original_hash": "042725faab570d520057700eea2d8bbd2b608240",
+    "rebuild_hash": "042725faab570d520057700eea2d8bbd2b608240",
+    "original_bin_hash": "0bd3f8d9c482ae8e734195913e1c5127d314b2db",
+    "rebuild_bin_hash": "0bd3f8d9c482ae8e734195913e1c5127d314b2db",
+    "original_lib_hash": "9aee2ec416e850283b8cc3d1c969c51b3a8b30c9",
+    "rebuild_lib_hash": "9aee2ec416e850283b8cc3d1c969c51b3a8b30c9",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

@@ -1,0 +1,24 @@
+{
+    "name": "com.tdameritrade.ThinkOrSwim",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 13.565361738204956,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "46ab6fd42373ebbbfb879e9b5edf7a7d586a2bd9",
+    "rebuild_hash": "46ab6fd42373ebbbfb879e9b5edf7a7d586a2bd9",
+    "original_bin_hash": "99c9d305584e1a7a53f5ee9ea6b0d2d9496a60e6",
+    "rebuild_bin_hash": "99c9d305584e1a7a53f5ee9ea6b0d2d9496a60e6",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

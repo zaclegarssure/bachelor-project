@@ -1,0 +1,23 @@
+{
+    "name": "com.ticktick.TickTick",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 13.989736795425415,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "df8f6d54879938a174b346c553d6d7cc499d3db4",
+    "rebuild_hash": "df8f6d54879938a174b346c553d6d7cc499d3db4",
+    "original_bin_hash": "4b579c4938cbef7392caf674e650dc3bf4410f49",
+    "rebuild_bin_hash": "4b579c4938cbef7392caf674e650dc3bf4410f49",
+    "original_lib_hash": "9a18b71b707c481f2555ec08580c87622d049cbf",
+    "rebuild_lib_hash": "9a18b71b707c481f2555ec08580c87622d049cbf",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

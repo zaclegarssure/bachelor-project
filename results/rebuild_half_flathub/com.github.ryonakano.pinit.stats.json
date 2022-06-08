@@ -1,0 +1,24 @@
+{
+    "name": "com.github.ryonakano.pinit",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 19.760730981826782,
+    "cache_size": 960667,
+    "git_size": 944204,
+    "dl_size": 0,
+    "original_hash": "0517855d692c3b2490efe10a5613fc0d1e680cea",
+    "rebuild_hash": "0517855d692c3b2490efe10a5613fc0d1e680cea",
+    "original_bin_hash": "073d17d7c11e5799b011e3c1798ce0b8ae0932c9",
+    "rebuild_bin_hash": "073d17d7c11e5799b011e3c1798ce0b8ae0932c9",
+    "original_lib_hash": "339d2994d5ff59b7707333c3479196cf62a02c98",
+    "rebuild_lib_hash": "339d2994d5ff59b7707333c3479196cf62a02c98",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

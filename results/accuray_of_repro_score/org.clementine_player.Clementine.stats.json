@@ -1,0 +1,31 @@
+{
+    "name": "org.clementine_player.Clementine",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "cc246111792896a054b497b705d422cbae423e32b6ce6d4c22414f006ce515f7",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-24 01:12:55+00:00",
+    "timestamp_of_rebuild": 1650762775.0,
+    "git-commit": "79b8cba2803d879c3adef63bf2ba5e020de47940 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 1036.1236760616302,
+    "cache_size": 147831997,
+    "git_size": 9069725,
+    "dl_size": 138741713,
+    "bad_files": 2,
+    "total_files": 767,
+    "repro_score": 0.9973924380704041,
+    "original_hash": "5a1e5cfaf027d2325565a19bd5f01f2f59cc9a63",
+    "rebuild_hash": "966b48752ef7f61cb18ecc2f01b3fe2027a1243f",
+    "original_bin_hash": "bec7afe22d1e84a34a5ba55957fe01ec835c688b",
+    "rebuild_bin_hash": "d6041e48bfa7211a8cbcb4ece30112f5971f1fb6",
+    "original_elf_hash": "ea5de995df3e53964442cdc79b05fc008c3e2616",
+    "rebuild_elf_hash": "fcd52fab8789349b915dc3dc49af26242cc6cd3e",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

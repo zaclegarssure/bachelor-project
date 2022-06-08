@@ -1,0 +1,23 @@
+{
+    "name": "com.github.gijsgoudzwaard.image-optimizer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 81.3060371875763,
+    "cache_size": 6127419,
+    "git_size": 0,
+    "dl_size": 6110956,
+    "original_hash": "16faa74987f708fdb53667630758398e9d67ace2",
+    "rebuild_hash": "c57d687e971cf6beec126808d058b53b7dd2d573",
+    "original_bin_hash": "d7bca3076acbeefc43b2aa9f7ea3618b74da9c93",
+    "rebuild_bin_hash": "d7bca3076acbeefc43b2aa9f7ea3618b74da9c93",
+    "original_lib_hash": "a7ab446de67efec2042c79f2e61e8cff63e2a4ac",
+    "rebuild_lib_hash": "a7ab446de67efec2042c79f2e61e8cff63e2a4ac",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

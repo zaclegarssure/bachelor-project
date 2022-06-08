@@ -1,0 +1,24 @@
+{
+    "name": "org.gnome.design.BannerViewer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 119.17257857322693,
+    "cache_size": 20067959,
+    "git_size": 497596,
+    "dl_size": 19549804,
+    "original_hash": "6f1cf31ff033da52df058332ae9f072e8d8f26e5",
+    "rebuild_hash": "2fba9d5745e7dbd21dada8921994f61a55639cc3",
+    "original_bin_hash": "4679249e86fb00a158550c7e37c79bbd2c5a7dde",
+    "rebuild_bin_hash": "4679249e86fb00a158550c7e37c79bbd2c5a7dde",
+    "original_lib_hash": "c5d16b06c9b5cb92feeca0dc3650689491b0e0d7",
+    "rebuild_lib_hash": "c5d16b06c9b5cb92feeca0dc3650689491b0e0d7",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

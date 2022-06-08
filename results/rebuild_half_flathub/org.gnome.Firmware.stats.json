@@ -1,0 +1,26 @@
+{
+    "name": "org.gnome.Firmware",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 19.595285654067993,
+    "cache_size": 3449403,
+    "git_size": 0,
+    "dl_size": 3432940,
+    "original_hash": "35b97ae3f41430ac6f972b34fe345585419fb9b5",
+    "rebuild_hash": "35b97ae3f41430ac6f972b34fe345585419fb9b5",
+    "original_bin_hash": "dddfe54433031c2db264e650e0fe7e39c6dec82d",
+    "rebuild_bin_hash": "dddfe54433031c2db264e650e0fe7e39c6dec82d",
+    "original_lib_hash": "2eeef49b146b59369e53ffce01256e6935d57761",
+    "rebuild_lib_hash": "2eeef49b146b59369e53ffce01256e6935d57761",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

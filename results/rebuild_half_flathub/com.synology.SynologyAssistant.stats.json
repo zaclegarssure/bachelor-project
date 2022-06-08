@@ -1,0 +1,23 @@
+{
+    "name": "com.synology.SynologyAssistant",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 2.056565046310425,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "1af4281a2754c5ce504843d92d667dafdcf3d8f9",
+    "rebuild_hash": "1af4281a2754c5ce504843d92d667dafdcf3d8f9",
+    "original_bin_hash": "b4a055dae996f03c3f38f3c2b6a41288294d444b",
+    "rebuild_bin_hash": "b4a055dae996f03c3f38f3c2b6a41288294d444b",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

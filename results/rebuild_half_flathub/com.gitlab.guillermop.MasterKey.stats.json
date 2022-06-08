@@ -1,0 +1,24 @@
+{
+    "name": "com.gitlab.guillermop.MasterKey",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 131.79223227500916,
+    "cache_size": 27954812,
+    "git_size": 0,
+    "dl_size": 27938349,
+    "original_hash": "0ae7169ccb53dcc0dde19ee21ab0a7a2bf334e3a",
+    "rebuild_hash": "0ae7169ccb53dcc0dde19ee21ab0a7a2bf334e3a",
+    "original_bin_hash": "54a6109bb8189009a51658f83fd2d62555103274",
+    "rebuild_bin_hash": "54a6109bb8189009a51658f83fd2d62555103274",
+    "original_lib_hash": "a782680cb18cc8a7289b8e8988f9b8df35a63d59",
+    "rebuild_lib_hash": "a782680cb18cc8a7289b8e8988f9b8df35a63d59",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "autotools",
+        "meson"
+    ]
+}

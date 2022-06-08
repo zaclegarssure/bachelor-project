@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.Geary",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "3bb244975224137429780e54d831c0d5af9b847886f94c2ee507d144d3fafbf0",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-24 03:23:20+00:00",
+    "timestamp_of_rebuild": 1650770600.0,
+    "git-commit": "1ee693400fafec857c43ce5ea081d9cd0d1c43bf master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/41": "7f6dcb09d3af135d8bfb68ff309f4142bfa7cb37a77ff971d492de894d292bc7",
+        "org.gnome.Platform/x86_64/41": "07e2f19d660a4bf5520857f2eea3aa7005d0e320b2ee5ec7c02a5ea95d2123a3"
+    },
+    "build_time": 308.5283787250519,
+    "cache_size": 19969233,
+    "git_size": 0,
+    "dl_size": 19952770,
+    "bad_files": 0,
+    "total_files": 474,
+    "repro_score": 1.0,
+    "original_hash": "01093984618cfd0b5e8d5cbb65bf58160b509063",
+    "rebuild_hash": "01093984618cfd0b5e8d5cbb65bf58160b509063",
+    "original_bin_hash": "4ee39494fcd7c4d8be350de1dce7ad36959749d3",
+    "rebuild_bin_hash": "4ee39494fcd7c4d8be350de1dce7ad36959749d3",
+    "original_elf_hash": "0842fc854e0072c49bfabb4cc56a316923dbe78f",
+    "rebuild_elf_hash": "0842fc854e0072c49bfabb4cc56a316923dbe78f",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

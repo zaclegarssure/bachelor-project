@@ -1,0 +1,23 @@
+{
+    "name": "com.github.maoschanz.DynamicWallpaperEditor",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 3.5828163623809814,
+    "cache_size": 868632,
+    "git_size": 852169,
+    "dl_size": 0,
+    "original_hash": "e3dcb830b73d3d632e183b43f9e8c1b0f8cb2841",
+    "rebuild_hash": "e3dcb830b73d3d632e183b43f9e8c1b0f8cb2841",
+    "original_bin_hash": "52b1296a8c59802ad8cf5778c51e5abac7b23ec4",
+    "rebuild_bin_hash": "52b1296a8c59802ad8cf5778c51e5abac7b23ec4",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

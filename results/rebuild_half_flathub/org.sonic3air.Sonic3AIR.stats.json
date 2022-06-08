@@ -1,0 +1,25 @@
+{
+    "name": "org.sonic3air.Sonic3AIR",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 43.50861692428589,
+    "cache_size": 157762223,
+    "git_size": 11131823,
+    "dl_size": 146629897,
+    "original_hash": "a60d4ea46c7621d3908ae99cbd393f5c04682c3d",
+    "rebuild_hash": "a60d4ea46c7621d3908ae99cbd393f5c04682c3d",
+    "original_bin_hash": "134a4807d58a3979dacd5f5a520cee47383d9ddb",
+    "rebuild_bin_hash": "134a4807d58a3979dacd5f5a520cee47383d9ddb",
+    "original_lib_hash": "8d20ba2174ffae9f64c2ab7cbf5a69174bc89439",
+    "rebuild_lib_hash": "8d20ba2174ffae9f64c2ab7cbf5a69174bc89439",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "meson",
+        "simple",
+        "meson"
+    ]
+}

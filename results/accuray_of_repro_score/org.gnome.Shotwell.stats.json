@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.Shotwell",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "b809406b5e19853ce1ff916aa22f59dd6a4d83ce517058fe3117f7e2ee7ea613",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-31 01:00:52+00:00",
+    "timestamp_of_rebuild": 1653958852.0,
+    "git-commit": "15daca48b7c89053326fc981c4c7d612c57462d1 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "c3ea4e88f8f9d05efb8b085abb2d1f56d8bab435dade310f31edef002612736d",
+        "org.gnome.Platform/x86_64/42": "ad9ceb4f734c754fe1db5ee926eb1482062ef35f0f588cd74f486eceb3f1028a"
+    },
+    "build_time": 212.71162605285645,
+    "cache_size": 45935329,
+    "git_size": 30426829,
+    "dl_size": 15487941,
+    "bad_files": 1,
+    "total_files": 559,
+    "repro_score": 0.998211091234347,
+    "original_hash": "dccb967af668fa15a9e680aae168015203caa949",
+    "rebuild_hash": "7dca1b5c53c3a15153552f2b7b58c5a4dc901f18",
+    "original_bin_hash": "6916d7e1a08996ebc7b50fb91ac2a291d31aa88f",
+    "rebuild_bin_hash": "31534773e484936bf3a37d55010e671a76fc4908",
+    "original_elf_hash": "7347c40f85a35b17fb70bfbd44f3a0385aab3ab5",
+    "rebuild_elf_hash": "b8c89edc5bae0e9b974cae4f420fe9a7c308784b",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

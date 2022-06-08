@@ -1,0 +1,20 @@
+{
+    "name": "org.srb2.SRB2",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 183.65075087547302,
+    "cache_size": 48599566,
+    "git_size": 46415341,
+    "dl_size": 2183622,
+    "original_hash": "fc71a624da86bcac9089c81543d8ee72e531b801",
+    "rebuild_hash": "1d9d55ab6aee2b5bc564e0ec55b48fbbdc69357b",
+    "original_bin_hash": "81d72ae0d19cc2703dbb259bcaa15b6a057b390e",
+    "rebuild_bin_hash": "680fed8f43ee80e12ef5a24f4a83353221e5d127",
+    "original_lib_hash": "6ec9b17ded1a5121b85e0ee10a4f51c2308c6e5f",
+    "rebuild_lib_hash": "6ec9b17ded1a5121b85e0ee10a4f51c2308c6e5f",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora"
+}

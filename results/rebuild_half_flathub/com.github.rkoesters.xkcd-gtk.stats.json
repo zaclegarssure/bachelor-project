@@ -1,0 +1,23 @@
+{
+    "name": "com.github.rkoesters.xkcd-gtk",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 333.919682264328,
+    "cache_size": 139625925,
+    "git_size": 139609462,
+    "dl_size": 0,
+    "original_hash": "1ef6a9e4331f13412074c84536c6ea5a0a6ca5ee",
+    "rebuild_hash": "1ef6a9e4331f13412074c84536c6ea5a0a6ca5ee",
+    "original_bin_hash": "a9c847cc28064f38c995a4c928fd5aa1493640a6",
+    "rebuild_bin_hash": "a9c847cc28064f38c995a4c928fd5aa1493640a6",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

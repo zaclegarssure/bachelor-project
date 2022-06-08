@@ -1,0 +1,33 @@
+{
+    "name": "com.sindresorhus.Caprine",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "0c07bf7f82077338dfbc6358ce13fa964f35138c615f6eb2c4a42ff7d6830885",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-16 13:14:31+00:00",
+    "timestamp_of_rebuild": 1652706871.0,
+    "git-commit": "76487b58d7b2b528c0de20b9734d52390ba7426e master",
+    "flatpak-deps": {
+        "org.electronjs.Electron2.BaseApp/x86_64/21.08": "0281c7bff16ae16bd23554f65185a9b33ca71dafcdf85667983049d9e046ccb8",
+        "org.freedesktop.Sdk.Extension.node16/x86_64/21.08": "9556d568baf195668b2f133b6749b09bc5f5e04c5f898489427e7a86e04da4aa",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 45.95165181159973,
+    "cache_size": 171588205,
+    "git_size": 0,
+    "dl_size": 171399710,
+    "bad_files": 0,
+    "total_files": 196,
+    "repro_score": 1.0,
+    "original_hash": "6cd87e93a1210c7e8968212d7969afdfe8df7c86",
+    "rebuild_hash": "6cd87e93a1210c7e8968212d7969afdfe8df7c86",
+    "original_bin_hash": "2c1b74c03a740b4a46447bfd3f9f6ac8aca550f7",
+    "rebuild_bin_hash": "2c1b74c03a740b4a46447bfd3f9f6ac8aca550f7",
+    "original_elf_hash": "e7b5cb546d267424ba2f161f7e0a4097e6d54510",
+    "rebuild_elf_hash": "e7b5cb546d267424ba2f161f7e0a4097e6d54510",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

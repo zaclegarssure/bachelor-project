@@ -1,0 +1,23 @@
+{
+    "name": "com.github.ransome1.sleek",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 83.49041962623596,
+    "cache_size": 465876708,
+    "git_size": 10765999,
+    "dl_size": 454995942,
+    "original_hash": "250511d279ead6b2f2b9e802513f38fe1a06ad23",
+    "rebuild_hash": "250511d279ead6b2f2b9e802513f38fe1a06ad23",
+    "original_bin_hash": "b4091af706578ebdeeb2ee823f968c9883af14d1",
+    "rebuild_bin_hash": "b4091af706578ebdeeb2ee823f968c9883af14d1",
+    "original_lib_hash": "1c314fee439c156d279c166afc457198e8d54445",
+    "rebuild_lib_hash": "1c314fee439c156d279c166afc457198e8d54445",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

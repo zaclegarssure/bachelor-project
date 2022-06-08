@@ -1,0 +1,23 @@
+{
+    "name": "com.github.calo001.fondo",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 20.101414918899536,
+    "cache_size": 3657720,
+    "git_size": 3641257,
+    "dl_size": 0,
+    "original_hash": "600ab6e576885e78447cd7641034ff38a698a6fc",
+    "rebuild_hash": "dfef8bdbcb4995ef34cf79a7e64b073266fc627b",
+    "original_bin_hash": "4339796817b88d7049720e9058b218055e149cf1",
+    "rebuild_bin_hash": "4339796817b88d7049720e9058b218055e149cf1",
+    "original_lib_hash": "332bb26ec1d219e7fa7e9c0abcc25d95623a9640",
+    "rebuild_lib_hash": "332bb26ec1d219e7fa7e9c0abcc25d95623a9640",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

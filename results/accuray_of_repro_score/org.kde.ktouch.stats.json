@@ -1,0 +1,31 @@
+{
+    "name": "org.kde.ktouch",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "8a1abc3af150bdfa0463a4f784790cf0f31a3d1133234a75c76eef09c2af1190",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-12 22:17:25+00:00",
+    "timestamp_of_rebuild": 1652393845.0,
+    "git-commit": "73cb4acb02fd014e62ccd283e7565236b566d558 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 39.674100160598755,
+    "cache_size": 5481880,
+    "git_size": 0,
+    "dl_size": 5465417,
+    "bad_files": 14,
+    "total_files": 288,
+    "repro_score": 0.9513888888888888,
+    "original_hash": "919f1b5061b9874cc539af6ba2d286d6c3101851",
+    "rebuild_hash": "3874b574bb6bf0ecaacfb4c3e6793c3d5a949fc6",
+    "original_bin_hash": "ce872a68a5d456b07baacee9ec777f474be32834",
+    "rebuild_bin_hash": "d7d73ae8de3d7a258fdf6d3948ffe2e24051c7a7",
+    "original_elf_hash": "31651b36fae0ffae6bf947d1eb61a4eda6f009dc",
+    "rebuild_elf_hash": "503bef53d22be740cf6d25647379a1d457e0a287",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

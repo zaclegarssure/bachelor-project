@@ -1,0 +1,24 @@
+{
+    "name": "de.willuhn.Jameica",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 27.748436450958252,
+    "cache_size": 28880542,
+    "git_size": 0,
+    "dl_size": 28864079,
+    "original_hash": "e67bf6f512f7ee14fb244c0cefa118bc89289ca3",
+    "rebuild_hash": "e67bf6f512f7ee14fb244c0cefa118bc89289ca3",
+    "original_bin_hash": "4ea85092b8f48c98c32ec3df3a649457ee72ccae",
+    "rebuild_bin_hash": "4ea85092b8f48c98c32ec3df3a649457ee72ccae",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

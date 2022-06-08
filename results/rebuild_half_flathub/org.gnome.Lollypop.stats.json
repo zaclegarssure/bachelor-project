@@ -1,0 +1,28 @@
+{
+    "name": "org.gnome.Lollypop",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 157.38398432731628,
+    "cache_size": 83796574,
+    "git_size": 15882311,
+    "dl_size": 67893704,
+    "original_hash": "0ec8b923e026055341be77a8f4a245dda933d62e",
+    "rebuild_hash": "fe515db0ecd7b6cea80861756665a3b259aa50a4",
+    "original_bin_hash": "250b67c960c935d6130b7fc3f187a573498f6cae",
+    "rebuild_bin_hash": "250b67c960c935d6130b7fc3f187a573498f6cae",
+    "original_lib_hash": "a98a33007e6dde31bb958b4f180c69535f409d24",
+    "rebuild_lib_hash": "4e2711893c4cc8b57d9c39b69c7a632cc0254548",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "meson",
+        "meson",
+        "meson",
+        "simple",
+        "meson"
+    ]
+}

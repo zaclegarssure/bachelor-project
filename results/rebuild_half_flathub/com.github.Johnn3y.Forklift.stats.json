@@ -1,0 +1,20 @@
+{
+    "name": "com.github.Johnn3y.Forklift",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 59.10747051239014,
+    "cache_size": 5560577,
+    "git_size": 4090574,
+    "dl_size": 1449444,
+    "original_hash": "c8594ed293d0699cc86bb515b2fea6a991ad9cdc",
+    "rebuild_hash": "c8594ed293d0699cc86bb515b2fea6a991ad9cdc",
+    "original_bin_hash": "34ec8146c4effb35916cfde0a9d02bcb0980f061",
+    "rebuild_bin_hash": "34ec8146c4effb35916cfde0a9d02bcb0980f061",
+    "original_lib_hash": "4e8cd64e7f4188f0e35f82d14d91ddd071010ac0",
+    "rebuild_lib_hash": "4e8cd64e7f4188f0e35f82d14d91ddd071010ac0",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

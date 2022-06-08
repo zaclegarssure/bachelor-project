@@ -1,0 +1,24 @@
+{
+    "name": "dk.tangramgames.mrrescue",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 266.315886259079,
+    "cache_size": 16722717,
+    "git_size": 11990289,
+    "dl_size": 4711869,
+    "original_hash": "b5ee74feb97a2fdcafdbc372134d30de93e3e1de",
+    "rebuild_hash": "3886c829f154528575bbf3411083a85c77100ab7",
+    "original_bin_hash": "7c497c9fa8e2667fc0acb6d10c0cf795a21934ef",
+    "rebuild_bin_hash": "0209d1dd63246da85565b93cf254ec45a40c60ce",
+    "original_lib_hash": "bc9f9479f70ccec199393d430594c4f45ce84aba",
+    "rebuild_lib_hash": "bc9f9479f70ccec199393d430594c4f45ce84aba",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "simple"
+    ]
+}

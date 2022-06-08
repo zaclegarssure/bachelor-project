@@ -1,0 +1,31 @@
+{
+    "name": "org.openmw.OpenMW",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "44d2e932279db95643d43aa377367f1b43e66c0db6bb077cd0ad73d743587826",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-05 14:54:16+00:00",
+    "timestamp_of_rebuild": 1636124056.0,
+    "git-commit": "56d8a6fcd6029662658f78756dcb90c93d5b9f3a master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.kde.Sdk/x86_64/5.15-21.08": "01dfceaf2736149c8ecca41da3571ca01e721d383b0481967a9c762b3cf2e8b4",
+        "org.kde.Platform/x86_64/5.15-21.08": "828c5d22d3068ea274ad6a7e45c939d49b0395a7b4b96be2c0300268fb1a7559"
+    },
+    "build_time": 1525.8378286361694,
+    "cache_size": 330414335,
+    "git_size": 5867748,
+    "dl_size": 324526028,
+    "bad_files": 5,
+    "total_files": 199,
+    "repro_score": 0.9748743718592965,
+    "original_hash": "8fa624a691e99f46924c63beff42856c7a542ea2",
+    "rebuild_hash": "ee74fed47af79c9a051a96ce794a2197a0840b42",
+    "original_bin_hash": "b08dfc685ee9630d20a92bcb8021f7a0221e972d",
+    "rebuild_bin_hash": "9254d8f20ab5f312a3760374befa3527afab712a",
+    "original_elf_hash": "25dce41da52c3dbf752e065e460928685b49cb12",
+    "rebuild_elf_hash": "425d32f07badc0b559d6403b92018ac93fcea8d7",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

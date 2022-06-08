@@ -1,0 +1,31 @@
+{
+    "name": "org.texstudio.TeXstudio",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "edc42ed8790133be097ff7613f27d227bb887e5928bfac5f7b5305cd1d7f0f43",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-01 18:05:02+00:00",
+    "timestamp_of_rebuild": 1654106702.0,
+    "git-commit": "cf12869507d54b684ccfa5e77ad11323e01a7474 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "1bf5dbd9fd2f66898d2501dfbe0e5327d0dc6eecd9e02e2bdeb39a43df7974c8",
+        "org.kde.Platform/x86_64/5.15-21.08": "c49e5ed4c419e849e15657b270c0cb9550afaa73277c611426b97c701cbe37b4"
+    },
+    "build_time": 249.77217531204224,
+    "cache_size": 200618517,
+    "git_size": 0,
+    "dl_size": 200602054,
+    "bad_files": 1,
+    "total_files": 192,
+    "repro_score": 0.9947916666666666,
+    "original_hash": "4855fb891a875151974ef3c3ee77f67b676e5735",
+    "rebuild_hash": "adb1b1f739c9b72d1551523dea3aa44d579a3bad",
+    "original_bin_hash": "671f52d3d7e0cabb21539d20555295b533a1fcf8",
+    "rebuild_bin_hash": "fa2a7828e436962381a6f21576c651faf381f5f7",
+    "original_elf_hash": "3f1f87837e4e0cd4690ca2d84355808a4b18d98a",
+    "rebuild_elf_hash": "fbc696cc747566ab39ad0f67e90b14dd8b54fb51",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

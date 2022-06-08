@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.design.Typography",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 4.5393853187561035,
+    "cache_size": 68969,
+    "git_size": 0,
+    "dl_size": 52506,
+    "original_hash": "78391c016a16e4c9089e5a722b894fe95202872e",
+    "rebuild_hash": "b69e7ebd6dc0169d3f92b8482fb3236513b159c2",
+    "original_bin_hash": "1b0bd2b6f28baa70343a2a6a12254472bcf01e05",
+    "rebuild_bin_hash": "353a55a659554997d3437c5dac4d9268d256399a",
+    "original_lib_hash": "d8a4fc161e2ff825ba4c2fd4abc4e254a0fea2e1",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

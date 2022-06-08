@@ -1,0 +1,23 @@
+{
+    "name": "de.schmidhuberj.DieBahn",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 541.3644018173218,
+    "cache_size": 25600123,
+    "git_size": 0,
+    "dl_size": 25567276,
+    "original_hash": "8a44ac246bb9d5b4bfbacdfd79ea7244e6e259ea",
+    "rebuild_hash": "caeb288cd16d6bc05b6084549df77ef6399a1db7",
+    "original_bin_hash": "7bd0dfb661b5f6712d76b7b8247970210f36dfd8",
+    "rebuild_bin_hash": "c87fa0510fedf24a756ebd92ffda692fa2dae2e6",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "com.amazon.Workspaces",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 1.8833715915679932,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "ec7ba5adaf933530dc7a7cb513e078189d7dde57",
+    "rebuild_hash": "ec7ba5adaf933530dc7a7cb513e078189d7dde57",
+    "original_bin_hash": "1ded6daf0a94663a3258ebc819ee0a761c368c83",
+    "rebuild_bin_hash": "1ded6daf0a94663a3258ebc819ee0a761c368c83",
+    "original_lib_hash": "56ef7b331c8f00b6784bc1d4a47f9b91262ec146",
+    "rebuild_lib_hash": "56ef7b331c8f00b6784bc1d4a47f9b91262ec146",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

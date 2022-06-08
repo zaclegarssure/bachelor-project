@@ -1,0 +1,20 @@
+{
+    "name": "org.godotengine.Godot",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 802.6945495605469,
+    "cache_size": 25946476,
+    "git_size": 0,
+    "dl_size": 25930013,
+    "original_hash": "f5b02296e7d534f0a50bcb32cd694ec23ece7a51",
+    "rebuild_hash": "f5b02296e7d534f0a50bcb32cd694ec23ece7a51",
+    "original_bin_hash": "cc786d0d5914d2bcab81324f9bff413aa04fc419",
+    "rebuild_bin_hash": "cc786d0d5914d2bcab81324f9bff413aa04fc419",
+    "original_lib_hash": "cb65a380ed9c0bca6d2d430ddb7cad063a52098a",
+    "rebuild_lib_hash": "cb65a380ed9c0bca6d2d430ddb7cad063a52098a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "org.purei.Play",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 251.24839973449707,
+    "cache_size": 122925777,
+    "git_size": 122041790,
+    "dl_size": 882728,
+    "original_hash": "50c3c3e9c3f52b98e1df22070851c8a8d9af4b07",
+    "rebuild_hash": "7d093362fd573742b9e3d6174c1bbc28d4b47046",
+    "original_bin_hash": "48a1fc79bb0f9fefff1ebc0695645e468fc755e2",
+    "rebuild_bin_hash": "8b8ef94d5940b26a7c111ec942cf826b6da17a1b",
+    "original_lib_hash": "b68c9fb7f9d15f3dfd0353f3b84daf9ca49a8d5f",
+    "rebuild_lib_hash": "b68c9fb7f9d15f3dfd0353f3b84daf9ca49a8d5f",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora"
+}

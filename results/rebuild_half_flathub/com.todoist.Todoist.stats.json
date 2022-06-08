@@ -1,0 +1,20 @@
+{
+    "name": "com.todoist.Todoist",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 21.389742374420166,
+    "cache_size": 662926,
+    "git_size": 396308,
+    "dl_size": 246059,
+    "original_hash": "c8126ea108f3bce18c6fb50d21d12caf1122143e",
+    "rebuild_hash": "c8126ea108f3bce18c6fb50d21d12caf1122143e",
+    "original_bin_hash": "3939984c489c5f42aa185f460938a0ee1d76b6e5",
+    "rebuild_bin_hash": "3939984c489c5f42aa185f460938a0ee1d76b6e5",
+    "original_lib_hash": "49de287608832156b8400cd65ce41ba1f4bf693f",
+    "rebuild_lib_hash": "49de287608832156b8400cd65ce41ba1f4bf693f",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

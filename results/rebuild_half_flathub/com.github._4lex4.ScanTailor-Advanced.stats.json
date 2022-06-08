@@ -1,0 +1,24 @@
+{
+    "name": "com.github._4lex4.ScanTailor-Advanced",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 202.4599838256836,
+    "cache_size": 95354899,
+    "git_size": 3174929,
+    "dl_size": 92159411,
+    "original_hash": "e9188930289fbb0f988a7e5fd49a153b4132f58b",
+    "rebuild_hash": "f05dec90745007481dd9b6a5403e45504d079d0a",
+    "original_bin_hash": "e9eebb78c233590453f8a7c06b8b57052faaa49c",
+    "rebuild_bin_hash": "dcb7088d97be9f34dbecc65d4c327107fb6390e1",
+    "original_lib_hash": "77e771e7556a6c5514f59d4247f8db37c7a5b862",
+    "rebuild_lib_hash": "77e771e7556a6c5514f59d4247f8db37c7a5b862",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "cmake-ninja"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "org.gnome.Gtranslator",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 74.50641536712646,
+    "cache_size": 13491220,
+    "git_size": 2461899,
+    "dl_size": 11008762,
+    "original_hash": "962e0006c676286ede9c48ff620c53424a0cde54",
+    "rebuild_hash": "962e0006c676286ede9c48ff620c53424a0cde54",
+    "original_bin_hash": "7d68e88b9465a44bb212bcfb9b14eb2b817fdaf6",
+    "rebuild_bin_hash": "7d68e88b9465a44bb212bcfb9b14eb2b817fdaf6",
+    "original_lib_hash": "63dffee92cc55b3980c545ca918586d152c2aa37",
+    "rebuild_lib_hash": "63dffee92cc55b3980c545ca918586d152c2aa37",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

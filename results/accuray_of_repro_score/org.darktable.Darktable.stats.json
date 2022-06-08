@@ -1,0 +1,16 @@
+{
+    "name": "org.darktable.Darktable",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "42b5f5010b2d97e676efd7045d7686985db4a5b042cf47c1409daf5cec2c99f4",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-23 15:02:50+00:00",
+    "timestamp_of_rebuild": 1650726170.0,
+    "git-commit": "92440de3f0248214568e075dcb5c785549f2850e master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    }
+}

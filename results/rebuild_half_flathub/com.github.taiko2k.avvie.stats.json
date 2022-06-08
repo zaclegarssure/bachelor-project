@@ -1,0 +1,25 @@
+{
+    "name": "com.github.taiko2k.avvie",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 37.37853002548218,
+    "cache_size": 51118000,
+    "git_size": 317830,
+    "dl_size": 50779611,
+    "original_hash": "136747b7cb058f1ad1c0b179ce017f6b6ede420e",
+    "rebuild_hash": "136747b7cb058f1ad1c0b179ce017f6b6ede420e",
+    "original_bin_hash": "72614c43f6d84dc56e8d6c0773b24042e5dbdf57",
+    "rebuild_bin_hash": "72614c43f6d84dc56e8d6c0773b24042e5dbdf57",
+    "original_lib_hash": "fb64c6d3bbf56cc0a30d3355edeb1a2774c4467d",
+    "rebuild_lib_hash": "fb64c6d3bbf56cc0a30d3355edeb1a2774c4467d",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "org.kicad.KiCad",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "eb69e95e0daaff658c3e62bc0e09cc8a5c608e8f8dade7e5f33ec6404a7b1c44",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-20 07:40:21+00:00",
+    "timestamp_of_rebuild": 1653032421.0,
+    "git-commit": "115e96b7543575fcbbed0ed680a5e1072aa37608 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 3620.8547847270966,
+    "cache_size": 673054898,
+    "git_size": 0,
+    "dl_size": 673038435,
+    "bad_files": 73,
+    "total_files": 11914,
+    "repro_score": 0.99387275474232,
+    "original_hash": "585e7c95e8c2fef374e4f3b9cd28735b32d5d122",
+    "rebuild_hash": "5e05ad536e09be9f4014ef2d960ef4221c705e52",
+    "original_bin_hash": "6b97c74c3c419af5984d8d66262914b935135017",
+    "rebuild_bin_hash": "d63093f3ccb4da40582cecfb34bc810621a32b93",
+    "original_elf_hash": "e2d012e1681aa64ec1ea6b9b03fbd72b72babf79",
+    "rebuild_elf_hash": "2b27a63966be5b6e7753edafa8b8e96fc1a53bb0",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

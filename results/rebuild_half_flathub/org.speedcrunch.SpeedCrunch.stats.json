@@ -1,0 +1,23 @@
+{
+    "name": "org.speedcrunch.SpeedCrunch",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 73.85895776748657,
+    "cache_size": 2657794,
+    "git_size": 2657501,
+    "dl_size": 0,
+    "original_hash": "4e8f7970fc3e7e8150c154b9702a229ef88a52da",
+    "rebuild_hash": "5d4e4f16e58ce2ab5d704c30345d19d4c8503366",
+    "original_bin_hash": "458c7dd77aa7ec213837a5fe13e3953ff645409a",
+    "rebuild_bin_hash": "9aad9b8f1425f01bf1ff78c9c1c19da800ca2cea",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

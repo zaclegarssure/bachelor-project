@@ -1,0 +1,31 @@
+{
+    "name": "org.bitcoincore.bitcoin-qt",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "418d55978347d63e522785e30810578f73af8b26627f6ec7085f96428f2d32e4",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-13 15:40:47+00:00",
+    "timestamp_of_rebuild": 1652456447.0,
+    "git-commit": "c43ecc19a2ff8d3283fc70a84fb55d9c7ab1d84d master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 41.40957713127136,
+    "cache_size": 44206409,
+    "git_size": 0,
+    "dl_size": 44189946,
+    "bad_files": 0,
+    "total_files": 18,
+    "repro_score": 1.0,
+    "original_hash": "5198905db31e34858bafffb1be5234861917b354",
+    "rebuild_hash": "5198905db31e34858bafffb1be5234861917b354",
+    "original_bin_hash": "f08ec53ccec0742fc7a409cc032363af9baee6c1",
+    "rebuild_bin_hash": "f08ec53ccec0742fc7a409cc032363af9baee6c1",
+    "original_elf_hash": "7685c5bb021008e281c3a69915b655864a6e7125",
+    "rebuild_elf_hash": "7685c5bb021008e281c3a69915b655864a6e7125",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

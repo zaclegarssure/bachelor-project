@@ -1,0 +1,23 @@
+{
+    "name": "br.com.gualandi.Xjump",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 2.242849111557007,
+    "cache_size": 111351,
+    "git_size": 0,
+    "dl_size": 94888,
+    "original_hash": "8bd6c1006dab20de16ce6ce4898b6ee261549378",
+    "rebuild_hash": "8bd6c1006dab20de16ce6ce4898b6ee261549378",
+    "original_bin_hash": "a5fd8fc80e58dec77b8254fc45ee40da79ac91bb",
+    "rebuild_bin_hash": "a5fd8fc80e58dec77b8254fc45ee40da79ac91bb",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "autotools"
+    ]
+}

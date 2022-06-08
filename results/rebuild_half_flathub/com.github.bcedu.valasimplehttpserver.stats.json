@@ -1,0 +1,23 @@
+{
+    "name": "com.github.bcedu.valasimplehttpserver",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 14.943317890167236,
+    "cache_size": 4763733,
+    "git_size": 4747270,
+    "dl_size": 0,
+    "original_hash": "e70732e9860b525b6c9650f1577e416943c9568c",
+    "rebuild_hash": "e70732e9860b525b6c9650f1577e416943c9568c",
+    "original_bin_hash": "6c3bab3de88e4f23545693640fde63cccef97856",
+    "rebuild_bin_hash": "6c3bab3de88e4f23545693640fde63cccef97856",
+    "original_lib_hash": "ada58591afb906373abd18dd6e1907b0f508a1c9",
+    "rebuild_lib_hash": "ada58591afb906373abd18dd6e1907b0f508a1c9",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

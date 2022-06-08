@@ -1,0 +1,24 @@
+{
+    "name": "com.belmoussaoui.Decoder",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 234.25043773651123,
+    "cache_size": 29948129,
+    "git_size": 0,
+    "dl_size": 29931666,
+    "original_hash": "1550a0dd50bd8238fd527d0e41a679ae7d00899a",
+    "rebuild_hash": "1550a0dd50bd8238fd527d0e41a679ae7d00899a",
+    "original_bin_hash": "9c1657e96207e84021a4b175e1aa3e47b2bf07a9",
+    "rebuild_bin_hash": "9c1657e96207e84021a4b175e1aa3e47b2bf07a9",
+    "original_lib_hash": "0a2641861c90738fafd36ccb8ab6051733cb58d9",
+    "rebuild_lib_hash": "0a2641861c90738fafd36ccb8ab6051733cb58d9",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

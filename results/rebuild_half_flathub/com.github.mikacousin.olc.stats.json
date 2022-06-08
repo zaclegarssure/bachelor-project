@@ -1,0 +1,30 @@
+{
+    "name": "com.github.mikacousin.olc",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 297.0976138114929,
+    "cache_size": 16107959,
+    "git_size": 4765199,
+    "dl_size": 11322201,
+    "original_hash": "8dd176e12fb9edb9e68b4506b5dddbd0562d9058",
+    "rebuild_hash": "d59eb942f6cd352b01cd03a3e5b03d816a60d62e",
+    "original_bin_hash": "de1b4c229478a82118d4d52385503ba9a72cb9a2",
+    "rebuild_bin_hash": "de1b4c229478a82118d4d52385503ba9a72cb9a2",
+    "original_lib_hash": "5de2cc2108d7cf4d7334923b7abfcf1d0477be6c",
+    "rebuild_lib_hash": "44c7866c218047f20bf556a2b64772721f9352c2",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "diffoscope_failed": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

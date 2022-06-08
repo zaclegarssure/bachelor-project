@@ -1,0 +1,20 @@
+{
+    "name": "com.microsoft.Teams",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 117.49754691123962,
+    "cache_size": 94656607,
+    "git_size": 0,
+    "dl_size": 94640144,
+    "original_hash": "3dc5b86f97efb0c9ca123e764715e12440ec830e",
+    "rebuild_hash": "2b8e926a28014ce895a2ca33a6848723022a9a0a",
+    "original_bin_hash": "fc4c8477e208367078998a17989c4d8f91b344aa",
+    "rebuild_bin_hash": "fc4c8477e208367078998a17989c4d8f91b344aa",
+    "original_lib_hash": "6142c99587fd775a9204457f8c312d6c6023223a",
+    "rebuild_lib_hash": "6142c99587fd775a9204457f8c312d6c6023223a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

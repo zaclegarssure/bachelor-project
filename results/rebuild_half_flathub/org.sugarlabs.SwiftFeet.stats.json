@@ -1,0 +1,23 @@
+{
+    "name": "org.sugarlabs.SwiftFeet",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 10.119511604309082,
+    "cache_size": 12421334,
+    "git_size": 12421049,
+    "dl_size": 0,
+    "original_hash": "8f6e9305f6442bd16350aa267aa1a9ba5fa29a14",
+    "rebuild_hash": "8f6e9305f6442bd16350aa267aa1a9ba5fa29a14",
+    "original_bin_hash": "a6575aa72d8bb2f909da88ec49ca667a16cfb6eb",
+    "rebuild_bin_hash": "a6575aa72d8bb2f909da88ec49ca667a16cfb6eb",
+    "original_lib_hash": "06001a0e40c7811ef78044144e64be3e5aec92a5",
+    "rebuild_lib_hash": "06001a0e40c7811ef78044144e64be3e5aec92a5",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple"
+    ]
+}

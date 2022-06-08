@@ -1,0 +1,21 @@
+{
+    "name": "com.leinardi.gkraken",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 376.86631059646606,
+    "cache_size": 114144983,
+    "git_size": 9342389,
+    "dl_size": 104782035,
+    "original_hash": "ac1555d7369e087eec5afc1a8d3f51df2b7c48d1",
+    "rebuild_hash": "8c09cd43403ae91cd776b9ad257d60b3036d0ccb",
+    "original_bin_hash": "4f2965b8f3be3adb29a0980963d11a9fd2a4f373",
+    "rebuild_bin_hash": "4f2965b8f3be3adb29a0980963d11a9fd2a4f373",
+    "original_lib_hash": "1d7488138ff76d432f878d5d49b2d5dcd347a45f",
+    "rebuild_lib_hash": "5060a3e9102ca0bb2b0c6a1dc84055203935303f",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "diffoscope_failed": true,
+    "machine": "desktop-arch"
+}

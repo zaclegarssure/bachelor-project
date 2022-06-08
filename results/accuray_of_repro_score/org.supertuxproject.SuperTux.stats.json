@@ -1,0 +1,16 @@
+{
+    "name": "org.supertuxproject.SuperTux",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "e155f94d65c3cc712719060acd3947452d68ee3cade6ee4544f5b02213e5c944",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-24 07:22:56+00:00",
+    "timestamp_of_rebuild": 1640330576.0,
+    "git-commit": "ef77f80cafa0fc954920dcc828730f38bc37c09c master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/21.08": "afa972126d13c4c5b544c01f0b6144ae9673f67501c8a43132cd6b9a92d22f0c",
+        "org.freedesktop.Platform/x86_64/21.08": "940b0728d1b7d18b9d3f557ae44e7c37b27febcb04f93a7cc0ebb886ba2cfa37"
+    }
+}

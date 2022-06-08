@@ -1,0 +1,31 @@
+{
+    "name": "net.fsuae.FS-UAE",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "fbd441b7f9e71317c3f3a4e87d95bd68b13f0eae2b1452d32c269663e939f976",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-28 03:26:29+00:00",
+    "timestamp_of_rebuild": 1638069989.0,
+    "git-commit": "82ed2e5885443e8fdd18bdb06f0f129a243c0267 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.kde.Sdk/x86_64/5.15-21.08": "beaed2fcff575743eb6322ee333498337978455fdb69068642cf0fcbbf6a53fe",
+        "org.kde.Platform/x86_64/5.15-21.08": "f7d057dcdc0849b58556c57d4dc1501c272fa5126bf5fe32b8cbef972fdd762b"
+    },
+    "build_time": 435.7923834323883,
+    "cache_size": 21994943,
+    "git_size": 0,
+    "dl_size": 21978480,
+    "bad_files": 4,
+    "total_files": 3155,
+    "repro_score": 0.9987321711568938,
+    "original_hash": "7b7743c1d4a8822a560e1dc75993d73420b4becc",
+    "rebuild_hash": "9057ec86dc72b61ce0316d95451973f0acb41a63",
+    "original_bin_hash": "6042839482236905f068f37fa44a5e722ca98e73",
+    "rebuild_bin_hash": "abda0a46248b81700cccd4a3697bd0570ea61226",
+    "original_elf_hash": "e94899ac898e98c56b835da3245cb5780cc68284",
+    "rebuild_elf_hash": "e94899ac898e98c56b835da3245cb5780cc68284",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

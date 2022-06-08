@@ -1,0 +1,25 @@
+{
+    "name": "com.makemkv.MakeMKV",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 302.37711548805237,
+    "cache_size": 38746573,
+    "git_size": 1145644,
+    "dl_size": 37580370,
+    "original_hash": "5891804f66a88ff8863b138e1694e03d1f8a7bc7",
+    "rebuild_hash": "b8b3c635e7dc42229bd062af5caab2ceb66bf175",
+    "original_bin_hash": "6740d3c827b7ee2aa5824a5e1dbe0500c2d7a685",
+    "rebuild_bin_hash": "a8cca72d277278c1f8f95f39f34d8da0964fae6e",
+    "original_lib_hash": "20d0ebe9baaf222b282a91a7a8b56f1457786948",
+    "rebuild_lib_hash": "20d0ebe9baaf222b282a91a7a8b56f1457786948",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "autotools",
+        "simple"
+    ]
+}

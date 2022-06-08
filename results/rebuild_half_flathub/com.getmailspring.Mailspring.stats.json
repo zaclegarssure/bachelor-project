@@ -1,0 +1,20 @@
+{
+    "name": "com.getmailspring.Mailspring",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 42.018168449401855,
+    "cache_size": 99116827,
+    "git_size": 396308,
+    "dl_size": 98699960,
+    "original_hash": "e42e13760b5b8c34adaab6a2199e0589ba48acd9",
+    "rebuild_hash": "e42e13760b5b8c34adaab6a2199e0589ba48acd9",
+    "original_bin_hash": "15af804fad915fc58748ee4d3b779c99f07b60ee",
+    "rebuild_bin_hash": "15af804fad915fc58748ee4d3b779c99f07b60ee",
+    "original_lib_hash": "72f3f82084d7983a60aef63e72278974c8248d88",
+    "rebuild_lib_hash": "72f3f82084d7983a60aef63e72278974c8248d88",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

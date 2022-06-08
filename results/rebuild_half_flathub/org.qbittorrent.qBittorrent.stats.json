@@ -1,0 +1,25 @@
+{
+    "name": "org.qbittorrent.qBittorrent",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 565.487706899643,
+    "cache_size": 127085898,
+    "git_size": 0,
+    "dl_size": 127085319,
+    "original_hash": "0dda82598b93fe64f7bec5afc4c0b2971427d9cb",
+    "rebuild_hash": "378c3aba9df485f7dfe34abf4a2cdf4a2afcda98",
+    "original_bin_hash": "6cba85922ce4e41075b3b7952d069c11d13e1b98",
+    "rebuild_bin_hash": "80b11e69b8a3a6b3fa0e3b3dd753e315d00ff85b",
+    "original_lib_hash": "51fb781f924031ddb57cf567cb5826d342bf23c5",
+    "rebuild_lib_hash": "51fb781f924031ddb57cf567cb5826d342bf23c5",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "cmake-ninja",
+        "cmake-ninja"
+    ]
+}

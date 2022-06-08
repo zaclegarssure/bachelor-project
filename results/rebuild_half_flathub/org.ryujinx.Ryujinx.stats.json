@@ -1,0 +1,23 @@
+{
+    "name": "org.ryujinx.Ryujinx",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 103.26326155662537,
+    "cache_size": 262363981,
+    "git_size": 4938381,
+    "dl_size": 257378759,
+    "original_hash": "07c5d9544b45dae30fb738a8600ddb1946a813af",
+    "rebuild_hash": "07c5d9544b45dae30fb738a8600ddb1946a813af",
+    "original_bin_hash": "cd4ed9c3fb3d6a41825a8a472e8d8722f8ab1262",
+    "rebuild_bin_hash": "cd4ed9c3fb3d6a41825a8a472e8d8722f8ab1262",
+    "original_lib_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "rebuild_lib_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple"
+    ]
+}

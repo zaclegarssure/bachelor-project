@@ -1,0 +1,24 @@
+{
+    "name": "cat.xtec.clic.JClic",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 15.777982711791992,
+    "cache_size": 6825477,
+    "git_size": 3669072,
+    "dl_size": 3135846,
+    "original_hash": "b550f5e3f90f74adf338feaeaae2b6abfc6ff420",
+    "rebuild_hash": "b550f5e3f90f74adf338feaeaae2b6abfc6ff420",
+    "original_bin_hash": "d89b94602b34b27af353bf3e857014e50b9119dc",
+    "rebuild_bin_hash": "d89b94602b34b27af353bf3e857014e50b9119dc",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "com.github.hopsan.Hopsan",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 238.14831638336182,
+    "cache_size": 357096418,
+    "git_size": 336654390,
+    "dl_size": 20421469,
+    "original_hash": "f3d75493f318e31be48937f73d187611d83e5eac",
+    "rebuild_hash": "f5ede96715f4136554a73e55b8537c1d7dd8e165",
+    "original_bin_hash": "50338656cb41943234d0cfe0c787a1616696d348",
+    "rebuild_bin_hash": "5c46a952bf3f3d8126647d23f5fef3d1fc7de140",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

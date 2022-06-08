@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Hamster",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 24.92596983909607,
+    "cache_size": 2002807,
+    "git_size": 1181510,
+    "dl_size": 800738,
+    "original_hash": "0af055144e99845e93bc43ee2f6865ddd05d9b36",
+    "rebuild_hash": "97210389e56d6d122b97f48666bf4a500377407f",
+    "original_bin_hash": "98ff7ecdc112c5465b94a71a99db77d6e7ca8766",
+    "rebuild_bin_hash": "98ff7ecdc112c5465b94a71a99db77d6e7ca8766",
+    "original_lib_hash": "1c135e7c3277235c2cfeffcf4375b9366cff90cc",
+    "rebuild_lib_hash": "496d43be9abf3b34fe70baa75fc0b4e7233724ce",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

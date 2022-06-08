@@ -1,0 +1,28 @@
+{
+    "name": "com.github.christianrauch.Jahresarbeit-2003",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 68.71742224693298,
+    "cache_size": 77121913,
+    "git_size": 65065832,
+    "dl_size": 12035522,
+    "original_hash": "8a1f07c17dc48cb87dabb2e41cbd6bc0f81517d4",
+    "rebuild_hash": "343a06d6edd38940b2be6c95064cfca829533d7b",
+    "original_bin_hash": null,
+    "rebuild_bin_hash": null,
+    "original_lib_hash": "a3f852c12e25f551cd45cadda1263bd91550966b",
+    "rebuild_lib_hash": "a3f852c12e25f551cd45cadda1263bd91550966b",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "cmake-ninja",
+        "cmake-ninja",
+        "autotools",
+        "cmake-ninja",
+        "simple"
+    ]
+}

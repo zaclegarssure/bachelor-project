@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.gitg",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 164.5452060699463,
+    "cache_size": 20550683,
+    "git_size": 324884,
+    "dl_size": 20205240,
+    "original_hash": "fb62817c5a9373d36df7418557f3e7df5611b853",
+    "rebuild_hash": "fb62817c5a9373d36df7418557f3e7df5611b853",
+    "original_bin_hash": "dce67a4e52e37e47fcee13b10ee8423d87467a93",
+    "rebuild_bin_hash": "dce67a4e52e37e47fcee13b10ee8423d87467a93",
+    "original_lib_hash": "be05b2fe17c817719fc1fc6b887551c67467fcc0",
+    "rebuild_lib_hash": "be05b2fe17c817719fc1fc6b887551c67467fcc0",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

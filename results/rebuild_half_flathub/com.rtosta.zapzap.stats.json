@@ -1,0 +1,26 @@
+{
+    "name": "com.rtosta.zapzap",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 310.99946665763855,
+    "cache_size": 9815594,
+    "git_size": 382419,
+    "dl_size": 9412616,
+    "original_hash": "eb421c9d3083a164fd23834776398771061a08ce",
+    "rebuild_hash": "0c3f186af3c4ea154e249781da447ec55799cb05",
+    "original_bin_hash": "8df82fb810c0923f7384463614ebc8349765e5aa",
+    "rebuild_bin_hash": "8df82fb810c0923f7384463614ebc8349765e5aa",
+    "original_lib_hash": "445a7276d906ccbe11ba1522264d1135631a4287",
+    "rebuild_lib_hash": "edf5af355375033f3212e6cf97acc83d8d383567",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "com.spotify.Client",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 33.25004601478577,
+    "cache_size": 1726350,
+    "git_size": 479748,
+    "dl_size": 1226043,
+    "original_hash": "fd18e1fe2931b676ce68b6e4e27e6410b0255285",
+    "rebuild_hash": "fd18e1fe2931b676ce68b6e4e27e6410b0255285",
+    "original_bin_hash": "de7812c6602226aea3ee012439d27e107e6019ff",
+    "rebuild_bin_hash": "de7812c6602226aea3ee012439d27e107e6019ff",
+    "original_lib_hash": "9421421e7ede8dc564fc3dcbb916e4a33497a23a",
+    "rebuild_lib_hash": "9421421e7ede8dc564fc3dcbb916e4a33497a23a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

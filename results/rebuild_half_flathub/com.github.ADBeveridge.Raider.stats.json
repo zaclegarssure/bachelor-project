@@ -1,0 +1,24 @@
+{
+    "name": "com.github.ADBeveridge.Raider",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 27.449283361434937,
+    "cache_size": 2341148,
+    "git_size": 2324685,
+    "dl_size": 0,
+    "original_hash": "4007a4fc6c92cf4a9b9cef2e83cf676aea9aea3c",
+    "rebuild_hash": "4007a4fc6c92cf4a9b9cef2e83cf676aea9aea3c",
+    "original_bin_hash": "8dd6f7aeb04fba3340fe62e37a25f40cf030fd28",
+    "rebuild_bin_hash": "8dd6f7aeb04fba3340fe62e37a25f40cf030fd28",
+    "original_lib_hash": "51309863e800ddabf73ac9a77e3bb8b78e786ce7",
+    "rebuild_lib_hash": "51309863e800ddabf73ac9a77e3bb8b78e786ce7",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

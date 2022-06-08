@@ -1,0 +1,16 @@
+{
+    "name": "org.getmonero.Monero",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "db8025c25fd3b3900472ea302f86ba3795c0267838458b015d100a773d84a364",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-30 13:52:42+00:00",
+    "timestamp_of_rebuild": 1653918762.0,
+    "git-commit": "b6c1ad0acbe3b7562dddd81cba72c52ec707f78d master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "1bf5dbd9fd2f66898d2501dfbe0e5327d0dc6eecd9e02e2bdeb39a43df7974c8",
+        "org.kde.Platform/x86_64/5.15-21.08": "c49e5ed4c419e849e15657b270c0cb9550afaa73277c611426b97c701cbe37b4"
+    }
+}

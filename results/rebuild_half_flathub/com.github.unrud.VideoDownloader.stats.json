@@ -1,0 +1,29 @@
+{
+    "name": "com.github.unrud.VideoDownloader",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 562.3478412628174,
+    "cache_size": 32066838,
+    "git_size": 229629,
+    "dl_size": 31816650,
+    "original_hash": "87e90add2b5a9b49bd8a18883c041ae64fd71011",
+    "rebuild_hash": "5478b00a16ec722c7fc42c1ce0bf4c7d4f44e955",
+    "original_bin_hash": "57eef49c459a906522f1a41d14af0bb3b12c7bc4",
+    "rebuild_bin_hash": "57eef49c459a906522f1a41d14af0bb3b12c7bc4",
+    "original_lib_hash": "e8ea3cfd03d87f853d2a2650ffffe6c62a12f76d",
+    "rebuild_lib_hash": "3628d79128dc52c0815ebd9a1e75874c93c69058",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

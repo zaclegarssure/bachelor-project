@@ -1,0 +1,20 @@
+{
+    "name": "com.katawa_shoujo.KatawaShoujo",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 521.169534444809,
+    "cache_size": 564119269,
+    "git_size": 0,
+    "dl_size": 564102806,
+    "original_hash": "4c90f91cd95a54d808983002b3251cea2796a55d",
+    "rebuild_hash": "b3968ccfd759156cf1add155c8a5e91a623bafa9",
+    "original_bin_hash": "cda4337f13d176109f2c19a7da5cb9e8c67f58f0",
+    "rebuild_bin_hash": "cda4337f13d176109f2c19a7da5cb9e8c67f58f0",
+    "original_lib_hash": "8b89fb8fe960528d86d0e7085f6b62629ef3f5f2",
+    "rebuild_lib_hash": "dbf4cc74863ac9262366bd97af7945eea53dbc04",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

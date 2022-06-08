@@ -1,0 +1,23 @@
+{
+    "name": "com.github.jms55.Sandbox",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 123.79843854904175,
+    "cache_size": 33446843,
+    "git_size": 6622079,
+    "dl_size": 26787821,
+    "original_hash": "9b791db69bdf41fe1c1012ae04f58682d2c928c3",
+    "rebuild_hash": "b8e746accec405520113e5101c151634c5d9f31c",
+    "original_bin_hash": "ac3babc62d27b6035f6084f41cf44894b8ba52cc",
+    "rebuild_bin_hash": "286729809658132b8b59a80e103b17ccb286da7a",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

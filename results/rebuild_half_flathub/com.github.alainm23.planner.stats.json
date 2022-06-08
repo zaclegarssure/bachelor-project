@@ -1,0 +1,30 @@
+{
+    "name": "com.github.alainm23.planner",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 298.95127511024475,
+    "cache_size": 231673655,
+    "git_size": 230595869,
+    "dl_size": 1057227,
+    "original_hash": "d90d23ae224f524700f7a4c63e17e5b37b9a9593",
+    "rebuild_hash": "d90d23ae224f524700f7a4c63e17e5b37b9a9593",
+    "original_bin_hash": "4b7dfbd529ed3c8073ef03c4404d0d53b030b7a6",
+    "rebuild_bin_hash": "4b7dfbd529ed3c8073ef03c4404d0d53b030b7a6",
+    "original_lib_hash": "f951bcea8c044f66df07815d2263e087d5f9439d",
+    "rebuild_lib_hash": "f951bcea8c044f66df07815d2263e087d5f9439d",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "cmake-ninja",
+        "meson",
+        "cmake-ninja",
+        "meson",
+        "meson"
+    ]
+}

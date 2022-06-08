@@ -1,0 +1,25 @@
+{
+    "name": "org.verapdf.veraPDF",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 105.81028652191162,
+    "cache_size": 21022972,
+    "git_size": 99756,
+    "dl_size": 20922497,
+    "original_hash": "ee58e9b1b035c24c94caf9307ac2502d4bb21f87",
+    "rebuild_hash": "1f1e25b1ab46f38f4f659fd61c9b100e714c86a3",
+    "original_bin_hash": "10718792c8642c5f86219be2ee8ab4d20811e28f",
+    "rebuild_bin_hash": "10718792c8642c5f86219be2ee8ab4d20811e28f",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "meson",
+        "simple"
+    ]
+}

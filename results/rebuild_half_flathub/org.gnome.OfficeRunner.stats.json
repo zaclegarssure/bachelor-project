@@ -1,0 +1,21 @@
+{
+    "name": "org.gnome.OfficeRunner",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 17.482643604278564,
+    "cache_size": 1333874,
+    "git_size": 1317411,
+    "dl_size": 0,
+    "original_hash": "34749c42985dfaf9a313e5c27495c1ab0ea21d56",
+    "rebuild_hash": "34749c42985dfaf9a313e5c27495c1ab0ea21d56",
+    "original_bin_hash": "53b4ea28d1a69336893718c6970005fb63e047b5",
+    "rebuild_bin_hash": "53b4ea28d1a69336893718c6970005fb63e047b5",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": []
+}

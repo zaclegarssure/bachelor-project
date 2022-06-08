@@ -1,0 +1,23 @@
+{
+    "name": "com.endlessnetwork.dragonsapprentice",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 209.54429244995117,
+    "cache_size": 1031634945,
+    "git_size": 8435018,
+    "dl_size": 1023179368,
+    "original_hash": "d7bfa64b052996f230d163f59d1790f423756b65",
+    "rebuild_hash": "d7bfa64b052996f230d163f59d1790f423756b65",
+    "original_bin_hash": "9b19c425a08074bec0833c7dbbc36c11d21f8b4c",
+    "rebuild_bin_hash": "9b19c425a08074bec0833c7dbbc36c11d21f8b4c",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

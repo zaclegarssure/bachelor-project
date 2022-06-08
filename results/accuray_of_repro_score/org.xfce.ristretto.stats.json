@@ -1,0 +1,31 @@
+{
+    "name": "org.xfce.ristretto",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "e0549bfb93c078e3786e8b10b48fa4f3bcfb876f9859b0eaec8eccc23709c569",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-23 10:25:51+00:00",
+    "timestamp_of_rebuild": 1653301551.0,
+    "git-commit": "9000fe490f7296147c1ea829c2968069a1a5d607 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 318.2225787639618,
+    "cache_size": 148515513,
+    "git_size": 6933383,
+    "dl_size": 141561571,
+    "bad_files": 0,
+    "total_files": 104,
+    "repro_score": 1.0,
+    "original_hash": "1b38c33cb4f2e21331860f1cbade275be1bd8975",
+    "rebuild_hash": "1b38c33cb4f2e21331860f1cbade275be1bd8975",
+    "original_bin_hash": "89faee253bd1808e0391ea92f00dc4587e42eb67",
+    "rebuild_bin_hash": "89faee253bd1808e0391ea92f00dc4587e42eb67",
+    "original_elf_hash": "870c34c0bf891ef3d7350c9de08f84a3d12182b4",
+    "rebuild_elf_hash": "870c34c0bf891ef3d7350c9de08f84a3d12182b4",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

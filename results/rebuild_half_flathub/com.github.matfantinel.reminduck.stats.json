@@ -1,0 +1,23 @@
+{
+    "name": "com.github.matfantinel.reminduck",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 14.802882671356201,
+    "cache_size": 447991,
+    "git_size": 431528,
+    "dl_size": 0,
+    "original_hash": "5a464cf5e9d31d3ec09d4ff4c338a00e7ecd793e",
+    "rebuild_hash": "b8fe5f6a94c11b4e88d23bd5982c1f9614bbb6fd",
+    "original_bin_hash": "2571cd3eaacafeba8a7736b84f0bcb5396721441",
+    "rebuild_bin_hash": "2571cd3eaacafeba8a7736b84f0bcb5396721441",
+    "original_lib_hash": "332bb26ec1d219e7fa7e9c0abcc25d95623a9640",
+    "rebuild_lib_hash": "332bb26ec1d219e7fa7e9c0abcc25d95623a9640",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

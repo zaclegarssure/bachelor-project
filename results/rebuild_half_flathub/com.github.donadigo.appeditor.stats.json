@@ -1,0 +1,24 @@
+{
+    "name": "com.github.donadigo.appeditor",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 16.699076175689697,
+    "cache_size": 195240,
+    "git_size": 0,
+    "dl_size": 178777,
+    "original_hash": "aef0557ac04b5e151490defc1cdd1a473c8a8d1b",
+    "rebuild_hash": "f32f892e87c9c4a740e06abcef18405cf08d0b1b",
+    "original_bin_hash": "7189145fd3c2aa9312683297ea68199e715bbcb4",
+    "rebuild_bin_hash": "7189145fd3c2aa9312683297ea68199e715bbcb4",
+    "original_lib_hash": "ada58591afb906373abd18dd6e1907b0f508a1c9",
+    "rebuild_lib_hash": "ada58591afb906373abd18dd6e1907b0f508a1c9",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "meson"
+    ]
+}

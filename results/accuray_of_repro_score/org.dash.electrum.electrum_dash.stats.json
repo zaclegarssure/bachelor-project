@@ -1,0 +1,16 @@
+{
+    "name": "org.dash.electrum.electrum_dash",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "25fddde70f1becba3dee9c7defcaf11e7b60b937208fd9d4d7d243fcd4bd597c",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-12 09:00:19+00:00",
+    "timestamp_of_rebuild": 1647075619.0,
+    "git-commit": "dbb73e1b679174f27b5589536be8c365fc49c0cc master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "cce27cfbd1132b922bd1b4c672b83b907f1d6a21e0aa941fec13ebc1e65b0508",
+        "org.kde.Sdk/x86_64/5.15-21.08": "f6e7e6157630e155d5529e2dcb50bf3fb3e22ac98bfa300c1c9e3c2d2f3cb949",
+        "org.kde.Platform/x86_64/5.15-21.08": "64a44a22b3744e028f16769fd262154fc73e05a714981f25554db81e1328eb39"
+    }
+}

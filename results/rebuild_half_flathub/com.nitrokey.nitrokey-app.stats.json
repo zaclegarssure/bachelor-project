@@ -1,0 +1,27 @@
+{
+    "name": "com.nitrokey.nitrokey-app",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 174.08998918533325,
+    "cache_size": 2514800,
+    "git_size": 0,
+    "dl_size": 2498337,
+    "original_hash": "e7efe43a1787f8c11dfb9a8e0286ccaf8e576ebe",
+    "rebuild_hash": "b625a7d2674b2129db91f7bfc02e6f178768f6d2",
+    "original_bin_hash": "f769a3ad33d2f61fd54d5b23a9d92da92a5d704a",
+    "rebuild_bin_hash": "8856c56a7995b24b53b60a2c529accb66c9eba7b",
+    "original_lib_hash": "65e1b3d65ddf4e79930232c971e36f34bf265a43",
+    "rebuild_lib_hash": "65e1b3d65ddf4e79930232c971e36f34bf265a43",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake",
+        "cmake",
+        "cmake",
+        "cmake",
+        "simple"
+    ]
+}

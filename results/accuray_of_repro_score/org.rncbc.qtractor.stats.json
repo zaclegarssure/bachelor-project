@@ -1,0 +1,16 @@
+{
+    "name": "org.rncbc.qtractor",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "6039769103c1bc81714730aee1ea64429a60f0d459106976920cbee75511cead",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-26 01:10:54+00:00",
+    "timestamp_of_rebuild": 1653527454.0,
+    "git-commit": "8c82bebf8301cb01d22e07716c4d2f714cdf21c0 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "1bf5dbd9fd2f66898d2501dfbe0e5327d0dc6eecd9e02e2bdeb39a43df7974c8",
+        "org.kde.Platform/x86_64/5.15-21.08": "c49e5ed4c419e849e15657b270c0cb9550afaa73277c611426b97c701cbe37b4"
+    }
+}

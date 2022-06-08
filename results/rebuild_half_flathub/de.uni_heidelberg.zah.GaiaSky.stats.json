@@ -1,0 +1,24 @@
+{
+    "name": "de.uni_heidelberg.zah.GaiaSky",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 57.61439394950867,
+    "cache_size": 40000047,
+    "git_size": 0,
+    "dl_size": 39983584,
+    "original_hash": "9ea0cb7010f24fa1e3f35741026d37bdbf5cef5b",
+    "rebuild_hash": "17a321380967a75a6b73cb1338aff1281317b7bb",
+    "original_bin_hash": "9a1a279051a372c9239bb7220d3b372136d98533",
+    "rebuild_bin_hash": "9a1a279051a372c9239bb7220d3b372136d98533",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "name": "org.sugarlabs.MusicKeyboard",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 184.5227072238922,
+    "cache_size": 35829136,
+    "git_size": 30662548,
+    "dl_size": 5165965,
+    "original_hash": "c15b933a1566d74a9d5b219f52fc0b217f810512",
+    "rebuild_hash": "93019ecb82c7ecb3ffd50be8137d6d5bbcaed784",
+    "original_bin_hash": "7d76c73dee28e79db7edc70985d27bf003ea5f1d",
+    "rebuild_bin_hash": "7d76c73dee28e79db7edc70985d27bf003ea5f1d",
+    "original_lib_hash": "5bc99feba4d17cf7f397cf7d70d682e00a114e98",
+    "rebuild_lib_hash": "a1054bcfe7a72e62db6bc7be35d8aa8bc89c8bb0",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "diffoscope_failed": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "cmake",
+        "simple",
+        "simple"
+    ]
+}

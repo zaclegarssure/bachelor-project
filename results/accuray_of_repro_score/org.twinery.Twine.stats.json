@@ -1,0 +1,32 @@
+{
+    "name": "org.twinery.Twine",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "2d6e9b951b80264a07e334947c8961837b5c398220148fa13cc538b6c9348745",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-02 22:17:20+00:00",
+    "timestamp_of_rebuild": 1643840240.0,
+    "git-commit": "6e20152d118abc58d401cd6ab8d3991c09c14b8b master",
+    "flatpak-deps": {
+        "org.electronjs.Electron2.BaseApp/x86_64/21.08": "cde2f09cfd9d4d6c9a01c561dcf4c3d9d4a8bd194711a88f044291d24e033f25",
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.freedesktop.Sdk/x86_64/21.08": "ae7e576a0187591ab0931eec30ea68d9907aacc16dc8bd7e6b2a96b73df6f18a",
+        "org.freedesktop.Platform/x86_64/21.08": "b27db466e56f7e49e794656b84153c8b81f929ca8b5b8400142b19bb48b9a63d"
+    },
+    "build_time": 18.118257999420166,
+    "cache_size": 63726741,
+    "git_size": 0,
+    "dl_size": 63710278,
+    "bad_files": 0,
+    "total_files": 175,
+    "repro_score": 1.0,
+    "original_hash": "3453e629081dc9a05b2ad1ecc45ea8ed68089913",
+    "rebuild_hash": "3453e629081dc9a05b2ad1ecc45ea8ed68089913",
+    "original_bin_hash": "48028204addb2a4faac4849ac2d87503f3d4113b",
+    "rebuild_bin_hash": "48028204addb2a4faac4849ac2d87503f3d4113b",
+    "original_elf_hash": "72896ea1d111c9695e260db3e0f566035033d952",
+    "rebuild_elf_hash": "72896ea1d111c9695e260db3e0f566035033d952",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

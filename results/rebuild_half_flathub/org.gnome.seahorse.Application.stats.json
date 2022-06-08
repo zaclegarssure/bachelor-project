@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.seahorse.Application",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 129.67056274414062,
+    "cache_size": 11572272,
+    "git_size": 0,
+    "dl_size": 11555809,
+    "original_hash": "aaaa9c1be698943dea04ad352c19e87171e62d6c",
+    "rebuild_hash": "783fc224625c22becf0b3d7e69adda45b589037c",
+    "original_bin_hash": "3dc2c0677ae68e59af0b6b58f860e8bad1920452",
+    "rebuild_bin_hash": "fe8cec2e935a4c88533bcf2085837c393087232a",
+    "original_lib_hash": "7ed6b6be5e8cf248ee794f496891442cdb4f4bd4",
+    "rebuild_lib_hash": "1a6d614efe27b3dd066c2d3afb18f358f122cca7",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

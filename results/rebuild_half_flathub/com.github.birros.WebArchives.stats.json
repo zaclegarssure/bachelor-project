@@ -1,0 +1,27 @@
+{
+    "name": "com.github.birros.WebArchives",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 141.88358688354492,
+    "cache_size": 83431498,
+    "git_size": 2949946,
+    "dl_size": 80288961,
+    "original_hash": "bc99647de4315f3b37beb6aa81a5bda8091e3a3f",
+    "rebuild_hash": "952d0baac0d928a9207cb3acacd44e543033b7da",
+    "original_bin_hash": "c28b24c95981f899a5e03dccaba6843b5988d1b3",
+    "rebuild_bin_hash": "c28b24c95981f899a5e03dccaba6843b5988d1b3",
+    "original_lib_hash": "6b37f01bca1eae2d1092377d3d13f973f8a73b3c",
+    "rebuild_lib_hash": "6b37f01bca1eae2d1092377d3d13f973f8a73b3c",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

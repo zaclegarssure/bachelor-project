@@ -1,0 +1,21 @@
+{
+    "name": "com.github.skullernet.q2pro",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 37.4085807800293,
+    "cache_size": 891927,
+    "git_size": 0,
+    "dl_size": 875464,
+    "original_hash": "aa95470fcade413c05b99fb548a14b8ddb175499",
+    "rebuild_hash": "19998b9000502a259f056cfecd78269965226186",
+    "original_bin_hash": "e4226bfc12c096f4057e62a220aab4ba4ab5add7",
+    "rebuild_bin_hash": "dd9c94e2695bc91d25e55030aca709317a80641f",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "laptop-arch",
+    "build_systems": []
+}

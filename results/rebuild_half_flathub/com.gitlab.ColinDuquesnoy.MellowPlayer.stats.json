@@ -1,0 +1,24 @@
+{
+    "name": "com.gitlab.ColinDuquesnoy.MellowPlayer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 93.43290066719055,
+    "cache_size": 28797131,
+    "git_size": 28674328,
+    "dl_size": 102244,
+    "original_hash": "fb7efe1e7a84e3a626312f0e6fab79e59737a0e0",
+    "rebuild_hash": "68c032c7ee5ea9d22606f4fda4e8b4b30210019e",
+    "original_bin_hash": "9d393109bd6399021b2bc8c974eff8c31d5b4798",
+    "rebuild_bin_hash": "4a08bccf0e5329fc1ad25efe75c3e02d4a11078a",
+    "original_lib_hash": "bed20b7d6fa803cc5ccd37c410d74f7a8cd5f3e4",
+    "rebuild_lib_hash": "bed20b7d6fa803cc5ccd37c410d74f7a8cd5f3e4",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "cmake"
+    ]
+}

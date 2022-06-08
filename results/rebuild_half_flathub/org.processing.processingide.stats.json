@@ -1,0 +1,23 @@
+{
+    "name": "org.processing.processingide",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 50.594626665115356,
+    "cache_size": 138175968,
+    "git_size": 0,
+    "dl_size": 138175003,
+    "original_hash": "ff2bc8f0f8d881896ba8f2276eee83c0f5d627d1",
+    "rebuild_hash": "dc5d0ee7e587b82756252afc82fced40ae261536",
+    "original_bin_hash": "c13b9c950a4df93d31a72fbad2bdd3da4537a624",
+    "rebuild_bin_hash": "c13b9c950a4df93d31a72fbad2bdd3da4537a624",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple"
+    ]
+}

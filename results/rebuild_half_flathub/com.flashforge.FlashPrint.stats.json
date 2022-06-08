@@ -1,0 +1,20 @@
+{
+    "name": "com.flashforge.FlashPrint",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 45.480751276016235,
+    "cache_size": 2404702,
+    "git_size": 0,
+    "dl_size": 2388239,
+    "original_hash": "ce191b42deb3fba0436f11440d01442ef7dc9773",
+    "rebuild_hash": "ce191b42deb3fba0436f11440d01442ef7dc9773",
+    "original_bin_hash": "2ad6d72d95274415ab39cabb49d452ddd8e08da5",
+    "rebuild_bin_hash": "2ad6d72d95274415ab39cabb49d452ddd8e08da5",
+    "original_lib_hash": "35bb3a7b1b0a3ee769ee0ebf2c01da251cc84d03",
+    "rebuild_lib_hash": "35bb3a7b1b0a3ee769ee0ebf2c01da251cc84d03",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

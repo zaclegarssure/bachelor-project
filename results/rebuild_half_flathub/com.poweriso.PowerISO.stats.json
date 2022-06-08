@@ -1,0 +1,23 @@
+{
+    "name": "com.poweriso.PowerISO",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 8.958246946334839,
+    "cache_size": 29733620,
+    "git_size": 0,
+    "dl_size": 29717157,
+    "original_hash": "895db45e056dea0088a0e9ce7921aff76fa8146e",
+    "rebuild_hash": "895db45e056dea0088a0e9ce7921aff76fa8146e",
+    "original_bin_hash": "4163f559f9ded3889bf457e0896479b24f02264f",
+    "rebuild_bin_hash": "4163f559f9ded3889bf457e0896479b24f02264f",
+    "original_lib_hash": "853451dd5f0bad3553aaeca31ac3b22a73fdbb92",
+    "rebuild_lib_hash": "853451dd5f0bad3553aaeca31ac3b22a73fdbb92",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

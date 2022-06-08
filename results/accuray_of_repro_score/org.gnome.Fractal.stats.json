@@ -1,0 +1,32 @@
+{
+    "name": "org.gnome.Fractal",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "ac6444bfe2612dfa27c541d1bb4c4dd1ffdb5315b68effceaff3708b004e3dbf",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-11 23:33:30+00:00",
+    "timestamp_of_rebuild": 1639265610.0,
+    "git-commit": "86887d02822c40b8d941f0240c0c21a10c4b2652 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "afb9b2c102b31148fed49da8bae9d89282ffbe3b14c6db2e26b4f172ff3fa88b",
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.gnome.Sdk/x86_64/41": "13610dcd6bdad52462f9b5112fb8b3b86c7a639e60a2f6784e25849e1dcad95d",
+        "org.gnome.Platform/x86_64/41": "cea3bffea9aad8ecd84ba25c89242b7f773543ffaac3393bcf8db5449aafd009"
+    },
+    "build_time": 280.441002368927,
+    "cache_size": 16521252,
+    "git_size": 2023501,
+    "dl_size": 14477192,
+    "bad_files": 2,
+    "total_files": 28,
+    "repro_score": 0.9285714285714286,
+    "original_hash": "f22ab8e73439a4452686c9a6ebfc39d8a9717053",
+    "rebuild_hash": "a6de17592dc73aaaa9de113d15ca262f604bce67",
+    "original_bin_hash": "204ac0e847fd81eb142cdb2f442ac7e744014a21",
+    "rebuild_bin_hash": "56ba3329860f9fecaa2e73b1bcd10e2f2d295f5c",
+    "original_elf_hash": "28c32caf4fb5a1ae7ee82c8d6b3ef17ed82eadb3",
+    "rebuild_elf_hash": "28c32caf4fb5a1ae7ee82c8d6b3ef17ed82eadb3",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

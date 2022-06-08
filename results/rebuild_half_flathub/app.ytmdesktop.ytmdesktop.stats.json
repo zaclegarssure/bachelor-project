@@ -1,0 +1,23 @@
+{
+    "name": "app.ytmdesktop.ytmdesktop",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 58.99439358711243,
+    "cache_size": 147977500,
+    "git_size": 679855,
+    "dl_size": 147191070,
+    "original_hash": "ffa54a2da170a078debb8714caade334be57c99e",
+    "rebuild_hash": "ad279b3446786ed2dbe4f8bc453e058ecb20ace7",
+    "original_bin_hash": "b28ba265ff089d97c43e3a618eb0da8c1832a0a4",
+    "rebuild_bin_hash": "b28ba265ff089d97c43e3a618eb0da8c1832a0a4",
+    "original_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "rebuild_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

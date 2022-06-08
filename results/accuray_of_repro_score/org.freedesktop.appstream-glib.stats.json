@@ -1,0 +1,31 @@
+{
+    "name": "org.freedesktop.appstream-glib",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "da9b4d4ed5e13092570379961db16fad4719f0e7812b72905db735ff8f29b394",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-13 08:26:48+00:00",
+    "timestamp_of_rebuild": 1652430408.0,
+    "git-commit": "4d03eee1d8cf5b3c75f39e2cc15e27e6aef7c94c master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 52.801167249679565,
+    "cache_size": 11265687,
+    "git_size": 5688165,
+    "dl_size": 5556963,
+    "bad_files": 0,
+    "total_files": 167,
+    "repro_score": 1.0,
+    "original_hash": "5f4e86968bd9ad36cd29afda8d091f99c3929451",
+    "rebuild_hash": "5f4e86968bd9ad36cd29afda8d091f99c3929451",
+    "original_bin_hash": "656d9af74cf02dce49ff3f80cca95b39dfbb4434",
+    "rebuild_bin_hash": "656d9af74cf02dce49ff3f80cca95b39dfbb4434",
+    "original_elf_hash": "96a46aeb6d6b0d69f6cce089b2546c07d31d0548",
+    "rebuild_elf_hash": "96a46aeb6d6b0d69f6cce089b2546c07d31d0548",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

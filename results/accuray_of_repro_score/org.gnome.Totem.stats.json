@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.Totem",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "9a4ae12b1b41fae12180b71e6a0e6539516e96a5e41348666daa00aeca85b013",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-03 13:37:27+00:00",
+    "timestamp_of_rebuild": 1651585047.0,
+    "git-commit": "63f7b6148db01d521d1cfe8195afbff0820d630d master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "bd5cf2646c70337561c1a2bf214e3ca797fd2ea96d981baf8fd537cb931eeebb",
+        "org.gnome.Platform/x86_64/42": "d240597586ac4c87e7e8dd634b67a3c910704b77d1ef5927147e55fe57cf569a"
+    },
+    "build_time": 678.1228942871094,
+    "cache_size": 132317494,
+    "git_size": 128943839,
+    "dl_size": 3353096,
+    "bad_files": 1,
+    "total_files": 1634,
+    "repro_score": 0.9993880048959608,
+    "original_hash": "e9330c2cba8da48aa93be99d7e87454d93b506a0",
+    "rebuild_hash": "7afa39c1dac6d3c657ddf71709f4f862ae0695ae",
+    "original_bin_hash": "a07cd1466980e142d80dc5dcbb3d981f9760f1c1",
+    "rebuild_bin_hash": "a07cd1466980e142d80dc5dcbb3d981f9760f1c1",
+    "original_elf_hash": "ce62315607e34b90067380ac1ac24d50cf3fb693",
+    "rebuild_elf_hash": "ce62315607e34b90067380ac1ac24d50cf3fb693",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

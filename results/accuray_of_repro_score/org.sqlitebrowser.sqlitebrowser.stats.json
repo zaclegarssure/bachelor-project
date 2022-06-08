@@ -1,0 +1,31 @@
+{
+    "name": "org.sqlitebrowser.sqlitebrowser",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "fd214fad5f7e4c2050e077052352a956f5ebc2319866574543910d4bd5d61ddd",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-11 08:27:22+00:00",
+    "timestamp_of_rebuild": 1652257642.0,
+    "git-commit": "4276173afbead8274bd678b62fccd24073492ab8 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 106.02658367156982,
+    "cache_size": 3588293,
+    "git_size": 3571830,
+    "dl_size": 0,
+    "bad_files": 1,
+    "total_files": 12,
+    "repro_score": 0.9166666666666666,
+    "original_hash": "85cfb8fcb5abafe427ba909bafa4d8958f606bd7",
+    "rebuild_hash": "43d4734880490647fbead8ca3edb7550746167c4",
+    "original_bin_hash": "70a7a2b9b434c9d90966fdc4713ae8f88bb0da02",
+    "rebuild_bin_hash": "06cae12898f40be564b0807f87ace6cbf890fb3d",
+    "original_elf_hash": "f8d185ff082d8672919001463484979d0c3a2624",
+    "rebuild_elf_hash": "345ca768b1191d3ee368af10d1bc0f547f2914b3",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

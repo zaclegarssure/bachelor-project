@@ -1,0 +1,20 @@
+{
+    "name": "com.jonathankang.Weibird",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 102.45426678657532,
+    "cache_size": 13286556,
+    "git_size": 0,
+    "dl_size": 13270093,
+    "original_hash": "5ca670077658c349dd46ad4ded4b37679a710c02",
+    "rebuild_hash": "6652a4c44f463b4a3ac6887052a40f0686740cc3",
+    "original_bin_hash": "333a82a63b3b4d72b74a86adec94c039a435f84e",
+    "rebuild_bin_hash": "333a82a63b3b4d72b74a86adec94c039a435f84e",
+    "original_lib_hash": "f70bd0903ea7b23d64e42e8bae1276014f690af1",
+    "rebuild_lib_hash": "43f0baa758d9aa68b436bfb2a4f546ea35f9d1c7",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "org.bunkus.mkvtoolnix-gui",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "7dffa9c0611972dd23fc3d43d23cd42416108879182097ab0bc1f1886066abd4",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-22 19:25:34+00:00",
+    "timestamp_of_rebuild": 1653247534.0,
+    "git-commit": "b946b2c02c7a96a10f06b54aa310db10ca095e8a master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/6.2": "176ab0279cf54bae5bdf16ab1e2ab4810553ee4015c94005c364de08ab059f83",
+        "org.kde.Platform/x86_64/6.2": "af170040317c8eed82925ab7b06d1fbd494e6a95a521076bc80a71e1d4f3483d"
+    },
+    "build_time": 511.06696128845215,
+    "cache_size": 122482821,
+    "git_size": 0,
+    "dl_size": 122466358,
+    "bad_files": 1,
+    "total_files": 91,
+    "repro_score": 0.989010989010989,
+    "original_hash": "d1295d584bd2ed282f3b8b9892c4f74386828e39",
+    "rebuild_hash": "e492fe6230d631c5698dd4978722cfc44ae27835",
+    "original_bin_hash": "d9224518ad998276ec48a88302fa04050b72f68a",
+    "rebuild_bin_hash": "e32c0207dac57e34a3f5c4b19dbb5b6da50a7885",
+    "original_elf_hash": "33d8b2870215a151d69fbecd148fe3621297996e",
+    "rebuild_elf_hash": "34ddc9230cb970df0683353e6f716e06b1fb9b13",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

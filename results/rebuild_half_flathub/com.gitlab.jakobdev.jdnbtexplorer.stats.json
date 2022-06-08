@@ -1,0 +1,24 @@
+{
+    "name": "com.gitlab.jakobdev.jdnbtexplorer",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 26.48903751373291,
+    "cache_size": 309218,
+    "git_size": 251364,
+    "dl_size": 37295,
+    "original_hash": "b1a3c37dab1982df842c00be2e60f47100a3a432",
+    "rebuild_hash": "b1a3c37dab1982df842c00be2e60f47100a3a432",
+    "original_bin_hash": "b3c7cb54fb96b29bedcf9b688f9057cbf4350070",
+    "rebuild_bin_hash": "b3c7cb54fb96b29bedcf9b688f9057cbf4350070",
+    "original_lib_hash": "79bda1d55fb8afd6c72e50fc6667c6de196fbe05",
+    "rebuild_lib_hash": "79bda1d55fb8afd6c72e50fc6667c6de196fbe05",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

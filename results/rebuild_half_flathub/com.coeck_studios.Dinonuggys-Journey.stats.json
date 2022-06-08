@@ -1,0 +1,23 @@
+{
+    "name": "com.coeck_studios.Dinonuggys-Journey",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 4.900607585906982,
+    "cache_size": 8791161,
+    "git_size": 0,
+    "dl_size": 8774698,
+    "original_hash": "b328b9d97139230caca2001315ffc2ab698babc2",
+    "rebuild_hash": "b328b9d97139230caca2001315ffc2ab698babc2",
+    "original_bin_hash": "b1eadb08a948cb67a17cc32605954945e0b44497",
+    "rebuild_bin_hash": "b1eadb08a948cb67a17cc32605954945e0b44497",
+    "original_lib_hash": "675a933f206320f1c7b13facbf79d003671ada3b",
+    "rebuild_lib_hash": "675a933f206320f1c7b13facbf79d003671ada3b",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

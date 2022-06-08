@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.OCRFeeder",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "da7545fb4193e708b37cda4aaf5b77a8c58985e81e2f3dc2847c79f7608cb247",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-31 03:25:48+00:00",
+    "timestamp_of_rebuild": 1653967548.0,
+    "git-commit": "d7267c62896885e17b51493f993073130a627241 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "c3ea4e88f8f9d05efb8b085abb2d1f56d8bab435dade310f31edef002612736d",
+        "org.gnome.Platform/x86_64/42": "ad9ceb4f734c754fe1db5ee926eb1482062ef35f0f588cd74f486eceb3f1028a"
+    },
+    "build_time": 2412.216682910919,
+    "cache_size": 4612787609,
+    "git_size": 4225377647,
+    "dl_size": 361608152,
+    "bad_files": 434,
+    "total_files": 7302,
+    "repro_score": 0.9405642289783621,
+    "original_hash": "76865e3b99152a25727d523f1cdd411a24fa592a",
+    "rebuild_hash": "6f557f94e4e21c17976f091c074cd905335884ab",
+    "original_bin_hash": "00ddcff2109fdc713e2426d1d2d1632beedafa76",
+    "rebuild_bin_hash": "3ca22af91326571881e4edcb059af76e2261683c",
+    "original_elf_hash": "4a52784fcad1c7ff4c26da2c11ba3c4725af282e",
+    "rebuild_elf_hash": "65cb068e437e1b1bd58cd0cc2590e17ffa54d50c",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

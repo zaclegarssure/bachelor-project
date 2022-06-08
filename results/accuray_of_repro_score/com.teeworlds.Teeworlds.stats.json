@@ -1,0 +1,31 @@
+{
+    "name": "com.teeworlds.Teeworlds",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "612173b297e8faf3d9126287370b17ab4f51dab08230aa6d381835e9f25af525",
+    "branch": "stable",
+    "time_of_rebuild": "2021-07-22 08:41:09+00:00",
+    "timestamp_of_rebuild": 1626943269.0,
+    "git-commit": "a3cef92cb945f8ca6f01f2d22e623d6010cc2f05 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "afec7d8ab9389acb67310da64b13cdd32fe52dbbce2f0d909ee3fee86daaff0f",
+        "org.freedesktop.Sdk/x86_64/20.08": "aa987b7abf13970a660324557bcf158f6924f9049c8b0a8b6c40c0db212f86b5",
+        "org.freedesktop.Platform/x86_64/20.08": "63c4b310325615c74b8b5b2576733e3e7b751026cb5bf458c98ffacd7bfc6235"
+    },
+    "build_time": 46.51715278625488,
+    "cache_size": 10542800,
+    "git_size": 0,
+    "dl_size": 10526337,
+    "bad_files": 2,
+    "total_files": 683,
+    "repro_score": 0.9970717423133236,
+    "original_hash": "6ee41ebaef30bf8e4a85b561c2ddc6593eed985f",
+    "rebuild_hash": "7742012be4474600a2a47d0edb3c5d2c5ccd0ede",
+    "original_bin_hash": "239986e6ec911f57edba198cd7748f3f9697989c",
+    "rebuild_bin_hash": "23904eb66498ebc703bceacf30a54110b24512d6",
+    "original_elf_hash": "58cfe5b4ae24b775eedc7c7064b9002a04bfc564",
+    "rebuild_elf_hash": "751ca5adcf06cf3a60e00ed554c1708c873d16b7",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

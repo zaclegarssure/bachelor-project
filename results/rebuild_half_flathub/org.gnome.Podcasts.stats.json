@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.Podcasts",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 237.73162364959717,
+    "cache_size": 16559335,
+    "git_size": 0,
+    "dl_size": 16542872,
+    "original_hash": "3e7c2ff71dfdabedb5907c817067189a4938e9ae",
+    "rebuild_hash": "8ab9b58b80e3c352dc97c3d17f1d83d7c28c61a0",
+    "original_bin_hash": "1075cab14c4c741bc3e68695e76da9db65710d6d",
+    "rebuild_bin_hash": "8bb68f4e8cfb7cfb342919481e7637997f91a752",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

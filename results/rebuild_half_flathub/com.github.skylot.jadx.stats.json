@@ -1,0 +1,24 @@
+{
+    "name": "com.github.skylot.jadx",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 27.192636489868164,
+    "cache_size": 27009488,
+    "git_size": 0,
+    "dl_size": 26993025,
+    "original_hash": "033d2d876517595656d04256543af4104feccb0b",
+    "rebuild_hash": "033d2d876517595656d04256543af4104feccb0b",
+    "original_bin_hash": "94e723dc305f28b58ba1aba04e14aade037baa95",
+    "rebuild_bin_hash": "94e723dc305f28b58ba1aba04e14aade037baa95",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

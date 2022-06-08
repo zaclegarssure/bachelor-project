@@ -1,0 +1,20 @@
+{
+    "name": "org.shadered.SHADERed",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 526.202455997467,
+    "cache_size": 105838607,
+    "git_size": 75682307,
+    "dl_size": 30154825,
+    "original_hash": "68173e9957b569877eda047608a02da2a461fa1d",
+    "rebuild_hash": "22eac78ae3da39c63e10e14be6114d6189935a7a",
+    "original_bin_hash": "6cf2041cc27ec935479662ab553a5c54b90e974a",
+    "rebuild_bin_hash": "6cf2041cc27ec935479662ab553a5c54b90e974a",
+    "original_lib_hash": "4a8dab47bf9b7988e6cd2cb3d5a05e50ace20d00",
+    "rebuild_lib_hash": "4a8dab47bf9b7988e6cd2cb3d5a05e50ace20d00",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora"
+}

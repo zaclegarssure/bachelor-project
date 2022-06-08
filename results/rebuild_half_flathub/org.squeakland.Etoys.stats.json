@@ -1,0 +1,23 @@
+{
+    "name": "org.squeakland.Etoys",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 113.11739325523376,
+    "cache_size": 69759466,
+    "git_size": 0,
+    "dl_size": 69759029,
+    "original_hash": "e9ad9d2cc43965220dea3bf36def3caa3fefb833",
+    "rebuild_hash": "ddb21afe83e25af4765e6406542c525071c19b18",
+    "original_bin_hash": "e50d60e8fb281c1cf164007d716c9c24ec91c49b",
+    "rebuild_bin_hash": "e50d60e8fb281c1cf164007d716c9c24ec91c49b",
+    "original_lib_hash": "34adefc6ca33646c523b5c126a809093c76478ba",
+    "rebuild_lib_hash": "0d45f8277fb1c933b817ae710d89e5e23e6fc7e1",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple"
+    ]
+}

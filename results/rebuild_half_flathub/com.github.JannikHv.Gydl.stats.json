@@ -1,0 +1,20 @@
+{
+    "name": "com.github.JannikHv.Gydl",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 134.69666528701782,
+    "cache_size": 14782132,
+    "git_size": 271416,
+    "dl_size": 14490157,
+    "original_hash": "a2bbf61ed3f7e57bba1106f75e858e6b6364e2d7",
+    "rebuild_hash": "a2bbf61ed3f7e57bba1106f75e858e6b6364e2d7",
+    "original_bin_hash": "29b2e78c4a03fdc191e32167fcbb84cc4d01d3ad",
+    "rebuild_bin_hash": "29b2e78c4a03fdc191e32167fcbb84cc4d01d3ad",
+    "original_lib_hash": "5eac3b3c7499fd4f9c652c38eef6f030805f1ac5",
+    "rebuild_lib_hash": "5eac3b3c7499fd4f9c652c38eef6f030805f1ac5",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

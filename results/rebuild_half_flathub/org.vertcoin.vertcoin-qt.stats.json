@@ -1,0 +1,24 @@
+{
+    "name": "org.vertcoin.vertcoin-qt",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 9.234282493591309,
+    "cache_size": 26761978,
+    "git_size": 0,
+    "dl_size": 26761533,
+    "original_hash": "4d56fa75d4e94fb0692a6bc3a541560b97628330",
+    "rebuild_hash": "4d56fa75d4e94fb0692a6bc3a541560b97628330",
+    "original_bin_hash": "b98d6409f37e58a538e6fd0e9a2e9c6352f915aa",
+    "rebuild_bin_hash": "b98d6409f37e58a538e6fd0e9a2e9c6352f915aa",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

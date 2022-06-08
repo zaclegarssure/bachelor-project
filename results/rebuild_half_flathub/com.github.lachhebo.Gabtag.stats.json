@@ -1,0 +1,26 @@
+{
+    "name": "com.github.lachhebo.Gabtag",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 25.75049591064453,
+    "cache_size": 30672628,
+    "git_size": 130606,
+    "dl_size": 30521463,
+    "original_hash": "0002a0d8f67d369b055f41262627c40b926c0bcf",
+    "rebuild_hash": "4ff9f062843354e14a1942ca7fec024c6c0d099a",
+    "original_bin_hash": "0120f5c24b8fd5fd7828d29cdd1b07be4c22df5b",
+    "rebuild_bin_hash": "0120f5c24b8fd5fd7828d29cdd1b07be4c22df5b",
+    "original_lib_hash": "b83d224f15bcf0f2b8c657ee9a9eedab9838e45d",
+    "rebuild_lib_hash": "f01868ebccc753264a60d52f1bd754a1e9732477",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "com.github.hluk.copyq",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 90.85118985176086,
+    "cache_size": 3261333,
+    "git_size": 3244870,
+    "dl_size": 0,
+    "original_hash": "2d27ac66444f579aa99636b66c52f36f177b04a8",
+    "rebuild_hash": "c9cb7dd5f3bb793951a17c0722ebca20b589f453",
+    "original_bin_hash": "cd7c7794eee9f4ebf702ca5dde1deb5fad7477e5",
+    "rebuild_bin_hash": "f334cfbb6d78e3467e6e5d20251a58b32c6bba59",
+    "original_lib_hash": "b4aaa6aa0ad63836c48c93b9a3b58141c8b62da1",
+    "rebuild_lib_hash": "60141470469cceb696b871315b51494b0d4257f1",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

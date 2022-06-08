@@ -1,0 +1,23 @@
+{
+    "name": "com.github.fabiocolacio.marker",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 117.36662435531616,
+    "cache_size": 31889228,
+    "git_size": 29756598,
+    "dl_size": 2112071,
+    "original_hash": "93a3d579c783f175cd4e7910d4032cbf8944c08c",
+    "rebuild_hash": "93a3d579c783f175cd4e7910d4032cbf8944c08c",
+    "original_bin_hash": "9d259d4d532497dbd0902e09f5e113f26047dd97",
+    "rebuild_bin_hash": "9d259d4d532497dbd0902e09f5e113f26047dd97",
+    "original_lib_hash": "25340e88ee0919aebe992e9b0ef0d37b05e74730",
+    "rebuild_lib_hash": "25340e88ee0919aebe992e9b0ef0d37b05e74730",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "org.qgis.qgis",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "cmake-ninja",
+        "simple"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "com.steamgriddb.SGDBoop",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 3.2566404342651367,
+    "cache_size": 143507,
+    "git_size": 0,
+    "dl_size": 127044,
+    "original_hash": "4b486f034da0dea8493d1b6071ac0df8d633d239",
+    "rebuild_hash": "4b486f034da0dea8493d1b6071ac0df8d633d239",
+    "original_bin_hash": "8987e0c5db351227f416fd752addf46aff407d53",
+    "rebuild_bin_hash": "8987e0c5db351227f416fd752addf46aff407d53",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": []
+}

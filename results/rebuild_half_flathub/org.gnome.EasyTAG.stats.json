@@ -1,0 +1,23 @@
+{
+    "name": "org.gnome.EasyTAG",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 63.03482365608215,
+    "cache_size": 4233413,
+    "git_size": 0,
+    "dl_size": 4216950,
+    "original_hash": "f0f730d48283b71ecabd1f216f1ae5058adc518b",
+    "rebuild_hash": "b9d4a913c615efa3bb7003d7c98d8c217ada97b3",
+    "original_bin_hash": "0712f48749cf2b6619a5ef22650cd778a6a8e30b",
+    "rebuild_bin_hash": "0712f48749cf2b6619a5ef22650cd778a6a8e30b",
+    "original_lib_hash": "308b05796b6316e3c505ef410dbb66c5c462910d",
+    "rebuild_lib_hash": "308b05796b6316e3c505ef410dbb66c5c462910d",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "de.syping.gta5view",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 60.36097288131714,
+    "cache_size": 2443949,
+    "git_size": 2427486,
+    "dl_size": 0,
+    "original_hash": "653c809f5203bc029e031e5c31a67f4f251c2ee6",
+    "rebuild_hash": "bd50fe9d0f74e4bee73c12ec760e9e38da5f0535",
+    "original_bin_hash": "ec6d42316d5a8ca60401039c93e1f3e3972db492",
+    "rebuild_bin_hash": "6b1c2e2e74fe432ff2e837c5b2f6908672b2ab68",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

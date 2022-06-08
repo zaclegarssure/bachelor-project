@@ -1,0 +1,24 @@
+{
+    "name": "com.github.alainm23.byte",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 31.862021446228027,
+    "cache_size": 1734365,
+    "git_size": 0,
+    "dl_size": 1717902,
+    "original_hash": "ce2d75e43008610755e83889a52db67b7c40786a",
+    "rebuild_hash": "ce2d75e43008610755e83889a52db67b7c40786a",
+    "original_bin_hash": "083c22ef0ade61cc636cb5982fe912528a7540b1",
+    "rebuild_bin_hash": "083c22ef0ade61cc636cb5982fe912528a7540b1",
+    "original_lib_hash": "2d064e8a7bd3ea32ef97a7c2cd621a3122463821",
+    "rebuild_lib_hash": "2d064e8a7bd3ea32ef97a7c2cd621a3122463821",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "meson"
+    ]
+}

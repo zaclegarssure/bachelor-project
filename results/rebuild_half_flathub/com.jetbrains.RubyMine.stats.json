@@ -1,0 +1,20 @@
+{
+    "name": "com.jetbrains.RubyMine",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 16.621769905090332,
+    "cache_size": 1527571,
+    "git_size": 396308,
+    "dl_size": 1110704,
+    "original_hash": "308f9bf1d573322f26a1327b89f6f4fa6913ebec",
+    "rebuild_hash": "308f9bf1d573322f26a1327b89f6f4fa6913ebec",
+    "original_bin_hash": "56278283653557d0b80cd072ac576eb043ca9e7e",
+    "rebuild_bin_hash": "56278283653557d0b80cd072ac576eb043ca9e7e",
+    "original_lib_hash": "264b80f0d6c229ac939fb1a6b02c722a33809315",
+    "rebuild_lib_hash": "264b80f0d6c229ac939fb1a6b02c722a33809315",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch"
+}

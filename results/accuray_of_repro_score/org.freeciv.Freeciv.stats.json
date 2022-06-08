@@ -1,0 +1,31 @@
+{
+    "name": "org.freeciv.Freeciv",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "a1488b630150e2c65dbd3ae069aaaa0f3ccf1d2e8e4712c148412f7bc3429954",
+    "branch": "stable",
+    "time_of_rebuild": "2022-01-17 01:49:03+00:00",
+    "timestamp_of_rebuild": 1642384143.0,
+    "git-commit": "81fb83dd65f5cb51ed786e63b4cdc752c6451cab master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "59eab8efc1f172f4133bd078a86adefa30bc46b95d0b40a46373c7746a757d2c",
+        "org.freedesktop.Sdk/x86_64/21.08": "ae7e576a0187591ab0931eec30ea68d9907aacc16dc8bd7e6b2a96b73df6f18a",
+        "org.freedesktop.Platform/x86_64/21.08": "b27db466e56f7e49e794656b84153c8b81f929ca8b5b8400142b19bb48b9a63d"
+    },
+    "build_time": 121.46870398521423,
+    "cache_size": 52265307,
+    "git_size": 0,
+    "dl_size": 52248844,
+    "bad_files": 1,
+    "total_files": 3298,
+    "repro_score": 0.9996967859308672,
+    "original_hash": "3fa7688538db49141ac646bdc1ab3b720e29fdea",
+    "rebuild_hash": "645ffe968809b2eb546adebd28468f02d5981a6f",
+    "original_bin_hash": "364482e976b00552e0e5e64972a9e051401e0af4",
+    "rebuild_bin_hash": "2efc7a33e0bd2df84b499dc418217d5f3486fd59",
+    "original_elf_hash": "16092edeeaa9005ac67de00bc8a69e47f1e3bac1",
+    "rebuild_elf_hash": "16092edeeaa9005ac67de00bc8a69e47f1e3bac1",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

@@ -1,0 +1,20 @@
+{
+    "name": "org.seul.pingus",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 358.52034974098206,
+    "cache_size": 103826571,
+    "git_size": 97354869,
+    "dl_size": 6469759,
+    "original_hash": "3b9a9519410d87325c33403070e99d01011b1c31",
+    "rebuild_hash": "41276eb4c846802c471d93b02f0dc07d659b5851",
+    "original_bin_hash": "bbdfef74be32183ef231a8ee499052452ca9c28e",
+    "rebuild_bin_hash": "bbdfef74be32183ef231a8ee499052452ca9c28e",
+    "original_lib_hash": "28f43f769795cfca847ca60794238c310879bc90",
+    "rebuild_lib_hash": "28f43f769795cfca847ca60794238c310879bc90",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora"
+}

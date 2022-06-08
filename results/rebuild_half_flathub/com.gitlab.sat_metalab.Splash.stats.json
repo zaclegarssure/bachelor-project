@@ -1,0 +1,27 @@
+{
+    "name": "com.gitlab.sat_metalab.Splash",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 907.0159122943878,
+    "cache_size": 167954225,
+    "git_size": 160625689,
+    "dl_size": 7307977,
+    "original_hash": "c6cdb3e068e06505d320a1ec2c312520135b0af9",
+    "rebuild_hash": "3a0852c472a368277a0d551d973682966a370b35",
+    "original_bin_hash": "f464e15cdbb07f30ca0be6709f219f4641df8719",
+    "rebuild_bin_hash": "f464e15cdbb07f30ca0be6709f219f4641df8719",
+    "original_lib_hash": "5171f42e3bbd05ab3492500ac381036f1002d108",
+    "rebuild_lib_hash": "b4329732ca4533d97b0ac5167d01e960b785d891",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake",
+        "cmake",
+        "cmake",
+        "cmake",
+        "simple"
+    ]
+}

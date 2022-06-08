@@ -1,0 +1,27 @@
+{
+    "name": "org.gnome.GTG",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 116.08464360237122,
+    "cache_size": 12021531,
+    "git_size": 1921987,
+    "dl_size": 10078985,
+    "original_hash": "c172d2ac5b3aa6d56b0948bfb2b8b5c113d1319e",
+    "rebuild_hash": "8cbc051b82b4dda4e93b0207cc06b2a46024d176",
+    "original_bin_hash": "55146b3c2539f3f0876f4e699a07163ce9d69375",
+    "rebuild_bin_hash": "55146b3c2539f3f0876f4e699a07163ce9d69375",
+    "original_lib_hash": "7dd5817d275e5c48d155c8f7702781be5c0c5a5d",
+    "rebuild_lib_hash": "31d5a747f93652341470f7c0c8797cbbd4a574b4",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

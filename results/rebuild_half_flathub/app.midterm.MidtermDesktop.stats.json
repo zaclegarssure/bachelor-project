@@ -1,0 +1,23 @@
+{
+    "name": "app.midterm.MidtermDesktop",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 30.020199060440063,
+    "cache_size": 63627341,
+    "git_size": 0,
+    "dl_size": 63610878,
+    "original_hash": "c0ec81eb0096a1a1e2988d0f2521a995c68e29f0",
+    "rebuild_hash": "c0ec81eb0096a1a1e2988d0f2521a995c68e29f0",
+    "original_bin_hash": "5828bf9e8656b306fbf9e5f51861303ebdc27979",
+    "rebuild_bin_hash": "5828bf9e8656b306fbf9e5f51861303ebdc27979",
+    "original_lib_hash": "1dfda59c2e37e82ff96cee4a77067fb9581492dc",
+    "rebuild_lib_hash": "1dfda59c2e37e82ff96cee4a77067fb9581492dc",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

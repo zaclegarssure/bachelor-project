@@ -1,0 +1,24 @@
+{
+    "name": "com.github.benpocalypse.Huely",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 111.9892828464508,
+    "cache_size": 12419301,
+    "git_size": 12402838,
+    "dl_size": 0,
+    "original_hash": "b5194a2005be87f391b6d73a2b929a916925651a",
+    "rebuild_hash": "92bd5d5a3a030f5f3f7142c101d2d918230683cf",
+    "original_bin_hash": "baa705479b222652f4eb2e61d12f7b748ff233f3",
+    "rebuild_bin_hash": "baa705479b222652f4eb2e61d12f7b748ff233f3",
+    "original_lib_hash": "b9da3adf937ccd77859a7c73d6c93ff3159dbc25",
+    "rebuild_lib_hash": "b9da3adf937ccd77859a7c73d6c93ff3159dbc25",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

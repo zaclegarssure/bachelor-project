@@ -1,0 +1,16 @@
+{
+    "name": "uk.org.zint.zint-qt",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "3fd9fe6911f8cf86b2029bb11dab13e9215f985d84b961ce17c39284e7978e99",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-22 17:43:40+00:00",
+    "timestamp_of_rebuild": 1637603020.0,
+    "git-commit": "a0b4f8db1c2a4758bdd9dc100ad70c5cb01863ea master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.kde.Sdk/x86_64/5.15": "1ed81aa2adc84e7b2db43b6199a2d96efc7e70f6eb18090ae6189ca8329466f1",
+        "org.kde.Platform/x86_64/5.15": "4dca180072dbcf06d72f2e88a48ec238442496a7807eedf30e36cd5583e15ad6"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "com.notepadqq.Notepadqq",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 345.6059956550598,
+    "cache_size": 80752065,
+    "git_size": 0,
+    "dl_size": 80735602,
+    "original_hash": "af65701371669bd19a42ed713447c9f8076181ed",
+    "rebuild_hash": "d818ec3fc138afcab596f5f94bc69741228b36a0",
+    "original_bin_hash": "5d001d097a6ca591acb977538ee6b9f38a65f84e",
+    "rebuild_bin_hash": "da19fd2cad7ce4ce08921baaf16fd6f779d18548",
+    "original_lib_hash": "a649491ca177ddc34e56142d9925e8edeeb737b0",
+    "rebuild_lib_hash": "558f9881fa9c25e445624fee5fb9b3a0ed7a63ac",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

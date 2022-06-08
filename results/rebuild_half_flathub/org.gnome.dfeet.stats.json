@@ -1,0 +1,24 @@
+{
+    "name": "org.gnome.dfeet",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 10.96216630935669,
+    "cache_size": 603255,
+    "git_size": 0,
+    "dl_size": 586792,
+    "original_hash": "cd7972cf86274c8b3ebc64b10c2f27b6cf0f3378",
+    "rebuild_hash": "cd7972cf86274c8b3ebc64b10c2f27b6cf0f3378",
+    "original_bin_hash": "54121c6ae0f0ef214d75e13a22d0c9e5672c0e3c",
+    "rebuild_bin_hash": "54121c6ae0f0ef214d75e13a22d0c9e5672c0e3c",
+    "original_lib_hash": "b3521788a3a9551411b11062a3a1a4d5068eddda",
+    "rebuild_lib_hash": "b3521788a3a9551411b11062a3a1a4d5068eddda",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "meson"
+    ]
+}

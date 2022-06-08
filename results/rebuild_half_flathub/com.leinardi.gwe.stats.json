@@ -1,0 +1,20 @@
+{
+    "name": "com.leinardi.gwe",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 384.6837797164917,
+    "cache_size": 109262288,
+    "git_size": 6725204,
+    "dl_size": 102516525,
+    "original_hash": "73ee440a1db62d4c8e7e9294b123a571525a2d4c",
+    "rebuild_hash": "88251035982002c60802230350bf126a2f0ea783",
+    "original_bin_hash": "eff98366949b2a7ac9cfa144507f7fd440976d0a",
+    "rebuild_bin_hash": "eff98366949b2a7ac9cfa144507f7fd440976d0a",
+    "original_lib_hash": "7b195779cfc190a242d844015262606f3755f7f0",
+    "rebuild_lib_hash": "8a50a0c9dd1e06295bfe221d2641f73ea27ab713",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

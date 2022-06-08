@@ -1,0 +1,32 @@
+{
+    "name": "com.notepadqq.Notepadqq",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "fee28451534fb343d5b1cbd4e73a5b0cb259e7e66e11d312606db02f194d957e",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-02 08:18:30+00:00",
+    "timestamp_of_rebuild": 1635841110.0,
+    "git-commit": "48eaede1f75fe428b978b3ce0927d13a5b0181a4 master",
+    "flatpak-deps": {
+        "io.qt.qtwebkit.BaseApp/x86_64/5.15-21.08": "b6fd7cdad084f25e4028499307824264c43201786f227b6287f40a665fa219bb",
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.kde.Sdk/x86_64/5.15-21.08": "0ae4796e7e7e9aa76e96595f9c526159672d0ef45df04cd10cfba6368a6e9c6d",
+        "org.kde.Platform/x86_64/5.15-21.08": "3a2695771f3460699b7d28fa3ed93e050b6726892310e824ac6df16c00b9ca0f"
+    },
+    "build_time": 340.9969744682312,
+    "cache_size": 80752065,
+    "git_size": 0,
+    "dl_size": 80735602,
+    "bad_files": 409,
+    "total_files": 6241,
+    "repro_score": 0.9344656305079314,
+    "original_hash": "af65701371669bd19a42ed713447c9f8076181ed",
+    "rebuild_hash": "8a06b5a00fafd575dcd4bcfe5a59635d57eab9f8",
+    "original_bin_hash": "bacc0bf3a96355c72069a7601aebd8551dcc4faf",
+    "rebuild_bin_hash": "4abb25abf43d8b0d46faa7b93236cc412297d325",
+    "original_elf_hash": "493a54eeaa50360ab9100cfeadac4c6c63c6b2b1",
+    "rebuild_elf_hash": "d1f8bbf9d3e839ee64b5bf1f0c4b1f9faf02fe15",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

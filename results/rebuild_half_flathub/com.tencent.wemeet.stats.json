@@ -1,0 +1,23 @@
+{
+    "name": "com.tencent.wemeet",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 32.69468808174133,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "original_hash": "d3467b05b3fb91028bf67f9aae9452ba5fdf5bee",
+    "rebuild_hash": "ca3bc4de544a6b2e795e2114601b4023a53b1afa",
+    "original_bin_hash": "b4ae47fb3c9c9889d9756f4242cefab23b9c99c4",
+    "rebuild_bin_hash": "b4ae47fb3c9c9889d9756f4242cefab23b9c99c4",
+    "original_lib_hash": "56ef7b331c8f00b6784bc1d4a47f9b91262ec146",
+    "rebuild_lib_hash": "56ef7b331c8f00b6784bc1d4a47f9b91262ec146",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

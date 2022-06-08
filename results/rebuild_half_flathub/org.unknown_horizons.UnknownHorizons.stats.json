@@ -1,0 +1,20 @@
+{
+    "name": "org.unknown_horizons.UnknownHorizons",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 918.1836659908295,
+    "cache_size": 455368268,
+    "git_size": 273014290,
+    "dl_size": 182351933,
+    "original_hash": "0c47c077702c1bcca6df2f181edf502daf93addb",
+    "rebuild_hash": "0c47c077702c1bcca6df2f181edf502daf93addb",
+    "original_bin_hash": "44c117dd81a5436ea64fd35ae6c68979b6e1ea9b",
+    "rebuild_bin_hash": "44c117dd81a5436ea64fd35ae6c68979b6e1ea9b",
+    "original_lib_hash": "874db5d1e5188c7ec859471e48701dd838ee11fc",
+    "rebuild_lib_hash": "874db5d1e5188c7ec859471e48701dd838ee11fc",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora"
+}

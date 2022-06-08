@@ -1,0 +1,25 @@
+{
+    "name": "com.github.ryonakano.konbucase",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 20.080201625823975,
+    "cache_size": 949435,
+    "git_size": 932972,
+    "dl_size": 0,
+    "original_hash": "63a4d0aede32a600d3ccf609adc1f62ddf1c3c04",
+    "rebuild_hash": "63a4d0aede32a600d3ccf609adc1f62ddf1c3c04",
+    "original_bin_hash": "cfb59389d4e916c4c9f10f6961578eb908ca9f25",
+    "rebuild_bin_hash": "cfb59389d4e916c4c9f10f6961578eb908ca9f25",
+    "original_lib_hash": "29053bc9f0823371c6253be13bbe9ad6b0f5761a",
+    "rebuild_lib_hash": "29053bc9f0823371c6253be13bbe9ad6b0f5761a",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

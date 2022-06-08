@@ -1,0 +1,20 @@
+{
+    "name": "com.chmouel.gnomeNextMeetingApplet",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 180.14032673835754,
+    "cache_size": 11637382,
+    "git_size": 0,
+    "dl_size": 11620919,
+    "original_hash": "fb1db1abda525c83b27df9a9d58a52f2d435cf92",
+    "rebuild_hash": "c3394d51b412f5f77dd850f8e884a029008a90b7",
+    "original_bin_hash": "6c58b24f3560748f753a1e2f6f01b6e56177b47f",
+    "rebuild_bin_hash": "6c58b24f3560748f753a1e2f6f01b6e56177b47f",
+    "original_lib_hash": "78eab34f866dfe201693b835ac868fc260041c95",
+    "rebuild_lib_hash": "44731effeeb14c533f412263000dc1ca17bdcf1d",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

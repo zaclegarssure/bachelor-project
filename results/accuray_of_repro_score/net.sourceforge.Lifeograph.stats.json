@@ -1,0 +1,16 @@
+{
+    "name": "net.sourceforge.Lifeograph",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "2ce8d7390ad8f58a0c23d7f850279b9aac1b4d3dce6487fa999184b093e5fc9c",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-24 21:24:36+00:00",
+    "timestamp_of_rebuild": 1650835476.0,
+    "git-commit": "b094c8ef911e99f2bf346b39be71033df407020e master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    }
+}

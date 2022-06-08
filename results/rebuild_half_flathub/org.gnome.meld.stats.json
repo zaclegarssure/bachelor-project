@@ -1,0 +1,24 @@
+{
+    "name": "org.gnome.meld",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 32.31093883514404,
+    "cache_size": 2246289,
+    "git_size": 0,
+    "dl_size": 2229826,
+    "original_hash": "a6a5c24d83738b7f157ac833c5eb9a85920fc8e2",
+    "rebuild_hash": "b48e526d52e0da6e90f3f28087a956242ef7ef95",
+    "original_bin_hash": "826207b4831ea4bbb8db1eff0650d1fcb779d062",
+    "rebuild_bin_hash": "826207b4831ea4bbb8db1eff0650d1fcb779d062",
+    "original_lib_hash": "84425bf4773e99adab7a2691197ba1e2e8999fce",
+    "rebuild_lib_hash": "84425bf4773e99adab7a2691197ba1e2e8999fce",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

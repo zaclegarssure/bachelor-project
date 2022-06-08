@@ -1,0 +1,26 @@
+{
+    "name": "com.github.avojak.paint-spill",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 139.64165234565735,
+    "cache_size": 8126328,
+    "git_size": 8094903,
+    "dl_size": 10866,
+    "original_hash": "3f64ad02d858186d11a1361e700d3d1c24628bcb",
+    "rebuild_hash": "3f64ad02d858186d11a1361e700d3d1c24628bcb",
+    "original_bin_hash": "b32a604c3884c4850b6ec42d8ae46960812fe135",
+    "rebuild_bin_hash": "b32a604c3884c4850b6ec42d8ae46960812fe135",
+    "original_lib_hash": "339d2994d5ff59b7707333c3479196cf62a02c98",
+    "rebuild_lib_hash": "339d2994d5ff59b7707333c3479196cf62a02c98",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "com.github.ztefn.haguichi",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 12.877395153045654,
+    "cache_size": 227555,
+    "git_size": 0,
+    "dl_size": 211092,
+    "original_hash": "789781b101a22211fee4d518a8841d0a192d91bc",
+    "rebuild_hash": "1a5e18d946e8e22ccff49337be57b28478dbf55a",
+    "original_bin_hash": "53225b37a8040b9683667f3ae91c61c88db514ae",
+    "rebuild_bin_hash": "53225b37a8040b9683667f3ae91c61c88db514ae",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

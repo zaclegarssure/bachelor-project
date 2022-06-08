@@ -1,0 +1,27 @@
+{
+    "name": "org.gnome.Epiphany",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 190.2350103855133,
+    "cache_size": 73649274,
+    "git_size": 66995771,
+    "dl_size": 6632944,
+    "original_hash": "d212d7a5d1e35e7542ed2a84d0ea30d208fc3420",
+    "rebuild_hash": "d212d7a5d1e35e7542ed2a84d0ea30d208fc3420",
+    "original_bin_hash": "ee86eba187316d8a16173637a953d1910c0250d5",
+    "rebuild_bin_hash": "ee86eba187316d8a16173637a953d1910c0250d5",
+    "original_lib_hash": "c89ef92e55d6445fe49132afe75d5107d2f35908",
+    "rebuild_lib_hash": "c89ef92e55d6445fe49132afe75d5107d2f35908",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "ch.openboard.OpenBoard",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 370.89791083335876,
+    "cache_size": 38579515,
+    "git_size": 26251633,
+    "dl_size": 12307323,
+    "original_hash": "1730309def134a238f4cba812643b0f3353981fc",
+    "rebuild_hash": "3fa64d825b69ccc2c0ec21c7273a241a3e172421",
+    "original_bin_hash": "c4243f4811684ad492009d1b9ae3da9ce94d2396",
+    "rebuild_bin_hash": "96a3494852f27b90f6af94cb8418d1335416b938",
+    "original_lib_hash": "74d6a54ecd419d957cba6ced38490ea02470b83b",
+    "rebuild_lib_hash": "74d6a54ecd419d957cba6ced38490ea02470b83b",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "cmake-ninja",
+        "qmake",
+        "qmake"
+    ]
+}

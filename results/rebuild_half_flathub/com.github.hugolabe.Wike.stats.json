@@ -1,0 +1,25 @@
+{
+    "name": "com.github.hugolabe.Wike",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 22.361534595489502,
+    "cache_size": 2299463,
+    "git_size": 1139080,
+    "dl_size": 1139824,
+    "original_hash": "399762830e540cc5b79f05e928b1f0702b818bc8",
+    "rebuild_hash": "c3527ba8ac663e2b130ddd1b9b4e58618f56dbbe",
+    "original_bin_hash": "b2df32dca5cec765a792c40854b2ebe29d48a7c9",
+    "rebuild_bin_hash": "b2df32dca5cec765a792c40854b2ebe29d48a7c9",
+    "original_lib_hash": "e9054f715d759611fea6764286b394bdb6a721cf",
+    "rebuild_lib_hash": "cba05ca208d5c5a1ec04cf62459391de338d594d",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

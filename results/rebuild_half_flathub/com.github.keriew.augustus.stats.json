@@ -1,0 +1,23 @@
+{
+    "name": "com.github.keriew.augustus",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 18.35540008544922,
+    "cache_size": 51172807,
+    "git_size": 51156344,
+    "dl_size": 0,
+    "original_hash": "4b00694554bf459b945a7219024f9e6088ed197b",
+    "rebuild_hash": "4b00694554bf459b945a7219024f9e6088ed197b",
+    "original_bin_hash": "10eb6fa1b81c7a293349ee27c72bdf485578308c",
+    "rebuild_bin_hash": "10eb6fa1b81c7a293349ee27c72bdf485578308c",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

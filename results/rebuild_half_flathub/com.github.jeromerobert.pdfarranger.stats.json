@@ -1,0 +1,20 @@
+{
+    "name": "com.github.jeromerobert.pdfarranger",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 301.56462478637695,
+    "cache_size": 77102201,
+    "git_size": 342534,
+    "dl_size": 76739108,
+    "original_hash": "646851397d18386425d7df6edf25715e14965fc8",
+    "rebuild_hash": "9efcf576987dd3d596afe02170486bac0c2f4a75",
+    "original_bin_hash": "f6977db95c675ba412799f37f5f8105cf710c552",
+    "rebuild_bin_hash": "f6977db95c675ba412799f37f5f8105cf710c552",
+    "original_lib_hash": "31d50299363a0f7bcfa6c3c6ff9fc53d71f2182e",
+    "rebuild_lib_hash": "7ab074d7b4d541fbb8abbe52815b235171f58259",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

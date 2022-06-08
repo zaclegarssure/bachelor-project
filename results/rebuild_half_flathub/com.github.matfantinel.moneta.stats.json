@@ -1,0 +1,23 @@
+{
+    "name": "com.github.matfantinel.moneta",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 15.326800346374512,
+    "cache_size": 610593,
+    "git_size": 594130,
+    "dl_size": 0,
+    "original_hash": "1045cc1c89f08e613368c633d2fdfe260b9494d2",
+    "rebuild_hash": "91477f56095a81839020708f7f07e0f61cf44ad9",
+    "original_bin_hash": "df9abc03138039cb45c6191ffde430adc092939d",
+    "rebuild_bin_hash": "df9abc03138039cb45c6191ffde430adc092939d",
+    "original_lib_hash": "332bb26ec1d219e7fa7e9c0abcc25d95623a9640",
+    "rebuild_lib_hash": "332bb26ec1d219e7fa7e9c0abcc25d95623a9640",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "org.codeblocks.codeblocks",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "f3aa4377e114731e9d0c7ba7ee484733e4e322b556fbdec9d89897762f6ee376",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-01 23:46:28+00:00",
+    "timestamp_of_rebuild": 1651448788.0,
+    "git-commit": "4427d522467eaf7fad6659473640c98d53029cf8 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.freedesktop.Sdk/x86_64/21.08": "1a972810d883f9721f90b87e092d282184b8a95fc10fc72068723cd54f893b22"
+    },
+    "build_time": 1014.6228494644165,
+    "cache_size": 145998931,
+    "git_size": 74227,
+    "dl_size": 145904145,
+    "bad_files": 60,
+    "total_files": 1538,
+    "repro_score": 0.9609882964889467,
+    "original_hash": "a8efb6b42fa0e3267d43bc23b20c623ef2dabdbc",
+    "rebuild_hash": "f7e081b32540e5df1bb26c0f057cde7cab26b27a",
+    "original_bin_hash": "71c76a5268e3dc25ab35f66e4a4b8fac7c58fdc7",
+    "rebuild_bin_hash": "044838d4eb767f10c1cf58fee44d7ff6df6c0f22",
+    "original_elf_hash": "94bde373428da3e5292362c8ff9b303438570df8",
+    "rebuild_elf_hash": "a10bfe4d87ae2c33fa6beefd5da45ab78e509981",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

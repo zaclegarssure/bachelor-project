@@ -1,0 +1,24 @@
+{
+    "name": "com.jpexs.decompiler.flash",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 42.545650005340576,
+    "cache_size": 52965362,
+    "git_size": 47918259,
+    "dl_size": 5026544,
+    "original_hash": "87152b4828e00cf6e7f72690252b1d9968e4ef65",
+    "rebuild_hash": "f6a02c6d805c7a1ddbe8833ace0838a535f379be",
+    "original_bin_hash": "c19c38522fd1f8054da013add1712952c0f62594",
+    "rebuild_bin_hash": "06db5068cbff57abab7e7bd2e9c382fefe31c0d3",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

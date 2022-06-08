@@ -1,0 +1,25 @@
+{
+    "name": "com.github.sdv43.whaler",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 294.1553518772125,
+    "cache_size": 1616687,
+    "git_size": 1600224,
+    "dl_size": 0,
+    "original_hash": "d5a8653535b29d2b6a27922594bf991026230f89",
+    "rebuild_hash": "d5a8653535b29d2b6a27922594bf991026230f89",
+    "original_bin_hash": "103dab750a8590be26bcd9df825fbe8e3f5ba966",
+    "rebuild_bin_hash": "103dab750a8590be26bcd9df825fbe8e3f5ba966",
+    "original_lib_hash": "6d3b3b2f268b9f62ce5336c9b6579a35285b2222",
+    "rebuild_lib_hash": "6d3b3b2f268b9f62ce5336c9b6579a35285b2222",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

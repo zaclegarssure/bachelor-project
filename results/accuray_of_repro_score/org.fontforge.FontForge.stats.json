@@ -1,0 +1,31 @@
+{
+    "name": "org.fontforge.FontForge",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "32700c43f8bd11eb0d99e13dcbd4530d414e0313e75f986b885ca12ff2789b48",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-09 09:47:22+00:00",
+    "timestamp_of_rebuild": 1646819242.0,
+    "git-commit": "bc9b0874ebdde61741cdebf65758420e098a53cf master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "cce27cfbd1132b922bd1b4c672b83b907f1d6a21e0aa941fec13ebc1e65b0508",
+        "org.freedesktop.Sdk/x86_64/21.08": "f31334d7fc5ff5ec93766189a7e47bfb3369a9a7154767adb46c4495530c1d1c",
+        "org.freedesktop.Platform/x86_64/21.08": "fcf3dbb56c117835216058acfa99ae280d713029f8d674e1b56e019a20ed082d"
+    },
+    "build_time": 170.7779037952423,
+    "cache_size": 33691728,
+    "git_size": 0,
+    "dl_size": 33675265,
+    "bad_files": 350,
+    "total_files": 2879,
+    "repro_score": 0.8784300104202848,
+    "original_hash": "3c7afc50263685de43cb457f07c63c723aa096d7",
+    "rebuild_hash": "9c4f337e171699c4856a74f6ac3afdc9e0faf0d5",
+    "original_bin_hash": "a1c110ccb1c15fa79c122d479a92b63db0a41128",
+    "rebuild_bin_hash": "93997740df0b24f8caee8c3fea433263763fb7f5",
+    "original_elf_hash": "b9b82f04c5bcda8d7ade5fbbb63e1cdd6c9e76f8",
+    "rebuild_elf_hash": "f6fe13a2c1956c5db4b428f0ae26d9a1d7eeba02",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

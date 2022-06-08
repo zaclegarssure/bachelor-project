@@ -1,0 +1,31 @@
+{
+    "name": "io.atom.Atom",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "9eec64e073814b667ead29cba530d38651abd83cfa73acc89ee75764b08abca0",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-08 12:35:36+00:00",
+    "timestamp_of_rebuild": 1646742936.0,
+    "git-commit": "76912fce53e533525056a9b522cd4afad5e2f8ca remotes/origin/update-410dc76~1",
+    "flatpak-deps": {
+        "org.electronjs.Electron2.BaseApp/x86_64/20.08": "177562ddd26de8f2d045076f05c1a81cf7c6a4009f2a9ea4a5b7682a2d36e6b9",
+        "org.flatpak.Builder/x86_64/stable": "cce27cfbd1132b922bd1b4c672b83b907f1d6a21e0aa941fec13ebc1e65b0508",
+        "org.freedesktop.Sdk/x86_64/20.08": "342c7a3301feeaabf8b0caf741e849982350f8bbeb1503f3fc32b87f1ca3de43"
+    },
+    "build_time": 92.26151251792908,
+    "cache_size": 149137802,
+    "git_size": 9722971,
+    "dl_size": 139394272,
+    "bad_files": 0,
+    "total_files": 6818,
+    "repro_score": 1.0,
+    "original_hash": "7e00a3bd7c649cae5bc0699791d2986f9667cb8d",
+    "rebuild_hash": "7e00a3bd7c649cae5bc0699791d2986f9667cb8d",
+    "original_bin_hash": "5fb1acbd932ec3aeb4eb348cab9a46a765cc9cf6",
+    "rebuild_bin_hash": "5fb1acbd932ec3aeb4eb348cab9a46a765cc9cf6",
+    "original_elf_hash": "4ba7e6dbbbb08873b45f41b692a31d27db1bc65e",
+    "rebuild_elf_hash": "4ba7e6dbbbb08873b45f41b692a31d27db1bc65e",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

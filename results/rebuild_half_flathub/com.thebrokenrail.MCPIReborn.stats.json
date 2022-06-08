@@ -1,0 +1,27 @@
+{
+    "name": "com.thebrokenrail.MCPIReborn",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 126.49583458900452,
+    "cache_size": 223073582,
+    "git_size": 99961791,
+    "dl_size": 123091232,
+    "original_hash": "2a273a5e3da063e6f2d8ed24ba3cbdc54b50bb5f",
+    "rebuild_hash": "2a273a5e3da063e6f2d8ed24ba3cbdc54b50bb5f",
+    "original_bin_hash": "7318b88e054b70c467b651595a4eb14c92590d71",
+    "rebuild_bin_hash": "7318b88e054b70c467b651595a4eb14c92590d71",
+    "original_lib_hash": "e4b6ee528f09b33d05fd0280ad978a9211a8dd21",
+    "rebuild_lib_hash": "e4b6ee528f09b33d05fd0280ad978a9211a8dd21",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "cmake-ninja",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

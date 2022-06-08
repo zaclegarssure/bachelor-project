@@ -1,0 +1,23 @@
+{
+    "name": "com.eminfedar.vaktisalah",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 4.117485523223877,
+    "cache_size": 959543,
+    "git_size": 943080,
+    "dl_size": 0,
+    "original_hash": "cf97c0056a0c396380c06c4e914e230dfd7ec902",
+    "rebuild_hash": "8ff3f0da9811cd3613b270f3cd8051f2e6c9c967",
+    "original_bin_hash": "2a10130e06610546d9a94be173bd06e5d02c7212",
+    "rebuild_bin_hash": "172bae78a4b9bc05c370ba257734bc5a97595989",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "qmake"
+    ]
+}

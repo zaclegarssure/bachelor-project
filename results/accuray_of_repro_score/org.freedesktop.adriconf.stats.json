@@ -1,0 +1,31 @@
+{
+    "name": "org.freedesktop.adriconf",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "bce3659cc2a58f32e5c7715e00c925e04c8169a6ca003ab615935de2aa15a5e1",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-29 19:29:54+00:00",
+    "timestamp_of_rebuild": 1640806194.0,
+    "git-commit": "27098a37ad465e898396ab549f64eaa7b437b228 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "33efe804a63f7bf3b2a3ba4607f4ea700e4b44760f119e765fde5ab565471d87",
+        "org.freedesktop.Sdk/x86_64/20.08": "567a0a55e2f53f87a9702fbbd5cbab4869c9f57430e86d93edc54d9208f5d3e1",
+        "org.freedesktop.Platform/x86_64/20.08": "93f5faa8492c933e9ed7dfee9824302af357101680a4df1f72d02ed26a0ab7e5"
+    },
+    "build_time": 172.9889063835144,
+    "cache_size": 29027754,
+    "git_size": 312282,
+    "dl_size": 28694913,
+    "bad_files": 1,
+    "total_files": 27,
+    "repro_score": 0.9629629629629629,
+    "original_hash": "276f37799d6b60cd1ccc2a771796aa3df4f7f875",
+    "rebuild_hash": "a5126fbedfc751ba7fcbe04380da847a539c0d3f",
+    "original_bin_hash": "d4c33536b16f027105a265440de06bdeeb329439",
+    "rebuild_bin_hash": "d4c33536b16f027105a265440de06bdeeb329439",
+    "original_elf_hash": "3c7074f086ecfb103cf46dc03d08a5b2c73ee304",
+    "rebuild_elf_hash": "3c7074f086ecfb103cf46dc03d08a5b2c73ee304",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

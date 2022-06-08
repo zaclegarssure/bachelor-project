@@ -1,0 +1,28 @@
+{
+    "name": "ch.theologeek.Manuskript",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 505.9616425037384,
+    "cache_size": 42362405,
+    "git_size": 0,
+    "dl_size": 42345942,
+    "original_hash": "1eb6e7a0224cac11dcdc3a88db01449cb000fdd4",
+    "rebuild_hash": "cc8f29c5041f58a717eed40ed033d038ff47e88a",
+    "original_bin_hash": "cc75cee0f964eb274d3a0e71f3a8e2ec10af8542",
+    "rebuild_bin_hash": "cc75cee0f964eb274d3a0e71f3a8e2ec10af8542",
+    "original_lib_hash": "edea490d5cb02150c8aea10e6718805e50bc6f2a",
+    "rebuild_lib_hash": "5b798d1eff80e39c63679e1e610853e8c0267ace",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "autotools",
+        "simple",
+        "simple"
+    ]
+}

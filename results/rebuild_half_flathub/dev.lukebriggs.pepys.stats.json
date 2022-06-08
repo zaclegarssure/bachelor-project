@@ -1,0 +1,30 @@
+{
+    "name": "dev.lukebriggs.pepys",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 662.2774777412415,
+    "cache_size": 62131194,
+    "git_size": 6434240,
+    "dl_size": 55676395,
+    "original_hash": "67c9879cf67e7d0c671e3311f27ce28c6ff13738",
+    "rebuild_hash": "10607f04f085148e9f675c1e23896a645a84bc5f",
+    "original_bin_hash": "d97fdb7caf3a0994f62a8b2f59a0497b5e2debca",
+    "rebuild_bin_hash": "d97fdb7caf3a0994f62a8b2f59a0497b5e2debca",
+    "original_lib_hash": "7315c9a8e4f5714c9c72f830ac89a4bb27ae1795",
+    "rebuild_lib_hash": "570b3ef99071ddef2bef6f1576d063773000c7a6",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

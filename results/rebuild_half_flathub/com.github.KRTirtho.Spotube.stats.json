@@ -1,0 +1,24 @@
+{
+    "name": "com.github.KRTirtho.Spotube",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 10.528031349182129,
+    "cache_size": 9215189,
+    "git_size": 0,
+    "dl_size": 9198726,
+    "original_hash": "eeef07cdd8b0b1b20336e9a39569c707e814e307",
+    "rebuild_hash": "eeef07cdd8b0b1b20336e9a39569c707e814e307",
+    "original_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "rebuild_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "original_lib_hash": "e708b5527c480babd85e539b425406fc3edb5f33",
+    "rebuild_lib_hash": "e708b5527c480babd85e539b425406fc3edb5f33",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "autotools",
+        "simple"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "dev.paullee.scraterpreter.Scrape",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 32.47219967842102,
+    "cache_size": 247400,
+    "git_size": 230937,
+    "dl_size": 0,
+    "original_hash": "4198be163489d9642556f568a21f1782e37be3e2",
+    "rebuild_hash": "4198be163489d9642556f568a21f1782e37be3e2",
+    "original_bin_hash": "a004849ed651c93bd1122ee0887e54e20f551615",
+    "rebuild_bin_hash": "a004849ed651c93bd1122ee0887e54e20f551615",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake",
+        "simple"
+    ]
+}

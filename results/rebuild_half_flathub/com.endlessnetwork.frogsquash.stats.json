@@ -1,0 +1,23 @@
+{
+    "name": "com.endlessnetwork.frogsquash",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 14.996760368347168,
+    "cache_size": 30718173,
+    "git_size": 2029591,
+    "dl_size": 28668023,
+    "original_hash": "4ce9314cf7c5d3f693f787149731cd2f599ee4ed",
+    "rebuild_hash": "4ce9314cf7c5d3f693f787149731cd2f599ee4ed",
+    "original_bin_hash": "109add373cba3460b8d89fd1953dd0061e983935",
+    "rebuild_bin_hash": "109add373cba3460b8d89fd1953dd0061e983935",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

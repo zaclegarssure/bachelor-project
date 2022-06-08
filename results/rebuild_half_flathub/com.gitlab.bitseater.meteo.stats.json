@@ -1,0 +1,20 @@
+{
+    "name": "com.gitlab.bitseater.meteo",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 62.617488861083984,
+    "cache_size": 3240572,
+    "git_size": 0,
+    "dl_size": 3224109,
+    "original_hash": "feb01cab7ae5cbad0a7672b6b42f247fa7fd50d3",
+    "rebuild_hash": "feb01cab7ae5cbad0a7672b6b42f247fa7fd50d3",
+    "original_bin_hash": "16aefbd78cbfa570eb01e2a9cd27afabeb06d6a3",
+    "rebuild_bin_hash": "16aefbd78cbfa570eb01e2a9cd27afabeb06d6a3",
+    "original_lib_hash": "8916b7d9d1a8571a460d5c6602d63674327cebbb",
+    "rebuild_lib_hash": "8916b7d9d1a8571a460d5c6602d63674327cebbb",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

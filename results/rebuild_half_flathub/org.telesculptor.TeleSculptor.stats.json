@@ -1,0 +1,24 @@
+{
+    "name": "org.telesculptor.TeleSculptor",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 508.882009267807,
+    "cache_size": 486283945,
+    "git_size": 0,
+    "dl_size": 486283234,
+    "original_hash": "412b1a56297cc3bb58a59c90a5d1dfd4e577b2ac",
+    "rebuild_hash": "412b1a56297cc3bb58a59c90a5d1dfd4e577b2ac",
+    "original_bin_hash": "c976bd60d80bac241c3d7bbe6f7c247ab8ee9184",
+    "rebuild_bin_hash": "c976bd60d80bac241c3d7bbe6f7c247ab8ee9184",
+    "original_lib_hash": "a4824c1941a514b439e710af003169d746e81a43",
+    "rebuild_lib_hash": "a4824c1941a514b439e710af003169d746e81a43",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "cmake-ninja",
+        "simple"
+    ]
+}

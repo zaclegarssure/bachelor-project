@@ -1,0 +1,25 @@
+{
+    "name": "ch.protonmail.protonmail-import-export-app",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 25.767194032669067,
+    "cache_size": 64614137,
+    "git_size": 0,
+    "dl_size": 64597674,
+    "original_hash": "863384392cb0fd2005b8ee58a92a4a7ccc841399",
+    "rebuild_hash": "863384392cb0fd2005b8ee58a92a4a7ccc841399",
+    "original_bin_hash": "da0dc35d596d77bf498bbcaa7d33323ddff2e8ca",
+    "rebuild_bin_hash": "da0dc35d596d77bf498bbcaa7d33323ddff2e8ca",
+    "original_lib_hash": "5a8dee0d16befc297a9b4b5ddfcacc60be364e1e",
+    "rebuild_lib_hash": "5a8dee0d16befc297a9b4b5ddfcacc60be364e1e",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "simple",
+        "simple"
+    ]
+}

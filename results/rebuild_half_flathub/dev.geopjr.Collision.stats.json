@@ -1,0 +1,23 @@
+{
+    "name": "dev.geopjr.Collision",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 116.46374487876892,
+    "cache_size": 62947777,
+    "git_size": 33243883,
+    "dl_size": 29683335,
+    "original_hash": "252630f4baf55b4532c556efa8fa9acad7cf8574",
+    "rebuild_hash": "79d37409239d02f317e1f0aa38de81f6ab89b781",
+    "original_bin_hash": "93caccfc4228237bd9f9855f79a1a95e714082fa",
+    "rebuild_bin_hash": "61826bb8b92c5273c5ad51776add75b168ddb6fb",
+    "original_lib_hash": "cb6fa50d7456286fe8a340977b9bf5b29e89fa78",
+    "rebuild_lib_hash": "cb6fa50d7456286fe8a340977b9bf5b29e89fa78",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

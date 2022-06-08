@@ -1,0 +1,20 @@
+{
+    "name": "com.github.gyunaev.spivak",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 108.69809794425964,
+    "cache_size": 98959939,
+    "git_size": 97955092,
+    "dl_size": 984288,
+    "original_hash": "73dc15a1e2e546a29f4c7052fc76e8786013d9b0",
+    "rebuild_hash": "92e728443902fa7069131b1daf3482fe63bc73b9",
+    "original_bin_hash": "9018b4c410e05988751dcac0b54389bb62cc43fa",
+    "rebuild_bin_hash": "f623b26ec0b7c7532ac50cb87b3ae943b99d404c",
+    "original_lib_hash": "8f04daef53143b2f6cef985a5deb05e5895cea87",
+    "rebuild_lib_hash": "8f04daef53143b2f6cef985a5deb05e5895cea87",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

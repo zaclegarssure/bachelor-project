@@ -1,0 +1,31 @@
+{
+    "name": "org.soundconverter.SoundConverter",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "8107e94f3c832297630f442d0940ce67e3c2d2a291165129d16aaf53819e3d9e",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-08 22:11:52+00:00",
+    "timestamp_of_rebuild": 1646777512.0,
+    "git-commit": "e8160ade713772b3623034eb89d34129e2458d0a master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "cce27cfbd1132b922bd1b4c672b83b907f1d6a21e0aa941fec13ebc1e65b0508",
+        "org.gnome.Sdk/x86_64/41": "694be3cc2200a390437d1fec47a27b13a4ef429eea9d020d3a1ea2f028056f36",
+        "org.gnome.Platform/x86_64/41": "6603dc6b728731bbaa7f1f1abbae3007cc3f029f72c40a9f1c43c7ff3c799b4f"
+    },
+    "build_time": 5.1485114097595215,
+    "cache_size": 1024472,
+    "git_size": 837531,
+    "dl_size": 166382,
+    "bad_files": 0,
+    "total_files": 72,
+    "repro_score": 1.0,
+    "original_hash": "cac67aca83fe1bafb8a6baa599dba8ab9a748588",
+    "rebuild_hash": "cac67aca83fe1bafb8a6baa599dba8ab9a748588",
+    "original_bin_hash": "3444cbeb2899e119294d473a8a859eb085af0391",
+    "rebuild_bin_hash": "3444cbeb2899e119294d473a8a859eb085af0391",
+    "original_elf_hash": "b028370d76aeebb3dedc037c172532d7201ecdbc",
+    "rebuild_elf_hash": "b028370d76aeebb3dedc037c172532d7201ecdbc",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

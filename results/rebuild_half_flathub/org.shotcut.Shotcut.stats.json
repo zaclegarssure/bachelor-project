@@ -1,0 +1,33 @@
+{
+    "name": "org.shotcut.Shotcut",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 943.6583008766174,
+    "cache_size": 66216150,
+    "git_size": 46879811,
+    "dl_size": 19334424,
+    "original_hash": "ed5c04f59b7db7e7808ad0aa7b315bf09e15c25e",
+    "rebuild_hash": "c8fb7bbdf6b3981c5047d41be8003355634fbfba",
+    "original_bin_hash": "573c7fbf5fccfb0796736dce08d622aabfca6c4e",
+    "rebuild_bin_hash": "14718eea3ddd305939b8a21bdb9fc2832ad6650f",
+    "original_lib_hash": "468eb5c8dc21fbd9230f875ded60da2b812137c3",
+    "rebuild_lib_hash": "9cf0fe4194d10a191a177ff84a0456c05e82b35f",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "cmake-ninja",
+        "cmake-ninja",
+        "cmake-ninja",
+        "simple",
+        "cmake-ninja",
+        "meson",
+        "simple",
+        "meson",
+        "cmake-ninja",
+        "cmake-ninja",
+        "qmake"
+    ]
+}

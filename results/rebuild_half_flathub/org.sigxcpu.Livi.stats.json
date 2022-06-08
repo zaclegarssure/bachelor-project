@@ -1,0 +1,31 @@
+{
+    "name": "org.sigxcpu.Livi",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 440.79656457901,
+    "cache_size": 28634575,
+    "git_size": 27863438,
+    "dl_size": 770030,
+    "original_hash": "3ebfc5abc48659a20d36744ac4582c784d383087",
+    "rebuild_hash": "3ebfc5abc48659a20d36744ac4582c784d383087",
+    "original_bin_hash": "0cfe9bab2710afcdc1f0d9880d9801f98932e118",
+    "rebuild_bin_hash": "0cfe9bab2710afcdc1f0d9880d9801f98932e118",
+    "original_lib_hash": "116be0fbbcf13543dfd00382df9f9324907a8e84",
+    "rebuild_lib_hash": "116be0fbbcf13543dfd00382df9f9324907a8e84",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

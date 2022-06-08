@@ -1,0 +1,23 @@
+{
+    "name": "com.github.dimkr.gplaces",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 5.242684602737427,
+    "cache_size": 18714606,
+    "git_size": 18698143,
+    "dl_size": 0,
+    "original_hash": "c9f52fd7d763dc1dab5dbc2ea452321d82a5e0e1",
+    "rebuild_hash": "c9f52fd7d763dc1dab5dbc2ea452321d82a5e0e1",
+    "original_bin_hash": "4b276fdce17657b9a782491a73144474e60e9614",
+    "rebuild_bin_hash": "4b276fdce17657b9a782491a73144474e60e9614",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

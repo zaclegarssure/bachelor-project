@@ -1,0 +1,31 @@
+{
+    "name": "net.sourceforge.Hugin",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "a7c2fc7e2e1df039ce9c9500971ea1f4bac6579d891a42fbec4027c24151d77b",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-04 03:26:42+00:00",
+    "timestamp_of_rebuild": 1643945202.0,
+    "git-commit": "8d2c67fb35f1d3407ae93094d6122fca371a1183 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.freedesktop.Sdk/x86_64/21.08": "aa8fa029dafc5e20fab3d044caefd07647e5186012f983c28179c5c6dce4a8d5",
+        "org.freedesktop.Platform/x86_64/21.08": "7eae5cd0909215ab896309abf9c6716875f0d012c84f73d44ddd1163a1de286d"
+    },
+    "build_time": 1095.4363329410553,
+    "cache_size": 265216397,
+    "git_size": 0,
+    "dl_size": 265199934,
+    "bad_files": 11,
+    "total_files": 2414,
+    "repro_score": 0.9954432477216238,
+    "original_hash": "e9ce75d197853194c4fb8810d350fcda9875cbf1",
+    "rebuild_hash": "b95f00356bd122fdae517b1a95eddfca1510a786",
+    "original_bin_hash": "f4305122e45654e7329bbf45ba4af731e02ca2ee",
+    "rebuild_bin_hash": "16d524dc7f2304009027b09c26577712f9e89868",
+    "original_elf_hash": "60e04f62e029c71fd358d8bf404bf717da3d5c78",
+    "rebuild_elf_hash": "0c36be86c07e6f27d993ddc1c333fb3da4192265",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,24 @@
+{
+    "name": "org.quassel_irc.QuasselClient",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 226.58266854286194,
+    "cache_size": 8960534,
+    "git_size": 0,
+    "dl_size": 8959951,
+    "original_hash": "5200b4f7f123142805db945c4afbb880e1288895",
+    "rebuild_hash": "025ebc503434566c659d35031fadf3c8af6e6f50",
+    "original_bin_hash": "565cab102d7711da09ff59c6d8a7a68a6c1bef37",
+    "rebuild_bin_hash": "42aabcc7b0a969caea76386cccb88afdd2c36ffa",
+    "original_lib_hash": "d8d064eb5c07f6f124ea9a8baa6d67c23c43934c",
+    "rebuild_lib_hash": "006e20df91c2552918f64f6781e85440c938195b",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora",
+    "build_systems": [
+        "cmake-ninja",
+        "simple"
+    ]
+}

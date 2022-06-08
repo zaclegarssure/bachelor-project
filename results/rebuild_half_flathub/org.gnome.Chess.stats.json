@@ -1,0 +1,25 @@
+{
+    "name": "org.gnome.Chess",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 50.43907356262207,
+    "cache_size": 2010910,
+    "git_size": 0,
+    "dl_size": 1994447,
+    "original_hash": "c2aba09ee9814970c08997c63390cd6a0ceccaae",
+    "rebuild_hash": "3c7633cb02f78ac35486d928d8d0a9221ce99b5f",
+    "original_bin_hash": "ace7107bec1c4875e7ecfad6b0d3e521f7f49224",
+    "rebuild_bin_hash": "69f04a2742232304f596d560a0fe48027fb94e4b",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

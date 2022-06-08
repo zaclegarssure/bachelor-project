@@ -1,0 +1,16 @@
+{
+    "name": "org.gramps_project.Gramps",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "24d2321bf98730d0e8cadb9d3dbd69dfa3213bac6390192feb22e0555e866462",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-26 14:42:48+00:00",
+    "timestamp_of_rebuild": 1653576168.0,
+    "git-commit": "1a66dcfd642f398ff9cce53338293c9842169ba7 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "c3ea4e88f8f9d05efb8b085abb2d1f56d8bab435dade310f31edef002612736d",
+        "org.gnome.Platform/x86_64/42": "ad9ceb4f734c754fe1db5ee926eb1482062ef35f0f588cd74f486eceb3f1028a"
+    }
+}

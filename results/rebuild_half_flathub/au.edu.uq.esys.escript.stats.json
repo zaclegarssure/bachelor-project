@@ -1,0 +1,18 @@
+{
+    "name": "au.edu.uq.esys.escript",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "cmake",
+        "simple",
+        "simple"
+    ]
+}

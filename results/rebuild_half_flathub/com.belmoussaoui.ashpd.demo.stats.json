@@ -1,0 +1,24 @@
+{
+    "name": "com.belmoussaoui.ashpd.demo",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 166.94586086273193,
+    "cache_size": 17376129,
+    "git_size": 255518,
+    "dl_size": 17100052,
+    "original_hash": "04b05da695bcb9e36d28dc3a9871ad5e15fde8f3",
+    "rebuild_hash": "04b05da695bcb9e36d28dc3a9871ad5e15fde8f3",
+    "original_bin_hash": "4f8a7ff6226f691db56f13d5a4106ff8902d8791",
+    "rebuild_bin_hash": "4f8a7ff6226f691db56f13d5a4106ff8902d8791",
+    "original_lib_hash": "214e250f7ed06e5ba54966c58c72c348d6eb6565",
+    "rebuild_lib_hash": "214e250f7ed06e5ba54966c58c72c348d6eb6565",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

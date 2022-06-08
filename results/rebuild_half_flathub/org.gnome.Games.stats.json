@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.Games",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 975.9045209884644,
+    "cache_size": 1520856705,
+    "git_size": 1520528507,
+    "dl_size": 307639,
+    "original_hash": "2b5e942172dac45082acd2aca20acfb981caa6a4",
+    "rebuild_hash": "69116a1b66cb9724524f46e85cafc336f50002ba",
+    "original_bin_hash": "394c8b863a84e5f4dd98d94bb1fb20cb0fc8b885",
+    "rebuild_bin_hash": "8b1e720413f803a0780a44339e1165ea1627e8ed",
+    "original_lib_hash": "60af8aefcb289e1898b5976d3cc1870bd94ccdb6",
+    "rebuild_lib_hash": "ba86208cb927eabd888a54cb690f3f17e424c998",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

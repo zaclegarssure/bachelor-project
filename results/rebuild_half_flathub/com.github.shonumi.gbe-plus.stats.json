@@ -1,0 +1,23 @@
+{
+    "name": "com.github.shonumi.gbe-plus",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 220.8770089149475,
+    "cache_size": 2974295,
+    "git_size": 0,
+    "dl_size": 2957832,
+    "original_hash": "768cfd74ead29e3feaa0addd0aaee519ac24889f",
+    "rebuild_hash": "768cfd74ead29e3feaa0addd0aaee519ac24889f",
+    "original_bin_hash": "8eb58d3cae9ab30c9381fca6f201f134adb336d1",
+    "rebuild_bin_hash": "8eb58d3cae9ab30c9381fca6f201f134adb336d1",
+    "original_lib_hash": "0cfdee0dd6f3ae241a34e4a8ae17827eb43a5e26",
+    "rebuild_lib_hash": "0cfdee0dd6f3ae241a34e4a8ae17827eb43a5e26",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

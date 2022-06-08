@@ -1,0 +1,20 @@
+{
+    "name": "com.rawtherapee.RawTherapee",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 655.8324790000916,
+    "cache_size": 78759733,
+    "git_size": 0,
+    "dl_size": 78743270,
+    "original_hash": "bcb98ef4c3b6d920b10092a0b30e778f477e07be",
+    "rebuild_hash": "4e1613beb48570eb90ff66fcfb0948315c2c6bcf",
+    "original_bin_hash": "14f3ae2e61053047d5c898b4b842854656409666",
+    "rebuild_bin_hash": "14f3ae2e61053047d5c898b4b842854656409666",
+    "original_lib_hash": "1470b508db343d1f776cd2ed7d9033365ce530e1",
+    "rebuild_lib_hash": "ae2e95f3a795ada120f798b998cd72ed06120da1",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

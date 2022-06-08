@@ -1,0 +1,23 @@
+{
+    "name": "com.agateau.PixelWheels",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 15.337148666381836,
+    "cache_size": 82388202,
+    "git_size": 0,
+    "dl_size": 82371739,
+    "original_hash": "40c77987bcda956265436328fe22bfc65685baf5",
+    "rebuild_hash": "40c77987bcda956265436328fe22bfc65685baf5",
+    "original_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "rebuild_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "original_lib_hash": "321aae23830ac06809108e07fdea1dcb4ed99cd5",
+    "rebuild_lib_hash": "321aae23830ac06809108e07fdea1dcb4ed99cd5",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

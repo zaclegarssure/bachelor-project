@@ -1,0 +1,23 @@
+{
+    "name": "com.github.liferooter.textpieces",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 80.76793336868286,
+    "cache_size": 3616420,
+    "git_size": 2256473,
+    "dl_size": 1339388,
+    "original_hash": "364e9b705903bf377692b1c8d3ebf4e2f342c226",
+    "rebuild_hash": "265763895f8efd7ab5ef70f5a5c75cc19016df80",
+    "original_bin_hash": "62ef1657a4d425a594d88e71dba5d605887a54d0",
+    "rebuild_bin_hash": "62ef1657a4d425a594d88e71dba5d605887a54d0",
+    "original_lib_hash": "268bda79be96185f2a9aa25eff2fed64698d8e29",
+    "rebuild_lib_hash": "268bda79be96185f2a9aa25eff2fed64698d8e29",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

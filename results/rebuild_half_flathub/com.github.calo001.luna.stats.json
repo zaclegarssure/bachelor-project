@@ -1,0 +1,23 @@
+{
+    "name": "com.github.calo001.luna",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 16.077871799468994,
+    "cache_size": 286435,
+    "git_size": 0,
+    "dl_size": 269972,
+    "original_hash": "9451e3e7a7ee7e3a723f01e70bf90a1424854bdf",
+    "rebuild_hash": "860d1895c34ebb031a8cc1fd75f6661ed62ec4ee",
+    "original_bin_hash": "0707492099a26e4ba4ce856bf310c51463bb4e48",
+    "rebuild_bin_hash": "0707492099a26e4ba4ce856bf310c51463bb4e48",
+    "original_lib_hash": "332bb26ec1d219e7fa7e9c0abcc25d95623a9640",
+    "rebuild_lib_hash": "332bb26ec1d219e7fa7e9c0abcc25d95623a9640",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

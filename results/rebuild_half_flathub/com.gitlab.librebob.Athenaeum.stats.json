@@ -1,0 +1,28 @@
+{
+    "name": "com.gitlab.librebob.Athenaeum",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 600.634842634201,
+    "cache_size": 16207674,
+    "git_size": 293030,
+    "dl_size": 15894085,
+    "original_hash": "6f6bbae9daa2ea188a11bcb84651b4c0328ceebd",
+    "rebuild_hash": "0c6865349d6dab63a39198f3b1cd0d684815daf0",
+    "original_bin_hash": "c29f2250ecbed39777ba3884558f919eb7da3ec3",
+    "rebuild_bin_hash": "c29f2250ecbed39777ba3884558f919eb7da3ec3",
+    "original_lib_hash": "dd5831e98cef8adbba32bef32f72da185b7f6774",
+    "rebuild_lib_hash": "fe6cb998e901e5cbb9350a111c2620df4a0f52ff",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "diffoscope_failed": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "com.github.kmwallio.thiefmd",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 235.05331683158875,
+    "cache_size": 89091874,
+    "git_size": 0,
+    "dl_size": 89075411,
+    "original_hash": "6765edc5115b0bc319fdc1a77cebabc5a6a67394",
+    "rebuild_hash": "0e4203108c06b1d27055fb74fdb77f9eba9b0bec",
+    "original_bin_hash": "6720fc94e7da183adb5f6be4eda2c7dc8f4f2868",
+    "rebuild_bin_hash": "6720fc94e7da183adb5f6be4eda2c7dc8f4f2868",
+    "original_lib_hash": "26b8a8b227105dc33621a616f7c661b843bd0a5b",
+    "rebuild_lib_hash": "07fd2d89baa6325f1614319d1f4319a2add9bd99",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

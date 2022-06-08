@@ -1,0 +1,28 @@
+{
+    "name": "org.gnome.gitlab.cheywood.Iotas",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 10.844908952713013,
+    "cache_size": 7250654,
+    "git_size": 3193250,
+    "dl_size": 4036845,
+    "original_hash": "6aa97fcd7acc1d44a8b264c084db944e15cdd665",
+    "rebuild_hash": "9c2f509d9f33cd9eab5d2ac51bdb7192ab97203b",
+    "original_bin_hash": "a573390721ea40451047c1a063a79a91f9198f34",
+    "rebuild_bin_hash": "a573390721ea40451047c1a063a79a91f9198f34",
+    "original_lib_hash": "d7172a7032e9636508f69595e690664dc2679c79",
+    "rebuild_lib_hash": "faef051a69531e9891dda6990a96c4fb29f97faf",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "simple",
+        "meson"
+    ]
+}

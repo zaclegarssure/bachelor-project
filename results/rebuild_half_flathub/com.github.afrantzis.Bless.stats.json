@@ -1,0 +1,20 @@
+{
+    "name": "com.github.afrantzis.Bless",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 196.7692620754242,
+    "cache_size": 22947052,
+    "git_size": 3038279,
+    "dl_size": 19888214,
+    "original_hash": "156f043c7d47b9ebc14ce6ea499052d96f055390",
+    "rebuild_hash": "fa16686ff6fc123cb5167201f5ddcb83af2cb2a1",
+    "original_bin_hash": "d967702114544890bb9041315169bfdf89a4a109",
+    "rebuild_bin_hash": "d967702114544890bb9041315169bfdf89a4a109",
+    "original_lib_hash": "e9af54d6e946935f14fdba606f57e7fd7260e38e",
+    "rebuild_lib_hash": "bb736324f704236dcfdc52c245bbb37a8f91b234",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch"
+}

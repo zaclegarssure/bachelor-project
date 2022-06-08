@@ -1,0 +1,25 @@
+{
+    "name": "chat.tandem.Client",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 43.402740716934204,
+    "cache_size": 1871964,
+    "git_size": 350677,
+    "dl_size": 1500728,
+    "original_hash": "00221335624b3d0ce9360979250fc700b909c532",
+    "rebuild_hash": "00221335624b3d0ce9360979250fc700b909c532",
+    "original_bin_hash": "a01d90abc2ef2a2ed207dc70951160c0bc66ed58",
+    "rebuild_bin_hash": "a01d90abc2ef2a2ed207dc70951160c0bc66ed58",
+    "original_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "rebuild_lib_hash": "fca68dba211732a94546814c97314c74ce742050",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "com.github.philip_scott.notes-up",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 99.2073826789856,
+    "cache_size": 3813662,
+    "git_size": 0,
+    "dl_size": 3797199,
+    "original_hash": "4ae6b876eb1c1f525e040cc18ba39419e1f5ece3",
+    "rebuild_hash": "4ae6b876eb1c1f525e040cc18ba39419e1f5ece3",
+    "original_bin_hash": "25e5a87f610852d9d1274dbdcf2d8819902bf7c6",
+    "rebuild_bin_hash": "25e5a87f610852d9d1274dbdcf2d8819902bf7c6",
+    "original_lib_hash": "4e036786bd179b4e79e86e0c5bfb23c106e94aef",
+    "rebuild_lib_hash": "4e036786bd179b4e79e86e0c5bfb23c106e94aef",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "cmake-ninja"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "com.github.alexkdeveloper.desktop-files-creator",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 4.715633153915405,
+    "cache_size": 143022,
+    "git_size": 126559,
+    "dl_size": 0,
+    "original_hash": "55292c25475e54ac781846f71fce4f326b78643a",
+    "rebuild_hash": "55292c25475e54ac781846f71fce4f326b78643a",
+    "original_bin_hash": "4915f1f1aa4d319975ccf7e32ca0d61ef776dd2e",
+    "rebuild_bin_hash": "4915f1f1aa4d319975ccf7e32ca0d61ef776dd2e",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

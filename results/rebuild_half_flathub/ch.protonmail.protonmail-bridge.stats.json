@@ -1,0 +1,24 @@
+{
+    "name": "ch.protonmail.protonmail-bridge",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 25.18436336517334,
+    "cache_size": 63058635,
+    "git_size": 0,
+    "dl_size": 63042172,
+    "original_hash": "26562ce605c522ec87077e63ad4426bd78eaea50",
+    "rebuild_hash": "26562ce605c522ec87077e63ad4426bd78eaea50",
+    "original_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "rebuild_bin_hash": "10a34637ad661d98ba3344717656fcc76209c2f8",
+    "original_lib_hash": "48d4147d44bfb7fb60f6a6cdce1474e976b39794",
+    "rebuild_lib_hash": "48d4147d44bfb7fb60f6a6cdce1474e976b39794",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "simple"
+    ]
+}

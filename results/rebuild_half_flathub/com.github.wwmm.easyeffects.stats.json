@@ -1,0 +1,23 @@
+{
+    "name": "com.github.wwmm.easyeffects",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 1737.20951795578,
+    "cache_size": 45433959,
+    "git_size": 24460098,
+    "dl_size": 20953302,
+    "original_hash": "0fef7d431386b6088018300fba5429d652e54074",
+    "rebuild_hash": "a6e2a711c3db756bdebd711905f863b442d4919f",
+    "original_bin_hash": "92f083b68ddd8dfcd6b6deda0356ddebc6821d41",
+    "rebuild_bin_hash": "92f083b68ddd8dfcd6b6deda0356ddebc6821d41",
+    "original_lib_hash": "f79595a7d60e80e3c37d2dc641cb608e7396399f",
+    "rebuild_lib_hash": "1dc6f3949c2261467db341f9c882cfb5a5aaf7b3",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "laptop-arch",
+    "build_systems": [
+        "meson"
+    ]
+}

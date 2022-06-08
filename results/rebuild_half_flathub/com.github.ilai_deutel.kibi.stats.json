@@ -1,0 +1,23 @@
+{
+    "name": "com.github.ilai_deutel.kibi",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 6.316606521606445,
+    "cache_size": 8580982,
+    "git_size": 0,
+    "dl_size": 8564519,
+    "original_hash": "40b5f73f53fea20291e98685cac523bdc84c1e32",
+    "rebuild_hash": "abe3dcaca7efcff81ad9258eed067357a5425a28",
+    "original_bin_hash": "c69b6de361dce01f111f8ea7eabac6e52edbc4c1",
+    "rebuild_bin_hash": "c69b6de361dce01f111f8ea7eabac6e52edbc4c1",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "org.gajim.Gajim",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "e4d4f4c4b9829a5514c433ba542d2ab46566aad193642e17594dd1b68668f5d6",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-28 06:05:52+00:00",
+    "timestamp_of_rebuild": 1653717952.0,
+    "git-commit": "f4ee199a2794a153a4f21109792dbe6848e8968d master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "c3ea4e88f8f9d05efb8b085abb2d1f56d8bab435dade310f31edef002612736d",
+        "org.gnome.Platform/x86_64/42": "ad9ceb4f734c754fe1db5ee926eb1482062ef35f0f588cd74f486eceb3f1028a"
+    },
+    "build_time": 221.74433708190918,
+    "cache_size": 71022374,
+    "git_size": 8484512,
+    "dl_size": 62517303,
+    "bad_files": 12,
+    "total_files": 2529,
+    "repro_score": 0.9952550415183867,
+    "original_hash": "0c3c47d1582b91958ca9c006553cd55017667be9",
+    "rebuild_hash": "12de7190a39087c93042f4d6bc4bb2de0c694f65",
+    "original_bin_hash": "56b7f9bc19ecb1f6f9e83d9add3892909928d20d",
+    "rebuild_bin_hash": "748344ca2a8bfac3107812bcf9e7c8a4f19fd915",
+    "original_elf_hash": "07fe9c874d1ea6bb0bd6ed833c7dc385585dcfeb",
+    "rebuild_elf_hash": "07fe9c874d1ea6bb0bd6ed833c7dc385585dcfeb",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

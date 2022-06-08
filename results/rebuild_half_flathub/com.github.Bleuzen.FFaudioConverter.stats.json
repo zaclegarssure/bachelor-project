@@ -1,0 +1,24 @@
+{
+    "name": "com.github.Bleuzen.FFaudioConverter",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 129.927738904953,
+    "cache_size": 9734335,
+    "git_size": 0,
+    "dl_size": 9717872,
+    "original_hash": "da2fe4d60ec6882f2e93c31b1d01e38d01a80b57",
+    "rebuild_hash": "b683f5f9b011ae7bbc8d97552bf4bc753c0a3267",
+    "original_bin_hash": "bbad68dac50b29a3059fe69c162c040ef1ba2928",
+    "rebuild_bin_hash": "982cd297345c12ec489f17bd006303688bd8b153",
+    "original_lib_hash": "69ce4562c85e8359ee451b89a72b558b8272ceee",
+    "rebuild_lib_hash": "69ce4562c85e8359ee451b89a72b558b8272ceee",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "qmake"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "app.riftshare.RiftShare",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 28.50101113319397,
+    "cache_size": 21740440,
+    "git_size": 0,
+    "dl_size": 21723977,
+    "original_hash": "ba4613f556d066d4e4d00a85691abfbfd52be4bc",
+    "rebuild_hash": "ba4613f556d066d4e4d00a85691abfbfd52be4bc",
+    "original_bin_hash": "d63c0f0a2bb479e659a068cbadeba34f64e4b827",
+    "rebuild_bin_hash": "d63c0f0a2bb479e659a068cbadeba34f64e4b827",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "com.rawtherapee.RawTherapee",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "68e06566763df621515a45ec40c106bb4add696ee27daa99873b9fe7f72e616f",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-01 23:48:10+00:00",
+    "timestamp_of_rebuild": 1651448890.0,
+    "git-commit": "447e848211314a9dc91fb360b557ae771033e0e7 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "80d79556975ab0542a3d9b068dd46d6a9cc93055ebbac04d52ff0c904401dab7",
+        "org.gnome.Platform/x86_64/42": "6eeb85b2e6d33adf7b7ecf6db50e26eccd50a890fac1218f3de50830a948aff7"
+    },
+    "build_time": 627.410263299942,
+    "cache_size": 78759733,
+    "git_size": 0,
+    "dl_size": 78743270,
+    "bad_files": 1,
+    "total_files": 747,
+    "repro_score": 0.998661311914324,
+    "original_hash": "bcb98ef4c3b6d920b10092a0b30e778f477e07be",
+    "rebuild_hash": "636a0d216a28cae2e32ba0b77e9ed79e20ad9b4c",
+    "original_bin_hash": "a4f27ecbc33720321a23260ea2f68c05ccf26606",
+    "rebuild_bin_hash": "8c5f10d70fe5f165b7fdf4d61d04050e80994ea1",
+    "original_elf_hash": "d5adbefd2ccd019bd75a1a99b59181d33f1fc04e",
+    "rebuild_elf_hash": "e2559180c0212ce236f02ef5f8e2f934d13a9bdd",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,10 @@
+{
+    "name": "dev.atoft.Reactions",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "33124413a72b5f0ee4270aed16b5a6417fdea2739d7e89221a19f65bf24aaca1",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-08 07:20:27+00:00",
+    "timestamp_of_rebuild": 1636356027.0
+}

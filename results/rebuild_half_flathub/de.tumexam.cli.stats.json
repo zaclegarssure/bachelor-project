@@ -1,0 +1,23 @@
+{
+    "name": "de.tumexam.cli",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 909.2172250747681,
+    "cache_size": 25817031,
+    "git_size": 11587772,
+    "dl_size": 14208700,
+    "original_hash": "ff62526707598254628fe0b01a2573de3abf1db2",
+    "rebuild_hash": "17b4ba4f1ddd3a6efa2610918139ff366d33abde",
+    "original_bin_hash": "c1c818d25313556e034e1e4cc49be85bf186427c",
+    "rebuild_bin_hash": "c1c818d25313556e034e1e4cc49be85bf186427c",
+    "original_lib_hash": "13719a79d95523209eb7ba8f13c94371828b9d81",
+    "rebuild_lib_hash": "13719a79d95523209eb7ba8f13c94371828b9d81",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja"
+    ]
+}

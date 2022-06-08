@@ -1,0 +1,23 @@
+{
+    "name": "com.github.qarmin.czkawka",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 148.81443977355957,
+    "cache_size": 54777993,
+    "git_size": 465534,
+    "dl_size": 54259132,
+    "original_hash": "127a7ae812b20f59bb673329ddc48431eb90588d",
+    "rebuild_hash": "2716856ce9d5488bdafdb90f3dc0ece05e52e33f",
+    "original_bin_hash": "1686c4f4e200ea96419385bc02c27776ca2278ae",
+    "rebuild_bin_hash": "032a4d97881f6de3fc33befc71a09085b29f0838",
+    "original_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "rebuild_lib_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

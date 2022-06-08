@@ -1,0 +1,24 @@
+{
+    "name": "org.gnome.Tali",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 13.854677200317383,
+    "cache_size": 1754951,
+    "git_size": 0,
+    "dl_size": 1738488,
+    "original_hash": "ba6513dff21962aae78b75dc4613718410c06b53",
+    "rebuild_hash": "ba6513dff21962aae78b75dc4613718410c06b53",
+    "original_bin_hash": "a28d98efa6b39ebf694c558594ec28ae4a2928eb",
+    "rebuild_bin_hash": "a28d98efa6b39ebf694c558594ec28ae4a2928eb",
+    "original_lib_hash": "e64b28a46821d3527367e9de7c5bcb6addf7cb21",
+    "rebuild_lib_hash": "e64b28a46821d3527367e9de7c5bcb6addf7cb21",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "org.gnome.HexGL",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 65.79624199867249,
+    "cache_size": 36052567,
+    "git_size": 35708952,
+    "dl_size": 323056,
+    "original_hash": "42b3ecb4c33b3b70d9aed5b5cac0498a0799c301",
+    "rebuild_hash": "8cc23d431907a83c5b4824a6807102c821eabf42",
+    "original_bin_hash": "32c819336abb2efcc914f95b4a42983bac098af1",
+    "rebuild_bin_hash": "32c819336abb2efcc914f95b4a42983bac098af1",
+    "original_lib_hash": "409c67894fbbc35c66c2484d7b26d1ee67eb4737",
+    "rebuild_lib_hash": "409c67894fbbc35c66c2484d7b26d1ee67eb4737",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

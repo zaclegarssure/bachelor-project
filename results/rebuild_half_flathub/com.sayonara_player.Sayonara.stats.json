@@ -1,0 +1,26 @@
+{
+    "name": "com.sayonara_player.Sayonara",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 402.7636766433716,
+    "cache_size": 50860898,
+    "git_size": 49574623,
+    "dl_size": 1265716,
+    "original_hash": "4cddeb497c8fe3ff33ac07ba01174c0eb8d3de1b",
+    "rebuild_hash": "6f8dfeb0ffe5e4b02f3115a3ceba4ef3083a2bba",
+    "original_bin_hash": "518105c31ef589c5776af3b83dbba9cf5956838c",
+    "rebuild_bin_hash": "1fca170bc96112b3a269f15bb3c91ff6b4ff6dcc",
+    "original_lib_hash": "cbdda922e66eb4ffa12b05f1e66cb841cdf4ff31",
+    "rebuild_lib_hash": "cbdda922e66eb4ffa12b05f1e66cb841cdf4ff31",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "autotools",
+        "meson",
+        "cmake-ninja",
+        "cmake-ninja"
+    ]
+}

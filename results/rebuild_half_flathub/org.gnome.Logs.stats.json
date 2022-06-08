@@ -1,0 +1,25 @@
+{
+    "name": "org.gnome.Logs",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 104.38384366035461,
+    "cache_size": 12593275,
+    "git_size": 11033220,
+    "dl_size": 1539496,
+    "original_hash": "9e9154706b1e025f0c115958a102ed1c074b3eb7",
+    "rebuild_hash": "9e9154706b1e025f0c115958a102ed1c074b3eb7",
+    "original_bin_hash": "a97b2601a7643b8e70e94765c309802ceac61e64",
+    "rebuild_bin_hash": "a97b2601a7643b8e70e94765c309802ceac61e64",
+    "original_lib_hash": "8cce90e92ebf68a65d1c735ab9baeddc02e9eb61",
+    "rebuild_lib_hash": "8cce90e92ebf68a65d1c735ab9baeddc02e9eb61",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "meson",
+        "meson"
+    ]
+}

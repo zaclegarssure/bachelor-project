@@ -1,0 +1,25 @@
+{
+    "name": "com.codemouse92.timecard",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 931.6261646747589,
+    "cache_size": 5993129,
+    "git_size": 358100,
+    "dl_size": 5614470,
+    "original_hash": "01532c7d497e25d750f61d525ef56e0b24cb0cd6",
+    "rebuild_hash": "f1339229d063b6edaf6c8f45fe28add2ecde736c",
+    "original_bin_hash": "991199faf0184cc94ee4289e020b6409ad094d94",
+    "rebuild_bin_hash": "991199faf0184cc94ee4289e020b6409ad094d94",
+    "original_lib_hash": "14d99758763423432b27428ee89639e2d0055487",
+    "rebuild_lib_hash": "0ead2aa162aa7d00376288ac8761a39c43ac2655",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple",
+        "simple"
+    ]
+}

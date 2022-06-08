@@ -1,0 +1,23 @@
+{
+    "name": "chat.quadrix.Quadrix",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 22.841979503631592,
+    "cache_size": 59944595,
+    "git_size": 0,
+    "dl_size": 59928132,
+    "original_hash": "c4a345de34b4de3ad8327fc4e1f6cdf85e69c326",
+    "rebuild_hash": "c4a345de34b4de3ad8327fc4e1f6cdf85e69c326",
+    "original_bin_hash": "473fdf9408ea979355c273036c4e698b0a23bcb3",
+    "rebuild_bin_hash": "473fdf9408ea979355c273036c4e698b0a23bcb3",
+    "original_lib_hash": "1c314fee439c156d279c166afc457198e8d54445",
+    "rebuild_lib_hash": "1c314fee439c156d279c166afc457198e8d54445",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple"
+    ]
+}

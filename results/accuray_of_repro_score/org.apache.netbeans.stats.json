@@ -1,0 +1,31 @@
+{
+    "name": "org.apache.netbeans",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "aa6ac97bc44b31b09a5e3c163c3df98cbd9524ee199b015c30f2058efd8bbeb3",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-04 18:52:07+00:00",
+    "timestamp_of_rebuild": 1646419927.0,
+    "git-commit": "66a29d9780bfea572e458acc1ea7295dc97241ab master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk11/x86_64/21.08": "644d6a2463500e543f5ff2408f6ca4f11d533484c4709b022fbe2c3e9197328d",
+        "org.flatpak.Builder/x86_64/stable": "b1b82d5d293905b0824853a4546bdf3813a97e4f019c008483364b1817ddc41b",
+        "org.freedesktop.Sdk/x86_64/21.08": "f31334d7fc5ff5ec93766189a7e47bfb3369a9a7154767adb46c4495530c1d1c"
+    },
+    "build_time": 142.3652060031891,
+    "cache_size": 448530787,
+    "git_size": 980009,
+    "dl_size": 447530219,
+    "bad_files": 0,
+    "total_files": 4415,
+    "repro_score": 1.0,
+    "original_hash": "8ed41d211e8a9a32c2a119d8d85802722102c8be",
+    "rebuild_hash": "8ed41d211e8a9a32c2a119d8d85802722102c8be",
+    "original_bin_hash": "b9ea4d1569e7d32644194fb9b1623511962e2669",
+    "rebuild_bin_hash": "b9ea4d1569e7d32644194fb9b1623511962e2669",
+    "original_elf_hash": "faf621e30a2b3ffa2385a87bb326e5be8caf2189",
+    "rebuild_elf_hash": "faf621e30a2b3ffa2385a87bb326e5be8caf2189",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

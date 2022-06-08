@@ -1,0 +1,20 @@
+{
+    "name": "org.gnome.ColorViewer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 51.998926639556885,
+    "cache_size": 4319427,
+    "git_size": 1548276,
+    "dl_size": 2750592,
+    "original_hash": "c1d52c54796a629f19dd79ffd805724e28cf5fb7",
+    "rebuild_hash": "1da29f95e8f6c63b1a828aa164244d4bf06ecae4",
+    "original_bin_hash": "9edb37992b93be8cd1ef2c4f597d735cabaf46c6",
+    "rebuild_bin_hash": "9edb37992b93be8cd1ef2c4f597d735cabaf46c6",
+    "original_lib_hash": "ec5aa1346e9563b5a7280275b0d10303df77a08f",
+    "rebuild_lib_hash": "ec5aa1346e9563b5a7280275b0d10303df77a08f",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

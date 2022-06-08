@@ -1,0 +1,24 @@
+{
+    "name": "com.sublimemerge.App",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 73.06365060806274,
+    "cache_size": 18683700,
+    "git_size": 0,
+    "dl_size": 18667237,
+    "original_hash": "3ee4856d0571ad8e882a542918a94ab70293b30e",
+    "rebuild_hash": "3ee4856d0571ad8e882a542918a94ab70293b30e",
+    "original_bin_hash": "6f5cdbefc6b68088c9fb7b83e3097e7f81224ec1",
+    "rebuild_bin_hash": "6f5cdbefc6b68088c9fb7b83e3097e7f81224ec1",
+    "original_lib_hash": null,
+    "rebuild_lib_hash": null,
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "simple",
+        "simple"
+    ]
+}

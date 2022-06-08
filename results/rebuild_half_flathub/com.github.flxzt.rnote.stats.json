@@ -1,0 +1,25 @@
+{
+    "name": "com.github.flxzt.rnote",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "build_time": 239.41477727890015,
+    "cache_size": 68332485,
+    "git_size": 0,
+    "dl_size": 68316022,
+    "original_hash": "f11a25b22f0d4d98fb919c69df5a07309d6aaf4d",
+    "rebuild_hash": "f11a25b22f0d4d98fb919c69df5a07309d6aaf4d",
+    "original_bin_hash": "4ff692804a6ce81c49630ad89ae76c7d124b9807",
+    "rebuild_bin_hash": "4ff692804a6ce81c49630ad89ae76c7d124b9807",
+    "original_lib_hash": "9a46337fe37d5ed75cc940078084d3a099680496",
+    "rebuild_lib_hash": "9a46337fe37d5ed75cc940078084d3a099680496",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "cmake-ninja",
+        "cmake-ninja",
+        "meson"
+    ]
+}

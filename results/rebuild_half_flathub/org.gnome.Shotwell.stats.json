@@ -1,0 +1,26 @@
+{
+    "name": "org.gnome.Shotwell",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 202.1539330482483,
+    "cache_size": 47465782,
+    "git_size": 38143651,
+    "dl_size": 9301572,
+    "original_hash": "1e0811c3e5a983dcd63ccd273abc8f5c4933136e",
+    "rebuild_hash": "68c8ff3e178ec34e8c71c33f0995ede4c94bdd46",
+    "original_bin_hash": "e565c97f5f3b112f7ba048be2521c55b303013ad",
+    "rebuild_bin_hash": "e565c97f5f3b112f7ba048be2521c55b303013ad",
+    "original_lib_hash": "25c5c64f47d01aa8145666bd80f1ca20a5f40af1",
+    "rebuild_lib_hash": "e5f22e8f80b355b774c3b656d3f9b237c4c001f0",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-arch",
+    "build_systems": [
+        "meson",
+        "cmake-ninja",
+        "meson",
+        "meson"
+    ]
+}

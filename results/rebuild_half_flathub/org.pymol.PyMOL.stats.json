@@ -1,0 +1,20 @@
+{
+    "name": "org.pymol.PyMOL",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 907.0624370574951,
+    "cache_size": 61114415,
+    "git_size": 4398714,
+    "dl_size": 56714452,
+    "original_hash": "48b6a351911b0aa2be29a8b30be0153786ac6e4d",
+    "rebuild_hash": "18abd2ce95c7ac1a5bc56b98f8de96920377dd04",
+    "original_bin_hash": "f7ded1df1817a04887ee410a7bdd6464cc00b80f",
+    "rebuild_bin_hash": "15a156f005231f29270d6ce70e835f4eb8d231fb",
+    "original_lib_hash": "c550775d47c5cdc11494a58bbf04a4b3b703224e",
+    "rebuild_lib_hash": "d621cb2fd7e1655b4beb676906cde051ffe44f00",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": false,
+    "machine": "desktop-fedora"
+}

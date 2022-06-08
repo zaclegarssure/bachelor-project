@@ -1,0 +1,16 @@
+{
+    "name": "com.sweethome3d.Sweethome3d",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "305c69202a015677fdfd317bd6978ac3fc2c4d81e225bfaea16f9e886f2864c9",
+    "branch": "stable",
+    "time_of_rebuild": "2021-07-28 08:41:51+00:00",
+    "timestamp_of_rebuild": 1627461711.0,
+    "git-commit": "0984daa8546089756649cd99290deb90ee082eac master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "afec7d8ab9389acb67310da64b13cdd32fe52dbbce2f0d909ee3fee86daaff0f",
+        "org.freedesktop.Sdk/x86_64/20.08": "aa987b7abf13970a660324557bcf158f6924f9049c8b0a8b6c40c0db212f86b5",
+        "org.freedesktop.Platform/x86_64/20.08": "63c4b310325615c74b8b5b2576733e3e7b751026cb5bf458c98ffacd7bfc6235"
+    }
+}

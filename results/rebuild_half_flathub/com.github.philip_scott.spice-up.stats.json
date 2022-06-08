@@ -1,0 +1,20 @@
+{
+    "name": "com.github.philip_scott.spice-up",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "build_time": 37.23181438446045,
+    "cache_size": 2919284,
+    "git_size": 0,
+    "dl_size": 2902821,
+    "original_hash": "103d61ad35411ad039b98b02c09d39c540e39fb8",
+    "rebuild_hash": "0ddb24c70c2eef1122b69c6a495317de66713279",
+    "original_bin_hash": "4b9a354d446add7d26674922b51c7106fb6bed09",
+    "rebuild_bin_hash": "4b9a354d446add7d26674922b51c7106fb6bed09",
+    "original_lib_hash": "b2406129ec36d5b0d7799f2041fbb34ec9e1421c",
+    "rebuild_lib_hash": "b2406129ec36d5b0d7799f2041fbb34ec9e1421c",
+    "original_lib32_hash": null,
+    "rebuild_lib32_hash": null,
+    "is_bin_reproducible": true,
+    "machine": "desktop-arch"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "io.github.qnapi",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "eddd3f8b7adc5284778297bc05ab1a1a12157f32841fc69c65d762e68dee6d93",
+    "branch": "stable",
+    "time_of_rebuild": "2020-05-18 06:06:26+00:00",
+    "timestamp_of_rebuild": 1589781986.0,
+    "git-commit": "b3c10ce01cdf163f29d36a1a1bb096ed00670186 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "e8cf2f0b347925e0d64df72d4b59c717aaddac9b167b9e1b60c3759024bf8bec",
+        "org.kde.Sdk/x86_64/5.14": "df2303f5dbfd3cbdcd1d81fa20ab9b843ec9d38bfadadac0522e75c77c4c3566",
+        "org.kde.Platform/x86_64/5.14": "710b312bd61bc199b086b0a82ea483b39f4aeeec4920bc1d8b655efa3f81c752"
+    }
+}
