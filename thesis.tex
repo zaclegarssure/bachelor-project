@@ -55,11 +55,11 @@ artifact with the original one. If they are bit by bit identical, then we
 prove that the path between the source code and the final artifact is
 legitimate. Here we look at the possibility of using reproducible builds
 with \fp, a packaging technology used to ship the same binaries on multiple
-Linux distributions. In particular, we focus on \fh, its main repository. We
-present a tool, called \sysname, which rebuild a package available on \fh,
-by recreating a minimal environment. We then measure the amount of
-reproducible packages, and further analyze their differences to understand
-the reasons of non-reproducibility and fix them.
+Linux distributions. In particular, we focus on \fh, its main repository.
+We present a tool, called \sysname, which rebuild a package available on
+\fh, by recreating a minimal environment. We then measure the amount of
+non-reproducible packages, and further analyze their differences to
+understand the reasons they are not reproducible.
 \end{abstract}
 
 \maketoc
@@ -113,10 +113,10 @@ then build it on some infrastructure, with certain dependencies and a specific
 tool chain. They sign and send the resulting artifact to the end-user. This
 process, as shown before, cannot be trusted. On the other hand upstream code
 can be audited and verified manually. Now, the maintainers, alongside the
-build, can record and publish the necessary information to re perform the build
+build, can record and publish the necessary information to redo the build
 with the same conditions. This information will include, among others, the
-exact dependencies and which version of the tool chain were used. From this
-information, a set of trusted rebuilder will re perform the build and publish
+exact dependencies and which version of the tool chain were used. From these, a
+set of trusted rebuilder will redo the build and publish
 the checksum of the artifact they obtain. When the end-user download a program
 from the distribution's repositories, they can compare the checksum they have
 with the one given by the rebuilders and can then decide to trust or not what
@@ -130,7 +130,7 @@ propagate to the build artifact, without the cost of auditing binaries. An
 attacker would have to take over not only the supply chain, but also a certain
 amount of these independent rebuilder (depending on how we compare the
 checksums), reducing the feasibility of such attacks. Integrity also proves us
-that no bugs or errors occurred during the build. The feasibility of using \rb
+that no bugs or errors occurred during the build. The practicality of using \rb
 to provide integrity for a software supply chain has already been shown, for
 instance on Debian, where $82.5\%$ of packages on the unstable branch are
 reported as reproducible as of \today~\cite{debian:repro}.
@@ -142,7 +142,7 @@ reported as reproducible as of \today~\cite{debian:repro}.
     \caption{A reproducible builds setup. Here the end user can compare the
     checksum of the package they download, with a set of independent
     rebuilders. Since in majority the checksums do not match, they reject the
-    package. Adapted from \cite{DBLP:journals/corr/abs-2104-06020}}
+    package. Adapted from \cite{DBLP:journals/corr/abs-2104-06020}}.
     \label{fig:reprobuild}
 \end{figure}
 
@@ -152,24 +152,24 @@ distribute and deploy applications compatible on most Linux distributions. It
 works by running them inside a container (which is referred to as a sandbox)
 where they have the minimum permissions and are as much isolated as possible
 from the host system. Since the build can also be performed inside the sandbox,
-it is an ideal environment to use \rb. However, there are no tools to re
-perform the build of a \fp from \fh, and therefore there are no statistics on
-how many flatpaks are reproducible. In this project, we create a tool called
-\emph{\sysname}, to allow individual to re perform a build of a \fp from \fh,
-and attest if it produces the same artifact or not. Using \sysname we then
-measure the amount of reproducible programs on \fh, and provide improvement to
-the \fh build infrastructure, in order to increase this number. Since \fp works
-across Linux distributions, we also need to develop a tool which is as
-portable, this limits the use of strong container technologies, such as Docker,
-or tools such as \verb|faketime| to better simulate the build environment.
-After rebuilding 729 programs, which is about half of \fh, we have $41\%$
+it is an ideal environment to use \rb. However, there are no tools to redo the
+build of a \fp from \fh, and therefore there are no statistics on how many
+flatpaks are reproducible. In this project, we create a tool called
+\emph{\sysname}, to allow individual to redo a build of a \fp from \fh, and
+attest if it produces the same artifact or not. Using \sysname we then measure
+the amount of reproducible programs on \fh, and provide improvement to the \fh
+build infrastructure, in order to increase this number. Since \fp works across
+Linux distributions, \sysname needs to be as portable. This limits the use of
+strong container technologies, such as Docker, or tools such as \verb|faketime|
+to better simulate the build environment.
+After rebuilding 729 programs, which is about half of \fh, we have 41\%
 reproducible programs, which is much lower than what is found on Debian. This
 is mainly due to the lack of certain information, such as the time at which the
-build originally took place, and we provide several improvements to \emph{\fb},
-the main tool used to build \fp on \fh, which is also the one capable of
-recording some missing build information. We also introduce new notions to
-characterize how reproducible a program is, to be able to still build trust in
-programs which are only partially reproducible.
+build originally took place. Consequently we propose several improvements to
+\emph{\fb}, the main tool used to build \fp on \fh, which is also the one
+capable of recording some missing build information. We also introduce new
+notions to characterize how reproducible a program is, such that we can still
+build trust in programs which are only partially reproducible.
 
 The structure of the report is the following, \autoref{chap:bg} explains all
 the concept used in the next chapters. In \autoref{chap:design} and
@@ -189,10 +189,10 @@ especially the most common reasons a program may not be reproducible. From
 \autoref{def:reprobuild}, we conclude that a build is not reproducible when
 after performing the exact same build steps, with the same build dependencies,
 we reach another result. One reason it could happen is when a program depends
-on more than just its dependencies. Typical examples are build process affected
-by the time or the path in which the build took place. This is what C. Lamb
-refer to as \emph{uncontrolled build input}, because the build is affected by
-additional inputs which are not under our control. In practice some of these
+on more than just its build dependencies. Typical examples are build process
+affected by the time or the path in which the build took place. This is what C.
+Lamb refer to as \emph{uncontrolled build input}, because the build is affected
+by additional inputs which are not under our control. In practice some of these
 issues (such as time) can be solved if we include these as extra dependencies
 to the original definition of \rb. It can be tempting to put the whole
 environment as a dependency (kernel version, CPU model, etc.) but doing so will
@@ -506,11 +506,11 @@ could reach 61\% reproducibility by better mimicking the original build
 environment.
 
 \section{Causes}
-To better explain why these programs are not reproducible, and also why some of
-them should be in theory, we manually analyse each result and label the most
-common pattern we see. To save time again, we only consider the 185 ones that
-were rebuilt in \autoref{sec:theo-repro}. To perform the analysis we
-look at the difference between the two artifacts using \dfc.
+To explain why these programs are not reproducible, and also why some of them
+should be, we manually analyse each result and label the most common pattern we
+see. To save time again, we only consider the 185 ones that were rebuilt in
+\autoref{sec:theo-repro}. To perform the analysis we look at the difference
+between the two artifacts using \dfc.
 
 \subsection*{Timestamps}
 18 of the 185 programs have timestamps embedded in their static strings, or in
