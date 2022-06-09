@@ -38,6 +38,7 @@
 \newcommand{\ldlp}{LD\_LIBRARY\_PATH\xspace}
 \newcommand{\fhbb}{flathub buildbot\xspace}
 \newcommand{\dfc}{diffoscope\xspace}
+\newcommand{\ot}{OSTree\xspace}
 
 
 \begin{document}
@@ -71,25 +72,25 @@ the reasons of non-reproducibility and fix them.
 In theory, with free and open source software (FOSS) we can audit the code and
 compile only software we trust. In reality most software are shipped as
 pre-built binaries to end-users, through a software supply chain. In this
-context how can we be sure that the result of such a supply chain is produced
-from the original source code ? Indeed, the machine on which the software was
-compiled might be compromised, a bug may occur during the process, or some
-maintainer may manually add a malicious patch to the final
-product. There are all sorts of reasons to not trust what is shipped to the
-end-users. Supply chain attacks can be conducted on both open source and closed
-source software, and typically consist in injecting malicious code into an
-existing product. Examples include the SolarWinds exploit from 2020, where
-attackers had compromised the update publishing infrastructure of Orion, one of
-SolarWinds software, and were shipping a modified version with a malware
-injected~\cite{enwiki:solarwinds}. In the FOSS world, many attacks targeting
-package manager such as npm or RubyGem occurred and are already studied in the
+context how can we be sure that the resulting artifact is produced from the
+original source code ? Indeed, the machine on which the software was compiled
+might be compromised, a bug may occur during the process, or some maintainer
+may manually add a malicious patch to the final product. There are all sorts of
+reasons to not trust what is shipped to the end-users. Supply chain attacks can
+be conducted on both open source and closed source software, and typically
+consist in injecting malicious code into an existing product. Examples include
+the SolarWinds exploit from 2020, where attackers had compromised the update
+publishing infrastructure of Orion, one of SolarWinds software, and were
+shipping a modified version with a malware injected~\cite{enwiki:solarwinds}.
+In the FOSS world, many attacks targeting package manager such as npm or
+RubyGem occurred and are already studied in the
 literature~\cite{10.1007/978-3-030-52683-2_2}.
 Techniques exist to counter such attacks, and the one we use in this project is
-called \emph{\rb}~(R-B). It is a set of practices to make sure we can, independently of
-the supply chain, obtain the same package, bit by bit, starting from the source
-code, by reproducing the exact same build steps. The exact definition for a
-build process to be reproducible, as stated by Chris Lamb and Stefano Zacchiroli, is
-as follows:
+called \emph{\rb}~(R-B). It is a set of practices to make sure we can,
+independently of the supply chain, obtain the same package, bit by bit,
+starting from the source code, by reproducing the exact same build steps. The
+exact definition for a build process to be reproducible, as stated by Chris
+Lamb and Stefano Zacchiroli, is as follows:
 
 \begin{definition}[reproducible build]
 \label{def:reprobuild}
@@ -103,25 +104,26 @@ in which the build is performed.}''~\cite{DBLP:journals/corr/abs-2104-06020}
 
 If a piece of software is reproducible we can therefore attest its integrity,
 by reproducing it on our side and comparing it with the one resulting from an
-untrusted build process. We can use it in practice with a Linux distribution,
-for example. Here users download, through a package manager, programs which are
-built by the distribution vendor. A hypothetical \rb setup, like in
+untrusted build process. For example, we can use it with a Linux distribution.
+Here users download, through a package manager, programs which are built by the
+distribution vendor. A hypothetical \rb setup, like in
 \autoref{fig:reprobuild}, would go as follows: The source code is produced
 upstream and is published on platform such as GitHub or GitLab. Maintainers
-will then build it on some infrastructure, with certain dependencies and a
-specific tool chain. They will sign and send the resulting artifact to the
-end-user. This process, as shown before, cannot be trusted. On the other hand
-upstream code can be audited and verified manually. Now, the maintainers,
-alongside the build, can record and publish the necessary information to re
-perform the build with the same conditions. Those information will include the
-exact dependencies and which version of the tool chain, among others. From these information, a set of trusted
-rebuilder will re perform the build and publish the checksum of the artifact
-they obtain. When the end-user download the binary from the distribution's
-repositories, they can compare the checksum they have with the one given by the
-rebuilders and can then decide to trust or not what they just downloaded. The
-exact process of deciding if the artifact is legitimate by comparing the
-checksums can be automated, and computed differently depending on the number of
-independent rebuilder and how much we trust them.
+then build it on some infrastructure, with certain dependencies and a specific
+tool chain. They sign and send the resulting artifact to the end-user. This
+process, as shown before, cannot be trusted. On the other hand upstream code
+can be audited and verified manually. Now, the maintainers, alongside the
+build, can record and publish the necessary information to re perform the build
+with the same conditions. Those information will include, among others, the
+exact dependencies and which version of the tool chain were used. From these
+information, a set of trusted rebuilder will re perform the build and publish
+the checksum of the artifact they obtain. When the end-user download a program
+from the distribution's repositories, they can compare the checksum they have
+with the one given by the rebuilders and can then decide to trust or not what
+they just downloaded. The exact process of deciding if the artifact is
+legitimate by comparing the checksums can be automated, and computed
+differently depending on the number of independent rebuilder and how much we
+trust them.
 Using \rb we can prove that the path between upstream and downstream is
 legitimate. Since we can audit and trust the source code, this trust can
 propagate to the build artifact, without the cost of auditing binaries. An
@@ -132,10 +134,6 @@ that no bugs or errors occurred during the build. The feasibility of using \rb
 to provide integrity for a software supply chain has already been shown, for
 instance on Debian, where $82.5\%$ of packages on the unstable branch are
 reported as reproducible as of \today~\cite{debian:repro}.
-This technique obviously only apply to software where the source code is
-accessible, like with FOSS. We also need to audit and trust it. In practice
-this needs to be combined with good code auditing, and good practices in
-securing the source code.
 
 \begin{figure}[h]
     \center{
@@ -151,12 +149,12 @@ securing the source code.
 One software distribution system that can benefit from \rb is \emph{\fp}, and
 more precisely its main repository called \emph{\fh}. \Fp is way to build,
 distribute and deploy applications compatible on most Linux distributions. It
-works by running applications inside a container (which is referred to as a
-sandbox) where they have the minimum permissions and are as much isolated as
-possible from the host system. Since the build can also be performed inside the
-sandbox, it is an ideal environment to use \rb. However, there are no tools to
-re perform the build of a \fp from \fh, and therefore there are no statistics
-on how many flatpaks are reproducible. In this project, we create a tool called
+works by running them inside a container (which is referred to as a sandbox)
+where they have the minimum permissions and are as much isolated as possible
+from the host system. Since the build can also be performed inside the sandbox,
+it is an ideal environment to use \rb. However, there are no tools to re
+perform the build of a \fp from \fh, and therefore there are no statistics on
+how many flatpaks are reproducible. In this project, we create a tool called
 \emph{\sysname}, to allow individual to re perform a build of a \fp from \fh,
 and attest if it produces the same artifact or not. Using \sysname we then
 measure the amount of reproducible programs on \fh, and provide improvement to
@@ -166,12 +164,12 @@ portable, this limits the use of strong container technologies, such as Docker,
 or tools such as \verb|faketime| to better simulate the build environment.
 After rebuilding 729 programs, which is about half of \fh, we have $41\%$
 reproducible programs, which is much lower than what is found on Debian. This
-is mainly due to the lack of certain information, such as the time at which
-the build originally took place, and we provide several improvement to
-\emph{\fb}, the main tool used to build \fp on \fh, which is also the one
-capable of recording some missing build information. We also introduce
-new notions to characterize how reproducible a program is, to be able to still
-build trust in programs which are only partially reproducible.
+is mainly due to the lack of certain information, such as the time at which the
+build originally took place, and we provide several improvement to \emph{\fb},
+the main tool used to build \fp on \fh, which is also the one capable of
+recording some missing build information. We also introduce new notions to
+characterize how reproducible a program is, to be able to still build trust in
+programs which are only partially reproducible.
 
 The structure of the report is the following, \autoref{chap:bg} explains all
 the concept used in the next chapters. \autoref{chap:design} and
@@ -179,7 +177,7 @@ the concept used in the next chapters. \autoref{chap:design} and
 \autoref{chap:eval} we measure the reproducibility of \fh and provide a manual
 analysis of the main causes of non-reproducibility. Finally, in
 \autoref{chap:relw} we discuss and compare our approach to other similar tools,
-and also compare \rb as a whole to other technique to secure the supply chain.
+and also compare \rb as a whole to other techniques to secure the supply chain.
 
 %%%%%%%%%%%%%%%%%%%%
 \chapter{Background}
@@ -190,19 +188,18 @@ To better understand this project, we should introduce a bit more \rb,
 especially the most common reasons a program may not be reproducible. From
 \autoref{def:reprobuild}, we conclude that a build is not reproducible when
 after performing the exact same build steps, with the same build dependencies,
-we reach another result. One reason it could happen is when a program
-depends on more than just its dependencies. Typical examples are build process
-affected by the time or the path in which the build took place. This is what C.
-Lamb refer to as \emph{uncontrolled build input}, because the build is
-affected by additional inputs which are not under our control.
-In practice some of these issues (such as time) can be solved if we
-include these as extra dependencies to the original definition. It can be tempting
-to put the whole environment as a dependency (kernel version, CPU model, etc.) but
-doing so will make the rebuilding step much harder and will slow down build time,
-which would not make \rb a practical solution.
-To mitigate the effects of \emph{uncontrolled build input}, we rely on another
-definition of reproducible:
-\begin{definition}[relaxed reproducible build]
+we reach another result. One reason it could happen is when a program depends
+on more than just its dependencies. Typical examples are build process affected
+by the time or the path in which the build took place. This is what C. Lamb
+refer to as \emph{uncontrolled build input}, because the build is affected by
+additional inputs which are not under our control. In practice some of these
+issues (such as time) can be solved if we include these as extra dependencies
+to the original definition of \rb. It can be tempting to put the whole
+environment as a dependency (kernel version, CPU model, etc.) but doing so will
+make the rebuilding step much harder and will slow down build time, which would
+not make \rb a practical solution. To mitigate the effects of
+\emph{uncontrolled build input}, we rely on another definition of reproducible:
+\begin{definition}[reproducible build]
 \label{def:reprobuild2}
 ``\emph{A build is reproducible if given the same source code, build
     environment and build instructions, any party can recreate bit-by-bit
@@ -212,26 +209,27 @@ The relevant attributes of the build environment, the build instructions and
     by the authors or distributors. The artifacts of a build are the parts of
     the build results that are the desired primary output.}''~\cite{reprobuilds:def}
 \end{definition}
-This definition come from the \emph{Reproducible Builds project}~(R-B
-project), an organization which promotes \rb. A good example of "relevant
-attributes of the build environment", are the \verb|.buildinfo| files on
+This definition come from the \emph{Reproducible Builds project}~(R-B project),
+an organization which promotes \rb. A good example of "relevant attributes of
+the build environment", are the \verb|.buildinfo| files on
 Debian~\cite{debian:buildinfo}. Those are files associated to a package,
 describing the environment in which the build took place. Not everything in a
 \verb|.buildinfo| is necessary to perform a rebuild (for instance the kernel
 versions), but certain information, such as the time or the active environment
-variables are all fairly easy to manipulate and can be considered as valid
-additional input for the build process. In particular, time can be controlled
-by overriding the \sde environment variable. It is defined as part of the R-B
+variables are easy to manipulate and can be considered as valid additional
+input for the build process. In particular, time can be controlled by
+overriding the \sde environment variable. It is defined as part of the R-B
 project, and can be consumed by build systems to make sure the resulting build
-looks like it was done entirely at the time specified by the variable~\cite{rb:sde}.
+looks like it was done entirely at the time specified by the
+variable~\cite{rb:sde}.
 Other than uncontrolled build inputs, there is another class of problems
 affecting the reproducibility of a program, which is \emph{build
-non-determinism}. It occurs when some parts of the build are random. One example
-is the serialization of frozenset items in Python, which does not happen in a
-deterministic order~\cite{gh:pyc-frozenset}. Other non-determinism issue can be
-for instance related to the parallelism of the build process, which may lead to
-ordering issues. Even though works still need to be done in order to have
-deterministic builds for certain build systems, such as with
+non-determinism}. It occurs when some parts of the build are random. One
+example is the serialization of frozenset items in Python, which does not
+happen in a deterministic order~\cite{gh:pyc-frozenset}. Other non-determinism
+issue can be for instance related to the parallelism of the build process,
+which may lead to ordering issues. Even though works still need to be done in
+order to have deterministic builds for certain build systems, such as with
 Java~\cite{xiong2022towards}, most common build system can behave
 deterministically.
 
@@ -239,17 +237,17 @@ deterministically.
 The other main concept to introduce is \fp and \fh, more specifically how a
 \fp is built and shipped on \fh. As stated before, flatpaks are deployed and built
 inside a sandbox, a container mostly isolated from the host system. Extra
-permissions, such as access to certain directories or certain DBus namespaces
+permissions, such as access to certain directories, access to the network and so on, 
 are managed in the metadata of a \fp. There are no general build process for a
 \fp. As long as the build directory respect certain conventions, and the
 necessary metadata are accessible at the root, it is a valid \fp. The way
-\fp are shipped and deployed is through ostree. It is a library, working
+\fp are shipped and deployed is through \ot. It is a library, working
 similarly as git, but optimized to handle binary objects. Furthermore, it is
-specialized to handle entire file system trees. \fp uses it in the following
-way, the build directory of a program is committed through ostree and can be
-push to a remote and pulled by end-users. Ostree is used to deploy a read-only,
+specialized to handle entire file system trees. \Fp uses it in the following
+way, the build directory of a program is committed through \ot and can be
+push to a remote and pulled by end-users. \ot is used to deploy a read-only,
 using hard links, version of the \fp, which is mounted inside the sandbox (at
-/app). Since \fp are isolated from the host, they cannot access its libraries,
+/app). Since flatpaks are isolated from the host, they cannot access its libraries,
 such as libc. Instead, those are bundled with the \fp and therefore also mounted
 in the sandbox. While this works and ensure a program built against one library
 will not suddenly run against a newer version, this has multiple issues. First
@@ -268,19 +266,22 @@ certain type of applications, such as those based on Electron. Finally, a last
 type of dependencies are extensions, for SDK or base-app, which are just
 additional libraries or programs that can be optionally mounted. An example is
 the Rust tool chain, which is available as an SDK-extension, such that only rust
-programs needs to include it at build time. The build process is not
+programs needs to include it at build time. 
+The build process is not
 standardized, a \fp can be built using any build system available. However, a
 helper tool called \fb exists and is used to build \fp on \fh. It works by
 parsing a description of the build, called a manifest file, and produces the
 resulting \fp. The manifest is separated in modules, where each describes how
-to build one dependency or the final program. Each module also specifies how
-to fetch the necessary build dependencies. The manifest also includes which
-runtime and SDK need to be used and which permissions need to be applied to
-the resulting \fp. The main remote of \fp is \fh. Each application on \fh has a
-GitHub repository under the \fh organization. These repositories contain at
-least a manifest file. The \fhbb is a bot which after any commit to the master
-branch of an application will fetch and build the manifest file. The resulting
-artifact is committed using Ostree and pushed to the \fh remote.
+to build one dependency or the final program. Each module also specifies how to
+fetch the necessary build dependencies. The manifest also includes which
+runtime and SDK need to be used and which permissions need to be applied to the
+resulting \fp. 
+Flathub us the main remote for \fp.It is a community based project, where each
+application on \fh has a GitHub repository under the \fh organization. These
+repositories contain at least the manifest file to build the app using \fb. The
+\fhbb is a bot which after any commit to the master branch of an application
+will fetch and build the manifest file. The resulting artifact is committed
+using \ot and pushed to the \fh remote.
 
 
 %%%%%%%%%%%%%%%%
@@ -292,34 +293,34 @@ artifact is committed using Ostree and pushed to the \fh remote.
 To rebuild a program, \sysname must first make sure to gather all build
 dependencies to the exact version used during the original build. There are two
 types of dependencies defined in a \fb manifest file, the one which are
-embedded in the final package, those are defined in the different
-\emph{modules} of the manifest and their version is always perfectly defined.
-For instance a dependency on a git repository will specify the hash of the
-commit that is used. Those dependencies are therefore easy to gather, and it is
-already handled by \fb.
-The other type of dependency is what we refer to as \fdp. They include every
-dependency which is of the form of a \fp, and are mounted in the sandbox
-during the build and sometimes also when running the final app. Those
-dependencies include runtimes, SDK, SDK-extensions, base-app and base-app
-extensions. In the case of \fh, these dependencies will come from \fh directly,
-but the original manifest does not include the exact Ostree commit associated
-to each of these dependencies. Fortunately, \fb will ship a modified version of
-the manifest in the final product, which include the commit of the runtime,
-SDK, and (if there is any) the base-app. Unfortunately it will not include the
-one for SDK-extensions and base-app extensions, but we know the \fhbb will use
-the latest one available at the time of the build. However, the exact time of
-the build is also not specified, it is bounded by the GitHub commit, which is
-before and the ostree commit, which happens after the build. We therefore guess
-which commit was used by taking the latest available at the ostree commit time.
-This will introduce some error, but we will show that this error is relatively
-small. Another dependency we need to pin to its exact version is \fb itself. In
-the case of the \fhbb, it uses the last one available on \fh. We therefore
-consider it as any other \fdp, and apply the same guessing technique.
-Under the hood, \fb overrides the \sde environment variable with the last
-modification time of the manifest file, but this information is lost when a
-file is committed to git or ostree, we therefore do as before, and use the
-ostree commit time to override the \sde, which is another source of error, but
-we cannot do better for now.
+embedded in the final package, those are defined in the different modules of
+the manifest and their version is always perfectly defined. For instance a
+dependency on a git repository will specify the hash of the commit that is
+used. Those dependencies are therefore easy to gather, and it is already
+handled by \fb.
+The other type of dependency is what we refer to as \fdp. They are dependencies
+of the form of a \fp, and are mounted in the sandbox during the build and
+sometimes also when running the final app. Those dependencies include runtimes,
+SDK, SDK-extensions, base-app and base-app extensions. In the case of \fh, they
+will come from \fh directly, but the original manifest does not include the
+exact \ot commit associated to each of them . Fortunately, \fb will ship a
+modified version of the manifest in the final product, which include the commit
+of the runtime, the SDK, and (if there is any) the base-app. Unfortunately it
+will not include the one for SDK-extensions and base-app extensions, but we
+know the \fhbb will use the latest version available at the time of the build.
+However, the exact time of the build is also not specified, it is bounded by
+the commit to GitHub, which is before and the \ot commit, which happens
+after the build. We therefore guess which commit was used by taking the latest
+available at the \ot commit time. This will introduce some error, but we
+will show that it is relatively small. Another dependency we need to
+pin to its exact version is \fb itself. In the case of the \fhbb, it uses the
+last one available on \fh. We therefore consider it as any other \fdp, and
+apply the same guessing technique. 
+To manipulate the time of the build, we override the \sde variable. Under the
+hood, \fb overrides it with the last modification time of the manifest file,
+but this information is lost when a file is committed to git or \ot . We
+therefore do as before, and use the \ot commit time to override \sde, which
+is another source of error.
 
 \section{Rebuilding}
 Once the environment matches roughly the one from the original build, we need
@@ -329,7 +330,7 @@ and exporting steps done at the end.
 
 \section{Measuring reproducibility}
 At the end of a rebuild we compare the checksum of the original package, with
-the rebuilt one and conclude that the build is reproducible if the two are the
+the rebuilt one, and conclude that the build is reproducible if the two are the
 same. This follows a very strict definition of reproducibility, and we
 therefore introduce three more reproducibility tests. The first is the notion
 of binary-reproducibility, where we compute the hash of only non human-readable
@@ -340,10 +341,10 @@ reasoning behind the binary and ELF reproducibility is the following: we can
 still audit and understand non-binary files, and therefore if the only sources
 of non-reproducibility are in files we can easily verify manually, we can still
 attest that the build is legitimate, even if it is only partially reproducible.
-The idea behind the repro-score is to find a way to characterize a program
-which is highly non-reproducible, from those which are mostly reproducible, by
-assuming that a program with a high repro-score will be easy to fix, and make
-reproducible.
+The idea behind the repro-score is to find a way to automatically differentiate
+a program which is highly non-reproducible, from those which are mostly
+reproducible, by assuming that a program with a high repro-score will be easy
+to fix, and make reproducible.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%
@@ -352,34 +353,34 @@ reproducible.
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 For simplicity and portability, \sysname is written in python, using the poetry
-package manager both available on any platform susceptible to run \fp. Other
+package manager, both available on any platform susceptible to run \fp. Other
 than python, it relies on GNU coreutils, which should also be supported on most
 Linux distribution, and optionally uses two external tools, diffoscope and
 strip-nondeterminism. Both are developed as part of the R-B project. Diffoscope
 is used to compute the difference between two artifacts, by going deeply inside
 the file tree, even doing things such as diffing recursively archives.
 Strip-nondeterminism is a tool to strip certain non-necessary, but not
-deterministic, bits of information, such as archives timestamps. We discuss its
-usage in. Also, \sysname relies on \fp, and interact with it through the CLI
-tool, rather than using libflatpak. This way the code looks closer to a shell
-script, and matches more the process of building manually using \fb. Also, the
-\fhbb does the same and uses the CLI directly, making it easier to copy the
-build steps done by the \fhbb. The overall behavior of \sysname is the
-following. Before rebuilding, we first make sure the \fh remote is correctly
-configured, and if not, configure it. Then we gather all \fh dependencies. To
-do so, we should parse the package metadata, but instead we rely on \fb to do
-the work. Using the \verb|--install-deps-from=flathub| flag, \fb figures out
-which dependencies are used, and it will print them to stdout. To have the list
-of \fh dependencies, we simply parse this output. As said before, \fb will take
-the latest dependencies available, meaning we need to downgrade them just
-after. To correctly downgrade \fh dependencies, we download the original \fp,
-since it includes a modified version of the manifest file, with the exact
-commit of some of these dependencies. We also need it to compare the checksums
-after the rebuild. For the others, we apply the guessing technique described in
+deterministic, bits of information, such as archives timestamps. Also, \sysname
+relies on \fp, and interact with it through the CLI tool, rather than using
+libflatpak. This way the code looks closer to a shell script, and matches more
+the process of building manually using \fb. Also, the \fhbb does the same and
+uses the CLI directly, making it easier to copy the build steps done by the
+\fhbb. The overall behavior of \sysname is the following. Before rebuilding, we
+first make sure the \fh remote is correctly configured, and if not, configure
+it. Then we gather all \fh dependencies. To do so, we should parse the package
+metadata, but instead we rely on \fb to do the work. Using the
+\verb|--install-deps-from=flathub| flag, \fb figures out which dependencies are
+used, and it will print them to stdout. To have the list of \fh dependencies,
+we simply parse this output. As said before, \fb will take the latest
+dependencies available, meaning we need to downgrade them just after. To
+correctly downgrade \fh dependencies, we download the original \fp, since it
+includes a modified version of the manifest file, with the exact commit of some
+of these dependencies. We also need it to compare the checksums after the
+rebuild. For the others, we apply the guessing technique described in
 \autoref{chap:design}. Then, we pull the GitHub repository containing the
 manifest file. We have to be careful to fetch the right branch, generally
-master, and the right commit. Based on the OSTree commit of the package, we
-take the git commit which is the closest before. We also use the OSTree commit
+master, and the right commit. Based on the \ot commit of the package, we
+take the git commit which is the closest before. We also use the \ot commit
 date to change the last modification time of the manifest, since \fb uses it to
 internally override the \sde environment variable. From there, \sysname is
 ready to rebuild. The rebuilding part occurs in three steps. First we check
@@ -390,7 +391,7 @@ time to build. Both are used in the analysis. Finally, we rebuild, by using the
 same command run by the \fhbb. Once done, \sysname compares the checksums of
 the original package against the freshly rebuilt one. On Arch Linux or Debian,
 packages are distributed in an archived format, making it straightforward to
-compute the checksums. Here the format is an OSTree commit. To do the
+compute the checksums. Here the format is an \ot commit. To do the
 comparison, we first deploy each commit, meaning we copy its content in a
 concrete folder and then perform the checksums on both. During all these steps
 we record different statistics, and serialize them at the end. These statistics
@@ -409,10 +410,10 @@ making it easy to audit.
 \section{Current reproducibility of \fh}
 \label{sec:cr}
 We evaluate the reproducibility of \fh by running our code on as many
-applications as possible. As of \today, \fh contains 1728 programs, classified
+applications as possible. As of \today, \fh contains 1728 programs, categorized
 as an application (by opposition with runtimes). We only focus on applications
 because those are built using the \fhbb. In order to save time, we only rebuild
-729 of them and got the following results:
+729 of them and have the following results:
 
 \begin{table}[h]
     \centering
@@ -442,13 +443,13 @@ that moment.
 As a comparison, at the same time, Arch Linux has 86.4\% reproducibility on
 their repository~\cite{arch-rebuilderd}. We observe poor reproducibility
 performances in comparison. Two sources of error are already known, first, some
-dependencies versions are guessed and second the exact time of the build is
+dependencies' versions are guessed, and second the exact time of the build is
 uncontrolled. We can approximate the probability of the first error in the
-following way: The time of the GitHub commit and ostree commit are known, and
-the build must happen in between. We make a commit guessing error when an
+following way: The time of the GitHub commit and the \ot commit are known, and
+the build happen in between. We make a commit guessing error when an
 update of one dependency we need to guess is published between the start of the
-build and the ostree commit. If we assume that the start of the build is
-uniformly distributed between the GitHub commit $GH_{commit}$ and the ostree
+build and the \ot commit. If we assume that the start of the build is
+uniformly distributed between the GitHub commit $GH_{commit}$ a
 commit $OT_{commit}$, then we make an error when the start is behind the update
 of the dependency closest to $OT_{commit}$:
 \begin{align}
@@ -462,23 +463,24 @@ of the dependency closest to $OT_{commit}$:
                   \notin [GH_{commit}; OT_{commit}]
               \end{cases}
 \end{align}
-The expected value of this upper-bound on all apps on \fh is $19.6$, our
-guessing technique is therefore accurate and cannot explain the amount of
+The expected value of the error on all apps on \fh is $19.6$. Our guessing
+technique is therefore accurate and cannot explain the amount of
 non-reproducible programs.
 
 
 \section{Theoretical reproducibility}
 \label{sec:theo-repro}
-To better understand \autoref{tab:rebuild-all}, we design this experiment, we
-rebuild a fraction of the non-reproducible programs, twice, on two different
-setups, and see if we obtain the same checksum on both. If that is the case,
-the program can be considered as theoretically reproducible, because this means
-it should be reproducible but the way it is rebuilt by \sysname is not matching
-enough what is done by the \fhbb. Instead of rebuilding everything we again
-reduce the number of program we consider, to save time. The time to rebuild a
-program can be characterized as such: $\frac{deps}{internet speed} + rebuild
-time$, and we can reduce the total amount of building time by 2 by removing 7\%
-of them as shown in \autoref{fig:buildtime}.
+To better understand \autoref{tab:rebuild-all}, we design the following
+experiment, we rebuild a fraction of the non-reproducible programs, twice, on
+two different setups, and see if we obtain the same checksum on both. If that
+is the case, the program can be considered as theoretically reproducible.
+Because it should be reproducible but the way it is rebuilt by \sysname is not
+matching enough what is done by the \fhbb. Instead of rebuilding everything we
+again reduce the number of program we consider, to save time. The time to
+rebuild a program can be characterized as such: $\frac{deps}{internet speed} +
+rebuild time$ plus some constant overhead, and we can reduce the total amount
+of building time by 2 by removing 7\% of them as shown in
+\autoref{fig:buildtime}.
 
 \begin{figure}[h]
     \center{
@@ -504,19 +506,19 @@ look at the difference between the two artifacts using \dfc.
 
 \subsection*{Timestamps}
 18 of the 185 programs have timestamps embedded in their static strings, or in
-some files' metadata, like images or archives, but they are equal to the value
-of \sde, meaning that it is easy to manipulate them. Furthermore, 24 programs
-have what we call absolute timestamps embedded in the final package. Absolute
-timestamps are not controlled by \sde, and we therefore \sysname cannot force
+some files' metadata, like images or archives. They are equal to the value of
+\sde, meaning that it is easy to manipulate them. Furthermore, 24 programs have
+what we call absolute timestamps embedded in the final package. Absolute
+timestamps are not controlled by \sde, and therefore \sysname cannot force
 their value. To address the first type of timestamps, we propose a modification
 to \fb, to include the value of \sde in the resolved manifest.
 
 \subsection*{Debug link}
 When applicable, debug symbols of a program on \fh are available, as an
 extension. In order to do so, debug symbols are stripped and put in a separate
-\emph{gnu\_debuglink} file, and a section called .gnu-debug-link is added to the
-source ELF binary. This section contains the path to the debug symbol file, and
-a checksum of this file, this checksum is a typical source of
+\emph{gnu\_debuglink} file, and a section called .gnu-debug-link is added to
+the source ELF binary. This section contains the path to the debug symbol file,
+and a checksum of this file, this checksum is a typical source of
 non-reproducibility, 63 of the analyzed programs are affected.
 
 \subsection*{Resolved manifest serialization}
@@ -525,7 +527,7 @@ manifest file. Indeed, while this should be serialized in exactly the same way,
 regardless of the environment, 45 programs have an extra newline in the version
 from the \fhbb. This newline is inside the tag array, when it is empty, but
 otherwise both contents are logically the same. To understand this we need to
-look at the publishing time (OSTree commit time) of the packages. We observe
+look at the publishing time (\ot commit time) of the packages. We observe
 that every package affected by this issue has been published before January
 2022. This indicates that the \fhbb might behave differently before, and since
 \sysname copies what is done on the last commit of the build bot, we might have
@@ -728,12 +730,12 @@ to secure the software supply chain. As it was said in the \rb mailing list, no
 concrete attack has been detected yet using \rb. An hypothesis for this is that
 attacks simply did not yet occur at the level of the supply chain verified by
 \rb. Indeed according to their definition, \rb are used to propagate the trust
-we build on a program, to the final product. This assumes the source code has
-been audited and verified, which is not necessarily the case. Packaging systems
-such as npm are used to fetch programs directly from upstream and recent
-examples still shows that performing attacks at the upstream level can be as
-easy as buying an expired email domain~\cite{npm:ptdr}.
-In theory, attacks at the upstream level are also possible with \fp, because
+we have on a program's source code, to the final product. This assumes the
+source code has been audited and verified, which is not necessarily the case.
+Packaging systems such as npm are used to fetch programs directly from upstream
+and recent examples still shows that performing attacks at that level can be as
+easy as buying an expired email domain~\cite{npm:ptdr}. In theory, those are
+also possible with \fp, because
 modifications brought to a repository on the \fh organization, are immediately
 (if the build succeed obviously) shipped to end-users. Those repositories are
 completely under the control of the maintainers, who are often the application
@@ -756,10 +758,10 @@ be applied recursively. Therefore other approach do exist.
 %%%%%%%%%%%%%%%%%%%%
 
 In this project, we investigate the feasibility of using \rb with \fp. We
-develop \sysname to automate the process and measure only $41\%$
+develop \sysname to automate the process and measure only 41\%
 reproducibility, which is lower than what found on other package distributions.
 After a manual analysis, we provide several changes to \fb to improve this
-number, in theory to $60\%$. For future work, we should develop a way to share
+number, in theory to 60\%. For future work, we should develop a way to share
 the result of \sysname, and provide the ability to \fp end-users to easily
 query independent rebuilders, before trusting a package. Also, we are
 interested in using ... to automatically analyse and patch non-reproducible
