@@ -15,7 +15,7 @@
 \usepackage{xspace}
 \usepackage{amsmath}
 \usepackage{amsthm}
-\usepackage{graphicx} 
+\usepackage{graphicx}
 \usepackage{subcaption}
 
 \title{Flatpak attestation using Reproducible Builds}
@@ -32,7 +32,7 @@
 \newcommand{\fp}{flatpak\xspace}
 \newcommand{\Fp}{Flatpak\xspace}
 \newcommand{\fh}{flathub\xspace}
-\newcommand{\fb}{flatpak-builer\xspace}
+\newcommand{\fb}{flatpak-builder\xspace}
 \newcommand{\fdp}{flatpak dependencies\xspace}
 \newcommand{\sde}{SOURCE\_DATE\_EPOCH\xspace}
 \newcommand{\ldlp}{LD\_LIBRARY\_PATH\xspace}
@@ -114,8 +114,8 @@ tool chain. They sign and send the resulting artifact to the end-user. This
 process, as shown before, cannot be trusted. On the other hand upstream code
 can be audited and verified manually. Now, the maintainers, alongside the
 build, can record and publish the necessary information to re perform the build
-with the same conditions. Those information will include, among others, the
-exact dependencies and which version of the tool chain were used. From these
+with the same conditions. This information will include, among others, the
+exact dependencies and which version of the tool chain were used. From this
 information, a set of trusted rebuilder will re perform the build and publish
 the checksum of the artifact they obtain. When the end-user download a program
 from the distribution's repositories, they can compare the checksum they have
@@ -137,7 +137,7 @@ reported as reproducible as of \today~\cite{debian:repro}.
 
 \begin{figure}[h]
     \center{
-        \includegraphics[width=\textwidth]{figures/Reprobuildschemas.pdf}
+        \includegraphics[width=\textwidth]{figures/Kokodayo.pdf}
     }
     \caption{A reproducible builds setup. Here the end user can compare the
     checksum of the package they download, with a set of independent
@@ -165,15 +165,15 @@ or tools such as \verb|faketime| to better simulate the build environment.
 After rebuilding 729 programs, which is about half of \fh, we have $41\%$
 reproducible programs, which is much lower than what is found on Debian. This
 is mainly due to the lack of certain information, such as the time at which the
-build originally took place, and we provide several improvement to \emph{\fb},
+build originally took place, and we provide several improvements to \emph{\fb},
 the main tool used to build \fp on \fh, which is also the one capable of
 recording some missing build information. We also introduce new notions to
 characterize how reproducible a program is, to be able to still build trust in
 programs which are only partially reproducible.
 
 The structure of the report is the following, \autoref{chap:bg} explains all
-the concept used in the next chapters. \autoref{chap:design} and
-\autoref{chap:impl} describe the overall functioning of \sysname. In
+the concept used in the next chapters. In \autoref{chap:design} and
+\autoref{chap:impl} we describe the overall functioning of \sysname. In
 \autoref{chap:eval} we measure the reproducibility of \fh and provide a manual
 analysis of the main causes of non-reproducibility. Finally, in
 \autoref{chap:relw} we discuss and compare our approach to other similar tools,
@@ -234,50 +234,48 @@ Java~\cite{xiong2022towards}, most common build system can behave
 deterministically.
 
 
-The other main concept to introduce is \fp and \fh, more specifically how a
-\fp is built and shipped on \fh. As stated before, flatpaks are deployed and built
+The other main concept to introduce is \fp and \fh, more specifically how a \fp
+is built and shipped on \fh. As stated before, flatpaks are deployed and built
 inside a sandbox, a container mostly isolated from the host system. Extra
-permissions, such as access to certain directories, access to the network and so on, 
-are managed in the metadata of a \fp. There are no general build process for a
-\fp. As long as the build directory respect certain conventions, and the
-necessary metadata are accessible at the root, it is a valid \fp. The way
-\fp are shipped and deployed is through \ot. It is a library, working
-similarly as git, but optimized to handle binary objects. Furthermore, it is
-specialized to handle entire file system trees. \Fp uses it in the following
-way, the build directory of a program is committed through \ot and can be
-push to a remote and pulled by end-users. \ot is used to deploy a read-only,
-using hard links, version of the \fp, which is mounted inside the sandbox (at
-/app). Since flatpaks are isolated from the host, they cannot access its libraries,
-such as libc. Instead, those are bundled with the \fp and therefore also mounted
-in the sandbox. While this works and ensure a program built against one library
-will not suddenly run against a newer version, this has multiple issues. First
-it is not disk efficient, for instance almost every program will ship with
-libc. Secondly, security critical libraries such as libssl need regular
-updates, and having each \fp shipping their own copy increases the risk of
-having some which are out of date. To address these issues, \fp comes with a
-simple shared dependencies systems called \emph{runtimes}. A \fp will always depend on
-a specific runtime (specified in its metadata), which is another \fp
-containing the most common and security critical dependencies. The runtime is
-also mounted in the sandbox, with the main app. Another runtime, called the
-\emph{SDK}, exists, it just includes additional dependencies only useful at build
-time, or for debugging purposes, such as gdb and gcc. A \fp can also depend on
-a \emph{base-app}, which is a \fp containing certain big build dependencies, for
+permissions, such as access to certain directories, access to the network and
+so on, are managed in the metadata of a \fp. There are no general build process
+for a \fp. As long as the build directory respect certain conventions, and the
+necessary metadata are accessible at the root, it is a valid \fp. The way \fp
+are shipped and deployed is through \ot. It is a library, working similarly as
+git, but optimized to handle binary objects. Furthermore, it is specialized to
+handle entire file system trees. \Fp uses it in the following way, the build
+directory of a program is committed through \ot and can be push to a remote and
+pulled by end-users. \ot is used to deploy a read-only, using hard links,
+version of the \fp, which is mounted inside the sandbox (at /app). Since
+flatpaks are isolated from the host, they cannot access its libraries, such as
+libc. Instead, those are bundled with the \fp and therefore also mounted in the
+sandbox. While this works and ensure a program built against one library will
+not suddenly run against a newer version, this has multiple issues. First it is
+not disk efficient, for instance almost every program will ship with libc.
+Secondly, security critical libraries such as libssl need regular updates, and
+having each \fp shipping their own copy increases the risk of having some which
+are out of date. To address these issues, \fp comes with a simple shared
+dependencies systems called \emph{runtimes}. A \fp will always depend on a
+specific runtime (specified in its metadata), which is another \fp containing
+the most common and security critical dependencies. The runtime is also mounted
+in the sandbox, with the main app. Another runtime, called the \emph{SDK},
+exists, it just includes additional dependencies only useful at build time, or
+for debugging purposes, such as gdb and gcc. A \fp can also depend on a
+\emph{base-app}, which is a \fp containing certain big build dependencies, for
 certain type of applications, such as those based on Electron. Finally, a last
 type of dependencies are extensions, for SDK or base-app, which are just
 additional libraries or programs that can be optionally mounted. An example is
-the Rust tool chain, which is available as an SDK-extension, such that only rust
-programs needs to include it at build time. 
-The build process is not
+the Rust tool chain, which is available as an SDK-extension, such that only
+rust programs needs to include it at build time. The build process is not
 standardized, a \fp can be built using any build system available. However, a
 helper tool called \fb exists and is used to build \fp on \fh. It works by
 parsing a description of the build, called a manifest file, and produces the
 resulting \fp. The manifest is separated in modules, where each describes how
-to build one dependency or the final program. Each module also specifies how to
-fetch the necessary build dependencies. The manifest also includes which
-runtime and SDK need to be used and which permissions need to be applied to the
-resulting \fp. 
-Flathub us the main remote for \fp.It is a community based project, where each
-application on \fh has a GitHub repository under the \fh organization. These
+to build one dependency or the final program and they specify how to fetch the
+necessary build dependencies. The manifest also includes which runtime and SDK
+need to be used and which permissions need to be applied to the resulting \fp.
+Flathub, the main repository for \fp, is a community based project, where each
+application has a GitHub repository under the \fh organization. These
 repositories contain at least the manifest file to build the app using \fb. The
 \fhbb is a bot which after any commit to the master branch of an application
 will fetch and build the manifest file. The resulting artifact is committed
@@ -306,7 +304,7 @@ of the form of a \fp, and are mounted in the sandbox during the build and
 sometimes also when running the final app. Those dependencies include runtimes,
 SDK, SDK-extensions, base-app and base-app extensions. In the case of \fh, they
 will come from \fh directly, but the original manifest does not include the
-exact \ot commit associated to each of them . Fortunately, \fb will ship a
+exact \ot commit associated to each of them. Fortunately, \fb will ship a
 modified version of the manifest in the final product, which include the commit
 of the runtime, the SDK, and (if there is any) the base-app. Unfortunately it
 will not include the one for SDK-extensions and base-app extensions, but we
@@ -318,7 +316,7 @@ available at the \ot commit time. This will introduce some error, but we
 will show that it is relatively small. Another dependency we need to
 pin to its exact version is \fb itself. In the case of the \fhbb, it uses the
 last one available on \fh. We therefore consider it as any other \fdp, and
-apply the same guessing technique. 
+apply the same guessing technique.
 To manipulate the time of the build, we override the \sde variable. Under the
 hood, \fb overrides it with the last modification time of the manifest file,
 but this information is lost when a file is committed to git or \ot . We
@@ -337,7 +335,7 @@ the rebuilt one, and conclude that the build is reproducible if the two are the
 same. This follows a very strict definition of reproducibility, and we
 therefore introduce three more reproducibility tests. The first is the notion
 of binary-reproducibility, where we compute the hash of only non human-readable
-files (ELF, images, archives, etc). The second is ELF-reproducibility, where we
+files (ELF, images, archives, etc.). The second is ELF-reproducibility, where we
 only compare ELF files, and the last one is the repro-score, which is defined
 as the number of non-reproducible files over the total number of files. The
 reasoning behind the binary and ELF reproducibility is the following: we can
@@ -351,7 +349,7 @@ to fix, and make reproducible.
 
 \begin{figure}[h]
     \center{
-        \includegraphics[width=\columnwidth]{figures/Kokodayooooo.pdf}
+        \includegraphics[width=\columnwidth]{figures/I_Droped_Saga.pdf}
     }
     \caption{High level description of \sysname.}
     \label{fig:flatpakrebuilder}
@@ -385,7 +383,7 @@ we simply parse this output. As said before, \fb will take the latest
 dependencies available, meaning we need to downgrade them just after. To
 correctly downgrade \fh dependencies, we download the original \fp, since it
 includes a modified version of the manifest file, with the exact commit of some
-of these dependencies. We also need it to compare the checksums after the
+of these dependencies. We also need it to compare the checksum after the
 rebuild. For the others, we apply the guessing technique described in
 \autoref{chap:design}. Then, we pull the GitHub repository containing the
 manifest file. We have to be careful to fetch the right branch, generally
@@ -444,7 +442,7 @@ because those are built using the \fhbb. In order to save time, we only rebuild
     \label{tab:rebuild-all}
 \end{table}
 
-Two minor things need to be precised. Here, ELF which stands for
+Two minor things need to be clarified. Here, ELF which stands for
 ELF-reproducibility, only compares files inside /app/bin and /app/lib, which
 captures the majority of ELF files but not all, this was fixed for the other
 experiments. Secondly, the binary-reproducibility test is not yet present at
@@ -511,7 +509,7 @@ environment.
 To better explain why these programs are not reproducible, and also why some of
 them should be in theory, we manually analyse each result and label the most
 common pattern we see. To save time again, we only consider the 185 ones that
-were rebuilt in section \autoref{sec:theo-repro}. To perform the analysis we
+were rebuilt in \autoref{sec:theo-repro}. To perform the analysis we
 look at the difference between the two artifacts using \dfc.
 
 \subsection*{Timestamps}
@@ -600,10 +598,11 @@ affect certain build, in our case only 6 programs were affected.
 While, for portability, \fp cannot use extended instruction set, they can still
 be optimized to better run on specific processors, with the usage of the
 \verb|-mtune| compilation flag for instance. This breaks \rb if the program is
-built with another processor model and it does appear on certain \fp. The
+built with another processor model, and it does appear on certain \fp. The
 identification process is a bit more complicated, without looking at the build
 script directly. Only 3 programs are for sure compiled using mtune, because it
-appears in some of their metadata.
+appears in some of their metadata. In particular, the issue come from a common
+library, ImageMagick.
 
 \subsection*{Appstream}
 The last common issue resides in the appdata file. This file provides metadata
@@ -708,7 +707,7 @@ reproducible. The theoretical results are shown in \autoref{tab:rebuild-fix}.
 %%%%%%%%%%%%%%%%%%%%%%
 
 Other work is closely related to this project. First tools similar to \sysname
-but for other package distributions exist and they achieve much better
+but for other package distributions exist, and they achieve much better
 performance. Also, projects exist to simplify the analysis step and
 automatically fix non-reproducible packages.
 
@@ -746,9 +745,9 @@ XcodeGhost attack from 2015 is a concrete example, where a modified version of
 Apple's Xcode was shipped and used by many developers~\cite{enwiki:1054394297}.
 Our \rb setup is susceptible to such attack, because we always compile using
 pre-built compilers, provided by the SDK in the case of \fp. One way to counter
-this would be to use \rb on compilers themself, but since they are compiled
+this would be to use \rb on compilers themselves, but since they are compiled
 using another compiler, for instance a previous version, the process of
-rebuilding needs to be applied recursively. Therefore other projects, like
+rebuilding needs to be applied recursively. Therefore, other projects, like
 \emph{Bootsrappable Builds}, attempts to provide a clear and simple path from
 source code to binary-blobs like compiler, that can be itself verified using
 \rb.
