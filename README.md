@@ -1,4 +1,4 @@
-## Flathub reproducible builds report
+## Flatpak attestation using Reproducible Builds
 This repository contains the report for the semester project I did at EPFL,
 where I measured and tried to improve build reproducibility for
 [flatpaks](https://www.flatpak.org/), a cross-distribution packaging tool for
