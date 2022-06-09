@@ -82,8 +82,8 @@ consist in injecting malicious code into an existing product. Examples include
 the SolarWinds exploit from 2020, where attackers had compromised the update
 publishing infrastructure of Orion, one of SolarWinds software, and were
 shipping a modified version with a malware injected~\cite{enwiki:solarwinds}.
-In the FOSS world, many attacks targeting package manager such as npm or
-RubyGem occurred and are already studied in the
+In the FOSS world, attacks targeting package manager such as npm or RubyGem
+occurred and are already studied in the
 literature~\cite{10.1007/978-3-030-52683-2_2}.
 Techniques exist to counter such attacks, and the one we use in this project is
 called \emph{\rb}~(R-B). It is a set of practices to make sure we can,
@@ -289,6 +289,9 @@ using \ot and pushed to the \fh remote.
 \label{chap:design}
 %%%%%%%%%%%%%%%%
 
+This section describes the high-level functioning of \sysname, it is summarized
+in \autoref{fig:flatpakrebuilder}.
+
 \section{Recreating the environment}
 To rebuild a program, \sysname must first make sure to gather all build
 dependencies to the exact version used during the original build. There are two
@@ -346,6 +349,13 @@ a program which is highly non-reproducible, from those which are mostly
 reproducible, by assuming that a program with a high repro-score will be easy
 to fix, and make reproducible.
 
+\begin{figure}[h]
+    \center{
+        \includegraphics[width=\columnwidth]{figures/Kokodayooooo.pdf}
+    }
+    \caption{High level description of \sysname.}
+    \label{fig:flatpakrebuilder}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Implementation}
@@ -707,7 +717,7 @@ Tools exist to replicate builds for other package distributions, two important
 one being Debian with their tool debrebuild, and Arch Linux with arch-repro.
 Both achieve much better performances than \sysname~\cite{debian:repro,
 arch-rebuilderd}, but are also around since much longer, 2014 for deb-rebuild
-and 2017 for arch-repro. In comparison, \sysname provides two advantages, the
+and 2017 for arch-repro. Nevertheless, \sysname provides two advantages, the
 first one is that it works across distribution, by mostly relying on \fp (which
 underneath uses bubblewrap) and not other container technologies. This make it
 easier to have independent rebuilders. The second advantage is the introduction
@@ -720,52 +730,41 @@ rebuilders.
 \section{Automatic analysis}
 In this project, the analysis of the causes of non-reproducibility of \fp was
 done manually, by reading both the diffoscope output and the manifest files.
-This task is tedious and techniques exist to automate it.
-* Auto root cause discovery
-* Auto rebuild patching
+This task is tedious and work was done to automate it. For instance, Zhilei et
+al.~\cite{DBLP:journals/corr/abs-1803-06766} propose to use system call tracing
+to figure out which files and which commands are responsible for unreproducible
+builds. More recently, they also present a new approach, RepFix, to
+automatically patch these problematic files~\cite{}.
 
 \section{Trusting trust}
-On a more global scale, \rb can also be compared to other existing techniques
-to secure the software supply chain. As it was said in the \rb mailing list, no
-concrete attack has been detected yet using \rb. An hypothesis for this is that
-attacks simply did not yet occur at the level of the supply chain verified by
-\rb. Indeed according to their definition, \rb are used to propagate the trust
-we have on a program's source code, to the final product. This assumes the
-source code has been audited and verified, which is not necessarily the case.
-Packaging systems such as npm are used to fetch programs directly from upstream
-and recent examples still shows that performing attacks at that level can be as
-easy as buying an expired email domain~\cite{npm:ptdr}. In theory, those are
-also possible with \fp, because
-modifications brought to a repository on the \fh organization, are immediately
-(if the build succeed obviously) shipped to end-users. Those repositories are
-completely under the control of the maintainers, who are often the application
-developers themself, as it is the idea of \fh.
-On the other side of the supply chain spectrum, \rb by themself cannot counter
-the "Trusting Trust" problem. This is the colloquial name given to a potential
-attack first described by Ken Thompson 1984~\cite{thompson1984}. Here the
-compiler is the compromised part of the supply chain, and it injects malicious
-code in the final product. This is a sophisticate attack, but the XcodeGhost
-attack from 2015 is a concrete example, where a modified version of Apple's
-Xcode was shipped and used by many developers~\cite{enwiki:1054394297}. Our \rb
-setup is susceptible to such attack, because we always compile using pre-built
-compilers, provided by the SDK in the case of \fp. One way to counter this would
-be to use \rb on compilers themself, but since they are compiled using another
-compiler, for instance a previous version, the process of rebuilding needs to
-be applied recursively. Therefore other approach do exist.
+While it improves the security of the supply chain, \rb cannot address all
+issues, like the "Trusting Trust" problem. This is the colloquial name given to
+a potential attack first described by Ken Thompson 1984~\cite{thompson1984}.
+Here the compiler is the compromised part of the supply chain, and it injects
+malicious code in the final product. This is a sophisticate attack, but the
+XcodeGhost attack from 2015 is a concrete example, where a modified version of
+Apple's Xcode was shipped and used by many developers~\cite{enwiki:1054394297}.
+Our \rb setup is susceptible to such attack, because we always compile using
+pre-built compilers, provided by the SDK in the case of \fp. One way to counter
+this would be to use \rb on compilers themself, but since they are compiled
+using another compiler, for instance a previous version, the process of
+rebuilding needs to be applied recursively. Therefore other projects, like
+\emph{Bootsrappable Builds}, attempts to provide a clear and simple path from
+source code to binary-blobs like compiler, that can be itself verified using
+\rb.
 
 %%%%%%%%%%%%%%%%%%%%
 \chapter{Conclusion}
 %%%%%%%%%%%%%%%%%%%%
 
 In this project, we investigate the feasibility of using \rb with \fp. We
-develop \sysname to automate the process and measure only 41\%
-reproducibility, which is lower than what found on other package distributions.
-After a manual analysis, we provide several changes to \fb to improve this
-number, in theory to 60\%. For future work, we should develop a way to share
-the result of \sysname, and provide the ability to \fp end-users to easily
-query independent rebuilders, before trusting a package. Also, we are
-interested in using ... to automatically analyse and patch non-reproducible
-flatpaks.
+develop \sysname to automate the process and measure only 41\% reproducibility,
+which is lower than what found on other package distributions. After a manual
+analysis, we provide several changes to \fb to improve this number, in theory
+to 60\%. For future work, we should develop a way to share the result of
+\sysname, and provide the ability to \fp end-users to easily query independent
+rebuilders, before trusting a package. Also, we are interested in using RepFix
+to automatically analyse and patch non-reproducible flatpaks.
 
 \cleardoublepage
 \phantomsection
