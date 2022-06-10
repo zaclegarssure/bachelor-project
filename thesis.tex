@@ -227,11 +227,11 @@ affecting the reproducibility of a program, which is \emph{build
 non-determinism}. It occurs when some parts of the build are random. One
 example is the serialization of frozenset items in Python, which does not
 happen in a deterministic order~\cite{gh:pyc-frozenset}. Other non-determinism
-issue can be for instance related to the parallelism of the build process,
-which may lead to ordering issues. Even though works still need to be done in
-order to have deterministic builds for certain build systems, such as with
-Java~\cite{xiong2022towards}, most common build system can behave
-deterministically.
+issue can be for instance related to the parallelism of the build process, or
+to filesystem ordering, since both do not follow a strict order. Even though
+work still need to be done in order to have deterministic builds for certain
+build systems, such as with Java~\cite{xiong2022towards}, the most common one
+can behave deterministically.
 
 
 The other main concept to introduce is \fp and \fh, more specifically how a \fp
@@ -250,7 +250,7 @@ version of the \fp, which is mounted inside the sandbox (at /app). Since
 flatpaks are isolated from the host, they cannot access its libraries, such as
 libc. Instead, those are bundled with the \fp and therefore also mounted in the
 sandbox. While this works and ensure a program built against one library will
-not suddenly run against a newer version, this has multiple issues. First it is
+not suddenly run against another version, this has multiple issues. First it is
 not disk efficient, for instance almost every program will ship with libc.
 Secondly, security critical libraries such as libssl need regular updates, and
 having each \fp shipping their own copy increases the risk of having some which
@@ -268,18 +268,18 @@ additional libraries or programs that can be optionally mounted. An example is
 the Rust tool chain, which is available as an SDK-extension, such that only
 rust programs needs to include it at build time. The build process is not
 standardized, a \fp can be built using any build system available. However, a
-helper tool called \fb exists and is used to build \fp on \fh. It works by
-parsing a description of the build, called a manifest file, and produces the
-resulting \fp. The manifest is separated in modules, where each describes how
-to build one dependency or the final program and they specify how to fetch the
-necessary build dependencies. The manifest also includes which runtime and SDK
-need to be used and which permissions need to be applied to the resulting \fp.
-Flathub, the main repository for \fp, is a community based project, where each
-application has a GitHub repository under the \fh organization. These
-repositories contain at least the manifest file to build the app using \fb. The
-\fhbb is a bot which after any commit to the master branch of an application
-will fetch and build the manifest file. The resulting artifact is committed
-using \ot and pushed to the \fh remote.
+helper tool called \fb exists and is used on \fh. It parses a description of
+the build, called a manifest file, and produces the resulting \fp. The manifest
+is separated in modules, where each describes how to build one dependency or
+the final program, and each specifies how to fetch the necessary build
+dependencies. The manifest also includes which runtime and SDK need to be used
+and which permissions need to be applied to the resulting \fp. Flathub, the
+main repository for \fp, is a community based project, where each application
+has a GitHub repository under the \fh organization. These repositories contain
+at least the manifest file to build the app using \fb. The \fhbb is a bot which
+after any commit to the master branch of an application will fetch and build
+the manifest file. The resulting artifact is committed using \ot and pushed to
+the \fh remote.
 
 
 %%%%%%%%%%%%%%%%
@@ -295,33 +295,32 @@ To rebuild a program, \sysname must first make sure to gather all build
 dependencies to the exact version used during the original build. There are two
 types of dependencies defined in a \fb manifest file, the one which are
 embedded in the final package, those are defined in the different modules of
-the manifest and their version is always perfectly defined. For instance a
-dependency on a git repository will specify the hash of the commit that is
-used. Those dependencies are therefore easy to gather, and it is already
-handled by \fb.
-The other type of dependency is what we refer to as \fdp. They are dependencies
-of the form of a \fp, and are mounted in the sandbox during the build and
-sometimes also when running the final app. Those dependencies include runtimes,
-SDK, SDK-extensions, base-app and base-app extensions. In the case of \fh, they
-will come from \fh directly, but the original manifest does not include the
-exact \ot commit associated to each of them. Fortunately, \fb will ship a
-modified version of the manifest in the final product, which include the commit
-of the runtime, the SDK, and (if there is any) the base-app. Unfortunately it
-will not include the one for SDK-extensions and base-app extensions, but we
-know the \fhbb will use the latest version available at the time of the build.
-However, the exact time of the build is also not specified, it is bounded by
-the commit to GitHub, which is before and the \ot commit, which happens
-after the build. We therefore guess which commit was used by taking the latest
-available at the \ot commit time. This will introduce some error, but we
-will show that it is relatively small. Another dependency we need to
-pin to its exact version is \fb itself. In the case of the \fhbb, it uses the
-last one available on \fh. We therefore consider it as any other \fdp, and
+the manifest and their version is always perfectly specified. For instance a
+dependency on a git repository will come with the hash of the commit. Those
+dependencies are therefore easy to gather, and it is already handled by \fb.
+The other type of dependency is what we refer to as \emph{\fdp}. They are
+dependencies of the form of a \fp, and are mounted in the sandbox during the
+build and sometimes also when running the final app. Those dependencies include
+runtimes, SDK, SDK-extensions, base-app and base-app extensions. In the case of
+\fh, they will come from \fh directly, but the original manifest does not
+include the exact \ot commit associated to each of them. Fortunately, \fb will
+ship a modified version of the manifest in the final product, which include the
+commit of the runtime, the SDK, and (if there is any) the base-app.
+Unfortunately it will not include the one for SDK-extensions and base-app
+extensions, but we know the \fhbb will use the latest version available at the
+time of the build. However, the exact time of the build is also not specified,
+it is bounded by the commit to GitHub, which is before and the \ot commit,
+which happens after the build. We therefore guess which commit was used by
+taking the latest available at the \ot commit time. This will introduce some
+error, but we will show that it is relatively small. Another dependency we need
+to pin to its exact version is \fb itself. In the case of the \fhbb, it uses
+the last one available on \fh. We therefore consider it as any other \fdp, and
 apply the same guessing technique.
 To manipulate the time of the build, we override the \sde variable. Under the
 hood, \fb overrides it with the last modification time of the manifest file,
 but this information is lost when a file is committed to git or \ot . We
-therefore do as before, and use the \ot commit time to override \sde, which
-is another source of error.
+therefore do as before, and use the \ot commit time to override \sde, which is
+another source of error.
 
 \section{Rebuilding}
 Once the environment matches roughly the one from the original build, we need
@@ -444,23 +443,22 @@ because those are built using the \fhbb. In order to save time, we only rebuild
 
 Two minor things need to be clarified. Here, ELF which stands for
 ELF-reproducibility, only compares files inside /app/bin and /app/lib, which
-captures the majority of ELF files but not all, this was fixed for the other
+captures the majority of ELF files but not all. This was fixed for the other
 experiments. Secondly, the binary-reproducibility test is not yet present at
 that moment.
 
 As a comparison, at the same time, Arch Linux has 86.4\% reproducibility on
-their repository~\cite{arch-rebuilderd}. We observe poor reproducibility
-performances in comparison. Two sources of error are already known, first, some
-dependencies' versions are guessed, and second the exact time of the build is
-uncontrolled. We can approximate the probability of the first error in the
-following way: The time of the GitHub commit and the \ot commit are known, and
-the build happen in between. We make a commit guessing error when an
-update of one dependency we need to guess is published between the start of the
-build and the \ot commit. If we assume that the start of the build is
-uniformly distributed between the GitHub commit $GH_{commit}$ a
-commit $OT_{commit}$, then we make an error when the start is behind the update
-of the dependency closest to $OT_{commit}$:
-\begin{align}
+their repository~\cite{arch-rebuilderd}, which is much better than our results.
+Two sources of error are already known, first, some dependencies' versions are
+guessed, and second the exact time of the build is uncontrolled. We can
+approximate the probability of the first error in the following way: The time
+of the GitHub commit and the \ot commit are known, and the build happens in
+between. We make a commit guessing error when an update of one dependency is
+published between the start of the build and the \ot commit. If we assume that
+the start of the build is uniformly distributed between the GitHub commit
+$GH_{commit}$ and the \ot commit $OT_{commit}$, then we make an error when the
+start is behind the update of the dependency closest to $OT_{commit}$:
+\begin{align*}
     P_{error} &= \max_{d \in Dependencies}(P_{error\_guessing\_d}) \\
               &= \max_{d}
               \begin{cases}
@@ -470,7 +468,7 @@ of the dependency closest to $OT_{commit}$:
                 0  & \quad \text{if } d_{update}
                   \notin [GH_{commit}; OT_{commit}]
               \end{cases}
-\end{align}
+\end{align*}
 The expected value of the error on all apps on \fh is $19.6$. Our guessing
 technique is therefore accurate and cannot explain the amount of
 non-reproducible programs.
@@ -480,14 +478,14 @@ non-reproducible programs.
 \label{sec:theo-repro}
 To better understand \autoref{tab:rebuild-all}, we design the following
 experiment, we rebuild a fraction of the non-reproducible programs, twice, on
-two different setups, and see if we obtain the same checksum on both. If that
+two different machines, and see if we obtain the same checksum on both. If that
 is the case, the program can be considered as theoretically reproducible.
 Because it should be reproducible but the way it is rebuilt by \sysname is not
 matching enough what is done by the \fhbb. Instead of rebuilding everything we
 again reduce the number of program we consider, to save time. The time to
 rebuild a program can be characterized as such: $\frac{deps}{internet speed} +
 rebuild time$ plus some constant overhead, and we can reduce the total amount
-of building time by 2 by removing 7\% of them as shown in
+of building time by 2 by removing 7\% of them, as shown in
 \autoref{fig:buildtime}.
 
 \begin{figure}[h]
@@ -516,10 +514,12 @@ between the two artifacts using \dfc.
 18 of the 185 programs have timestamps embedded in their static strings, or in
 some files' metadata, like images or archives. They are equal to the value of
 \sde, meaning that it is easy to manipulate them. Furthermore, 24 programs have
-what we call absolute timestamps embedded in the final package. Absolute
-timestamps are not controlled by \sde, and therefore \sysname cannot force
-their value. To address the first type of timestamps, we propose a modification
-to \fb, to include the value of \sde in the resolved manifest.
+what we call \emph{uncontrolled timestamps} embedded in the final package.
+Uncontrolled timestamps are not affected by \sde, and therefore \sysname cannot
+force their value. To address the first type of timestamps, we propose a
+modification to \fb, to include the value of \sde in the resolved
+manifest\footnote{The PR is available here:
+\url{https://github.com/flatpak/flatpak-builder/pull/470}}.
 
 \subsection*{Debug link}
 When applicable, debug symbols of a program on \fh are available, as an
@@ -535,17 +535,17 @@ manifest file. Indeed, while this should be serialized in exactly the same way,
 regardless of the environment, 45 programs have an extra newline in the version
 from the \fhbb. This newline is inside the tag array, when it is empty, but
 otherwise both contents are logically the same. To understand this we need to
-look at the publishing time (\ot commit time) of the packages. We observe
-that every package affected by this issue has been published before January
-2022. This indicates that the \fhbb might behave differently before, and since
+look at the publishing time (\ot commit time) of the packages. We observe that
+every package affected by this issue has been published before January 2022.
+This indicates that the \fhbb might behave differently before, and since
 \sysname copies what is done on the last commit of the build bot, we might have
-a new source of error. And indeed, commit \verb|bfcaaf2| make use of \fb from
+a new source of error. And indeed, commit \verb|bfcaaf2| switch to the \fb from
 \fh, while before it would use the one from the host, which is completely
 unknown~\cite{gh:ptdr}. This has two consequences, first this issue will be
-solved automatically with time, since any package updated after January 4, 2022,
-will use the right \fb version. Secondly, it means on the programs rebuilt in
-\autoref{sec:cr}, 182 were built using the wrong version of \fb. Furthermore,
-134 were reported as not reproducible.
+solved automatically with time, since any package updated after January 4,
+2022, will use the right \fb version. Secondly, it means on the programs
+rebuilt in \autoref{sec:cr}, 182 were built using the wrong version of \fb.
+Furthermore, 134 were reported as not reproducible.
 
 \subsection*{.ro\_data}
 The .ro\_data section is a common location of non-reproducibility, first
@@ -564,11 +564,11 @@ Some section only differ at some bytes, with always the same difference.
 
 \subsection*{Python files}
 Python's byte code files (\verb|.pyc|) are not reproducible, on 29 programs.
-Three common patterns appear. First, there certain serialization are not
+Three common patterns appear. First, certain serialization are not
 deterministic, like with frozenset, as mentioned already in \autoref{chap:bg}.
 Some of these bit of non-determinism are due to the way python compute hashes,
 based on a random seed. This seed can be fixed by overriding the PYTHONHASHSEED
-environment variable, but this can be done on a per-program basis, by
+environment variable, and can be done on a per-program basis, by
 overriding it in the manifest file. Another source of problems is how certain
 temporary path used by the pip package manager, are embedded in the final
 \verb|.pyc| file. Those paths have random names, and points to files which are
@@ -576,20 +576,18 @@ not even present in the final \fp, since they are at /tmp. Those are therefore
 useless but not deterministic bit of information.
 Lastly, a commonly used python library, called sysconfig, embed a description
 of the active environment variable at the time of the build. This should not be
-a problem, since they should always be the same, since those are controlled
+a problem, they should always be the same since those are controlled
 inside the sandbox. However, when running a \fp, every extension related is
-automatically mounted inside the sandbox. In particular, when running \fb on a
-certain manifest, every SDK-extensions available on the host system (not only
-those specified in the manifest) are mounted. This does not affect the
-environment variable at first, but during the build, \fb overrides the
-\ldlp variable to include each extension. This creates yet another
-source of uncontrolled build inputs. In theory a program could build completely
-differently depending on the value of \ldlp.
+automatically mounted inside the sandbox. In particular, every SDK-extensions
+or runtime-extensions available on the host system (not only those specified in
+the manifest) are mounted and are added to the \ldlp environment variable. This
+creates yet another source of uncontrolled build inputs. In theory a program
+could build completely differently depending on the value of \ldlp.
 
 \subsection*{Path}
 A general source of non-reproducibility is the path in which the build take
 place. This is a minor issue in the case of \fp, with \fb, since the build take
-place in the sandbox, where most path are the same, regardless of the
+place in the sandbox, where most paths are the same, regardless of the
 environment. However, for consistency reasons, the hostname is replicated
 inside the sandbox, and a /home/<username> directory is created. This can
 affect certain build, in our case only 6 programs were affected.
@@ -602,7 +600,7 @@ built with another processor model, and it does appear on certain \fp. The
 identification process is a bit more complicated, without looking at the build
 script directly. Only 3 programs are for sure compiled using mtune, because it
 appears in some of their metadata. In particular, the issue come from a common
-library, ImageMagick.
+library, called ImageMagick.
 
 \subsection*{Appstream}
 The last common issue resides in the appdata file. This file provides metadata
@@ -618,10 +616,9 @@ mirroring is useful in case one of the original link gets down, but it also
 causes troubles to have proper \rb. That is because, the original link might
 point to nothing anymore when we rebuild, in which case \fb will just remove
 the links from the appdata file. Or the link might point to a newer version of
-the screenshot, in which case \fb mirror another screenshots, and the links will
-be different, since they are based on the md5sum of the original file. This
-overall result in an additional form of build dependency which cannot be
-controlled in the current state.
+the screenshot, in which case \fb mirror another screenshots, and the links
+will be different, since they are based on the md5sum of the file. This overall
+result in an additional form of build dependency which cannot be controlled.
 
 \section*{Time influence}
 \label{sec:timeinf}
@@ -652,16 +649,16 @@ Obviously timestamps which match the \sde variable change but so do the
 \end{figure}
 
 To understand if the repro-score is a good metric or not, we do the following
-setup. We found all packages available on both \fh and Arch Linux. From there
-we rebuild them and compute their repro-score. We then compare the repro-score
-distribution, for packages which are reproducible on Arch, and those which are
-not, shown in \autoref{fig:repro-scores}. If the difference between the two is
-significant, we conclude that the repro-score is a good metric to estimate if a
-non-reproducible program can easily be made reproducible. The reasoning is, \rb
-on Arch Linux is developed since a few years back, and programs which are not
-reproducible there can be considered as hard to make reproducible. We observe
-the following, both probability distributions are similar, and cannot conclude
-that it is a good metric. Even worse, the one for reproducible packages has a
+experiment. We find all packages available on both \fh and Arch Linux. From
+there we rebuild them and compute their repro-score. We then compare the
+repro-score distribution, for packages which are reproducible on Arch, and for
+those which are not, shown in \autoref{fig:repro-scores}. If the difference
+between the two is significant, we conclude that the repro-score is a good
+metric to estimate if a non-reproducible program can easily be made
+reproducible. The reasoning is, \rb on Arch Linux is developed since a few
+years back, and programs which are not reproducible there can be considered as
+hard to make reproducible. We observe the following, both probability
+distributions are similar. Even worse, the one for reproducible packages has a
 bigger tail towards low repro-scores, which is the opposite of what is
 expected.  This makes sense, \autoref{sec:timeinf} shows that a simple
 modification to the \sde variable can lead to a lot of modification in the
