@@ -1,0 +1,33 @@
+{
+    "name": "com.carpeludum.KegaFusion",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "d393a8bcffe11467952eda80fbf386eaeb5a45e94a1e59e424f164bce1443e75",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-14 11:55:41+00:00",
+    "timestamp_of_rebuild": 1647258941.0,
+    "git-commit": "a439ef356ff0bc48c3f6e86390a3f3350d2da118 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Compat.i386/x86_64/21.08": "28d54f0c5dd38eccbe8243bc2bdfeb1526333c0955d72413e1ff96a84ac602b5",
+        "org.freedesktop.Sdk.Extension.toolchain-i386/x86_64/21.08": "3d58edf63117a496ded53c4950479c5031d576577736aed38eb6bc6f1758fe09",
+        "org.flatpak.Builder/x86_64/stable": "cce27cfbd1132b922bd1b4c672b83b907f1d6a21e0aa941fec13ebc1e65b0508",
+        "org.freedesktop.Sdk/x86_64/21.08": "f31334d7fc5ff5ec93766189a7e47bfb3369a9a7154767adb46c4495530c1d1c",
+        "org.freedesktop.Platform/x86_64/21.08": "fcf3dbb56c117835216058acfa99ae280d713029f8d674e1b56e019a20ed082d"
+    },
+    "build_time": 157.5109395980835,
+    "cache_size": 20761968,
+    "git_size": 0,
+    "dl_size": 20745505,
+    "bad_files": 2,
+    "total_files": 423,
+    "repro_score": 0.9952718676122931,
+    "original_hash": "1671cc46201fd0fabf9b43070c22077ba848768d",
+    "rebuild_hash": "e3759c99cb097611534e5de11927d20e3cc9db35",
+    "original_bin_hash": "90f661a61c2e65841629d71eb14943d6b2146dc5",
+    "rebuild_bin_hash": "bfd9b5b427f8358076aa6bed3fe26f3cd74637f4",
+    "original_elf_hash": "8aa68bc58f1af9e463fa6b3ad1230bbb2849300c",
+    "rebuild_elf_hash": "71f0d32d0bb68942552bffc08410fa3fe2faafff",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

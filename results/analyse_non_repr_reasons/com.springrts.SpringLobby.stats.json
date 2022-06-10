@@ -1,0 +1,16 @@
+{
+    "name": "com.springrts.SpringLobby",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "0103c73d300e2841c558a05d944f0d3b09732a07474e0888cdeabb954ded0568",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-05 21:48:24+00:00",
+    "timestamp_of_rebuild": 1636148904.0,
+    "git-commit": "2bcd321fcb835325257e54905119ad15605dedd0 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/20.08": "478fee082e60836b66a2c9a27f926e00e7f8deb27e0fdd392f3662d26570e0ad",
+        "org.freedesktop.Platform/x86_64/20.08": "7898e3822e6f10310c8f2b6ae8aa630ed102eb1e3341c7e57e0aa9757987d2ea"
+    }
+}

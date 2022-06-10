@@ -141,13 +141,13 @@ ch.threema.threema-web-desktop, build_failed
 com.makemkv.MakeMKV, uncontrolled_timestamps, unknown
 com.github.gijsgoudzwaard.image-optimizer, appdata, icon_cache
 com.github.rafostar.Clapper, timestamp
-com.springrts.SpringLobby
-org.gnome.Evolution
-com.carpeludum.KegaFusion
-com.github.optyfr.JRomManager
-com.leinardi.gx52
-com.chatterino.chatterino
-com.cuperino.qprompt
+com.springrts.SpringLobby, build_failed
+org.gnome.Evolution, uncontrolled_timestamps, debug_link
+com.carpeludum.KegaFusion, path, debug_link, unknown
+com.github.optyfr.JRomManager, manifest_serialization
+com.leinardi.gx52, pyc, debug_link
+com.chatterino.chatterino, random_ro, debug_link
+com.cuperino.qprompt, random_ro, debug_link, appdata, icon_cache
 com.microsoft.Edge, reproducible
 cc.arduino.arduinoide, jar_timestamp
 org.gnome.Hamster, pyc, pip_path, manifest_serialization

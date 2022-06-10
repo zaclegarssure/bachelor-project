@@ -1,0 +1,31 @@
+{
+    "name": "com.cuperino.qprompt",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "a28f499c6d8453252c485842a0bedfed420e576b8e388e9f5c3a138a8c877415",
+    "branch": "stable",
+    "time_of_rebuild": "2022-01-10 07:52:28+00:00",
+    "timestamp_of_rebuild": 1641801148.0,
+    "git-commit": "362527fd3018abcd65b10fe702d96bb6bbd60f0c master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "0cdbcd1f700b3b86899f8737b115b7e55be5b7ad6f275abc6c251cf253c94cd1",
+        "org.kde.Sdk/x86_64/5.15": "7584eda1a3e29cb4f5310942a1b1ed55a8823a54320f2cb7dea128db280486d8",
+        "org.kde.Platform/x86_64/5.15": "1cb4374f4cc2438ca9674ae683b38fb1dbe74704d28cd8508349c81f6228b3d3"
+    },
+    "build_time": 85.2458815574646,
+    "cache_size": 78591791,
+    "git_size": 78575328,
+    "dl_size": 0,
+    "bad_files": 3,
+    "total_files": 30,
+    "repro_score": 0.9,
+    "original_hash": "8125308bc09233203445727a4b84413eea03bc9d",
+    "rebuild_hash": "d8982cc38559cbcf2f23ad542af9ab4373030e9f",
+    "original_bin_hash": "0c129129993740bd5d344587d129d8ead7c7ca50",
+    "rebuild_bin_hash": "64c9aac472f5da64151dc1e6054a1d2998e0b016",
+    "original_elf_hash": "f0afd8637fcbb85e16fd0f3269a208e639521734",
+    "rebuild_elf_hash": "f231fdcad14d797fa8bcf7dc68e1f5ac6ede819a",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

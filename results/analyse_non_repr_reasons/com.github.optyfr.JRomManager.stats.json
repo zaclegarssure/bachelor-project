@@ -1,0 +1,32 @@
+{
+    "name": "com.github.optyfr.JRomManager",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "21291c33a052eeefd269b3f2d5770ee1952474741bb13059515d58fd8a79e976",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-21 12:30:24+00:00",
+    "timestamp_of_rebuild": 1637497824.0,
+    "git-commit": "8ed2480260a3381282451f4209d0ce6234fcf245 master~1",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk11/x86_64/21.08": "37ab4d645c61133948b57d09a4cc112ecb57a8bd360f89b32d68f02c5591fc9b",
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/21.08": "1fad7974d6fe02c6ac83e3e804e0317f4d8d3528dcd5087002e1b501ddadbb6b",
+        "org.freedesktop.Platform/x86_64/21.08": "16d161d8a71701b80fa4bca12812a22c19dc0641b3571fe88c517c84da94c5b5"
+    },
+    "build_time": 42.13047742843628,
+    "cache_size": 46464027,
+    "git_size": 0,
+    "dl_size": 46447564,
+    "bad_files": 1,
+    "total_files": 1310,
+    "repro_score": 0.999236641221374,
+    "original_hash": "9cf1d652f774fd706dba24255c6ba28f4204f578",
+    "rebuild_hash": "fa0db5ca519e9d249bd18168781740108bc41199",
+    "original_bin_hash": "1e8f54c4d31445ce0ccd6c6fda991fb6f8c03039",
+    "rebuild_bin_hash": "1e8f54c4d31445ce0ccd6c6fda991fb6f8c03039",
+    "original_elf_hash": "0c3989a7fa5fe8caa343bb7c8c6c8b55d2566510",
+    "rebuild_elf_hash": "0c3989a7fa5fe8caa343bb7c8c6c8b55d2566510",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}
