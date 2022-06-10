@@ -1,0 +1,31 @@
+{
+    "name": "com.github.gabutakut.gabutdm",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "3ab6925f3934eeedd081baa1f1fff7ad2e62f034af0c76764a70119b31fecd1d",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-24 00:18:11+00:00",
+    "timestamp_of_rebuild": 1650759491.0,
+    "git-commit": "7877dd350193385bac39b1a3380a258613fa1e97 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 411.5042941570282,
+    "cache_size": 2585358,
+    "git_size": 618611,
+    "dl_size": 1946188,
+    "bad_files": 1,
+    "total_files": 149,
+    "repro_score": 0.9932885906040269,
+    "original_hash": "1c855a6c06117b584d053b36a07e2754fcca06fc",
+    "rebuild_hash": "cc95bd92ed7aba30ae3307d35f65ad7203c12c9a",
+    "original_bin_hash": "e2f2008ec1f9f9ee6eef31b32a91a580962cf67e",
+    "rebuild_bin_hash": "26a9c079ac226309eb34565a36959a650ff95852",
+    "original_elf_hash": "d1610e3fbdf650053abc8b2f07d1684dd8588b4b",
+    "rebuild_elf_hash": "df022cf9bffbce2e495886d88d8008776a8626d3",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

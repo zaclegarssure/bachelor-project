@@ -1,0 +1,32 @@
+{
+    "name": "edu.stanford.Almond",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "ce252a6232abe47b1c27c2f43375ee8b390141b79c499a7ba46baa859bf8a27e",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-06 04:23:18+00:00",
+    "timestamp_of_rebuild": 1644121398.0,
+    "git-commit": "19ff86bfc26b22d94a1406291e19b3f320dd0130 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.node12/x86_64/21.08": "8053d7e389107d569af32b74f4a6e9586e7b07a82e70ed4474c30915a2f3cd8a",
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.gnome.Sdk/x86_64/41": "ecccb80495350cc4b6cbca854de8249bb1a92e01e80bacb2d492f1c4ff3be533",
+        "org.gnome.Platform/x86_64/41": "b0aed9b5fb8b5e3e1e1badc8711fa34667760cf5ce79b2727b8d8c21d4772577"
+    },
+    "build_time": 437.79520440101624,
+    "cache_size": 99318901,
+    "git_size": 5950127,
+    "dl_size": 93286775,
+    "bad_files": 8,
+    "total_files": 11364,
+    "repro_score": 0.9992960225272791,
+    "original_hash": "4e8941eb4fb881ea98ac556a9779ad13659c5caf",
+    "rebuild_hash": "b8f23d57a52a645badb4aa51934d15efda7ba913",
+    "original_bin_hash": "0c778097e6dd1317fa8975f417553cdefac69a0f",
+    "rebuild_bin_hash": "9b753f83a2330f5f944bc7f64659d6cc74a7444b",
+    "original_elf_hash": "7920a689a24ac889e71dc4696da554609d05e200",
+    "rebuild_elf_hash": "7920a689a24ac889e71dc4696da554609d05e200",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

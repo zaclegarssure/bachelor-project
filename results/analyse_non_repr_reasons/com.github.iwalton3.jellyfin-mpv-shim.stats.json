@@ -1,0 +1,31 @@
+{
+    "name": "com.github.iwalton3.jellyfin-mpv-shim",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "d36df199c837eed30405904bb271d48683012cf8202ad9ebdec5a812a5e57a0f",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-23 01:37:53+00:00",
+    "timestamp_of_rebuild": 1640223473.0,
+    "git-commit": "040f5acbf05ccde4e42a25fca741ecd172ab0602 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.gnome.Sdk/x86_64/41": "13610dcd6bdad52462f9b5112fb8b3b86c7a639e60a2f6784e25849e1dcad95d",
+        "org.gnome.Platform/x86_64/41": "cea3bffea9aad8ecd84ba25c89242b7f773543ffaac3393bcf8db5449aafd009"
+    },
+    "build_time": 890.3200540542603,
+    "cache_size": 214969943,
+    "git_size": 131561675,
+    "dl_size": 83387709,
+    "bad_files": 28,
+    "total_files": 2905,
+    "repro_score": 0.9903614457831326,
+    "original_hash": "7d52617e364c1249ab611e24d01bbd073132c017",
+    "rebuild_hash": "8763f21d3759eb5e8b0f28f068e38e23f9f62e07",
+    "original_bin_hash": "f6989ed3fad8064438bb26a06f6142543f65c8b5",
+    "rebuild_bin_hash": "df889c885b34fe8e6c73cc2147e9ac293ebd643a",
+    "original_elf_hash": "1b580c2af314024ff04cb84bf28fb24cd20bf8d2",
+    "rebuild_elf_hash": "3988f91781027cfc78a1954664a0494483526ef5",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

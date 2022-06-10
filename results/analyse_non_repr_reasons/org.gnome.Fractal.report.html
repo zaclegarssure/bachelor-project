@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="referrer" content="no-referrer" />
+  <meta name="generator" content="diffoscope" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAM8SURBVFiF7dZdaJZlGAfw3/O+e9XNjy3XllZzWImBxIpifqTgsmUHBSIeBNFBdRh0UHQ0xGdb66CFBIERZEFRQRRUw0HkQkLMYQSBdpCFWdgSP6jpNn2393k68Nn2bj3vXtb6UOh/cl/39b/u67mem/913zf/4z9GUDw5xNI8n5WIzW9m/QF2YluJmI8203mALzEvLWAerRs4Pz6vSIkZSlsYk0/GkaB0zEgyDgWMlijyWsJuS2fkQwu8pqpMTA0ypeiShG71Bp0rU8Q+A47MWEDgvHZbZl/Av4SpIgxVYB3IqwZDmoUuYkzosDaNchpAoFqkSmgjGPWzLieF1k3JHVsjvCJQHBYaSy9g1E3m+QImQiK9SbNGqJDzuiDZ0lggQJCsyelDq8BB47sbCWTsnvhG3kqcLL833eqF4hk1EOoTOjZjnnaRdq2l6KtMAyl4/g23bKJrun+Mt9uOq7nvqOVbebWYy9Adc1fM/R/3CO780dONbIeFPHsPw+ULeM5ZHTbXHfUtXpxOZzgT5z02UGsZThRzF/ilht9G+fr4zfbfccIxXIa7uVTup69i7LJXaEEqF3on1d9ludBLpVLOVoT1lky9QYtwQ6p3WAVqSyUslWwSbRrkPJrMtgn0iBVk7BPJ4sGE24EPQKW3jLgdzWKLBTbg0yTuZeGkDsp2gcUGDesHGQ/gK5G8nLMigWiCe3jCrnTRiJ9EYjm1ImsUEq5l8hScPXbpsVtlKhfan+pv0yD0ZqmU5XegGBmnDIo/pylj8oYLOP3Eab/v5Zmi6EtZ3vv1FU/2r7LioYSL2dNybbdiMdptFU57++20Vqh+iq/Tap1WpaWY611wmyWyUzxZDbIWTvEV1Ildn5agfBumoUMTtoisFvhebAAHZWxX0ChwTuScvHdVeVykToysMyJ7ittwbmj31J+6IrRDp5XTfBt1WJ+WYnZdMB0F3xlUgD5uDVj2Sa+a4SrzH+FeyHHmw17V112waBOZgP4WczkLZsILar1fpIliMU4XZoK/poE0XHl+N8v6QcGAUbVymnDIZVnzrTXqGzmnhKLxZX/niyiDjIJgwg4Se1GR/Y8idGPysh6fr0i1i/AHMWHgrwUJgNAAAAAASUVORK5CYII=" />
+  <title>/usr/bin/diffoscope org.gnome.Fractal.original org.gnome.Fractal.rebuild --exclude-directory-metadata=yes --html=org.gnome.Fractal.report.html</title>
+<style>
+body.diffoscope {
+  background: white;
+  color: black;
+}
+.diffoscope .footer {
+  font-size: small;
+}
+.diffoscope .difference {
+  border: outset #888 1px;
+  background: #E8E8E8;
+  background: rgba(0,0,0,.1);
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+.diffoscope .difference table {
+  table-layout: fixed;
+  width: 100%;
+  border: 0;
+}
+.diffoscope .difference th,
+.diffoscope .difference td {
+  border: 0;
+}
+.diffoscope table.diff {
+  border: 0;
+  border-collapse:collapse;
+  font-size:0.75em;
+  font-family: 'Lucida Console', monospace;
+  word-break: break-word;
+}
+.diffoscope table.diff tr:hover td {
+  background: #FFFF00;
+}
+.diffoscope .line {
+  color:#8080a0
+}
+.diffoscope th {
+  background: black;
+  color: white
+}
+.diffoscope .diffunmodified td {
+  background: #D0D0E0
+}
+.diffoscope .diffhunk td {
+  background: #A0A0A0
+}
+.diffoscope .diffadded td {
+  background: #CCFFCC
+}
+.diffoscope .diffdeleted td {
+  background: #FFCCCC
+}
+.diffoscope .diffchanged td {
+  background: #FFFFA0
+}
+.diffoscope ins, del {
+  background: #E0C880;
+  text-decoration: none
+}
+.diffoscope .dp {
+  color: #B08080
+}
+.diffoscope .comment {
+  font-style: italic;
+}
+.diffoscope .comment.multiline {
+  font-style: normal;
+  font-family: monospace;
+  white-space: pre;
+}
+.diffoscope .source {
+  font-weight: bold;
+}
+.diffoscope .error {
+  border: solid black 1px;
+  background: red;
+  color: white;
+  padding: 0.2em;
+}
+.diffoscope .anchor {
+  margin-left: 0.5em;
+  font-size: 80%;
+  color: #333;
+  text-decoration: none;
+  display: none;
+}
+.diffoscope .diffheader:hover .anchor {
+  display: inline;
+}
+.diffoscope .diffcontrol, .diffoscope .diffcontrol-nochildren {
+  float: left;
+  margin-right: 0.3em;
+  cursor: pointer;
+  display: none; /* currently, only available in html-dir output where jquery is enabled */
+}
+.diffoscope .colines {
+  width: 3em;
+}
+.diffoscope .coldiff {
+  width: 99%;
+}
+.diffoscope .diffsize {
+  float: right;
+}
+.diffoscope table.diff tr.ondemand td, .diffoscope div.ondemand-details {
+  background: #f99;
+  text-align: center;
+  padding: 0.5em 0;
+}
+.diffoscope table.diff tr.ondemand:hover td, .diffoscope div.ondemand-details:hover {
+  background: #faa;
+  cursor: pointer;
+}
+</style>
+</head>
+<body class="diffoscope">
+<div class="difference">
+  <div class="diffheader">
+  <div class="diffcontrol diffcontrol-double">⊟</div>
+  <div><span class="diffsize">4.97 KB</span></div>
+  <div><span class="source">org.gnome.Fractal.original</span> vs.</div>
+  <div id="top"><span class="source">org.gnome.Fractal.rebuild</span>
+    <a class="anchor" href="#top">¶</a>
+  </div>
+  </div>
+  <div class="difference">
+    <div class="diffheader">
+    <div class="diffcontrol diffcontrol-double">⊟</div>
+    <div><span class="diffsize">4.92 KB</span></div>
+    <div><span class="source">org.gnome.Fractal.original/files</span> vs.</div>
+    <div id="org.gnome.Fractal.original-files"><span class="source">org.gnome.Fractal.rebuild/files</span>
+      <a class="anchor" href="#org.gnome.Fractal.original-files">¶</a>
+    </div>
+    </div>
+    <div class="difference">
+      <div class="diffheader">
+      <div class="diffcontrol diffcontrol-double">⊟</div>
+      <div><span class="diffsize">2.19 KB</span></div>
+      <div><span class="source">org.gnome.Fractal.original/files/manifest.json</span> vs.</div>
+      <div id="org.gnome.Fractal.original-files---org.gnome.Fractal.original-files-manifest.json"><span class="source">org.gnome.Fractal.rebuild/files/manifest.json</span>
+        <a class="anchor" href="#org.gnome.Fractal.original-files---org.gnome.Fractal.original-files-manifest.json">¶</a>
+      </div>
+      </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 170, 19 lines modified</td><td colspan="2">Offset 170, 19 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2" class="diffpresent">00000a90:<span class="dp">·</span>222c<span class="dp">·</span>0a20<span class="dp">·</span>2020<span class="dp">·</span>2022<span class="dp">·</span>2d2d<span class="dp">·</span>7461<span class="dp">·</span>6c6b<span class="dp">·</span>2d6e<span class="dp">·</span><span class="dp">·</span>&quot;,.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;--talk-n</td><td colspan="2" class="diffpresent">00000a90:<span class="dp">·</span>222c<span class="dp">·</span>0a20<span class="dp">·</span>2020<span class="dp">·</span>2022<span class="dp">·</span>2d2d<span class="dp">·</span>7461<span class="dp">·</span>6c6b<span class="dp">·</span>2d6e<span class="dp">·</span><span class="dp">·</span>&quot;,.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;--talk-n</td></tr>
+<tr class="diffunmodified"><td colspan="2" class="diffpresent">00000aa0:<span class="dp">·</span>616d<span class="dp">·</span>653d<span class="dp">·</span>6f72<span class="dp">·</span>672e<span class="dp">·</span>6672<span class="dp">·</span>6565<span class="dp">·</span>6465<span class="dp">·</span>736b<span class="dp">·</span><span class="dp">·</span>ame=org.freedesk</td><td colspan="2" class="diffpresent">00000aa0:<span class="dp">·</span>616d<span class="dp">·</span>653d<span class="dp">·</span>6f72<span class="dp">·</span>672e<span class="dp">·</span>6672<span class="dp">·</span>6565<span class="dp">·</span>6465<span class="dp">·</span>736b<span class="dp">·</span><span class="dp">·</span>ame=org.freedesk</td></tr>
+<tr class="diffunmodified"><td colspan="2" class="diffpresent">00000ab0:<span class="dp">·</span>746f<span class="dp">·</span>702e<span class="dp">·</span>4e6f<span class="dp">·</span>7469<span class="dp">·</span>6669<span class="dp">·</span>6361<span class="dp">·</span>7469<span class="dp">·</span>6f6e<span class="dp">·</span><span class="dp">·</span>top.Notification</td><td colspan="2" class="diffpresent">00000ab0:<span class="dp">·</span>746f<span class="dp">·</span>702e<span class="dp">·</span>4e6f<span class="dp">·</span>7469<span class="dp">·</span>6669<span class="dp">·</span>6361<span class="dp">·</span>7469<span class="dp">·</span>6f6e<span class="dp">·</span><span class="dp">·</span>top.Notification</td></tr>
+<tr class="diffunmodified"><td colspan="2" class="diffpresent">00000ac0:<span class="dp">·</span>7322<span class="dp">·</span>2c0a<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>222d<span class="dp">·</span>2d6d<span class="dp">·</span>6574<span class="dp">·</span>6164<span class="dp">·</span><span class="dp">·</span>s&quot;,.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;--metad</td><td colspan="2" class="diffpresent">00000ac0:<span class="dp">·</span>7322<span class="dp">·</span>2c0a<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>222d<span class="dp">·</span>2d6d<span class="dp">·</span>6574<span class="dp">·</span>6164<span class="dp">·</span><span class="dp">·</span>s&quot;,.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;--metad</td></tr>
+<tr class="diffunmodified"><td colspan="2" class="diffpresent">00000ad0:<span class="dp">·</span>6174<span class="dp">·</span>613d<span class="dp">·</span>582d<span class="dp">·</span>4443<span class="dp">·</span>6f6e<span class="dp">·</span>663d<span class="dp">·</span>6d69<span class="dp">·</span>6772<span class="dp">·</span><span class="dp">·</span>ata=X-DConf=migr</td><td colspan="2" class="diffpresent">00000ad0:<span class="dp">·</span>6174<span class="dp">·</span>613d<span class="dp">·</span>582d<span class="dp">·</span>4443<span class="dp">·</span>6f6e<span class="dp">·</span>663d<span class="dp">·</span>6d69<span class="dp">·</span>6772<span class="dp">·</span><span class="dp">·</span>ata=X-DConf=migr</td></tr>
+<tr class="diffunmodified"><td colspan="2" class="diffpresent">00000ae0:<span class="dp">·</span>6174<span class="dp">·</span>652d<span class="dp">·</span>7061<span class="dp">·</span>7468<span class="dp">·</span>3d2f<span class="dp">·</span>6f72<span class="dp">·</span>672f<span class="dp">·</span>676e<span class="dp">·</span><span class="dp">·</span>ate-path=/org/gn</td><td colspan="2" class="diffpresent">00000ae0:<span class="dp">·</span>6174<span class="dp">·</span>652d<span class="dp">·</span>7061<span class="dp">·</span>7468<span class="dp">·</span>3d2f<span class="dp">·</span>6f72<span class="dp">·</span>672f<span class="dp">·</span>676e<span class="dp">·</span><span class="dp">·</span>ate-path=/org/gn</td></tr>
+<tr class="diffunmodified"><td colspan="2" class="diffpresent">00000af0:<span class="dp">·</span>6f6d<span class="dp">·</span>652f<span class="dp">·</span>6661<span class="dp">·</span>6374<span class="dp">·</span>616c<span class="dp">·</span>2f22<span class="dp">·</span>0a20<span class="dp">·</span>205d<span class="dp">·</span><span class="dp">·</span>ome/factal/&quot;.<span class="dp">·</span><span class="dp">·</span>]</td><td colspan="2" class="diffpresent">00000af0:<span class="dp">·</span>6f6d<span class="dp">·</span>652f<span class="dp">·</span>6661<span class="dp">·</span>6374<span class="dp">·</span>616c<span class="dp">·</span>2f22<span class="dp">·</span>0a20<span class="dp">·</span>205d<span class="dp">·</span><span class="dp">·</span>ome/factal/&quot;.<span class="dp">·</span><span class="dp">·</span>]</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">00000b00:<span class="dp">·</span>2c0a<span class="dp">·</span>2020<span class="dp">·</span>2274<span class="dp">·</span>6167<span class="dp">·</span>7322<span class="dp">·</span>203a<span class="dp">·</span>205b<span class="dp">·</span><del>0a</del>2<del>0</del><span class="dp">·</span><span class="dp">·</span>,.<span class="dp">·</span><span class="dp">·</span>&quot;tags&quot;<span class="dp">·</span>:<span class="dp">·</span>[<del>.<span class="dp">·</span></del></td><td colspan="2" class="diffpresent">00000b00:<span class="dp">·</span>2c0a<span class="dp">·</span>2020<span class="dp">·</span>2274<span class="dp">·</span>6167<span class="dp">·</span>7322<span class="dp">·</span>203a<span class="dp">·</span>205b<span class="dp">·</span><ins>5d</ins>2<ins>c</ins><span class="dp">·</span><span class="dp">·</span>,.<span class="dp">·</span><span class="dp">·</span>&quot;tags&quot;<span class="dp">·</span>:<span class="dp">·</span>[<ins>],</ins></td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">00000b10:<span class="dp">·</span>0a20<span class="dp">·</span>2022<span class="dp">·</span>6164<span class="dp">·</span>642d<span class="dp">·</span>6578<span class="dp">·</span>7465<span class="dp">·</span>6e73<span class="dp">·</span>696f<span class="dp">·</span><span class="dp">·</span>.<span class="dp">·</span><span class="dp">·</span>&quot;add-extensio</td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">00000b10:<span class="dp">·</span>205d<span class="dp">·</span>2c0a<span class="dp">·</span>2020<span class="dp">·</span>2261<span class="dp">·</span>6464<span class="dp">·</span>2d65<span class="dp">·</span>7874<span class="dp">·</span>656e<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>],.<span class="dp">·</span><span class="dp">·</span>&quot;add-exten</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">00000b20:<span class="dp">·</span>7369<span class="dp">·</span>6f6e<span class="dp">·</span>7322<span class="dp">·</span>203a<span class="dp">·</span>207b<span class="dp">·</span>0a20<span class="dp">·</span>2020<span class="dp">·</span>2022<span class="dp">·</span><span class="dp">·</span>sions&quot;<span class="dp">·</span>:<span class="dp">·</span>{.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">00000b30:<span class="dp">·</span>6f72<span class="dp">·</span>672e<span class="dp">·</span>6672<span class="dp">·</span>6565<span class="dp">·</span>6465<span class="dp">·</span>736b<span class="dp">·</span>746f<span class="dp">·</span>702e<span class="dp">·</span><span class="dp">·</span>org.freedesktop.</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">00000b40:<span class="dp">·</span>506c<span class="dp">·</span>6174<span class="dp">·</span>666f<span class="dp">·</span>726d<span class="dp">·</span>2e66<span class="dp">·</span>666d<span class="dp">·</span>7065<span class="dp">·</span>672d<span class="dp">·</span><span class="dp">·</span>Platform.ffmpeg-</td><td colspan="2"> </td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">00000b<del>5</del>0:<span class="dp">·</span>6<del>6</del>7<del>5<span class="dp">·</span>6c6</del><del>c</del><span class="dp">·</span>2220<span class="dp">·</span>3a20<span class="dp">·</span>7b0a<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2<del>020</del><span class="dp">·</span><del><span class="dp">·</span>full</del>&quot;<span class="dp">·</span>:<span class="dp">·</span>{.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><del><span class="dp">·</span><span class="dp">·</span></del></td><td colspan="2" class="diffpresent">00000b<ins>2</ins>0:<span class="dp">·</span>6<ins>e</ins>7<ins>3</ins><span class="dp">·</span>2220<span class="dp">·</span>3a20<span class="dp">·</span>7b0a<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2<ins>26f</ins><span class="dp">·</span><ins>726</ins><ins>7<span class="dp">·</span><span class="dp">·</span>ns</ins>&quot;<span class="dp">·</span>:<span class="dp">·</span>{.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><ins>&quot;o</ins><ins>rg</ins></td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">00000b<del>6</del>0:<span class="dp">·</span>2<del>2</del>6<del>4</del><span class="dp">·</span><del>6972</del><span class="dp">·</span>656<del>3</del><span class="dp">·</span><del>746f</del><span class="dp">·</span><del>72</del>7<del>9</del><span class="dp">·</span><del>222</del>0<span class="dp">·</span><del>3a2</del>0<span class="dp">·</span><del>22</del>6<del>c</del><span class="dp">·</span><span class="dp">·</span><del>&quot;</del><del>di</del>re<del>ctory&quot;<span class="dp">·</span>:<span class="dp">·</span>&quot;</del>l</td><td colspan="2" class="diffpresent">00000b<ins>3</ins>0:<span class="dp">·</span>2<ins>e</ins>6<ins>6</ins><span class="dp">·</span><ins>7265</ins><span class="dp">·</span>656<ins>4</ins><span class="dp">·</span><ins>6573</ins><span class="dp">·</span><ins>6b</ins>7<ins>4</ins><span class="dp">·</span><ins>6f7</ins>0<span class="dp">·</span><ins>2e5</ins>0<span class="dp">·</span><ins>6c</ins>6<ins>1</ins><span class="dp">·</span><span class="dp">·</span><ins>.f</ins>re<ins>edesktop.P</ins>l<ins>a</ins></td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">00000b40:<span class="dp">·</span>7466<span class="dp">·</span>6f72<span class="dp">·</span>6d2e<span class="dp">·</span>6666<span class="dp">·</span>6d70<span class="dp">·</span>6567<span class="dp">·</span>2d66<span class="dp">·</span>756c<span class="dp">·</span><span class="dp">·</span>tform.ffmpeg-ful</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">00000b50:<span class="dp">·</span>6c22<span class="dp">·</span>203a<span class="dp">·</span>207b<span class="dp">·</span>0a20<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2022<span class="dp">·</span>6469<span class="dp">·</span><span class="dp">·</span>l&quot;<span class="dp">·</span>:<span class="dp">·</span>{.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;di</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">00000b60:<span class="dp">·</span>7265<span class="dp">·</span>6374<span class="dp">·</span>6f72<span class="dp">·</span>7922<span class="dp">·</span>203a<span class="dp">·</span>2022<span class="dp">·</span>6c69<span class="dp">·</span>622f<span class="dp">·</span><span class="dp">·</span>rectory&quot;<span class="dp">·</span>:<span class="dp">·</span>&quot;lib/</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">00000b70:<span class="dp">·</span>6<del>9</del>6<del>2<span class="dp">·</span>2f</del>66<span class="dp">·</span><del>66</del>6d<del><span class="dp">·</span></del>7065<del><span class="dp">·</span></del>67<del>2</del>2<del><span class="dp">·</span></del>2c0a<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span><del><span class="dp">·</span>ib/</del>ffmpeg&quot;,.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span></td><td colspan="2" class="diffpresent">00000b70:<span class="dp">·</span>6666<span class="dp">·</span>6d70<ins><span class="dp">·</span></ins>6567<ins><span class="dp">·</span></ins>2<ins>2</ins>2c<ins><span class="dp">·</span></ins>0a<ins>20</ins><span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span><ins>20</ins><ins>22<span class="dp">·</span><span class="dp">·</span></ins>ffmpeg&quot;,.<ins><span class="dp">·</span><span class="dp">·</span></ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><ins>&quot;</ins></td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">00000b80:<span class="dp">·</span>2020<span class="dp">·</span>2261<span class="dp">·</span>6464<span class="dp">·</span>2d6c<span class="dp">·</span>642d<span class="dp">·</span>7061<span class="dp">·</span>7468<span class="dp">·</span>2220<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;add-ld-path&quot;<span class="dp">·</span></td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">00000b90:<span class="dp">·</span>3a20<span class="dp">·</span>222e<span class="dp">·</span>222c<span class="dp">·</span>0a20<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2022<span class="dp">·</span>7665<span class="dp">·</span><span class="dp">·</span>:<span class="dp">·</span>&quot;.&quot;,.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;ve</td><td colspan="2"> </td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">00000b<del>a</del>0:<span class="dp">·</span><del>7273</del><span class="dp">·</span>6<del>96f</del><span class="dp">·</span>6<del>e22</del><span class="dp">·</span>2<del>03a</del><span class="dp">·</span><del>2022</del><span class="dp">·</span><del>3231</del><span class="dp">·</span>2<del>e</del>3<del>0</del><span class="dp">·</span><del>38</del>22<span class="dp">·</span><span class="dp">·</span><del>rsion&quot;<span class="dp">·</span>:<span class="dp">·</span>&quot;21.08</del>&quot;</td><td colspan="2" class="diffpresent">00000b<ins>8</ins>0:<span class="dp">·</span><ins>6164</ins><span class="dp">·</span>6<ins>42d</ins><span class="dp">·</span>6<ins>c64</ins><span class="dp">·</span>2<ins>d70</ins><span class="dp">·</span><ins>6174</ins><span class="dp">·</span><ins>6822</ins><span class="dp">·</span>2<ins>0</ins>3<ins>a</ins><span class="dp">·</span><ins>20</ins>22<span class="dp">·</span><span class="dp">·</span><ins>add-ld-path&quot;<span class="dp">·</span>:<span class="dp">·</span></ins>&quot;</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">00000b90:<span class="dp">·</span>2e22<span class="dp">·</span>2c0a<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2276<span class="dp">·</span>6572<span class="dp">·</span>7369<span class="dp">·</span><span class="dp">·</span>.&quot;,.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;versi</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">00000ba0:<span class="dp">·</span>6f6e<span class="dp">·</span>2220<span class="dp">·</span>3a20<span class="dp">·</span>2232<span class="dp">·</span>312e<span class="dp">·</span>3038<span class="dp">·</span>220a<span class="dp">·</span>2020<span class="dp">·</span><span class="dp">·</span>on&quot;<span class="dp">·</span>:<span class="dp">·</span>&quot;21.08&quot;.<span class="dp">·</span><span class="dp">·</span></td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">00000bb0:<span class="dp">·</span><del>0a</del>20<span class="dp">·</span><del>2</del>020<del><span class="dp">·</span></del>207d<del><span class="dp">·</span></del>0a<del>20</del><span class="dp">·</span><del>20</del>7d<span class="dp">·</span><del>0</del><del>a7d</del><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><del>.</del><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>}.<span class="dp">·</span><span class="dp">·</span>}.}</td><td colspan="2" class="diffpresent">00000bb0:<span class="dp">·</span><ins>20</ins>20<span class="dp">·</span><ins>7</ins><ins>d</ins>0<ins>a<span class="dp">·</span></ins>2020<ins><span class="dp">·</span></ins>7d0a<span class="dp">·</span>7d<span class="dp">·</span><ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span></ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><ins><span class="dp">·</span></ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>}.<span class="dp">·</span><span class="dp">·</span>}.}</td></tr>
+</table>    </div>
+    <div class="difference">
+      <div class="diffheader">
+      <div class="diffcontrol diffcontrol-double">⊟</div>
+      <div><span class="diffsize">2.67 KB</span></div>
+      <div><span class="source">org.gnome.Fractal.original/files/share</span> vs.</div>
+      <div id="org.gnome.Fractal.original-files---org.gnome.Fractal.original-files-share"><span class="source">org.gnome.Fractal.rebuild/files/share</span>
+        <a class="anchor" href="#org.gnome.Fractal.original-files---org.gnome.Fractal.original-files-share">¶</a>
+      </div>
+      </div>
+      <div class="difference">
+        <div class="diffheader">
+        <div class="diffcontrol diffcontrol-double">⊟</div>
+        <div><span class="diffsize">2.59 KB</span></div>
+        <div><span class="source">org.gnome.Fractal.original/files/share/app-info</span> vs.</div>
+        <div id="org.gnome.Fractal.original-files---org.gnome.Fractal.original-files-share---org.gnome.Fractal.original-files-share-app-info"><span class="source">org.gnome.Fractal.rebuild/files/share/app-info</span>
+          <a class="anchor" href="#org.gnome.Fractal.original-files---org.gnome.Fractal.original-files-share---org.gnome.Fractal.original-files-share-app-info">¶</a>
+        </div>
+        </div>
+        <div class="difference">
+          <div class="diffheader">
+          <div class="diffcontrol diffcontrol-double">⊟</div>
+          <div><span class="diffsize">2.5 KB</span></div>
+          <div><span class="source">org.gnome.Fractal.original/files/share/app-info/xmls</span> vs.</div>
+          <div id="org.gnome.Fractal.original-files---org.gnome.Fractal.original-files-share---org.gnome.Fractal.original-files-share-app-info---org.gnome.Fractal.original-files-share-app-info-xmls"><span class="source">org.gnome.Fractal.rebuild/files/share/app-info/xmls</span>
+            <a class="anchor" href="#org.gnome.Fractal.original-files---org.gnome.Fractal.original-files-share---org.gnome.Fractal.original-files-share-app-info---org.gnome.Fractal.original-files-share-app-info-xmls">¶</a>
+          </div>
+          </div>
+          <div class="difference">
+            <div class="diffheader">
+            <div class="diffcontrol diffcontrol-double">⊟</div>
+            <div><span class="diffsize">2.4 KB</span></div>
+            <div><span class="source">org.gnome.Fractal.original/files/share/app-info/xmls/org.gnome.Fractal.xml.gz</span> vs.</div>
+            <div id="org.gnome.Fractal.original-files---org.gnome.Fractal.original-files-share---org.gnome.Fractal.original-files-share-app-info---org.gnome.Fractal.original-files-share-app-info-xmls---org.gnome.Fractal.original-files-share-app-info-xmls-org.gnome.Fractal.xml.gz"><span class="source">org.gnome.Fractal.rebuild/files/share/app-info/xmls/org.gnome.Fractal.xml.gz</span>
+              <a class="anchor" href="#org.gnome.Fractal.original-files---org.gnome.Fractal.original-files-share---org.gnome.Fractal.original-files-share-app-info---org.gnome.Fractal.original-files-share-app-info-xmls---org.gnome.Fractal.original-files-share-app-info-xmls-org.gnome.Fractal.xml.gz">¶</a>
+            </div>
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol">⊟</div>
+              <div><span class="diffsize">2.25 KB</span></div>
+              <div id="org.gnome.Fractal.original-files---org.gnome.Fractal.original-files-share---org.gnome.Fractal.original-files-share-app-info---org.gnome.Fractal.original-files-share-app-info-xmls---org.gnome.Fractal.original-files-share-app-info-xmls-org.gnome.Fractal.xml.gz---org.gnome.Fractal.xml"><span class="source">org.gnome.Fractal.xml</span>
+                <a class="anchor" href="#org.gnome.Fractal.original-files---org.gnome.Fractal.original-files-share---org.gnome.Fractal.original-files-share-app-info---org.gnome.Fractal.original-files-share-app-info-xmls---org.gnome.Fractal.original-files-share-app-info-xmls-org.gnome.Fractal.xml.gz---org.gnome.Fractal.xml">¶</a>
+              </div>
+              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">2.21 KB</span></div>
+                <div id="org.gnome.Fractal.original-files---org.gnome.Fractal.original-files-share---org.gnome.Fractal.original-files-share-app-info---org.gnome.Fractal.original-files-share-app-info-xmls---org.gnome.Fractal.original-files-share-app-info-xmls-org.gnome.Fractal.xml.gz---org.gnome.Fractal.xml---org.gnome.Fractal.xml"><span class="source">org.gnome.Fractal.xml</span>
+                  <a class="anchor" href="#org.gnome.Fractal.original-files---org.gnome.Fractal.original-files-share---org.gnome.Fractal.original-files-share-app-info---org.gnome.Fractal.original-files-share-app-info-xmls---org.gnome.Fractal.original-files-share-app-info-xmls-org.gnome.Fractal.xml.gz---org.gnome.Fractal.xml---org.gnome.Fractal.xml">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 201, 25 lines modified</td><td colspan="2">Offset 201, 14 lines modified</td></tr>
+<tr class="diffunmodified"><td class="diffline">201 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;kudo&gt;Notifications&lt;/kudo&gt;</td><td class="diffline">201 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;kudo&gt;Notifications&lt;/kudo&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">202 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;/kudos&gt;</td><td class="diffline">202 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;/kudos&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">203 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;project_license&gt;GPL-3.0&lt;/project_license&gt;</td><td class="diffline">203 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;project_license&gt;GPL-3.0&lt;/project_license&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">204 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;url<span class="dp">·</span>type=&quot;bugtracker&quot;&gt;https://gitlab.gnome.org/GNOME/fractal/issues/&lt;/url&gt;</td><td class="diffline">204 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;url<span class="dp">·</span>type=&quot;bugtracker&quot;&gt;https://gitlab.gnome.org/GNOME/fractal/issues/&lt;/url&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">205 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;url<span class="dp">·</span>type=&quot;donation&quot;&gt;http://www.gnome.org/friends/&lt;/url&gt;</td><td class="diffline">205 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;url<span class="dp">·</span>type=&quot;donation&quot;&gt;http://www.gnome.org/friends/&lt;/url&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">206 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;url<span class="dp">·</span>type=&quot;homepage&quot;&gt;https://gitlab.gnome.org/GNOME/fractal&lt;/url&gt;</td><td class="diffline">206 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;url<span class="dp">·</span>type=&quot;homepage&quot;&gt;https://gitlab.gnome.org/GNOME/fractal&lt;/url&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">207 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;project_group&gt;GNOME&lt;/project_group&gt;</td><td class="diffline">207 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;project_group&gt;GNOME&lt;/project_group&gt;</td></tr>
+<tr class="diffdeleted"><td class="diffline">208 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;screenshots&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">209 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;screenshot<span class="dp">·</span>type=&quot;default&quot;&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">210 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;source&quot;&gt;https://gitlab.gnome.org/GNOME/fractal/raw/master/screenshots/fractal.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">211 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;351&quot;<span class="dp">·</span>width=&quot;624&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Fractal-stable/624x351/org.gnome.Fractal-75b37b9f24a8700a34faab040fda03c4.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">212 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;702&quot;<span class="dp">·</span>width=&quot;1248&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Fractal-stable/1248x702/org.gnome.Fractal-75b37b9f24a8700a34faab040fda03c4.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">213 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;63&quot;<span class="dp">·</span>width=&quot;112&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Fractal-stable/112x63/org.gnome.Fractal-75b37b9f24a8700a34faab040fda03c4.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">214 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;126&quot;<span class="dp">·</span>width=&quot;224&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Fractal-stable/224x126/org.gnome.Fractal-75b37b9f24a8700a34faab040fda03c4.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">215 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;423&quot;<span class="dp">·</span>width=&quot;752&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Fractal-stable/752x423/org.gnome.Fractal-75b37b9f24a8700a34faab040fda03c4.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">216 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;846&quot;<span class="dp">·</span>width=&quot;1504&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Fractal-stable/1504x846/org.gnome.Fractal-75b37b9f24a8700a34faab040fda03c4.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">217 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;/screenshot&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">218 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;/screenshots&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">219 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_rating<span class="dp">·</span>type=&quot;oars-1.0&quot;&gt;</td><td class="diffline">208 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_rating<span class="dp">·</span>type=&quot;oars-1.0&quot;&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">220 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-cartoon&quot;&gt;none&lt;/content_attribute&gt;</td><td class="diffline">209 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-cartoon&quot;&gt;none&lt;/content_attribute&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">221 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-fantasy&quot;&gt;none&lt;/content_attribute&gt;</td><td class="diffline">210 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-fantasy&quot;&gt;none&lt;/content_attribute&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">222 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-realistic&quot;&gt;none&lt;/content_attribute&gt;</td><td class="diffline">211 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-realistic&quot;&gt;none&lt;/content_attribute&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">223 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-bloodshed&quot;&gt;none&lt;/content_attribute&gt;</td><td class="diffline">212 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-bloodshed&quot;&gt;none&lt;/content_attribute&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">224 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-sexual&quot;&gt;none&lt;/content_attribute&gt;</td><td class="diffline">213 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-sexual&quot;&gt;none&lt;/content_attribute&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">225 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;drugs-alcohol&quot;&gt;none&lt;/content_attribute&gt;</td><td class="diffline">214 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;drugs-alcohol&quot;&gt;none&lt;/content_attribute&gt;</td></tr>
+</table>              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+Generated by
+<a href="https://diffoscope.org" rel="noopener noreferrer" target="_blank">
+diffoscope</a> 213
+</div>
+</body>
+</html>
+

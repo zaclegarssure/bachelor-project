@@ -1,0 +1,32 @@
+{
+    "name": "com.github.artemanufrij.graphui",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "8212e223d81dccc4468ac0cc0b6cc1a7ccad6ca09b242a633c536e917f903b0a",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-05 22:28:46+00:00",
+    "timestamp_of_rebuild": 1644100126.0,
+    "git-commit": "cdc84ad514f81812763a5e8a930c8b85486cce6c master",
+    "flatpak-deps": {
+        "io.elementary.BaseApp/x86_64/juno-20.08": "74b996016ed985696b382feb1e3aa3886e394ac583c74b6d9d686196dc0dd502",
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.freedesktop.Sdk/x86_64/20.08": "71208aa5f95930a2665f0019ba8135b9cfa6dec04a411797b9d3b9a1c5186fa2",
+        "org.freedesktop.Platform/x86_64/20.08": "2857bbad6f429653e6bb3534568e1900eac395196bcac7641ef21f7950eb9898"
+    },
+    "build_time": 75.8347978591919,
+    "cache_size": 1615379,
+    "git_size": 0,
+    "dl_size": 1598916,
+    "bad_files": 1,
+    "total_files": 4511,
+    "repro_score": 0.9997783196630459,
+    "original_hash": "0209233ad10d14dc082bfbf6f92d32c9cd9240e1",
+    "rebuild_hash": "0ddd911ee9e1b3be7c14d16f36d8722476b0b5e9",
+    "original_bin_hash": "0de966a53bf7d029908c39eed758b646424bf1ae",
+    "rebuild_bin_hash": "9e2c2ff36bc38bcc3ca4afdc4d20f992527b6a10",
+    "original_elf_hash": "93da1866764010c2e64117f1c12cd06c83395c07",
+    "rebuild_elf_hash": "93da1866764010c2e64117f1c12cd06c83395c07",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

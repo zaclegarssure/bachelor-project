@@ -1,0 +1,31 @@
+{
+    "name": "com.github.alexhuntley.Plots",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "6d994bf1d26f26d199f379a7e80f8f80271fb871aa4ff5e2c612bb8a0cf63f8d",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-04 22:53:41+00:00",
+    "timestamp_of_rebuild": 1649112821.0,
+    "git-commit": "528b5abcb580a07a1eda2fe7f0e8e447503cf7ce master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 557.3360426425934,
+    "cache_size": 20866283,
+    "git_size": 929187,
+    "dl_size": 19916537,
+    "bad_files": 38,
+    "total_files": 7329,
+    "repro_score": 0.9948151180242871,
+    "original_hash": "1be0f79db51fe8db76b665d2339fc32bc40ce6d6",
+    "rebuild_hash": "b1991869ff58a6aaa0cb5e8fb3d1af688858d966",
+    "original_bin_hash": "5280a417acc023f1952a39032f67f3d93de33253",
+    "rebuild_bin_hash": "0c4e756587e040ca736c5b90c428618ea72dafb0",
+    "original_elf_hash": "580cf8f37a695dc04734a890351157c89b3aaa75",
+    "rebuild_elf_hash": "5302829b57abe3ced9a5e1b6c9f12df11b531f13",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

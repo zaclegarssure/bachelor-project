@@ -1,0 +1,31 @@
+{
+    "name": "ar.com.softwareperonista.Rockarrolla",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "03e4ed62a1be44edeb9c17a00159465d04676e2664965ec1ca2593cc1f21c0f9",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-12 15:18:17+00:00",
+    "timestamp_of_rebuild": 1639322297.0,
+    "git-commit": "dbf2a3f7265570738880cb8fc0a21973c286c278 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.gnome.Sdk/x86_64/41": "13610dcd6bdad52462f9b5112fb8b3b86c7a639e60a2f6784e25849e1dcad95d",
+        "org.gnome.Platform/x86_64/41": "cea3bffea9aad8ecd84ba25c89242b7f773543ffaac3393bcf8db5449aafd009"
+    },
+    "build_time": 54.058088302612305,
+    "cache_size": 2821536,
+    "git_size": 0,
+    "dl_size": 2805073,
+    "bad_files": 1,
+    "total_files": 22,
+    "repro_score": 0.9545454545454546,
+    "original_hash": "f4505166634a241321d574bb3dd72b527a51b695",
+    "rebuild_hash": "eafc5a3832e6821df7b38857ea71866b3d6eb55e",
+    "original_bin_hash": "0d67a30971ff9819ad10c995d4094483a550179c",
+    "rebuild_bin_hash": "0d67a30971ff9819ad10c995d4094483a550179c",
+    "original_elf_hash": "4789857064422359d2c5dfadd27d6d0f35ff1391",
+    "rebuild_elf_hash": "4789857064422359d2c5dfadd27d6d0f35ff1391",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

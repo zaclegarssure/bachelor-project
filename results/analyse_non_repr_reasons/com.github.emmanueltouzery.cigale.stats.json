@@ -1,0 +1,32 @@
+{
+    "name": "com.github.emmanueltouzery.cigale",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "b970ed578940193132534777ced6b81a4fe33493a4f883039b5281f04ba3e988",
+    "branch": "stable",
+    "time_of_rebuild": "2021-07-10 19:23:40+00:00",
+    "timestamp_of_rebuild": 1625945020.0,
+    "git-commit": "8d6bfac8274b24ccf091b21da352564e74804aa7 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/20.08": "3a579dff5d32eb23abe370ed8bd45047bd68888fb78962d809ae5dc206dc962a",
+        "org.flatpak.Builder/x86_64/stable": "5bb4449e7d2ac3622c34816c040e39ac4ce0df7f50caa51a66b8ac45a3242b8c",
+        "org.freedesktop.Sdk/x86_64/20.08": "aa987b7abf13970a660324557bcf158f6924f9049c8b0a8b6c40c0db212f86b5",
+        "org.freedesktop.Platform/x86_64/20.08": "63c4b310325615c74b8b5b2576733e3e7b751026cb5bf458c98ffacd7bfc6235"
+    },
+    "build_time": 497.92107129096985,
+    "cache_size": 28872373,
+    "git_size": 155047,
+    "dl_size": 28672191,
+    "bad_files": 1,
+    "total_files": 11,
+    "repro_score": 0.9090909090909091,
+    "original_hash": "6adbda290b19923247db60cf5e460899299afd6c",
+    "rebuild_hash": "45f1aa2516d41b03429c94c0f595dfbb43181fed",
+    "original_bin_hash": "f2047f65802c46bce4346ef2e8aa85fb794b651a",
+    "rebuild_bin_hash": "20e1615be1bdc75ad2f5d85b780019271c4b11dc",
+    "original_elf_hash": "29b4a790a1a0fd4e2be2b2293736ab40018c6af6",
+    "rebuild_elf_hash": "c0fbec5d5cd5e06b79a84a76142c29e61a02928f",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

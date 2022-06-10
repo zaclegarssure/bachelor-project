@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.HexGL",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "9c5fa1df395901b4aaafb90890d6d77fe915a36292aa71d289c029c1083e24e3",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-04 21:31:21+00:00",
+    "timestamp_of_rebuild": 1654378281.0,
+    "git-commit": "5fbc1763e26d09498ee625da6d3dc92c801f6f61 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "26aed7da8ceb3d067b8af1739d35d1c33c5d80391b964f95a3c2bf000cf6ce49",
+        "org.freedesktop.Platform/x86_64/21.08": "b76cb66319a7c5877ea02dcdd4d8bd53b3c6470b6f9c96fb3238ff216bf991c7"
+    },
+    "build_time": 90.02413082122803,
+    "cache_size": 35288059,
+    "git_size": 34944444,
+    "dl_size": 323056,
+    "bad_files": 0,
+    "total_files": 57,
+    "repro_score": 1.0,
+    "original_hash": "db319cab089178860ba67a13a9088499dad0768d",
+    "rebuild_hash": "db319cab089178860ba67a13a9088499dad0768d",
+    "original_bin_hash": "534c4dc75c371eefbbe9d13dc058944f40f1fec5",
+    "rebuild_bin_hash": "534c4dc75c371eefbbe9d13dc058944f40f1fec5",
+    "original_elf_hash": "7b61c4294f9f3440807c8b1b66ed1f27f2ebce51",
+    "rebuild_elf_hash": "7b61c4294f9f3440807c8b1b66ed1f27f2ebce51",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

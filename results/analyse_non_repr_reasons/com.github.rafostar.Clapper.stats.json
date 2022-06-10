@@ -1,0 +1,31 @@
+{
+    "name": "com.github.rafostar.Clapper",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "de26b3689f2bea909fada7e72bb01cbd347fae63a086b0ef31b971112c9b133a",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-30 12:21:45+00:00",
+    "timestamp_of_rebuild": 1653913305.0,
+    "git-commit": "a4125b426459453c1476858c1ac3f89bf1ece17c master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "c3ea4e88f8f9d05efb8b085abb2d1f56d8bab435dade310f31edef002612736d",
+        "org.gnome.Platform/x86_64/42": "ad9ceb4f734c754fe1db5ee926eb1482062ef35f0f588cd74f486eceb3f1028a"
+    },
+    "build_time": 1337.6272859573364,
+    "cache_size": 87291105,
+    "git_size": 85422434,
+    "dl_size": 1848112,
+    "bad_files": 15,
+    "total_files": 1625,
+    "repro_score": 0.9907692307692307,
+    "original_hash": "89037598cbe931aff565548a7d5868f6d5981b45",
+    "rebuild_hash": "b1a59fcece8a835b0f1bb8cc34f012208051eac4",
+    "original_bin_hash": "697940abcec2f10823b3c32f44da72b6b11b44c1",
+    "rebuild_bin_hash": "697940abcec2f10823b3c32f44da72b6b11b44c1",
+    "original_elf_hash": "4239ea5a16bcc5ef33e9b1836dee09e6f1458480",
+    "rebuild_elf_hash": "4239ea5a16bcc5ef33e9b1836dee09e6f1458480",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

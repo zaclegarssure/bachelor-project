@@ -1,0 +1,32 @@
+{
+    "name": "com.github.philip_scott.spice-up",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "32781244b18a40e509c990b543c41688d078c74d775147c73c8bdbcc63b07739",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-28 16:09:56+00:00",
+    "timestamp_of_rebuild": 1640707796.0,
+    "git-commit": "f2a9cebab06176e575ba1c7b528eaed6d7a257b2 master",
+    "flatpak-deps": {
+        "io.elementary.BaseApp/x86_64/juno-20.08": "74b996016ed985696b382feb1e3aa3886e394ac583c74b6d9d686196dc0dd502",
+        "org.flatpak.Builder/x86_64/stable": "33efe804a63f7bf3b2a3ba4607f4ea700e4b44760f119e765fde5ab565471d87",
+        "org.freedesktop.Sdk/x86_64/20.08": "567a0a55e2f53f87a9702fbbd5cbab4869c9f57430e86d93edc54d9208f5d3e1",
+        "org.freedesktop.Platform/x86_64/20.08": "93f5faa8492c933e9ed7dfee9824302af357101680a4df1f72d02ed26a0ab7e5"
+    },
+    "build_time": 78.46691679954529,
+    "cache_size": 2919284,
+    "git_size": 0,
+    "dl_size": 2902821,
+    "bad_files": 1,
+    "total_files": 4411,
+    "repro_score": 0.9997732940376332,
+    "original_hash": "103d61ad35411ad039b98b02c09d39c540e39fb8",
+    "rebuild_hash": "0ddb24c70c2eef1122b69c6a495317de66713279",
+    "original_bin_hash": "a6d469b76b57758996a7003db80bc474fded9858",
+    "rebuild_bin_hash": "62f93da2d93075c40cffca52824cea22beccb6f1",
+    "original_elf_hash": "2ec7bc910d6cbfd791821db2ae12fcb5abc4a35f",
+    "rebuild_elf_hash": "2ec7bc910d6cbfd791821db2ae12fcb5abc4a35f",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

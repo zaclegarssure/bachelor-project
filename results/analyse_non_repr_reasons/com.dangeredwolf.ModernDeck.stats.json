@@ -1,0 +1,33 @@
+{
+    "name": "com.dangeredwolf.ModernDeck",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "4c6e73baab17a591ab6f569637d8dd924dcc032d56ec061c89a84b9d84c779b4",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-19 01:14:13+00:00",
+    "timestamp_of_rebuild": 1650330853.0,
+    "git-commit": "18aff521bf8fadaf470391413896dc17317344dd master~4",
+    "flatpak-deps": {
+        "org.electronjs.Electron2.BaseApp/x86_64/21.08": "0281c7bff16ae16bd23554f65185a9b33ca71dafcdf85667983049d9e046ccb8",
+        "org.freedesktop.Sdk.Extension.node16/x86_64/21.08": "c992b7a7a489603566dc1b465adad5c01f710aaae899c4528df538e663361cbd",
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.freedesktop.Sdk/x86_64/21.08": "1a972810d883f9721f90b87e092d282184b8a95fc10fc72068723cd54f893b22",
+        "org.freedesktop.Platform/x86_64/21.08": "e5aff027f1cfc1b950d476dab5159628f077a4ca114e87160a123df9cce700bf"
+    },
+    "build_time": 80.85060381889343,
+    "cache_size": 205758742,
+    "git_size": 55429293,
+    "dl_size": 150194202,
+    "bad_files": 1,
+    "total_files": 196,
+    "repro_score": 0.9948979591836735,
+    "original_hash": "36a8dbb267118802f740caadd5acf98d7672840d",
+    "rebuild_hash": "692fbbc47e9791ae7b5da31a6534a5de3be1f214",
+    "original_bin_hash": "7212a212baa1f421baf361472d7a6b88a935dfb5",
+    "rebuild_bin_hash": "c7517370a8b69f7636872a4443eb063b1c9ed94f",
+    "original_elf_hash": "1f2ee6f5ee78c6ad755714292a1d7cc1fbd5c7a3",
+    "rebuild_elf_hash": "1f2ee6f5ee78c6ad755714292a1d7cc1fbd5c7a3",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

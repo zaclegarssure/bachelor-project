@@ -1,0 +1,31 @@
+{
+    "name": "com.mousepawmedia.omission",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "a062fb2ef39fa6645d7eae1d0d8c7a801c781c7d2aff4124d0d22e222ad78076",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-21 20:24:37+00:00",
+    "timestamp_of_rebuild": 1645475077.0,
+    "git-commit": "3b21f81a7a0b6e845b2d5412561966065972179e master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "2c858c72b807bdee3e9edc8a64a05c771e3fbad051ea76421aaf7a4d6265ca5b",
+        "org.gnome.Sdk/x86_64/41": "ecccb80495350cc4b6cbca854de8249bb1a92e01e80bacb2d492f1c4ff3be533",
+        "org.gnome.Platform/x86_64/41": "b0aed9b5fb8b5e3e1e1badc8711fa34667760cf5ce79b2727b8d8c21d4772577"
+    },
+    "build_time": 190.50200009346008,
+    "cache_size": 31683450,
+    "git_size": 1410903,
+    "dl_size": 30251988,
+    "bad_files": 24,
+    "total_files": 2312,
+    "repro_score": 0.9896193771626297,
+    "original_hash": "12d80d2d867224edde2e4c6d87dd626e75acbe2b",
+    "rebuild_hash": "5590549af1a4b2215f33ff1ffd7cd690774b3b74",
+    "original_bin_hash": "c8792b8fe34a2a7f8fbb2305a058f853e5a75564",
+    "rebuild_bin_hash": "52f0ffacbe58350e1a98935a0f497a537c50e7f3",
+    "original_elf_hash": "df47312f22a5e81bde1bac14c34b68684bf0a840",
+    "rebuild_elf_hash": "df47312f22a5e81bde1bac14c34b68684bf0a840",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

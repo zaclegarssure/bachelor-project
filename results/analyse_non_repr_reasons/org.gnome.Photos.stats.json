@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.Photos",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "c83647d8c774916d1372bc96274bd7453e08c166f4833a54b270ceb284a6ab88",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-23 19:53:22+00:00",
+    "timestamp_of_rebuild": 1650743602.0,
+    "git-commit": "14706041c5f513216122392e18ae8c7410fab394 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 615.3620734214783,
+    "cache_size": 57065388,
+    "git_size": 0,
+    "dl_size": 57048925,
+    "bad_files": 3,
+    "total_files": 417,
+    "repro_score": 0.9928057553956835,
+    "original_hash": "12e4030057719d8c040263da42bb38cc63412de0",
+    "rebuild_hash": "e671be39bb4daec142350d9b56c3431a3da69d12",
+    "original_bin_hash": "c07e5ab3c194890e9e83e9d44262e80ec51f5a56",
+    "rebuild_bin_hash": "8eb00f69baf07aa7e60639572297db7b297abde5",
+    "original_elf_hash": "9b628061f625e3aa903ce39ab800df28e607f2cc",
+    "rebuild_elf_hash": "a485b16ecbbb5cde59a4c9424550481841324dcd",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

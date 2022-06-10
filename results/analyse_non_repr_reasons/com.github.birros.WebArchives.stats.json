@@ -1,0 +1,32 @@
+{
+    "name": "com.github.birros.WebArchives",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "50dc6d96b9a21058d306042c4c8dbfa8fbc61492cc46aa64628b1d82b7b7033f",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-23 23:06:41+00:00",
+    "timestamp_of_rebuild": 1632438401.0,
+    "git-commit": "8942fae637fb4802204950bc581ed70ac307e581 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.node16/x86_64/21.08": "aab62b809f6ce6b85eb61daee77e4e6331abd5d151b091e97b03e4149f772967",
+        "org.flatpak.Builder/x86_64/stable": "c8c1ca8e3474880eaaa547cfd975b239d5ed729a59fc8148403b420803332803",
+        "org.gnome.Sdk/x86_64/41": "dbaa5847ecc56030361c4cff1a24692d636abd9607a522f3e33441d740056070",
+        "org.gnome.Platform/x86_64/41": "f3997927cf2aa278af23f5ca907a8d03bea3814c342f3526b08e2b4a0e511af6"
+    },
+    "build_time": 344.8069372177124,
+    "cache_size": 83435594,
+    "git_size": 2949946,
+    "dl_size": 80288961,
+    "bad_files": 1,
+    "total_files": 29,
+    "repro_score": 0.9655172413793104,
+    "original_hash": "bc99647de4315f3b37beb6aa81a5bda8091e3a3f",
+    "rebuild_hash": "952d0baac0d928a9207cb3acacd44e543033b7da",
+    "original_bin_hash": "df518e990bf73c6b251bef07c0144cb665146fb6",
+    "rebuild_bin_hash": "df518e990bf73c6b251bef07c0144cb665146fb6",
+    "original_elf_hash": "4d89cc51f84f926fa1471666cec4cf5b4b377464",
+    "rebuild_elf_hash": "4d89cc51f84f926fa1471666cec4cf5b4b377464",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

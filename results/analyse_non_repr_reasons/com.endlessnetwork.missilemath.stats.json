@@ -1,0 +1,31 @@
+{
+    "name": "com.endlessnetwork.missilemath",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "d44847f424a852fd387023bed9e32fe808c603d245ceb367bfdfcf11683dc073",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-13 12:35:39+00:00",
+    "timestamp_of_rebuild": 1631536539.0,
+    "git-commit": "ea5d2bd93b535010839d9ac51f84fed213ad17af master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "c8c1ca8e3474880eaaa547cfd975b239d5ed729a59fc8148403b420803332803",
+        "org.freedesktop.Sdk/x86_64/21.08": "99e207c5791b8305bce4186f93926dc8f8278712f09462cd889b1462cec25882",
+        "org.freedesktop.Platform/x86_64/21.08": "fa2db5e7db9e82463a1fe9a5255292c63ded0cc141fdafe0008f2519a479ccb1"
+    },
+    "build_time": 23.715057134628296,
+    "cache_size": 42139782,
+    "git_size": 1037835,
+    "dl_size": 41081388,
+    "bad_files": 1,
+    "total_files": 165,
+    "repro_score": 0.9939393939393939,
+    "original_hash": "4fb52bc67b59be93915c5b537792edfd40a107ff",
+    "rebuild_hash": "1651b32ae6e841fac6ffba608c5b967feb634eb6",
+    "original_bin_hash": "aca7d167deb0b18bb0a4de3261b41d31b049bb36",
+    "rebuild_bin_hash": "aca7d167deb0b18bb0a4de3261b41d31b049bb36",
+    "original_elf_hash": "1c9d0783eea13d3098f0f3a19bb526207ad38a48",
+    "rebuild_elf_hash": "1c9d0783eea13d3098f0f3a19bb526207ad38a48",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

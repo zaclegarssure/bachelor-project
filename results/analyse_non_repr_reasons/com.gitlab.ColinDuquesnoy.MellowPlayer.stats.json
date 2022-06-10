@@ -1,0 +1,32 @@
+{
+    "name": "com.gitlab.ColinDuquesnoy.MellowPlayer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "53f32ecbc12a4c96f7c63c1e5153ba02f90850fd46ac9c29851f58f532b5e78e",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-08 10:59:31+00:00",
+    "timestamp_of_rebuild": 1638961171.0,
+    "git-commit": "96d89ee18f3f6a928805e7be86daa56cf19c9126 master",
+    "flatpak-deps": {
+        "io.qt.qtwebengine.BaseApp/x86_64/5.15-21.08": "1bbf253324c5bf9e8e388e0e795412db9eb6b3c1b98ccb0add727049bcba4cc3",
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.kde.Sdk/x86_64/5.15-21.08": "beaed2fcff575743eb6322ee333498337978455fdb69068642cf0fcbbf6a53fe",
+        "org.kde.Platform/x86_64/5.15-21.08": "f7d057dcdc0849b58556c57d4dc1501c272fa5126bf5fe32b8cbef972fdd762b"
+    },
+    "build_time": 273.50848865509033,
+    "cache_size": 28797131,
+    "git_size": 28674328,
+    "dl_size": 102244,
+    "bad_files": 2,
+    "total_files": 505,
+    "repro_score": 0.996039603960396,
+    "original_hash": "c7215e1fa5134dc8a45cf11573e0ab645ac43a41",
+    "rebuild_hash": "f05793385a0fce063c484489824facf262537755",
+    "original_bin_hash": "d9afa84d455273ad878389ac588003b0a7ada460",
+    "rebuild_bin_hash": "cc5a04b350a5a1d9919c2be65f3cf180413a6fbd",
+    "original_elf_hash": "553ee678c1d78bccac1ca56ccaebbaa7f5e004a7",
+    "rebuild_elf_hash": "074022c9b8e9c773508dd0e89fdbf9b17e84aefc",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

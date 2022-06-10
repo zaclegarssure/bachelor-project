@@ -1,0 +1,31 @@
+{
+    "name": "com.chmouel.gnomeNextMeetingApplet",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "7b2a715dbc7250e837baa096b624e267dcded5755265d8f968ec187a60273474",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-18 11:50:43+00:00",
+    "timestamp_of_rebuild": 1652874643.0,
+    "git-commit": "25bf729e5df2521be28b45b29250e43f28729a2a master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/41": "8012fa6cf53f159c8acbc63797821b998457aa1f63d8f7801e463b566a2ea5b5",
+        "org.gnome.Platform/x86_64/41": "6071e4e35ed5251c5825719240ea3478f0be272328955ee4fefa886448c67c14"
+    },
+    "build_time": 380.38295912742615,
+    "cache_size": 11638007,
+    "git_size": 0,
+    "dl_size": 11621544,
+    "bad_files": 20,
+    "total_files": 375,
+    "repro_score": 0.9466666666666667,
+    "original_hash": "a80aa8a3b87e22c25638a6084587b3adb138aeee",
+    "rebuild_hash": "6fab6218a3034b5f01b26ee33ce7d0014edc573e",
+    "original_bin_hash": "d03798dfbf605e36e5bfd603f85a8ca915915538",
+    "rebuild_bin_hash": "32312e0c09219ef2b09f581aeaa02e287d380640",
+    "original_elf_hash": "a0818e689a87af73b2e98d41817199cd04e2789a",
+    "rebuild_elf_hash": "4ebfb26ae47e0eab3321be7aebf1bf2ea86f7c92",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

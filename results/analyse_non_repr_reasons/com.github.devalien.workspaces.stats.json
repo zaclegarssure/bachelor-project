@@ -1,0 +1,32 @@
+{
+    "name": "com.github.devalien.workspaces",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "99d74f58c479292d8b5325c6816840479e2a5533d71a03328f6cc1196f32c750",
+    "branch": "stable",
+    "time_of_rebuild": "2020-09-16 08:49:15+00:00",
+    "timestamp_of_rebuild": 1600246155.0,
+    "git-commit": "7c40c60a3c59378af1bfdfbd1dbb60799146cb05 master",
+    "flatpak-deps": {
+        "io.elementary.BaseApp/x86_64/juno-19.08": "ccb29ff8e9a2aed99790f55beb8143cac332af82924e26a32a5e365d8b14c788",
+        "org.flatpak.Builder/x86_64/stable": "5e0930847a55d873b88a0811fe49c7e0db4201bf1bb33e5f894af164eb91a607",
+        "org.freedesktop.Sdk/x86_64/19.08": "ee4ecf9fbcf2de32d2c500e3c65e4460ada89ab91217e76a122c431cec63e54c",
+        "org.freedesktop.Platform/x86_64/19.08": "b05888992f5d9e089bc3eb115d0b2998b394c84af1a001044844aac1b180a929"
+    },
+    "build_time": 36.362972021102905,
+    "cache_size": 3143692,
+    "git_size": 464956,
+    "dl_size": 2658177,
+    "bad_files": 1,
+    "total_files": 4450,
+    "repro_score": 0.9997752808988764,
+    "original_hash": "ee3b564276c945fcbba25c4eea39a35965293f4c",
+    "rebuild_hash": "b1696a679ba362463d5ca0470f4e5d13773d7937",
+    "original_bin_hash": "6ccb7cb325304bce9a83ad0df3e91c3877cf4a29",
+    "rebuild_bin_hash": "b297b8189e411317d41fd55bb68effa8a5ee584b",
+    "original_elf_hash": "5ca8569b4a58d857a0303865ddb1ff23054566d7",
+    "rebuild_elf_hash": "5ca8569b4a58d857a0303865ddb1ff23054566d7",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.ColorViewer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "ecf2f4111e74cfa2b006da31cc0455cab69fcd1cd66f928a5ac6456bbffbc618",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-31 12:17:21+00:00",
+    "timestamp_of_rebuild": 1653999441.0,
+    "git-commit": "9a8901b09e7ac2fc4cfbbfd89444822923700d87 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "c3ea4e88f8f9d05efb8b085abb2d1f56d8bab435dade310f31edef002612736d",
+        "org.gnome.Platform/x86_64/42": "ad9ceb4f734c754fe1db5ee926eb1482062ef35f0f588cd74f486eceb3f1028a"
+    },
+    "build_time": 84.13793849945068,
+    "cache_size": 4319427,
+    "git_size": 1548276,
+    "dl_size": 2750592,
+    "bad_files": 25,
+    "total_files": 68,
+    "repro_score": 0.6323529411764706,
+    "original_hash": "695c593c49656e5501cbb101173b92bb85e42fd9",
+    "rebuild_hash": "463c63a5ca75ea8a9acf2f8f764145024f3240b3",
+    "original_bin_hash": "b2c43293f5be202bb3861e1aba548721f5c2c92a",
+    "rebuild_bin_hash": "2cf12ce9753e43061790a3a7c6125d72fb73459c",
+    "original_elf_hash": "a60169ab225964be1c36740150be5b752fc15860",
+    "rebuild_elf_hash": "a60169ab225964be1c36740150be5b752fc15860",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

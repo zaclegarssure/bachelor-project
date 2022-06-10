@@ -1,0 +1,31 @@
+{
+    "name": "com.gitlab.davem.ClamTk",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "9310bc3ae1b3bcbbf34cb83e08e469f18501b800e140346652c4df34409c5402",
+    "branch": "stable",
+    "time_of_rebuild": "2021-07-09 17:41:06+00:00",
+    "timestamp_of_rebuild": 1625852466.0,
+    "git-commit": "6ba6fa94ec5159cf02e9a9957ef6886e14115334 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "5bb4449e7d2ac3622c34816c040e39ac4ce0df7f50caa51a66b8ac45a3242b8c",
+        "org.freedesktop.Sdk/x86_64/20.08": "aa987b7abf13970a660324557bcf158f6924f9049c8b0a8b6c40c0db212f86b5",
+        "org.freedesktop.Platform/x86_64/20.08": "63c4b310325615c74b8b5b2576733e3e7b751026cb5bf458c98ffacd7bfc6235"
+    },
+    "build_time": 432.58464097976685,
+    "cache_size": 34865704,
+    "git_size": 0,
+    "dl_size": 34849241,
+    "bad_files": 7,
+    "total_files": 1811,
+    "repro_score": 0.996134732192159,
+    "original_hash": "934f55f0f673670b7d61db830fad53c5041ac8d3",
+    "rebuild_hash": "9cb5eb822bed0eb1ec0f65a444131559e23b30bf",
+    "original_bin_hash": "1e249cc9fe7cf6f809cd5e27311d5bb1952efebc",
+    "rebuild_bin_hash": "4016cb71764d9376a07d59cef2ce324b9f2e7afc",
+    "original_elf_hash": "835c3236cebc818f9d177dc9d0fa96f137da72c9",
+    "rebuild_elf_hash": "a42d3eddb96e37baee4f03c018b5cd2410396651",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

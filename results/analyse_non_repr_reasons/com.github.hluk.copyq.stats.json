@@ -1,0 +1,31 @@
+{
+    "name": "com.github.hluk.copyq",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "4e71b6fc0f4c54dee33ee7f9db15a761119ffe097d53f887ba21449cf173ca67",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-05 11:57:06+00:00",
+    "timestamp_of_rebuild": 1646481426.0,
+    "git-commit": "818e606eaaa29aab798f9e42d6b08f7cbbe17df8 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "b1b82d5d293905b0824853a4546bdf3813a97e4f019c008483364b1817ddc41b",
+        "org.kde.Sdk/x86_64/5.15-21.08": "daddf8e306dd37425b46ba6a5251b3fcb5cc273ec89fa3f33d0b54b657386e3c",
+        "org.kde.Platform/x86_64/5.15-21.08": "6ead3f696bd8683fa7b84f75e71c06670b9c27983b9d11e673e744ed7d8e16a9"
+    },
+    "build_time": 317.8647758960724,
+    "cache_size": 3261333,
+    "git_size": 3244870,
+    "dl_size": 0,
+    "bad_files": 2,
+    "total_files": 78,
+    "repro_score": 0.9743589743589743,
+    "original_hash": "2d27ac66444f579aa99636b66c52f36f177b04a8",
+    "rebuild_hash": "b224c40129d1d82e4fcbd43da9a8da7913117edc",
+    "original_bin_hash": "0d0471df9724dbdc33854095ba68c4a12b1f1f9d",
+    "rebuild_bin_hash": "fbdd99e66ebde40311849dc2fa0f71de666a5d05",
+    "original_elf_hash": "9a72c79839d4aff8c854426412740ddb5510bebc",
+    "rebuild_elf_hash": "8c43a34f02962694ec10f765a466bf44368b4789",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

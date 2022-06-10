@@ -1,0 +1,32 @@
+{
+    "name": "org.gnome.design.BannerViewer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "4c890bd0ca0f4541b7857e65659eb59c6d04ae703c0294531b48f26f89aeb8cd",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-30 09:49:51+00:00",
+    "timestamp_of_rebuild": 1653904191.0,
+    "git-commit": "54b09b9fe91c80262b6d0ae2ae8e0d656c441230 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "625b35f8ee797153dadff718ac0833d2a9544cef2abb4d53c4e13eaadce97323",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "c3ea4e88f8f9d05efb8b085abb2d1f56d8bab435dade310f31edef002612736d",
+        "org.gnome.Platform/x86_64/42": "ad9ceb4f734c754fe1db5ee926eb1482062ef35f0f588cd74f486eceb3f1028a"
+    },
+    "build_time": 316.834059715271,
+    "cache_size": 20139567,
+    "git_size": 569204,
+    "dl_size": 19549804,
+    "bad_files": 7,
+    "total_files": 278,
+    "repro_score": 0.9748201438848921,
+    "original_hash": "0c3cc96fb0d6df46ffa816b59ba5f4e4e00a5b2a",
+    "rebuild_hash": "c8cc312a3e85d8735e07dc2498a52dd62a6ae327",
+    "original_bin_hash": "07704fa85b71829a1a9970bf1b446d26a37eda1a",
+    "rebuild_bin_hash": "fce73aba6ebe75161e55bd2a9d743ce142d6811f",
+    "original_elf_hash": "dab5c8eb05414bcd376b12e960d2837f136a8d22",
+    "rebuild_elf_hash": "dab5c8eb05414bcd376b12e960d2837f136a8d22",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

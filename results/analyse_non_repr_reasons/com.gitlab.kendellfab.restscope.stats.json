@@ -1,0 +1,32 @@
+{
+    "name": "com.gitlab.kendellfab.restscope",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "e77b673604ba34ff6354c497616e6a06d49a0b2511d9aa82f34329b9a7cf5369",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-06 00:04:39+00:00",
+    "timestamp_of_rebuild": 1644105879.0,
+    "git-commit": "eb8b4718534a9e204f52ebd4e90e0bb796598b78 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.dmd/x86_64/20.08": "0f807f792a9553cebbde16adf5551d9f02008f4ee60139c3e29071292b5a5739",
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.gnome.Sdk/x86_64/40": "8ee4d58a3a78cdff25907b05913b605a398bb6193169bfe6622c6f88a937bc83",
+        "org.gnome.Platform/x86_64/40": "94f9d99e25b631567732990838fbcd3f6148be8dfe8f38157f8acf9df9b9b2c1"
+    },
+    "build_time": 175.8041455745697,
+    "cache_size": 19776709,
+    "git_size": 475489,
+    "dl_size": 19280661,
+    "bad_files": 1,
+    "total_files": 14,
+    "repro_score": 0.9285714285714286,
+    "original_hash": "52cb597832828a8e8676b3f9d684c3be3aac16b2",
+    "rebuild_hash": "15b06133ce5c9c7f710db863411771e3aac21283",
+    "original_bin_hash": "5ff800ce40a3ed5cc16b0ef5da3c07af6637e371",
+    "rebuild_bin_hash": "f76451c18983145c3ddbc95366a53f0ba0c79a70",
+    "original_elf_hash": "5edc2abd791e23a6434138f37120f89955f26014",
+    "rebuild_elf_hash": "eaaeaf310f3414ac1de5e4691ff545941e563330",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

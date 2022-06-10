@@ -1,0 +1,31 @@
+{
+    "name": "com.scoutshonour.Digital",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "60c7d8056e4e43895b27726b70566b4ff6bd7fa00d287a443f615015a4b6f7fd",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-09 14:48:20+00:00",
+    "timestamp_of_rebuild": 1639061300.0,
+    "git-commit": "e10ec3c961fa3e69eb0ccaf5cb59ab9e5a456872 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/21.08": "decc763dc1ce5890c8bd4a53ab7a30f8feb5cb395f8dcbb6ec75e91f7ff0982f",
+        "org.freedesktop.Platform/x86_64/21.08": "cb1ac3a51e068219a21f3ea85faba17a204a6a8fbc3c0d8342af190b2af53682"
+    },
+    "build_time": 14.229431390762329,
+    "cache_size": 37001813,
+    "git_size": 0,
+    "dl_size": 36985350,
+    "bad_files": 1,
+    "total_files": 411,
+    "repro_score": 0.9975669099756691,
+    "original_hash": "64c1d15ec9754c06360447b418725cfe6dc671e8",
+    "rebuild_hash": "6194242a1cba0320e8892dab52cf49af71b9f4a4",
+    "original_bin_hash": "20986082d13932a881967bbcdbc3f216553f6357",
+    "rebuild_bin_hash": "20986082d13932a881967bbcdbc3f216553f6357",
+    "original_elf_hash": "c1472878aa2d4039ec97b2fc1815ce4123390fbf",
+    "rebuild_elf_hash": "c1472878aa2d4039ec97b2fc1815ce4123390fbf",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

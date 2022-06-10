@@ -1,0 +1,32 @@
+{
+    "name": "com.github.afrantzis.Bless",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "3457ae05d853714f2faebb0f346616ff29e28db7072178a31185d8b40365ab1c",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-24 17:13:00+00:00",
+    "timestamp_of_rebuild": 1632503580.0,
+    "git-commit": "dbe2663e3e39022d404e140a30fa662011a5a4f9 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.mono6/x86_64/21.08": "bb03825f55b9ca736fa5a48c40e989f8777c70ce537341bc074038c055f46662",
+        "org.flatpak.Builder/x86_64/stable": "c8c1ca8e3474880eaaa547cfd975b239d5ed729a59fc8148403b420803332803",
+        "org.gnome.Sdk/x86_64/41": "dbaa5847ecc56030361c4cff1a24692d636abd9607a522f3e33441d740056070",
+        "org.gnome.Platform/x86_64/41": "f3997927cf2aa278af23f5ca907a8d03bea3814c342f3526b08e2b4a0e511af6"
+    },
+    "build_time": 427.9695863723755,
+    "cache_size": 22947052,
+    "git_size": 3038279,
+    "dl_size": 19888214,
+    "bad_files": 45,
+    "total_files": 743,
+    "repro_score": 0.9394347240915208,
+    "original_hash": "156f043c7d47b9ebc14ce6ea499052d96f055390",
+    "rebuild_hash": "90211c3da841aee505f1bbb4ac4d214e8f6f3f4a",
+    "original_bin_hash": "bfb4d6ca324591d1b9e220e3e7f06ebe22237ab6",
+    "rebuild_bin_hash": "948d0e7bc2677eaf3d80ccb5508e02fb9ae5fad1",
+    "original_elf_hash": "e13f80fe420234642c8643fb3d80bcbd6888ebcd",
+    "rebuild_elf_hash": "ca536bd42bbfdbc0f11459e43d4c5bf0f97163ef",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

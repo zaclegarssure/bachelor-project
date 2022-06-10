@@ -1,0 +1,32 @@
+{
+    "name": "com.sigil_ebook.Sigil",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "446e5b93916a982067eb2097ce696feb1cb946fc50951306e67e94aac1aa4645",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-24 04:26:53+00:00",
+    "timestamp_of_rebuild": 1653366413.0,
+    "git-commit": "693167de59b778fee80e551c1552ef5133a29b13 master",
+    "flatpak-deps": {
+        "com.riverbankcomputing.PyQt.BaseApp/x86_64/5.15-21.08": "e08115bef6306a190cc6889edbc28e9cdc9c4bb4e7f5bca32e49e0bddb44403d",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "1bf5dbd9fd2f66898d2501dfbe0e5327d0dc6eecd9e02e2bdeb39a43df7974c8",
+        "org.kde.Platform/x86_64/5.15-21.08": "c49e5ed4c419e849e15657b270c0cb9550afaa73277c611426b97c701cbe37b4"
+    },
+    "build_time": 1015.3225903511047,
+    "cache_size": 94979367,
+    "git_size": 272874,
+    "dl_size": 94685934,
+    "bad_files": 31,
+    "total_files": 2067,
+    "repro_score": 0.9850024189646831,
+    "original_hash": "6f89cd795287be6d85e0a4206583ba6566f8298c",
+    "rebuild_hash": "ef70d9f32b6ed5bc4309fe9d9c07faacc770d487",
+    "original_bin_hash": "fce665cc3ea6f0124e8fba5bab408e283d3b4b1d",
+    "rebuild_bin_hash": "9fbe6fbe586fbfeb444788e8dac137689bb945b8",
+    "original_elf_hash": "d65169ac254f392cf273e2380ac73f85f2f2f255",
+    "rebuild_elf_hash": "c652545c231d615d0a1894c141f22b37c6166a40",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

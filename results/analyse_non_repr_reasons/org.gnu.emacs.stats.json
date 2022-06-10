@@ -1,0 +1,30 @@
+{
+    "name": "org.gnu.emacs",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "fa16b9ac37b045d4e771932b161e8f8db14c77fa34403a93985e85e84c14f392",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-08 09:04:04+00:00",
+    "timestamp_of_rebuild": 1649408644.0,
+    "git-commit": "a9aa6a0e87ad61da1c740505fc6d77ad5206ab3b master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8c905dc8f00b387ed9d3b61e8186b59cffaf66fb8dbb6a8993500e0f2e4ec53e",
+        "org.freedesktop.Sdk/x86_64/21.08": "1a972810d883f9721f90b87e092d282184b8a95fc10fc72068723cd54f893b22"
+    },
+    "build_time": 195.6593029499054,
+    "cache_size": 48259785,
+    "git_size": 0,
+    "dl_size": 48243322,
+    "bad_files": 1,
+    "total_files": 4101,
+    "repro_score": 0.9997561570348695,
+    "original_hash": "2d2379e6da18508e5b81f2818f8c49c50267e54b",
+    "rebuild_hash": "7873f3c6ff49e6061912b7f35bf3aaf7e908f7c2",
+    "original_bin_hash": "8c5ac8737eee0db19937bda73c759f9174a429fc",
+    "rebuild_bin_hash": "6ea92488bcdebc959449138220d8488aa8a3be8c",
+    "original_elf_hash": "c77f914f7031ab4b49df31ee9dd830543493f1e4",
+    "rebuild_elf_hash": "c77f914f7031ab4b49df31ee9dd830543493f1e4",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

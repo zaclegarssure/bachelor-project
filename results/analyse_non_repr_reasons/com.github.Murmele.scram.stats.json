@@ -1,0 +1,30 @@
+{
+    "name": "com.github.Murmele.scram",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "d83fa319aa08fa95d8d5d5670307e0b3cf12bb9e887e0e5599fd7160ff4d8500",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-22 06:29:42+00:00",
+    "timestamp_of_rebuild": 1650608982.0,
+    "git-commit": "085ec3dcb464aef84e4bfc1a2f72cb69355f34fc master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32"
+    },
+    "build_time": 492.28516268730164,
+    "cache_size": 116668115,
+    "git_size": 3186649,
+    "dl_size": 113460907,
+    "bad_files": 1,
+    "total_files": 15188,
+    "repro_score": 0.9999341585462207,
+    "original_hash": "f0c06a3af8b55209039d2505e0099ccd511c0cd2",
+    "rebuild_hash": "b2eca92d959f0b308520ca3d40c3e8be8da2a477",
+    "original_bin_hash": "4170956e22f88ee81741e51135547e8476a73e6a",
+    "rebuild_bin_hash": "b18eb0a5f5e4a7ef87d6e8691c50b6f280ba1129",
+    "original_elf_hash": "77217dcb9b1281af1b51329bc39415e49bbeafe2",
+    "rebuild_elf_hash": "b3952b3713609f35485bd530609c30ae8c40b1c9",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

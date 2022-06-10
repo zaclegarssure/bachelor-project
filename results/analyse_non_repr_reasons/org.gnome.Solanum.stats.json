@@ -1,0 +1,32 @@
+{
+    "name": "org.gnome.Solanum",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "f98efc682578eac472d63225a534a8d09cb50fb2e74159a544c595a44436be80",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-23 18:56:24+00:00",
+    "timestamp_of_rebuild": 1648061784.0,
+    "git-commit": "2f0f2b331ee829bf83e9648f5c0353b653524fb1 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "433aeb941520e4ab049789431e3133f4a55efa44183828d1bb5d5a76626f38b6",
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.gnome.Sdk/x86_64/42": "47f6b399585817120024df1ad4bb1701d58f7d0ad2078210ea240978aec11c34",
+        "org.gnome.Platform/x86_64/42": "00a7680bc472e0205934c70b2bf6fecfb5a085cc1792dad7958e5cd07b648a70"
+    },
+    "build_time": 248.72505497932434,
+    "cache_size": 14820811,
+    "git_size": 0,
+    "dl_size": 14804348,
+    "bad_files": 0,
+    "total_files": 20,
+    "repro_score": 1.0,
+    "original_hash": "89f057b49a1b3e0241d79163b821b5402c201f18",
+    "rebuild_hash": "89f057b49a1b3e0241d79163b821b5402c201f18",
+    "original_bin_hash": "5f7b7d05d04278979230d983214a8fe54be365fe",
+    "rebuild_bin_hash": "5f7b7d05d04278979230d983214a8fe54be365fe",
+    "original_elf_hash": "2de7beaa5b0707d90d78b81aae3820bbd5227e57",
+    "rebuild_elf_hash": "2de7beaa5b0707d90d78b81aae3820bbd5227e57",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

@@ -1,0 +1,32 @@
+{
+    "name": "codes.loers.Karlender",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "824aaedd62a4e8d72b269d83433bf3d52f651e05fb58933d7e0fd25ac6576bbb",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-10 12:32:12+00:00",
+    "timestamp_of_rebuild": 1652185932.0,
+    "git-commit": "9768631aa77c5126ba6fa9b0743fa11331203fdb master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "eacb872d1c6ee1f066386441fbfb4190eab890c0f464a53461ac7f2697d74900",
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "bd5cf2646c70337561c1a2bf214e3ca797fd2ea96d981baf8fd537cb931eeebb",
+        "org.gnome.Platform/x86_64/42": "d240597586ac4c87e7e8dd634b67a3c910704b77d1ef5927147e55fe57cf569a"
+    },
+    "build_time": 364.9328212738037,
+    "cache_size": 32369435,
+    "git_size": 0,
+    "dl_size": 32352972,
+    "bad_files": 0,
+    "total_files": 18,
+    "repro_score": 1.0,
+    "original_hash": "e7094ad2bb92648a74437de8c0109c2b6de36168",
+    "rebuild_hash": "e7094ad2bb92648a74437de8c0109c2b6de36168",
+    "original_bin_hash": "676696d6950811826b11420a7b46900e7d7a04f2",
+    "rebuild_bin_hash": "676696d6950811826b11420a7b46900e7d7a04f2",
+    "original_elf_hash": "53a4e4cae362e735c5aa74d87a88f0340499b9f1",
+    "rebuild_elf_hash": "53a4e4cae362e735c5aa74d87a88f0340499b9f1",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

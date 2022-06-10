@@ -1,0 +1,32 @@
+{
+    "name": "dev.goats.xivlauncher",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "19fc5005573687c4391b637ed7c534ec3004521f71a4fa8a280cb5f9b7365af9",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-15 19:54:08+00:00",
+    "timestamp_of_rebuild": 1652644448.0,
+    "git-commit": "425cc0b05235fe09169e17ba43821c87504644a0 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.dotnet6/x86_64/21.08": "056a885eba721509f24dc9aa5b456bbade0e6baaff24432b4a7bed22b84b5a3d",
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 440.54343485832214,
+    "cache_size": 331892568,
+    "git_size": 44057520,
+    "dl_size": 287777625,
+    "bad_files": 1,
+    "total_files": 42,
+    "repro_score": 0.9761904761904762,
+    "original_hash": "d409816c49ea0575d04d3e22d757e0ade42f20ed",
+    "rebuild_hash": "fa6d4cb43a10b5edb328f175da5154a8a0472ae6",
+    "original_bin_hash": "8b5b710f1274788ebe7a5f230db02d21e88762eb",
+    "rebuild_bin_hash": "f466facab8a46724610815a1ea257e1eb3217a00",
+    "original_elf_hash": "c152694c85c32647f046a664e840f433fc39fd50",
+    "rebuild_elf_hash": "7a497774fd8932f9b8a0cac122a52046c94ad16c",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

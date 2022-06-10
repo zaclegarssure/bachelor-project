@@ -1,0 +1,32 @@
+{
+    "name": "com.makemkv.MakeMKV",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "cd6312b6e0ad6345fe1c10543a902edf7bd91c66f0e845932fc94a6e88a22b75",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-16 00:25:49+00:00",
+    "timestamp_of_rebuild": 1647390349.0,
+    "git-commit": "cad4faa96168b7ba04e6e1e7c53858b057f3b48c master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk8/x86_64/21.08": "7f056ed842dba2424ee060e0658b90016103a016e8782b3b398058defceedc61",
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.kde.Sdk/x86_64/5.15-21.08": "90200d8231a60eabc71dc8950ed21e9576a312a503ccb963b02ba14c8a83fa88",
+        "org.kde.Platform/x86_64/5.15-21.08": "77bad058026209fa1bb4509ce155a93be883dbcdca01ef1eb4f65fe1f7ffe877"
+    },
+    "build_time": 792.6950397491455,
+    "cache_size": 38771204,
+    "git_size": 1170275,
+    "dl_size": 37580370,
+    "bad_files": 1,
+    "total_files": 395,
+    "repro_score": 0.9974683544303797,
+    "original_hash": "5891804f66a88ff8863b138e1694e03d1f8a7bc7",
+    "rebuild_hash": "95859f4b7e9fb7870c1045c30d28dfa2f67c3b83",
+    "original_bin_hash": "6f1007e1715477b6a6a26da550641ccc5259688c",
+    "rebuild_bin_hash": "e90ae16675132e35441965130da47b8a33d7af33",
+    "original_elf_hash": "02e441edd2d916108a0aa68ba0a87ec196428de8",
+    "rebuild_elf_hash": "ccd0cf9939ff5b20c7767ae0c1ee2ff16a3868fe",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

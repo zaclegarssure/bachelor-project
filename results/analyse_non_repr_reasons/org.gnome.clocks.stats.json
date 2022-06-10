@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.clocks",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "727430007fe9c364d1ddd3e6fc6041de16638d856cdafca27ba030df49ba6006",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-15 12:10:39+00:00",
+    "timestamp_of_rebuild": 1652616639.0,
+    "git-commit": "4019a72dd721b9b33f25c4b68d981ef86185a185 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "bd5cf2646c70337561c1a2bf214e3ca797fd2ea96d981baf8fd537cb931eeebb",
+        "org.gnome.Platform/x86_64/42": "d240597586ac4c87e7e8dd634b67a3c910704b77d1ef5927147e55fe57cf569a"
+    },
+    "build_time": 131.70187330245972,
+    "cache_size": 6930882,
+    "git_size": 0,
+    "dl_size": 6914419,
+    "bad_files": 1,
+    "total_files": 450,
+    "repro_score": 0.9977777777777778,
+    "original_hash": "d1c54daeb2c820cad67df86f085ccc1cc1d76e13",
+    "rebuild_hash": "bbfa57491ed91b4ade0cd89f6e9c168f3f5aeec8",
+    "original_bin_hash": "0840c175f21bf2f9f5d6bba314865ff0b4fce57d",
+    "rebuild_bin_hash": "0840c175f21bf2f9f5d6bba314865ff0b4fce57d",
+    "original_elf_hash": "588dcf4a4f5f682504ea6d8a7e6cb1ed5297aaa8",
+    "rebuild_elf_hash": "588dcf4a4f5f682504ea6d8a7e6cb1ed5297aaa8",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

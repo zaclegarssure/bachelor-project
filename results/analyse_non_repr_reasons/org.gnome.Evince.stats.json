@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.Evince",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "8b2efb707c5e30655591d91981485c3204ca47062fd9a6ddfb9e72142e497b35",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-07 07:50:52+00:00",
+    "timestamp_of_rebuild": 1651909852.0,
+    "git-commit": "6f29b9e55c346d738c6ca856550b9014ec4db97a master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "bd5cf2646c70337561c1a2bf214e3ca797fd2ea96d981baf8fd537cb931eeebb",
+        "org.gnome.Platform/x86_64/42": "d240597586ac4c87e7e8dd634b67a3c910704b77d1ef5927147e55fe57cf569a"
+    },
+    "build_time": 473.4718680381775,
+    "cache_size": 20655476,
+    "git_size": 76114,
+    "dl_size": 20558803,
+    "bad_files": 1,
+    "total_files": 2810,
+    "repro_score": 0.999644128113879,
+    "original_hash": "2a9ff33b522b230ec2a1b7204c7eb6c6142e0ad3",
+    "rebuild_hash": "6209a265aa42d6f37acf870fe5f705dc75f6a4e5",
+    "original_bin_hash": "c3f6ef7624c6a49f6091b86d33a58b48d9bd3a6b",
+    "rebuild_bin_hash": "c3f6ef7624c6a49f6091b86d33a58b48d9bd3a6b",
+    "original_elf_hash": "5c5acc20024e219f730ad6c9986ee95bda6022bb",
+    "rebuild_elf_hash": "5c5acc20024e219f730ad6c9986ee95bda6022bb",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

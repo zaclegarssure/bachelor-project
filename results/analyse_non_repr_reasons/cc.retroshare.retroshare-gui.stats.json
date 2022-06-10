@@ -1,0 +1,31 @@
+{
+    "name": "cc.retroshare.retroshare-gui",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "611944c9ab2bb6f0e34bb9c002fb8d17de452089c16cabcd54ed9470f43b8ffd",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-13 06:28:26+00:00",
+    "timestamp_of_rebuild": 1652423306.0,
+    "git-commit": "05a0557c5f0448ed01b6c035580c21ddb8e8bd39 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15": "daaa2b567c658f2dfbb082cc306298b74a71b06336e79dcbd8df94cb014b6a95",
+        "org.kde.Platform/x86_64/5.15": "2c9e014e7d60da0f002c9d9d7a620bcedf59546007a7ae16accb3ee3e6335430"
+    },
+    "build_time": 1953.7423679828644,
+    "cache_size": 151921235,
+    "git_size": 114007591,
+    "dl_size": 37893085,
+    "bad_files": 1,
+    "total_files": 523,
+    "repro_score": 0.9980879541108987,
+    "original_hash": "34cfb9091d75fa61cdac4411d5b551335b773444",
+    "rebuild_hash": "847910be23f6cce1b73cfeddb15911d74ed6884b",
+    "original_bin_hash": "5fc54c38c81d9c747eb7cdfb77658626d00e9388",
+    "rebuild_bin_hash": "988bd387530a87958206cfa09783618a9130a6cb",
+    "original_elf_hash": "b863ff0246f8d513291e199121d3774b3c31ddf4",
+    "rebuild_elf_hash": "0b8d1e6b3a07450e5be71ef93873a6dd08bbddd5",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

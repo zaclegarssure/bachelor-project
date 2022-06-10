@@ -1,0 +1,31 @@
+{
+    "name": "com.github.iortcw.iortcw",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "9aa86e178a4f3c482a250eb096e7ac795bc92f5f11af6adf8e0d92dcf10b9bb9",
+    "branch": "stable",
+    "time_of_rebuild": "2021-10-25 15:28:04+00:00",
+    "timestamp_of_rebuild": 1635175684.0,
+    "git-commit": "7774463ce47debf14f5cf085550c8e84a71d8f04 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/21.08": "1fad7974d6fe02c6ac83e3e804e0317f4d8d3528dcd5087002e1b501ddadbb6b",
+        "org.freedesktop.Platform/x86_64/21.08": "16d161d8a71701b80fa4bca12812a22c19dc0641b3571fe88c517c84da94c5b5"
+    },
+    "build_time": 183.09575057029724,
+    "cache_size": 38030927,
+    "git_size": 0,
+    "dl_size": 38014464,
+    "bad_files": 6,
+    "total_files": 32,
+    "repro_score": 0.8125,
+    "original_hash": "06cf1fc3b55ed5b0168cdb6232a444483328e527",
+    "rebuild_hash": "6e161e8949c22a7df494e57be34f022132a72114",
+    "original_bin_hash": "7bc3478cf060f53f89b50a684211f11d0fe1a340",
+    "rebuild_bin_hash": "b477e247ccfe4dbeecfbf033455806594ef07a89",
+    "original_elf_hash": "3142edd144bb2362d2700285ac7cad9e07a5a357",
+    "rebuild_elf_hash": "0802deb2c1d798439f1c11e6e37de81c6f3b91e5",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

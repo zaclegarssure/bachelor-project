@@ -1,0 +1,31 @@
+{
+    "name": "ar.xjuan.Cambalache",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "f4619c888ac79d8a4f157bb16caca4225131152c8e897e69169c6c8b02a3c41f",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-24 00:50:42+00:00",
+    "timestamp_of_rebuild": 1650761442.0,
+    "git-commit": "2ec8d2ca8472911da2d1be9c0675cde9abda1f99 remotes/origin/master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 131.98907852172852,
+    "cache_size": 3613764,
+    "git_size": 397996,
+    "dl_size": 3195209,
+    "bad_files": 8,
+    "total_files": 190,
+    "repro_score": 0.9578947368421052,
+    "original_hash": "a2f886f385559d14520be7068673d23d6dda3cac",
+    "rebuild_hash": "422ac088f26d1c5ba2c676e940ee43c0a3fd4187",
+    "original_bin_hash": "4026e2f6d6a6a7ed62383586d96c7219405ed213",
+    "rebuild_bin_hash": "b9dce43d720efa997896aa016c1c8e8a41a87596",
+    "original_elf_hash": "02cdd4e92acf0dce8485c1ce747c8a448810185b",
+    "rebuild_elf_hash": "a66b648d7efe2c641c2daefe654f6a2a015a99a4",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

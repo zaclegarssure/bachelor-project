@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.Hamster",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "3e2ef5f197a7992ecde46691a027ec5edac0af4d872dcd0d1ab62d2ee1704dc7",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-29 09:45:12+00:00",
+    "timestamp_of_rebuild": 1638179112.0,
+    "git-commit": "e4a75634f714b8e6e20f6a7050892af04ca788f4 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.gnome.Sdk/x86_64/41": "a7bd7c08861847161bb4095d2a1d1a500b5a2b1180baa4b175b5c27d360a492c",
+        "org.gnome.Platform/x86_64/41": "b317e7f21189832d0b37a8f312e6407eb30a1239af2cc583ac76f58eb468c8bb"
+    },
+    "build_time": 39.22314214706421,
+    "cache_size": 2002807,
+    "git_size": 1181510,
+    "dl_size": 800738,
+    "bad_files": 23,
+    "total_files": 404,
+    "repro_score": 0.943069306930693,
+    "original_hash": "0af055144e99845e93bc43ee2f6865ddd05d9b36",
+    "rebuild_hash": "2c609cd50693077c27eccc3a857046047458809b",
+    "original_bin_hash": "fb0eb8c07d4a5ca7cb3762c3b2ada0b85215aec6",
+    "rebuild_bin_hash": "aaa673efab4f18135ffec427887b3e175c68156d",
+    "original_elf_hash": "f779f8578d3082cb096851e6dc427967b3f64647",
+    "rebuild_elf_hash": "ed9431ddd8c36eecbf3708480e4dd9527df18afa",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,31 @@
+{
+    "name": "com.github.quaternion",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "89da88d02d427f6ba2e012677a98110d604f1e62302c29f25cbe12e300ea1d0b",
+    "branch": "stable",
+    "time_of_rebuild": "2021-10-08 14:17:00+00:00",
+    "timestamp_of_rebuild": 1633702620.0,
+    "git-commit": "4daed99260724b6a72888040daa6b847e8d33aa7 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "d40cff9fa614104744be54f9dcbfd846c76a6cb7a80f045f6057d34ba69ac423",
+        "org.kde.Sdk/x86_64/5.15": "580ec3be27587beb600220bd57b31c2d703dbdfa25993e7ea7f6770b3091f5a8",
+        "org.kde.Platform/x86_64/5.15": "c22f54ee6feef301f75718aa444dc95ddbb15df94a3d90f884815b0e9f822a06"
+    },
+    "build_time": 383.7657401561737,
+    "cache_size": 3165089,
+    "git_size": 3148626,
+    "dl_size": 0,
+    "bad_files": 3,
+    "total_files": 46,
+    "repro_score": 0.9347826086956522,
+    "original_hash": "0ef637bf4bf2b8e9abcf0a8c5980fac1c7c6782a",
+    "rebuild_hash": "481ff2a1e955a31f70282201651e8d7890074461",
+    "original_bin_hash": "d8adbb6dc0bab95e3201830b9ae719c976b9710d",
+    "rebuild_bin_hash": "08eabb8780c4e9b416856673cc937fb66d8be1f4",
+    "original_elf_hash": "d7c9bba7c62222a7d018122dc06c024d0d461c2f",
+    "rebuild_elf_hash": "000e349cdc7bf1f31d40f0bf2ede29dac317ee77",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,18 @@
+{
+    "name": "ch.threema.threema-web-desktop",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "85d00d79e0243310ff3d129c54c025d3c0ad66bebeee6c7b8c519047db453085",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-03 04:47:00+00:00",
+    "timestamp_of_rebuild": 1651553220.0,
+    "git-commit": "5a48bdd721fbb9ba6e70209f7303c35bd3ef3a79 master",
+    "flatpak-deps": {
+        "org.electronjs.Electron2.BaseApp/x86_64/21.08": "0281c7bff16ae16bd23554f65185a9b33ca71dafcdf85667983049d9e046ccb8",
+        "org.freedesktop.Sdk.Extension.node14/x86_64/21.08": "5da9328fea17d043d9abe55ce85456680593cd54b9b4b4d5252f164e9d9a33f4",
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    }
+}

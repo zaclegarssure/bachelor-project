@@ -1,0 +1,16 @@
+{
+    "name": "com.calibre_ebook.calibre",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "2d062a72cb6fb56f6789c56ca425a50918a164410b2b63845962adb4a4674390",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-27 04:53:00+00:00",
+    "timestamp_of_rebuild": 1653627180.0,
+    "git-commit": "eebc70e893672a7f7e722f1fd5d2ad4f98357ab6 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    }
+}

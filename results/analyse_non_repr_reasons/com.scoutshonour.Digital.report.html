@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="referrer" content="no-referrer" />
+  <meta name="generator" content="diffoscope" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAM8SURBVFiF7dZdaJZlGAfw3/O+e9XNjy3XllZzWImBxIpifqTgsmUHBSIeBNFBdRh0UHQ0xGdb66CFBIERZEFRQRRUw0HkQkLMYQSBdpCFWdgSP6jpNn2393k68Nn2bj3vXtb6UOh/cl/39b/u67mem/913zf/4z9GUDw5xNI8n5WIzW9m/QF2YluJmI8203mALzEvLWAerRs4Pz6vSIkZSlsYk0/GkaB0zEgyDgWMlijyWsJuS2fkQwu8pqpMTA0ypeiShG71Bp0rU8Q+A47MWEDgvHZbZl/Av4SpIgxVYB3IqwZDmoUuYkzosDaNchpAoFqkSmgjGPWzLieF1k3JHVsjvCJQHBYaSy9g1E3m+QImQiK9SbNGqJDzuiDZ0lggQJCsyelDq8BB47sbCWTsnvhG3kqcLL833eqF4hk1EOoTOjZjnnaRdq2l6KtMAyl4/g23bKJrun+Mt9uOq7nvqOVbebWYy9Adc1fM/R/3CO780dONbIeFPHsPw+ULeM5ZHTbXHfUtXpxOZzgT5z02UGsZThRzF/ilht9G+fr4zfbfccIxXIa7uVTup69i7LJXaEEqF3on1d9ludBLpVLOVoT1lky9QYtwQ6p3WAVqSyUslWwSbRrkPJrMtgn0iBVk7BPJ4sGE24EPQKW3jLgdzWKLBTbg0yTuZeGkDsp2gcUGDesHGQ/gK5G8nLMigWiCe3jCrnTRiJ9EYjm1ImsUEq5l8hScPXbpsVtlKhfan+pv0yD0ZqmU5XegGBmnDIo/pylj8oYLOP3Eab/v5Zmi6EtZ3vv1FU/2r7LioYSL2dNybbdiMdptFU57++20Vqh+iq/Tap1WpaWY611wmyWyUzxZDbIWTvEV1Ildn5agfBumoUMTtoisFvhebAAHZWxX0ChwTuScvHdVeVykToysMyJ7ittwbmj31J+6IrRDp5XTfBt1WJ+WYnZdMB0F3xlUgD5uDVj2Sa+a4SrzH+FeyHHmw17V112waBOZgP4WczkLZsILar1fpIliMU4XZoK/poE0XHl+N8v6QcGAUbVymnDIZVnzrTXqGzmnhKLxZX/niyiDjIJgwg4Se1GR/Y8idGPysh6fr0i1i/AHMWHgrwUJgNAAAAAASUVORK5CYII=" />
+  <title>/usr/bin/diffoscope com.scoutshonour.Digital.original com.scoutshonour.Digital.rebuild --exclude-directory-metadata=yes --html=com.scoutshonour.Digital.report.html</title>
+<style>
+body.diffoscope {
+  background: white;
+  color: black;
+}
+.diffoscope .footer {
+  font-size: small;
+}
+.diffoscope .difference {
+  border: outset #888 1px;
+  background: #E8E8E8;
+  background: rgba(0,0,0,.1);
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+.diffoscope .difference table {
+  table-layout: fixed;
+  width: 100%;
+  border: 0;
+}
+.diffoscope .difference th,
+.diffoscope .difference td {
+  border: 0;
+}
+.diffoscope table.diff {
+  border: 0;
+  border-collapse:collapse;
+  font-size:0.75em;
+  font-family: 'Lucida Console', monospace;
+  word-break: break-word;
+}
+.diffoscope table.diff tr:hover td {
+  background: #FFFF00;
+}
+.diffoscope .line {
+  color:#8080a0
+}
+.diffoscope th {
+  background: black;
+  color: white
+}
+.diffoscope .diffunmodified td {
+  background: #D0D0E0
+}
+.diffoscope .diffhunk td {
+  background: #A0A0A0
+}
+.diffoscope .diffadded td {
+  background: #CCFFCC
+}
+.diffoscope .diffdeleted td {
+  background: #FFCCCC
+}
+.diffoscope .diffchanged td {
+  background: #FFFFA0
+}
+.diffoscope ins, del {
+  background: #E0C880;
+  text-decoration: none
+}
+.diffoscope .dp {
+  color: #B08080
+}
+.diffoscope .comment {
+  font-style: italic;
+}
+.diffoscope .comment.multiline {
+  font-style: normal;
+  font-family: monospace;
+  white-space: pre;
+}
+.diffoscope .source {
+  font-weight: bold;
+}
+.diffoscope .error {
+  border: solid black 1px;
+  background: red;
+  color: white;
+  padding: 0.2em;
+}
+.diffoscope .anchor {
+  margin-left: 0.5em;
+  font-size: 80%;
+  color: #333;
+  text-decoration: none;
+  display: none;
+}
+.diffoscope .diffheader:hover .anchor {
+  display: inline;
+}
+.diffoscope .diffcontrol, .diffoscope .diffcontrol-nochildren {
+  float: left;
+  margin-right: 0.3em;
+  cursor: pointer;
+  display: none; /* currently, only available in html-dir output where jquery is enabled */
+}
+.diffoscope .colines {
+  width: 3em;
+}
+.diffoscope .coldiff {
+  width: 99%;
+}
+.diffoscope .diffsize {
+  float: right;
+}
+.diffoscope table.diff tr.ondemand td, .diffoscope div.ondemand-details {
+  background: #f99;
+  text-align: center;
+  padding: 0.5em 0;
+}
+.diffoscope table.diff tr.ondemand:hover td, .diffoscope div.ondemand-details:hover {
+  background: #faa;
+  cursor: pointer;
+}
+</style>
+</head>
+<body class="diffoscope">
+<div class="difference">
+  <div class="diffheader">
+  <div class="diffcontrol diffcontrol-double">⊟</div>
+  <div><span class="diffsize">3.29 KB</span></div>
+  <div><span class="source">com.scoutshonour.Digital.original</span> vs.</div>
+  <div id="top"><span class="source">com.scoutshonour.Digital.rebuild</span>
+    <a class="anchor" href="#top">¶</a>
+  </div>
+  </div>
+  <div class="difference">
+    <div class="diffheader">
+    <div class="diffcontrol diffcontrol-double">⊟</div>
+    <div><span class="diffsize">3.23 KB</span></div>
+    <div><span class="source">com.scoutshonour.Digital.original/files</span> vs.</div>
+    <div id="com.scoutshonour.Digital.original-files"><span class="source">com.scoutshonour.Digital.rebuild/files</span>
+      <a class="anchor" href="#com.scoutshonour.Digital.original-files">¶</a>
+    </div>
+    </div>
+    <div class="difference">
+      <div class="diffheader">
+      <div class="diffcontrol diffcontrol-double">⊟</div>
+      <div><span class="diffsize">3.15 KB</span></div>
+      <div><span class="source">com.scoutshonour.Digital.original/files/manifest.json</span> vs.</div>
+      <div id="com.scoutshonour.Digital.original-files---com.scoutshonour.Digital.original-files-manifest.json"><span class="source">com.scoutshonour.Digital.rebuild/files/manifest.json</span>
+        <a class="anchor" href="#com.scoutshonour.Digital.original-files---com.scoutshonour.Digital.original-files-manifest.json">¶</a>
+      </div>
+      </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 120, 26 lines modified</td><td colspan="2">Offset 120, 26 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2" class="diffpresent">00000770:<span class="dp">·</span>2020<span class="dp">·</span>2022<span class="dp">·</span>2d2d<span class="dp">·</span>6465<span class="dp">·</span>7669<span class="dp">·</span>6365<span class="dp">·</span>3d64<span class="dp">·</span>7269<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;--device=dri</td><td colspan="2" class="diffpresent">00000770:<span class="dp">·</span>2020<span class="dp">·</span>2022<span class="dp">·</span>2d2d<span class="dp">·</span>6465<span class="dp">·</span>7669<span class="dp">·</span>6365<span class="dp">·</span>3d64<span class="dp">·</span>7269<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;--device=dri</td></tr>
+<tr class="diffunmodified"><td colspan="2" class="diffpresent">00000780:<span class="dp">·</span>222c<span class="dp">·</span>0a20<span class="dp">·</span>2020<span class="dp">·</span>2022<span class="dp">·</span>2d2d<span class="dp">·</span>736f<span class="dp">·</span>636b<span class="dp">·</span>6574<span class="dp">·</span><span class="dp">·</span>&quot;,.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;--socket</td><td colspan="2" class="diffpresent">00000780:<span class="dp">·</span>222c<span class="dp">·</span>0a20<span class="dp">·</span>2020<span class="dp">·</span>2022<span class="dp">·</span>2d2d<span class="dp">·</span>736f<span class="dp">·</span>636b<span class="dp">·</span>6574<span class="dp">·</span><span class="dp">·</span>&quot;,.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;--socket</td></tr>
+<tr class="diffunmodified"><td colspan="2" class="diffpresent">00000790:<span class="dp">·</span>3d70<span class="dp">·</span>756c<span class="dp">·</span>7365<span class="dp">·</span>6175<span class="dp">·</span>6469<span class="dp">·</span>6f22<span class="dp">·</span>2c0a<span class="dp">·</span>2020<span class="dp">·</span><span class="dp">·</span>=pulseaudio&quot;,.<span class="dp">·</span><span class="dp">·</span></td><td colspan="2" class="diffpresent">00000790:<span class="dp">·</span>3d70<span class="dp">·</span>756c<span class="dp">·</span>7365<span class="dp">·</span>6175<span class="dp">·</span>6469<span class="dp">·</span>6f22<span class="dp">·</span>2c0a<span class="dp">·</span>2020<span class="dp">·</span><span class="dp">·</span>=pulseaudio&quot;,.<span class="dp">·</span><span class="dp">·</span></td></tr>
+<tr class="diffunmodified"><td colspan="2" class="diffpresent">000007a0:<span class="dp">·</span>2020<span class="dp">·</span>222d<span class="dp">·</span>2d66<span class="dp">·</span>696c<span class="dp">·</span>6573<span class="dp">·</span>7973<span class="dp">·</span>7465<span class="dp">·</span>6d3d<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;--filesystem=</td><td colspan="2" class="diffpresent">000007a0:<span class="dp">·</span>2020<span class="dp">·</span>222d<span class="dp">·</span>2d66<span class="dp">·</span>696c<span class="dp">·</span>6573<span class="dp">·</span>7973<span class="dp">·</span>7465<span class="dp">·</span>6d3d<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;--filesystem=</td></tr>
+<tr class="diffunmodified"><td colspan="2" class="diffpresent">000007b0:<span class="dp">·</span>7e2f<span class="dp">·</span>2e72<span class="dp">·</span>656e<span class="dp">·</span>7079<span class="dp">·</span>3a63<span class="dp">·</span>7265<span class="dp">·</span>6174<span class="dp">·</span>6522<span class="dp">·</span><span class="dp">·</span>~/.renpy:create&quot;</td><td colspan="2" class="diffpresent">000007b0:<span class="dp">·</span>7e2f<span class="dp">·</span>2e72<span class="dp">·</span>656e<span class="dp">·</span>7079<span class="dp">·</span>3a63<span class="dp">·</span>7265<span class="dp">·</span>6174<span class="dp">·</span>6522<span class="dp">·</span><span class="dp">·</span>~/.renpy:create&quot;</td></tr>
+<tr class="diffunmodified"><td colspan="2" class="diffpresent">000007c0:<span class="dp">·</span>2c0a<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>222d<span class="dp">·</span>2d61<span class="dp">·</span>6c6c<span class="dp">·</span>6f77<span class="dp">·</span>3d6d<span class="dp">·</span><span class="dp">·</span>,.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;--allow=m</td><td colspan="2" class="diffpresent">000007c0:<span class="dp">·</span>2c0a<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>222d<span class="dp">·</span>2d61<span class="dp">·</span>6c6c<span class="dp">·</span>6f77<span class="dp">·</span>3d6d<span class="dp">·</span><span class="dp">·</span>,.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;--allow=m</td></tr>
+<tr class="diffunmodified"><td colspan="2" class="diffpresent">000007d0:<span class="dp">·</span>756c<span class="dp">·</span>7469<span class="dp">·</span>6172<span class="dp">·</span>6368<span class="dp">·</span>220a<span class="dp">·</span>2020<span class="dp">·</span>5d2c<span class="dp">·</span>0a20<span class="dp">·</span><span class="dp">·</span>ultiarch&quot;.<span class="dp">·</span><span class="dp">·</span>],.<span class="dp">·</span></td><td colspan="2" class="diffpresent">000007d0:<span class="dp">·</span>756c<span class="dp">·</span>7469<span class="dp">·</span>6172<span class="dp">·</span>6368<span class="dp">·</span>220a<span class="dp">·</span>2020<span class="dp">·</span>5d2c<span class="dp">·</span>0a20<span class="dp">·</span><span class="dp">·</span>ultiarch&quot;.<span class="dp">·</span><span class="dp">·</span>],.<span class="dp">·</span></td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">000007e0:<span class="dp">·</span>2022<span class="dp">·</span>7461<span class="dp">·</span>6773<span class="dp">·</span>2220<span class="dp">·</span>3a20<span class="dp">·</span>5b<del>0a</del><span class="dp">·</span>2<del>020</del><span class="dp">·</span><del>5d</del>2<del>c</del><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;tags&quot;<span class="dp">·</span>:<span class="dp">·</span>[.<span class="dp">·</span><span class="dp">·</span><del>],</del></td><td colspan="2" class="diffpresent">000007e0:<span class="dp">·</span>2022<span class="dp">·</span>7461<span class="dp">·</span>6773<span class="dp">·</span>2220<span class="dp">·</span>3a20<span class="dp">·</span>5b<ins>5d</ins><span class="dp">·</span>2<ins>c0a</ins><span class="dp">·</span><ins>20</ins>2<ins>0</ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;tags&quot;<span class="dp">·</span>:<span class="dp">·</span>[<ins>],</ins>.<span class="dp">·</span><span class="dp">·</span></td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">000007f0:<span class="dp">·</span>0a20<span class="dp">·</span>2022<span class="dp">·</span>6164<span class="dp">·</span>642d<span class="dp">·</span>6578<span class="dp">·</span>7465<span class="dp">·</span>6e73<span class="dp">·</span>696f<span class="dp">·</span><span class="dp">·</span>.<span class="dp">·</span><span class="dp">·</span>&quot;add-extensio</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">00000800:<span class="dp">·</span>6e73<span class="dp">·</span>2220<span class="dp">·</span>3a20<span class="dp">·</span>7b0a<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>226f<span class="dp">·</span>7267<span class="dp">·</span><span class="dp">·</span>ns&quot;<span class="dp">·</span>:<span class="dp">·</span>{.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;org</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">00000810:<span class="dp">·</span>2e66<span class="dp">·</span>7265<span class="dp">·</span>6564<span class="dp">·</span>6573<span class="dp">·</span>6b74<span class="dp">·</span>6f70<span class="dp">·</span>2e50<span class="dp">·</span>6c61<span class="dp">·</span><span class="dp">·</span>.freedesktop.Pla</td><td colspan="2"> </td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">00000<del>82</del>0:<span class="dp">·</span><del>74</del>6<del>6</del><span class="dp">·</span>6<del>f72</del><span class="dp">·</span><del>6</del>d<del>2e</del><span class="dp">·</span><del>436f</del><span class="dp">·</span>6<del>d70</del><span class="dp">·</span><del>6174</del><span class="dp">·</span><del>2e</del>6<del>9</del><span class="dp">·</span><del>3</del>3<del>38</del><span class="dp">·</span><span class="dp">·</span><del>tform.Compat.i38</del></td><td colspan="2" class="diffpresent">00000<ins>7f</ins>0:<span class="dp">·</span><ins>22</ins>6<ins>1</ins><span class="dp">·</span>6<ins>464</ins><span class="dp">·</span><ins>2</ins>d<ins>65</ins><span class="dp">·</span><ins>7874</ins><span class="dp">·</span>6<ins>56e</ins><span class="dp">·</span><ins>7369</ins><span class="dp">·</span><ins>6f</ins>6<ins>e</ins><span class="dp">·</span><ins>7</ins>3<ins>22</ins><span class="dp">·</span><span class="dp">·</span><ins>&quot;add-extensions&quot;</ins></td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">00000800:<span class="dp">·</span>203a<span class="dp">·</span>207b<span class="dp">·</span>0a20<span class="dp">·</span>2020<span class="dp">·</span>2022<span class="dp">·</span>6f72<span class="dp">·</span>672e<span class="dp">·</span>6672<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>:<span class="dp">·</span>{.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;org.fr</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">00000810:<span class="dp">·</span>6565<span class="dp">·</span>6465<span class="dp">·</span>736b<span class="dp">·</span>746f<span class="dp">·</span>702e<span class="dp">·</span>506c<span class="dp">·</span>6174<span class="dp">·</span>666f<span class="dp">·</span><span class="dp">·</span>eedesktop.Platfo</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">00000820:<span class="dp">·</span>726d<span class="dp">·</span>2e43<span class="dp">·</span>6f6d<span class="dp">·</span>7061<span class="dp">·</span>742e<span class="dp">·</span>6933<span class="dp">·</span>3836<span class="dp">·</span>2220<span class="dp">·</span><span class="dp">·</span>rm.Compat.i386&quot;<span class="dp">·</span></td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">00000830:<span class="dp">·</span>3<del>6</del>2<del>2</del><span class="dp">·</span><del>203</del>a<span class="dp">·</span>2<del>07b<span class="dp">·</span></del>0<del>a</del>20<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2<del>022</del><span class="dp">·</span>6<del>469</del><span class="dp">·</span><del><span class="dp">·</span></del>6<del>&quot;</del><span class="dp">·</span>:<span class="dp">·</span>{.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;di</td><td colspan="2" class="diffpresent">00000830:<span class="dp">·</span>3<ins>a</ins>2<ins>0</ins><span class="dp">·</span><ins>7b0</ins>a<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2<ins>264</ins><span class="dp">·</span>6<ins>972</ins><span class="dp">·</span><ins>6</ins><ins>5</ins>6<ins>3</ins><ins><span class="dp">·</span></ins><span class="dp">·</span>:<span class="dp">·</span>{.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;di<ins>rec</ins></td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">00000840:<span class="dp">·</span>7265<span class="dp">·</span>6374<span class="dp">·</span>6f72<span class="dp">·</span>7922<span class="dp">·</span>203a<span class="dp">·</span>2022<span class="dp">·</span>6c69<span class="dp">·</span>622f<span class="dp">·</span><span class="dp">·</span>rectory&quot;<span class="dp">·</span>:<span class="dp">·</span>&quot;lib/</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">00000850:<span class="dp">·</span>6933<span class="dp">·</span>3836<span class="dp">·</span>2d6c<span class="dp">·</span>696e<span class="dp">·</span>7578<span class="dp">·</span>2d67<span class="dp">·</span>6e75<span class="dp">·</span>222c<span class="dp">·</span><span class="dp">·</span>i386-linux-gnu&quot;,</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">00000860:<span class="dp">·</span>0a20<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2022<span class="dp">·</span>7665<span class="dp">·</span>7273<span class="dp">·</span>696f<span class="dp">·</span>6e22<span class="dp">·</span><span class="dp">·</span>.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;version&quot;</td><td colspan="2"> </td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">000008<del>7</del>0:<span class="dp">·</span><del>203a</del><span class="dp">·</span><del>2022</del><span class="dp">·</span><del>3</del>2<del>31</del><span class="dp">·</span><del>2e3</del>0<span class="dp">·</span><del>3822</del><span class="dp">·</span><del>0a20</del><span class="dp">·</span>2<del>020</del><span class="dp">·</span><del>207d</del><span class="dp">·</span><span class="dp">·</span><del><span class="dp">·</span>:<span class="dp">·</span>&quot;21.08&quot;.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>}</del></td><td colspan="2" class="diffpresent">000008<ins>4</ins>0:<span class="dp">·</span><ins>746f</ins><span class="dp">·</span><ins>7279</ins><span class="dp">·</span><ins>2</ins>2<ins>20</ins><span class="dp">·</span><ins>3a2</ins>0<span class="dp">·</span><ins>226c</ins><span class="dp">·</span><ins>6962</ins><span class="dp">·</span>2<ins>f69</ins><span class="dp">·</span><ins>3338</ins><span class="dp">·</span><span class="dp">·</span><ins>tory&quot;<span class="dp">·</span>:<span class="dp">·</span>&quot;lib/i38</ins></td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">00000850:<span class="dp">·</span>362d<span class="dp">·</span>6c69<span class="dp">·</span>6e75<span class="dp">·</span>782d<span class="dp">·</span>676e<span class="dp">·</span>7522<span class="dp">·</span>2c0a<span class="dp">·</span>2020<span class="dp">·</span><span class="dp">·</span>6-linux-gnu&quot;,.<span class="dp">·</span><span class="dp">·</span></td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">00000860:<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2276<span class="dp">·</span>6572<span class="dp">·</span>7369<span class="dp">·</span>6f6e<span class="dp">·</span>2220<span class="dp">·</span>3a20<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;version&quot;<span class="dp">·</span>:<span class="dp">·</span></td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">00000870:<span class="dp">·</span>2232<span class="dp">·</span>312e<span class="dp">·</span>3038<span class="dp">·</span>220a<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>7d2c<span class="dp">·</span>0a20<span class="dp">·</span><span class="dp">·</span>&quot;21.08&quot;.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>},.<span class="dp">·</span></td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">00000880:<span class="dp">·</span>2<del>c0a<span class="dp">·</span>2</del>020<span class="dp">·</span>202<del>0<span class="dp">·</span></del>2<del>2</del>6f<del><span class="dp">·</span></del>7267<del><span class="dp">·</span></del>2e66<span class="dp">·</span><del>72</del>65<span class="dp">·</span>6<del>5</del>6<del>4</del><span class="dp">·</span><del><span class="dp">·</span>,.</del><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;org.freed</td><td colspan="2" class="diffpresent">00000880:<span class="dp">·</span>2020<span class="dp">·</span>2022<ins><span class="dp">·</span></ins>6f72<ins><span class="dp">·</span></ins>672e<ins><span class="dp">·</span></ins>66<ins>72</ins><span class="dp">·</span><ins>65</ins>65<span class="dp">·</span>6<ins>4</ins>6<ins>5</ins><span class="dp">·</span><ins>73</ins><ins>6b<span class="dp">·</span></ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;org.freed<ins>esk</ins></td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">00000890:<span class="dp">·</span>6573<span class="dp">·</span>6b74<span class="dp">·</span>6f70<span class="dp">·</span>2e50<span class="dp">·</span>6c61<span class="dp">·</span>7466<span class="dp">·</span>6f72<span class="dp">·</span>6d2e<span class="dp">·</span><span class="dp">·</span>esktop.Platform.</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">000008a0:<span class="dp">·</span>436f<span class="dp">·</span>6d70<span class="dp">·</span>6174<span class="dp">·</span>2e69<span class="dp">·</span>3338<span class="dp">·</span>362e<span class="dp">·</span>4465<span class="dp">·</span>6275<span class="dp">·</span><span class="dp">·</span>Compat.i386.Debu</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">000008b0:<span class="dp">·</span>6722<span class="dp">·</span>203a<span class="dp">·</span>207b<span class="dp">·</span>0a20<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2022<span class="dp">·</span>6469<span class="dp">·</span><span class="dp">·</span>g&quot;<span class="dp">·</span>:<span class="dp">·</span>{.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;di</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">000008c0:<span class="dp">·</span>7265<span class="dp">·</span>6374<span class="dp">·</span>6f72<span class="dp">·</span>7922<span class="dp">·</span>203a<span class="dp">·</span>2022<span class="dp">·</span>6c69<span class="dp">·</span>622f<span class="dp">·</span><span class="dp">·</span>rectory&quot;<span class="dp">·</span>:<span class="dp">·</span>&quot;lib/</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">000008d0:<span class="dp">·</span>6465<span class="dp">·</span>6275<span class="dp">·</span>672f<span class="dp">·</span>6c69<span class="dp">·</span>622f<span class="dp">·</span>6933<span class="dp">·</span>3836<span class="dp">·</span>2d6c<span class="dp">·</span><span class="dp">·</span>debug/lib/i386-l</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">000008e0:<span class="dp">·</span>696e<span class="dp">·</span>7578<span class="dp">·</span>2d67<span class="dp">·</span>6e75<span class="dp">·</span>222c<span class="dp">·</span>0a20<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span><span class="dp">·</span>inux-gnu&quot;,.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span></td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td colspan="2" class="diffpresent">000008f0:<span class="dp">·</span>2022<span class="dp">·</span>7665<span class="dp">·</span>7273<span class="dp">·</span>696f<span class="dp">·</span>6e22<span class="dp">·</span>203a<span class="dp">·</span>2022<span class="dp">·</span>3231<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;version&quot;<span class="dp">·</span>:<span class="dp">·</span>&quot;21</td><td colspan="2"> </td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">00000<del>90</del>0:<span class="dp">·</span><del>2e30</del><span class="dp">·</span><del>38</del>2<del>2</del><span class="dp">·</span><del>0a20</del><span class="dp">·</span><del>2020</del><span class="dp">·</span><del>207d</del><span class="dp">·</span><del>0a20</del><span class="dp">·</span>2<del>07d</del><span class="dp">·</span><del>0a7</del>d<span class="dp">·</span><span class="dp">·</span><del>.08&quot;.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>}.<span class="dp">·</span><span class="dp">·</span>}.}</del></td><td colspan="2" class="diffpresent">00000<ins>89</ins>0:<span class="dp">·</span><ins>746f</ins><span class="dp">·</span><ins>70</ins>2<ins>e</ins><span class="dp">·</span><ins>506c</ins><span class="dp">·</span><ins>6174</ins><span class="dp">·</span><ins>666f</ins><span class="dp">·</span><ins>726d</ins><span class="dp">·</span>2<ins>e43</ins><span class="dp">·</span><ins>6f6</ins>d<span class="dp">·</span><span class="dp">·</span><ins>top.Platform.Com</ins></td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">000008a0:<span class="dp">·</span>7061<span class="dp">·</span>742e<span class="dp">·</span>6933<span class="dp">·</span>3836<span class="dp">·</span>2e44<span class="dp">·</span>6562<span class="dp">·</span>7567<span class="dp">·</span>2220<span class="dp">·</span><span class="dp">·</span>pat.i386.Debug&quot;<span class="dp">·</span></td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">000008b0:<span class="dp">·</span>3a20<span class="dp">·</span>7b0a<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2264<span class="dp">·</span>6972<span class="dp">·</span>6563<span class="dp">·</span><span class="dp">·</span>:<span class="dp">·</span>{.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;direc</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">000008c0:<span class="dp">·</span>746f<span class="dp">·</span>7279<span class="dp">·</span>2220<span class="dp">·</span>3a20<span class="dp">·</span>226c<span class="dp">·</span>6962<span class="dp">·</span>2f64<span class="dp">·</span>6562<span class="dp">·</span><span class="dp">·</span>tory&quot;<span class="dp">·</span>:<span class="dp">·</span>&quot;lib/deb</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">000008d0:<span class="dp">·</span>7567<span class="dp">·</span>2f6c<span class="dp">·</span>6962<span class="dp">·</span>2f69<span class="dp">·</span>3338<span class="dp">·</span>362d<span class="dp">·</span>6c69<span class="dp">·</span>6e75<span class="dp">·</span><span class="dp">·</span>ug/lib/i386-linu</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">000008e0:<span class="dp">·</span>782d<span class="dp">·</span>676e<span class="dp">·</span>7522<span class="dp">·</span>2c0a<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>2276<span class="dp">·</span><span class="dp">·</span>x-gnu&quot;,.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;v</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">000008f0:<span class="dp">·</span>6572<span class="dp">·</span>7369<span class="dp">·</span>6f6e<span class="dp">·</span>2220<span class="dp">·</span>3a20<span class="dp">·</span>2232<span class="dp">·</span>312e<span class="dp">·</span>3038<span class="dp">·</span><span class="dp">·</span>ersion&quot;<span class="dp">·</span>:<span class="dp">·</span>&quot;21.08</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2" class="diffpresent">00000900:<span class="dp">·</span>220a<span class="dp">·</span>2020<span class="dp">·</span>2020<span class="dp">·</span>7d0a<span class="dp">·</span>2020<span class="dp">·</span>7d0a<span class="dp">·</span>7d<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&quot;.<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>}.<span class="dp">·</span><span class="dp">·</span>}.}</td></tr>
+</table>    </div>
+  </div>
+</div>
+<div class="footer">
+Generated by
+<a href="https://diffoscope.org" rel="noopener noreferrer" target="_blank">
+diffoscope</a> 213
+</div>
+</body>
+</html>
+

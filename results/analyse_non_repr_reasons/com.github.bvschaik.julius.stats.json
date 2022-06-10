@@ -1,0 +1,31 @@
+{
+    "name": "com.github.bvschaik.julius",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "7f4be6b3efc4b31db6aa5db634235cbf578be7d9b442247f28598407da4d1b99",
+    "branch": "stable",
+    "time_of_rebuild": "2021-10-14 16:22:33+00:00",
+    "timestamp_of_rebuild": 1634228553.0,
+    "git-commit": "57aee555be5a819285869aa81c2c82ac5e63937c master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/21.08": "1fad7974d6fe02c6ac83e3e804e0317f4d8d3528dcd5087002e1b501ddadbb6b",
+        "org.freedesktop.Platform/x86_64/21.08": "16d161d8a71701b80fa4bca12812a22c19dc0641b3571fe88c517c84da94c5b5"
+    },
+    "build_time": 42.9180166721344,
+    "cache_size": 6469025,
+    "git_size": 0,
+    "dl_size": 6452562,
+    "bad_files": 1,
+    "total_files": 17,
+    "repro_score": 0.9411764705882353,
+    "original_hash": "655e857be30660357bbb67cbc55911a90c79b2fd",
+    "rebuild_hash": "d725c3673a810a97b3daea379fdbdd17e3be2cb0",
+    "original_bin_hash": "ee61c2cb3d4cdb28087a0f5f46a01ddc4216e16d",
+    "rebuild_bin_hash": "ee61c2cb3d4cdb28087a0f5f46a01ddc4216e16d",
+    "original_elf_hash": "290bda7c360fcf9e6a82d24bd821231ea53b3dce",
+    "rebuild_elf_hash": "290bda7c360fcf9e6a82d24bd821231ea53b3dce",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

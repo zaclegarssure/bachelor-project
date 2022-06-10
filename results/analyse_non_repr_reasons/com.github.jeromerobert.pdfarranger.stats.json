@@ -1,0 +1,31 @@
+{
+    "name": "com.github.jeromerobert.pdfarranger",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "113cc6d96930e5a2b4eb6c208dd1b5b9cd29e78a35ca6b2b19bfb3c854274d72",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-01 18:44:11+00:00",
+    "timestamp_of_rebuild": 1654109051.0,
+    "git-commit": "cada4dc5e36079b5cdfb54c19e5cb2210c170c5d master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "7740c36e8827c437ebe105920500c7d1b551e9a7a772efc7d7bc3456a7f2d724",
+        "org.gnome.Platform/x86_64/42": "b4da44bcb1af9e180a5e8a0e82f92998c779d98a56902e2cd6535836cd5cdc7d"
+    },
+    "build_time": 770.3890023231506,
+    "cache_size": 77281598,
+    "git_size": 342534,
+    "dl_size": 76918505,
+    "bad_files": 21,
+    "total_files": 680,
+    "repro_score": 0.9691176470588235,
+    "original_hash": "df7888ead72f683ed7d292ff0edf7bed90a5c85e",
+    "rebuild_hash": "2afbb5f4c1154adce473ad74b43f89fac54de818",
+    "original_bin_hash": "b419b715372370ff9d8667b43d7aae6014b1a344",
+    "rebuild_bin_hash": "3a3a650f1a774583dab8d8e697ddcf4d21df58c7",
+    "original_elf_hash": "3fa785d26890ed84ce06a0d0e36e8c0cc1a1e07a",
+    "rebuild_elf_hash": "bbea5a668789be611f22c522a8f0489f181f81fc",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,31 @@
+{
+    "name": "app.rednotebook.RedNotebook",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "4a1847fbd67c07cccc5b4754d44fe477d4b23507f309e9ee30405f174f9b8deb",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-16 10:43:07+00:00",
+    "timestamp_of_rebuild": 1652697787.0,
+    "git-commit": "e579a26ba28d068d8f2999381f5de5e9bfbef76c master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/40": "9a504e06a0b7d2f613440d8deaa70ae1360a05b6c26859ecf28196836cc0734d",
+        "org.gnome.Platform/x86_64/40": "9c1a20fb46b804298718c19612172b22034f98ef57ff285c245e0054ca187c08"
+    },
+    "build_time": 120.71219182014465,
+    "cache_size": 3624617,
+    "git_size": 0,
+    "dl_size": 3608154,
+    "bad_files": 1,
+    "total_files": 402,
+    "repro_score": 0.9975124378109452,
+    "original_hash": "f8741aad9b8dcee799c655d37c26a79828873684",
+    "rebuild_hash": "9e077c7971f34394d44b57744e62737862c1a831",
+    "original_bin_hash": "a13d7e82386bd4470eae6ee2ba9da871d00e4106",
+    "rebuild_bin_hash": "ed2e3905fc7c25de08f21d77cdc331db35bc2a39",
+    "original_elf_hash": "d2ea63fde45edcec2370f5349855f4a3af23b99d",
+    "rebuild_elf_hash": "f2e8485cc8f8c0be6166f1cf5aa506a5949662a2",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

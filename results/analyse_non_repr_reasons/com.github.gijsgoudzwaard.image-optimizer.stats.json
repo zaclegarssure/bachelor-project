@@ -1,0 +1,32 @@
+{
+    "name": "com.github.gijsgoudzwaard.image-optimizer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "8102caa1d253012f4e08c66df3fa1260edb570311004113962580c47e62b34ad",
+    "branch": "stable",
+    "time_of_rebuild": "2021-06-02 16:28:26+00:00",
+    "timestamp_of_rebuild": 1622651306.0,
+    "git-commit": "eaf52a9fb431e04f94619fd02eeb0233da2afbbc master",
+    "flatpak-deps": {
+        "io.elementary.BaseApp/x86_64/juno-20.08": "74b996016ed985696b382feb1e3aa3886e394ac583c74b6d9d686196dc0dd502",
+        "org.flatpak.Builder/x86_64/stable": "a770bfe0520e0ea3e08a1d2383d470200bcad65c4e44520f142016e2572270d8",
+        "org.freedesktop.Sdk/x86_64/20.08": "699d38c9e1d5c566179309d47537729022a964f9f442fae59168130a9161c010",
+        "org.freedesktop.Platform/x86_64/20.08": "f7ca632f38fbf46f8ec2ad01cd2cb123e1683d58a9b29ecefa352edae383b17c"
+    },
+    "build_time": 172.4454095363617,
+    "cache_size": 6127419,
+    "git_size": 0,
+    "dl_size": 6110956,
+    "bad_files": 2,
+    "total_files": 4767,
+    "repro_score": 0.9995804489196559,
+    "original_hash": "16faa74987f708fdb53667630758398e9d67ace2",
+    "rebuild_hash": "d7f66804a9a16a7e143bd21f8353ef28845c6939",
+    "original_bin_hash": "f113371fafedceb7fced8cee22f0788404c16b39",
+    "rebuild_bin_hash": "5dd9b0633786dc45410fa601d86cb7239f564f6f",
+    "original_elf_hash": "70336995cafbb3848fe4d37e7cf1d19614f84b08",
+    "rebuild_elf_hash": "70336995cafbb3848fe4d37e7cf1d19614f84b08",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

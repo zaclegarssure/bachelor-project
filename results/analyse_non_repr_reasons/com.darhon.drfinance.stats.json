@@ -1,0 +1,31 @@
+{
+    "name": "com.darhon.drfinance",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "c076dbda6a6882736fe552946652451148fe10119af626451b4d7188bf84702f",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-20 10:53:24+00:00",
+    "timestamp_of_rebuild": 1650452004.0,
+    "git-commit": "aa0eee0c39ff8070dce8141a845b4fadbbafce86 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 139.32486200332642,
+    "cache_size": 538277,
+    "git_size": 521814,
+    "dl_size": 0,
+    "bad_files": 1,
+    "total_files": 26,
+    "repro_score": 0.9615384615384616,
+    "original_hash": "34257a89b0ba7d84f57710729d2e35d22e262b24",
+    "rebuild_hash": "401048587d623e2f49b35a970028519385853d02",
+    "original_bin_hash": "4552fcdc17792979adc1621182db33825c47f25e",
+    "rebuild_bin_hash": "57fbfa27022399dcf0eeb5929df93ad8c4327900",
+    "original_elf_hash": "3e1193d3871784bd5a1d424bd618393acd161b2d",
+    "rebuild_elf_hash": "ae07f913f230461fcb2e0fc2b6e60e4b72be7835",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

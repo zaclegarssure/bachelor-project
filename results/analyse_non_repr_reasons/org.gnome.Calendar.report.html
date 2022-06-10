@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="referrer" content="no-referrer" />
+  <meta name="generator" content="diffoscope" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAM8SURBVFiF7dZdaJZlGAfw3/O+e9XNjy3XllZzWImBxIpifqTgsmUHBSIeBNFBdRh0UHQ0xGdb66CFBIERZEFRQRRUw0HkQkLMYQSBdpCFWdgSP6jpNn2393k68Nn2bj3vXtb6UOh/cl/39b/u67mem/913zf/4z9GUDw5xNI8n5WIzW9m/QF2YluJmI8203mALzEvLWAerRs4Pz6vSIkZSlsYk0/GkaB0zEgyDgWMlijyWsJuS2fkQwu8pqpMTA0ypeiShG71Bp0rU8Q+A47MWEDgvHZbZl/Av4SpIgxVYB3IqwZDmoUuYkzosDaNchpAoFqkSmgjGPWzLieF1k3JHVsjvCJQHBYaSy9g1E3m+QImQiK9SbNGqJDzuiDZ0lggQJCsyelDq8BB47sbCWTsnvhG3kqcLL833eqF4hk1EOoTOjZjnnaRdq2l6KtMAyl4/g23bKJrun+Mt9uOq7nvqOVbebWYy9Adc1fM/R/3CO780dONbIeFPHsPw+ULeM5ZHTbXHfUtXpxOZzgT5z02UGsZThRzF/ilht9G+fr4zfbfccIxXIa7uVTup69i7LJXaEEqF3on1d9ludBLpVLOVoT1lky9QYtwQ6p3WAVqSyUslWwSbRrkPJrMtgn0iBVk7BPJ4sGE24EPQKW3jLgdzWKLBTbg0yTuZeGkDsp2gcUGDesHGQ/gK5G8nLMigWiCe3jCrnTRiJ9EYjm1ImsUEq5l8hScPXbpsVtlKhfan+pv0yD0ZqmU5XegGBmnDIo/pylj8oYLOP3Eab/v5Zmi6EtZ3vv1FU/2r7LioYSL2dNybbdiMdptFU57++20Vqh+iq/Tap1WpaWY611wmyWyUzxZDbIWTvEV1Ildn5agfBumoUMTtoisFvhebAAHZWxX0ChwTuScvHdVeVykToysMyJ7ittwbmj31J+6IrRDp5XTfBt1WJ+WYnZdMB0F3xlUgD5uDVj2Sa+a4SrzH+FeyHHmw17V112waBOZgP4WczkLZsILar1fpIliMU4XZoK/poE0XHl+N8v6QcGAUbVymnDIZVnzrTXqGzmnhKLxZX/niyiDjIJgwg4Se1GR/Y8idGPysh6fr0i1i/AHMWHgrwUJgNAAAAAASUVORK5CYII=" />
+  <title>/usr/bin/diffoscope org.gnome.Calendar.original org.gnome.Calendar.rebuild --exclude-directory-metadata=yes --html=org.gnome.Calendar.report.html</title>
+<style>
+body.diffoscope {
+  background: white;
+  color: black;
+}
+.diffoscope .footer {
+  font-size: small;
+}
+.diffoscope .difference {
+  border: outset #888 1px;
+  background: #E8E8E8;
+  background: rgba(0,0,0,.1);
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+.diffoscope .difference table {
+  table-layout: fixed;
+  width: 100%;
+  border: 0;
+}
+.diffoscope .difference th,
+.diffoscope .difference td {
+  border: 0;
+}
+.diffoscope table.diff {
+  border: 0;
+  border-collapse:collapse;
+  font-size:0.75em;
+  font-family: 'Lucida Console', monospace;
+  word-break: break-word;
+}
+.diffoscope table.diff tr:hover td {
+  background: #FFFF00;
+}
+.diffoscope .line {
+  color:#8080a0
+}
+.diffoscope th {
+  background: black;
+  color: white
+}
+.diffoscope .diffunmodified td {
+  background: #D0D0E0
+}
+.diffoscope .diffhunk td {
+  background: #A0A0A0
+}
+.diffoscope .diffadded td {
+  background: #CCFFCC
+}
+.diffoscope .diffdeleted td {
+  background: #FFCCCC
+}
+.diffoscope .diffchanged td {
+  background: #FFFFA0
+}
+.diffoscope ins, del {
+  background: #E0C880;
+  text-decoration: none
+}
+.diffoscope .dp {
+  color: #B08080
+}
+.diffoscope .comment {
+  font-style: italic;
+}
+.diffoscope .comment.multiline {
+  font-style: normal;
+  font-family: monospace;
+  white-space: pre;
+}
+.diffoscope .source {
+  font-weight: bold;
+}
+.diffoscope .error {
+  border: solid black 1px;
+  background: red;
+  color: white;
+  padding: 0.2em;
+}
+.diffoscope .anchor {
+  margin-left: 0.5em;
+  font-size: 80%;
+  color: #333;
+  text-decoration: none;
+  display: none;
+}
+.diffoscope .diffheader:hover .anchor {
+  display: inline;
+}
+.diffoscope .diffcontrol, .diffoscope .diffcontrol-nochildren {
+  float: left;
+  margin-right: 0.3em;
+  cursor: pointer;
+  display: none; /* currently, only available in html-dir output where jquery is enabled */
+}
+.diffoscope .colines {
+  width: 3em;
+}
+.diffoscope .coldiff {
+  width: 99%;
+}
+.diffoscope .diffsize {
+  float: right;
+}
+.diffoscope table.diff tr.ondemand td, .diffoscope div.ondemand-details {
+  background: #f99;
+  text-align: center;
+  padding: 0.5em 0;
+}
+.diffoscope table.diff tr.ondemand:hover td, .diffoscope div.ondemand-details:hover {
+  background: #faa;
+  cursor: pointer;
+}
+</style>
+</head>
+<body class="diffoscope">
+<div class="difference">
+  <div class="diffheader">
+  <div class="diffcontrol diffcontrol-double">⊟</div>
+  <div><span class="diffsize">5.42 KB</span></div>
+  <div><span class="source">org.gnome.Calendar.original</span> vs.</div>
+  <div id="top"><span class="source">org.gnome.Calendar.rebuild</span>
+    <a class="anchor" href="#top">¶</a>
+  </div>
+  </div>
+  <div class="difference">
+    <div class="diffheader">
+    <div class="diffcontrol diffcontrol-double">⊟</div>
+    <div><span class="diffsize">5.37 KB</span></div>
+    <div><span class="source">org.gnome.Calendar.original/files</span> vs.</div>
+    <div id="org.gnome.Calendar.original-files"><span class="source">org.gnome.Calendar.rebuild/files</span>
+      <a class="anchor" href="#org.gnome.Calendar.original-files">¶</a>
+    </div>
+    </div>
+    <div class="difference">
+      <div class="diffheader">
+      <div class="diffcontrol diffcontrol-double">⊟</div>
+      <div><span class="diffsize">5.31 KB</span></div>
+      <div><span class="source">org.gnome.Calendar.original/files/share</span> vs.</div>
+      <div id="org.gnome.Calendar.original-files---org.gnome.Calendar.original-files-share"><span class="source">org.gnome.Calendar.rebuild/files/share</span>
+        <a class="anchor" href="#org.gnome.Calendar.original-files---org.gnome.Calendar.original-files-share">¶</a>
+      </div>
+      </div>
+      <div class="difference">
+        <div class="diffheader">
+        <div class="diffcontrol diffcontrol-double">⊟</div>
+        <div><span class="diffsize">5.23 KB</span></div>
+        <div><span class="source">org.gnome.Calendar.original/files/share/app-info</span> vs.</div>
+        <div id="org.gnome.Calendar.original-files---org.gnome.Calendar.original-files-share---org.gnome.Calendar.original-files-share-app-info"><span class="source">org.gnome.Calendar.rebuild/files/share/app-info</span>
+          <a class="anchor" href="#org.gnome.Calendar.original-files---org.gnome.Calendar.original-files-share---org.gnome.Calendar.original-files-share-app-info">¶</a>
+        </div>
+        </div>
+        <div class="difference">
+          <div class="diffheader">
+          <div class="diffcontrol diffcontrol-double">⊟</div>
+          <div><span class="diffsize">5.14 KB</span></div>
+          <div><span class="source">org.gnome.Calendar.original/files/share/app-info/xmls</span> vs.</div>
+          <div id="org.gnome.Calendar.original-files---org.gnome.Calendar.original-files-share---org.gnome.Calendar.original-files-share-app-info---org.gnome.Calendar.original-files-share-app-info-xmls"><span class="source">org.gnome.Calendar.rebuild/files/share/app-info/xmls</span>
+            <a class="anchor" href="#org.gnome.Calendar.original-files---org.gnome.Calendar.original-files-share---org.gnome.Calendar.original-files-share-app-info---org.gnome.Calendar.original-files-share-app-info-xmls">¶</a>
+          </div>
+          </div>
+          <div class="difference">
+            <div class="diffheader">
+            <div class="diffcontrol diffcontrol-double">⊟</div>
+            <div><span class="diffsize">5.04 KB</span></div>
+            <div><span class="source">org.gnome.Calendar.original/files/share/app-info/xmls/org.gnome.Calendar.xml.gz</span> vs.</div>
+            <div id="org.gnome.Calendar.original-files---org.gnome.Calendar.original-files-share---org.gnome.Calendar.original-files-share-app-info---org.gnome.Calendar.original-files-share-app-info-xmls---org.gnome.Calendar.original-files-share-app-info-xmls-org.gnome.Calendar.xml.gz"><span class="source">org.gnome.Calendar.rebuild/files/share/app-info/xmls/org.gnome.Calendar.xml.gz</span>
+              <a class="anchor" href="#org.gnome.Calendar.original-files---org.gnome.Calendar.original-files-share---org.gnome.Calendar.original-files-share-app-info---org.gnome.Calendar.original-files-share-app-info-xmls---org.gnome.Calendar.original-files-share-app-info-xmls-org.gnome.Calendar.xml.gz">¶</a>
+            </div>
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol">⊟</div>
+              <div><span class="diffsize">4.88 KB</span></div>
+              <div id="org.gnome.Calendar.original-files---org.gnome.Calendar.original-files-share---org.gnome.Calendar.original-files-share-app-info---org.gnome.Calendar.original-files-share-app-info-xmls---org.gnome.Calendar.original-files-share-app-info-xmls-org.gnome.Calendar.xml.gz---org.gnome.Calendar.xml"><span class="source">org.gnome.Calendar.xml</span>
+                <a class="anchor" href="#org.gnome.Calendar.original-files---org.gnome.Calendar.original-files-share---org.gnome.Calendar.original-files-share-app-info---org.gnome.Calendar.original-files-share-app-info-xmls---org.gnome.Calendar.original-files-share-app-info-xmls-org.gnome.Calendar.xml.gz---org.gnome.Calendar.xml">¶</a>
+              </div>
+              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">4.84 KB</span></div>
+                <div id="org.gnome.Calendar.original-files---org.gnome.Calendar.original-files-share---org.gnome.Calendar.original-files-share-app-info---org.gnome.Calendar.original-files-share-app-info-xmls---org.gnome.Calendar.original-files-share-app-info-xmls-org.gnome.Calendar.xml.gz---org.gnome.Calendar.xml---org.gnome.Calendar.xml"><span class="source">org.gnome.Calendar.xml</span>
+                  <a class="anchor" href="#org.gnome.Calendar.original-files---org.gnome.Calendar.original-files-share---org.gnome.Calendar.original-files-share-app-info---org.gnome.Calendar.original-files-share-app-info-xmls---org.gnome.Calendar.original-files-share-app-info-xmls-org.gnome.Calendar.xml.gz---org.gnome.Calendar.xml---org.gnome.Calendar.xml">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 566, 43 lines modified</td><td colspan="2">Offset 566, 14 lines modified</td></tr>
+<tr class="diffunmodified"><td class="diffline">566 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;mimetypes&gt;</td><td class="diffline">566 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;mimetypes&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">567 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;mimetype&gt;text/calendar&lt;/mimetype&gt;</td><td class="diffline">567 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;mimetype&gt;text/calendar&lt;/mimetype&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">568 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;/mimetypes&gt;</td><td class="diffline">568 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;/mimetypes&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">569 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;project_license&gt;GPL-3.0-or-later&lt;/project_license&gt;</td><td class="diffline">569 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;project_license&gt;GPL-3.0-or-later&lt;/project_license&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">570 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;url<span class="dp">·</span>type=&quot;bugtracker&quot;&gt;https://gitlab.gnome.org/GNOME/gnome-calendar/issues&lt;/url&gt;</td><td class="diffline">570 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;url<span class="dp">·</span>type=&quot;bugtracker&quot;&gt;https://gitlab.gnome.org/GNOME/gnome-calendar/issues&lt;/url&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">571 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;url<span class="dp">·</span>type=&quot;homepage&quot;&gt;https://wiki.gnome.org/Apps/Calendar&lt;/url&gt;</td><td class="diffline">571 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;url<span class="dp">·</span>type=&quot;homepage&quot;&gt;https://wiki.gnome.org/Apps/Calendar&lt;/url&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">572 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;project_group&gt;GNOME&lt;/project_group&gt;</td><td class="diffline">572 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;project_group&gt;GNOME&lt;/project_group&gt;</td></tr>
+<tr class="diffdeleted"><td class="diffline">573 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;screenshots&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">574 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;screenshot<span class="dp">·</span>type=&quot;default&quot;&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">575 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;source&quot;&gt;https://gitlab.gnome.org/GNOME/gnome-calendar/raw/master/data/appdata/default.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">576 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;351&quot;<span class="dp">·</span>width=&quot;624&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/624x351/org.gnome.Calendar-f7e249392fbe609119d429e65d651d37.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">577 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;702&quot;<span class="dp">·</span>width=&quot;1248&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/1248x702/org.gnome.Calendar-f7e249392fbe609119d429e65d651d37.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">578 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;63&quot;<span class="dp">·</span>width=&quot;112&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/112x63/org.gnome.Calendar-f7e249392fbe609119d429e65d651d37.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">579 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;126&quot;<span class="dp">·</span>width=&quot;224&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/224x126/org.gnome.Calendar-f7e249392fbe609119d429e65d651d37.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">580 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;423&quot;<span class="dp">·</span>width=&quot;752&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/752x423/org.gnome.Calendar-f7e249392fbe609119d429e65d651d37.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">581 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;846&quot;<span class="dp">·</span>width=&quot;1504&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/1504x846/org.gnome.Calendar-f7e249392fbe609119d429e65d651d37.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">582 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;/screenshot&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">583 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;screenshot&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">584 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;source&quot;&gt;https://gitlab.gnome.org/GNOME/gnome-calendar/raw/master/data/appdata/week-view.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">585 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;351&quot;<span class="dp">·</span>width=&quot;624&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/624x351/org.gnome.Calendar-bd84b21e821eec505929077410e07573.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">586 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;702&quot;<span class="dp">·</span>width=&quot;1248&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/1248x702/org.gnome.Calendar-bd84b21e821eec505929077410e07573.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">587 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;63&quot;<span class="dp">·</span>width=&quot;112&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/112x63/org.gnome.Calendar-bd84b21e821eec505929077410e07573.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">588 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;126&quot;<span class="dp">·</span>width=&quot;224&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/224x126/org.gnome.Calendar-bd84b21e821eec505929077410e07573.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">589 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;423&quot;<span class="dp">·</span>width=&quot;752&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/752x423/org.gnome.Calendar-bd84b21e821eec505929077410e07573.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">590 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;846&quot;<span class="dp">·</span>width=&quot;1504&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/1504x846/org.gnome.Calendar-bd84b21e821eec505929077410e07573.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">591 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;/screenshot&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">592 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;screenshot&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">593 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;source&quot;&gt;https://gitlab.gnome.org/GNOME/gnome-calendar/raw/master/data/appdata/year-view.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">594 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;351&quot;<span class="dp">·</span>width=&quot;624&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/624x351/org.gnome.Calendar-9a470562e97de36c88fccdd6e60b1246.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">595 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;702&quot;<span class="dp">·</span>width=&quot;1248&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/1248x702/org.gnome.Calendar-9a470562e97de36c88fccdd6e60b1246.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">596 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;63&quot;<span class="dp">·</span>width=&quot;112&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/112x63/org.gnome.Calendar-9a470562e97de36c88fccdd6e60b1246.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">597 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;126&quot;<span class="dp">·</span>width=&quot;224&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/224x126/org.gnome.Calendar-9a470562e97de36c88fccdd6e60b1246.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">598 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;423&quot;<span class="dp">·</span>width=&quot;752&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/752x423/org.gnome.Calendar-9a470562e97de36c88fccdd6e60b1246.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">599 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;image<span class="dp">·</span>type=&quot;thumbnail&quot;<span class="dp">·</span>height=&quot;846&quot;<span class="dp">·</span>width=&quot;1504&quot;&gt;https://dl.flathub.org/repo/screenshots/org.gnome.Calendar-stable/1504x846/org.gnome.Calendar-9a470562e97de36c88fccdd6e60b1246.png&lt;/image&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">600 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;/screenshot&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">601 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;/screenshots&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">602 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_rating<span class="dp">·</span>type=&quot;oars-1.1&quot;&gt;</td><td class="diffline">573 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_rating<span class="dp">·</span>type=&quot;oars-1.1&quot;&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">603 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-cartoon&quot;&gt;none&lt;/content_attribute&gt;</td><td class="diffline">574 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-cartoon&quot;&gt;none&lt;/content_attribute&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">604 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-fantasy&quot;&gt;none&lt;/content_attribute&gt;</td><td class="diffline">575 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-fantasy&quot;&gt;none&lt;/content_attribute&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">605 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-realistic&quot;&gt;none&lt;/content_attribute&gt;</td><td class="diffline">576 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-realistic&quot;&gt;none&lt;/content_attribute&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">606 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-bloodshed&quot;&gt;none&lt;/content_attribute&gt;</td><td class="diffline">577 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-bloodshed&quot;&gt;none&lt;/content_attribute&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">607 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-sexual&quot;&gt;none&lt;/content_attribute&gt;</td><td class="diffline">578 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-sexual&quot;&gt;none&lt;/content_attribute&gt;</td></tr>
+<tr class="diffunmodified"><td class="diffline">608 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-desecration&quot;&gt;none&lt;/content_attribute&gt;</td><td class="diffline">579 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;content_attribute<span class="dp">·</span>id=&quot;violence-desecration&quot;&gt;none&lt;/content_attribute&gt;</td></tr>
+</table>              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+Generated by
+<a href="https://diffoscope.org" rel="noopener noreferrer" target="_blank">
+diffoscope</a> 213
+</div>
+</body>
+</html>
+

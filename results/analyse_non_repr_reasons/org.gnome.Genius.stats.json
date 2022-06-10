@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.Genius",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "050316394c51f161aa44fc0fb2f8d724fdad38586fc9b505e711ba4435e1e75d",
+    "branch": "stable",
+    "time_of_rebuild": "2021-02-26 00:20:54+00:00",
+    "timestamp_of_rebuild": 1614298854.0,
+    "git-commit": "68d540bc8381b68063e69df575a4966887f88a8f master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "5e0930847a55d873b88a0811fe49c7e0db4201bf1bb33e5f894af164eb91a607",
+        "org.gnome.Sdk/x86_64/3.38": "4d3aa07c923441cb5d33064a9efc5d2941977a452b77d6aebc80327327ee8a0a",
+        "org.gnome.Platform/x86_64/3.38": "448ec510ba9adf890328337eddb34f9c247f3607db41f0aa1aff8e3532edd971"
+    },
+    "build_time": 275.09740447998047,
+    "cache_size": 9660807,
+    "git_size": 0,
+    "dl_size": 9644344,
+    "bad_files": 2,
+    "total_files": 3841,
+    "repro_score": 0.9994793022650351,
+    "original_hash": "1607186692b26c54fbc5b8a76b8fb8a3d3833bd0",
+    "rebuild_hash": "9b520587ffcb6b043569ad88dc2e1d5da539d6dc",
+    "original_bin_hash": "bfcd9c6ee74134d81c7e603c2cb4fa45fb59c796",
+    "rebuild_bin_hash": "c2d9374dbd35f5b91c75c0a31069040838cbc0ad",
+    "original_elf_hash": "908eb67bbd5b31f57ce848d386dfe944d3fb33a1",
+    "rebuild_elf_hash": "908eb67bbd5b31f57ce848d386dfe944d3fb33a1",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

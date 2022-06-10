@@ -1,0 +1,32 @@
+{
+    "name": "com.github.nrittsti.NTag",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "201a7f2a9f0eb3da80a4e75091fed147bb5ccf0328c66c37cc536cc9519b15c6",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-21 06:41:33+00:00",
+    "timestamp_of_rebuild": 1637476893.0,
+    "git-commit": "dce9e7bbd404debb58eda94bad3e3410512cef7f master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk/x86_64/21.08": "7806885951016efaa43663067201e3f23030c53048aedb56349afcf93070a505",
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.gnome.Sdk/x86_64/41": "46b6e195ef062e5567ac0fcbb3cbc35c1b1ede2b5812da1fff466ae270c93987",
+        "org.gnome.Platform/x86_64/41": "f8ca57fe57678c475b4184d6420023d5e37e40266355775f770d487321079a3f"
+    },
+    "build_time": 27.616236686706543,
+    "cache_size": 48481834,
+    "git_size": 0,
+    "dl_size": 48465371,
+    "bad_files": 1,
+    "total_files": 98,
+    "repro_score": 0.9897959183673469,
+    "original_hash": "9c54e69fcd77affda8e118e2f10091bbdaf5bcc7",
+    "rebuild_hash": "5d6592b9093e0ad308a4f7f47f3e9cab3d1e3e43",
+    "original_bin_hash": "3e397c2d7e51f190e9bbb8ce4d14d2e90820b16b",
+    "rebuild_bin_hash": "3e397c2d7e51f190e9bbb8ce4d14d2e90820b16b",
+    "original_elf_hash": "f89ef6a8ae1482b3eea41c52a80ee00be0d7a3ec",
+    "rebuild_elf_hash": "f89ef6a8ae1482b3eea41c52a80ee00be0d7a3ec",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

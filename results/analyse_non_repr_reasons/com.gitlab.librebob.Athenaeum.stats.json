@@ -1,0 +1,32 @@
+{
+    "name": "com.gitlab.librebob.Athenaeum",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "55c05e577985217c63f6bb2a7ccb53dd8114f43693c28ea9a82eaa8a0ec221c2",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-27 01:43:39+00:00",
+    "timestamp_of_rebuild": 1632707019.0,
+    "git-commit": "8000855cf4b40a65c5d4cbb0a4dfaaa1538d8871 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "d40cff9fa614104744be54f9dcbfd846c76a6cb7a80f045f6057d34ba69ac423",
+        "org.kde.Sdk/x86_64/5.15": "b6c753c21784a60fa17b64a89f0e5cca6758bf730ca8c2b746243d5df31851ba",
+        "org.kde.Platform/x86_64/5.15": "7ce1d325717c80837616244d3dd0c1b6b99b6e53d03f087880e4c839583d817a"
+    },
+    "build_time": 1851.4919896125793,
+    "cache_size": 16207674,
+    "git_size": 293030,
+    "dl_size": 15894085,
+    "diffoscope_failed": true,
+    "bad_files": 13,
+    "total_files": 2479,
+    "repro_score": 0.9947559499798305,
+    "original_hash": "6f6bbae9daa2ea188a11bcb84651b4c0328ceebd",
+    "rebuild_hash": "a58060d7487eafe5f592271843980fe3e487248e",
+    "original_bin_hash": "ca5f0426d9e0d85b59f3eddefc9703e26fbc8095",
+    "rebuild_bin_hash": "ebb00587236387ea7c57757d0c7c6406e4f2314c",
+    "original_elf_hash": "a9f9d26b4ee89d4705f8f19b099e4961650573b5",
+    "rebuild_elf_hash": "a9f9d26b4ee89d4705f8f19b099e4961650573b5",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

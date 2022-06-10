@@ -1,0 +1,32 @@
+{
+    "name": "com.microsoft.Edge",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "49309eb27076fe1b0668ee65efc082a92975fd11393b858d9605b9896c7c3534",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-03 20:14:40+00:00",
+    "timestamp_of_rebuild": 1654287280.0,
+    "git-commit": "59ad0b92c9e4d0b0bfe9fc783db825eb406166fc remotes/origin/master",
+    "flatpak-deps": {
+        "org.chromium.Chromium.BaseApp/x86_64/21.08": "4da583bd5c9459f1140e0b1ad543a7c8ac6ec91558fbf41e220c51b9ac71115d",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "26aed7da8ceb3d067b8af1739d35d1c33c5d80391b964f95a3c2bf000cf6ce49",
+        "org.freedesktop.Platform/x86_64/21.08": "b76cb66319a7c5877ea02dcdd4d8bd53b3c6470b6f9c96fb3238ff216bf991c7"
+    },
+    "build_time": 42.557044982910156,
+    "cache_size": 9942351,
+    "git_size": 9799932,
+    "dl_size": 121860,
+    "bad_files": 0,
+    "total_files": 157,
+    "repro_score": 1.0,
+    "original_hash": "58dbd4952eeb0bb9acb53f851a0d0d34cbcf3ff4",
+    "rebuild_hash": "58dbd4952eeb0bb9acb53f851a0d0d34cbcf3ff4",
+    "original_bin_hash": "f9504e185e6b3ff920b4d6d56b5ad8750002637b",
+    "rebuild_bin_hash": "f9504e185e6b3ff920b4d6d56b5ad8750002637b",
+    "original_elf_hash": "1a902cf17291dcaaa3d96f3de5003d97da3bebeb",
+    "rebuild_elf_hash": "1a902cf17291dcaaa3d96f3de5003d97da3bebeb",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

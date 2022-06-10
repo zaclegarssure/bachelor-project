@@ -1,0 +1,32 @@
+{
+    "name": "com.github.emmanueltouzery.projectpad",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "7e372a7a04a64ca4bbe78f30aa75760c39666eefa64a6b0ec54d0c28c73d3317",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-28 18:02:36+00:00",
+    "timestamp_of_rebuild": 1640714556.0,
+    "git-commit": "4cf1cf46dc962d46ff558773a85c6115786ee960 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "bd66f778a2860d1ab1e3b212ad96a20694c78f0f20ed9bd8eaa8a04c827a1087",
+        "org.flatpak.Builder/x86_64/stable": "33efe804a63f7bf3b2a3ba4607f4ea700e4b44760f119e765fde5ab565471d87",
+        "org.freedesktop.Sdk/x86_64/21.08": "afa972126d13c4c5b544c01f0b6144ae9673f67501c8a43132cd6b9a92d22f0c",
+        "org.freedesktop.Platform/x86_64/21.08": "940b0728d1b7d18b9d3f557ae44e7c37b27febcb04f93a7cc0ebb886ba2cfa37"
+    },
+    "build_time": 861.5470600128174,
+    "cache_size": 66532703,
+    "git_size": 269678,
+    "dl_size": 66213794,
+    "bad_files": 2,
+    "total_files": 582,
+    "repro_score": 0.9965635738831615,
+    "original_hash": "796534b70315a773e45125885df68648e2379df8",
+    "rebuild_hash": "a7456676147134210e237a8c7b0e8b64bf5138dc",
+    "original_bin_hash": "be10af0e7bd3213c623342f6ce05991f2a52215b",
+    "rebuild_bin_hash": "78eb295b43efd01c2b8b6684c615101416dfa5b3",
+    "original_elf_hash": "69fc8a80b943f603387db64fd7cfdaa4d8d474c4",
+    "rebuild_elf_hash": "216ba73de754ac8e58c8a0b981fb053c5471cb56",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

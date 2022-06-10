@@ -1,0 +1,32 @@
+{
+    "name": "com.github.raibtoffoletto.litteris",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "74276ea87ceb28e30f6a5b551c81673be11a08f598e886001fa989202b96caa6",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-22 17:50:38+00:00",
+    "timestamp_of_rebuild": 1632333038.0,
+    "git-commit": "652e90043a6aeaa861355044982462399b0f72c8 master",
+    "flatpak-deps": {
+        "io.elementary.BaseApp/x86_64/juno-20.08": "74b996016ed985696b382feb1e3aa3886e394ac583c74b6d9d686196dc0dd502",
+        "org.flatpak.Builder/x86_64/stable": "c8c1ca8e3474880eaaa547cfd975b239d5ed729a59fc8148403b420803332803",
+        "org.freedesktop.Sdk/x86_64/20.08": "478fee082e60836b66a2c9a27f926e00e7f8deb27e0fdd392f3662d26570e0ad",
+        "org.freedesktop.Platform/x86_64/20.08": "7898e3822e6f10310c8f2b6ae8aa630ed102eb1e3341c7e57e0aa9757987d2ea"
+    },
+    "build_time": 25.598705530166626,
+    "cache_size": 200209,
+    "git_size": 183746,
+    "dl_size": 0,
+    "bad_files": 3,
+    "total_files": 4349,
+    "repro_score": 0.9993101862497126,
+    "original_hash": "8e9d35470bc2ae908f9886c34568f120c084e728",
+    "rebuild_hash": "94ceada0a72f3eeed24992a5fdaf6e79b4eddef5",
+    "original_bin_hash": "e0367718f84eb3992c42065ae8dc75e862296211",
+    "rebuild_bin_hash": "d4af51c237d49e2bc983c2c7aa6ee8f1276f8927",
+    "original_elf_hash": "03cb86fe22fb611787e3c91c1d7a12861e2ed949",
+    "rebuild_elf_hash": "03cb86fe22fb611787e3c91c1d7a12861e2ed949",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

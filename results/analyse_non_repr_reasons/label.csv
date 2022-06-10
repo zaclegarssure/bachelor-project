@@ -98,3 +98,103 @@ com.microsoft.Teams, appdata
 com.eduke32.EDuke32, png_timestamp
 app.lith.Lith, random_ro
 com.github.paolostivanin.OTPClient, reproducible
+dk.tangramgames.mrrescue, archive_timestamp, archive_ordering, manifest_serialization
+org.gnome.BreakTimer, manifest_serialization
+com.github.hugolabe.Wike, pip_path, pyc
+com.github.kmwallio.thiefmd, debug_link, pyc, timestamp
+app.rednotebook.RedNotebook, debug_link
+org.gnome.gitlab.cheywood.Iotas, pyc
+com.github.iortcw.iortcw, uncontrolled_timestamps, manifest_serialization, unknown
+com.github.Murmele.scram, string_ordering, random_ro, debug_link
+org.gnome.Eolie, diffoscope_failed
+org.gnome.Characters, uncontrolled_timestamps
+com.sayonara_player.Sayonara, random_ro, debug_link, uncontrolled_timestamps, archive_timestamp
+org.gnome.Solanum, reproducible
+com.github.dahenson.agenda, manifest_serialization
+com.github.alexhuntley.Plots, debug_link, pyc, pip_path
+org.gnome.Evince, uncontrolled_timestamps
+com.bixense.PasswordCalculator, timestamp, debug_link, sysconfig, pip_path
+org.gnome.Calendar, appdata
+ar.xjuan.Cambalache, debug_link
+com.github.philip_scott.spice-up, appdata
+com.github.devalien.workspaces, icon_cache
+org.gnome.clocks, uncontrolled_timestamps
+org.gnome.meld, reproducible
+com.github.qarmin.czkawka, debug_link, unknown
+com.github.afrantzis.Bless, path, unknown
+com.github.hluk.copyq, random_ro, debug_link
+com.stremio.Stremio, random_ro, debug_link
+com.leinardi.gwe, debug_link, pyc
+com.github.reduz.ChibiTracker, png_timestamp, uncontrolled_timestamps, sysconfig, pip_path, pyc
+org.gnome.Photos, timestamp, debug_link, unknown
+com.tonikelope.MegaBasterd, jar_ordering, jar_timestamp, hostname
+com.sigil_ebook.Sigil, debug_link, pyc, random_ro
+com.github.emmanueltouzery.cigale, unknown
+com.leinardi.gst, pyc, debug_link
+com.calibre_ebook.calibre, build_failed
+com.gitlab.tipp10.tipp10, random_ro, debug_link
+cc.retroshare.retroshare-gui, random_ro
+com.gitlab.JakobDev.jdAppdataEdit, pyc, debug_link
+org.gnome.Aisleriot, unknown
+org.gnome.Genius, appdata, icon_cache
+ch.threema.threema-web-desktop, build_failed
+com.makemkv.MakeMKV, uncontrolled_timestamps, unknown
+com.github.gijsgoudzwaard.image-optimizer, appdata, icon_cache
+com.github.rafostar.Clapper, timestamp
+com.springrts.SpringLobby
+org.gnome.Evolution
+com.carpeludum.KegaFusion
+com.github.optyfr.JRomManager
+com.leinardi.gx52
+com.chatterino.chatterino
+com.cuperino.qprompt
+com.microsoft.Edge, reproducible
+cc.arduino.arduinoide, jar_timestamp
+org.gnome.Hamster, pyc, pip_path, manifest_serialization
+es.estoes.wallpaperDownloader, manifest_serialization, jar_timestamp, jar_ordering
+com.github.Flacon, random_ro, uncontrolled_timestamps, debug_link
+com.darhon.drfinance, random_ro, debug_link
+com.ekonomikas.merkato, build_failed
+org.gnome.Fractal, manifest_serialization, appdata
+com.chmouel.gnomeNextMeetingApplet, pip_path, pyc
+com.gitlab.librebob.Athenaeum, diffoscope_failed
+com.adobe.Flash-Player-Projector, string_ordering, path, debug_link
+com.github.iwalton3.jellyfin-mpv-shim, debug_link, pyc, manifest_serialization
+org.gnome.HexGL, reproducible
+com.darhon.syncbackup, random_ro, debug_link
+org.gnome.design.BannerViewer, png_stuff????
+com.github.quaternion, random_ro, debug_link, manifest_serialization, icon_cache
+com.scoutshonour.Digital, manifest_serialization
+codes.loers.Karlender, reproducible
+com.gitlab.ColinDuquesnoy.MellowPlayer, uncontrolled_timestamps, random_ro, manifest_serialization
+com.mousepawmedia.omission, pyc
+org.gnu.emacs, unknown
+com.leinardi.gkraken, diffoscope_failed
+dev.goats.xivlauncher, timestamp, debug_link
+br.gov.fazenda.receita.irpf, reproducible
+com.github.birros.WebArchives, manifest_serialization
+com.endlessnetwork.missilemath, manifest_serialization
+com.realm667.Wolfenstein_Blade_of_Agony, diffoscope_failed
+com.system76.Popsicle, uncontrolled_timestamps
+org.gnome.GTG, pip_path, pyc
+com.github.nrittsti.NTag, manifest_serialization
+com.dangeredwolf.ModernDeck, uncontrolled_timestamps
+com.github.emmanueltouzery.projectpad, manifest_serialization, debug_link, unknown
+com.github.IsmaelMartinez.teams_for_linux, appdata
+com.github.artemanufrij.graphui, icon_cache
+com.github.makhber.Makhber, random_ro, unknown
+org.gnome.ColorViewer, timestamp
+com.github.libresprite.LibreSprite, manifest_serialization
+org.gnome.EasyTAG, manifest_serialization, uncontrolled_timestamps
+com.github.fushinari.Wordbook, pyc
+com.gitlab.kendellfab.restscope, unknown
+dev.atoft.Reactions, manifest_serialization, timestamp
+org.gnome.Cheese, uncontrolled_timestamps, debug_link
+edu.stanford.Almond, path, hostname
+com.github.jeromerobert.pdfarranger, debug_link, pyc
+com.github.gabutakut.gabutdm, timestamp, debug_link
+org.gnome.World.PikaBackup, pyc
+com.github.raibtoffoletto.litteris, manifest_serialization, appdata, icon_cache
+com.gitlab.davem.ClamTk, debug_link, hostname, kernel_version, uncontrolled_timestamps, domain_name
+ar.com.softwareperonista.Rockarrolla, manifest_serialization
+com.github.bvschaik.julius, manifest_serialization

@@ -1,0 +1,32 @@
+{
+    "name": "com.leinardi.gkraken",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "7888065661d10cb738c3575db460c1c70b9a7873d18deec059587f561775a762",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-23 21:39:14+00:00",
+    "timestamp_of_rebuild": 1645652354.0,
+    "git-commit": "4d5c736e3624e06385f254a50840f5112b165a2c master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "2c858c72b807bdee3e9edc8a64a05c771e3fbad051ea76421aaf7a4d6265ca5b",
+        "org.gnome.Sdk/x86_64/40": "eb9e682aa9c606000a81e2192d10cde241622628a9104d139d515e48b27b6dd9",
+        "org.gnome.Platform/x86_64/40": "c9a74644f838e35a8124d5a9a92815ffb81ba5e4cb03ebf7c8c8a15bbd0ea9ff"
+    },
+    "build_time": 584.832489490509,
+    "cache_size": 113824801,
+    "git_size": 9022207,
+    "dl_size": 104782035,
+    "diffoscope_failed": true,
+    "bad_files": 57,
+    "total_files": 3252,
+    "repro_score": 0.9824723247232472,
+    "original_hash": "ac1555d7369e087eec5afc1a8d3f51df2b7c48d1",
+    "rebuild_hash": "02988898f6900ff616326cdad3ce7fc7bf6e5be2",
+    "original_bin_hash": "c0c0bcc0b936df52aa0344c88ffb80c0020ebb6e",
+    "rebuild_bin_hash": "8916a907c3ce78babf5b64e43aaf9532304a5dcc",
+    "original_elf_hash": "d78b31bb790930c96c573c4ebfb475dbee67e5c0",
+    "rebuild_elf_hash": "b4069bd37262c746f97b6dfc2d2cf8b7addec268",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

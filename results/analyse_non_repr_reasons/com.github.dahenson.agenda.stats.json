@@ -1,0 +1,32 @@
+{
+    "name": "com.github.dahenson.agenda",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "dae2edca129a6235b2d20be73e51d155a93b70d856bd0a713a2d9355ad08a76f",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-22 22:50:39+00:00",
+    "timestamp_of_rebuild": 1640213439.0,
+    "git-commit": "d5921f11c15d194101e18d6a82403acc1ae75822 master",
+    "flatpak-deps": {
+        "io.elementary.BaseApp/x86_64/juno-21.08": "91fefe22159d52e7abdf2a1f321400f284ec527549923d447142447412d95402",
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/21.08": "afa972126d13c4c5b544c01f0b6144ae9673f67501c8a43132cd6b9a92d22f0c",
+        "org.freedesktop.Platform/x86_64/21.08": "940b0728d1b7d18b9d3f557ae44e7c37b27febcb04f93a7cc0ebb886ba2cfa37"
+    },
+    "build_time": 27.12489104270935,
+    "cache_size": 2229839,
+    "git_size": 0,
+    "dl_size": 2213376,
+    "bad_files": 1,
+    "total_files": 4345,
+    "repro_score": 0.9997698504027618,
+    "original_hash": "fea5f443bfd96a21f77dd69e1ff85e46e931a445",
+    "rebuild_hash": "1384feb960089b568cb70a6dc3b45ccef319a93e",
+    "original_bin_hash": "7c4b7485fe4f34387b93f6763a40844be2a19c4d",
+    "rebuild_bin_hash": "7c4b7485fe4f34387b93f6763a40844be2a19c4d",
+    "original_elf_hash": "d7d2dd637aeeaf24bc078fe08f9124d1bdda1c4e",
+    "rebuild_elf_hash": "d7d2dd637aeeaf24bc078fe08f9124d1bdda1c4e",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

@@ -1,0 +1,32 @@
+{
+    "name": "com.gitlab.JakobDev.jdAppdataEdit",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "3cdc0d883d80cefc58df56031b790a2d5636a2ab4b1dbca0e82caae4bb190a39",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-09 16:51:26+00:00",
+    "timestamp_of_rebuild": 1654793486.0,
+    "git-commit": "f7e11ca1d56bb4524e62fe5966faaef472c62bb3 master",
+    "flatpak-deps": {
+        "com.riverbankcomputing.PyQt.BaseApp/x86_64/6.2": "03fd9b5974dcdc13a165de8c6f8c6acb00a4533196c29ec5c5a3b3b12d18fd1a",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/6.2": "68dc5576086ece336ba031cc29e05ee518b80933826dbd6433511ea6b5918e19",
+        "org.kde.Platform/x86_64/6.2": "3a4bcca05f13c2ea8e4c0afe7aa031409dd8f515adb10aa852b6b83f7fbd2e09"
+    },
+    "build_time": 188.95283126831055,
+    "cache_size": 4218611,
+    "git_size": 338585,
+    "dl_size": 3859467,
+    "bad_files": 16,
+    "total_files": 550,
+    "repro_score": 0.9709090909090909,
+    "original_hash": "81cb1f8fc5755bd92f3ae5fd79e2fa3b8e73c51e",
+    "rebuild_hash": "2df51880cae7bd1ba8a2d19e37a75a0a10574b52",
+    "original_bin_hash": "d73b5fd5536f96838f620e9d027b5e4e74327993",
+    "rebuild_bin_hash": "97db27d8fc9f76b0836ad53159651d804a1cdb2c",
+    "original_elf_hash": "7e63a7bea41142b9fcbb8352696aa49d809c6445",
+    "rebuild_elf_hash": "b6e77736867a7700cf713eb0e4fb6f8698e26c39",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,32 @@
+{
+    "name": "cc.arduino.arduinoide",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "e2169af5f7c93bec0d05cf7da5df4dca2576e87bbdce6aa40e970377d0bd5de4",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-09 20:08:53+00:00",
+    "timestamp_of_rebuild": 1652126933.0,
+    "git-commit": "61f42358c2ade1463c175da106318e9d42563a4d master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk8/x86_64/21.08": "31a3cd3d126fb229225204a8cd2e2c864b5f1bb1331892b08a3be98dc993d060",
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 169.33778619766235,
+    "cache_size": 148220429,
+    "git_size": 202088,
+    "dl_size": 147997782,
+    "bad_files": 2,
+    "total_files": 4287,
+    "repro_score": 0.9995334732913459,
+    "original_hash": "f917cb42fae987008c959a69ef86e3d278cf632b",
+    "rebuild_hash": "db94b2e132693d081ba3efd75e93a9a482aa40ea",
+    "original_bin_hash": "c5c945becdd13d244ff12d386686884baa33b86f",
+    "rebuild_bin_hash": "d47e01aa2257efc0e3b0c903679a09f6370d78f5",
+    "original_elf_hash": "3248e443e9a78860cba19b75d025015d89b251d7",
+    "rebuild_elf_hash": "3248e443e9a78860cba19b75d025015d89b251d7",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

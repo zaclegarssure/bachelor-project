@@ -1,0 +1,32 @@
+{
+    "name": "com.tonikelope.MegaBasterd",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "15aeae06dce3188a7274e2ab6971210c3614bba73677e1077c6063a1c535342a",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-03 21:53:31+00:00",
+    "timestamp_of_rebuild": 1654293211.0,
+    "git-commit": "50a343516fbf08f425f30c0380e2ca8c79585ce7 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk17/x86_64/21.08": "39768ed35739a35cac3ac536856449f8f7c5380eeca5f4a0eba9361b7340022b",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "26aed7da8ceb3d067b8af1739d35d1c33c5d80391b964f95a3c2bf000cf6ce49",
+        "org.freedesktop.Platform/x86_64/21.08": "b76cb66319a7c5877ea02dcdd4d8bd53b3c6470b6f9c96fb3238ff216bf991c7"
+    },
+    "build_time": 42.953113079071045,
+    "cache_size": 37273887,
+    "git_size": 0,
+    "dl_size": 37232848,
+    "bad_files": 1,
+    "total_files": 93,
+    "repro_score": 0.989247311827957,
+    "original_hash": "ab6d0a1db3ef60f53e206e10ef4e74cd8630603b",
+    "rebuild_hash": "4a9ba8bc0f7b8193e19b4ea00c36fcb7b8fe6f8b",
+    "original_bin_hash": "3c43230ed31d96fe6366400807146354790762b4",
+    "rebuild_bin_hash": "052e9c8805c7b892f233c70c867ccfc6f7aafe4a",
+    "original_elf_hash": "f26105256de6c1cd4878e6333293637f6e337354",
+    "rebuild_elf_hash": "f26105256de6c1cd4878e6333293637f6e337354",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

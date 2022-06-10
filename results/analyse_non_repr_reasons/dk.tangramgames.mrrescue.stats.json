@@ -1,0 +1,31 @@
+{
+    "name": "dk.tangramgames.mrrescue",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "c5d2f14f08bf21c22e157088006899551000a1407b03bee0c904a22a283cfc77",
+    "branch": "stable",
+    "time_of_rebuild": "2021-10-01 19:14:22+00:00",
+    "timestamp_of_rebuild": 1633115662.0,
+    "git-commit": "9a8506971bc844614e31c391954ab9d4f2a627e7 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "d40cff9fa614104744be54f9dcbfd846c76a6cb7a80f045f6057d34ba69ac423",
+        "org.freedesktop.Sdk/x86_64/21.08": "1fad7974d6fe02c6ac83e3e804e0317f4d8d3528dcd5087002e1b501ddadbb6b",
+        "org.freedesktop.Platform/x86_64/21.08": "16d161d8a71701b80fa4bca12812a22c19dc0641b3571fe88c517c84da94c5b5"
+    },
+    "build_time": 269.4040594100952,
+    "cache_size": 16722717,
+    "git_size": 11990289,
+    "dl_size": 4711869,
+    "bad_files": 2,
+    "total_files": 36,
+    "repro_score": 0.9444444444444444,
+    "original_hash": "b5ee74feb97a2fdcafdbc372134d30de93e3e1de",
+    "rebuild_hash": "bbef2f0e5bfd14ec75f65fc4f734148a37ba92fc",
+    "original_bin_hash": "6a89320df4f088a4eb120192dcc5630060f10284",
+    "rebuild_bin_hash": "ccf06adbd33c907cba67c06e033f27a33a82adad",
+    "original_elf_hash": "5bf0af52ec510bd20895895947bed37c53ae0f78",
+    "rebuild_elf_hash": "5bf0af52ec510bd20895895947bed37c53ae0f78",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

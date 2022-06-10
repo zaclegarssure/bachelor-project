@@ -1,0 +1,32 @@
+{
+    "name": "com.stremio.Stremio",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "822cf5be88311893eb998e871059ea6659f446ba14c240861b09b6260989b30e",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-21 08:47:21+00:00",
+    "timestamp_of_rebuild": 1645433241.0,
+    "git-commit": "29b7939a3dc96f13cea7825b37412d9c9b959b21 master",
+    "flatpak-deps": {
+        "io.qt.qtwebengine.BaseApp/x86_64/5.15-21.08": "955f425d6d450dc676fc0389677c221d581148435556c64bb0982226263fc70c",
+        "org.flatpak.Builder/x86_64/stable": "2c858c72b807bdee3e9edc8a64a05c771e3fbad051ea76421aaf7a4d6265ca5b",
+        "org.kde.Sdk/x86_64/5.15-21.08": "daddf8e306dd37425b46ba6a5251b3fcb5cc273ec89fa3f33d0b54b657386e3c",
+        "org.kde.Platform/x86_64/5.15-21.08": "6ead3f696bd8683fa7b84f75e71c06670b9c27983b9d11e673e744ed7d8e16a9"
+    },
+    "build_time": 590.2710716724396,
+    "cache_size": 137619004,
+    "git_size": 95937825,
+    "dl_size": 41660620,
+    "bad_files": 1,
+    "total_files": 593,
+    "repro_score": 0.9983136593591906,
+    "original_hash": "3d5d6b6e055c83550ee0559a2905824aa4b512f9",
+    "rebuild_hash": "9c113a35c3a7eec3f01b0509e93de85f31616846",
+    "original_bin_hash": "a5e50f8ac1ff94d8b5b83d5d6b368e666d1dc6bb",
+    "rebuild_bin_hash": "7bcb4d3b0986c2504d9143a194f1a9c6db243a77",
+    "original_elf_hash": "172cb4add11166dc09f324718b47c61b8a39dfe3",
+    "rebuild_elf_hash": "7350b393b4a7e9d14196ee641c979603ba9f48db",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

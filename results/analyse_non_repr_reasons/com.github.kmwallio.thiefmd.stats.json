@@ -1,0 +1,31 @@
+{
+    "name": "com.github.kmwallio.thiefmd",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "73c008558f611d7c80294a15eba8b8136b4b5edaa5e0c28b6861928c273c1757",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-30 04:11:13+00:00",
+    "timestamp_of_rebuild": 1648613473.0,
+    "git-commit": "65073413bbeb4b2378031aa8fdd4b9d79658b060 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.gnome.Sdk/x86_64/41": "7f6dcb09d3af135d8bfb68ff309f4142bfa7cb37a77ff971d492de894d292bc7",
+        "org.gnome.Platform/x86_64/41": "07e2f19d660a4bf5520857f2eea3aa7005d0e320b2ee5ec7c02a5ea95d2123a3"
+    },
+    "build_time": 364.1230173110962,
+    "cache_size": 89091874,
+    "git_size": 0,
+    "dl_size": 89075411,
+    "bad_files": 22,
+    "total_files": 2543,
+    "repro_score": 0.9913488006291782,
+    "original_hash": "67dc60a63b741e8cfd4281462902a3969c95ece2",
+    "rebuild_hash": "6716b55052a4701defc4cb134a969e885400c1c8",
+    "original_bin_hash": "128919848aaa673bca822d9e80cf4274be49407c",
+    "rebuild_bin_hash": "7bb1266c493ac0faafde7613dae59d5d3a768e7d",
+    "original_elf_hash": "d37bc3a17123c0decedd8e6ddef00fe2daf35f90",
+    "rebuild_elf_hash": "94b1403bfa54fa1c1e2b8b10308211c19dbf9dda",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

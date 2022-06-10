@@ -1,0 +1,32 @@
+{
+    "name": "br.gov.fazenda.receita.irpf",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "cda6701ec3bb44182ba3ccefe910d619689d08e04a3428346ef7561bb3300a6c",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-03 19:51:59+00:00",
+    "timestamp_of_rebuild": 1654285919.0,
+    "git-commit": "0ce898b9f366c0333f1ebef1b1c2b13c6b67a0a2 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk11/x86_64/21.08": "644d6a2463500e543f5ff2408f6ca4f11d533484c4709b022fbe2c3e9197328d",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "86be1ecf6eb87c855fd3a01c2b11dafe3d8b3b07d51c5fc7acc5f381b128e146",
+        "org.gnome.Platform/x86_64/42": "e21d33a4f415cd14b03a148f757ebc2b4f86259fae14e3bd22c361b5b1d9b480"
+    },
+    "build_time": 32.21404552459717,
+    "cache_size": 50104591,
+    "git_size": 0,
+    "dl_size": 50088128,
+    "bad_files": 0,
+    "total_files": 196,
+    "repro_score": 1.0,
+    "original_hash": "439acf04a939c55a542ef9a21697335f5a14d7c9",
+    "rebuild_hash": "439acf04a939c55a542ef9a21697335f5a14d7c9",
+    "original_bin_hash": "8238d9612f5959c0102ddeb5b4bf1b5fa8009353",
+    "rebuild_bin_hash": "8238d9612f5959c0102ddeb5b4bf1b5fa8009353",
+    "original_elf_hash": "f26105256de6c1cd4878e6333293637f6e337354",
+    "rebuild_elf_hash": "f26105256de6c1cd4878e6333293637f6e337354",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

@@ -1,0 +1,31 @@
+{
+    "name": "com.github.libresprite.LibreSprite",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "e49899de25e63029122f102ee04f2a7f5a982b81385b26000284ba0d30e6b20e",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-18 09:38:06+00:00",
+    "timestamp_of_rebuild": 1637228286.0,
+    "git-commit": "37d818d8a1fb175d6e214de6a160ff3de4aa233a master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/21.08": "1fad7974d6fe02c6ac83e3e804e0317f4d8d3528dcd5087002e1b501ddadbb6b",
+        "org.freedesktop.Platform/x86_64/21.08": "16d161d8a71701b80fa4bca12812a22c19dc0641b3571fe88c517c84da94c5b5"
+    },
+    "build_time": 421.4719593524933,
+    "cache_size": 5069994,
+    "git_size": 3936471,
+    "dl_size": 1112964,
+    "bad_files": 1,
+    "total_files": 176,
+    "repro_score": 0.9943181818181818,
+    "original_hash": "1f536e4ed71dd46c748aa0df123ba99b84aba93e",
+    "rebuild_hash": "9454c1f94ceeab8b4a2ef11693db3266d29b26f0",
+    "original_bin_hash": "06734a1df2305b4e2744940cbe37a0fcd1984cb6",
+    "rebuild_bin_hash": "06734a1df2305b4e2744940cbe37a0fcd1984cb6",
+    "original_elf_hash": "988b8f6136e8829b7668f84bf9b5bdb454f50c38",
+    "rebuild_elf_hash": "988b8f6136e8829b7668f84bf9b5bdb454f50c38",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

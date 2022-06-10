@@ -1,0 +1,31 @@
+{
+    "name": "com.github.reduz.ChibiTracker",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "dec270da9c8e52710f57dbd61a7f55c47fe57e0f8719f61a771f907c89d4c96b",
+    "branch": "stable",
+    "time_of_rebuild": "2021-05-19 00:02:55+00:00",
+    "timestamp_of_rebuild": 1621382575.0,
+    "git-commit": "34c8a20399f1146d458f0a4fb328875d11b7b224 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "a770bfe0520e0ea3e08a1d2383d470200bcad65c4e44520f142016e2572270d8",
+        "org.freedesktop.Sdk/x86_64/20.08": "a03c90180af8a8d6d54bed4e220e377e89f39a3b68d22ec6959ad79366e9c960",
+        "org.freedesktop.Platform/x86_64/20.08": "e593e554e7c0db7d3f2812242d79bfa230f80f5f4b317171705f35befd24b2fd"
+    },
+    "build_time": 356.2748177051544,
+    "cache_size": 31766521,
+    "git_size": 643808,
+    "dl_size": 31102154,
+    "bad_files": 415,
+    "total_files": 2520,
+    "repro_score": 0.8353174603174603,
+    "original_hash": "c7c4b6716deeaa149a8afd2a98baa0edbf4194e0",
+    "rebuild_hash": "ef3ed2bb3d5f40a80b9625461a8da0c368baf7b9",
+    "original_bin_hash": "868997aa58a18b96192b454c617492094064941e",
+    "rebuild_bin_hash": "4234e62209c6cf9c061c57f9d471d688da5f8368",
+    "original_elf_hash": "96b4c0777e70ed8bf2a3bcd946f4b2b22b4a3b93",
+    "rebuild_elf_hash": "f7828d063bf0a6ffbff6f48fa09da575b776ce6f",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

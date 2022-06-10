@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.gitlab.cheywood.Iotas",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "d2f49ec48d2fadde181aaf95507884e675fec355c62b145f72531036416673ae",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-10 06:40:47+00:00",
+    "timestamp_of_rebuild": 1649572847.0,
+    "git-commit": "73aea78153f5f60a042dbc4d9a5859159fe7db75 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8c905dc8f00b387ed9d3b61e8186b59cffaf66fb8dbb6a8993500e0f2e4ec53e",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 14.032474040985107,
+    "cache_size": 7249216,
+    "git_size": 3191812,
+    "dl_size": 4036845,
+    "bad_files": 3,
+    "total_files": 286,
+    "repro_score": 0.9895104895104895,
+    "original_hash": "6aa97fcd7acc1d44a8b264c084db944e15cdd665",
+    "rebuild_hash": "4e14d631da63c5a2690712f799dda1774b5e1b47",
+    "original_bin_hash": "83f5971fdf8149c57378f3500b53f4301c884393",
+    "rebuild_bin_hash": "18820468f158f6631cecfc73b825319b2205f035",
+    "original_elf_hash": "b028370d76aeebb3dedc037c172532d7201ecdbc",
+    "rebuild_elf_hash": "b028370d76aeebb3dedc037c172532d7201ecdbc",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

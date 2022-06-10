@@ -1,0 +1,31 @@
+{
+    "name": "com.adobe.Flash-Player-Projector",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "8d8e8ee984ee06714188f888214b8f64d651de2730ba7e2b815b7211a797fdbc",
+    "branch": "stable",
+    "time_of_rebuild": "2020-12-08 09:43:32+00:00",
+    "timestamp_of_rebuild": 1607420612.0,
+    "git-commit": "de808b3f4f02b868898d78a357f86b5b858aea80 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "5e0930847a55d873b88a0811fe49c7e0db4201bf1bb33e5f894af164eb91a607",
+        "org.freedesktop.Sdk/x86_64/20.08": "73a11f3f767f81e5bb1a6a88afc0a5ac4a36818acdffa24d6b415c2c072d8d2a",
+        "org.freedesktop.Platform/x86_64/20.08": "1c2a31fa9eceb92a4d20027b90e63d2b82c62d1a35a1e9dc744322e94bcf8813"
+    },
+    "build_time": 322.40596747398376,
+    "cache_size": 18616902,
+    "git_size": 0,
+    "dl_size": 18600439,
+    "bad_files": 2,
+    "total_files": 399,
+    "repro_score": 0.9949874686716792,
+    "original_hash": "1c28776fccbf8fa43f3bd5c74ec8679ea9dc5227",
+    "rebuild_hash": "55fee77d9d991f52e30ed332d6bb19d89a6530ad",
+    "original_bin_hash": "080f15e37ad269aaa52664c1f2103497b9bbe79f",
+    "rebuild_bin_hash": "be843d2dd92a3d9cb797a934c53a7427ed27a548",
+    "original_elf_hash": "dc36801976dcf22eb5a07ab57fa476d37cc159d2",
+    "rebuild_elf_hash": "0a4f6083b10b3a3ed548147a4422ad2e49c4170f",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

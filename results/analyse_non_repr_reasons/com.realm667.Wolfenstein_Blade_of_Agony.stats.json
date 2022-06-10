@@ -1,0 +1,32 @@
+{
+    "name": "com.realm667.Wolfenstein_Blade_of_Agony",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "554bc5853a35ad91d564252214598a621c9fa6acd19abbd5e436fa0802359d60",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-23 21:06:54+00:00",
+    "timestamp_of_rebuild": 1632431214.0,
+    "git-commit": "6be56da613a27467af21d6f6d4f19162455bfce6 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "c8c1ca8e3474880eaaa547cfd975b239d5ed729a59fc8148403b420803332803",
+        "org.freedesktop.Sdk/x86_64/21.08": "99e207c5791b8305bce4186f93926dc8f8278712f09462cd889b1462cec25882",
+        "org.freedesktop.Platform/x86_64/21.08": "fa2db5e7db9e82463a1fe9a5255292c63ded0cc141fdafe0008f2519a479ccb1"
+    },
+    "build_time": 1268.8214945793152,
+    "cache_size": 824180878,
+    "git_size": 815619082,
+    "dl_size": 8541237,
+    "diffoscope_failed": true,
+    "bad_files": 8,
+    "total_files": 32,
+    "repro_score": 0.75,
+    "original_hash": "b23c472a08b8c47d266e3928588f824ba0e378b3",
+    "rebuild_hash": "9723397843ce2fc070445f868a3f271d24dc36e9",
+    "original_bin_hash": "cb9f65cf113462b8f5ac75dad88aaee3eda80f66",
+    "rebuild_bin_hash": "ae41ec73d8dacb3bf19714d4c8be3b6283272f52",
+    "original_elf_hash": "49d5d5331f892d50bf4ac38d953fab4126c2f1c9",
+    "rebuild_elf_hash": "efff1cbfbe99d324c12155ec4a084889fd6f582f",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,31 @@
+{
+    "name": "com.darhon.syncbackup",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "4be1a106d24d11cf27ec12f526be4af80983bb1e25efc724e2d82dbdd1115fd7",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-03 12:02:48+00:00",
+    "timestamp_of_rebuild": 1654257768.0,
+    "git-commit": "b1d968af69becae5e3905bbf7995b367eb64a1b4 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "1bf5dbd9fd2f66898d2501dfbe0e5327d0dc6eecd9e02e2bdeb39a43df7974c8",
+        "org.kde.Platform/x86_64/5.15-21.08": "c49e5ed4c419e849e15657b270c0cb9550afaa73277c611426b97c701cbe37b4"
+    },
+    "build_time": 63.04805946350098,
+    "cache_size": 1249018,
+    "git_size": 1232555,
+    "dl_size": 0,
+    "bad_files": 1,
+    "total_files": 30,
+    "repro_score": 0.9666666666666667,
+    "original_hash": "83b74e6d696b4d25ae983d03ec446ffd3f5bc299",
+    "rebuild_hash": "87945033f03467da6d9b968f3de034b3dde15c4b",
+    "original_bin_hash": "4aa138a6bafd9e36272e82bede386c6d9df84ba1",
+    "rebuild_bin_hash": "15a128bb95ebf97968cb2d07003f525411f18ea0",
+    "original_elf_hash": "c821aacefa3de3024b5d8805766fb98ecde3ce6b",
+    "rebuild_elf_hash": "27ae3f9932f9c2e4f641be20669847153bf4c4b5",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}
