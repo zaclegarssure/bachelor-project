@@ -1,0 +1,32 @@
+{
+    "name": "com.bladecoder.adventure-editor",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "5a1dec27d0ca04125fd6a82873b6eeda5c1a777aabf1c550a5e662d6a3611131",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-10 09:53:17+00:00",
+    "timestamp_of_rebuild": 1639129997.0,
+    "git-commit": "48d5501311607cf8164130fa4c8dbd7788273b59 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk11/x86_64/21.08": "37ab4d645c61133948b57d09a4cc112ecb57a8bd360f89b32d68f02c5591fc9b",
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/21.08": "decc763dc1ce5890c8bd4a53ab7a30f8feb5cb395f8dcbb6ec75e91f7ff0982f",
+        "org.freedesktop.Platform/x86_64/21.08": "cb1ac3a51e068219a21f3ea85faba17a204a6a8fbc3c0d8342af190b2af53682"
+    },
+    "build_time": 69.49110746383667,
+    "cache_size": 20621679,
+    "git_size": 0,
+    "dl_size": 20605216,
+    "bad_files": 1,
+    "total_files": 363,
+    "repro_score": 0.9972451790633609,
+    "original_hash": "a64bafea4ae934175b1e1f17d2d02a39f39d49e3",
+    "rebuild_hash": "ff31c1f978535fe70e0584364a9f3246968f7382",
+    "original_bin_hash": "8180e6fecdc1322e1a8fb3bff5c7fb21e8601f57",
+    "rebuild_bin_hash": "8180e6fecdc1322e1a8fb3bff5c7fb21e8601f57",
+    "original_elf_hash": "cd097304a691f5de644e59d01e498057652e6fc6",
+    "rebuild_elf_hash": "cd097304a691f5de644e59d01e498057652e6fc6",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

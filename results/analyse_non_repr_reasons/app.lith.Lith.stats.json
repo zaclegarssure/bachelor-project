@@ -1,0 +1,31 @@
+{
+    "name": "app.lith.Lith",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "e23eac40bdf0d649f129c3f7b62fb1553369c509b9607f63ac2799919b58b518",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-12 23:14:02+00:00",
+    "timestamp_of_rebuild": 1647126842.0,
+    "git-commit": "2b11a5c274e577626679ebe3f9f36a6b022c2847 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "cce27cfbd1132b922bd1b4c672b83b907f1d6a21e0aa941fec13ebc1e65b0508",
+        "org.kde.Sdk/x86_64/6.2": "c94b026c414b7c3c185a8f115c9604e1be4d78ac49c305176d0d694869fa47ee",
+        "org.kde.Platform/x86_64/6.2": "911010481b4a8c33398da8b0291cb323fa77ba1ff738ae6ae6a69150f45e78ad"
+    },
+    "build_time": 15.220865964889526,
+    "cache_size": 1493910,
+    "git_size": 1477447,
+    "dl_size": 0,
+    "bad_files": 1,
+    "total_files": 32,
+    "repro_score": 0.96875,
+    "original_hash": "4031b95346a54c28667cba43b3ca012f36fe1eda",
+    "rebuild_hash": "6d04cae59a2e79c10adae80fa75e1c983996c71e",
+    "original_bin_hash": "bb06386be82d472d167d118bde38d3a1d316400b",
+    "rebuild_bin_hash": "91da55bd6b428683b482710d989d151e5cb3ed67",
+    "original_elf_hash": "be047a7bfb3643b6f4bd5dd2455d37b8ba13e4e4",
+    "rebuild_elf_hash": "c6bbd34bbb81f5d67a1b2149cbbf794e6be3e77c",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

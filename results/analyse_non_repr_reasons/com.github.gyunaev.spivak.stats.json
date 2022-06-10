@@ -1,0 +1,31 @@
+{
+    "name": "com.github.gyunaev.spivak",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "63ef46b9a0b1d0a86c5a1d1b10c1a5eba419d3f0fd94143446ff4faade2b5aa1",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-06 10:08:06+00:00",
+    "timestamp_of_rebuild": 1644142086.0,
+    "git-commit": "3bdbe6840496b7f4a7a450137877608ffba20fe6 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.kde.Sdk/x86_64/5.15": "7584eda1a3e29cb4f5310942a1b1ed55a8823a54320f2cb7dea128db280486d8",
+        "org.kde.Platform/x86_64/5.15": "1cb4374f4cc2438ca9674ae683b38fb1dbe74704d28cd8508349c81f6228b3d3"
+    },
+    "build_time": 112.31837344169617,
+    "cache_size": 98959939,
+    "git_size": 97955092,
+    "dl_size": 984288,
+    "bad_files": 1,
+    "total_files": 23,
+    "repro_score": 0.9565217391304348,
+    "original_hash": "73dc15a1e2e546a29f4c7052fc76e8786013d9b0",
+    "rebuild_hash": "92e728443902fa7069131b1daf3482fe63bc73b9",
+    "original_bin_hash": "803750ba314ac748e2599f3c422d8239cd741f1c",
+    "rebuild_bin_hash": "8e3dab6d050081a3fe8b2e5dc50631dbba345243",
+    "original_elf_hash": "3357129ce1eff38bbfd420c21e928cab84fcf653",
+    "rebuild_elf_hash": "6449e305c22394f27c358c9313d8a69a33073b08",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

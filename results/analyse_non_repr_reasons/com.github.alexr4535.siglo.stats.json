@@ -1,0 +1,31 @@
+{
+    "name": "com.github.alexr4535.siglo",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "1ba1482494e6a2b0e4990eb9db9ae8c723b8469b20ad4293a29f7f3cf701f619",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-25 15:58:13+00:00",
+    "timestamp_of_rebuild": 1640447893.0,
+    "git-commit": "5337493f775a3591103acd061755646783cb8850 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.gnome.Sdk/x86_64/41": "13610dcd6bdad52462f9b5112fb8b3b86c7a639e60a2f6784e25849e1dcad95d",
+        "org.gnome.Platform/x86_64/41": "cea3bffea9aad8ecd84ba25c89242b7f773543ffaac3393bcf8db5449aafd009"
+    },
+    "build_time": 29.31036686897278,
+    "cache_size": 1939145,
+    "git_size": 110313,
+    "dl_size": 1808273,
+    "bad_files": 28,
+    "total_files": 332,
+    "repro_score": 0.9156626506024096,
+    "original_hash": "4ba9db6cc604808e52186b8dbda8f7157e9521e6",
+    "rebuild_hash": "dd46ce4aeb1c6414e6b49e2b7d582fd95081e018",
+    "original_bin_hash": "a83367e140bad3a9359c91a6f362b7751225850e",
+    "rebuild_bin_hash": "64764cf61de9fc71ae8191c7ae7173fac02faac1",
+    "original_elf_hash": "d4785f4c2979baff19580d5abde85572e0b25f0a",
+    "rebuild_elf_hash": "1322501835a0c7278ab6eee60793b26a6a72fd1b",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

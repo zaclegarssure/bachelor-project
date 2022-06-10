@@ -1,0 +1,31 @@
+{
+    "name": "com.github.ztefn.haguichi",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "d2f43f1509493264c7555d3060268e8c147b67b7103ee544018a8cab3455d300",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-08 19:30:18+00:00",
+    "timestamp_of_rebuild": 1638991818.0,
+    "git-commit": "d2293c4effa4cea24ab0c274014270c9c0bdaa49 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.gnome.Sdk/x86_64/41": "a7bd7c08861847161bb4095d2a1d1a500b5a2b1180baa4b175b5c27d360a492c",
+        "org.gnome.Platform/x86_64/41": "b317e7f21189832d0b37a8f312e6407eb30a1239af2cc583ac76f58eb468c8bb"
+    },
+    "build_time": 10.0427405834198,
+    "cache_size": 227555,
+    "git_size": 0,
+    "dl_size": 211092,
+    "bad_files": 1,
+    "total_files": 37,
+    "repro_score": 0.972972972972973,
+    "original_hash": "789781b101a22211fee4d518a8841d0a192d91bc",
+    "rebuild_hash": "1a5e18d946e8e22ccff49337be57b28478dbf55a",
+    "original_bin_hash": "7d65506ba81e6c95c282f5ed150467f7631e2fbf",
+    "rebuild_bin_hash": "7d65506ba81e6c95c282f5ed150467f7631e2fbf",
+    "original_elf_hash": "41188edc6eca71e13e2d83d14da73978fd2b75ff",
+    "rebuild_elf_hash": "41188edc6eca71e13e2d83d14da73978fd2b75ff",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

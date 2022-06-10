@@ -1,0 +1,31 @@
+{
+    "name": "com.github.ryanakca.slingshot",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "27e0078e3e4eb94b38b95baec48928db6dee13f1fc38d29160857b9045415fb7",
+    "branch": "stable",
+    "time_of_rebuild": "2021-05-27 04:10:55+00:00",
+    "timestamp_of_rebuild": 1622088655.0,
+    "git-commit": "243da13f0576beb2618dd4b8b6953d4ed7e1ad6e master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "a770bfe0520e0ea3e08a1d2383d470200bcad65c4e44520f142016e2572270d8",
+        "org.freedesktop.Sdk/x86_64/20.08": "ceb3c558b9a3399fcb4d055f82db88513cf30a0f1e79ef986990d4e79b9bf20a",
+        "org.freedesktop.Platform/x86_64/20.08": "ba553273a3dcdf53545e800d9d7459a7c3f138071f53560ed0e69be5243048d5"
+    },
+    "build_time": 259.19127917289734,
+    "cache_size": 37832683,
+    "git_size": 0,
+    "dl_size": 37816220,
+    "bad_files": 439,
+    "total_files": 3187,
+    "repro_score": 0.8622529024160652,
+    "original_hash": "c323415e9f16ca13006c5f3ce75ad4d3d7e3ea99",
+    "rebuild_hash": "fdf8492efcced4aaf9959850ab9bf1945974308f",
+    "original_bin_hash": "13636c33b0e0a15dc88577143bd29fe3e784fb65",
+    "rebuild_bin_hash": "fb524365de51f519c31e16e8c2593d00dadbcc49",
+    "original_elf_hash": "657321e8d9fe0d075352db59d6ef43277e388131",
+    "rebuild_elf_hash": "306d7f596b42a94f76b35c5b5b8aa43f471ad622",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

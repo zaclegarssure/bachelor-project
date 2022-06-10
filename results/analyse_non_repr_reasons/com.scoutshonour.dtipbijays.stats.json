@@ -1,0 +1,31 @@
+{
+    "name": "com.scoutshonour.dtipbijays",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "625895a978e34621b195aef70dd51dc4c01b7173a619ed56c1416345fca830b9",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-09 14:51:55+00:00",
+    "timestamp_of_rebuild": 1639061515.0,
+    "git-commit": "dc0d0edafa72eaa31d735e136a24e288c6172d5c master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/20.08": "567a0a55e2f53f87a9702fbbd5cbab4869c9f57430e86d93edc54d9208f5d3e1",
+        "org.freedesktop.Platform/x86_64/20.08": "93f5faa8492c933e9ed7dfee9824302af357101680a4df1f72d02ed26a0ab7e5"
+    },
+    "build_time": 447.8836407661438,
+    "cache_size": 108333584,
+    "git_size": 0,
+    "dl_size": 108317121,
+    "bad_files": 440,
+    "total_files": 6028,
+    "repro_score": 0.927007299270073,
+    "original_hash": "04b32e2c8428b3e5e9d66d2916af0887fc53a0f8",
+    "rebuild_hash": "4a009e8f18a515d076ed8a1d8bca48b06ad74e2f",
+    "original_bin_hash": "b4e629e531bb0054495678cbe0bb30f4eb20ae24",
+    "rebuild_bin_hash": "c8f899146e42ff0a5e11dddea98fc40a20ceb923",
+    "original_elf_hash": "537581765bc16237063b2d6fbb25691ec0407526",
+    "rebuild_elf_hash": "3f9b57d83455af5ac3dfd78206653ec2c948d226",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

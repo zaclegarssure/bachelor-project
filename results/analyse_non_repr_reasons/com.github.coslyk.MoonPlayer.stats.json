@@ -1,0 +1,31 @@
+{
+    "name": "com.github.coslyk.MoonPlayer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "12d82020afdba82023a778171a1afbc3ecf5be4ef95286fc6c7e1821f06f645a",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-14 05:21:07+00:00",
+    "timestamp_of_rebuild": 1652505667.0,
+    "git-commit": "a10cf1777d7f2a1035da7674c7de9a7f45a3d1f0 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 163.22542476654053,
+    "cache_size": 14638237,
+    "git_size": 793668,
+    "dl_size": 13824010,
+    "bad_files": 1,
+    "total_files": 43,
+    "repro_score": 0.9767441860465116,
+    "original_hash": "25cf080b7bb8b4a1e8f0bad5b2656fb1258ecfff",
+    "rebuild_hash": "e9cb1c42a6742723be4cfff410f4026c39d5cecf",
+    "original_bin_hash": "270c420a277250f788894304631d12ac53365983",
+    "rebuild_bin_hash": "edf37842231e125f588ed852840261c3dc366981",
+    "original_elf_hash": "2aec76202039e2712d01972a0daf15b1b6720623",
+    "rebuild_elf_hash": "a833906e048ab899664cfedcc3b43e9f1ad20926",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

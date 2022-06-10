@@ -1,0 +1,32 @@
+{
+    "name": "com.github.robertsanseries.ciano",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "a804da30b62ec8b197ed93c4e4a1cb66726bfbdf6b090982442d0e9d98a47d19",
+    "branch": "stable",
+    "time_of_rebuild": "2021-05-20 10:10:37+00:00",
+    "timestamp_of_rebuild": 1621505437.0,
+    "git-commit": "2a768cbfeb03d037fb4c6a87a796ab034eb35e68 master",
+    "flatpak-deps": {
+        "io.elementary.BaseApp/x86_64/juno-20.08": "74b996016ed985696b382feb1e3aa3886e394ac583c74b6d9d686196dc0dd502",
+        "org.flatpak.Builder/x86_64/stable": "a770bfe0520e0ea3e08a1d2383d470200bcad65c4e44520f142016e2572270d8",
+        "org.freedesktop.Sdk/x86_64/20.08": "a03c90180af8a8d6d54bed4e220e377e89f39a3b68d22ec6959ad79366e9c960",
+        "org.freedesktop.Platform/x86_64/20.08": "e593e554e7c0db7d3f2812242d79bfa230f80f5f4b317171705f35befd24b2fd"
+    },
+    "build_time": 193.15566039085388,
+    "cache_size": 25216945,
+    "git_size": 275986,
+    "dl_size": 24920400,
+    "bad_files": 5,
+    "total_files": 4385,
+    "repro_score": 0.9988597491448119,
+    "original_hash": "78ea1701333abe07aadf1c9a05479ee004415cc4",
+    "rebuild_hash": "181094e960baff646a78d8c72cbcb0f277ad8cdb",
+    "original_bin_hash": "472118401fcb37b1d63e278041e5ac6e5a1224fe",
+    "rebuild_bin_hash": "701fd4464ba68fe7ec49d94dd4d95c145bd21220",
+    "original_elf_hash": "f2c24f02994180faa0922a1113916bdcb4d8bb68",
+    "rebuild_elf_hash": "2d5057aa6b9cee2b0596d2449dcac3cf3e338085",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

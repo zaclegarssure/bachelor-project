@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="referrer" content="no-referrer" />
+  <meta name="generator" content="diffoscope" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAM8SURBVFiF7dZdaJZlGAfw3/O+e9XNjy3XllZzWImBxIpifqTgsmUHBSIeBNFBdRh0UHQ0xGdb66CFBIERZEFRQRRUw0HkQkLMYQSBdpCFWdgSP6jpNn2393k68Nn2bj3vXtb6UOh/cl/39b/u67mem/913zf/4z9GUDw5xNI8n5WIzW9m/QF2YluJmI8203mALzEvLWAerRs4Pz6vSIkZSlsYk0/GkaB0zEgyDgWMlijyWsJuS2fkQwu8pqpMTA0ypeiShG71Bp0rU8Q+A47MWEDgvHZbZl/Av4SpIgxVYB3IqwZDmoUuYkzosDaNchpAoFqkSmgjGPWzLieF1k3JHVsjvCJQHBYaSy9g1E3m+QImQiK9SbNGqJDzuiDZ0lggQJCsyelDq8BB47sbCWTsnvhG3kqcLL833eqF4hk1EOoTOjZjnnaRdq2l6KtMAyl4/g23bKJrun+Mt9uOq7nvqOVbebWYy9Adc1fM/R/3CO780dONbIeFPHsPw+ULeM5ZHTbXHfUtXpxOZzgT5z02UGsZThRzF/ilht9G+fr4zfbfccIxXIa7uVTup69i7LJXaEEqF3on1d9ludBLpVLOVoT1lky9QYtwQ6p3WAVqSyUslWwSbRrkPJrMtgn0iBVk7BPJ4sGE24EPQKW3jLgdzWKLBTbg0yTuZeGkDsp2gcUGDesHGQ/gK5G8nLMigWiCe3jCrnTRiJ9EYjm1ImsUEq5l8hScPXbpsVtlKhfan+pv0yD0ZqmU5XegGBmnDIo/pylj8oYLOP3Eab/v5Zmi6EtZ3vv1FU/2r7LioYSL2dNybbdiMdptFU57++20Vqh+iq/Tap1WpaWY611wmyWyUzxZDbIWTvEV1Ildn5agfBumoUMTtoisFvhebAAHZWxX0ChwTuScvHdVeVykToysMyJ7ittwbmj31J+6IrRDp5XTfBt1WJ+WYnZdMB0F3xlUgD5uDVj2Sa+a4SrzH+FeyHHmw17V112waBOZgP4WczkLZsILar1fpIliMU4XZoK/poE0XHl+N8v6QcGAUbVymnDIZVnzrTXqGzmnhKLxZX/niyiDjIJgwg4Se1GR/Y8idGPysh6fr0i1i/AHMWHgrwUJgNAAAAAASUVORK5CYII=" />
+  <title>/usr/bin/diffoscope com.kavilgroup.gestimator.original com.kavilgroup.gestimator.rebuild --exclude-directory-metadata=yes --html=com.kavilgroup.gestimator.report.html</title>
+<style>
+body.diffoscope {
+  background: white;
+  color: black;
+}
+.diffoscope .footer {
+  font-size: small;
+}
+.diffoscope .difference {
+  border: outset #888 1px;
+  background: #E8E8E8;
+  background: rgba(0,0,0,.1);
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+.diffoscope .difference table {
+  table-layout: fixed;
+  width: 100%;
+  border: 0;
+}
+.diffoscope .difference th,
+.diffoscope .difference td {
+  border: 0;
+}
+.diffoscope table.diff {
+  border: 0;
+  border-collapse:collapse;
+  font-size:0.75em;
+  font-family: 'Lucida Console', monospace;
+  word-break: break-word;
+}
+.diffoscope table.diff tr:hover td {
+  background: #FFFF00;
+}
+.diffoscope .line {
+  color:#8080a0
+}
+.diffoscope th {
+  background: black;
+  color: white
+}
+.diffoscope .diffunmodified td {
+  background: #D0D0E0
+}
+.diffoscope .diffhunk td {
+  background: #A0A0A0
+}
+.diffoscope .diffadded td {
+  background: #CCFFCC
+}
+.diffoscope .diffdeleted td {
+  background: #FFCCCC
+}
+.diffoscope .diffchanged td {
+  background: #FFFFA0
+}
+.diffoscope ins, del {
+  background: #E0C880;
+  text-decoration: none
+}
+.diffoscope .dp {
+  color: #B08080
+}
+.diffoscope .comment {
+  font-style: italic;
+}
+.diffoscope .comment.multiline {
+  font-style: normal;
+  font-family: monospace;
+  white-space: pre;
+}
+.diffoscope .source {
+  font-weight: bold;
+}
+.diffoscope .error {
+  border: solid black 1px;
+  background: red;
+  color: white;
+  padding: 0.2em;
+}
+.diffoscope .anchor {
+  margin-left: 0.5em;
+  font-size: 80%;
+  color: #333;
+  text-decoration: none;
+  display: none;
+}
+.diffoscope .diffheader:hover .anchor {
+  display: inline;
+}
+.diffoscope .diffcontrol, .diffoscope .diffcontrol-nochildren {
+  float: left;
+  margin-right: 0.3em;
+  cursor: pointer;
+  display: none; /* currently, only available in html-dir output where jquery is enabled */
+}
+.diffoscope .colines {
+  width: 3em;
+}
+.diffoscope .coldiff {
+  width: 99%;
+}
+.diffoscope .diffsize {
+  float: right;
+}
+.diffoscope table.diff tr.ondemand td, .diffoscope div.ondemand-details {
+  background: #f99;
+  text-align: center;
+  padding: 0.5em 0;
+}
+.diffoscope table.diff tr.ondemand:hover td, .diffoscope div.ondemand-details:hover {
+  background: #faa;
+  cursor: pointer;
+}
+</style>
+</head>
+<body class="diffoscope">
+<div class="difference">
+  <div class="diffheader">
+  <div class="diffcontrol diffcontrol-double">⊟</div>
+  <div><span class="diffsize">2.97 KB</span></div>
+  <div><span class="source">com.kavilgroup.gestimator.original</span> vs.</div>
+  <div id="top"><span class="source">com.kavilgroup.gestimator.rebuild</span>
+    <a class="anchor" href="#top">¶</a>
+  </div>
+  </div>
+  <div class="difference">
+    <div class="diffheader">
+    <div class="diffcontrol diffcontrol-double">⊟</div>
+    <div><span class="diffsize">2.9 KB</span></div>
+    <div><span class="source">com.kavilgroup.gestimator.original/files</span> vs.</div>
+    <div id="com.kavilgroup.gestimator.original-files"><span class="source">com.kavilgroup.gestimator.rebuild/files</span>
+      <a class="anchor" href="#com.kavilgroup.gestimator.original-files">¶</a>
+    </div>
+    </div>
+    <div class="difference">
+      <div class="diffheader">
+      <div class="diffcontrol diffcontrol-double">⊟</div>
+      <div><span class="diffsize">2.83 KB</span></div>
+      <div><span class="source">com.kavilgroup.gestimator.original/files/lib</span> vs.</div>
+      <div id="com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib"><span class="source">com.kavilgroup.gestimator.rebuild/files/lib</span>
+        <a class="anchor" href="#com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib">¶</a>
+      </div>
+      </div>
+      <div class="difference">
+        <div class="diffheader">
+        <div class="diffcontrol diffcontrol-double">⊟</div>
+        <div><span class="diffsize">2.74 KB</span></div>
+        <div><span class="source">com.kavilgroup.gestimator.original/files/lib/python3.9</span> vs.</div>
+        <div id="com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib---com.kavilgroup.gestimator.original-files-lib-python-.-"><span class="source">com.kavilgroup.gestimator.rebuild/files/lib/python3.9</span>
+          <a class="anchor" href="#com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib---com.kavilgroup.gestimator.original-files-lib-python-.-">¶</a>
+        </div>
+        </div>
+        <div class="difference">
+          <div class="diffheader">
+          <div class="diffcontrol diffcontrol-double">⊟</div>
+          <div><span class="diffsize">2.64 KB</span></div>
+          <div><span class="source">com.kavilgroup.gestimator.original/files/lib/python3.9/site-packages</span> vs.</div>
+          <div id="com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib---com.kavilgroup.gestimator.original-files-lib-python-.----com.kavilgroup.gestimator.original-files-lib-python-.--site-packages"><span class="source">com.kavilgroup.gestimator.rebuild/files/lib/python3.9/site-packages</span>
+            <a class="anchor" href="#com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib---com.kavilgroup.gestimator.original-files-lib-python-.----com.kavilgroup.gestimator.original-files-lib-python-.--site-packages">¶</a>
+          </div>
+          </div>
+          <div class="difference">
+            <div class="diffheader">
+            <div class="diffcontrol diffcontrol-double">⊟</div>
+            <div><span class="diffsize">1.15 KB</span></div>
+            <div><span class="source">com.kavilgroup.gestimator.original/files/lib/python3.9/site-packages/pyblake2-1.1.2.dist-info</span> vs.</div>
+            <div id="com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib---com.kavilgroup.gestimator.original-files-lib-python-.----com.kavilgroup.gestimator.original-files-lib-python-.--site-packages---com.kavilgroup.gestimator.original-files-lib-python-.--site-packages-pyblake---.-.-.dist-info"><span class="source">com.kavilgroup.gestimator.rebuild/files/lib/python3.9/site-packages/pyblake2-1.1.2.dist-info</span>
+              <a class="anchor" href="#com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib---com.kavilgroup.gestimator.original-files-lib-python-.----com.kavilgroup.gestimator.original-files-lib-python-.--site-packages---com.kavilgroup.gestimator.original-files-lib-python-.--site-packages-pyblake---.-.-.dist-info">¶</a>
+            </div>
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol diffcontrol-double">⊟</div>
+              <div><span class="diffsize">996 B</span></div>
+              <div><span class="source">com.kavilgroup.gestimator.original/files/lib/python3.9/site-packages/pyblake2-1.1.2.dist-info/RECORD</span> vs.</div>
+              <div id="com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib---com.kavilgroup.gestimator.original-files-lib-python-.----com.kavilgroup.gestimator.original-files-lib-python-.--site-packages---com.kavilgroup.gestimator.original-files-lib-python-.--site-packages-pyblake---.-.-.dist-info---com.kavilgroup.gestimator.original-files-lib-python-.--site-packages-pyblake---.-.-.dist-info-RECORD"><span class="source">com.kavilgroup.gestimator.rebuild/files/lib/python3.9/site-packages/pyblake2-1.1.2.dist-info/RECORD</span>
+                <a class="anchor" href="#com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib---com.kavilgroup.gestimator.original-files-lib-python-.----com.kavilgroup.gestimator.original-files-lib-python-.--site-packages---com.kavilgroup.gestimator.original-files-lib-python-.--site-packages-pyblake---.-.-.dist-info---com.kavilgroup.gestimator.original-files-lib-python-.--site-packages-pyblake---.-.-.dist-info-RECORD">¶</a>
+              </div>
+              </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 8 lines modified</td><td colspan="2">Offset 1, 8 lines modified</td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">pyblake2-1.1.2.dist-info/COPYING,sha256=t8LWZ1gjmZRNIjNx76DZl_yj29skWoIOb01RFOeh7ek,1614<em>\xd</em></td><td class="diffline">1 </td><td class="diffpresent">pyblake2-1.1.2.dist-info/COPYING,sha256=t8LWZ1gjmZRNIjNx76DZl_yj29skWoIOb01RFOeh7ek,1614<em>\xd</em></td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent">pyblake2-1.1.2.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4<em>\xd</em></td><td class="diffline">2 </td><td class="diffpresent">pyblake2-1.1.2.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4<em>\xd</em></td></tr>
+<tr class="diffunmodified"><td class="diffline">3 </td><td class="diffpresent">pyblake2-1.1.2.dist-info/METADATA,sha256=nBprP5yjuD4gYGqzJTi6BNcoQ6BMNqtl13oPwDGoYW0,1760<em>\xd</em></td><td class="diffline">3 </td><td class="diffpresent">pyblake2-1.1.2.dist-info/METADATA,sha256=nBprP5yjuD4gYGqzJTi6BNcoQ6BMNqtl13oPwDGoYW0,1760<em>\xd</em></td></tr>
+<tr class="diffunmodified"><td class="diffline">4 </td><td class="diffpresent">pyblake2-1.1.2.dist-info/RECORD,,<em>\xd</em></td><td class="diffline">4 </td><td class="diffpresent">pyblake2-1.1.2.dist-info/RECORD,,<em>\xd</em></td></tr>
+<tr class="diffunmodified"><td class="diffline">5 </td><td class="diffpresent">pyblake2-1.1.2.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0<em>\xd</em></td><td class="diffline">5 </td><td class="diffpresent">pyblake2-1.1.2.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0<em>\xd</em></td></tr>
+<tr class="diffunmodified"><td class="diffline">6 </td><td class="diffpresent">pyblake2-1.1.2.dist-info/WHEEL,sha256=eFEZTe5E-GW3clRR42kaSKS3MvlNjLpC47niQcRtKX4,103<em>\xd</em></td><td class="diffline">6 </td><td class="diffpresent">pyblake2-1.1.2.dist-info/WHEEL,sha256=eFEZTe5E-GW3clRR42kaSKS3MvlNjLpC47niQcRtKX4,103<em>\xd</em></td></tr>
+<tr class="diffunmodified"><td class="diffline">7 </td><td class="diffpresent">pyblake2-1.1.2.dist-info/top_level.txt,sha256=AJDdu20uCQORwIFYrQX_43ykH77P5W97rVt93hbUJc8,9<em>\xd</em></td><td class="diffline">7 </td><td class="diffpresent">pyblake2-1.1.2.dist-info/top_level.txt,sha256=AJDdu20uCQORwIFYrQX_43ykH77P5W97rVt93hbUJc8,9<em>\xd</em></td></tr>
+<tr class="diffchanged"><td class="diffline">8 </td><td class="diffpresent">pyblake2.cpython-39-x86_64-linux-gnu.so,sha256=<del>Yvlakp3DR5NLwedZiTyJ4fy</del>K<del>nL5WjJo7BYYEv8oSv1g</del>,197128<em>\xd</em></td><td class="diffline">8 </td><td class="diffpresent">pyblake2.cpython-39-x86_64-linux-gnu.so,sha256=<ins>wNnrcLXY5UkX5uf4vDdbAma</ins>K<ins>YwMs81N437271g8mRAE</ins>,197128<em>\xd</em></td></tr>
+</table>            </div>
+          </div>
+          <div class="difference">
+            <div class="diffheader">
+            <div class="diffcontrol diffcontrol-double">⊟</div>
+            <div><span class="diffsize">1.35 KB</span></div>
+            <div><span class="source">com.kavilgroup.gestimator.original/files/lib/python3.9/site-packages/pyblake2.cpython-39-x86_64-linux-gnu.so</span> vs.</div>
+            <div id="com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib---com.kavilgroup.gestimator.original-files-lib-python-.----com.kavilgroup.gestimator.original-files-lib-python-.--site-packages---com.kavilgroup.gestimator.original-files-lib-python-.--site-packages-pyblake-.cpython----x--_---linux-gnu.so"><span class="source">com.kavilgroup.gestimator.rebuild/files/lib/python3.9/site-packages/pyblake2.cpython-39-x86_64-linux-gnu.so</span>
+              <a class="anchor" href="#com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib---com.kavilgroup.gestimator.original-files-lib-python-.----com.kavilgroup.gestimator.original-files-lib-python-.--site-packages---com.kavilgroup.gestimator.original-files-lib-python-.--site-packages-pyblake-.cpython----x--_---linux-gnu.so">¶</a>
+            </div>
+            </div>
+            <div class="comment">File has been modified after NT_GNU_BUILD_ID has been applied.
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol">⊟</div>
+              <div><span class="diffsize">626 B</span></div>
+              <div id="com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib---com.kavilgroup.gestimator.original-files-lib-python-.----com.kavilgroup.gestimator.original-files-lib-python-.--site-packages---com.kavilgroup.gestimator.original-files-lib-python-.--site-packages-pyblake-.cpython----x--_---linux-gnu.so---readelf---wide---notes---"><span class="source">readelf --wide --notes {}</span>
+                <a class="anchor" href="#com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib---com.kavilgroup.gestimator.original-files-lib-python-.----com.kavilgroup.gestimator.original-files-lib-python-.--site-packages---com.kavilgroup.gestimator.original-files-lib-python-.--site-packages-pyblake-.cpython----x--_---linux-gnu.so---readelf---wide---notes---">¶</a>
+              </div>
+              </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 8 lines modified</td><td colspan="2">Offset 1, 8 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.property</td><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.property</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td></tr>
+<tr class="diffunmodified"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">»</span>  NT_GNU_PROPERTY_TYPE_0<span class="dp">»</span>    <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Properties:<span class="dp">·</span>x86<span class="dp">·</span>feature:<span class="dp">·</span>IBT,<span class="dp">·</span>SHSTK</td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">»</span>  NT_GNU_PROPERTY_TYPE_0<span class="dp">»</span>    <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Properties:<span class="dp">·</span>x86<span class="dp">·</span>feature:<span class="dp">·</span>IBT,<span class="dp">·</span>SHSTK</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">4 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td><td class="diffline">4 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td></tr>
+<tr class="diffunmodified"><td class="diffline">5 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td><td class="diffline">5 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td></tr>
+<tr class="diffchanged"><td class="diffline">6 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><del>0c5764066</del>8<del>fd9f8d8d12a1</del>c<del>5a6b1ff</del>d<del>5</del>4<del>17</del>2<del>38</del><del>25</del></td><td class="diffline">6 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><ins>e</ins><ins>df245da31</ins>8<ins>7e2a79c983f5</ins>c<ins>018c8bb</ins>d<ins>0</ins><ins>3</ins>4<ins>d1</ins>2<ins>60</ins></td></tr>
+</table>            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol">⊟</div>
+              <div><span class="diffsize">482 B</span></div>
+              <div id="com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib---com.kavilgroup.gestimator.original-files-lib-python-.----com.kavilgroup.gestimator.original-files-lib-python-.--site-packages---com.kavilgroup.gestimator.original-files-lib-python-.--site-packages-pyblake-.cpython----x--_---linux-gnu.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---"><span class="source">readelf --wide --decompress --hex-dump=.gnu_debuglink {}</span>
+                <a class="anchor" href="#com.kavilgroup.gestimator.original-files---com.kavilgroup.gestimator.original-files-lib---com.kavilgroup.gestimator.original-files-lib-python-.----com.kavilgroup.gestimator.original-files-lib-python-.--site-packages---com.kavilgroup.gestimator.original-files-lib-python-.--site-packages-pyblake-.cpython----x--_---linux-gnu.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---">¶</a>
+              </div>
+              </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 7 lines modified</td><td colspan="2">Offset 1, 7 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>7079626c<span class="dp">·</span>616b6532<span class="dp">·</span>2e637079<span class="dp">·</span>74686f6e<span class="dp">·</span>pyblake2.cpython</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>7079626c<span class="dp">·</span>616b6532<span class="dp">·</span>2e637079<span class="dp">·</span>74686f6e<span class="dp">·</span>pyblake2.cpython</td></tr>
+<tr class="diffunmodified"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>2d33392d<span class="dp">·</span>7838365f<span class="dp">·</span>36342d6c<span class="dp">·</span>696e7578<span class="dp">·</span>-39-x86_64-linux</td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>2d33392d<span class="dp">·</span>7838365f<span class="dp">·</span>36342d6c<span class="dp">·</span>696e7578<span class="dp">·</span>-39-x86_64-linux</td></tr>
+<tr class="diffunmodified"><td class="diffline">4 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000020<span class="dp">·</span>2d676e75<span class="dp">·</span>2e736f2e<span class="dp">·</span>64656275<span class="dp">·</span>67000000<span class="dp">·</span>-gnu.so.debug...</td><td class="diffline">4 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000020<span class="dp">·</span>2d676e75<span class="dp">·</span>2e736f2e<span class="dp">·</span>64656275<span class="dp">·</span>67000000<span class="dp">·</span>-gnu.so.debug...</td></tr>
+<tr class="diffchanged"><td class="diffline">5 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000030<span class="dp">·</span><del>bafe519c</del><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><del>.</del>.<del>Q.</del></td><td class="diffline">5 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000030<span class="dp">·</span><ins>54ede03b</ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><ins>T</ins>.<ins>.;</ins></td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+</table>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+Generated by
+<a href="https://diffoscope.org" rel="noopener noreferrer" target="_blank">
+diffoscope</a> 215
+</div>
+</body>
+</html>
+

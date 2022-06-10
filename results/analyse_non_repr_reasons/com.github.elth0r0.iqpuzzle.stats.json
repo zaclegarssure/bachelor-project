@@ -1,0 +1,31 @@
+{
+    "name": "com.github.elth0r0.iqpuzzle",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "3e423e55f62b5a1b6db1e3ab829d7ca7fdebcccb99b1bf08b251fc64c278ebe9",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-21 16:39:16+00:00",
+    "timestamp_of_rebuild": 1650559156.0,
+    "git-commit": "f8ac44201ee16c98b1cb3a75c018f926c99cdb7f master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 6.544837236404419,
+    "cache_size": 823848,
+    "git_size": 807385,
+    "dl_size": 0,
+    "bad_files": 1,
+    "total_files": 677,
+    "repro_score": 0.9985228951255539,
+    "original_hash": "0f73b4c385b48f5143af2bd85d3dd79b876b8d2c",
+    "rebuild_hash": "263ef719d02e56a7d2cb917ce994e9685617aad8",
+    "original_bin_hash": "1fecaa2d73218d9f1fe5d55199678005ab7a55fb",
+    "rebuild_bin_hash": "fd4e0de99ebf4fac9eefb2e18a77fb28882cd773",
+    "original_elf_hash": "2740f61a42beabe58de2c719bc482846fa45e633",
+    "rebuild_elf_hash": "56090983dd4d7a7b020a294f1dea637a51ffd63e",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

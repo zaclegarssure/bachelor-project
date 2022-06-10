@@ -1,0 +1,31 @@
+{
+    "name": "ca.littlesvr.asunder",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "013f04f54a38b42bf06a2fa5f52b6d6cef227a5e1f4ec26675002c8d32a7e32d",
+    "branch": "stable",
+    "time_of_rebuild": "2022-01-18 21:03:36+00:00",
+    "timestamp_of_rebuild": 1642539816.0,
+    "git-commit": "e685bf84d3a83e290224bc05e464c93c96e019f1 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "f28222e39af4328cde1612233374e7105709fd88f066ca802fab1d2929c4104b",
+        "org.freedesktop.Sdk/x86_64/21.08": "ae7e576a0187591ab0931eec30ea68d9907aacc16dc8bd7e6b2a96b73df6f18a",
+        "org.freedesktop.Platform/x86_64/21.08": "b27db466e56f7e49e794656b84153c8b81f929ca8b5b8400142b19bb48b9a63d"
+    },
+    "build_time": 312.7206163406372,
+    "cache_size": 26689140,
+    "git_size": 0,
+    "dl_size": 26672677,
+    "bad_files": 7,
+    "total_files": 423,
+    "repro_score": 0.983451536643026,
+    "original_hash": "4e62c17f0e31a35d48e510111a10ee9f06b239e5",
+    "rebuild_hash": "c308bee39b1b6a07e794434552563527e91f4f24",
+    "original_bin_hash": "6b50d81f1eaa74c6ffca82e1ff5065cc7c158969",
+    "rebuild_bin_hash": "055e7a4f0802d42dfc8944e33471db754344c8f8",
+    "original_elf_hash": "4d83cc995141b8618815c2912350cb317cfbdf19",
+    "rebuild_elf_hash": "aa547a204248151ab9d438d3b9b567edd286b06b",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,31 @@
+{
+    "name": "com.github.buddhi1980.mandelbulber2",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "2dabb418c305f3713f7e83fbbe8b91c4a8e73008cf56911128c2a49f2dc03827",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-05 23:48:55+00:00",
+    "timestamp_of_rebuild": 1654472935.0,
+    "git-commit": "ad4518f0828298a44bb035b1973f3f4c277d01f6 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "1bf5dbd9fd2f66898d2501dfbe0e5327d0dc6eecd9e02e2bdeb39a43df7974c8",
+        "org.kde.Platform/x86_64/5.15-21.08": "c49e5ed4c419e849e15657b270c0cb9550afaa73277c611426b97c701cbe37b4"
+    },
+    "build_time": 489.7540018558502,
+    "cache_size": 150675299,
+    "git_size": 142536717,
+    "dl_size": 8118023,
+    "bad_files": 1,
+    "total_files": 2014,
+    "repro_score": 0.9995034756703078,
+    "original_hash": "3ad87da7b903a6608c862cc13a29ff4ea0d13d21",
+    "rebuild_hash": "4b426658ba702b2a1ac4dda758a60ecb9946ad58",
+    "original_bin_hash": "28da58f674a55919553734c2291a71fb6f8ea19d",
+    "rebuild_bin_hash": "c04ee3464b715fdf06ebd7e0391cc2e3ef68f9f7",
+    "original_elf_hash": "3653b302ae2021ba00d6cd8b6fcb621ae4069ac6",
+    "rebuild_elf_hash": "e2cd6fe3f32a9c2ebd61f028682cb12cafa516fd",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

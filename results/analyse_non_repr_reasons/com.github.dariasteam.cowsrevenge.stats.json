@@ -1,0 +1,32 @@
+{
+    "name": "com.github.dariasteam.cowsrevenge",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "19fca8e6c328de9c21701179b17a4afbe2fa443b1984bc2c3647e6a49cd299c4",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-26 03:50:15+00:00",
+    "timestamp_of_rebuild": 1653537015.0,
+    "git-commit": "2ed2de41f9dfdb00da5ea32a289f6658d0b50a30 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.llvm13/x86_64/21.08": "6cd0ba82b5d892b09418908654787e64e24119daf43d65b3267e6716eba8fce0",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 368.44122648239136,
+    "cache_size": 39651719,
+    "git_size": 25708595,
+    "dl_size": 13922565,
+    "bad_files": 406,
+    "total_files": 2520,
+    "repro_score": 0.8388888888888889,
+    "original_hash": "f2181a19bae974217e51727724c46654bc459ba3",
+    "rebuild_hash": "0c24e3e86b674a8ea0fa4fc6470f8dbc3cbaccfb",
+    "original_bin_hash": "9aedeb2babadd876b6e44d6f2c2fbee5b532b8e6",
+    "rebuild_bin_hash": "f9e5da3af1f3bcd13c8ac07de8194146f25df65a",
+    "original_elf_hash": "dfadd931ccc240eac15ca571adc89115eac86014",
+    "rebuild_elf_hash": "093ae796c82b17f3a27f462b9b2c47e32d76eb1c",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,31 @@
+{
+    "name": "com.parsecgaming.parsec",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "ba3164c2ebb5c44fcd6e20a43d9bf9057797802b7f4eb14b0e7091499136c8e9",
+    "branch": "stable",
+    "time_of_rebuild": "2021-10-23 00:46:22+00:00",
+    "timestamp_of_rebuild": 1634949982.0,
+    "git-commit": "96fd292bee4b4d0ca61bb786867f1ab5f2407a1b master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/21.08": "1fad7974d6fe02c6ac83e3e804e0317f4d8d3528dcd5087002e1b501ddadbb6b",
+        "org.freedesktop.Platform/x86_64/21.08": "16d161d8a71701b80fa4bca12812a22c19dc0641b3571fe88c517c84da94c5b5"
+    },
+    "build_time": 9.38001561164856,
+    "cache_size": 12367,
+    "git_size": 0,
+    "dl_size": 0,
+    "bad_files": 1,
+    "total_files": 14,
+    "repro_score": 0.9285714285714286,
+    "original_hash": "2b2fb8e56f44998681bf02d09307e85b778468da",
+    "rebuild_hash": "0ae242a471c9f55e5e2baf8c7617ca079d1d7302",
+    "original_bin_hash": "1228145631d2f3eb9fb1c6f92604f4718b939c40",
+    "rebuild_bin_hash": "1228145631d2f3eb9fb1c6f92604f4718b939c40",
+    "original_elf_hash": "35aefb1f565434bd0f94a0a95de844b41eda2717",
+    "rebuild_elf_hash": "35aefb1f565434bd0f94a0a95de844b41eda2717",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

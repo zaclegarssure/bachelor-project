@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.design.Typography",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "97b1b1aefea7a746edb49c1e663c60664ac581ae6303e3243c25e7e12962da08",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-01 13:12:54+00:00",
+    "timestamp_of_rebuild": 1643721174.0,
+    "git-commit": "3ff0088500d25fd5ed14c5ff7422937ace9945b4 master~1",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.gnome.Sdk/x86_64/41": "ecccb80495350cc4b6cbca854de8249bb1a92e01e80bacb2d492f1c4ff3be533",
+        "org.gnome.Platform/x86_64/41": "b0aed9b5fb8b5e3e1e1badc8711fa34667760cf5ce79b2727b8d8c21d4772577"
+    },
+    "build_time": 181.42858266830444,
+    "cache_size": 28959308,
+    "git_size": 565379,
+    "dl_size": 28373370,
+    "bad_files": 0,
+    "total_files": 69,
+    "repro_score": 1.0,
+    "original_hash": "78391c016a16e4c9089e5a722b894fe95202872e",
+    "rebuild_hash": "78391c016a16e4c9089e5a722b894fe95202872e",
+    "original_bin_hash": "7aa0e7a82dfd5377d84ad39ddf6dd47543ffbc79",
+    "rebuild_bin_hash": "7aa0e7a82dfd5377d84ad39ddf6dd47543ffbc79",
+    "original_elf_hash": "6d44e9c6940a5decfaa45aaf3438c9b69bc58225",
+    "rebuild_elf_hash": "6d44e9c6940a5decfaa45aaf3438c9b69bc58225",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

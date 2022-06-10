@@ -1,0 +1,31 @@
+{
+    "name": "com.github.hopsan.Hopsan",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "0908e0aa8d5fe689ef7f88e0724fce5ab4186f4f7396ad070e7b88d9e2ed45e9",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-06 19:37:30+00:00",
+    "timestamp_of_rebuild": 1636227450.0,
+    "git-commit": "2d9c0c698a5cb8109e351a75a5948a18c4d2c3b3 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.kde.Sdk/x86_64/5.15": "1ed81aa2adc84e7b2db43b6199a2d96efc7e70f6eb18090ae6189ca8329466f1",
+        "org.kde.Platform/x86_64/5.15": "4dca180072dbcf06d72f2e88a48ec238442496a7807eedf30e36cd5583e15ad6"
+    },
+    "build_time": 259.13783979415894,
+    "cache_size": 358207785,
+    "git_size": 337765757,
+    "dl_size": 20421469,
+    "bad_files": 292,
+    "total_files": 3318,
+    "repro_score": 0.9119951778179626,
+    "original_hash": "f3d75493f318e31be48937f73d187611d83e5eac",
+    "rebuild_hash": "2242635fc250dd8762d0d964b2c288c0c3633158",
+    "original_bin_hash": "6f0e27094fce09957fb15395cb7515a693e1f19a",
+    "rebuild_bin_hash": "b3e3f1164ce9a2ed0e164960d6542e86421719bf",
+    "original_elf_hash": "432b2892afd2f305d611c0365ca434c6780a6976",
+    "rebuild_elf_hash": "8a3545e0f6adabfc7523ba01df91b3543e2d87b4",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

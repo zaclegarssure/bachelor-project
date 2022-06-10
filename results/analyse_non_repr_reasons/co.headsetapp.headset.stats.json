@@ -1,0 +1,32 @@
+{
+    "name": "co.headsetapp.headset",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "170edb2cc25e9e57103f2cb17dae47d3db79333decf9b5153a5df4fdf9dda708",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-21 05:11:38+00:00",
+    "timestamp_of_rebuild": 1653109898.0,
+    "git-commit": "d2ee7610f77580950138334ce83a976a2be97b83 master",
+    "flatpak-deps": {
+        "org.electronjs.Electron2.BaseApp/x86_64/21.08": "0281c7bff16ae16bd23554f65185a9b33ca71dafcdf85667983049d9e046ccb8",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 50.01185584068298,
+    "cache_size": 82641505,
+    "git_size": 0,
+    "dl_size": 82625042,
+    "bad_files": 0,
+    "total_files": 60,
+    "repro_score": 1.0,
+    "original_hash": "97a218725751ae1750062a11d7eada6cc704735d",
+    "rebuild_hash": "97a218725751ae1750062a11d7eada6cc704735d",
+    "original_bin_hash": "d6ee340f3094d036b95904db72aac7b70144b385",
+    "rebuild_bin_hash": "d6ee340f3094d036b95904db72aac7b70144b385",
+    "original_elf_hash": "12d38ba16e03a31ac9aa71e99b6f5fa27905148d",
+    "rebuild_elf_hash": "12d38ba16e03a31ac9aa71e99b6f5fa27905148d",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

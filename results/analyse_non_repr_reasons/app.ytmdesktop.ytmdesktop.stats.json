@@ -1,0 +1,33 @@
+{
+    "name": "app.ytmdesktop.ytmdesktop",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "6c531c07c3c7e90c5302dd2461b9a9ad47dff784f1299364648328e37fc235f5",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-06 12:59:19+00:00",
+    "timestamp_of_rebuild": 1646571559.0,
+    "git-commit": "9b0c46dd26e34a5c4740880173c5b701e061bba4 master",
+    "flatpak-deps": {
+        "org.electronjs.Electron2.BaseApp/x86_64/21.08": "cde2f09cfd9d4d6c9a01c561dcf4c3d9d4a8bd194711a88f044291d24e033f25",
+        "org.freedesktop.Sdk.Extension.node16/x86_64/21.08": "2585e234d0624fea0c08ab78f3c20819499088e65abfab7e8a244e971890ebc1",
+        "org.flatpak.Builder/x86_64/stable": "b1b82d5d293905b0824853a4546bdf3813a97e4f019c008483364b1817ddc41b",
+        "org.freedesktop.Sdk/x86_64/21.08": "f31334d7fc5ff5ec93766189a7e47bfb3369a9a7154767adb46c4495530c1d1c",
+        "org.freedesktop.Platform/x86_64/21.08": "fcf3dbb56c117835216058acfa99ae280d713029f8d674e1b56e019a20ed082d"
+    },
+    "build_time": 62.01140522956848,
+    "cache_size": 147974796,
+    "git_size": 677151,
+    "dl_size": 147191070,
+    "bad_files": 1,
+    "total_files": 182,
+    "repro_score": 0.9945054945054945,
+    "original_hash": "ffa54a2da170a078debb8714caade334be57c99e",
+    "rebuild_hash": "6e18e2b88d409014f3322a18bac9bac28b657984",
+    "original_bin_hash": "3b4030d7a6e7496ec8d382592c2cccfc5f825720",
+    "rebuild_bin_hash": "d68115e300a0edec15c7fa3ecfb732815917004e",
+    "original_elf_hash": "8c8443d5d2885e377fd4fcbe2ab06d0fcc94f0f4",
+    "rebuild_elf_hash": "8c8443d5d2885e377fd4fcbe2ab06d0fcc94f0f4",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

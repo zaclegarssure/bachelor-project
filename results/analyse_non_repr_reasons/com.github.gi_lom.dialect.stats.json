@@ -1,0 +1,31 @@
+{
+    "name": "com.github.gi_lom.dialect",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "214602f795cd2cf6201574b776f7c0d5d2a4b30234c0bc049c7bccc41f9efbb7",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-22 11:54:14+00:00",
+    "timestamp_of_rebuild": 1653220454.0,
+    "git-commit": "426a6917b40e58048dcee1d29e85ee0082128ffb master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "bd5cf2646c70337561c1a2bf214e3ca797fd2ea96d981baf8fd537cb931eeebb",
+        "org.gnome.Platform/x86_64/42": "d240597586ac4c87e7e8dd634b67a3c910704b77d1ef5927147e55fe57cf569a"
+    },
+    "build_time": 26.64680528640747,
+    "cache_size": 5956073,
+    "git_size": 377260,
+    "dl_size": 5558254,
+    "bad_files": 24,
+    "total_files": 726,
+    "repro_score": 0.9669421487603306,
+    "original_hash": "834b4240b313a5df140f1f2c7a1c908cc7f87268",
+    "rebuild_hash": "ebffaa1eeaa6c90dd44c23191fc1bbc17f18fe5a",
+    "original_bin_hash": "868758ad487d4a2345fb7bd1132354665b3b9f01",
+    "rebuild_bin_hash": "8fe4a8655818de7d228a07b0b119dacd18ab2e55",
+    "original_elf_hash": "b53e9a6809701f418ddd44cc33e4a45725256e78",
+    "rebuild_elf_hash": "cd8a97a227fa2f90c75cfb92eedd9e5fc0db01d1",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

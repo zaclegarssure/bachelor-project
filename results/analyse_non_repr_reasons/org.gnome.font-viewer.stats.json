@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.font-viewer",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "55a1dcd9c7b9a52c0c432d0cbd24e875fb04a0cbf89207f97b7536eedc3ab21d",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-23 23:56:06+00:00",
+    "timestamp_of_rebuild": 1650758166.0,
+    "git-commit": "84e8092e9ff8271ba8dc8089a9a45fe1f5d67226 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 32.813576221466064,
+    "cache_size": 1055783,
+    "git_size": 0,
+    "dl_size": 1039320,
+    "bad_files": 1,
+    "total_files": 105,
+    "repro_score": 0.9904761904761905,
+    "original_hash": "dfb8043fb7af2ed8aed6b47df94b4fb55f8a6a5a",
+    "rebuild_hash": "0a0042d64312805a040dcb75c2af6064d0279354",
+    "original_bin_hash": "d6c42f8d3d239bd051a89c6c9f2c5a148c54e786",
+    "rebuild_bin_hash": "d6c42f8d3d239bd051a89c6c9f2c5a148c54e786",
+    "original_elf_hash": "884702a7e0927ea74e31b0ea5097a6ddf6a9ab46",
+    "rebuild_elf_hash": "884702a7e0927ea74e31b0ea5097a6ddf6a9ab46",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

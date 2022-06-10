@@ -1,0 +1,31 @@
+{
+    "name": "com.kavilgroup.gestimator",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "f0d02d82363fccba40fc6b63ae4837e5a3e1a6a15d13d7d2c76ee5c3601905e1",
+    "branch": "stable",
+    "time_of_rebuild": "2022-01-28 15:25:41+00:00",
+    "timestamp_of_rebuild": 1643383541.0,
+    "git-commit": "8efea69c147777ed12b7332fda928753be9265e1 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.gnome.Sdk/x86_64/41": "d341d2ebbfd427563182a24c3cc042ba1b5ff2e47da828c916404418309e5784",
+        "org.gnome.Platform/x86_64/41": "f0dea6ae10e738332fc17bdb652e7ce35596d06bf5c55bdbc3ef09ff1a9d9832"
+    },
+    "build_time": 15.93189263343811,
+    "cache_size": 12146602,
+    "git_size": 9540681,
+    "dl_size": 2585362,
+    "bad_files": 2,
+    "total_files": 552,
+    "repro_score": 0.9963768115942029,
+    "original_hash": "c098a6870463ca5107cf2dddfb037c2d9717ce46",
+    "rebuild_hash": "9bf21c954b1122126695d64641295d0c98606cba",
+    "original_bin_hash": "ac0ca58925a2ae42186c20c38f79219cdb742b6e",
+    "rebuild_bin_hash": "b5ab665f4c23a1eb91ecab3732ddd90857a11645",
+    "original_elf_hash": "121d9a4f485f6e1fb77a87ee07ea82d69d7e3906",
+    "rebuild_elf_hash": "b7195535950ef00cb42620e840de6f32ac8d9007",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

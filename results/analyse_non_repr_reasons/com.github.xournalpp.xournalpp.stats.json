@@ -1,0 +1,31 @@
+{
+    "name": "com.github.xournalpp.xournalpp",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "64b1bb6ce69a98b551117e8ab3f17d5f027ef6ce229fe3d3a7b94ec57c15e2e2",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-02 17:30:59+00:00",
+    "timestamp_of_rebuild": 1654191059.0,
+    "git-commit": "4357e2d654925ba0b4d5a0d155d1b84e70888a36 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "86be1ecf6eb87c855fd3a01c2b11dafe3d8b3b07d51c5fc7acc5f381b128e146",
+        "org.gnome.Platform/x86_64/42": "e21d33a4f415cd14b03a148f757ebc2b4f86259fae14e3bd22c361b5b1d9b480"
+    },
+    "build_time": 208.09025120735168,
+    "cache_size": 29458601,
+    "git_size": 19351263,
+    "dl_size": 10086779,
+    "bad_files": 1,
+    "total_files": 484,
+    "repro_score": 0.9979338842975206,
+    "original_hash": "8a9dd8a70748fdef6340a6e7ace7b88cfab864e0",
+    "rebuild_hash": "c04e07a0d64f62104e109c47ede44099374e4930",
+    "original_bin_hash": "81b6aff280bf46df4bc53b7a37af247be68dbb07",
+    "rebuild_bin_hash": "9081e048a67f67de849573ef1f7fb9be16447e07",
+    "original_elf_hash": "c02d4f4a04b0d0a2cbea881b2a52cb9fed4f81ee",
+    "rebuild_elf_hash": "69287c38441345708b60777b9b151c282a38b2ed",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,31 @@
+{
+    "name": "com.sleepfiles.OSCAR",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "925a5d3dfa9cd3faa0964b29ae5577229ac64e28de297a702befb19188b0189d",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-13 09:50:27+00:00",
+    "timestamp_of_rebuild": 1644745827.0,
+    "git-commit": "c93a5338b95654c7f716122376b96b7734be7c4f master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8d8c80a7aac54cedb3de811250e586bf2383cf40096acb6a8d2f8a5752ab30f2",
+        "org.kde.Sdk/x86_64/5.15-21.08": "7842533adacf086ca453b84e723f2fb048e03bcd3620467dca7972dbf9c41fb7",
+        "org.kde.Platform/x86_64/5.15-21.08": "517c9abf66fa2b94c94e091f931af96c034c981dffbd36f2efddba7af4041f8c"
+    },
+    "build_time": 79.5080304145813,
+    "cache_size": 6746560,
+    "git_size": 0,
+    "dl_size": 6730097,
+    "bad_files": 1,
+    "total_files": 89,
+    "repro_score": 0.9887640449438202,
+    "original_hash": "004058f3a26aee498d6b452b897d427338dd7afd",
+    "rebuild_hash": "a4ef55529f1405aa366c0788d5e6aa9e2a25f439",
+    "original_bin_hash": "7ac3d3ebe31efca08568b724c63ddf9db3409fbb",
+    "rebuild_bin_hash": "efa88bf490aa50122f25974e84d82b24966cb3c6",
+    "original_elf_hash": "8a09b7e30970615874bee301c3bce1c801088d13",
+    "rebuild_elf_hash": "1e06d2a9df6e89f337be26a07b4fce44d8a508e6",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

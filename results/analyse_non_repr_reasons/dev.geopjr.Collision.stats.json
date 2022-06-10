@@ -1,0 +1,31 @@
+{
+    "name": "dev.geopjr.Collision",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "75ecfd197f5b0c0fe5e673e8bbecc0923121ab433b9f9257044ac5aadeab6474",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-21 19:26:09+00:00",
+    "timestamp_of_rebuild": 1653161169.0,
+    "git-commit": "fb144a92645f9f299badbec22d263d68e6938a2f master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "bd5cf2646c70337561c1a2bf214e3ca797fd2ea96d981baf8fd537cb931eeebb",
+        "org.gnome.Platform/x86_64/42": "d240597586ac4c87e7e8dd634b67a3c910704b77d1ef5927147e55fe57cf569a"
+    },
+    "build_time": 81.79885053634644,
+    "cache_size": 33137430,
+    "git_size": 3429982,
+    "dl_size": 29686889,
+    "bad_files": 1,
+    "total_files": 20,
+    "repro_score": 0.95,
+    "original_hash": "d71eacf29325aeab200bf9ff30059d024f4116bb",
+    "rebuild_hash": "1feb2f7b20f09bf729788695888544408217adc6",
+    "original_bin_hash": "c05eb2eba383fa71bbb4be65a8166f04e88cf3cc",
+    "rebuild_bin_hash": "309131c1b028d72aeaf5d6c3d76a6c16b14b832d",
+    "original_elf_hash": "274fe1ee48704b3ab19b03646a733b2b0336071c",
+    "rebuild_elf_hash": "df04d20cf8426881c987ef7dbc79ce9961ffd7ad",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

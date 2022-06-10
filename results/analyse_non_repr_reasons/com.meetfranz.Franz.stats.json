@@ -1,0 +1,32 @@
+{
+    "name": "com.meetfranz.Franz",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "95765e57752900f9649607090db14491e839169ec8362a65efccfab10a0be4d4",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-16 18:14:11+00:00",
+    "timestamp_of_rebuild": 1631816051.0,
+    "git-commit": "29ead0055855db75fad4185c70a8f1f03bc241d1 master",
+    "flatpak-deps": {
+        "org.electronjs.Electron2.BaseApp/x86_64/21.08": "cde2f09cfd9d4d6c9a01c561dcf4c3d9d4a8bd194711a88f044291d24e033f25",
+        "org.flatpak.Builder/x86_64/stable": "c8c1ca8e3474880eaaa547cfd975b239d5ed729a59fc8148403b420803332803",
+        "org.freedesktop.Sdk/x86_64/21.08": "99e207c5791b8305bce4186f93926dc8f8278712f09462cd889b1462cec25882",
+        "org.freedesktop.Platform/x86_64/21.08": "fa2db5e7db9e82463a1fe9a5255292c63ded0cc141fdafe0008f2519a479ccb1"
+    },
+    "build_time": 28.85744857788086,
+    "cache_size": 70799247,
+    "git_size": 0,
+    "dl_size": 70782784,
+    "bad_files": 1,
+    "total_files": 247,
+    "repro_score": 0.9959514170040485,
+    "original_hash": "6452c82896382d8b0bdede8bd65a904f766e8257",
+    "rebuild_hash": "477c05e6be4896b30e837df8324edf615873476a",
+    "original_bin_hash": "2d8898e8715b5cf3f5cb44c72d3996abd8d33506",
+    "rebuild_bin_hash": "2d8898e8715b5cf3f5cb44c72d3996abd8d33506",
+    "original_elf_hash": "ab127f80f79391b8b6570ae46cb556f1ca5c4604",
+    "rebuild_elf_hash": "ab127f80f79391b8b6570ae46cb556f1ca5c4604",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

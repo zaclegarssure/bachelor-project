@@ -1,0 +1,31 @@
+{
+    "name": "com.github.dail8859.NotepadNext",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "9b0d25303a23acfef39d64e477889c01c03bb241ee05ff3128672dabd51d9c1a",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-27 11:23:06+00:00",
+    "timestamp_of_rebuild": 1653650586.0,
+    "git-commit": "37215711b03b3ff3943f813ca06da21a8b47d867 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "1bf5dbd9fd2f66898d2501dfbe0e5327d0dc6eecd9e02e2bdeb39a43df7974c8",
+        "org.kde.Platform/x86_64/5.15-21.08": "c49e5ed4c419e849e15657b270c0cb9550afaa73277c611426b97c701cbe37b4"
+    },
+    "build_time": 55.04405450820923,
+    "cache_size": 17152096,
+    "git_size": 17135633,
+    "dl_size": 0,
+    "bad_files": 1,
+    "total_files": 14,
+    "repro_score": 0.9285714285714286,
+    "original_hash": "e67dcab7b7a516e539319390b0b0d707855bbf4c",
+    "rebuild_hash": "73bfc8a9ed32ff447557ca8b95cc6c9dc3fe12a1",
+    "original_bin_hash": "073e3c31c2370835a63bd2ef5e5161f41313bf01",
+    "rebuild_bin_hash": "927e232dcf396a468ef9c5d7d6401c0b6b69d3a3",
+    "original_elf_hash": "4afb93bc95eccd60a64bbc7d6ec985d8388d2a1c",
+    "rebuild_elf_hash": "6cb8910c0100e09c5af12e8ce6560014fbe36900",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

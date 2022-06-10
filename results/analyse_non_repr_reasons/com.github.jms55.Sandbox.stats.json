@@ -1,0 +1,32 @@
+{
+    "name": "com.github.jms55.Sandbox",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "d61e9b7aed138a11d75b16d419da76215cf72c2d849ce922ece65449a2f43d7c",
+    "branch": "stable",
+    "time_of_rebuild": "2022-02-14 18:18:30+00:00",
+    "timestamp_of_rebuild": 1644862710.0,
+    "git-commit": "28b39ac958f9dc46e48894c7a13267da6a50756c master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "b857f76d320c98b95f3a9bb44c89e0a80c4692215585e5404e6534da8704a538",
+        "org.flatpak.Builder/x86_64/stable": "da89ef4393758b77cd7956a2acfaffa6fe9a66f2ed05ace15580dd683802af08",
+        "org.freedesktop.Sdk/x86_64/21.08": "aa8fa029dafc5e20fab3d044caefd07647e5186012f983c28179c5c6dce4a8d5",
+        "org.freedesktop.Platform/x86_64/21.08": "7eae5cd0909215ab896309abf9c6716875f0d012c84f73d44ddd1163a1de286d"
+    },
+    "build_time": 141.52488708496094,
+    "cache_size": 33447021,
+    "git_size": 6622257,
+    "dl_size": 26787821,
+    "bad_files": 1,
+    "total_files": 11,
+    "repro_score": 0.9090909090909091,
+    "original_hash": "9b791db69bdf41fe1c1012ae04f58682d2c928c3",
+    "rebuild_hash": "b8e746accec405520113e5101c151634c5d9f31c",
+    "original_bin_hash": "64e2a44b8c54f2ee2b683375860f7a1a82591579",
+    "rebuild_bin_hash": "cd751041ca584916da4c689322e4451e42bc3f80",
+    "original_elf_hash": "542854a54223696e0b89632b4afda76b5b3be2c2",
+    "rebuild_elf_hash": "7eddb793810e388e7d8f5711b327b71de50d5783",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

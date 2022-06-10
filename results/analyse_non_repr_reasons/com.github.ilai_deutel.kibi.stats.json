@@ -1,0 +1,32 @@
+{
+    "name": "com.github.ilai_deutel.kibi",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "b24ad34dc4f47573ff7ecd852efcd00004feed2c42b707a15c6e3363c4c699a9",
+    "branch": "stable",
+    "time_of_rebuild": "2021-12-30 10:24:48+00:00",
+    "timestamp_of_rebuild": 1640859888.0,
+    "git-commit": "607c9ccbfb680ede6a2af4683d8001352fec3598 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "bd66f778a2860d1ab1e3b212ad96a20694c78f0f20ed9bd8eaa8a04c827a1087",
+        "org.flatpak.Builder/x86_64/stable": "33efe804a63f7bf3b2a3ba4607f4ea700e4b44760f119e765fde5ab565471d87",
+        "org.freedesktop.Sdk/x86_64/21.08": "afa972126d13c4c5b544c01f0b6144ae9673f67501c8a43132cd6b9a92d22f0c",
+        "org.freedesktop.Platform/x86_64/21.08": "940b0728d1b7d18b9d3f557ae44e7c37b27febcb04f93a7cc0ebb886ba2cfa37"
+    },
+    "build_time": 14.415420293807983,
+    "cache_size": 8580982,
+    "git_size": 0,
+    "dl_size": 8564519,
+    "bad_files": 1,
+    "total_files": 20,
+    "repro_score": 0.95,
+    "original_hash": "40b5f73f53fea20291e98685cac523bdc84c1e32",
+    "rebuild_hash": "abe3dcaca7efcff81ad9258eed067357a5425a28",
+    "original_bin_hash": "a9a9302a8b6d1d39a0ddd89427b0db44e63efc51",
+    "rebuild_bin_hash": "a9a9302a8b6d1d39a0ddd89427b0db44e63efc51",
+    "original_elf_hash": "63c055bce16584f250d1eaf084ad8bc3844f1215",
+    "rebuild_elf_hash": "63c055bce16584f250d1eaf084ad8bc3844f1215",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

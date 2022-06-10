@@ -1,0 +1,32 @@
+{
+    "name": "com.github.artemanufrij.playmymusic",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "d70d36955b6a174b7be3ef437a9b4b63035b1ac961ed65b9def3d40fa2156c3c",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-21 05:22:01+00:00",
+    "timestamp_of_rebuild": 1632201721.0,
+    "git-commit": "6929bd2ed5f1fbfafd29c220a3b54f0b79b2f042 master",
+    "flatpak-deps": {
+        "io.elementary.BaseApp/x86_64/juno-20.08": "74b996016ed985696b382feb1e3aa3886e394ac583c74b6d9d686196dc0dd502",
+        "org.flatpak.Builder/x86_64/stable": "c8c1ca8e3474880eaaa547cfd975b239d5ed729a59fc8148403b420803332803",
+        "org.gnome.Sdk/x86_64/40": "10c8aa56b67c4db4f2b1c1cec263903f786949ec1619e082681deec1b391616d",
+        "org.gnome.Platform/x86_64/40": "8b41a8055e89e066ae8e647c4baaa6509234de32c745ae807307bcf4e69b05d0"
+    },
+    "build_time": 35.38401126861572,
+    "cache_size": 2675026,
+    "git_size": 0,
+    "dl_size": 2658563,
+    "bad_files": 1,
+    "total_files": 4343,
+    "repro_score": 0.9997697444163021,
+    "original_hash": "46b1aa01a964cfdbf0bb24dab57f951bb7ceb9b8",
+    "rebuild_hash": "8d6eac6719a5a35050bbad0d0cc60b8b9c7e7b30",
+    "original_bin_hash": "696496422ed0a62bc98c3d18e90e4ae4cf78d3fc",
+    "rebuild_bin_hash": "696496422ed0a62bc98c3d18e90e4ae4cf78d3fc",
+    "original_elf_hash": "c09e07b3efd79d5ceef4bc612a8cfbe7703ab4de",
+    "rebuild_elf_hash": "c09e07b3efd79d5ceef4bc612a8cfbe7703ab4de",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

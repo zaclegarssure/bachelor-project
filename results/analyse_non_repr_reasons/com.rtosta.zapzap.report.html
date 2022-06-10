@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="referrer" content="no-referrer" />
+  <meta name="generator" content="diffoscope" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAM8SURBVFiF7dZdaJZlGAfw3/O+e9XNjy3XllZzWImBxIpifqTgsmUHBSIeBNFBdRh0UHQ0xGdb66CFBIERZEFRQRRUw0HkQkLMYQSBdpCFWdgSP6jpNn2393k68Nn2bj3vXtb6UOh/cl/39b/u67mem/913zf/4z9GUDw5xNI8n5WIzW9m/QF2YluJmI8203mALzEvLWAerRs4Pz6vSIkZSlsYk0/GkaB0zEgyDgWMlijyWsJuS2fkQwu8pqpMTA0ypeiShG71Bp0rU8Q+A47MWEDgvHZbZl/Av4SpIgxVYB3IqwZDmoUuYkzosDaNchpAoFqkSmgjGPWzLieF1k3JHVsjvCJQHBYaSy9g1E3m+QImQiK9SbNGqJDzuiDZ0lggQJCsyelDq8BB47sbCWTsnvhG3kqcLL833eqF4hk1EOoTOjZjnnaRdq2l6KtMAyl4/g23bKJrun+Mt9uOq7nvqOVbebWYy9Adc1fM/R/3CO780dONbIeFPHsPw+ULeM5ZHTbXHfUtXpxOZzgT5z02UGsZThRzF/ilht9G+fr4zfbfccIxXIa7uVTup69i7LJXaEEqF3on1d9ludBLpVLOVoT1lky9QYtwQ6p3WAVqSyUslWwSbRrkPJrMtgn0iBVk7BPJ4sGE24EPQKW3jLgdzWKLBTbg0yTuZeGkDsp2gcUGDesHGQ/gK5G8nLMigWiCe3jCrnTRiJ9EYjm1ImsUEq5l8hScPXbpsVtlKhfan+pv0yD0ZqmU5XegGBmnDIo/pylj8oYLOP3Eab/v5Zmi6EtZ3vv1FU/2r7LioYSL2dNybbdiMdptFU57++20Vqh+iq/Tap1WpaWY611wmyWyUzxZDbIWTvEV1Ildn5agfBumoUMTtoisFvhebAAHZWxX0ChwTuScvHdVeVykToysMyJ7ittwbmj31J+6IrRDp5XTfBt1WJ+WYnZdMB0F3xlUgD5uDVj2Sa+a4SrzH+FeyHHmw17V112waBOZgP4WczkLZsILar1fpIliMU4XZoK/poE0XHl+N8v6QcGAUbVymnDIZVnzrTXqGzmnhKLxZX/niyiDjIJgwg4Se1GR/Y8idGPysh6fr0i1i/AHMWHgrwUJgNAAAAAASUVORK5CYII=" />
+  <title>/usr/bin/diffoscope com.rtosta.zapzap.original com.rtosta.zapzap.rebuild --exclude-directory-metadata=yes --html=com.rtosta.zapzap.report.html</title>
+<style>
+body.diffoscope {
+  background: white;
+  color: black;
+}
+.diffoscope .footer {
+  font-size: small;
+}
+.diffoscope .difference {
+  border: outset #888 1px;
+  background: #E8E8E8;
+  background: rgba(0,0,0,.1);
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+.diffoscope .difference table {
+  table-layout: fixed;
+  width: 100%;
+  border: 0;
+}
+.diffoscope .difference th,
+.diffoscope .difference td {
+  border: 0;
+}
+.diffoscope table.diff {
+  border: 0;
+  border-collapse:collapse;
+  font-size:0.75em;
+  font-family: 'Lucida Console', monospace;
+  word-break: break-word;
+}
+.diffoscope table.diff tr:hover td {
+  background: #FFFF00;
+}
+.diffoscope .line {
+  color:#8080a0
+}
+.diffoscope th {
+  background: black;
+  color: white
+}
+.diffoscope .diffunmodified td {
+  background: #D0D0E0
+}
+.diffoscope .diffhunk td {
+  background: #A0A0A0
+}
+.diffoscope .diffadded td {
+  background: #CCFFCC
+}
+.diffoscope .diffdeleted td {
+  background: #FFCCCC
+}
+.diffoscope .diffchanged td {
+  background: #FFFFA0
+}
+.diffoscope ins, del {
+  background: #E0C880;
+  text-decoration: none
+}
+.diffoscope .dp {
+  color: #B08080
+}
+.diffoscope .comment {
+  font-style: italic;
+}
+.diffoscope .comment.multiline {
+  font-style: normal;
+  font-family: monospace;
+  white-space: pre;
+}
+.diffoscope .source {
+  font-weight: bold;
+}
+.diffoscope .error {
+  border: solid black 1px;
+  background: red;
+  color: white;
+  padding: 0.2em;
+}
+.diffoscope .anchor {
+  margin-left: 0.5em;
+  font-size: 80%;
+  color: #333;
+  text-decoration: none;
+  display: none;
+}
+.diffoscope .diffheader:hover .anchor {
+  display: inline;
+}
+.diffoscope .diffcontrol, .diffoscope .diffcontrol-nochildren {
+  float: left;
+  margin-right: 0.3em;
+  cursor: pointer;
+  display: none; /* currently, only available in html-dir output where jquery is enabled */
+}
+.diffoscope .colines {
+  width: 3em;
+}
+.diffoscope .coldiff {
+  width: 99%;
+}
+.diffoscope .diffsize {
+  float: right;
+}
+.diffoscope table.diff tr.ondemand td, .diffoscope div.ondemand-details {
+  background: #f99;
+  text-align: center;
+  padding: 0.5em 0;
+}
+.diffoscope table.diff tr.ondemand:hover td, .diffoscope div.ondemand-details:hover {
+  background: #faa;
+  cursor: pointer;
+}
+</style>
+</head>
+<body class="diffoscope">
+<div class="difference">
+  <div class="diffheader">
+  <div class="diffcontrol diffcontrol-double">⊟</div>
+  <div><span class="diffsize">14.7 KB</span></div>
+  <div><span class="source">com.rtosta.zapzap.original</span> vs.</div>
+  <div id="top"><span class="source">com.rtosta.zapzap.rebuild</span>
+    <a class="anchor" href="#top">¶</a>
+  </div>
+  </div>
+  <div class="difference">
+    <div class="diffheader">
+    <div class="diffcontrol diffcontrol-double">⊟</div>
+    <div><span class="diffsize">14.7 KB</span></div>
+    <div><span class="source">com.rtosta.zapzap.original/files</span> vs.</div>
+    <div id="com.rtosta.zapzap.original-files"><span class="source">com.rtosta.zapzap.rebuild/files</span>
+      <a class="anchor" href="#com.rtosta.zapzap.original-files">¶</a>
+    </div>
+    </div>
+    <div class="difference">
+      <div class="diffheader">
+      <div class="diffcontrol diffcontrol-double">⊟</div>
+      <div><span class="diffsize">14.6 KB</span></div>
+      <div><span class="source">com.rtosta.zapzap.original/files/lib</span> vs.</div>
+      <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib"><span class="source">com.rtosta.zapzap.rebuild/files/lib</span>
+        <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib">¶</a>
+      </div>
+      </div>
+      <div class="difference">
+        <div class="diffheader">
+        <div class="diffcontrol diffcontrol-double">⊟</div>
+        <div><span class="diffsize">14.5 KB</span></div>
+        <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9</span> vs.</div>
+        <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.-"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9</span>
+          <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.-">¶</a>
+        </div>
+        </div>
+        <div class="difference">
+          <div class="diffheader">
+          <div class="diffcontrol diffcontrol-double">⊟</div>
+          <div><span class="diffsize">14.4 KB</span></div>
+          <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages</span> vs.</div>
+          <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages</span>
+            <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages">¶</a>
+          </div>
+          </div>
+          <div class="difference">
+            <div class="diffheader">
+            <div class="diffcontrol diffcontrol-double">⊟</div>
+            <div><span class="diffsize">10.4 KB</span></div>
+            <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages/PyQt6</span> vs.</div>
+            <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt-"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages/PyQt6</span>
+              <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt-">¶</a>
+            </div>
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol diffcontrol-double">⊟</div>
+              <div><span class="diffsize">1020 B</span></div>
+              <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages/PyQt6/QtCore.abi3.so</span> vs.</div>
+              <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtCore.abi-.so"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages/PyQt6/QtCore.abi3.so</span>
+                <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtCore.abi-.so">¶</a>
+              </div>
+              </div>
+              <div class="comment">File has been modified after NT_GNU_BUILD_ID has been applied.
+              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">430 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtCore.abi-.so---readelf---wide---notes---"><span class="source">readelf --wide --notes {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtCore.abi-.so---readelf---wide---notes---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 4 lines modified</td><td colspan="2">Offset 1, 4 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><del>9a</del>2<del>bb0f</del>d<del>fcdd</del>f<del>8c7</del>94<del>f3b9696fd9a</del>e<del>b7a09f78bc</del></td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span>2<ins>8cdd</ins>d<ins>3952</ins>f<ins>7e</ins><ins>1d4</ins>94<ins>123c1c1780f</ins>e<ins>f1d584b475</ins></td></tr>
+</table>              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">364 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtCore.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---"><span class="source">readelf --wide --decompress --hex-dump=.gnu_debuglink {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtCore.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 5 lines modified</td><td colspan="2">Offset 1, 5 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>5174436f<span class="dp">·</span>72652e61<span class="dp">·</span>6269332e<span class="dp">·</span>736f2e64<span class="dp">·</span>QtCore.abi3.so.d</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>5174436f<span class="dp">·</span>72652e61<span class="dp">·</span>6269332e<span class="dp">·</span>736f2e64<span class="dp">·</span>QtCore.abi3.so.d</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>65627567<span class="dp">·</span>00000000<span class="dp">·</span><del>0e4e</del>8<del>4ca</del><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>ebug.....<del>N</del>..</td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>65627567<span class="dp">·</span>00000000<span class="dp">·</span><ins>b735</ins>8<ins>00d</ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>ebug.....<ins>5</ins>..</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+</table>              </div>
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol diffcontrol-double">⊟</div>
+              <div><span class="diffsize">1010 B</span></div>
+              <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages/PyQt6/QtGui.abi3.so</span> vs.</div>
+              <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtGui.abi-.so"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages/PyQt6/QtGui.abi3.so</span>
+                <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtGui.abi-.so">¶</a>
+              </div>
+              </div>
+              <div class="comment">File has been modified after NT_GNU_BUILD_ID has been applied.
+              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">430 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtGui.abi-.so---readelf---wide---notes---"><span class="source">readelf --wide --notes {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtGui.abi-.so---readelf---wide---notes---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 4 lines modified</td><td colspan="2">Offset 1, 4 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><del>a343022a012f</del>6c<del>08d38</del>8<del>a</del>0<del>e113f9</del>5<del>a0ab548c33f</del></td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><ins>4160e44d2005</ins>6c<ins>559ce</ins>8<ins>d</ins>0<ins>949d63</ins>5<ins>889d8d92c21</ins></td></tr>
+</table>              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">356 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtGui.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---"><span class="source">readelf --wide --decompress --hex-dump=.gnu_debuglink {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtGui.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 5 lines modified</td><td colspan="2">Offset 1, 5 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51744775<span class="dp">·</span>692e6162<span class="dp">·</span>69332e73<span class="dp">·</span>6f2e6465<span class="dp">·</span>QtGui.abi3.so.de</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51744775<span class="dp">·</span>692e6162<span class="dp">·</span>69332e73<span class="dp">·</span>6f2e6465<span class="dp">·</span>QtGui.abi3.so.de</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>62756700<span class="dp">·</span><del>d14eee89</del><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>bug.<del>.N</del>.<del>.</del></td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>62756700<span class="dp">·</span><ins>67c57f7b</ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>bug.<ins>g.</ins>.<ins>{</ins></td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+</table>              </div>
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol diffcontrol-double">⊟</div>
+              <div><span class="diffsize">1020 B</span></div>
+              <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages/PyQt6/QtNetwork.abi3.so</span> vs.</div>
+              <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtNetwork.abi-.so"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages/PyQt6/QtNetwork.abi3.so</span>
+                <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtNetwork.abi-.so">¶</a>
+              </div>
+              </div>
+              <div class="comment">File has been modified after NT_GNU_BUILD_ID has been applied.
+              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">430 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtNetwork.abi-.so---readelf---wide---notes---"><span class="source">readelf --wide --notes {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtNetwork.abi-.so---readelf---wide---notes---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 4 lines modified</td><td colspan="2">Offset 1, 4 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><del>dd</del>f6<del>dc5f</del>7<del>fc359d2e9417ec663</del>f<del>1</del><del>1c44</del>f<del>44a6238</del></td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><ins>09</ins>f6<ins>2</ins><ins>1aba</ins>7<ins>796ccf32d7a80127d</ins>f<ins>805e</ins>f<ins>c09581d</ins></td></tr>
+</table>              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">364 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtNetwork.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---"><span class="source">readelf --wide --decompress --hex-dump=.gnu_debuglink {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtNetwork.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 5 lines modified</td><td colspan="2">Offset 1, 5 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51744e65<span class="dp">·</span>74776f72<span class="dp">·</span>6b2e6162<span class="dp">·</span>69332e73<span class="dp">·</span>QtNetwork.abi3.s</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51744e65<span class="dp">·</span>74776f72<span class="dp">·</span>6b2e6162<span class="dp">·</span>69332e73<span class="dp">·</span>QtNetwork.abi3.s</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>6f2e6465<span class="dp">·</span>62756700<span class="dp">·</span><del>a0fa7dd7</del><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>o.debug...<del>}.</del></td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>6f2e6465<span class="dp">·</span>62756700<span class="dp">·</span><ins>1eab6a41</ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>o.debug...<ins>jA</ins></td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+</table>              </div>
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol diffcontrol-double">⊟</div>
+              <div><span class="diffsize">1.06 KB</span></div>
+              <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages/PyQt6/QtPrintSupport.abi3.so</span> vs.</div>
+              <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtPrintSupport.abi-.so"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages/PyQt6/QtPrintSupport.abi3.so</span>
+                <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtPrintSupport.abi-.so">¶</a>
+              </div>
+              </div>
+              <div class="comment">File has been modified after NT_GNU_BUILD_ID has been applied.
+              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">430 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtPrintSupport.abi-.so---readelf---wide---notes---"><span class="source">readelf --wide --notes {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtPrintSupport.abi-.so---readelf---wide---notes---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 4 lines modified</td><td colspan="2">Offset 1, 4 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><del>b</del><del>4</del>4<del>5b5e</del>b<del>f48e2</del>20<del>b</del><del>c474a1</del>4f9<del>a09</del>e<del>08df375</del>d<del>c3</del>f</td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><ins>0</ins>4<ins>8c00</ins>b<ins>0547d</ins>20<ins>531df8</ins>4f<ins>a9</ins>9<ins>d5d</ins>e<ins>f4abdb8</ins>d<ins>4e</ins>f</td></tr>
+</table>              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">415 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtPrintSupport.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---"><span class="source">readelf --wide --decompress --hex-dump=.gnu_debuglink {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtPrintSupport.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 6 lines modified</td><td colspan="2">Offset 1, 6 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51745072<span class="dp">·</span>696e7453<span class="dp">·</span>7570706f<span class="dp">·</span>72742e61<span class="dp">·</span>QtPrintSupport.a</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51745072<span class="dp">·</span>696e7453<span class="dp">·</span>7570706f<span class="dp">·</span>72742e61<span class="dp">·</span>QtPrintSupport.a</td></tr>
+<tr class="diffunmodified"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>6269332e<span class="dp">·</span>736f2e64<span class="dp">·</span>65627567<span class="dp">·</span>00000000<span class="dp">·</span>bi3.so.debug....</td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>6269332e<span class="dp">·</span>736f2e64<span class="dp">·</span>65627567<span class="dp">·</span>00000000<span class="dp">·</span>bi3.so.debug....</td></tr>
+<tr class="diffchanged"><td class="diffline">4 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000020<span class="dp">·</span>a<del>afa787d</del><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>..<del>x}</del></td><td class="diffline">4 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000020<span class="dp">·</span>a<ins>98719f2</ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>..<ins>..</ins></td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+</table>              </div>
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol diffcontrol-double">⊟</div>
+              <div><span class="diffsize">1010 B</span></div>
+              <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages/PyQt6/QtQml.abi3.so</span> vs.</div>
+              <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtQml.abi-.so"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages/PyQt6/QtQml.abi3.so</span>
+                <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtQml.abi-.so">¶</a>
+              </div>
+              </div>
+              <div class="comment">File has been modified after NT_GNU_BUILD_ID has been applied.
+              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">430 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtQml.abi-.so---readelf---wide---notes---"><span class="source">readelf --wide --notes {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtQml.abi-.so---readelf---wide---notes---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 4 lines modified</td><td colspan="2">Offset 1, 4 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><del>0</del>e<del>7</del>03e8<del>6f2</del>6<del>e4</del><del>5198e</del>0f<del>322b4a</del>2<del>e</del>d<del>69ddb</del>7<del>f487d</del></td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><ins>c</ins><ins>6</ins>e<ins>c</ins>03<ins>d9</ins>e8<ins>b70</ins>6<ins>9a40a</ins>0f<ins>063fe5</ins>2d<ins>c1ac6</ins>7<ins>41ec4</ins></td></tr>
+</table>              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">356 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtQml.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---"><span class="source">readelf --wide --decompress --hex-dump=.gnu_debuglink {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtQml.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 5 lines modified</td><td colspan="2">Offset 1, 5 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>5174516d<span class="dp">·</span>6c2e6162<span class="dp">·</span>69332e73<span class="dp">·</span>6f2e6465<span class="dp">·</span>QtQml.abi3.so.de</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>5174516d<span class="dp">·</span>6c2e6162<span class="dp">·</span>69332e73<span class="dp">·</span>6f2e6465<span class="dp">·</span>QtQml.abi3.so.de</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>62756700<span class="dp">·</span><del>9c30f9a2</del><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>bug..<del>0.</del>.</td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>62756700<span class="dp">·</span><ins>cf2c58ce</ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>bug..<ins>,X</ins>.</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+</table>              </div>
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol diffcontrol-double">⊟</div>
+              <div><span class="diffsize">1.01 KB</span></div>
+              <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages/PyQt6/QtWebChannel.abi3.so</span> vs.</div>
+              <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebChannel.abi-.so"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages/PyQt6/QtWebChannel.abi3.so</span>
+                <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebChannel.abi-.so">¶</a>
+              </div>
+              </div>
+              <div class="comment">File has been modified after NT_GNU_BUILD_ID has been applied.
+              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">430 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebChannel.abi-.so---readelf---wide---notes---"><span class="source">readelf --wide --notes {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebChannel.abi-.so---readelf---wide---notes---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 4 lines modified</td><td colspan="2">Offset 1, 4 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><del>c1bf5360</del>d<del>f614f</del>4<del>882b2c2a249b</del>7<del>feb59</del>d<del>1</del><del>2dd</del>2<del>c</del></td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><ins>d</ins><ins>ee7812cf</ins>d<ins>b5bc3</ins>4<ins>2c8dcbe63106</ins>7<ins>56686</ins>d<ins>8c6</ins>2<ins>9</ins></td></tr>
+</table>              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">372 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebChannel.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---"><span class="source">readelf --wide --decompress --hex-dump=.gnu_debuglink {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebChannel.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 5 lines modified</td><td colspan="2">Offset 1, 5 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51745765<span class="dp">·</span>62436861<span class="dp">·</span>6e6e656c<span class="dp">·</span>2e616269<span class="dp">·</span>QtWebChannel.abi</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51745765<span class="dp">·</span>62436861<span class="dp">·</span>6e6e656c<span class="dp">·</span>2e616269<span class="dp">·</span>QtWebChannel.abi</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>332e736f<span class="dp">·</span>2e646562<span class="dp">·</span>75670000<span class="dp">·</span><del>c37515fb</del><span class="dp">·</span>3.so.debug..<del>.u</del>..</td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>332e736f<span class="dp">·</span>2e646562<span class="dp">·</span>75670000<span class="dp">·</span><ins>628abe90</ins><span class="dp">·</span>3.so.debug..<ins>b.</ins>..</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+</table>              </div>
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol diffcontrol-double">⊟</div>
+              <div><span class="diffsize">1.06 KB</span></div>
+              <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages/PyQt6/QtWebEngineCore.abi3.so</span> vs.</div>
+              <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineCore.abi-.so"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages/PyQt6/QtWebEngineCore.abi3.so</span>
+                <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineCore.abi-.so">¶</a>
+              </div>
+              </div>
+              <div class="comment">File has been modified after NT_GNU_BUILD_ID has been applied.
+              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">430 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineCore.abi-.so---readelf---wide---notes---"><span class="source">readelf --wide --notes {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineCore.abi-.so---readelf---wide---notes---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 4 lines modified</td><td colspan="2">Offset 1, 4 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><del>0cb35d7421515861</del>c98<del>e459709f75b040c427183</del></td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><ins>4462b4e2a0896a5f</ins>c98<ins>afa393bce39ab6e55d352</ins></td></tr>
+</table>              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">415 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineCore.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---"><span class="source">readelf --wide --decompress --hex-dump=.gnu_debuglink {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineCore.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 6 lines modified</td><td colspan="2">Offset 1, 6 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51745765<span class="dp">·</span>62456e67<span class="dp">·</span>696e6543<span class="dp">·</span>6f72652e<span class="dp">·</span>QtWebEngineCore.</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51745765<span class="dp">·</span>62456e67<span class="dp">·</span>696e6543<span class="dp">·</span>6f72652e<span class="dp">·</span>QtWebEngineCore.</td></tr>
+<tr class="diffunmodified"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>61626933<span class="dp">·</span>2e736f2e<span class="dp">·</span>64656275<span class="dp">·</span>67000000<span class="dp">·</span>abi3.so.debug...</td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>61626933<span class="dp">·</span>2e736f2e<span class="dp">·</span>64656275<span class="dp">·</span>67000000<span class="dp">·</span>abi3.so.debug...</td></tr>
+<tr class="diffchanged"><td class="diffline">4 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000020<span class="dp">·</span><del>8b</del>f8<del>6fbf</del><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>..<del>o</del>.</td><td class="diffline">4 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000020<span class="dp">·</span><ins>e4</ins>f8<ins>83f7</ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>..<ins>.</ins>.</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+</table>              </div>
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol diffcontrol-double">⊟</div>
+              <div><span class="diffsize">1.06 KB</span></div>
+              <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages/PyQt6/QtWebEngineQuick.abi3.so</span> vs.</div>
+              <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineQuick.abi-.so"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages/PyQt6/QtWebEngineQuick.abi3.so</span>
+                <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineQuick.abi-.so">¶</a>
+              </div>
+              </div>
+              <div class="comment">File has been modified after NT_GNU_BUILD_ID has been applied.
+              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">430 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineQuick.abi-.so---readelf---wide---notes---"><span class="source">readelf --wide --notes {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineQuick.abi-.so---readelf---wide---notes---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 4 lines modified</td><td colspan="2">Offset 1, 4 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><del>156b</del>2<del>6c99405</del>1<del>f6bc</del>7<del>12ba1627</del>a<del>58</del><del>589a9f</del>f<del>004c</del></td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><ins>d</ins><ins>63fd</ins>2<ins>7</ins><ins>b5f398f</ins>1<ins>19e7</ins>7<ins>df47fd02</ins>a<ins>1cfbc6</ins>f<ins>c7bf</ins></td></tr>
+</table>              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">415 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineQuick.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---"><span class="source">readelf --wide --decompress --hex-dump=.gnu_debuglink {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineQuick.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 6 lines modified</td><td colspan="2">Offset 1, 6 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51745765<span class="dp">·</span>62456e67<span class="dp">·</span>696e6551<span class="dp">·</span>7569636b<span class="dp">·</span>QtWebEngineQuick</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51745765<span class="dp">·</span>62456e67<span class="dp">·</span>696e6551<span class="dp">·</span>7569636b<span class="dp">·</span>QtWebEngineQuick</td></tr>
+<tr class="diffunmodified"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>2e616269<span class="dp">·</span>332e736f<span class="dp">·</span>2e646562<span class="dp">·</span>75670000<span class="dp">·</span>.abi3.so.debug..</td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>2e616269<span class="dp">·</span>332e736f<span class="dp">·</span>2e646562<span class="dp">·</span>75670000<span class="dp">·</span>.abi3.so.debug..</td></tr>
+<tr class="diffchanged"><td class="diffline">4 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000020<span class="dp">·</span><del>07cf1c3e</del><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><del>..</del>.<del>&gt;</del></td><td class="diffline">4 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000020<span class="dp">·</span><ins>545a9ea7</ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><ins>TZ</ins>.<ins>.</ins></td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+</table>              </div>
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol diffcontrol-double">⊟</div>
+              <div><span class="diffsize">1.07 KB</span></div>
+              <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages/PyQt6/QtWebEngineWidgets.abi3.so</span> vs.</div>
+              <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineWidgets.abi-.so"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages/PyQt6/QtWebEngineWidgets.abi3.so</span>
+                <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineWidgets.abi-.so">¶</a>
+              </div>
+              </div>
+              <div class="comment">File has been modified after NT_GNU_BUILD_ID has been applied.
+              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">430 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineWidgets.abi-.so---readelf---wide---notes---"><span class="source">readelf --wide --notes {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineWidgets.abi-.so---readelf---wide---notes---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 4 lines modified</td><td colspan="2">Offset 1, 4 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><del>4270f8e</del>0<del>730</del>a<del>6</del>0<del>a</del>2<del>220e9d7</del>b<del>a</del><del>8</del>5<del>a</del>3<del>1fcd097</del>1<del>9aa</del></td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><ins>6</ins><ins>9c14721</ins>0<ins>1</ins><ins>d46</ins>a<ins>9</ins>02<ins>1387220</ins>b<ins>5</ins>5<ins>2</ins>3<ins>57e58bb</ins>1<ins>343</ins></td></tr>
+</table>              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">423 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineWidgets.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---"><span class="source">readelf --wide --decompress --hex-dump=.gnu_debuglink {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWebEngineWidgets.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 6 lines modified</td><td colspan="2">Offset 1, 6 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51745765<span class="dp">·</span>62456e67<span class="dp">·</span>696e6557<span class="dp">·</span>69646765<span class="dp">·</span>QtWebEngineWidge</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51745765<span class="dp">·</span>62456e67<span class="dp">·</span>696e6557<span class="dp">·</span>69646765<span class="dp">·</span>QtWebEngineWidge</td></tr>
+<tr class="diffunmodified"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>74732e61<span class="dp">·</span>6269332e<span class="dp">·</span>736f2e64<span class="dp">·</span>65627567<span class="dp">·</span>ts.abi3.so.debug</td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>74732e61<span class="dp">·</span>6269332e<span class="dp">·</span>736f2e64<span class="dp">·</span>65627567<span class="dp">·</span>ts.abi3.so.debug</td></tr>
+<tr class="diffchanged"><td class="diffline">4 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000020<span class="dp">·</span>00000000<span class="dp">·</span><del>bea78e52</del><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>.....<del>..R</del></td><td class="diffline">4 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000020<span class="dp">·</span>00000000<span class="dp">·</span><ins>f2386f93</ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>.....<ins>8o.</ins></td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+</table>              </div>
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol diffcontrol-double">⊟</div>
+              <div><span class="diffsize">1020 B</span></div>
+              <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages/PyQt6/QtWidgets.abi3.so</span> vs.</div>
+              <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWidgets.abi-.so"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages/PyQt6/QtWidgets.abi3.so</span>
+                <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWidgets.abi-.so">¶</a>
+              </div>
+              </div>
+              <div class="comment">File has been modified after NT_GNU_BUILD_ID has been applied.
+              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">430 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWidgets.abi-.so---readelf---wide---notes---"><span class="source">readelf --wide --notes {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWidgets.abi-.so---readelf---wide---notes---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 4 lines modified</td><td colspan="2">Offset 1, 4 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><del>a</del>2<del>83fc51</del>72<del>bbba6e5453b70f1095c75d</del>b<del>f</del><del>a8824e</del></td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><ins>d</ins>2<ins>0</ins><ins>d8e07c</ins>72<ins>8f49d8bfae9a4b5fae64b4</ins>b<ins>1ceabd</ins></td></tr>
+</table>              </div>
+              <div class="difference">
+                <div class="diffheader">
+                <div class="diffcontrol">⊟</div>
+                <div><span class="diffsize">364 B</span></div>
+                <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWidgets.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---"><span class="source">readelf --wide --decompress --hex-dump=.gnu_debuglink {}</span>
+                  <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt----com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt--QtWidgets.abi-.so---readelf---wide---decompress---hex-dump-.gnu_debuglink---">¶</a>
+                </div>
+                </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 5 lines modified</td><td colspan="2">Offset 1, 5 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51745769<span class="dp">·</span>64676574<span class="dp">·</span>732e6162<span class="dp">·</span>69332e73<span class="dp">·</span>QtWidgets.abi3.s</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>51745769<span class="dp">·</span>64676574<span class="dp">·</span>732e6162<span class="dp">·</span>69332e73<span class="dp">·</span>QtWidgets.abi3.s</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>6f2e6465<span class="dp">·</span>62756700<span class="dp">·</span><del>c4021eda</del><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>o.debug.<del>.</del>...</td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>6f2e6465<span class="dp">·</span>62756700<span class="dp">·</span><ins>4a87cbc9</ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>o.debug.<ins>J</ins>...</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+</table>              </div>
+            </div>
+          </div>
+          <div class="difference">
+            <div class="diffheader">
+            <div class="diffcontrol diffcontrol-double">⊟</div>
+            <div><span class="diffsize">2.16 KB</span></div>
+            <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages/PyQt6-6.2.1.dist-info</span> vs.</div>
+            <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt---.-.-.dist-info"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages/PyQt6-6.2.1.dist-info</span>
+              <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt---.-.-.dist-info">¶</a>
+            </div>
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol diffcontrol-double">⊟</div>
+              <div><span class="diffsize">2.0 KB</span></div>
+              <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages/PyQt6-6.2.1.dist-info/RECORD</span> vs.</div>
+              <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt---.-.-.dist-info---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt---.-.-.dist-info-RECORD"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages/PyQt6-6.2.1.dist-info/RECORD</span>
+                <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt---.-.-.dist-info---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt---.-.-.dist-info-RECORD">¶</a>
+              </div>
+              </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 14 lines modified</td><td colspan="2">Offset 1, 14 lines modified</td></tr>
+<tr class="diffdeleted"><td class="diffline">1 </td><td class="diffpresent">PyQt6/QtCore.abi3.so,sha256=e_t4g2kNDPjdHf1DX5AyzxKlSU8Fw6KjNqBm4JbjLbs,21009816</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">2 </td><td class="diffpresent">PyQt6/QtGui.abi3.so,sha256=bRl4DKhCJsaPzbHVHR2x3sq701oJaOCu2HZ4VczvzRk,10659888</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">3 </td><td class="diffpresent">PyQt6/QtNetwork.abi3.so,sha256=2qHC4NyYRu4-G-YPPD1g0_mLUtKXYtN759PM5D69kEs,4704376</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">4 </td><td class="diffpresent">PyQt6/QtPrintSupport.abi3.so,sha256=62S4oVAFsv3AIdZGAjPwWbNtN_18BFJX0pE_oxgeG7E,1766368</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">5 </td><td class="diffpresent">PyQt6/QtQml.abi3.so,sha256=SlHVZFDxd5Avk3fLOR1rhAk_--1jfuU5oE6HjoVBkGM,8691456</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">6 </td><td class="diffpresent">PyQt6/QtWebChannel.abi3.so,sha256=amiLz4Y6eSF2wt7rFYwg6NR__0yJNyCZ4wkDLG-MsCE,737912</td><td colspan="2"> </td></tr>
+<tr class="diffchanged"><td class="diffline">7 </td><td class="diffpresent">PyQt6/Qt<del>W</del><del>idg</del>e<del>ts</del>.abi3.so,sha256=<del>K0Fllg</del>U<del>VeN-1nme68UHNSHk9</del>z<del>IvDi4o5FUF3bhhVPe8</del>,1<del>673</del>8<del>6</del><del>88</del></td><td class="diffline">1 </td><td class="diffpresent">PyQt6/Qt<ins>Cor</ins>e.abi3.so,sha256=<ins>T8W3Pu</ins>U<ins>nYVbdCuBfDCC087o-</ins>z<ins>V761LOAQaKvWFGxEOk</ins>,<ins>2</ins>1<ins>009</ins>8<ins>16</ins></td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">2 </td><td class="diffpresent">PyQt6/QtGui.abi3.so,sha256=OFzN4zw1iyFKJ7hiefvOUNn7ZX5JrJ2JAd3OVIip1-k,10659888</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">3 </td><td class="diffpresent">PyQt6/QtNetwork.abi3.so,sha256=xolL7NQ9OrxBLGHlT7c58QDsUcZi2-88Z_Mbfg5K75A,4704376</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">4 </td><td class="diffpresent">PyQt6/QtPrintSupport.abi3.so,sha256=ryOnKOPRi1wNaFCIaQCPd4XF0sN2VcWyTnQzs5VZlv4,1766368</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">5 </td><td class="diffpresent">PyQt6/QtQml.abi3.so,sha256=irUljwt4htkwzMoyRos_NBle-WXdMzRMkZqgsntZwAE,8691456</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">6 </td><td class="diffpresent">PyQt6/QtWebChannel.abi3.so,sha256=a2o3w9ypw2hpHaBKAiOBo3MzwnsElhAauIXeXk4W-RI,737912</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">7 </td><td class="diffpresent">PyQt6/QtWidgets.abi3.so,sha256=bDdMovmD_K39stpnFLIZ24wIHBWUxmk9gZFr1JeNDGs,16738688</td></tr>
+<tr class="diffunmodified"><td class="diffline">8 </td><td class="diffpresent">PyQt6/__init__.py,sha256=0nzt60VaCLLulvxDUf6-RTbAhIfNJ43NwsrkNma3YQo,960</td><td class="diffline">8 </td><td class="diffpresent">PyQt6/__init__.py,sha256=0nzt60VaCLLulvxDUf6-RTbAhIfNJ43NwsrkNma3YQo,960</td></tr>
+<tr class="diffunmodified"><td class="diffline">9 </td><td class="diffpresent">PyQt6/bindings/QtCore/QtCore.toml,sha256=3yX5c2m3ue00nkBOJSHJ8tn14gqDGF1gU4Huw4qjjEM,172</td><td class="diffline">9 </td><td class="diffpresent">PyQt6/bindings/QtCore/QtCore.toml,sha256=3yX5c2m3ue00nkBOJSHJ8tn14gqDGF1gU4Huw4qjjEM,172</td></tr>
+<tr class="diffunmodified"><td class="diffline">10 </td><td class="diffpresent">PyQt6/bindings/QtCore/QtCoremod.sip,sha256=DyR1-pC0Z6TD0fBeh13L66mVP7InXjrKn7i0j3X6Rew,6107</td><td class="diffline">10 </td><td class="diffpresent">PyQt6/bindings/QtCore/QtCoremod.sip,sha256=DyR1-pC0Z6TD0fBeh13L66mVP7InXjrKn7i0j3X6Rew,6107</td></tr>
+<tr class="diffunmodified"><td class="diffline">11 </td><td class="diffpresent">PyQt6/bindings/QtCore/qabstractanimation.sip,sha256=orIBn8VCs8cVzxgqFq8rA7ISO3JR_NuOuKimhtxZtX0,2557</td><td class="diffline">11 </td><td class="diffpresent">PyQt6/bindings/QtCore/qabstractanimation.sip,sha256=orIBn8VCs8cVzxgqFq8rA7ISO3JR_NuOuKimhtxZtX0,2557</td></tr>
+<tr class="diffunmodified"><td class="diffline">12 </td><td class="diffpresent">PyQt6/bindings/QtCore/qabstracteventdispatcher.sip,sha256=GgU8SQmWWY8zY2vKOpeX3faig390joJQDCxfhNe3xTg,2449</td><td class="diffline">12 </td><td class="diffpresent">PyQt6/bindings/QtCore/qabstracteventdispatcher.sip,sha256=GgU8SQmWWY8zY2vKOpeX3faig390joJQDCxfhNe3xTg,2449</td></tr>
+<tr class="diffunmodified"><td class="diffline">13 </td><td class="diffpresent">PyQt6/bindings/QtCore/qabstractitemmodel.sip,sha256=N5XO3bELG7-JnlfYoHuK8mO0Q-FuWB_GvXXkHGJo-oI,13972</td><td class="diffline">13 </td><td class="diffpresent">PyQt6/bindings/QtCore/qabstractitemmodel.sip,sha256=N5XO3bELG7-JnlfYoHuK8mO0Q-FuWB_GvXXkHGJo-oI,13972</td></tr>
+<tr class="diffunmodified"><td class="diffline">14 </td><td class="diffpresent">PyQt6/bindings/QtCore/qabstractnativeeventfilter.sip,sha256=u2n33kyqP7hi4eCoyBi1hEfLtO8udTTHdK1JYu5igOs,1335</td><td class="diffline">14 </td><td class="diffpresent">PyQt6/bindings/QtCore/qabstractnativeeventfilter.sip,sha256=u2n33kyqP7hi4eCoyBi1hEfLtO8udTTHdK1JYu5igOs,1335</td></tr>
+</table>            </div>
+          </div>
+          <div class="difference">
+            <div class="diffheader">
+            <div class="diffcontrol diffcontrol-double">⊟</div>
+            <div><span class="diffsize">1.81 KB</span></div>
+            <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages/PyQt6_WebEngine-6.2.1.dist-info</span> vs.</div>
+            <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt-_WebEngine--.-.-.dist-info"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages/PyQt6_WebEngine-6.2.1.dist-info</span>
+              <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt-_WebEngine--.-.-.dist-info">¶</a>
+            </div>
+            </div>
+            <div class="difference">
+              <div class="diffheader">
+              <div class="diffcontrol diffcontrol-double">⊟</div>
+              <div><span class="diffsize">1.63 KB</span></div>
+              <div><span class="source">com.rtosta.zapzap.original/files/lib/python3.9/site-packages/PyQt6_WebEngine-6.2.1.dist-info/RECORD</span> vs.</div>
+              <div id="com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt-_WebEngine--.-.-.dist-info---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt-_WebEngine--.-.-.dist-info-RECORD"><span class="source">com.rtosta.zapzap.rebuild/files/lib/python3.9/site-packages/PyQt6_WebEngine-6.2.1.dist-info/RECORD</span>
+                <a class="anchor" href="#com.rtosta.zapzap.original-files---com.rtosta.zapzap.original-files-lib---com.rtosta.zapzap.original-files-lib-python-.----com.rtosta.zapzap.original-files-lib-python-.--site-packages---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt-_WebEngine--.-.-.dist-info---com.rtosta.zapzap.original-files-lib-python-.--site-packages-PyQt-_WebEngine--.-.-.dist-info-RECORD">¶</a>
+              </div>
+              </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 11 lines modified</td><td colspan="2">Offset 1, 11 lines modified</td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">PyQt6-WebEngine.api,sha256=VHg9KEZLJ9xsTpIDU5xzczVcRfQ8d3txx0jt1nBjt14,59954</td><td class="diffline">1 </td><td class="diffpresent">PyQt6-WebEngine.api,sha256=VHg9KEZLJ9xsTpIDU5xzczVcRfQ8d3txx0jt1nBjt14,59954</td></tr>
+<tr class="diffdeleted"><td class="diffline">2 </td><td class="diffpresent">PyQt6/QtWebEngineCore.abi3.so,sha256=SmHvTAmixP_dSN_0wT_y-QoUmAYfb9lGYvzUqHhjTrw,2768968</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">3 </td><td class="diffpresent">PyQt6/QtWebEngineQuick.abi3.so,sha256=UwUdKQOapKK657euwQse7QSKIJqxmECMSOii-0dLwtQ,724048</td><td colspan="2"> </td></tr>
+<tr class="diffchanged"><td class="diffline">4 </td><td class="diffpresent">PyQt6/QtWebEngine<del>W</del><del>idg</del>e<del>ts</del>.abi3.so,sha256=<del>Ulvy7gUO1</del>Z<del>gc6f0Pmh8G</del>G<del>3</del>j<del>ER7c7dZ</del>g<del>d</del><del>bv9NuyX-zSI</del>,<del>1100792</del></td><td class="diffline">2 </td><td class="diffpresent">PyQt6/QtWebEngine<ins>Cor</ins>e.abi3.so,sha256=<ins>Ab</ins><ins>SJCYvNXx7</ins>Z<ins>LnEjExzlCY</ins>Gj<ins>k96j6eK</ins>g<ins>3QIuO1QgOic</ins>,<ins>2768968</ins></td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">3 </td><td class="diffpresent">PyQt6/QtWebEngineQuick.abi3.so,sha256=1zd4Rm2DwDprHGdARH4HN8fd1TKku19RvtwmTzb4sU8,724048</td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td class="diffline">4 </td><td class="diffpresent">PyQt6/QtWebEngineWidgets.abi3.so,sha256=I2qBZ-46IJ8Xgq1qeWGGIuB4723UrOF_e_bCKILYAvM,1100792</td></tr>
+<tr class="diffunmodified"><td class="diffline">5 </td><td class="diffpresent">PyQt6/bindings/QtWebEngineCore/QtWebEngineCore.toml,sha256=DbdMXXhY-Y12NBr9K4bJAwbdEMTPOnQHZCcp_0SE5_Y,202</td><td class="diffline">5 </td><td class="diffpresent">PyQt6/bindings/QtWebEngineCore/QtWebEngineCore.toml,sha256=DbdMXXhY-Y12NBr9K4bJAwbdEMTPOnQHZCcp_0SE5_Y,202</td></tr>
+<tr class="diffunmodified"><td class="diffline">6 </td><td class="diffpresent">PyQt6/bindings/QtWebEngineCore/QtWebEngineCoremod.sip,sha256=KCUg-PeCDpswivmIqdWOY1b0M4DUQEgjqTz08ujcMWg,3274</td><td class="diffline">6 </td><td class="diffpresent">PyQt6/bindings/QtWebEngineCore/QtWebEngineCoremod.sip,sha256=KCUg-PeCDpswivmIqdWOY1b0M4DUQEgjqTz08ujcMWg,3274</td></tr>
+<tr class="diffunmodified"><td class="diffline">7 </td><td class="diffpresent">PyQt6/bindings/QtWebEngineCore/qwebenginecertificateerror.sip,sha256=1LoYTLA7Wwex_mv1984DMn03h9G1ilMfAPa2XeAsnLc,2140</td><td class="diffline">7 </td><td class="diffpresent">PyQt6/bindings/QtWebEngineCore/qwebenginecertificateerror.sip,sha256=1LoYTLA7Wwex_mv1984DMn03h9G1ilMfAPa2XeAsnLc,2140</td></tr>
+<tr class="diffunmodified"><td class="diffline">8 </td><td class="diffpresent">PyQt6/bindings/QtWebEngineCore/qwebengineclientcertificateselection.sip,sha256=vMbWb9B_A8stcUAPG52jReTLAP2yt3DKfDRZQ47eyxk,1425</td><td class="diffline">8 </td><td class="diffpresent">PyQt6/bindings/QtWebEngineCore/qwebengineclientcertificateselection.sip,sha256=vMbWb9B_A8stcUAPG52jReTLAP2yt3DKfDRZQ47eyxk,1425</td></tr>
+<tr class="diffunmodified"><td class="diffline">9 </td><td class="diffpresent">PyQt6/bindings/QtWebEngineCore/qwebengineclientcertificatestore.sip,sha256=Ld3DDGHvHWaTMZLMmDGMzkGCW6n_UWLMab-BE14T_rQ,1397</td><td class="diffline">9 </td><td class="diffpresent">PyQt6/bindings/QtWebEngineCore/qwebengineclientcertificatestore.sip,sha256=Ld3DDGHvHWaTMZLMmDGMzkGCW6n_UWLMab-BE14T_rQ,1397</td></tr>
+<tr class="diffunmodified"><td class="diffline">10 </td><td class="diffpresent">PyQt6/bindings/QtWebEngineCore/qwebenginecontextmenurequest.sip,sha256=KF0rfVnLI_eCtQgmJJoft9GwIVCZKCNLoNUGMWU3cFE,2535</td><td class="diffline">10 </td><td class="diffpresent">PyQt6/bindings/QtWebEngineCore/qwebenginecontextmenurequest.sip,sha256=KF0rfVnLI_eCtQgmJJoft9GwIVCZKCNLoNUGMWU3cFE,2535</td></tr>
+<tr class="diffunmodified"><td class="diffline">11 </td><td class="diffpresent">PyQt6/bindings/QtWebEngineCore/qwebenginecookiestore.sip,sha256=ksqxkTsQ4uVRgdtv-xFa2UWaSQQ6OkKZjbeEb-tHowI,4428</td><td class="diffline">11 </td><td class="diffpresent">PyQt6/bindings/QtWebEngineCore/qwebenginecookiestore.sip,sha256=ksqxkTsQ4uVRgdtv-xFa2UWaSQQ6OkKZjbeEb-tHowI,4428</td></tr>
+</table>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+Generated by
+<a href="https://diffoscope.org" rel="noopener noreferrer" target="_blank">
+diffoscope</a> 215
+</div>
+</body>
+</html>
+

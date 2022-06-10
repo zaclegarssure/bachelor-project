@@ -1,0 +1,31 @@
+{
+    "name": "com.borgbase.Vorta",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "777b44cdfe0e8cc548e67ec0a143ff38fc499e776b16efe6219cd932e4d7eae4",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-26 09:58:19+00:00",
+    "timestamp_of_rebuild": 1653559099.0,
+    "git-commit": "321cee1c76558539c668434e0dcc1c71d6caf632 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "1bf5dbd9fd2f66898d2501dfbe0e5327d0dc6eecd9e02e2bdeb39a43df7974c8",
+        "org.kde.Platform/x86_64/5.15-21.08": "c49e5ed4c419e849e15657b270c0cb9550afaa73277c611426b97c701cbe37b4"
+    },
+    "build_time": 592.7851061820984,
+    "cache_size": 40400621,
+    "git_size": 768868,
+    "dl_size": 39611194,
+    "bad_files": 19,
+    "total_files": 2610,
+    "repro_score": 0.9927203065134099,
+    "original_hash": "af635755285aba6a8bd93cacd44c9ab952048f95",
+    "rebuild_hash": "4311ecb25a728a410db93fadff2b24f76a26b2c2",
+    "original_bin_hash": "536a1747d400caa63fbdec6ca42aaa1577e6a05b",
+    "rebuild_bin_hash": "b17b1b9dcfb69c220145f232da69c2881c98cf49",
+    "original_elf_hash": "ad0645dca97516f7eba70896a25556ea8e7b328e",
+    "rebuild_elf_hash": "87e79380561d50f342f0ce4d483346f57420ce8e",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

@@ -1,0 +1,32 @@
+{
+    "name": "com.cassidyjames.plausible",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "00ce4f7c795c1d705970c21a7aaab7ea112dcec0d1131566f9269313e2ce5b56",
+    "branch": "stable",
+    "time_of_rebuild": "2021-03-24 20:03:29+00:00",
+    "timestamp_of_rebuild": 1616616209.0,
+    "git-commit": "7a6a477d083b6224979759ee7b01a2068487052d master",
+    "flatpak-deps": {
+        "io.elementary.BaseApp/x86_64/juno-20.08": "74b996016ed985696b382feb1e3aa3886e394ac583c74b6d9d686196dc0dd502",
+        "org.flatpak.Builder/x86_64/stable": "5e0930847a55d873b88a0811fe49c7e0db4201bf1bb33e5f894af164eb91a607",
+        "org.gnome.Sdk/x86_64/3.38": "a17c1f6924282c085435f06bd138cd02936482eb6ab3cd6a78c1bd837dbe0db8",
+        "org.gnome.Platform/x86_64/3.38": "3f33409122fb5e81e32ddb6bd360376f6ac6514edf7b8eb84748b0cc12bcab5a"
+    },
+    "build_time": 166.8980758190155,
+    "cache_size": 68699157,
+    "git_size": 68667732,
+    "dl_size": 10866,
+    "bad_files": 1,
+    "total_files": 4544,
+    "repro_score": 0.9997799295774648,
+    "original_hash": "84b9a992f51e6c5cd782e6e45cf149b917c8bf29",
+    "rebuild_hash": "b68ce4323c63e27b1f7a96e9eba1cb7a3cacbadf",
+    "original_bin_hash": "ba9d7c2d7183ac46619b033a6938cdfbc1b8e044",
+    "rebuild_bin_hash": "4a4e198ca8001c8d47987e24eba516b4655e9b0d",
+    "original_elf_hash": "c22bd0e0d90ce18d23c62f0b23f5225cd49a686c",
+    "rebuild_elf_hash": "c22bd0e0d90ce18d23c62f0b23f5225cd49a686c",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

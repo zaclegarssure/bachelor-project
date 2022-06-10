@@ -1,0 +1,33 @@
+{
+    "name": "com.github.rssguard",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "16ef23a19be16caa5fe27b648986571a954116f9f5c223bd675720274c055d0e",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-03 06:28:27+00:00",
+    "timestamp_of_rebuild": 1654237707.0,
+    "git-commit": "a671990fb767af18e9a04ecaf3e7dfba9b8687af master",
+    "flatpak-deps": {
+        "io.qt.qtwebengine.BaseApp/x86_64/5.15-21.08": "4e9b6655ba5bf04c7370659d18033aa04df722f50976f651d6456f551b5f9876",
+        "org.freedesktop.Sdk.Extension.node16/x86_64/21.08": "a0e13e79afd6735f4037e6663e5fd218ed1631970116eaccf4d940c0989fa72e",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/5.15-21.08": "1bf5dbd9fd2f66898d2501dfbe0e5327d0dc6eecd9e02e2bdeb39a43df7974c8",
+        "org.kde.Platform/x86_64/5.15-21.08": "c49e5ed4c419e849e15657b270c0cb9550afaa73277c611426b97c701cbe37b4"
+    },
+    "build_time": 195.74774050712585,
+    "cache_size": 34062498,
+    "git_size": 34046035,
+    "dl_size": 0,
+    "bad_files": 1,
+    "total_files": 1726,
+    "repro_score": 0.9994206257242179,
+    "original_hash": "857d74e87cc578d84bc89594842a8e3691268872",
+    "rebuild_hash": "60d5f73b7084b29f7300fc08af534e3034d52c74",
+    "original_bin_hash": "3b9d0ea938e9a3348e7ae216238a241fa6eaf56e",
+    "rebuild_bin_hash": "2213e5bef5ee7be8acc5bb22c1b6f3886ad239b8",
+    "original_elf_hash": "b4c4ae1cdebd41c933a663cbeeb8c1c8fe43abf3",
+    "rebuild_elf_hash": "93a36553da68c46b07afb02c31e79d70c5869303",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

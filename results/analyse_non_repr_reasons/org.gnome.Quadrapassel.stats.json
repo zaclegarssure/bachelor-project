@@ -1,0 +1,16 @@
+{
+    "name": "org.gnome.Quadrapassel",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "f84f91f270c1f6fc64f06c049761680c5edfaffc943d44ebfddd3e5bb660fbb8",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-27 11:05:58+00:00",
+    "timestamp_of_rebuild": 1632740758.0,
+    "git-commit": "da888259d485c2a04fa83a500382eb3cbe2ee989 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "d40cff9fa614104744be54f9dcbfd846c76a6cb7a80f045f6057d34ba69ac423",
+        "org.gnome.Sdk/x86_64/41": "dbaa5847ecc56030361c4cff1a24692d636abd9607a522f3e33441d740056070",
+        "org.gnome.Platform/x86_64/41": "f3997927cf2aa278af23f5ca907a8d03bea3814c342f3526b08e2b4a0e511af6"
+    }
+}

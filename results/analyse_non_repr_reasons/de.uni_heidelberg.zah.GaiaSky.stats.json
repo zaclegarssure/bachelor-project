@@ -1,0 +1,32 @@
+{
+    "name": "de.uni_heidelberg.zah.GaiaSky",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "494a837f35eaed6ae3692ca08e54f693c0976ceda1b10ca24bb2a1ab9970cff6",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-07 15:26:29+00:00",
+    "timestamp_of_rebuild": 1654615589.0,
+    "git-commit": "378bbd999e56725491a91e6c5a5dddf044545f02 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk/x86_64/21.08": "69bb00b293da529e1a8267b66202e24a18d634b2da1f5b0bc6bf7ac187ca233b",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "26aed7da8ceb3d067b8af1739d35d1c33c5d80391b964f95a3c2bf000cf6ce49",
+        "org.freedesktop.Platform/x86_64/21.08": "b76cb66319a7c5877ea02dcdd4d8bd53b3c6470b6f9c96fb3238ff216bf991c7"
+    },
+    "build_time": 57.39108324050903,
+    "cache_size": 45621243,
+    "git_size": 0,
+    "dl_size": 45604780,
+    "bad_files": 0,
+    "total_files": 262,
+    "repro_score": 1.0,
+    "original_hash": "c69ddda28c2a96575e52638310445f34c8b5f579",
+    "rebuild_hash": "c69ddda28c2a96575e52638310445f34c8b5f579",
+    "original_bin_hash": "6f2f2916b52134d2963119e5c52891ad3585621e",
+    "rebuild_bin_hash": "6f2f2916b52134d2963119e5c52891ad3585621e",
+    "original_elf_hash": "4058164f13e37319e02d48f3c9798d777b6ce826",
+    "rebuild_elf_hash": "4058164f13e37319e02d48f3c9798d777b6ce826",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

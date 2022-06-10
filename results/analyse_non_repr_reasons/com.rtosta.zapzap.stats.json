@@ -1,0 +1,32 @@
+{
+    "name": "com.rtosta.zapzap",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "182e47b017d6fb4b7ac9fb0b74c3d5669a84b3588224ca985301ee3032344c17",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-01 19:30:36+00:00",
+    "timestamp_of_rebuild": 1654111836.0,
+    "git-commit": "8accd406af4101d6a77c5a04316425c393bfbd88 master",
+    "flatpak-deps": {
+        "io.qt.qtwebengine.BaseApp/x86_64/6.2": "170faf35df673423c57408748f2cabecafeb6c602fa0be2dd1b3534d43482671",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.kde.Sdk/x86_64/6.2": "68dc5576086ece336ba031cc29e05ee518b80933826dbd6433511ea6b5918e19",
+        "org.kde.Platform/x86_64/6.2": "3a4bcca05f13c2ea8e4c0afe7aa031409dd8f515adb10aa852b6b83f7fbd2e09"
+    },
+    "build_time": 331.7602758407593,
+    "cache_size": 9895271,
+    "git_size": 462096,
+    "dl_size": 9412616,
+    "bad_files": 12,
+    "total_files": 1566,
+    "repro_score": 0.9923371647509579,
+    "original_hash": "e43456dd0124867767048a7948c55dc0ea849f06",
+    "rebuild_hash": "59f71385085ea9701f0f16b2677cfd7eeb67625a",
+    "original_bin_hash": "22e2222e6aa93523bd92dcced66c4d339affdda2",
+    "rebuild_bin_hash": "0fb1d6e7b4aaa14f5a2e69e140ae7d946135e1da",
+    "original_elf_hash": "112e212ebbd33ccd18a8670b7d846303ccae8c75",
+    "rebuild_elf_hash": "0a5549e68615cfe1b79bf9695f841d97ff85b6da",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

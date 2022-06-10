@@ -1,0 +1,30 @@
+{
+    "name": "com.google.AndroidStudio",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "1769d55e98c79a5fdc23b7705275d9c24093722d504770f670ac6d4d6808d37b",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-11 07:03:19+00:00",
+    "timestamp_of_rebuild": 1652252599.0,
+    "git-commit": "20b27aa520123d4d0d0f183b77d947d15bd0bbe0 master~1",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1"
+    },
+    "build_time": 174.70131826400757,
+    "cache_size": 23033630,
+    "git_size": 0,
+    "dl_size": 23017167,
+    "bad_files": 0,
+    "total_files": 2840,
+    "repro_score": 1.0,
+    "original_hash": "d9801e25bf5bcae4a1eae36b70723d32588a545d",
+    "rebuild_hash": "d9801e25bf5bcae4a1eae36b70723d32588a545d",
+    "original_bin_hash": "8d78406ff73ebfdc28d70bb273ef6c49c02f3566",
+    "rebuild_bin_hash": "8d78406ff73ebfdc28d70bb273ef6c49c02f3566",
+    "original_elf_hash": "5a5414b7c0ae553c1e3c7569f661026c3f38e93b",
+    "rebuild_elf_hash": "5a5414b7c0ae553c1e3c7569f661026c3f38e93b",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

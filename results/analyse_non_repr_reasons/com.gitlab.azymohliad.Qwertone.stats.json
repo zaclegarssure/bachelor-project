@@ -1,0 +1,32 @@
+{
+    "name": "com.gitlab.azymohliad.Qwertone",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "9eb28bb3a3fddc3ef9ce67075f2d465dff9e9c3fb383136569e9c161689b52f8",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-21 17:46:15+00:00",
+    "timestamp_of_rebuild": 1637516775.0,
+    "git-commit": "e5bcab95094c8f75b50cc712bf745d23d46b4145 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "9936745f8a337ed38c38be90c1335e5586568a24208e6f512232358a28ea5d5f",
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.gnome.Sdk/x86_64/41": "46b6e195ef062e5567ac0fcbb3cbc35c1b1ede2b5812da1fff466ae270c93987",
+        "org.gnome.Platform/x86_64/41": "f8ca57fe57678c475b4184d6420023d5e37e40266355775f770d487321079a3f"
+    },
+    "build_time": 92.20774126052856,
+    "cache_size": 12674552,
+    "git_size": 123280,
+    "dl_size": 12522521,
+    "bad_files": 1,
+    "total_files": 13,
+    "repro_score": 0.9230769230769231,
+    "original_hash": "2586176e3bd0cc72ccc165fba14361fa330fe655",
+    "rebuild_hash": "79fcb4ccb4d522134899e7f1f6c5d4ea5db6052c",
+    "original_bin_hash": "1309f44b2e10bd12abe88fc386b2447d20169577",
+    "rebuild_bin_hash": "1309f44b2e10bd12abe88fc386b2447d20169577",
+    "original_elf_hash": "083378274c24387e3ec32fbd5bbd587abe3c2a31",
+    "rebuild_elf_hash": "083378274c24387e3ec32fbd5bbd587abe3c2a31",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

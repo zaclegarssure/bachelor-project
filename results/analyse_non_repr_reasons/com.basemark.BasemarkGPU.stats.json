@@ -1,0 +1,32 @@
+{
+    "name": "com.basemark.BasemarkGPU",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "8fcd91a807db33b8706d1fb20e2929648a33908b9be712f8053c8f147e0e0107",
+    "branch": "stable",
+    "time_of_rebuild": "2021-10-26 14:25:41+00:00",
+    "timestamp_of_rebuild": 1635258341.0,
+    "git-commit": "80919bdb1338a6b1886b94ad4baf7e3b1f12de8d master",
+    "flatpak-deps": {
+        "org.electronjs.Electron2.BaseApp/x86_64/21.08": "cde2f09cfd9d4d6c9a01c561dcf4c3d9d4a8bd194711a88f044291d24e033f25",
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/21.08": "1fad7974d6fe02c6ac83e3e804e0317f4d8d3528dcd5087002e1b501ddadbb6b",
+        "org.freedesktop.Platform/x86_64/21.08": "16d161d8a71701b80fa4bca12812a22c19dc0641b3571fe88c517c84da94c5b5"
+    },
+    "build_time": 330.9113621711731,
+    "cache_size": 1248915051,
+    "git_size": 0,
+    "dl_size": 1248898588,
+    "bad_files": 1,
+    "total_files": 194,
+    "repro_score": 0.9948453608247423,
+    "original_hash": "7ee865aaef0699e861c81e893d6babda687f3505",
+    "rebuild_hash": "b22715b8bf4889a17ede634e5625b7f8b7f09d88",
+    "original_bin_hash": "deba6ff7548f2bed97e9665ef58e41f3a439d751",
+    "rebuild_bin_hash": "deba6ff7548f2bed97e9665ef58e41f3a439d751",
+    "original_elf_hash": "079707db641ccc37db353a9d35a63d381ac9f403",
+    "rebuild_elf_hash": "079707db641ccc37db353a9d35a63d381ac9f403",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

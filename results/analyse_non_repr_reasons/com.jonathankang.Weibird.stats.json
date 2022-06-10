@@ -1,0 +1,31 @@
+{
+    "name": "com.jonathankang.Weibird",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "42cf0ccff7d1770f432922e77b86b3f6992fc3813c58924655346d2790364c9b",
+    "branch": "stable",
+    "time_of_rebuild": "2021-06-06 22:42:53+00:00",
+    "timestamp_of_rebuild": 1623019373.0,
+    "git-commit": "4a7543db4c9b9bc844b0f86dd3705d1c133c5684 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "a770bfe0520e0ea3e08a1d2383d470200bcad65c4e44520f142016e2572270d8",
+        "org.gnome.Sdk/x86_64/40": "f59d3513eed2859ad0f02bd92e333379f40abe2e1201d2737afcc9a2a870f866",
+        "org.gnome.Platform/x86_64/40": "a2e9d521a0a9f3ec3fdd5312b544e32b5be9672090e5806aadb2e97cc5f0df61"
+    },
+    "build_time": 106.6370222568512,
+    "cache_size": 13286556,
+    "git_size": 0,
+    "dl_size": 13270093,
+    "bad_files": 405,
+    "total_files": 2567,
+    "repro_score": 0.8422282820412933,
+    "original_hash": "5ca670077658c349dd46ad4ded4b37679a710c02",
+    "rebuild_hash": "a04a360d377833a3a472d5b7244811d5a1e6c500",
+    "original_bin_hash": "c49b2f9c00db3243ea15eb7c22f8f39e318e9782",
+    "rebuild_bin_hash": "ecf3d48cc92665060e208ca0be1b1a39ce7982b8",
+    "original_elf_hash": "9aeaded50ff140cb6a07e04a26502936dc1d6ede",
+    "rebuild_elf_hash": "eadb6494665d0f0c0a414bec026eeee8cf5b84b1",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

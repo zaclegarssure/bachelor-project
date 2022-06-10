@@ -1,0 +1,31 @@
+{
+    "name": "org.gnome.Lollypop",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "b577a13258732597745727c70d8fd01cc2ca526938d98680a6b7b48212e7a3bd",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-02 15:06:28+00:00",
+    "timestamp_of_rebuild": 1651503988.0,
+    "git-commit": "62a014d4a860d1c5df4e4ef5f7a9f35371ab5fb9 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "80d79556975ab0542a3d9b068dd46d6a9cc93055ebbac04d52ff0c904401dab7",
+        "org.gnome.Platform/x86_64/42": "6eeb85b2e6d33adf7b7ecf6db50e26eccd50a890fac1218f3de50830a948aff7"
+    },
+    "build_time": 162.07806634902954,
+    "cache_size": 83796147,
+    "git_size": 15881884,
+    "dl_size": 67893704,
+    "bad_files": 26,
+    "total_files": 4081,
+    "repro_score": 0.993629012496937,
+    "original_hash": "0ec8b923e026055341be77a8f4a245dda933d62e",
+    "rebuild_hash": "eb0888697a04e38540b962eb2033e8dd9a1a3529",
+    "original_bin_hash": "33b3375ceb97ab28aa7038c4bce5b6bd8ff72dbd",
+    "rebuild_bin_hash": "da3f15602db46b0fdd78d00a1bca669e3bfdf108",
+    "original_elf_hash": "576c74574865ac324da97927337f1b7909654b73",
+    "rebuild_elf_hash": "5a4d7774b00215dabeb7b47afd0c76b4f5006528",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

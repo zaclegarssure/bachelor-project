@@ -1,0 +1,31 @@
+{
+    "name": "com.corsixth.corsixth",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "46593dbe2974d7716f9e1d947700877d44ec89f69d49e640d2291605af486613",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-08 11:02:44+00:00",
+    "timestamp_of_rebuild": 1631098964.0,
+    "git-commit": "d9da608dea00911e649b483aaf6f413e2341aef0 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "893246e34479faee339ba3645ad345290a26b3bd0dbf2f0aec378481fe6dc56d",
+        "org.freedesktop.Sdk/x86_64/21.08": "2d1a966a62ccddc0a9bafc934ab35d988b429b3db5aa7fffca9447ff8569ea65",
+        "org.freedesktop.Platform/x86_64/21.08": "007bf45e9aa09befdbeb47c6c3d8f8fac7599864a0197c64ac2e4ef595283f74"
+    },
+    "build_time": 111.48853731155396,
+    "cache_size": 54577475,
+    "git_size": 29021060,
+    "dl_size": 25535856,
+    "bad_files": 1,
+    "total_files": 519,
+    "repro_score": 0.9980732177263969,
+    "original_hash": "0a0485899b6870dd77148c7205f191bc277a0b0f",
+    "rebuild_hash": "2652572d865beb376f8fdcca4c6aab9a60842834",
+    "original_bin_hash": "ac44fb8a19a710eeb8edd8671e0b92dce3b8fb98",
+    "rebuild_bin_hash": "ac44fb8a19a710eeb8edd8671e0b92dce3b8fb98",
+    "original_elf_hash": "15ed74b226a8339cda026c5cff32e530af0daf7c",
+    "rebuild_elf_hash": "15ed74b226a8339cda026c5cff32e530af0daf7c",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

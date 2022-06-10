@@ -1,0 +1,30 @@
+{
+    "name": "com.github.corna.Vivado",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "04de7e7c55b9567d55e77ee4f4e12a69020876a98af1d786089ab8dff99c76a7",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-04 15:53:48+00:00",
+    "timestamp_of_rebuild": 1651679628.0,
+    "git-commit": "9f027d9ef5fc12d4eb435bb9bf2b7492c153584c master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.gnome.Sdk/x86_64/42": "bd5cf2646c70337561c1a2bf214e3ca797fd2ea96d981baf8fd537cb931eeebb"
+    },
+    "build_time": 74.99636602401733,
+    "cache_size": 7389291,
+    "git_size": 0,
+    "dl_size": 7372828,
+    "bad_files": 2,
+    "total_files": 3812,
+    "repro_score": 0.9994753410283316,
+    "original_hash": "cc09cf399bae1d7a6d9f1750d593dc861b82c76f",
+    "rebuild_hash": "eee510a9607ee2b4da6ebc0441deb5340e1e537b",
+    "original_bin_hash": "7c0ad36ac6f854da10ac241703201013309319b1",
+    "rebuild_bin_hash": "06092e4006d54a31c0972e428297e3ec4cc13e98",
+    "original_elf_hash": "67de94402974127631c08b54f2be151a9e166ada",
+    "rebuild_elf_hash": "a5a4eba62ae298d11af16874fc9297ccff9cc67d",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

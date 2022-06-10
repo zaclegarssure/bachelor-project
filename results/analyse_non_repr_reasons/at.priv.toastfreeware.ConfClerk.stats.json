@@ -1,0 +1,31 @@
+{
+    "name": "at.priv.toastfreeware.ConfClerk",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "9fc54b759ab01ea12d3ef115ebde7c45f6027810e5a1c9dfbab95666385139f8",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-30 13:50:08+00:00",
+    "timestamp_of_rebuild": 1638280208.0,
+    "git-commit": "06006567ced2cf48c1bd86aa859c36e78f4e6637 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.kde.Sdk/x86_64/5.15-21.08": "beaed2fcff575743eb6322ee333498337978455fdb69068642cf0fcbbf6a53fe",
+        "org.kde.Platform/x86_64/5.15-21.08": "f7d057dcdc0849b58556c57d4dc1501c272fa5126bf5fe32b8cbef972fdd762b"
+    },
+    "build_time": 26.304641723632812,
+    "cache_size": 404917,
+    "git_size": 0,
+    "dl_size": 388454,
+    "bad_files": 2,
+    "total_files": 19,
+    "repro_score": 0.8947368421052632,
+    "original_hash": "27fd07e6cd84e00cdc78a8897da135d7fecba428",
+    "rebuild_hash": "8de52356a854f3f8aeb9e4f080c33c8657de525d",
+    "original_bin_hash": "9e009a6c74ed093955fc911fa4a139ad51299feb",
+    "rebuild_bin_hash": "25b79453bf987ac882bae71b2d370f7f6cb09a69",
+    "original_elf_hash": "670644753735e890c14f41f4b96e006373d3e798",
+    "rebuild_elf_hash": "bf192a36e24954dd73e8d305e0e2feb3f1049a12",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

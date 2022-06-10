@@ -1,0 +1,32 @@
+{
+    "name": "com.belmoussaoui.ReadItLater",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "1e03bd984a6340ac33c2646ff8bb634a68a3ea205a4dcf3b8dbbb8e5357854af",
+    "branch": "stable",
+    "time_of_rebuild": "2021-03-27 19:31:46+00:00",
+    "timestamp_of_rebuild": 1616873506.0,
+    "git-commit": "81194aea7cb401decc00452430915bb8a48d16d1 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/20.08": "462adcc835098481af35c9a70788f5aaffe6afa8f8f555512a38bd53faeaf702",
+        "org.flatpak.Builder/x86_64/stable": "5e0930847a55d873b88a0811fe49c7e0db4201bf1bb33e5f894af164eb91a607",
+        "org.gnome.Sdk/x86_64/40": "e55417f333b230b71707ee5c67b9aa277528fc992e4840df9d020bf6e5563e55",
+        "org.gnome.Platform/x86_64/40": "ce7594c0ef9350183f1aba97b243937fe8e41e5a762e32985d41e5ef09411ea2"
+    },
+    "build_time": 174.93028354644775,
+    "cache_size": 29437427,
+    "git_size": 0,
+    "dl_size": 29420964,
+    "bad_files": 1,
+    "total_files": 18,
+    "repro_score": 0.9444444444444444,
+    "original_hash": "c39d238a46b34fa0154a244df26e56f2d184df3c",
+    "rebuild_hash": "7a25cc719b46b844c5282fc9c98360b7e0492a36",
+    "original_bin_hash": "7916eef3e87a2d70c4b31d81bf304a62864519d6",
+    "rebuild_bin_hash": "55fdb71dfdcdbb6893d8cf7421e0761f49dcc73e",
+    "original_elf_hash": "e7e0c14cbe312f71d116972bfdab02409b8dfad1",
+    "rebuild_elf_hash": "e7e0c14cbe312f71d116972bfdab02409b8dfad1",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

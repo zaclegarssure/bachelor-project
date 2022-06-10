@@ -1,0 +1,31 @@
+{
+    "name": "app.xemu.xemu",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "80640aa23d121100ca5bac588d13318c76b0f370390dde39718e8d89f73a2b96",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-08 06:43:16+00:00",
+    "timestamp_of_rebuild": 1654670596.0,
+    "git-commit": "703b703ed74f54ae497d2300dd6ecfe885da8afb master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "26aed7da8ceb3d067b8af1739d35d1c33c5d80391b964f95a3c2bf000cf6ce49",
+        "org.freedesktop.Platform/x86_64/21.08": "b76cb66319a7c5877ea02dcdd4d8bd53b3c6470b6f9c96fb3238ff216bf991c7"
+    },
+    "build_time": 249.25323390960693,
+    "cache_size": 1807835998,
+    "git_size": 1806311899,
+    "dl_size": 1503540,
+    "bad_files": 1,
+    "total_files": 69,
+    "repro_score": 0.9855072463768116,
+    "original_hash": "51d4db2f6dccd6acf75f1756a4635ec1077ad867",
+    "rebuild_hash": "b592d4c3917012398db8f780d0845603d92a0561",
+    "original_bin_hash": "29ec61a5fee5136235679666a595f45947841301",
+    "rebuild_bin_hash": "49857f0cd66f1c55b4f8ef8fcb0e5c269520df37",
+    "original_elf_hash": "c6370097a78df22e915c10df68b60915da656dc1",
+    "rebuild_elf_hash": "996be6125d01785577d95e341aa988875427347b",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

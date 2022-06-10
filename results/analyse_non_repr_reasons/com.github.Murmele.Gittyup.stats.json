@@ -1,0 +1,32 @@
+{
+    "name": "com.github.Murmele.Gittyup",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "f2ce208fdbfb3347e12b896ca053ba495f08fb79c210a5295f190f10fcf3f388",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-04 03:18:51+00:00",
+    "timestamp_of_rebuild": 1651634331.0,
+    "git-commit": "667b9e3d360a647eb3762ab2830a3191ea5f064a remotes/origin/update-d823092~1",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.golang/x86_64/21.08": "728ae6e46cb40b6a027b433c12c7ad7d5d3c613a946c2a6e6547dd1a3e76f374",
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    },
+    "build_time": 193.70659732818604,
+    "cache_size": 1639021959,
+    "git_size": 1635742928,
+    "dl_size": 3258472,
+    "bad_files": 1,
+    "total_files": 503,
+    "repro_score": 0.9980119284294234,
+    "original_hash": "12466e8b3b3ad1449f1f14d126f3086b5100f874",
+    "rebuild_hash": "03629dd55955e62a80f2f00f196d31be67c1bb32",
+    "original_bin_hash": "70e176ab1977b7766d4e1ce60b60a644429b4c97",
+    "rebuild_bin_hash": "191882773be14305d685fbcca000d5db6c42129c",
+    "original_elf_hash": "3a78f0855dd77cee19da473db0808d61af6483d7",
+    "rebuild_elf_hash": "c74617593b39d4a3e365dc0c66dd60c347a2ce6d",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

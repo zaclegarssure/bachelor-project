@@ -1,0 +1,31 @@
+{
+    "name": "com.transmissionbt.Transmission",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "8d7dc39021a2b640be22d6d889579bd00687e1f9b0c162db2e23ed2abc593e7b",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-31 15:19:00+00:00",
+    "timestamp_of_rebuild": 1654010340.0,
+    "git-commit": "5eb8c88cddcb2a1f715a7e9bd3e72c65024ed673 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.gnome.Sdk/x86_64/42": "c3ea4e88f8f9d05efb8b085abb2d1f56d8bab435dade310f31edef002612736d",
+        "org.gnome.Platform/x86_64/42": "ad9ceb4f734c754fe1db5ee926eb1482062ef35f0f588cd74f486eceb3f1028a"
+    },
+    "build_time": 102.3920328617096,
+    "cache_size": 7197687,
+    "git_size": 0,
+    "dl_size": 7181224,
+    "bad_files": 2,
+    "total_files": 99,
+    "repro_score": 0.9797979797979798,
+    "original_hash": "630adbaac4e96990a85c0514906e0ba665aeda34",
+    "rebuild_hash": "b423c91fb973948d243260296e5bcb07a13f151f",
+    "original_bin_hash": "023c0eac573c228014da66f74f311855e9258f58",
+    "rebuild_bin_hash": "f33991b05ed89fc3befd2dd2a44d681ae7373d33",
+    "original_elf_hash": "76e0c9a437c14c4f0b414c17267f27d70f8f4e0d",
+    "rebuild_elf_hash": "47d46898718192965a0a2b1be87c3cc1f3331cbd",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

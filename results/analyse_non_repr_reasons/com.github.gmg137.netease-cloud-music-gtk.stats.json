@@ -1,0 +1,32 @@
+{
+    "name": "com.github.gmg137.netease-cloud-music-gtk",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "53ac2506ca04e6490e840d6aa007b1da9b795b15b6d103442d2fc323099e7105",
+    "branch": "stable",
+    "time_of_rebuild": "2021-09-25 03:56:06+00:00",
+    "timestamp_of_rebuild": 1632542166.0,
+    "git-commit": "5c6aac2b8cdd5e94a1bae4245be4ba4f8a5d46b7 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "5c5084446e7d3aa331d427166b63916ddd90be7cf35da5e9664164855779dbf3",
+        "org.flatpak.Builder/x86_64/stable": "c8c1ca8e3474880eaaa547cfd975b239d5ed729a59fc8148403b420803332803",
+        "org.gnome.Sdk/x86_64/41": "dbaa5847ecc56030361c4cff1a24692d636abd9607a522f3e33441d740056070",
+        "org.gnome.Platform/x86_64/41": "f3997927cf2aa278af23f5ca907a8d03bea3814c342f3526b08e2b4a0e511af6"
+    },
+    "build_time": 130.82562398910522,
+    "cache_size": 27591982,
+    "git_size": 153258,
+    "dl_size": 27397685,
+    "bad_files": 1,
+    "total_files": 11,
+    "repro_score": 0.9090909090909091,
+    "original_hash": "c89564d5ae009ca4b073295d26f3f4d068f8c820",
+    "rebuild_hash": "ac9411da64d8f5cc4f0d0977e9d431a7c2b2db70",
+    "original_bin_hash": "963fd8db0798b8a9b9d086a866a0705830ccd120",
+    "rebuild_bin_hash": "963fd8db0798b8a9b9d086a866a0705830ccd120",
+    "original_elf_hash": "bb8a3961a7c35ca2a4f78c284887f9d7847e85d3",
+    "rebuild_elf_hash": "bb8a3961a7c35ca2a4f78c284887f9d7847e85d3",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

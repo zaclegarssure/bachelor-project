@@ -1,0 +1,32 @@
+{
+    "name": "com.github.matfantinel.moneta",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "ba51561fd420e959ab6f3c62d9124919a59527014067f40b2c52faae098f9dc8",
+    "branch": "stable",
+    "time_of_rebuild": "2020-07-06 12:28:40+00:00",
+    "timestamp_of_rebuild": 1594038520.0,
+    "git-commit": "d357206d061d2617dfbc0707d8d3d333cb44f5ca master",
+    "flatpak-deps": {
+        "io.elementary.BaseApp/x86_64/juno-19.08": "ccb29ff8e9a2aed99790f55beb8143cac332af82924e26a32a5e365d8b14c788",
+        "org.flatpak.Builder/x86_64/stable": "784a841adcdb76c099edc5857f4233c8671ba571aae7326fba20f448aaf16a0c",
+        "org.freedesktop.Sdk/x86_64/19.08": "9e5d07718e6c7426a082789197edc532d5130951265349c1bc075b84309f154d",
+        "org.freedesktop.Platform/x86_64/19.08": "9011ed46d93a986d66bf912812b652819d0d971d537d78a116191181172358ce"
+    },
+    "build_time": 16.5254864692688,
+    "cache_size": 610593,
+    "git_size": 594130,
+    "dl_size": 0,
+    "bad_files": 2,
+    "total_files": 4450,
+    "repro_score": 0.9995505617977528,
+    "original_hash": "1045cc1c89f08e613368c633d2fdfe260b9494d2",
+    "rebuild_hash": "91477f56095a81839020708f7f07e0f61cf44ad9",
+    "original_bin_hash": "72fc1a27d3ac479f68546d175ba0014838628249",
+    "rebuild_bin_hash": "02fc6e7e20b6f3dc952704f0d604db2ba306c82f",
+    "original_elf_hash": "75cbcaf0e4ee16fec65eebf92c5ef7cbf6ea2d51",
+    "rebuild_elf_hash": "75cbcaf0e4ee16fec65eebf92c5ef7cbf6ea2d51",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

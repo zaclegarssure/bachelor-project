@@ -1,0 +1,32 @@
+{
+    "name": "com.mattermost.Desktop",
+    "build_sucess": true,
+    "is_reproducible": true,
+    "use_fixed_time": false,
+    "commit": "ff8b1342df16c48d4f76b46879f6d16ef453a1eac07288d4467da458564dc35c",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-17 06:43:50+00:00",
+    "timestamp_of_rebuild": 1652769830.0,
+    "git-commit": "feb0b8529c87426ec62f3de45a87481e2748624b master",
+    "flatpak-deps": {
+        "org.electronjs.Electron2.BaseApp/x86_64/21.08": "0281c7bff16ae16bd23554f65185a9b33ca71dafcdf85667983049d9e046ccb8",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/21.08": "77dff88d2cd380291238dc6cf6592d43c5730e0f308f6e049854d84cd47f55f1",
+        "org.freedesktop.Platform/x86_64/21.08": "aded519497b3817b395cf872f38719a7afce74ec838acf49fb1502042d19bc3c"
+    },
+    "build_time": 31.375320196151733,
+    "cache_size": 108128899,
+    "git_size": 0,
+    "dl_size": 108112436,
+    "bad_files": 0,
+    "total_files": 185,
+    "repro_score": 1.0,
+    "original_hash": "22ba4063a7b68e8b67de40620366212650519174",
+    "rebuild_hash": "22ba4063a7b68e8b67de40620366212650519174",
+    "original_bin_hash": "77ea5dd57c114361775fc08c456d97e6790f5592",
+    "rebuild_bin_hash": "77ea5dd57c114361775fc08c456d97e6790f5592",
+    "original_elf_hash": "5a3eec5c0051531cffa1a8c47d03cb195f358d2a",
+    "rebuild_elf_hash": "5a3eec5c0051531cffa1a8c47d03cb195f358d2a",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}

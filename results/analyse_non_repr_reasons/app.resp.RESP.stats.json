@@ -1,0 +1,16 @@
+{
+    "name": "app.resp.RESP",
+    "build_sucess": false,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "abab9c9b24f2d728833a47d3eaa97fed4deb973a28b259d395e2b917c7d195ed",
+    "branch": "stable",
+    "time_of_rebuild": "2022-05-06 10:41:17+00:00",
+    "timestamp_of_rebuild": 1651833677.0,
+    "git-commit": "807463bd4065208bebe597fb1b97d22591143c78 master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "9be435ed8e43b7310cf2d8397b9543f0f7f6fa074503948a3627a4d924dacf6c",
+        "org.kde.Sdk/x86_64/5.15-21.08": "61a7c1ac873ecbfbdae4442a28da9d1356d105c2d6f8c9c9a719012cab99fe32",
+        "org.kde.Platform/x86_64/5.15-21.08": "00b47d52c670191fc9b6255750dab766fc3065db2be0c37ae9d3863aa2298d0f"
+    }
+}

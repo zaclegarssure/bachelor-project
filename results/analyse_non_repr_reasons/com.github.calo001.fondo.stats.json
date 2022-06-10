@@ -1,0 +1,32 @@
+{
+    "name": "com.github.calo001.fondo",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "dbd3ad2bdf7d51d8d4dfb514ec82074cfa227f1e4f5269e79d2cb86382ba0f75",
+    "branch": "stable",
+    "time_of_rebuild": "2021-03-14 17:50:18+00:00",
+    "timestamp_of_rebuild": 1615744218.0,
+    "git-commit": "f937df8640aa2a8058743c89986f278ab3acd23c master",
+    "flatpak-deps": {
+        "io.elementary.BaseApp/x86_64/juno-19.08": "ccb29ff8e9a2aed99790f55beb8143cac332af82924e26a32a5e365d8b14c788",
+        "org.flatpak.Builder/x86_64/stable": "5e0930847a55d873b88a0811fe49c7e0db4201bf1bb33e5f894af164eb91a607",
+        "org.gnome.Sdk/x86_64/3.36": "e67995465378bd06edc95bcec4f9f4d82f8e26b1eb9ae5f7a70a6bcd6e75db3b",
+        "org.gnome.Platform/x86_64/3.36": "58cd7c8e946cccdd41dc7b50f80b4ae8d18c84062ff1f4683fa1639f09b88547"
+    },
+    "build_time": 23.306329488754272,
+    "cache_size": 3657720,
+    "git_size": 3641257,
+    "dl_size": 0,
+    "bad_files": 2,
+    "total_files": 4450,
+    "repro_score": 0.9995505617977528,
+    "original_hash": "600ab6e576885e78447cd7641034ff38a698a6fc",
+    "rebuild_hash": "dfef8bdbcb4995ef34cf79a7e64b073266fc627b",
+    "original_bin_hash": "533a1220b0bb4c41d96501cba2a5038b0d7141c0",
+    "rebuild_bin_hash": "e0251feecdd6035786e44e85fa2233b42c0c2e6d",
+    "original_elf_hash": "24a1440f2975a040c1994b2709fee83587fd35d1",
+    "rebuild_elf_hash": "24a1440f2975a040c1994b2709fee83587fd35d1",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

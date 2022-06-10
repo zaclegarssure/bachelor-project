@@ -1,0 +1,32 @@
+{
+    "name": "de.schmidhuberj.DieBahn",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "fb4a2d20868201e177803002b95d849c0b0efcefb9d91b533d1d603441cb95be",
+    "branch": "stable",
+    "time_of_rebuild": "2022-04-09 09:12:55+00:00",
+    "timestamp_of_rebuild": 1649495575.0,
+    "git-commit": "520f20a85f630aef7ff841693fb35815f6645f48 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.rust-stable/x86_64/21.08": "5ac1c0cd51fe498618ef1340e3e9c7d89ce90b20f0254aa49590ec69791bb31b",
+        "org.flatpak.Builder/x86_64/stable": "8c905dc8f00b387ed9d3b61e8186b59cffaf66fb8dbb6a8993500e0f2e4ec53e",
+        "org.gnome.Sdk/x86_64/42": "762b5f1236f30f3ddfae3d4ce428d35187f2c7f276e0177a41537ad00794c3a8",
+        "org.gnome.Platform/x86_64/42": "95efaa2378b7fe76734f58eae5a52bb66d0e73bcded62470e97159cb15e93315"
+    },
+    "build_time": 291.56672048568726,
+    "cache_size": 25600123,
+    "git_size": 0,
+    "dl_size": 25567276,
+    "bad_files": 1,
+    "total_files": 17,
+    "repro_score": 0.9411764705882353,
+    "original_hash": "8a44ac246bb9d5b4bfbacdfd79ea7244e6e259ea",
+    "rebuild_hash": "d8320cbf63ef285f987310868acd7964ff4f8ef7",
+    "original_bin_hash": "041bc89dbc86749725f32c67688d02448fb155ba",
+    "rebuild_bin_hash": "cfd4099a106cc06ee985a31f295124cb017b8e3f",
+    "original_elf_hash": "4a07159ba7e787fa55e5ff9ed89e1903df559d12",
+    "rebuild_elf_hash": "7bd7d1f4447987f268841d1c2d08f84d804d5d2a",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": false
+}

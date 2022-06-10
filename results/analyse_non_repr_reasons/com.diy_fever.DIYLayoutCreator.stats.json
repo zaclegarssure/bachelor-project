@@ -1,0 +1,32 @@
+{
+    "name": "com.diy_fever.DIYLayoutCreator",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "c6254a5506c44f0717635631680a77ee0b5a801e80aa5c7845ed9085ed135042",
+    "branch": "stable",
+    "time_of_rebuild": "2022-06-05 08:55:57+00:00",
+    "timestamp_of_rebuild": 1654419357.0,
+    "git-commit": "3aa1036b735994ad7f81c9309a3cabbbb3e06462 master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk11/x86_64/20.08": "091669fccec4e07880814ca4a26574f76c341de44e3a2a293891d2b641153456",
+        "org.flatpak.Builder/x86_64/stable": "02ce074ad9e55ae5266f9ecb659f79d669e262af61ec54e76497660fd69170ce",
+        "org.freedesktop.Sdk/x86_64/20.08": "97f4485a509cc14ffd75ea53887afd0fcdabc1d8b57364732442f396e8e898f2",
+        "org.freedesktop.Platform/x86_64/20.08": "67032bb21f0c85c210b4608a1f28ce9adc5a6f27383861306b4ffedb19c9d441"
+    },
+    "build_time": 85.41279721260071,
+    "cache_size": 87569213,
+    "git_size": 179892,
+    "dl_size": 87368762,
+    "bad_files": 6,
+    "total_files": 390,
+    "repro_score": 0.9846153846153847,
+    "original_hash": "cf51fb64620b68d4f3c6e31fe1b4aee180e62f01",
+    "rebuild_hash": "06302abfed6a9205895cab6b118c6bd6d86d82e3",
+    "original_bin_hash": "5dcdebdcdf76a0fbeb937626581c467656e3b41c",
+    "rebuild_bin_hash": "6e83c7149c9fbd1289a4b176620be11d99c947a1",
+    "original_elf_hash": "e42c8de6a85e323d1a4ab64f02454d3b42439bce",
+    "rebuild_elf_hash": "e42c8de6a85e323d1a4ab64f02454d3b42439bce",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

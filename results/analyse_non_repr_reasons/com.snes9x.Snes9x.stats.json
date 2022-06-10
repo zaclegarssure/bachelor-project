@@ -1,0 +1,31 @@
+{
+    "name": "com.snes9x.Snes9x",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "edf0a8f18ba7a974ae0bf7dadd3b21b94b609818ae67f1ae743275db896ff3d3",
+    "branch": "stable",
+    "time_of_rebuild": "2022-03-18 19:30:33+00:00",
+    "timestamp_of_rebuild": 1647631833.0,
+    "git-commit": "cebc22c5a5b7c01e665f811fc05bf689ea0fa89f master",
+    "flatpak-deps": {
+        "org.flatpak.Builder/x86_64/stable": "1b7d4f40616cf788045e42209b78bf66e3dbb6ff5b4459793fbe0e69b76cd570",
+        "org.freedesktop.Sdk/x86_64/21.08": "f31334d7fc5ff5ec93766189a7e47bfb3369a9a7154767adb46c4495530c1d1c",
+        "org.freedesktop.Platform/x86_64/21.08": "fcf3dbb56c117835216058acfa99ae280d713029f8d674e1b56e019a20ed082d"
+    },
+    "build_time": 332.51544427871704,
+    "cache_size": 59803409,
+    "git_size": 31352138,
+    "dl_size": 28430712,
+    "bad_files": 1,
+    "total_files": 141,
+    "repro_score": 0.9929078014184397,
+    "original_hash": "b7ac2767f0de8d822392f00deaed53680353d275",
+    "rebuild_hash": "b30a02378152fd6ba5dbc6c704caaef7c18fde3e",
+    "original_bin_hash": "d5b6f2305131f9c3151c8e835ae65ba74fda5a27",
+    "rebuild_bin_hash": "3fed44e1aeebb1cb91e0ba45efcacf1a7e5c41c2",
+    "original_elf_hash": "37ad9048efab99486843a02c92f2140f986399b1",
+    "rebuild_elf_hash": "37ad9048efab99486843a02c92f2140f986399b1",
+    "is_bin_reproducible": false,
+    "is_elf_reproducible": true
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="referrer" content="no-referrer" />
+  <meta name="generator" content="diffoscope" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAM8SURBVFiF7dZdaJZlGAfw3/O+e9XNjy3XllZzWImBxIpifqTgsmUHBSIeBNFBdRh0UHQ0xGdb66CFBIERZEFRQRRUw0HkQkLMYQSBdpCFWdgSP6jpNn2393k68Nn2bj3vXtb6UOh/cl/39b/u67mem/913zf/4z9GUDw5xNI8n5WIzW9m/QF2YluJmI8203mALzEvLWAerRs4Pz6vSIkZSlsYk0/GkaB0zEgyDgWMlijyWsJuS2fkQwu8pqpMTA0ypeiShG71Bp0rU8Q+A47MWEDgvHZbZl/Av4SpIgxVYB3IqwZDmoUuYkzosDaNchpAoFqkSmgjGPWzLieF1k3JHVsjvCJQHBYaSy9g1E3m+QImQiK9SbNGqJDzuiDZ0lggQJCsyelDq8BB47sbCWTsnvhG3kqcLL833eqF4hk1EOoTOjZjnnaRdq2l6KtMAyl4/g23bKJrun+Mt9uOq7nvqOVbebWYy9Adc1fM/R/3CO780dONbIeFPHsPw+ULeM5ZHTbXHfUtXpxOZzgT5z02UGsZThRzF/ilht9G+fr4zfbfccIxXIa7uVTup69i7LJXaEEqF3on1d9ludBLpVLOVoT1lky9QYtwQ6p3WAVqSyUslWwSbRrkPJrMtgn0iBVk7BPJ4sGE24EPQKW3jLgdzWKLBTbg0yTuZeGkDsp2gcUGDesHGQ/gK5G8nLMigWiCe3jCrnTRiJ9EYjm1ImsUEq5l8hScPXbpsVtlKhfan+pv0yD0ZqmU5XegGBmnDIo/pylj8oYLOP3Eab/v5Zmi6EtZ3vv1FU/2r7LioYSL2dNybbdiMdptFU57++20Vqh+iq/Tap1WpaWY611wmyWyUzxZDbIWTvEV1Ildn5agfBumoUMTtoisFvhebAAHZWxX0ChwTuScvHdVeVykToysMyJ7ittwbmj31J+6IrRDp5XTfBt1WJ+WYnZdMB0F3xlUgD5uDVj2Sa+a4SrzH+FeyHHmw17V112waBOZgP4WczkLZsILar1fpIliMU4XZoK/poE0XHl+N8v6QcGAUbVymnDIZVnzrTXqGzmnhKLxZX/niyiDjIJgwg4Se1GR/Y8idGPysh6fr0i1i/AHMWHgrwUJgNAAAAAASUVORK5CYII=" />
+  <title>/usr/bin/diffoscope com.georgefb.mangareader.original com.georgefb.mangareader.rebuild --exclude-directory-metadata=yes --html=com.georgefb.mangareader.report.html</title>
+<style>
+body.diffoscope {
+  background: white;
+  color: black;
+}
+.diffoscope .footer {
+  font-size: small;
+}
+.diffoscope .difference {
+  border: outset #888 1px;
+  background: #E8E8E8;
+  background: rgba(0,0,0,.1);
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+.diffoscope .difference table {
+  table-layout: fixed;
+  width: 100%;
+  border: 0;
+}
+.diffoscope .difference th,
+.diffoscope .difference td {
+  border: 0;
+}
+.diffoscope table.diff {
+  border: 0;
+  border-collapse:collapse;
+  font-size:0.75em;
+  font-family: 'Lucida Console', monospace;
+  word-break: break-word;
+}
+.diffoscope table.diff tr:hover td {
+  background: #FFFF00;
+}
+.diffoscope .line {
+  color:#8080a0
+}
+.diffoscope th {
+  background: black;
+  color: white
+}
+.diffoscope .diffunmodified td {
+  background: #D0D0E0
+}
+.diffoscope .diffhunk td {
+  background: #A0A0A0
+}
+.diffoscope .diffadded td {
+  background: #CCFFCC
+}
+.diffoscope .diffdeleted td {
+  background: #FFCCCC
+}
+.diffoscope .diffchanged td {
+  background: #FFFFA0
+}
+.diffoscope ins, del {
+  background: #E0C880;
+  text-decoration: none
+}
+.diffoscope .dp {
+  color: #B08080
+}
+.diffoscope .comment {
+  font-style: italic;
+}
+.diffoscope .comment.multiline {
+  font-style: normal;
+  font-family: monospace;
+  white-space: pre;
+}
+.diffoscope .source {
+  font-weight: bold;
+}
+.diffoscope .error {
+  border: solid black 1px;
+  background: red;
+  color: white;
+  padding: 0.2em;
+}
+.diffoscope .anchor {
+  margin-left: 0.5em;
+  font-size: 80%;
+  color: #333;
+  text-decoration: none;
+  display: none;
+}
+.diffoscope .diffheader:hover .anchor {
+  display: inline;
+}
+.diffoscope .diffcontrol, .diffoscope .diffcontrol-nochildren {
+  float: left;
+  margin-right: 0.3em;
+  cursor: pointer;
+  display: none; /* currently, only available in html-dir output where jquery is enabled */
+}
+.diffoscope .colines {
+  width: 3em;
+}
+.diffoscope .coldiff {
+  width: 99%;
+}
+.diffoscope .diffsize {
+  float: right;
+}
+.diffoscope table.diff tr.ondemand td, .diffoscope div.ondemand-details {
+  background: #f99;
+  text-align: center;
+  padding: 0.5em 0;
+}
+.diffoscope table.diff tr.ondemand:hover td, .diffoscope div.ondemand-details:hover {
+  background: #faa;
+  cursor: pointer;
+}
+</style>
+</head>
+<body class="diffoscope">
+<div class="difference">
+  <div class="diffheader">
+  <div class="diffcontrol diffcontrol-double">⊟</div>
+  <div><span class="diffsize">3.71 KB</span></div>
+  <div><span class="source">com.georgefb.mangareader.original</span> vs.</div>
+  <div id="top"><span class="source">com.georgefb.mangareader.rebuild</span>
+    <a class="anchor" href="#top">¶</a>
+  </div>
+  </div>
+  <div class="difference">
+    <div class="diffheader">
+    <div class="diffcontrol diffcontrol-double">⊟</div>
+    <div><span class="diffsize">3.64 KB</span></div>
+    <div><span class="source">com.georgefb.mangareader.original/files</span> vs.</div>
+    <div id="com.georgefb.mangareader.original-files"><span class="source">com.georgefb.mangareader.rebuild/files</span>
+      <a class="anchor" href="#com.georgefb.mangareader.original-files">¶</a>
+    </div>
+    </div>
+    <div class="difference">
+      <div class="diffheader">
+      <div class="diffcontrol diffcontrol-double">⊟</div>
+      <div><span class="diffsize">3.57 KB</span></div>
+      <div><span class="source">com.georgefb.mangareader.original/files/bin</span> vs.</div>
+      <div id="com.georgefb.mangareader.original-files---com.georgefb.mangareader.original-files-bin"><span class="source">com.georgefb.mangareader.rebuild/files/bin</span>
+        <a class="anchor" href="#com.georgefb.mangareader.original-files---com.georgefb.mangareader.original-files-bin">¶</a>
+      </div>
+      </div>
+      <div class="difference">
+        <div class="diffheader">
+        <div class="diffcontrol diffcontrol-double">⊟</div>
+        <div><span class="diffsize">3.49 KB</span></div>
+        <div><span class="source">com.georgefb.mangareader.original/files/bin/mangareader</span> vs.</div>
+        <div id="com.georgefb.mangareader.original-files---com.georgefb.mangareader.original-files-bin---com.georgefb.mangareader.original-files-bin-mangareader"><span class="source">com.georgefb.mangareader.rebuild/files/bin/mangareader</span>
+          <a class="anchor" href="#com.georgefb.mangareader.original-files---com.georgefb.mangareader.original-files-bin---com.georgefb.mangareader.original-files-bin-mangareader">¶</a>
+        </div>
+        </div>
+        <div class="comment">File has been modified after NT_GNU_BUILD_ID has been applied.
+        </div>
+        <div class="difference">
+          <div class="diffheader">
+          <div class="diffcontrol">⊟</div>
+          <div><span class="diffsize">846 B</span></div>
+          <div id="com.georgefb.mangareader.original-files---com.georgefb.mangareader.original-files-bin---com.georgefb.mangareader.original-files-bin-mangareader---readelf---wide---notes---"><span class="source">readelf --wide --notes {}</span>
+            <a class="anchor" href="#com.georgefb.mangareader.original-files---com.georgefb.mangareader.original-files-bin---com.georgefb.mangareader.original-files-bin-mangareader---readelf---wide---notes---">¶</a>
+          </div>
+          </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 12 lines modified</td><td colspan="2">Offset 1, 12 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.property</td><td class="diffline">1 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.property</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td></tr>
+<tr class="diffunmodified"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000020<span class="dp">»</span>  NT_GNU_PROPERTY_TYPE_0<span class="dp">»</span>    <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Properties:<span class="dp">·</span>x86<span class="dp">·</span>feature:<span class="dp">·</span>IBT,<span class="dp">·</span>SHSTK,<span class="dp">·</span>x86<span class="dp">·</span>ISA<span class="dp">·</span>needed:<span class="dp">·</span>x86-64-baseline</td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000020<span class="dp">»</span>  NT_GNU_PROPERTY_TYPE_0<span class="dp">»</span>    <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Properties:<span class="dp">·</span>x86<span class="dp">·</span>feature:<span class="dp">·</span>IBT,<span class="dp">·</span>SHSTK,<span class="dp">·</span>x86<span class="dp">·</span>ISA<span class="dp">·</span>needed:<span class="dp">·</span>x86-64-baseline</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">4 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td><td class="diffline">4 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.gnu.build-id</td></tr>
+<tr class="diffunmodified"><td class="diffline">5 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td><td class="diffline">5 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td></tr>
+<tr class="diffchanged"><td class="diffline">6 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><del>e</del>c5<del>3831f06a0459</del>f<del>473</del>2e<del>19082</del>7<del>ab66</del>7<del>56a</del>8<del>3b</del>0<del>2</del></td><td class="diffline">6 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000014<span class="dp">»</span>  NT_GNU_BUILD_ID<span class="dp">·</span>(unique<span class="dp">·</span>build<span class="dp">·</span>ID<span class="dp">·</span>bitstring)<span class="dp">»</span>   <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Build<span class="dp">·</span>ID:<span class="dp">·</span><ins>15</ins><ins>9</ins>c5<ins>67ae3a9f4d64</ins>f<ins>51c</ins>2e<ins>06343</ins>7<ins>8800</ins>78<ins>ef</ins>0<ins>c</ins><ins>c</ins></td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">7 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.ABI-tag</td><td class="diffline">7 </td><td class="diffpresent">Displaying<span class="dp">·</span>notes<span class="dp">·</span>found<span class="dp">·</span>in:<span class="dp">·</span>.note.ABI-tag</td></tr>
+<tr class="diffunmodified"><td class="diffline">8 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td><td class="diffline">8 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>Owner<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>Data<span class="dp">·</span>size<span class="dp">·</span><span class="dp">»</span>  Description</td></tr>
+<tr class="diffunmodified"><td class="diffline">9 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">»</span>  NT_GNU_ABI_TAG<span class="dp">·</span>(ABI<span class="dp">·</span>version<span class="dp">·</span>tag)<span class="dp">»</span>     <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>OS:<span class="dp">·</span>Linux,<span class="dp">·</span>ABI:<span class="dp">·</span>3.2.0</td><td class="diffline">9 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>GNU<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">»</span>  NT_GNU_ABI_TAG<span class="dp">·</span>(ABI<span class="dp">·</span>version<span class="dp">·</span>tag)<span class="dp">»</span>     <span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>OS:<span class="dp">·</span>Linux,<span class="dp">·</span>ABI:<span class="dp">·</span>3.2.0</td></tr>
+</table>        </div>
+        <div class="difference">
+          <div class="diffheader">
+          <div class="diffcontrol">⊟</div>
+          <div><span class="diffsize">2.15 KB</span></div>
+          <div id="com.georgefb.mangareader.original-files---com.georgefb.mangareader.original-files-bin---com.georgefb.mangareader.original-files-bin-mangareader---readelf---wide---decompress---hex-dump-.rodata---"><span class="source">readelf --wide --decompress --hex-dump=.rodata {}</span>
+            <a class="anchor" href="#com.georgefb.mangareader.original-files---com.georgefb.mangareader.original-files-bin---com.georgefb.mangareader.original-files-bin-mangareader---readelf---wide---decompress---hex-dump-.rodata---">¶</a>
+          </div>
+          </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 819, 23 lines modified</td><td colspan="2">Offset 819, 23 lines modified</td></tr>
+<tr class="diffunmodified"><td class="diffline">819 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d300<span class="dp">·</span>ffffffff<span class="dp">·</span>1c000000<span class="dp">·</span>00000000<span class="dp">·</span>00000000<span class="dp">·</span>................</td><td class="diffline">819 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d300<span class="dp">·</span>ffffffff<span class="dp">·</span>1c000000<span class="dp">·</span>00000000<span class="dp">·</span>00000000<span class="dp">·</span>................</td></tr>
+<tr class="diffunmodified"><td class="diffline">820 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d310<span class="dp">·</span>18000000<span class="dp">·</span>00000000<span class="dp">·</span>6d006100<span class="dp">·</span>6e006700<span class="dp">·</span>........m.a.n.g.</td><td class="diffline">820 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d310<span class="dp">·</span>18000000<span class="dp">·</span>00000000<span class="dp">·</span>6d006100<span class="dp">·</span>6e006700<span class="dp">·</span>........m.a.n.g.</td></tr>
+<tr class="diffunmodified"><td class="diffline">821 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d320<span class="dp">·</span>61007200<span class="dp">·</span>65006100<span class="dp">·</span>64006500<span class="dp">·</span>72002f00<span class="dp">·</span>a.r.e.a.d.e.r./.</td><td class="diffline">821 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d320<span class="dp">·</span>61007200<span class="dp">·</span>65006100<span class="dp">·</span>64006500<span class="dp">·</span>72002f00<span class="dp">·</span>a.r.e.a.d.e.r./.</td></tr>
+<tr class="diffunmodified"><td class="diffline">822 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d330<span class="dp">·</span>6d006100<span class="dp">·</span>6e006700<span class="dp">·</span>61007200<span class="dp">·</span>65006100<span class="dp">·</span>m.a.n.g.a.r.e.a.</td><td class="diffline">822 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d330<span class="dp">·</span>6d006100<span class="dp">·</span>6e006700<span class="dp">·</span>61007200<span class="dp">·</span>65006100<span class="dp">·</span>m.a.n.g.a.r.e.a.</td></tr>
+<tr class="diffunmodified"><td class="diffline">823 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d340<span class="dp">·</span>64006500<span class="dp">·</span>72002e00<span class="dp">·</span>63006f00<span class="dp">·</span>6e006600<span class="dp">·</span>d.e.r...c.o.n.f.</td><td class="diffline">823 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d340<span class="dp">·</span>64006500<span class="dp">·</span>72002e00<span class="dp">·</span>63006f00<span class="dp">·</span>6e006600<span class="dp">·</span>d.e.r...c.o.n.f.</td></tr>
+<tr class="diffunmodified"><td class="diffline">824 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d350<span class="dp">·</span>00000000<span class="dp">·</span>00000000<span class="dp">·</span>00000000<span class="dp">·</span>00000000<span class="dp">·</span>................</td><td class="diffline">824 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d350<span class="dp">·</span>00000000<span class="dp">·</span>00000000<span class="dp">·</span>00000000<span class="dp">·</span>00000000<span class="dp">·</span>................</td></tr>
+<tr class="diffunmodified"><td class="diffline">825 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d360<span class="dp">·</span>00000000<span class="dp">·</span>00020000<span class="dp">·</span>00020000<span class="dp">·</span>00010000<span class="dp">·</span>................</td><td class="diffline">825 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d360<span class="dp">·</span>00000000<span class="dp">·</span>00020000<span class="dp">·</span>00020000<span class="dp">·</span>00010000<span class="dp">·</span>................</td></tr>
+<tr class="diffchanged"><td class="diffline">826 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d370<span class="dp">·</span>0180382<del>6</del><span class="dp">·</span><del>41e8</del>0000<span class="dp">·</span>00000002<span class="dp">·</span>00000001<span class="dp">·</span>..8<del>&amp;A.</del>..........</td><td class="diffline">826 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d370<span class="dp">·</span>0180382<ins>8</ins><span class="dp">·</span><ins>a730</ins>0000<span class="dp">·</span>00000002<span class="dp">·</span>00000001<span class="dp">·</span>..8<ins>(.0</ins>..........</td></tr>
+<tr class="diffchanged"><td class="diffline">827 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d380<span class="dp">·</span>00000006<span class="dp">·</span>00000180<span class="dp">·</span>382<del>641e8</del><span class="dp">·</span>00000010<span class="dp">·</span>........8<del>&amp;A.</del>....</td><td class="diffline">827 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d380<span class="dp">·</span>00000006<span class="dp">·</span>00000180<span class="dp">·</span>382<ins>8a730</ins><span class="dp">·</span>00000010<span class="dp">·</span>........8<ins>(.0</ins>....</td></tr>
+<tr class="diffchanged"><td class="diffline">828 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d390<span class="dp">·</span>00020000<span class="dp">·</span>00010000<span class="dp">·</span>00030000<span class="dp">·</span>0180382<del>6</del><span class="dp">·</span>..............8<del>&amp;</del></td><td class="diffline">828 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d390<span class="dp">·</span>00020000<span class="dp">·</span>00010000<span class="dp">·</span>00030000<span class="dp">·</span>0180382<ins>8</ins><span class="dp">·</span>..............8<ins>(</ins></td></tr>
+<tr class="diffchanged"><td class="diffline">829 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d3a0<span class="dp">·</span><del>41e8</del>0000<span class="dp">·</span>00260002<span class="dp">·</span>00000002<span class="dp">·</span>00000004<span class="dp">·</span><del>A.</del>...&amp;..........</td><td class="diffline">829 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d3a0<span class="dp">·</span><ins>a730</ins>0000<span class="dp">·</span>00260002<span class="dp">·</span>00000002<span class="dp">·</span>00000004<span class="dp">·</span><ins>.0</ins>...&amp;..........</td></tr>
+<tr class="diffchanged"><td class="diffline">830 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d3b0<span class="dp">·</span>00000180<span class="dp">·</span>382<del>641e8</del><span class="dp">·</span>00000042<span class="dp">·</span>00010000<span class="dp">·</span>....8<del>&amp;A.</del>...B....</td><td class="diffline">830 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d3b0<span class="dp">·</span>00000180<span class="dp">·</span>382<ins>8a730</ins><span class="dp">·</span>00000042<span class="dp">·</span>00010000<span class="dp">·</span>....8<ins>(.0</ins>...B....</td></tr>
+<tr class="diffchanged"><td class="diffline">831 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d3c0<span class="dp">·</span>00010000<span class="dp">·</span>00000000<span class="dp">·</span>0180382<del>6</del><span class="dp">·</span><del>41e8</del>0000<span class="dp">·</span>..........8<del>&amp;A.</del>..</td><td class="diffline">831 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d3c0<span class="dp">·</span>00010000<span class="dp">·</span>00000000<span class="dp">·</span>0180382<ins>8</ins><span class="dp">·</span><ins>a730</ins>0000<span class="dp">·</span>..........8<ins>(.0</ins>..</td></tr>
+<tr class="diffunmodified"><td class="diffline">832 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d3d0<span class="dp">·</span>00680000<span class="dp">·</span>00000001<span class="dp">·</span>000002bc<span class="dp">·</span>00000180<span class="dp">·</span>.h..............</td><td class="diffline">832 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d3d0<span class="dp">·</span>00680000<span class="dp">·</span>00000001<span class="dp">·</span>000002bc<span class="dp">·</span>00000180<span class="dp">·</span>.h..............</td></tr>
+<tr class="diffchanged"><td class="diffline">833 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d3e0<span class="dp">·</span>382<del>641e8</del><span class="dp">·</span>00000026<span class="dp">·</span>00000000<span class="dp">·</span>00010000<span class="dp">·</span>8<del>&amp;A.</del>...&amp;........</td><td class="diffline">833 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d3e0<span class="dp">·</span>382<ins>8a730</ins><span class="dp">·</span>00000026<span class="dp">·</span>00000000<span class="dp">·</span>00010000<span class="dp">·</span>8<ins>(.0</ins>...&amp;........</td></tr>
+<tr class="diffchanged"><td class="diffline">834 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d3f0<span class="dp">·</span>03b80000<span class="dp">·</span>0180382<del>6</del><span class="dp">·</span><del>41e8</del>0000<span class="dp">·</span>00000000<span class="dp">·</span>......8<del>&amp;A.</del>......</td><td class="diffline">834 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d3f0<span class="dp">·</span>03b80000<span class="dp">·</span>0180382<ins>8</ins><span class="dp">·</span><ins>a730</ins>0000<span class="dp">·</span>00000000<span class="dp">·</span>......8<ins>(.0</ins>......</td></tr>
+<tr class="diffunmodified"><td class="diffline">835 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d400<span class="dp">·</span>0005006f<span class="dp">·</span>a6530069<span class="dp">·</span>0063006f<span class="dp">·</span>006e0073<span class="dp">·</span>...o.S.i.c.o.n.s</td><td class="diffline">835 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d400<span class="dp">·</span>0005006f<span class="dp">·</span>a6530069<span class="dp">·</span>0063006f<span class="dp">·</span>006e0073<span class="dp">·</span>...o.S.i.c.o.n.s</td></tr>
+<tr class="diffunmodified"><td class="diffline">836 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d410<span class="dp">·</span>00080f42<span class="dp">·</span>e585006b<span class="dp">·</span>0078006d<span class="dp">·</span>006c0067<span class="dp">·</span>...B...k.x.m.l.g</td><td class="diffline">836 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d410<span class="dp">·</span>00080f42<span class="dp">·</span>e585006b<span class="dp">·</span>0078006d<span class="dp">·</span>006c0067<span class="dp">·</span>...B...k.x.m.l.g</td></tr>
+<tr class="diffunmodified"><td class="diffline">837 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d420<span class="dp">·</span>00750069<span class="dp">·</span>0035000b<span class="dp">·</span>086c7362<span class="dp">·</span>006d0061<span class="dp">·</span>.u.i.5...lsb.m.a</td><td class="diffline">837 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d420<span class="dp">·</span>00750069<span class="dp">·</span>0035000b<span class="dp">·</span>086c7362<span class="dp">·</span>006d0061<span class="dp">·</span>.u.i.5...lsb.m.a</td></tr>
+<tr class="diffunmodified"><td class="diffline">838 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d430<span class="dp">·</span>006e0067<span class="dp">·</span>00610072<span class="dp">·</span>00650061<span class="dp">·</span>00640065<span class="dp">·</span>.n.g.a.r.e.a.d.e</td><td class="diffline">838 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d430<span class="dp">·</span>006e0067<span class="dp">·</span>00610072<span class="dp">·</span>00650061<span class="dp">·</span>00640065<span class="dp">·</span>.n.g.a.r.e.a.d.e</td></tr>
+<tr class="diffunmodified"><td class="diffline">839 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d440<span class="dp">·</span>00720010<span class="dp">·</span>07964be3<span class="dp">·</span>006d0061<span class="dp">·</span>006e0067<span class="dp">·</span>.r....K..m.a.n.g</td><td class="diffline">839 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d440<span class="dp">·</span>00720010<span class="dp">·</span>07964be3<span class="dp">·</span>006d0061<span class="dp">·</span>006e0067<span class="dp">·</span>.r....K..m.a.n.g</td></tr>
+<tr class="diffunmodified"><td class="diffline">840 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d450<span class="dp">·</span>00610072<span class="dp">·</span>00650061<span class="dp">·</span>00640065<span class="dp">·</span>00720075<span class="dp">·</span>.a.r.e.a.d.e.r.u</td><td class="diffline">840 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d450<span class="dp">·</span>00610072<span class="dp">·</span>00650061<span class="dp">·</span>00640065<span class="dp">·</span>00720075<span class="dp">·</span>.a.r.e.a.d.e.r.u</td></tr>
+<tr class="diffunmodified"><td class="diffline">841 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d460<span class="dp">·</span>0069002e<span class="dp">·</span>00720063<span class="dp">·</span>00090ceb<span class="dp">·</span>7c630076<span class="dp">·</span>.i...r.c....|c.v</td><td class="diffline">841 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x0003d460<span class="dp">·</span>0069002e<span class="dp">·</span>00720063<span class="dp">·</span>00090ceb<span class="dp">·</span>7c630076<span class="dp">·</span>.i...r.c....|c.v</td></tr>
+</table>        </div>
+        <div class="difference">
+          <div class="diffheader">
+          <div class="diffcontrol">⊟</div>
+          <div><span class="diffsize">356 B</span></div>
+          <div id="com.georgefb.mangareader.original-files---com.georgefb.mangareader.original-files-bin---com.georgefb.mangareader.original-files-bin-mangareader---readelf---wide---decompress---hex-dump-.gnu_debuglink---"><span class="source">readelf --wide --decompress --hex-dump=.gnu_debuglink {}</span>
+            <a class="anchor" href="#com.georgefb.mangareader.original-files---com.georgefb.mangareader.original-files-bin---com.georgefb.mangareader.original-files-bin-mangareader---readelf---wide---decompress---hex-dump-.gnu_debuglink---">¶</a>
+          </div>
+          </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 5 lines modified</td><td colspan="2">Offset 1, 5 lines modified</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td><td class="diffline">1 </td><td class="diffpresent">Hex<span class="dp">·</span>dump<span class="dp">·</span>of<span class="dp">·</span>section<span class="dp">·</span>&#x27;.gnu_debuglink&#x27;:</td></tr>
+<tr class="diffunmodified"><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>6d616e67<span class="dp">·</span>61726561<span class="dp">·</span>6465722e<span class="dp">·</span>64656275<span class="dp">·</span>mangareader.debu</td><td class="diffline">2 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000000<span class="dp">·</span>6d616e67<span class="dp">·</span>61726561<span class="dp">·</span>6465722e<span class="dp">·</span>64656275<span class="dp">·</span>mangareader.debu</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>67000000<span class="dp">·</span><del>edaf3448</del><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>g...<del>..4H</del></td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>0x00000010<span class="dp">·</span>67000000<span class="dp">·</span><ins>5a74e72f</ins><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>g...<ins>Zt./</ins></td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+</table>        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+Generated by
+<a href="https://diffoscope.org" rel="noopener noreferrer" target="_blank">
+diffoscope</a> 215
+</div>
+</body>
+</html>
+

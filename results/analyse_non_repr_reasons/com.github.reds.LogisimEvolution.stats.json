@@ -1,0 +1,32 @@
+{
+    "name": "com.github.reds.LogisimEvolution",
+    "build_sucess": true,
+    "is_reproducible": false,
+    "use_fixed_time": false,
+    "commit": "016de5a4063cf8d88e37f61fba07a836984b89d5f813a96b29a9eacb6bc02f64",
+    "branch": "stable",
+    "time_of_rebuild": "2021-11-09 21:26:03+00:00",
+    "timestamp_of_rebuild": 1636493163.0,
+    "git-commit": "b54f7c39f461e47d17c6fc2c4b4317a4b480790f master",
+    "flatpak-deps": {
+        "org.freedesktop.Sdk.Extension.openjdk/x86_64/21.08": "7806885951016efaa43663067201e3f23030c53048aedb56349afcf93070a505",
+        "org.flatpak.Builder/x86_64/stable": "8ee6795b594c760402c53894ca9b2e32ac6489932a0419f90ced19622d3b4b5b",
+        "org.freedesktop.Sdk/x86_64/21.08": "1fad7974d6fe02c6ac83e3e804e0317f4d8d3528dcd5087002e1b501ddadbb6b",
+        "org.freedesktop.Platform/x86_64/21.08": "16d161d8a71701b80fa4bca12812a22c19dc0641b3571fe88c517c84da94c5b5"
+    },
+    "build_time": 17.912378072738647,
+    "cache_size": 26056705,
+    "git_size": 0,
+    "dl_size": 26040242,
+    "bad_files": 1,
+    "total_files": 88,
+    "repro_score": 0.9886363636363636,
+    "original_hash": "8b4822b838b91bec29b4956cefba82b0242beeed",
+    "rebuild_hash": "b6afed4c91d16c8d7dde38bf42cb2243a9820fd2",
+    "original_bin_hash": "439a382f9b940ece141abddcdb9d9b40312dbeeb",
+    "rebuild_bin_hash": "439a382f9b940ece141abddcdb9d9b40312dbeeb",
+    "original_elf_hash": "2d9ff002e7851d4d084b83100bd6d7507484400c",
+    "rebuild_elf_hash": "2d9ff002e7851d4d084b83100bd6d7507484400c",
+    "is_bin_reproducible": true,
+    "is_elf_reproducible": true
+}
