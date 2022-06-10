@@ -184,13 +184,21 @@ and also compare \rb as a whole to other techniques to secure the supply chain.
 
 \section{Motivation}
 No tools exist to easily redo a build of a \fp from \fh, consequently there are
-no measurement of how many programs are reproducible there. This implies that
-there are no knowledge about issues, specific to \fp, concerning the
-feasibility of \rb there. The main goal, therefore, is to have a first idea of
-the problems of applying \rb to \fp and then to use that knowledge to further
-improve the situation. The main challenge is to redo the build in an
-environment that matches as much as possible what is done on \fh, even though
-important information is missing.
+no measurement of how many flatpaks are reproducible. This implies that there
+are no knowledge about issues, specific to \fp, concerning the feasibility of
+\rb there. The main goal, is to have a first idea of the problems of applying
+\rb to \fp and then to use that knowledge to further improve the situation. The
+challenge is that since no one really tried to know if flatpaks are easily
+reproducible or not, we will not have access to all the information to properly
+recreate a build environment which resemble the one used to build programs on
+\fh. Indeed, on Debian for instance, it is only after they started to measure
+the amount of reproducible program on their repoistories, that they could
+improve the situation. And as a matter of fact, they started with fairly low
+ratio of reproducible programs, at the begining (roughly
+60\%)~\cite{debian:repro}. We therefore expect in this project to reach a
+fairly low amount of reproducible program, but also to find ways to greatly
+improve it.
+
 
 %%%%%%%%%%%%%%%%%%%%
 \chapter{Background}
