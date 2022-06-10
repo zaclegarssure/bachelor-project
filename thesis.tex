@@ -145,7 +145,7 @@ reported as reproducible as of \today~\cite{debian:repro}.
     \caption{A reproducible builds setup. Here the end user can compare the
     checksum of the package they download, with a set of independent
     rebuilders. Since in majority the checksums do not match, they reject the
-    package. Adapted from \cite{DBLP:journals/corr/abs-2104-06020}}.
+    package. Adapted from~\cite{DBLP:journals/corr/abs-2104-06020}.}
     \label{fig:reprobuild}
 \end{figure}
 
@@ -168,7 +168,7 @@ to better simulate the build environment.
 After rebuilding 729 programs, which is about half of \fh, we have 41\%
 reproducible programs, which is much lower than what is found on Debian. This
 is mainly due to the lack of certain information, such as the time at which the
-build originally took place. Consequently we propose several improvements to
+build originally took place. Consequently, we propose several improvements to
 \emph{\fb}, the main tool used to build \fp on \fh, which is also the one
 capable of recording some missing build information. We also introduce new
 notions to characterize how reproducible a program is, such that we can still
@@ -192,9 +192,9 @@ challenge is that since no one really tried to know if flatpaks are easily
 reproducible or not, we will not have access to all the information to properly
 recreate a build environment which resemble the one used to build programs on
 \fh. Indeed, on Debian for instance, it is only after they started to measure
-the amount of reproducible program on their repoistories, that they could
+the amount of reproducible program on their repositories, that they could
 improve the situation. And as a matter of fact, they started with fairly low
-ratio of reproducible programs, at the begining (roughly
+ratio of reproducible programs, at the beginning (roughly
 60\%)~\cite{debian:repro}. We therefore expect in this project to reach a
 fairly low amount of reproducible program, but also to find ways to greatly
 improve it.
@@ -381,7 +381,7 @@ to fix, and make reproducible.
 \label{chap:impl}
 %%%%%%%%%%%%%%%%%%%%%%%%
 
-For simplicity and portability, \sysname is written in python, using the poetry
+For simplicity, and portability, \sysname is written in python, using the poetry
 package manager, both available on any platform susceptible to run \fp. Other
 than python, it relies on GNU coreutils, which should also be supported on most
 Linux distribution, and optionally uses two external tools, diffoscope and
@@ -425,7 +425,7 @@ comparison, we first deploy each commit, meaning we copy its content in a
 concrete folder and then perform the checksums on both. During all these steps
 we record different statistics, and serialize them at the end. These statistics
 include, among other things, if the build succeeded or not, what dependencies
-were used, what checksums were obtained. This provides an easy way to analyse
+were used, what checksums were obtained. This provides an easy way to analyze
 the result of a rebuild and is also a nice way to communicate it. It can be
 signed and used as a replacement to the simple checksum used in
 \autoref{fig:reprobuild}. The code is small (a bit more than a thousand line)
@@ -545,7 +545,7 @@ that moment.}
 42\% applications on \fh are reproducible. As a comparison, at the same time,
 Arch Linux has 86.4\% reproducibility on their
 repository~\cite{arch-rebuilderd}, which is much better than our results. On
-the other hand, we reach 58\% ELF-reproducibility, meaning that in practise we
+the other hand, we reach 58\% ELF-reproducibility, meaning that in practice we
 can still use \rb on these to provide integrity, since non ELF files can be
 audited manually.
 
@@ -565,7 +565,7 @@ environment.
 To understand why some applications are not reproducible on \fp we first look
 at one source of error which we already knew about: dependencies' version
 guessing. We can approximate the probability of the error introduced by
-guessing some of the build dependencies, in the following way: For a particular
+guessing some build dependencies, in the following way: For a particular
 application, the time of the GitHub commit and the \ot commit are known, and the
 build happens in between. We make a commit guessing error when an update of one
 dependency is published between the start of the build and the \ot commit. If
@@ -589,7 +589,7 @@ technique is therefore accurate and cannot explain the amount of
 non-reproducible programs.
 
 \noindent
-To further answer PQ2, we also manually analyse the output of \dfc on 200 rebuilds,
+To further answer PQ2, we also manually analyze the output of \dfc on 200 rebuilds,
 using commit \verb|2685df5edcc00a8e4585fa694859223cb32db6d2| of \sysname. For
 simplicity we select the same 200 applications which we build twice for the
 second experiment. 9 of them did not build and we remove them from the analysis.
@@ -680,7 +680,7 @@ built with another processor model, and it does appear on certain \fp. The
 identification process is a bit more complicated, without looking at the build
 script directly. Only 3 programs are for sure compiled using mtune, because it
 appears in some of their metadata. In particular, the issue come from a common
-library, called ImageMagick. A second issue is that the \fhbb runs on a Intel
+library, called ImageMagick. A second issue is that the \fhbb runs on an Intel
 broadwell CPU, like the Arch Laptop used in some experiments. This means that a
 program compiled with mtune, will not be detected as not reproducible (for this
 reason) on the laptop.
@@ -760,7 +760,7 @@ that gets an update now, will not be affected anymore. To improve a bit more,
 we also optionally post process the artifact through strip-nondeterminism. This
 should counter errors such as timestamps in archives or images. Overall this
 would affect 129 programs, and make 67 of them completely reproducible, on the
-191 manually analysed program from \autoref{sec:pq2}. The theoretical results
+191 manually analyzed program from \autoref{sec:pq2}. The theoretical results
 are shown in \autoref{tab:rebuild-fix}.
 
 \begin{table}[h]
@@ -831,7 +831,7 @@ pre-built compilers, provided by the SDK in the case of \fp. One way to counter
 this would be to use \rb on compilers themselves, but since they are compiled
 using another compiler, for instance a previous version, the process of
 rebuilding needs to be applied recursively. Therefore, other projects, like
-\emph{Bootsrappable Builds}, attempts to provide a clear and simple path from
+\emph{Bootstrappable Builds}, attempts to provide a clear and simple path from
 source code to binary-blobs like compiler, that can be itself verified using
 \rb.
 
@@ -846,7 +846,7 @@ analysis, we provide several changes to \fb to improve this number, in theory
 to 60\%. For future work, we should develop a way to share the result of
 \sysname, and provide the ability to \fp end-users to easily query independent
 rebuilders, before trusting a package. Also, we are interested in using RepFix
-to automatically analyse and patch non-reproducible flatpaks.
+to automatically analyze and patch non-reproducible flatpaks.
 
 \cleardoublepage
 \phantomsection
