@@ -56,10 +56,13 @@ prove that the path between the source code and the final artifact is
 legitimate. Here we look at the possibility of using reproducible builds
 with \fp, a packaging technology used to ship the same binaries on multiple
 Linux distributions. In particular, we focus on \fh, its main repository.
-We present a tool, called \sysname, which rebuild a package available on
+We present a tool, called \sysname, which rebuilds a package available on
 \fh, by recreating a minimal environment. We then measure the amount of
-non-reproducible packages, and further analyze their differences to
-understand the reasons they are not reproducible.
+non-reproducible packages, and find out that it represents 59\% of packages
+on \fh. We then do further analysis to understand why they are not
+reproducible and conclude that we can reach 60\% of reproducible programs
+by providing extra information to recreate the environment, the key one
+being the time at which the build take place.
 \end{abstract}
 
 \maketoc
@@ -178,6 +181,16 @@ the concept used in the next chapters. In \autoref{chap:design} and
 analysis of the main causes of non-reproducibility. Finally, in
 \autoref{chap:relw} we discuss and compare our approach to other similar tools,
 and also compare \rb as a whole to other techniques to secure the supply chain.
+
+\section{Motivation}
+No tools exist to easily redo a build of a \fp from \fh, consequently there are
+no measurement of how many programs are reproducible there. This implies that
+there are no knowledge about issues, specific to \fp, concerning the
+feasibility of \rb there. The main goal, therefore, is to have a first idea of
+the problems of applying \rb to \fp and then to use that knowledge to further
+improve the situation. The main challenge is to redo the build in an
+environment that matches as much as possible what is done on \fh, even though
+important information is missing.
 
 %%%%%%%%%%%%%%%%%%%%
 \chapter{Background}
@@ -329,6 +342,7 @@ open-source, we merely follow the same code, we just ignore the verification
 and exporting steps done at the end.
 
 \section{Measuring reproducibility}
+\label{sec:measure}
 At the end of a rebuild we compare the checksum of the original package, with
 the rebuilt one, and conclude that the build is reproducible if the two are the
 same. This follows a very strict definition of reproducibility, and we
@@ -414,13 +428,87 @@ making it easy to audit.
 \label{chap:eval}
 %%%%%%%%%%%%%%%%%%%%
 
-\section{Current reproducibility of \fh}
+In this part, we answer these two main project questions:
+\begin{itemize}
+    \item PQ1: how many applications are reproducible on \fh~?
+    \item PQ2: what are the main reasons some applications are not reproducible ?
+\end{itemize}
+A third minor question is to know if the repro-score introduced in
+\autoref{sec:measure} is a good metric. We answer it in
+\autoref{sec:reprscore}. We also discuss some improvements that can be done to
+the \fh supply chain in \autoref{sec:imp}
+
+\noindent
+We run several experiments, on three different machines, with the following
+specifications:
+\paragraph{Arch desktop}
+\begin{itemize}
+    \label{arch-desktop}
+    \item OS: Arch Linux
+    \item Kernel: 5.18.1-arch1-1
+    \item CPU: AMD Ryzen 7 2700X (16)
+    \item GPU: NVIDIA GeForce GTX 760
+    \item Memory: 16007MiB
+\end{itemize}
+Running version 1.12.7 of \fp, from the Arch repository
+\paragraph{Arch laptop}
+\begin{itemize}
+    \label{arch-laptop}
+    \item OS: Arch Linux
+    \item Kernel: 5.18.0-arch1-1
+    \item CPU: Intel i5-5300U (4)
+    \item GPU: Intel HD Graphics 5500
+    \item Memory: 7828MiB
+\end{itemize}
+Running version 1.12.7 of \fp, from the Arch repository.
+\paragraph{Fedora desktop}
+\begin{itemize}
+    \label{arch-desktop}
+    \item OS: Fedora Linux 35 (Workstation Edition)
+    \item Kernel: 5.17.5-200.fc35.x86\_64
+    \item CPU: Intel i7-3770 (8)
+    \item GPU: NVIDIA GeForce GTX 660 Ti
+    \item Memory: 7886MiB
+\end{itemize}
+Running version 1.12.7 of \fp, from the Fedora repository (rpm).
+
+\noindent
+For the first experiment, we run \sysname on as many applications as possible,
+on the three machines, all using the commit
+\verb|6668247ca253c0d45e387e109ce0c8d8a29f893d| of \sysname.
+As of \today, \fh contains 1728 programs, categorized as an application (by
+opposition with runtimes). We only focus on applications because those are
+built using the \fhbb. In order to save time, we only rebuild 729 of them,
+which we selected at random.
+We also design a second experiment. We rebuild some 
+non-reproducible programs, twice, on two different machines, and see if we
+obtain the same checksum on both. If that is the case, the program can be
+considered as theoretically reproducible. Because it should be reproducible but
+the way it is rebuilt by \sysname is not matching enough what is done by the
+\fhbb. The two machines used are the Arch desktop and the Fedora desktop, both
+using commit \verb|18b9f49cf39d91a11fc5dbcac67098ff8c528840| of \sysname.
+Instead of rebuilding everything we reduce the number of program
+we consider, to save time.
+During the previous experiment we measured the build time of each program, and
+the amount of dependencies fetched from the internet. Using this information we
+characterize the total time to rebuild a program as such: $\frac{deps}{internet
+speed} + rebuild time$ plus some constant overhead. We can reduce the total
+amount of time by 2 by removing 7\% of them, as shown in
+\autoref{fig:buildtime}. To further reduce it, we select 200 programs to
+rebuild, at random.
+
+\begin{figure}[h]
+    \center{
+        \includegraphics[width=\textwidth]{figures/buildtime.pdf}
+    }
+    \caption{Cumulative build time, 7.64\% of programs
+    account for half of the total build time, we therefore remove them.}
+    \label{fig:buildtime}
+\end{figure}
+
+\section{PQ1: Current reproducibility of \fh}
 \label{sec:cr}
-We evaluate the reproducibility of \fh by running our code on as many
-applications as possible. As of \today, \fh contains 1728 programs, categorized
-as an application (by opposition with runtimes). We only focus on applications
-because those are built using the \fhbb. In order to save time, we only rebuild
-729 of them and have the following results:
+From the first experiment, we obtain the following results:
 
 \begin{table}[h]
     \centering
@@ -437,27 +525,46 @@ because those are built using the \fhbb. In order to save time, we only rebuild
             ELF\% & 58\% & 34.5\% & 7.5\% \\
             \hline
         \end{tabular}
-    \caption{Reproducibility over 729 programs}
+    \caption[JSPP]{Reproducibility over 729 programs~\footnotemark}
     \label{tab:rebuild-all}
 \end{table}
-
-Two minor things need to be clarified. Here, ELF which stands for
+\footnotetext{Two minor things need to be clarified. Here, ELF which stands for
 ELF-reproducibility, only compares files inside /app/bin and /app/lib, which
 captures the majority of ELF files but not all. This was fixed for the other
 experiments. Secondly, the binary-reproducibility test is not yet present at
-that moment.
+that moment.}
 
-As a comparison, at the same time, Arch Linux has 86.4\% reproducibility on
-their repository~\cite{arch-rebuilderd}, which is much better than our results.
-Two sources of error are already known, first, some dependencies' versions are
-guessed, and second the exact time of the build is uncontrolled. We can
-approximate the probability of the first error in the following way: The time
-of the GitHub commit and the \ot commit are known, and the build happens in
-between. We make a commit guessing error when an update of one dependency is
-published between the start of the build and the \ot commit. If we assume that
-the start of the build is uniformly distributed between the GitHub commit
-$GH_{commit}$ and the \ot commit $OT_{commit}$, then we make an error when the
-start is behind the update of the dependency closest to $OT_{commit}$:
+42\% applications on \fh are reproducible. As a comparison, at the same time,
+Arch Linux has 86.4\% reproducibility on their
+repository~\cite{arch-rebuilderd}, which is much better than our results. On
+the other hand, we reach 58\% ELF-reproducibility, meaning that in practise we
+can still use \rb on these to provide integrity, since non ELF files can be
+audited manually.
+
+\label{sec:theo-repro}
+After running the second experiment, we obtain the following results. By
+building twice 185 programs, 70 of them (37.6\%) are in theory reproducible,
+and 73 are binary-reproducible. Note that 15 programs did not build on both
+machines, hence they were removed. The code that evaluate ELF-reproducibility
+was buggy at that moment. If we extrapolate from that sample we conclude that
+we could reach 61\% reproducibility by better mimicking the original build
+environment.
+
+
+\section{PQ2: Causes of non reproducibility}
+\label{sec:pq2}
+
+To understand why some applications are not reproducible on \fp we first look
+at one source of error which we already knew about: dependencies' version
+guessing. We can approximate the probability of the error introduced by
+guessing some of the build dependencies, in the following way: For a particular
+application, the time of the GitHub commit and the \ot commit are known, and the
+build happens in between. We make a commit guessing error when an update of one
+dependency is published between the start of the build and the \ot commit. If
+we assume that the start of the build is uniformly distributed between the
+GitHub commit $GH_{commit}$ and the \ot commit $OT_{commit}$, then we make an
+error when the start is behind the update of the dependency closest to
+$OT_{commit}$:
 \begin{align*}
     P_{error} &= \max_{d \in Dependencies}(P_{error\_guessing\_d}) \\
               &= \max_{d}
@@ -473,85 +580,51 @@ The expected value of the error on all apps on \fh is $19.6$. Our guessing
 technique is therefore accurate and cannot explain the amount of
 non-reproducible programs.
 
+\noindent
+To further answer PQ2, we also manually analyse the output of \dfc on 200 rebuilds,
+using commit \verb|2685df5edcc00a8e4585fa694859223cb32db6d2| of \sysname. For
+simplicity we select the same 200 applications which we build twice for the
+second experiment. 9 of them did not build and we remove them from the analysis.
 
-\section{Theoretical reproducibility}
-\label{sec:theo-repro}
-To better understand \autoref{tab:rebuild-all}, we design the following
-experiment, we rebuild a fraction of the non-reproducible programs, twice, on
-two different machines, and see if we obtain the same checksum on both. If that
-is the case, the program can be considered as theoretically reproducible.
-Because it should be reproducible but the way it is rebuilt by \sysname is not
-matching enough what is done by the \fhbb. Instead of rebuilding everything we
-again reduce the number of program we consider, to save time. The time to
-rebuild a program can be characterized as such: $\frac{deps}{internet speed} +
-rebuild time$ plus some constant overhead, and we can reduce the total amount
-of building time by 2 by removing 7\% of them, as shown in
-\autoref{fig:buildtime}.
+\paragraph*{Timestamps}
+19 have timestamps embedded in their static strings, or in some files'
+metadata. They are equal to the value of \sde, meaning that it is easy to
+manipulate them. Furthermore, 26 programs have what we call \emph{uncontrolled
+timestamps} embedded in the final package. Uncontrolled timestamps are not
+affected by \sde, and therefore \sysname cannot force their value.
 
-\begin{figure}[h]
-    \center{
-        \includegraphics[width=\textwidth]{figures/buildtime.pdf}
-    }
-    \caption{Cumulative build time, 7.64\% of programs
-    account for half of the total build time, we therefore remove them.}
-    \label{fig:buildtime}
-\end{figure}
-
-By building twice 185 programs, 70 of them (37.6\%) are in theory reproducible,
-and 73 are binary-reproducible. The code that evaluate ELF-reproducibility was
-buggy at that moment. If we extrapolate from that sample we conclude that we
-could reach 61\% reproducibility by better mimicking the original build
-environment.
-
-\section{Causes}
-To explain why these programs are not reproducible, and also why some of them
-should be, we manually analyse each result and label the most common pattern we
-see. To save time again, we only consider the 185 ones that were rebuilt in
-\autoref{sec:theo-repro}. To perform the analysis we look at the difference
-between the two artifacts using \dfc.
-
-\subsection*{Timestamps}
-18 of the 185 programs have timestamps embedded in their static strings, or in
-some files' metadata, like images or archives. They are equal to the value of
-\sde, meaning that it is easy to manipulate them. Furthermore, 24 programs have
-what we call \emph{uncontrolled timestamps} embedded in the final package.
-Uncontrolled timestamps are not affected by \sde, and therefore \sysname cannot
-force their value. To address the first type of timestamps, we propose a
-modification to \fb, to include the value of \sde in the resolved
-manifest\footnote{The PR is available here:
-\url{https://github.com/flatpak/flatpak-builder/pull/470}}.
-
-\subsection*{Debug link}
+\paragraph*{Debug link}
 When applicable, debug symbols of a program on \fh are available, as an
 extension. In order to do so, debug symbols are stripped and put in a separate
 \emph{gnu\_debuglink} file, and a section called .gnu-debug-link is added to
 the source ELF binary. This section contains the path to the debug symbol file,
 and a checksum of this file, this checksum is a typical source of
-non-reproducibility, 63 of the analyzed programs are affected.
+non-reproducibility, 75 of the analyzed programs are affected.
 
-\subsection*{Resolved manifest serialization}
+\paragraph*{Resolved manifest serialization}
 The second most important source of non-reproducibility is the resolved
-manifest file. Indeed, while this should be serialized in exactly the same way,
-regardless of the environment, 45 programs have an extra newline in the version
-from the \fhbb. This newline is inside the tag array, when it is empty, but
-otherwise both contents are logically the same. To understand this we need to
-look at the publishing time (\ot commit time) of the packages. We observe that
-every package affected by this issue has been published before January 2022.
-This indicates that the \fhbb might behave differently before, and since
-\sysname copies what is done on the last commit of the build bot, we might have
-a new source of error. And indeed, commit \verb|bfcaaf2| switch to the \fb from
-\fh, while before it would use the one from the host, which is completely
-unknown~\cite{gh:ptdr}. This has two consequences, first this issue will be
-solved automatically with time, since any package updated after January 4,
-2022, will use the right \fb version. Secondly, it means on the programs
+manifest file. Indeed, while this should be serialized in exactly the same way
+(it is a json file), regardless of the environment, 50 programs have an extra
+newline in the version from the \fhbb. This newline is inside every empty
+arrays, but otherwise both contents are logically the same. To understand this
+we need to look at the publishing time (\ot commit time) of the packages. We
+observe that every package affected by this issue has been published before
+January 2022. This indicates that the \fhbb might behave differently before,
+and since \sysname copies what is done on the last commit of the build bot, we
+might have a new source of error. And indeed, commit \verb|bfcaaf2| switch to
+the \fb from \fh, while before it would use the one from the host, which is
+completely unknown~\cite{gh:ptdr}. This has two consequences, first this issue
+will be solved automatically with time, since any package updated after January
+4, 2022, will use the right \fb version. Secondly, it means on the programs
 rebuilt in \autoref{sec:cr}, 182 were built using the wrong version of \fb.
 Furthermore, 134 were reported as not reproducible.
 
-\subsection*{.ro\_data}
+\paragraph*{.ro\_data}
 The .ro\_data section is a common location of non-reproducibility, first
 because it includes static strings that may have timestamps or path information
 in them, but there is another common pattern shown in \autoref{fig:rodata}.
-Some section only differ at some bytes, with always the same difference.
+Some section only differ at some bytes, with always the same pattern. This
+affects 37 applications.
 \begin{figure}[h]
     \center{
         \includegraphics[width=\textwidth]{figures/random_ro_diffoscope.png}
@@ -562,37 +635,36 @@ Some section only differ at some bytes, with always the same difference.
     \label{fig:rodata}
 \end{figure}
 
-\subsection*{Python files}
+\paragraph*{Python files}
 Python's byte code files (\verb|.pyc|) are not reproducible, on 29 programs.
 Three common patterns appear. First, certain serialization are not
 deterministic, like with frozenset, as mentioned already in \autoref{chap:bg}.
 Some of these bit of non-determinism are due to the way python compute hashes,
 based on a random seed. This seed can be fixed by overriding the PYTHONHASHSEED
-environment variable, and can be done on a per-program basis, by
-overriding it in the manifest file. Another source of problems is how certain
-temporary path used by the pip package manager, are embedded in the final
-\verb|.pyc| file. Those paths have random names, and points to files which are
-not even present in the final \fp, since they are at /tmp. Those are therefore
-useless but not deterministic bit of information.
-Lastly, a commonly used python library, called sysconfig, embed a description
-of the active environment variable at the time of the build. This should not be
-a problem, they should always be the same since those are controlled
-inside the sandbox. However, when running a \fp, every extension related is
-automatically mounted inside the sandbox. In particular, every SDK-extensions
-or runtime-extensions available on the host system (not only those specified in
-the manifest) are mounted and are added to the \ldlp environment variable. This
-creates yet another source of uncontrolled build inputs. In theory a program
-could build completely differently depending on the value of \ldlp.
+environment variable, and can be done on a per-program basis, by overriding it
+in the manifest file. Another source of problems is how certain temporary path
+used by the pip package manager, are embedded in the final \verb|.pyc| file.
+Those paths have random names, and points to files which are not even present
+in the final \fp, since they are at /tmp. Those are therefore useless but not
+deterministic bit of information. Lastly, a commonly used python library,
+called sysconfig, embed a description of the active environment variable at the
+time of the build. This should not be a problem, they should always be the same
+since those are controlled inside the sandbox. However, when running a \fp,
+every extension related is automatically mounted inside the sandbox. In
+particular, every SDK-extensions or runtime-extensions available on the host
+system (not only those specified in the manifest) are mounted and are added to
+the \ldlp environment variable. This creates yet another source of uncontrolled
+build inputs.
 
-\subsection*{Path}
+\paragraph*{Path}
 A general source of non-reproducibility is the path in which the build take
-place. This is a minor issue in the case of \fp, with \fb, since the build take
+place. This is a minor issue in the case of \fp, since the build take
 place in the sandbox, where most paths are the same, regardless of the
 environment. However, for consistency reasons, the hostname is replicated
 inside the sandbox, and a /home/<username> directory is created. This can
-affect certain build, in our case only 6 programs were affected.
+affect certain applications, in our case only 8.
 
-\subsection*{Hardware dependant compilation}
+\paragraph*{Hardware dependant compilation}
 While, for portability, \fp cannot use extended instruction set, they can still
 be optimized to better run on specific processors, with the usage of the
 \verb|-mtune| compilation flag for instance. This breaks \rb if the program is
@@ -600,9 +672,12 @@ built with another processor model, and it does appear on certain \fp. The
 identification process is a bit more complicated, without looking at the build
 script directly. Only 3 programs are for sure compiled using mtune, because it
 appears in some of their metadata. In particular, the issue come from a common
-library, called ImageMagick.
+library, called ImageMagick. A second issue is that the \fhbb runs on a Intel
+broadwell CPU, like the Arch Laptop used in some experiments. This means that a
+program compiled with mtune, will not be detected as not reproducible (for this
+reason) on the laptop.
 
-\subsection*{Appstream}
+\paragraph*{Appdata}
 The last common issue resides in the appdata file. This file provides metadata
 to correctly present the program in an app store or through a package manager.
 The whole specification is not important, what is relevant for \rb are the way
@@ -619,16 +694,16 @@ the links from the appdata file. Or the link might point to a newer version of
 the screenshot, in which case \fb mirror another screenshots, and the links
 will be different, since they are based on the md5sum of the file. This overall
 result in an additional form of build dependency which cannot be controlled.
+It affects 14 applications.
 
-\section*{Time influence}
-\label{sec:timeinf}
-To better understand how time influences a build, we add an option to manipulate
-the time of the build used by \sysname, and we observe the following things.
-Obviously timestamps which match the \sde variable change but so do the
-\emph{.ro\_data} sections and the \emph{.gnu\_debuglink}.
+\noindent
+Finally To better understand how time influences a build, we add an option to
+manipulate the time of the build used by \sysname, and we observe the following
+things. Obviously timestamps which match the \sde variable change but so do the
+\verb|.ro\_data| sections and the \verb|.gnu\_debuglink|.
 
 \section{Repro score analysis}
-
+\label{sec:reprscore}
 \begin{figure}[h]
 \centering
 \begin{subfigure}{.5\textwidth}
@@ -655,27 +730,30 @@ repro-score distribution, for packages which are reproducible on Arch, and for
 those which are not, shown in \autoref{fig:repro-scores}. If the difference
 between the two is significant, we conclude that the repro-score is a good
 metric to estimate if a non-reproducible program can easily be made
-reproducible. The reasoning is, \rb on Arch Linux is developed since a few
-years back, and programs which are not reproducible there can be considered as
-hard to make reproducible. We observe the following, both probability
-distributions are similar. Even worse, the one for reproducible packages has a
-bigger tail towards low repro-scores, which is the opposite of what is
-expected.  This makes sense, \autoref{sec:timeinf} shows that a simple
-modification to the \sde variable can lead to a lot of modification in the
-final files, even though the original modification is small.
+reproducible. The reasoning is as follows: \rb on Arch Linux are developed
+since a few years back, and programs which are not reproducible there can be
+considered as hard to make reproducible. Unfortunately in
+\autoref{fig:repro-scores}, both probability distributions are similar. Even
+worse, the one for reproducible packages has a bigger tail towards low
+repro-scores, which is the opposite of what is expected. This makes sense in
+reality. We already showed that a simple modification to the \sde variable can
+lead to a lot of modification in the final files, even though the original
+modification is small.
 
 \section{Improvements}
+\label{sec:imp}
 Considering the different main reasons flatpaks are not reproducible, we come
 up with several fixes. The first one is to include the value of \sde inside the
 resolved manifest. On top, we include an easier way to override its value when
-calling \fb.
-The second main issue, manifest serialization, will get solved by itself, since
-any program that get an update now, will not be affected anymore.
-To improve a bit more, we also optionally post process the artifact through
-strip-nondeterminism. This should counter errors such as timestamps in archives
-or images.
-Overall this would affect 117 programs, and make 60 of them completely
-reproducible. The theoretical results are shown in \autoref{tab:rebuild-fix}.
+calling \fb~\footnote{The PR is available here:
+\url{https://github.com/flatpak/flatpak-builder/pull/470}}. The second main
+issue, manifest serialization, will get solved by itself, since any program
+that gets an update now, will not be affected anymore. To improve a bit more,
+we also optionally post process the artifact through strip-nondeterminism. This
+should counter errors such as timestamps in archives or images. Overall this
+would affect 129 programs, and make 67 of them completely reproducible, on the
+191 manually analysed program from \autoref{sec:pq2}. The theoretical results
+are shown in \autoref{tab:rebuild-fix}.
 
 \begin{table}[h]
     \centering
@@ -683,15 +761,15 @@ reproducible. The theoretical results are shown in \autoref{tab:rebuild-fix}.
             \hline
             Fix & Affected & Completely fixed\\
             \hline
-            Time & 75 & 32\\
+            Time & 87 & 31\\
             \hline
-            Manifest serialization & 45 & 36 \\
+            Manifest serialization & 50 & 29 \\
             \hline
-            Striping & 8 & 3\\
+            Striping & 7 & 3\\
             \hline
-            Overall & 117\% & 60\\
+            Overall & 129\% & 67\\
             \hline
-            Overall\% & 63.24\% & 32.43\%\\
+            Overall\% & 67.54\% & 35\%\\
             \hline
         \end{tabular}
     \caption{Theoretical benefit of various fixes.}
