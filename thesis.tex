@@ -58,7 +58,7 @@ with \fp, a packaging technology used to ship the same binaries on multiple
 Linux distributions. In particular, we focus on \fh, its main repository.
 We present a tool, called \sysname, which rebuilds a package available on
 \fh, by recreating a minimal environment. We then measure the amount of
-non-reproducible packages, and find out that it represents 59\% of packages
+reproducible packages, and find out that it represents 42\% of packages
 on \fh. We then do further analysis to understand why they are not
 reproducible and conclude that we can reach 60\% of reproducible programs
 by providing extra information to recreate the environment, the key one
@@ -165,7 +165,7 @@ build infrastructure, in order to increase this number. Since \fp works across
 Linux distributions, \sysname needs to be as portable. This limits the use of
 strong container technologies, such as Docker, or tools such as \verb|faketime|
 to better simulate the build environment.
-After rebuilding 729 programs, which is about half of \fh, we have 41\%
+After rebuilding 729 programs, which is about half of \fh, we have 42\%
 reproducible programs, which is much lower than what is found on Debian. This
 is mainly due to the lack of certain information, such as the time at which the
 build originally took place. Consequently, we propose several improvements to
@@ -188,7 +188,7 @@ no measurement of how many flatpaks are reproducible. This implies that there
 are no knowledge about issues, specific to \fp, concerning the feasibility of
 \rb there. The main goal, is to have a first idea of the problems of applying
 \rb to \fp and then to use that knowledge to further improve the situation. The
-challenge is that since no one really tried to know if flatpaks are easily
+challenge is that since no one really tried to see if flatpaks are easily
 reproducible or not, we will not have access to all the information to properly
 recreate a build environment which resemble the one used to build programs on
 \fh. Indeed, on Debian for instance, it is only after they started to measure
@@ -219,7 +219,7 @@ to the original definition of \rb. It can be tempting to put the whole
 environment as a dependency (kernel version, CPU model, etc.) but doing so will
 make the rebuilding step much harder and will slow down build time, which would
 not make \rb a practical solution. To mitigate the effects of
-\emph{uncontrolled build input}, we rely on another definition of reproducible:
+\emph{uncontrolled build input}, we rely on another definition of \rb:
 \begin{definition}[reproducible build]
 \label{def:reprobuild2}
 ``\emph{A build is reproducible if given the same source code, build
@@ -272,14 +272,14 @@ flatpaks are isolated from the host, they cannot access its libraries, such as
 libc. Instead, those are bundled with the \fp and therefore also mounted in the
 sandbox. While this works and ensure a program built against one library will
 not suddenly run against another version, this has multiple issues. First it is
-not disk efficient, for instance almost every program will ship with libc.
+not disk efficient, for instance a lot of programs will ship with libc.
 Secondly, security critical libraries such as libssl need regular updates, and
 having each \fp shipping their own copy increases the risk of having some which
 are out of date. To address these issues, \fp comes with a simple shared
 dependencies systems called \emph{runtimes}. A \fp will always depend on a
 specific runtime (specified in its metadata), which is another \fp containing
 the most common and security critical dependencies. The runtime is also mounted
-in the sandbox, with the main app. Another runtime, called the \emph{SDK},
+in the sandbox, at /usr. Another runtime, called the \emph{SDK},
 exists, it just includes additional dependencies only useful at build time, or
 for debugging purposes, such as gdb and gcc. A \fp can also depend on a
 \emph{base-app}, which is a \fp containing certain big build dependencies, for
@@ -327,7 +327,7 @@ runtimes, SDK, SDK-extensions, base-app and base-app extensions. In the case of
 include the exact \ot commit associated to each of them. Fortunately, \fb will
 ship a modified version of the manifest in the final product, which include the
 commit of the runtime, the SDK, and (if there is any) the base-app.
-Unfortunately it will not include the one for SDK-extensions and base-app
+Unfortunately it will not include the ones for SDK-extensions and base-app
 extensions, but we know the \fhbb will use the latest version available at the
 time of the build. However, the exact time of the build is also not specified,
 it is bounded by the commit to GitHub, which is before and the \ot commit,
@@ -584,7 +584,7 @@ $OT_{commit}$:
                   \notin [GH_{commit}; OT_{commit}]
               \end{cases}
 \end{align*}
-The expected value of the error on all apps on \fh is $19.6$. Our guessing
+The expected value of the error on all apps on \fh is 19.6 $(< 2\%)$. Our guessing
 technique is therefore accurate and cannot explain the amount of
 non-reproducible programs.
 
@@ -593,13 +593,14 @@ To further answer PQ2, we also manually analyze the output of \dfc on 200 rebuil
 using commit \verb|2685df5edcc00a8e4585fa694859223cb32db6d2| of \sysname. For
 simplicity we select the same 200 applications which we build twice for the
 second experiment. 9 of them did not build and we remove them from the analysis.
+Here are the most common issues we spot.
 
 \paragraph*{Timestamps}
-19 have timestamps embedded in their static strings, or in some files'
+19 applications have timestamps embedded in their static strings, or in some files'
 metadata. They are equal to the value of \sde, meaning that it is easy to
 manipulate them. Furthermore, 26 programs have what we call \emph{uncontrolled
 timestamps} embedded in the final package. Uncontrolled timestamps are not
-affected by \sde, and therefore \sysname cannot force their value.
+affected by \sde, and therefore \sysname cannot enforce their value.
 
 \paragraph*{Debug link}
 When applicable, debug symbols of a program on \fh are available, as an
@@ -682,14 +683,14 @@ script directly. Only 3 programs are for sure compiled using mtune, because it
 appears in some of their metadata. In particular, the issue come from a common
 library, called ImageMagick. A second issue is that the \fhbb runs on an Intel
 broadwell CPU, like the Arch Laptop used in some experiments. This means that a
-program compiled with mtune, will not be detected as not reproducible (for this
-reason) on the laptop.
+program compiled with mtune and reproduce on the laptop, will not be detected
+as not reproducible, even though it should.
 
 \paragraph*{Appdata}
 The last common issue resides in the appdata file. This file provides metadata
 to correctly present the program in an app store or through a package manager.
 The whole specification is not important, what is relevant for \rb are the way
-screenshots' links are handled. Since they link to servers which are not
+screenshots' links are handled. Since they point to servers which are not
 maintained by \fh, the \fhbb add the \verb|--mirror-screenshots-from=flathub|
 flag to \fb, to mirror the screenshots on \fh directly. This rewrite the
 appdata file, to make links point to the \fh servers. The new links are the
@@ -708,7 +709,7 @@ It affects 14 applications.
 Finally To better understand how time influences a build, we add an option to
 manipulate the time of the build used by \sysname, and we observe the following
 things. Obviously timestamps which match the \sde variable change but so do the
-\verb|.ro\_data| sections and the \verb|.gnu\_debuglink|.
+\verb|.ro_data| sections and the \verb|.gnu_debuglink|.
 
 \section{Repro score analysis}
 \label{sec:reprscore}
@@ -816,7 +817,7 @@ This task is tedious and work was done to automate it. For instance, Zhilei et
 al.~\cite{DBLP:journals/corr/abs-1803-06766} propose to use system call tracing
 to figure out which files and which commands are responsible for unreproducible
 builds. More recently, they also present a new approach, RepFix, to
-automatically patch these problematic files~\cite{}.
+automatically patch these problematic files~\cite{repfix}.
 
 \section{Trusting trust}
 While it improves the security of the supply chain, \rb cannot address all
@@ -840,7 +841,7 @@ source code to binary-blobs like compiler, that can be itself verified using
 %%%%%%%%%%%%%%%%%%%%
 
 In this project, we investigate the feasibility of using \rb with \fp. We
-develop \sysname to automate the process and measure only 41\% reproducibility,
+develop \sysname to automate the process and measure only 42\% reproducibility,
 which is lower than what found on other package distributions. After a manual
 analysis, we provide several changes to \fb to improve this number, in theory
 to 60\%. For future work, we should develop a way to share the result of
